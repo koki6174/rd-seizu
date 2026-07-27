@@ -1,0 +1,349 @@
+{
+  "schemaVersion": "1.0",
+  "lastReviewed": "2026-07-27",
+  "demoOnly": true,
+  "disclaimer": "応募用の短い仮文です。正式公開前に専門的な内容確認が必要です。",
+  "categories": [
+    {
+      "id": "neurology",
+      "label": "神経"
+    },
+    {
+      "id": "muscle",
+      "label": "筋肉"
+    },
+    {
+      "id": "metabolism",
+      "label": "代謝"
+    },
+    {
+      "id": "immune",
+      "label": "免疫"
+    },
+    {
+      "id": "liver",
+      "label": "肝臓"
+    },
+    {
+      "id": "cardiopulmonary",
+      "label": "心臓・肺"
+    },
+    {
+      "id": "genetic",
+      "label": "遺伝に関係"
+    },
+    {
+      "id": "multisystem",
+      "label": "複数の臓器"
+    }
+  ],
+  "diseases": [
+    {
+      "id": "als",
+      "nameJa": "筋萎縮性側索硬化症（ALS）",
+      "nameEn": "Amyotrophic lateral sclerosis",
+      "shortDescription": "運動を担う神経細胞が影響を受け、筋力低下などが進行する神経疾患です。",
+      "dailyLife": "移動、会話、食事、呼吸などに支援が必要になる場合があります。",
+      "currentState": "診断、症状への対応、進行を抑える治療、生活支援などが研究・実践されています。",
+      "categoryIds": [
+        "neurology"
+      ],
+      "relatedIds": [
+        "sma",
+        "huntington-disease"
+      ],
+      "source": {
+        "label": "難病情報センター",
+        "url": "https://www.nanbyou.or.jp/"
+      },
+      "reviewStatus": "demo-unreviewed",
+      "visual": {
+        "accent": "cyan",
+        "size": 1.15
+      }
+    },
+    {
+      "id": "sma",
+      "nameJa": "脊髄性筋萎縮症（SMA）",
+      "nameEn": "Spinal muscular atrophy",
+      "shortDescription": "運動に関わる神経が影響を受け、筋力低下などが生じる遺伝性の疾患です。",
+      "dailyLife": "移動、姿勢、呼吸、食事などへの支援が必要になる場合があります。",
+      "currentState": "病型や年齢に応じた診断、治療、リハビリテーション、生活支援が行われています。",
+      "categoryIds": [
+        "neurology",
+        "muscle",
+        "genetic"
+      ],
+      "relatedIds": [
+        "als",
+        "duchenne-muscular-dystrophy"
+      ],
+      "source": {
+        "label": "難病情報センター",
+        "url": "https://www.nanbyou.or.jp/"
+      },
+      "reviewStatus": "demo-unreviewed",
+      "visual": {
+        "accent": "violet",
+        "size": 1.05
+      }
+    },
+    {
+      "id": "duchenne-muscular-dystrophy",
+      "nameJa": "デュシェンヌ型筋ジストロフィー",
+      "nameEn": "Duchenne muscular dystrophy",
+      "shortDescription": "筋肉の構造に関わる遺伝子の変化により、筋力低下が進行する疾患です。",
+      "dailyLife": "移動、姿勢、呼吸、心臓の機能などを継続的に確認し、支援することがあります。",
+      "currentState": "症状への対応、リハビリテーション、呼吸・心機能の管理、新しい治療の研究が進められています。",
+      "categoryIds": [
+        "muscle",
+        "genetic"
+      ],
+      "relatedIds": [
+        "sma",
+        "pompe-disease"
+      ],
+      "source": {
+        "label": "難病情報センター",
+        "url": "https://www.nanbyou.or.jp/"
+      },
+      "reviewStatus": "demo-unreviewed",
+      "visual": {
+        "accent": "amber",
+        "size": 1.1
+      }
+    },
+    {
+      "id": "huntington-disease",
+      "nameJa": "ハンチントン病",
+      "nameEn": "Huntington disease",
+      "shortDescription": "運動、認知、行動などに関わる変化が徐々に現れる遺伝性の神経疾患です。",
+      "dailyLife": "身体の動き、コミュニケーション、生活上の判断などに支援が必要になる場合があります。",
+      "currentState": "症状への対応、生活支援、家族を含む支援、病態と治療に関する研究が行われています。",
+      "categoryIds": [
+        "neurology",
+        "genetic"
+      ],
+      "relatedIds": [
+        "als",
+        "wilson-disease"
+      ],
+      "source": {
+        "label": "難病情報センター",
+        "url": "https://www.nanbyou.or.jp/"
+      },
+      "reviewStatus": "demo-unreviewed",
+      "visual": {
+        "accent": "violet",
+        "size": 0.95
+      }
+    },
+    {
+      "id": "fabry-disease",
+      "nameJa": "ファブリー病",
+      "nameEn": "Fabry disease",
+      "shortDescription": "体内の特定の物質を分解する働きに関係し、複数の臓器へ影響することがある遺伝性疾患です。",
+      "dailyLife": "痛み、発汗、心臓、腎臓などに関わる症状や通院が生活へ影響する場合があります。",
+      "currentState": "診断、症状への対応、疾患に対する治療、臓器機能の継続的な確認が行われています。",
+      "categoryIds": [
+        "metabolism",
+        "genetic",
+        "multisystem"
+      ],
+      "relatedIds": [
+        "gaucher-disease",
+        "pompe-disease"
+      ],
+      "source": {
+        "label": "難病情報センター",
+        "url": "https://www.nanbyou.or.jp/"
+      },
+      "reviewStatus": "demo-unreviewed",
+      "visual": {
+        "accent": "mint",
+        "size": 1.1
+      }
+    },
+    {
+      "id": "gaucher-disease",
+      "nameJa": "ゴーシェ病",
+      "nameEn": "Gaucher disease",
+      "shortDescription": "体内の特定の物質が処理されにくくなり、臓器、骨、血液などへ影響することがある疾患です。",
+      "dailyLife": "疲れやすさ、骨、臓器の状態、通院や治療が生活に関係する場合があります。",
+      "currentState": "病型に応じた診断、治療、症状への対応、長期的な経過確認が行われています。",
+      "categoryIds": [
+        "metabolism",
+        "genetic",
+        "multisystem"
+      ],
+      "relatedIds": [
+        "fabry-disease",
+        "pompe-disease"
+      ],
+      "source": {
+        "label": "難病情報センター",
+        "url": "https://www.nanbyou.or.jp/"
+      },
+      "reviewStatus": "demo-unreviewed",
+      "visual": {
+        "accent": "cyan",
+        "size": 0.95
+      }
+    },
+    {
+      "id": "pompe-disease",
+      "nameJa": "ポンペ病",
+      "nameEn": "Pompe disease",
+      "shortDescription": "糖の一種を分解する働きに関係し、主に筋肉へ影響することがある遺伝性疾患です。",
+      "dailyLife": "筋力、移動、呼吸などへの支援や継続的な確認が必要になる場合があります。",
+      "currentState": "病型と発症時期に応じた診断、治療、リハビリテーション、呼吸管理などが行われています。",
+      "categoryIds": [
+        "metabolism",
+        "muscle",
+        "genetic"
+      ],
+      "relatedIds": [
+        "duchenne-muscular-dystrophy",
+        "fabry-disease",
+        "gaucher-disease"
+      ],
+      "source": {
+        "label": "難病情報センター",
+        "url": "https://www.nanbyou.or.jp/"
+      },
+      "reviewStatus": "demo-unreviewed",
+      "visual": {
+        "accent": "amber",
+        "size": 1.0
+      }
+    },
+    {
+      "id": "wilson-disease",
+      "nameJa": "ウィルソン病",
+      "nameEn": "Wilson disease",
+      "shortDescription": "体内の銅の代謝に関係し、肝臓や神経などへ影響することがある遺伝性疾患です。",
+      "dailyLife": "通院、服薬、食事や臓器機能の確認が継続的に必要になる場合があります。",
+      "currentState": "早期の診断と継続的な治療、肝臓や神経症状への対応が重要とされています。",
+      "categoryIds": [
+        "metabolism",
+        "liver",
+        "neurology",
+        "genetic"
+      ],
+      "relatedIds": [
+        "huntington-disease",
+        "primary-biliary-cholangitis"
+      ],
+      "source": {
+        "label": "難病情報センター",
+        "url": "https://www.nanbyou.or.jp/"
+      },
+      "reviewStatus": "demo-unreviewed",
+      "visual": {
+        "accent": "mint",
+        "size": 1.0
+      }
+    },
+    {
+      "id": "hereditary-attr-amyloidosis",
+      "nameJa": "遺伝性ATTRアミロイドーシス",
+      "nameEn": "Hereditary transthyretin amyloidosis",
+      "shortDescription": "特定のたんぱく質に由来する物質が体内へ蓄積し、神経や心臓などへ影響する疾患です。",
+      "dailyLife": "感覚、運動、消化器、心臓などの症状が、移動や日常生活へ影響する場合があります。",
+      "currentState": "病型に応じた診断、症状への対応、疾患に対する治療、臓器機能の確認が行われています。",
+      "categoryIds": [
+        "neurology",
+        "cardiopulmonary",
+        "genetic",
+        "multisystem"
+      ],
+      "relatedIds": [
+        "fabry-disease",
+        "pulmonary-arterial-hypertension"
+      ],
+      "source": {
+        "label": "難病情報センター",
+        "url": "https://www.nanbyou.or.jp/"
+      },
+      "reviewStatus": "demo-unreviewed",
+      "visual": {
+        "accent": "violet",
+        "size": 1.1
+      }
+    },
+    {
+      "id": "pulmonary-arterial-hypertension",
+      "nameJa": "肺動脈性肺高血圧症",
+      "nameEn": "Pulmonary arterial hypertension",
+      "shortDescription": "肺の血管に関係する変化によって、肺動脈の圧力が高くなる疾患です。",
+      "dailyLife": "息切れや疲れやすさなどが、移動や活動量へ影響する場合があります。",
+      "currentState": "検査による評価、病型に応じた治療、心臓と肺の状態の継続的な確認が行われています。",
+      "categoryIds": [
+        "cardiopulmonary"
+      ],
+      "relatedIds": [
+        "systemic-sclerosis",
+        "hereditary-attr-amyloidosis"
+      ],
+      "source": {
+        "label": "難病情報センター",
+        "url": "https://www.nanbyou.or.jp/"
+      },
+      "reviewStatus": "demo-unreviewed",
+      "visual": {
+        "accent": "cyan",
+        "size": 1.1
+      }
+    },
+    {
+      "id": "systemic-sclerosis",
+      "nameJa": "全身性強皮症",
+      "nameEn": "Systemic sclerosis",
+      "shortDescription": "免疫、血管、線維化に関係し、皮膚や内臓などへ影響することがある疾患です。",
+      "dailyLife": "手指、皮膚、消化器、肺などの症状が、作業や食事、活動へ影響する場合があります。",
+      "currentState": "臓器ごとの評価、症状への対応、進行を抑える治療、生活支援が行われています。",
+      "categoryIds": [
+        "immune",
+        "multisystem"
+      ],
+      "relatedIds": [
+        "pulmonary-arterial-hypertension",
+        "primary-biliary-cholangitis"
+      ],
+      "source": {
+        "label": "難病情報センター",
+        "url": "https://www.nanbyou.or.jp/"
+      },
+      "reviewStatus": "demo-unreviewed",
+      "visual": {
+        "accent": "amber",
+        "size": 1.0
+      }
+    },
+    {
+      "id": "primary-biliary-cholangitis",
+      "nameJa": "原発性胆汁性胆管炎",
+      "nameEn": "Primary biliary cholangitis",
+      "shortDescription": "免疫に関係する仕組みにより、肝臓内の小さな胆管が影響を受ける疾患です。",
+      "dailyLife": "疲れやすさ、かゆみ、通院や肝機能の確認が生活へ関係する場合があります。",
+      "currentState": "肝機能の確認、病気の進行を抑える治療、症状への対応が行われています。",
+      "categoryIds": [
+        "immune",
+        "liver"
+      ],
+      "relatedIds": [
+        "systemic-sclerosis",
+        "wilson-disease"
+      ],
+      "source": {
+        "label": "難病情報センター",
+        "url": "https://www.nanbyou.or.jp/"
+      },
+      "reviewStatus": "demo-unreviewed",
+      "visual": {
+        "accent": "mint",
+        "size": 0.95
+      }
+    }
+  ]
+}

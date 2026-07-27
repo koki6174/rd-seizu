@@ -1,0 +1,29 @@
+{
+  "demoOnly": true,
+  "questions": [
+    {
+      "diseaseId": "als",
+      "text": "なぜ診断まで時間がかかることがあるのですか？"
+    },
+    {
+      "diseaseId": "als",
+      "text": "生活の中ではどのような支援が必要ですか？"
+    },
+    {
+      "diseaseId": "fabry-disease",
+      "text": "複数の臓器に症状が出るのはなぜですか？"
+    },
+    {
+      "diseaseId": "sma",
+      "text": "年齢や病型によって生活への影響は変わりますか？"
+    },
+    {
+      "diseaseId": "pulmonary-arterial-hypertension",
+      "text": "研究はどのように進められていますか？"
+    },
+    {
+      "diseaseId": "systemic-sclerosis",
+      "text": "学校や職場ではどのような配慮ができますか？"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="希少疾患を知り、問いを残し、関心をつなぐ参加型展示の応募用プロトタイプ">
+  <title>見えない病気の星図</title>
+  <link rel="stylesheet" href="styles.css?v=20260727-7">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="見えない病気の星図 ホーム"><span class="brand-star">✦</span> 見えない病気の星図</a>
+    <nav aria-label="ページ内ナビゲーション"><a href="#about">この展示について</a><a href="#safety">安全性と情報の扱い</a></nav>
+  </header>
+  <main id="main">
+    <section id="top" class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">ComoNe「ねのねプログラム」応募用プロトタイプ</p>
+        <p class="hero-kicker"><span>観測をはじめる</span><span aria-hidden="true">／</span><span>知ることから、つながりへ</span></p>
+        <h1 id="page-title">みんなでつくる<br>「見えない病気の<span class="mobile-break"><br></span>星図」</h1>
+        <p class="subtitle">希少疾患を知り、問いを残し、関心をつなぐ参加型展示</p>
+        <p class="lead">一つひとつは小さな光。集まると、社会の大きさが見えてくる。</p>
+        <button class="primary" id="start-button" type="button">体験を始める <span aria-hidden="true">↓</span></button>
+      </div>
+      <div class="hero-orbit" aria-hidden="true"><i></i><i></i><i></i><span>12<br><small>lights</small></span></div>
+    </section>
+
+    <section class="constellation-section" aria-labelledby="map-title">
+      <div class="section-heading"><div><p class="eyebrow">INTERACTIVE CONSTELLATION</p><h2 id="map-title">一つの光を選んでください</h2><p>疾患を一つ選び、短い情報に触れ、問いを残します。あなたの関心が、星図を育てる一つの光になります。</p></div><button id="reset-button" class="text-button" type="button">この端末のデータをリセット</button></div>
+      <div class="map-layout">
+        <section class="map-card" aria-label="希少疾患の星図。光を選択すると詳細が表示されます。">
+          <div class="map-meta"><span class="map-state"><i aria-hidden="true"></i><span id="node-count">12の光</span></span><span>気になる光を選んで、ことばを読んでみる</span></div>
+          <svg id="constellation" viewBox="0 0 800 500" role="group" aria-label="希少疾患を表す星図"></svg>
+          <div class="legend"><span><i class="dot cyan"></i>神経・心臓肺</span><span><i class="dot violet"></i>遺伝に関係</span><span><i class="dot amber"></i>筋肉・免疫</span><span><i class="dot mint"></i>代謝・複数の臓器</span><span class="legend-note">光の色は関連するテーマを示します</span></div>
+        </section>
+        <aside class="detail-panel" id="detail-panel" aria-live="polite" aria-label="疾患の詳細">
+          <div class="empty-state" id="empty-state"><span class="empty-orb">✦</span><h3>光を選んでください</h3><p>病気の情報を知る入口として、短い仮文と情報源を表示します。</p></div>
+          <div id="detail-content" hidden></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="interest-section" aria-labelledby="interest-title">
+      <div class="section-heading compact"><div><p class="eyebrow">LEAVE A TRACE</p><h2 id="interest-title">関心を、ひとつ残す</h2><p>選んだ疾患について、今の気持ちを一つだけ記録できます。</p></div></div>
+      <div class="interest-grid">
+        <div class="interest-card"><h3>この疾患を知って、どう感じましたか？</h3><div class="interest-actions" role="group" aria-label="関心の記録"><button data-interest="first" type="button">今日初めて知った</button><button data-interest="learn" type="button">もっと知りたい</button><button data-interest="known" type="button">以前から知っている</button></div><p id="interest-message" class="status-message" aria-live="polite">選んだ疾患への関心を記録できます。</p></div>
+        <form id="question-form" class="question-card"><label for="question-input">この疾患について、どんな問いが残りましたか？</label><textarea id="question-input" maxlength="100" rows="3" placeholder="例：なぜ診断が難しいのですか？" disabled></textarea><div class="form-bottom"><small id="char-count">0 / 100文字</small><button class="primary" type="submit" disabled>問いを星図に加える</button></div><p class="form-note">氏名、連絡先、個人を特定できる病歴は入力しないでください。入力はこの端末内だけに保存されます。</p><p id="question-message" class="status-message" aria-live="polite"></p><section class="question-history" id="question-history" aria-live="polite" hidden></section></form>
+      </div>
+    </section>
+
+    <section id="about" class="about-section" aria-labelledby="about-title"><div><p class="eyebrow">WHY A STAR MAP?</p><h2 id="about-title">見えないことを、<br>みんなの関心で照らす。</h2></div><div><p>希少疾患は、一つひとつの患者数が少なく、病名や暮らしへの影響を知る機会が限られています。</p><p>知ることだけで病気が治るわけではありません。それでも、存在を知り、問いを持つことは、理解、支援、研究へつながる入口になります。</p></div></section>
+    <section id="safety" class="safety-section" aria-labelledby="safety-title"><div class="safety-icon" aria-hidden="true">◇</div><div><p class="eyebrow">SAFETY &amp; PRIVACY</p><h2 id="safety-title">安全性と情報の扱い</h2><p>このサイトは応募用の体験プロトタイプです。診断、治療判断、医療相談を提供しません。氏名、連絡先、個人を特定できる病歴は入力しないでください。</p><p>入力した関心と問いは、この端末のブラウザ内だけに保存され、外部のサーバーへ送信されません。症状や治療についての相談は、医療機関などの専門窓口へ相談してください。</p></div></section>
+  </main>
+  <footer><div><strong>応募用プロトタイプ</strong><span>医学情報は正式公開前に内容確認が必要です。</span></div><span>制作：小林浩輝｜名古屋大学大学院創薬科学研究科</span><span>診断・治療判断を目的としたサイトではありません。</span></footer>
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title"><h2 id="confirm-title">端末内のデータをリセットしますか？</h2><p>保存された関心と問いをすべて削除します。この操作は元に戻せません。</p><div class="dialog-actions"><button id="cancel-reset" type="button">キャンセル</button><button id="confirm-reset" class="danger" type="button">すべて削除する</button></div></dialog>
+  <script src="script.js?v=20260727-7"></script>
+</body>
+</html>
