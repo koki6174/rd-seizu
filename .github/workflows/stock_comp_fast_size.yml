@@ -1,0 +1,68 @@
+name: Build Fast Size Stock Submissions
+
+on:
+  push:
+    branches:
+      - stock-comp-fast-size-20261004
+    paths:
+      - "stock_comp_fast_size/**"
+      - ".github/workflows/stock_comp_fast_size.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install official-style runtime
+        run: pip install --disable-pip-version-check numpy==2.4.6 pandas==3.0.3 pyarrow==24.0.0
+
+      - name: Syntax check
+        run: |
+          python -m py_compile stock_comp_fast_size/submission.py
+          python -m py_compile stock_comp_fast_size/submission_scale_beta.py
+
+      - name: Dimension-matched synthetic benchmark
+        run: python stock_comp_fast_size/smoke_benchmark.py
+
+      - name: Stage recommended exact-Size submission
+        run: |
+          mkdir -p artifacts/recommended
+          cp stock_comp_fast_size/submission.py artifacts/recommended/submission.py
+
+      - name: Stage conservative scale submission
+        run: |
+          mkdir -p artifacts/scale_fallback
+          cp stock_comp_fast_size/submission_scale_beta.py artifacts/scale_fallback/submission.py
+
+      - name: Upload recommended submission
+        uses: actions/upload-artifact@v4
+        with:
+          name: stock_comp_2026_fast_size_recommended
+          path: artifacts/recommended/submission.py
+          if-no-files-found: error
+          compression-level: 9
+
+      - name: Upload scale fallback submission
+        uses: actions/upload-artifact@v4
+        with:
+          name: stock_comp_2026_scale_beta_fallback
+          path: artifacts/scale_fallback/submission.py
+          if-no-files-found: error
+          compression-level: 9
+
+      - name: Upload full research package
+        uses: actions/upload-artifact@v4
+        with:
+          name: stock_comp_2026_fast_size_full
+          path: |
+            stock_comp_fast_size/
+          if-no-files-found: error
+          compression-level: 9
