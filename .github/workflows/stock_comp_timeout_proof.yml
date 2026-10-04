@@ -1,0 +1,48 @@
+name: Build Stock Competition Timeout-Proof Artifacts
+
+on:
+  push:
+    branches:
+      - stock-comp-timeout-proof-20261004
+    paths:
+      - "stock_comp_timeout_proof/**"
+      - ".github/workflows/stock_comp_timeout_proof.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Syntax check
+        run: python -m py_compile stock_comp_timeout_proof/submission.py
+
+      - name: Inspect submission
+        run: |
+          wc -l stock_comp_timeout_proof/submission.py
+          sha256sum stock_comp_timeout_proof/submission.py
+
+      - name: Upload submit-ready ZIP artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: stock_comp_2026_final_submission_timeout_proof
+          path: stock_comp_timeout_proof/submission.py
+          if-no-files-found: error
+          compression-level: 9
+
+      - name: Upload full research artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: stock_comp_2026_timeout_proof_full
+          path: stock_comp_timeout_proof/
+          if-no-files-found: error
+          compression-level: 9
