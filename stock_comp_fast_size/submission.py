@@ -192,14 +192,19 @@ def _asof_shares(price_index: pd.MultiIndex, events: pd.DataFrame) -> np.ndarray
         vals = g["shares"].to_numpy(dtype=np.float64)
         ev_groups[code] = (dates, vals)
 
-    # pandas builds the position arrays in compiled code.
-    pos_groups = pd.Series(np.arange(n, dtype=np.int64), index=p_codes).groupby(level=0, sort=False).agg(list)
+    # Factorize once, then group integer positions. This avoids creating
+    # 1.2M Python integer objects/lists and is much cheaper than groupby.apply.
+    code_ids, unique_codes = pd.factorize(p_codes, sort=False)
+    order = np.argsort(code_ids, kind="stable")
+    counts = np.bincount(code_ids, minlength=len(unique_codes))
+    ends = np.cumsum(counts)
+    starts = ends - counts
 
-    for code, pos_list in pos_groups.items():
+    for cid, code in enumerate(unique_codes):
         pair = ev_groups.get(str(code))
-        if pair is None:
+        if pair is None or counts[cid] == 0:
             continue
-        pos = np.asarray(pos_list, dtype=np.int64)
+        pos = order[starts[cid]:ends[cid]]
         fd, fv = pair
         j = np.searchsorted(fd, p_dates[pos], side="right") - 1
         ok = j >= 0
