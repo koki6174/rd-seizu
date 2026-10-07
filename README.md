@@ -29,3 +29,14 @@
 - `styles.css` — レスポンシブ・キーボードフォーカス・reduced-motion対応
 - `script.js` — SVG星図、詳細、localStorage、入力保護、スクリーンショットモード
 - `content/` — 提供された疾患・問いのサンプルデータ
+
+
+## Supabase連携（展示版）
+
+参加者の関心と問いを全来場者で共有するため、展示版ではSupabaseを利用します。
+
+- 公開用設定: `config.js`
+- DB初期化SQL: `supabase/migrations/001_initial.sql`
+- `sb_publishable_...` はブラウザ公開用キーです。RLSを前提に公開コードで使用します。
+- Secret key / service_role key はリポジトリへ保存しません。
+- 自由記述の問いはINSERTのみ許可し、公開サイトからSELECTできない設計です。
