@@ -120,13 +120,13 @@
     if (!state.selectedId || questions.length === 0) { history.hidden = true; return; }
     history.hidden = false;
     const title = document.createElement('h3'); title.textContent = 'この端末に残した問い';
-    const note = document.createElement('p'); note.textContent = 'この端末のブラウザ内にだけ保存されています。';
+    const note = document.createElement('p'); note.textContent = 'この端末にも保存されています。展示用DBへ送信済みの問いは、端末リセットでは削除されません。';
     const list = document.createElement('ol');
     questions.slice().reverse().forEach(question => { const item = document.createElement('li'); item.textContent = safeText(question.text); list.append(item); });
     history.append(title, note, list);
   }
   function addQuestionLight() { $('#node-count').textContent = `${state.diseases.length}の光 + ${state.data.questions.length}の問い`; renderMap(); }
-  function reset() { state.data={interests:{},questions:[]}; save(); document.querySelectorAll('[data-interest]').forEach(b=>b.classList.remove('selected')); addQuestionLight(); announce('この端末に保存したデータをリセットしました。'); }
+  function reset() { state.data={interests:{},questions:[]}; save(); document.querySelectorAll('[data-interest]').forEach(b=>b.classList.remove('selected')); addQuestionLight(); announce('この端末の操作履歴をリセットしました。展示用DBの匿名記録は残ります。'); }
   async function init() {
     try {
       const [diseases, questions] = await Promise.all([fetch('./content/diseases.sample.json').then(r => {if(!r.ok) throw new Error('data load failed'); return r.json();}), fetch('./content/questions.sample.json').then(r => r.ok ? r.json() : {questions:[]})]);
@@ -139,8 +139,8 @@
   }
   $('#start-button').addEventListener('click', () => $('.constellation-section').scrollIntoView({behavior:'smooth'}));
   input.addEventListener('input', () => { $('#char-count').textContent = `${input.value.length} / 100文字`; });
-  form.addEventListener('submit', async e => { e.preventDefault(); const text=input.value.trim(); if (!state.selectedId || !text) { announce('疾患を選び、問いを入力してください。'); return; } if (isPersonalInfo(text)) { announce('個人情報が含まれている可能性があります。氏名、メールアドレス、電話番号などを削除してください。'); return; } const diseaseId=state.selectedId; state.data.questions.push({diseaseId,text,createdAt:new Date().toISOString()}); save(); input.value=''; $('#char-count').textContent='0 / 100文字'; addQuestionLight(); try { await recordRemoteQuestion(diseaseId, text); announce('問いを星図に加えました。内容は確認後に扱います。'); } catch (error) { console.warn(error); announce('通信できなかったため、この端末内に問いを保存しました。'); } });
-  document.querySelectorAll('[data-interest]').forEach(button => button.addEventListener('click', async () => { if (!state.selectedId) { $('#interest-message').textContent='先に星図から疾患を選んでください。'; return; } const diseaseId=state.selectedId; const interestType=button.dataset.interest; state.data.interests[diseaseId]=interestType; save(); document.querySelectorAll('[data-interest]').forEach(b=>b.classList.toggle('selected',b===button)); $('#interest-message').textContent='星図へ記録しています…'; try { await recordRemoteInterest(diseaseId, interestType); $('#interest-message').textContent='あなたの関心が、みんなの星図に加わりました。'; if (state.selectedId === diseaseId) selectDisease(diseaseId); } catch (error) { console.warn(error); $('#interest-message').textContent='通信できなかったため、この端末内に記録しました。'; } }));
+  form.addEventListener('submit', async e => { e.preventDefault(); const text=input.value.trim(); const submitButton=form.querySelector('button[type="submit"]'); if (!state.selectedId || !text) { announce('疾患を選び、問いを入力してください。'); return; } if (isPersonalInfo(text)) { announce('個人情報が含まれている可能性があります。氏名、メールアドレス、電話番号などを削除してください。'); return; } const diseaseId=state.selectedId; submitButton.disabled=true; state.data.questions.push({diseaseId,text,createdAt:new Date().toISOString()}); save(); input.value=''; $('#char-count').textContent='0 / 100文字'; addQuestionLight(); try { await recordRemoteQuestion(diseaseId, text); announce('問いを星図に加えました。内容は確認後に扱います。'); } catch (error) { console.warn(error); announce('通信できなかったため、この端末内に問いを保存しました。'); } finally { submitButton.disabled=false; } });
+  document.querySelectorAll('[data-interest]').forEach(button => button.addEventListener('click', async () => { if (!state.selectedId) { $('#interest-message').textContent='先に星図から疾患を選んでください。'; return; } const diseaseId=state.selectedId; const interestType=button.dataset.interest; const interestButtons=[...document.querySelectorAll('[data-interest]')]; interestButtons.forEach(b=>b.disabled=true); state.data.interests[diseaseId]=interestType; save(); interestButtons.forEach(b=>b.classList.toggle('selected',b===button)); $('#interest-message').textContent='星図へ記録しています…'; try { await recordRemoteInterest(diseaseId, interestType); $('#interest-message').textContent='あなたの関心が、みんなの星図に加わりました。'; if (state.selectedId === diseaseId) selectDisease(diseaseId); } catch (error) { console.warn(error); $('#interest-message').textContent='通信できなかったため、この端末内に記録しました。'; } finally { interestButtons.forEach(b=>b.disabled=false); } }));
   const dialog=$('#confirm-dialog'); $('#reset-button').addEventListener('click',()=>dialog.showModal()); $('#cancel-reset').addEventListener('click',()=>dialog.close()); $('#confirm-reset').addEventListener('click',()=>{reset();dialog.close();});
   init();
 })();
