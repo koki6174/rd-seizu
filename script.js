@@ -1,9 +1,13 @@
 (() => {
   'use strict';
   const STORAGE_KEY = 'nenone-hoshizu-v1';
+  const config = window.NENONE_CONFIG || {};
+  const supabaseClient = window.supabase && config.supabaseUrl && config.supabasePublishableKey
+    ? window.supabase.createClient(config.supabaseUrl, config.supabasePublishableKey)
+    : null;
   const demo = new URLSearchParams(location.search).get('demo') === 'screenshot';
   const positions = [[115,125],[250,85],[390,145],[560,82],[680,170],[150,280],[315,245],[470,275],[620,315],[100,405],[370,390],[580,425]];
-  const state = { diseases: [], questions: [], selectedId: null, data: { interests:{}, questions:[] } };
+  const state = { diseases: [], questions: [], selectedId: null, data: { interests:{}, questions:[] }, remoteCounts:{} };
   const $ = (selector) => document.querySelector(selector);
   const svg = $('#constellation');
   const mapIndex = (() => {
@@ -22,6 +26,32 @@
 
   function loadSaved() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || { interests:{}, questions:[] }; } catch { return { interests:{}, questions:[] }; } }
   function save() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state.data)); } catch { announce('このブラウザでは保存できませんでした。'); } }
+  function countKey(diseaseId, interestType) { return `${diseaseId}::${interestType}`; }
+  function totalRemoteInterest(diseaseId) {
+    return ['first','learn','known'].reduce((sum, type) => sum + (state.remoteCounts[countKey(diseaseId, type)] || 0), 0);
+  }
+  async function loadRemoteCounts() {
+    if (!supabaseClient) return;
+    const { data, error } = await supabaseClient.from('interactions').select('disease_id,interest_type');
+    if (error) throw error;
+    state.remoteCounts = {};
+    (data || []).forEach(row => {
+      const key = countKey(row.disease_id, row.interest_type);
+      state.remoteCounts[key] = (state.remoteCounts[key] || 0) + 1;
+    });
+    renderMap();
+  }
+  async function recordRemoteInterest(diseaseId, interestType) {
+    if (!supabaseClient) throw new Error('Supabase client is not configured');
+    const { error } = await supabaseClient.from('interactions').insert({ disease_id: diseaseId, interest_type: interestType });
+    if (error) throw error;
+    await loadRemoteCounts();
+  }
+  async function recordRemoteQuestion(diseaseId, text) {
+    if (!supabaseClient) throw new Error('Supabase client is not configured');
+    const { error } = await supabaseClient.from('questions').insert({ disease_id: diseaseId, question_text: text });
+    if (error) throw error;
+  }
   function announce(message) { $('#question-message').textContent = message; }
   function safeText(value) { return typeof value === 'string' ? value : ''; }
   function isPersonalInfo(text) {
@@ -42,9 +72,9 @@
       const line = createSvg('line', { x1:positions[a][0], y1:positions[a][1], x2:positions[b][0], y2:positions[b][1], class:'connector' }); svg.append(line);
     });
     shown.forEach((d,i) => {
-      const [x,y] = positions[i]; const isSelected = d.id === state.selectedId; const g = createSvg('g', { class:`node ${d.visual.accent}${isSelected ? ' active':''}`, tabindex:'0', role:'button', 'aria-label':`${d.nameJa}を選択`, 'data-id':d.id });
-      g.append(createSvg('circle', { cx:x, cy:y, r: 22 * d.visual.size, class:'node-halo' }));
-      g.append(createSvg('circle', { cx:x, cy:y, r: 10 * d.visual.size }));
+      const [x,y] = positions[i]; const isSelected = d.id === state.selectedId; const remoteTotal = totalRemoteInterest(d.id); const growth = Math.min(1.75, 1 + Math.log1p(remoteTotal) / 5); const g = createSvg('g', { class:`node ${d.visual.accent}${isSelected ? ' active':''}`, tabindex:'0', role:'button', 'aria-label':`${d.nameJa}を選択。関心${remoteTotal}件`, 'data-id':d.id });
+      g.append(createSvg('circle', { cx:x, cy:y, r: 22 * d.visual.size * growth, class:'node-halo' }));
+      g.append(createSvg('circle', { cx:x, cy:y, r: 10 * d.visual.size * Math.min(1.35, growth) }));
       if (isSelected) {
         const text = createSvg('text', { x:x, y:y + 48, 'text-anchor':'middle', class:'selected-label' });
         text.textContent = d.nameJa;
@@ -73,7 +103,7 @@
     state.selectedId = id; const d = selectedDisease(); if (!d) return;
     empty.hidden = true; detail.hidden = false; detail.replaceChildren();
     const tags = document.createElement('div'); categoryLabels(d).forEach(label => { const tag=document.createElement('span'); tag.className='tag'; tag.textContent=label; tags.append(tag); }); detail.append(tags);
-    const h = document.createElement('h3'); h.className='detail-name'; h.textContent=d.nameJa; const en=document.createElement('p'); en.className='detail-en'; en.textContent=d.nameEn; detail.append(h,en);
+    const h = document.createElement('h3'); h.className='detail-name'; h.textContent=d.nameJa; const en=document.createElement('p'); en.className='detail-en'; en.textContent=d.nameEn; const participation=document.createElement('p'); participation.className='status-message'; participation.textContent=`これまでに ${totalRemoteInterest(d.id)} 件の関心が集まっています。`; detail.append(h,en,participation);
     field('どのような疾患？', d.shortDescription); field('暮らしとの関係', d.dailyLife); field('診断・治療・研究の現在地', d.currentState);
     const related = d.relatedIds.map(id => (state.diseases.find(x=>x.id===id)||{}).nameJa).filter(Boolean).join('・'); field('関連するテーマ', related || '関連情報を準備中です。');
     const h4=document.createElement('h4'); h4.textContent='情報源'; const a=document.createElement('a'); a.href=d.source.url; a.target='_blank'; a.rel='noopener noreferrer'; a.textContent=d.source.label; detail.append(h4,a);
@@ -103,13 +133,14 @@
       window.dataset = diseases; state.diseases=diseases.diseases; state.questions=questions.questions || []; state.data=loadSaved();
       if (demo) { document.body.classList.add('screenshot'); state.data={interests:{als:'learn'},questions:[{diseaseId:'als',text:'診断までの道のりは、どのように共有できるのですか？'},{diseaseId:'fabry-disease',text:'暮らしの中の工夫を知りたいです。'}]}; }
       $('#node-count').textContent=`${state.diseases.length}の光`; renderMap(); addQuestionLight();
+      try { await loadRemoteCounts(); } catch (error) { console.warn('Supabaseの集計を読み込めませんでした。ローカル表示を継続します。', error); }
       if (demo) selectDisease('wilson-disease');
     } catch (error) { console.error(error); $('#node-count').textContent='データを読み込めませんでした'; announce('データの読み込みに失敗しました。Webサーバーから開いてください。'); }
   }
   $('#start-button').addEventListener('click', () => $('.constellation-section').scrollIntoView({behavior:'smooth'}));
   input.addEventListener('input', () => { $('#char-count').textContent = `${input.value.length} / 100文字`; });
-  form.addEventListener('submit', e => { e.preventDefault(); const text=input.value.trim(); if (!state.selectedId || !text) { announce('疾患を選び、問いを入力してください。'); return; } if (isPersonalInfo(text)) { announce('個人情報が含まれている可能性があります。氏名、メールアドレス、電話番号などを削除してください。'); return; } state.data.questions.push({diseaseId:state.selectedId,text,createdAt:new Date().toISOString()}); save(); input.value=''; $('#char-count').textContent='0 / 100文字'; addQuestionLight(); announce('問いを星図に加えました。この端末の中だけに保存されています。'); });
-  document.querySelectorAll('[data-interest]').forEach(button => button.addEventListener('click', () => { if (!state.selectedId) { $('#interest-message').textContent='先に星図から疾患を選んでください。'; return; } state.data.interests[state.selectedId]=button.dataset.interest; save(); document.querySelectorAll('[data-interest]').forEach(b=>b.classList.toggle('selected',b===button)); $('#interest-message').textContent='関心をこの端末に記録しました。'; }));
+  form.addEventListener('submit', async e => { e.preventDefault(); const text=input.value.trim(); if (!state.selectedId || !text) { announce('疾患を選び、問いを入力してください。'); return; } if (isPersonalInfo(text)) { announce('個人情報が含まれている可能性があります。氏名、メールアドレス、電話番号などを削除してください。'); return; } const diseaseId=state.selectedId; state.data.questions.push({diseaseId,text,createdAt:new Date().toISOString()}); save(); input.value=''; $('#char-count').textContent='0 / 100文字'; addQuestionLight(); try { await recordRemoteQuestion(diseaseId, text); announce('問いを星図に加えました。内容は確認後に扱います。'); } catch (error) { console.warn(error); announce('通信できなかったため、この端末内に問いを保存しました。'); } });
+  document.querySelectorAll('[data-interest]').forEach(button => button.addEventListener('click', async () => { if (!state.selectedId) { $('#interest-message').textContent='先に星図から疾患を選んでください。'; return; } const diseaseId=state.selectedId; const interestType=button.dataset.interest; state.data.interests[diseaseId]=interestType; save(); document.querySelectorAll('[data-interest]').forEach(b=>b.classList.toggle('selected',b===button)); $('#interest-message').textContent='星図へ記録しています…'; try { await recordRemoteInterest(diseaseId, interestType); $('#interest-message').textContent='あなたの関心が、みんなの星図に加わりました。'; if (state.selectedId === diseaseId) selectDisease(diseaseId); } catch (error) { console.warn(error); $('#interest-message').textContent='通信できなかったため、この端末内に記録しました。'; } }));
   const dialog=$('#confirm-dialog'); $('#reset-button').addEventListener('click',()=>dialog.showModal()); $('#cancel-reset').addEventListener('click',()=>dialog.close()); $('#confirm-reset').addEventListener('click',()=>{reset();dialog.close();});
   init();
 })();
