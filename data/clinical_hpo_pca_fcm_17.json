@@ -1,0 +1,514 @@
+{
+  "meta": {
+    "n": 17,
+    "dims": 506,
+    "hpoTermCount": 474,
+    "causalGeneCount": 32,
+    "k": 4,
+    "fcmiters": 37,
+    "explainedKernelVariance": [
+      0.12223490445771548,
+      0.0786903935771196,
+      0.0756785283957556
+    ],
+    "maxMissingnessWarning": "Unannotated phenotypes and genes are not confirmed negatives",
+    "source": "2026-06-29 Orphapacket verified mapping subset"
+  },
+  "coordinates": [
+    {
+      "id": "als",
+      "orpha_code": 803,
+      "x": 1.27248,
+      "y": 0.62516,
+      "z": 2.89595,
+      "fcm_cluster": 1,
+      "membership": 0.8866,
+      "annotated_hpo": 47,
+      "annotated_causal_genes": 23,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "duchenne-muscular-dystrophy",
+      "orpha_code": 98896,
+      "x": 1.15188,
+      "y": 3.18724,
+      "z": 0.21747,
+      "fcm_cluster": 4,
+      "membership": 0.86,
+      "annotated_hpo": 15,
+      "annotated_causal_genes": 1,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "fabry-disease",
+      "orpha_code": 324,
+      "x": -0.53185,
+      "y": 2.854,
+      "z": -0.22767,
+      "fcm_cluster": 4,
+      "membership": 0.9022,
+      "annotated_hpo": 76,
+      "annotated_causal_genes": 1,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "gaucher-disease",
+      "orpha_code": 355,
+      "x": -3.87573,
+      "y": -0.55472,
+      "z": -0.17869,
+      "fcm_cluster": 2,
+      "membership": 0.9808,
+      "annotated_hpo": 93,
+      "annotated_causal_genes": 0,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "huntington-disease",
+      "orpha_code": 399,
+      "x": 1.63828,
+      "y": -1.69165,
+      "z": 0.78229,
+      "fcm_cluster": 3,
+      "membership": 0.4489,
+      "annotated_hpo": 53,
+      "annotated_causal_genes": 1,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "nando-120-12-1",
+      "orpha_code": 71517,
+      "x": 1.54843,
+      "y": -0.63803,
+      "z": 3.43545,
+      "fcm_cluster": 1,
+      "membership": 0.9303,
+      "annotated_hpo": 20,
+      "annotated_causal_genes": 1,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "nando-18-2-1",
+      "orpha_code": 98757,
+      "x": 2.26029,
+      "y": -1.63102,
+      "z": -1.47065,
+      "fcm_cluster": 3,
+      "membership": 0.9767,
+      "annotated_hpo": 16,
+      "annotated_causal_genes": 0,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "nando-18-2-2",
+      "orpha_code": 98758,
+      "x": 2.101,
+      "y": -2.56153,
+      "z": 0.96666,
+      "fcm_cluster": 3,
+      "membership": 0.4536,
+      "annotated_hpo": 19,
+      "annotated_causal_genes": 1,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "nando-18-2-5",
+      "orpha_code": 98755,
+      "x": 2.16476,
+      "y": -1.77075,
+      "z": -0.89625,
+      "fcm_cluster": 3,
+      "membership": 0.9427,
+      "annotated_hpo": 40,
+      "annotated_causal_genes": 1,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "nando-18-3-1",
+      "orpha_code": 96,
+      "x": 1.86433,
+      "y": -0.64979,
+      "z": -3.10283,
+      "fcm_cluster": 3,
+      "membership": 0.7403,
+      "annotated_hpo": 37,
+      "annotated_causal_genes": 1,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "nando-19-1-1",
+      "orpha_code": 77259,
+      "x": -4.12993,
+      "y": -0.89176,
+      "z": 0.18325,
+      "fcm_cluster": 2,
+      "membership": 0.9785,
+      "annotated_hpo": 49,
+      "annotated_causal_genes": 1,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "nando-19-1-2",
+      "orpha_code": 77260,
+      "x": -2.18199,
+      "y": -1.21797,
+      "z": 0.69122,
+      "fcm_cluster": 2,
+      "membership": 0.7041,
+      "annotated_hpo": 33,
+      "annotated_causal_genes": 1,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "nando-19-1-3",
+      "orpha_code": 77261,
+      "x": -4.00548,
+      "y": -1.21812,
+      "z": -0.28965,
+      "fcm_cluster": 2,
+      "membership": 0.9754,
+      "annotated_hpo": 40,
+      "annotated_causal_genes": 1,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "nando-34-1",
+      "orpha_code": 636,
+      "x": 0.26801,
+      "y": 1.79545,
+      "z": -2.11659,
+      "fcm_cluster": 4,
+      "membership": 0.5743,
+      "annotated_hpo": 77,
+      "annotated_causal_genes": 0,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "nando-65-11",
+      "orpha_code": 100,
+      "x": 0.29381,
+      "y": 0.44711,
+      "z": -2.79255,
+      "fcm_cluster": 3,
+      "membership": 0.4497,
+      "annotated_hpo": 37,
+      "annotated_causal_genes": 1,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "pompe-disease",
+      "orpha_code": 365,
+      "x": 0.48506,
+      "y": 2.73075,
+      "z": 0.95923,
+      "fcm_cluster": 4,
+      "membership": 0.8708,
+      "annotated_hpo": 72,
+      "annotated_causal_genes": 0,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    },
+    {
+      "id": "primary-biliary-cholangitis",
+      "orpha_code": 186,
+      "x": -0.32333,
+      "y": 1.18563,
+      "z": 0.94335,
+      "fcm_cluster": 4,
+      "membership": 0.5936,
+      "annotated_hpo": 41,
+      "annotated_causal_genes": 0,
+      "model_version": "verified-orphadata-hpo-pca-fcm-v0"
+    }
+  ],
+  "neighbors": [
+    {
+      "id": "als",
+      "closest": [
+        {
+          "id": "nando-120-12-1",
+          "cosine": 0.11987281260048192
+        },
+        {
+          "id": "pompe-disease",
+          "cosine": 0.10628582428107396
+        },
+        {
+          "id": "huntington-disease",
+          "cosine": 0.0995898386966821
+        }
+      ]
+    },
+    {
+      "id": "duchenne-muscular-dystrophy",
+      "closest": [
+        {
+          "id": "pompe-disease",
+          "cosine": 0.14197432250514194
+        },
+        {
+          "id": "nando-18-2-1",
+          "cosine": 0.10001772321130746
+        },
+        {
+          "id": "nando-120-12-1",
+          "cosine": 0.055260293888643945
+        }
+      ]
+    },
+    {
+      "id": "fabry-disease",
+      "closest": [
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.13260182423521608
+        },
+        {
+          "id": "pompe-disease",
+          "cosine": 0.09092309346639042
+        },
+        {
+          "id": "nando-19-1-1",
+          "cosine": 0.08576562535999997
+        }
+      ]
+    },
+    {
+      "id": "gaucher-disease",
+      "closest": [
+        {
+          "id": "nando-19-1-1",
+          "cosine": 0.4949539664844155
+        },
+        {
+          "id": "nando-19-1-3",
+          "cosine": 0.41368598785753613
+        },
+        {
+          "id": "nando-19-1-2",
+          "cosine": 0.2146084939735898
+        }
+      ]
+    },
+    {
+      "id": "huntington-disease",
+      "closest": [
+        {
+          "id": "nando-18-2-5",
+          "cosine": 0.17048869712907203
+        },
+        {
+          "id": "als",
+          "cosine": 0.0995898386966821
+        },
+        {
+          "id": "nando-18-2-1",
+          "cosine": 0.09679083073024916
+        }
+      ]
+    },
+    {
+      "id": "nando-120-12-1",
+      "closest": [
+        {
+          "id": "nando-18-2-2",
+          "cosine": 0.17422738274794342
+        },
+        {
+          "id": "als",
+          "cosine": 0.11987281260048192
+        },
+        {
+          "id": "nando-18-2-5",
+          "cosine": 0.10515942189734488
+        }
+      ]
+    },
+    {
+      "id": "nando-18-2-1",
+      "closest": [
+        {
+          "id": "nando-18-2-2",
+          "cosine": 0.24059618408587072
+        },
+        {
+          "id": "nando-18-3-1",
+          "cosine": 0.19893955126109666
+        },
+        {
+          "id": "nando-18-2-5",
+          "cosine": 0.13562158010817638
+        }
+      ]
+    },
+    {
+      "id": "nando-18-2-2",
+      "closest": [
+        {
+          "id": "nando-18-2-1",
+          "cosine": 0.24059618408587072
+        },
+        {
+          "id": "nando-120-12-1",
+          "cosine": 0.17422738274794342
+        },
+        {
+          "id": "nando-18-2-5",
+          "cosine": 0.09803801067325037
+        }
+      ]
+    },
+    {
+      "id": "nando-18-2-5",
+      "closest": [
+        {
+          "id": "nando-18-3-1",
+          "cosine": 0.19344751321369896
+        },
+        {
+          "id": "huntington-disease",
+          "cosine": 0.17048869712907203
+        },
+        {
+          "id": "nando-18-2-1",
+          "cosine": 0.13562158010817638
+        }
+      ]
+    },
+    {
+      "id": "nando-18-3-1",
+      "closest": [
+        {
+          "id": "nando-18-2-1",
+          "cosine": 0.19893955126109666
+        },
+        {
+          "id": "nando-18-2-5",
+          "cosine": 0.19344751321369896
+        },
+        {
+          "id": "nando-65-11",
+          "cosine": 0.1366352853473118
+        }
+      ]
+    },
+    {
+      "id": "nando-19-1-1",
+      "closest": [
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.4949539664844155
+        },
+        {
+          "id": "nando-19-1-3",
+          "cosine": 0.40775513055569174
+        },
+        {
+          "id": "nando-19-1-2",
+          "cosine": 0.16491385058279742
+        }
+      ]
+    },
+    {
+      "id": "nando-19-1-2",
+      "closest": [
+        {
+          "id": "nando-19-1-3",
+          "cosine": 0.3306242849762078
+        },
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.2146084939735898
+        },
+        {
+          "id": "nando-19-1-1",
+          "cosine": 0.16491385058279742
+        }
+      ]
+    },
+    {
+      "id": "nando-19-1-3",
+      "closest": [
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.41368598785753613
+        },
+        {
+          "id": "nando-19-1-1",
+          "cosine": 0.40775513055569174
+        },
+        {
+          "id": "nando-19-1-2",
+          "cosine": 0.3306242849762078
+        }
+      ]
+    },
+    {
+      "id": "nando-34-1",
+      "closest": [
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.08453809710457368
+        },
+        {
+          "id": "nando-65-11",
+          "cosine": 0.07700637973395838
+        },
+        {
+          "id": "fabry-disease",
+          "cosine": 0.06646433302791055
+        }
+      ]
+    },
+    {
+      "id": "nando-65-11",
+      "closest": [
+        {
+          "id": "nando-18-3-1",
+          "cosine": 0.1366352853473118
+        },
+        {
+          "id": "nando-19-1-3",
+          "cosine": 0.1110940060737879
+        },
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.08969303491238863
+        }
+      ]
+    },
+    {
+      "id": "pompe-disease",
+      "closest": [
+        {
+          "id": "duchenne-muscular-dystrophy",
+          "cosine": 0.14197432250514194
+        },
+        {
+          "id": "nando-18-3-1",
+          "cosine": 0.11030612649131971
+        },
+        {
+          "id": "als",
+          "cosine": 0.10628582428107396
+        }
+      ]
+    },
+    {
+      "id": "primary-biliary-cholangitis",
+      "closest": [
+        {
+          "id": "nando-19-1-1",
+          "cosine": 0.07449032223502663
+        },
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.07138333030552073
+        },
+        {
+          "id": "nando-19-1-3",
+          "cosine": 0.03886174072328864
+        }
+      ]
+    }
+  ]
+}
