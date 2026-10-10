@@ -2,16 +2,40 @@
   "summary": {
     "total": 133,
     "at_depth": {
-      "1": 9,
-      "2": 8,
-      "3": 5,
-      "not_found": 111
+      "1": 12,
+      "2": 12,
+      "3": 9,
+      "not_found": 100
     },
-    "explicit_parent_matches": 22,
+    "explicit_parent_matches": 33,
     "auto_approved": 0,
     "note": "Matching parents are corroborating evidence, not complete proof that disease concepts are equivalent"
   },
   "records": [
+    {
+      "disease_id": "nando-106-2",
+      "orpha_code": 575,
+      "name_en": "Muckle-Wells syndrome",
+      "nando_parent_en": "Cryopyrin-associated periodic syndrome",
+      "concept_kind": "disease_subtype",
+      "orpha_type": "Disease",
+      "official_preferred_label_equal": true,
+      "min_parent_match_depth": 1,
+      "matched_ancestors": [
+        {
+          "depth": 1,
+          "code": 208650,
+          "label": "NLRP3-associated autoinflammatory disease",
+          "matched_term": "Cryopyrin associated periodic syndrome",
+          "match_label_or_synonym": "official_synonym",
+          "via": [
+            "NLRP3-associated autoinflammatory disease"
+          ]
+        }
+      ],
+      "ancestors_examined": 16,
+      "curator_review": "pending"
+    },
     {
       "disease_id": "nando-111-6",
       "orpha_code": 2020,
@@ -26,6 +50,8 @@
           "depth": 1,
           "code": 97245,
           "label": "Congenital myopathy",
+          "matched_term": "Congenital myopathy",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Congenital myopathy"
           ]
@@ -48,12 +74,38 @@
           "depth": 1,
           "code": 85,
           "label": "Congenital dyserythropoietic anemia",
+          "matched_term": "Congenital dyserythropoietic anemia",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Congenital dyserythropoietic anemia"
           ]
         }
       ],
       "ancestors_examined": 4,
+      "curator_review": "pending"
+    },
+    {
+      "disease_id": "nando-309-2",
+      "orpha_code": 501,
+      "name_en": "Lafora disease",
+      "nando_parent_en": "Progressive myoclonus epilepsy",
+      "concept_kind": "disease_subtype",
+      "orpha_type": "Disease",
+      "official_preferred_label_equal": true,
+      "min_parent_match_depth": 1,
+      "matched_ancestors": [
+        {
+          "depth": 1,
+          "code": 98261,
+          "label": "Progressive myoclonic epilepsy",
+          "matched_term": "Progressive myoclonus epilepsy",
+          "match_label_or_synonym": "official_synonym",
+          "via": [
+            "Progressive myoclonic epilepsy"
+          ]
+        }
+      ],
+      "ancestors_examined": 6,
       "curator_review": "pending"
     },
     {
@@ -70,6 +122,8 @@
           "depth": 1,
           "code": 98375,
           "label": "Autoimmune hemolytic anemia",
+          "matched_term": "Autoimmune hemolytic anemia",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Autoimmune hemolytic anemia"
           ]
@@ -92,6 +146,8 @@
           "depth": 1,
           "code": 98375,
           "label": "Autoimmune hemolytic anemia",
+          "matched_term": "Autoimmune hemolytic anemia",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Autoimmune hemolytic anemia"
           ]
@@ -114,6 +170,8 @@
           "depth": 1,
           "code": 98300,
           "label": "Idiopathic interstitial pneumonia",
+          "matched_term": "Idiopathic interstitial pneumonia",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Idiopathic interstitial pneumonia"
           ]
@@ -136,6 +194,8 @@
           "depth": 1,
           "code": 98300,
           "label": "Idiopathic interstitial pneumonia",
+          "matched_term": "Idiopathic interstitial pneumonia",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Idiopathic interstitial pneumonia"
           ]
@@ -158,6 +218,8 @@
           "depth": 1,
           "code": 98300,
           "label": "Idiopathic interstitial pneumonia",
+          "matched_term": "Idiopathic interstitial pneumonia",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Idiopathic interstitial pneumonia"
           ]
@@ -180,12 +242,38 @@
           "depth": 1,
           "code": 98300,
           "label": "Idiopathic interstitial pneumonia",
+          "matched_term": "Idiopathic interstitial pneumonia",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Idiopathic interstitial pneumonia"
           ]
         }
       ],
       "ancestors_examined": 3,
+      "curator_review": "pending"
+    },
+    {
+      "disease_id": "nando-87-2",
+      "orpha_code": 199241,
+      "name_en": "Pulmonary Capillary Hemangiomatosis",
+      "nando_parent_en": "Pulmonary Veno-Occlusive Disease / Pulmonary Capillary Hemangiomatosis",
+      "concept_kind": "disease_subtype",
+      "orpha_type": "Disease",
+      "official_preferred_label_equal": true,
+      "min_parent_match_depth": 1,
+      "matched_ancestors": [
+        {
+          "depth": 1,
+          "code": 431353,
+          "label": "Pulmonary veno-occlusive disease and/or pulmonary capillary hemangiomatosis",
+          "matched_term": "Pulmonary veno-occlusive disease and/or pulmonary capillary haemangiomatosis",
+          "match_label_or_synonym": "official_synonym",
+          "via": [
+            "Pulmonary veno-occlusive disease and/or pulmonary capillary hemangiomatosis"
+          ]
+        }
+      ],
+      "ancestors_examined": 5,
       "curator_review": "pending"
     },
     {
@@ -202,6 +290,8 @@
           "depth": 1,
           "code": 263440,
           "label": "Neuroacanthocytosis",
+          "matched_term": "Neuroacanthocytosis",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Neuroacanthocytosis"
           ]
@@ -224,6 +314,8 @@
           "depth": 2,
           "code": 97245,
           "label": "Congenital myopathy",
+          "matched_term": "Congenital myopathy",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Congenital myopathy with cores",
             "Congenital myopathy"
@@ -247,6 +339,8 @@
           "depth": 2,
           "code": 98473,
           "label": "Muscular dystrophy",
+          "matched_term": "Muscular dystrophy",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Progressive muscular dystrophy",
             "Muscular dystrophy"
@@ -270,6 +364,8 @@
           "depth": 2,
           "code": 98473,
           "label": "Muscular dystrophy",
+          "matched_term": "Muscular dystrophy",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Progressive muscular dystrophy",
             "Muscular dystrophy"
@@ -277,6 +373,106 @@
         }
       ],
       "ancestors_examined": 14,
+      "curator_review": "pending"
+    },
+    {
+      "disease_id": "nando-234-1-1",
+      "orpha_code": 912,
+      "name_en": "Zellweger syndrome",
+      "nando_parent_en": "Peroxisomal Disorder",
+      "concept_kind": "disease_subtype",
+      "orpha_type": "Disease",
+      "official_preferred_label_equal": true,
+      "min_parent_match_depth": 2,
+      "matched_ancestors": [
+        {
+          "depth": 2,
+          "code": 68373,
+          "label": "Peroxisomal disease",
+          "matched_term": "Peroxisomal disease",
+          "match_label_or_synonym": "preferred_label",
+          "via": [
+            "Peroxisome biogenesis disorder",
+            "Peroxisomal disease"
+          ]
+        }
+      ],
+      "ancestors_examined": 42,
+      "curator_review": "pending"
+    },
+    {
+      "disease_id": "nando-234-1-2",
+      "orpha_code": 44,
+      "name_en": "Neonatal adrenoleukodystrophy",
+      "nando_parent_en": "Peroxisomal Disorder",
+      "concept_kind": "disease_subtype",
+      "orpha_type": "Disease",
+      "official_preferred_label_equal": true,
+      "min_parent_match_depth": 2,
+      "matched_ancestors": [
+        {
+          "depth": 2,
+          "code": 68373,
+          "label": "Peroxisomal disease",
+          "matched_term": "Peroxisomal disease",
+          "match_label_or_synonym": "preferred_label",
+          "via": [
+            "Peroxisome biogenesis disorder",
+            "Peroxisomal disease"
+          ]
+        }
+      ],
+      "ancestors_examined": 35,
+      "curator_review": "pending"
+    },
+    {
+      "disease_id": "nando-234-1-3",
+      "orpha_code": 772,
+      "name_en": "Infantile Refsum disease",
+      "nando_parent_en": "Peroxisomal Disorder",
+      "concept_kind": "disease_subtype",
+      "orpha_type": "Disease",
+      "official_preferred_label_equal": true,
+      "min_parent_match_depth": 2,
+      "matched_ancestors": [
+        {
+          "depth": 2,
+          "code": 68373,
+          "label": "Peroxisomal disease",
+          "matched_term": "Peroxisomal disease",
+          "match_label_or_synonym": "preferred_label",
+          "via": [
+            "Peroxisome biogenesis disorder",
+            "Peroxisomal disease"
+          ]
+        }
+      ],
+      "ancestors_examined": 27,
+      "curator_review": "pending"
+    },
+    {
+      "disease_id": "nando-234-6",
+      "orpha_code": 926,
+      "name_en": "Acatalasemia",
+      "nando_parent_en": "Peroxisomal Disorder",
+      "concept_kind": "disease_subtype",
+      "orpha_type": "Disease",
+      "official_preferred_label_equal": true,
+      "min_parent_match_depth": 2,
+      "matched_ancestors": [
+        {
+          "depth": 2,
+          "code": 68373,
+          "label": "Peroxisomal disease",
+          "matched_term": "Peroxisomal disease",
+          "match_label_or_synonym": "preferred_label",
+          "via": [
+            "Disorder of peroxisomal alpha-, beta- and omega-oxidation",
+            "Peroxisomal disease"
+          ]
+        }
+      ],
+      "ancestors_examined": 5,
       "curator_review": "pending"
     },
     {
@@ -293,6 +489,8 @@
           "depth": 2,
           "code": 738,
           "label": "Porphyria",
+          "matched_term": "Porphyria",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Erythropoietic porphyria",
             "Porphyria"
@@ -316,6 +514,8 @@
           "depth": 2,
           "code": 738,
           "label": "Porphyria",
+          "matched_term": "Porphyria",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Erythropoietic porphyria",
             "Porphyria"
@@ -339,6 +539,8 @@
           "depth": 2,
           "code": 599,
           "label": "Distal myopathy",
+          "matched_term": "Distal myopathy",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Autosomal recessive distal myopathy",
             "Distal myopathy"
@@ -362,6 +564,8 @@
           "depth": 2,
           "code": 599,
           "label": "Distal myopathy",
+          "matched_term": "Distal myopathy",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Autosomal dominant distal myopathy",
             "Distal myopathy"
@@ -385,6 +589,8 @@
           "depth": 2,
           "code": 98375,
           "label": "Autoimmune hemolytic anemia",
+          "matched_term": "Autoimmune hemolytic anemia",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Autoimmune hemolytic anemia, cold type",
             "Autoimmune hemolytic anemia"
@@ -408,6 +614,8 @@
           "depth": 3,
           "code": 98473,
           "label": "Muscular dystrophy",
+          "matched_term": "Muscular dystrophy",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Duchenne and Becker muscular dystrophy",
             "Progressive muscular dystrophy",
@@ -416,6 +624,32 @@
         }
       ],
       "ancestors_examined": 9,
+      "curator_review": "pending"
+    },
+    {
+      "disease_id": "nando-234-2-1",
+      "orpha_code": 2971,
+      "name_en": "Peroxisomal acyl-CoA oxidase deficiency",
+      "nando_parent_en": "Peroxisomal Disorder",
+      "concept_kind": "disease_subtype",
+      "orpha_type": "Disease",
+      "official_preferred_label_equal": true,
+      "min_parent_match_depth": 3,
+      "matched_ancestors": [
+        {
+          "depth": 3,
+          "code": 68373,
+          "label": "Peroxisomal disease",
+          "matched_term": "Peroxisomal disease",
+          "match_label_or_synonym": "preferred_label",
+          "via": [
+            "Peroxisomal beta-oxidation disorder",
+            "Disorder of peroxisomal alpha-, beta- and omega-oxidation",
+            "Peroxisomal disease"
+          ]
+        }
+      ],
+      "ancestors_examined": 17,
       "curator_review": "pending"
     },
     {
@@ -432,6 +666,8 @@
           "depth": 3,
           "code": 738,
           "label": "Porphyria",
+          "matched_term": "Porphyria",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Acute hepatic porphyria",
             "Hepatic porphyria",
@@ -456,6 +692,8 @@
           "depth": 3,
           "code": 738,
           "label": "Porphyria",
+          "matched_term": "Porphyria",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Acute hepatic porphyria",
             "Hepatic porphyria",
@@ -480,6 +718,8 @@
           "depth": 3,
           "code": 738,
           "label": "Porphyria",
+          "matched_term": "Porphyria",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Acute hepatic porphyria",
             "Hepatic porphyria",
@@ -504,6 +744,8 @@
           "depth": 3,
           "code": 738,
           "label": "Porphyria",
+          "matched_term": "Porphyria",
+          "match_label_or_synonym": "preferred_label",
           "via": [
             "Hepatic cutaneous porphyria",
             "Hepatic porphyria",
@@ -512,6 +754,84 @@
         }
       ],
       "ancestors_examined": 4,
+      "curator_review": "pending"
+    },
+    {
+      "disease_id": "nando-65-10",
+      "orpha_code": 906,
+      "name_en": "Wiskott-Aldrich syndrome",
+      "nando_parent_en": "Primary Immunodeficiency Syndrome",
+      "concept_kind": "disease_subtype",
+      "orpha_type": "Disease",
+      "official_preferred_label_equal": true,
+      "min_parent_match_depth": 3,
+      "matched_ancestors": [
+        {
+          "depth": 3,
+          "code": 101997,
+          "label": "Primary immunodeficiency",
+          "matched_term": "Primary immunodeficiency",
+          "match_label_or_synonym": "preferred_label",
+          "via": [
+            "Syndrome with combined immunodeficiency",
+            "Primary immunodeficiency due to a defect in adaptive immunity",
+            "Primary immunodeficiency"
+          ]
+        }
+      ],
+      "ancestors_examined": 20,
+      "curator_review": "pending"
+    },
+    {
+      "disease_id": "nando-65-21",
+      "orpha_code": 79124,
+      "name_en": "Hepatic veno-occlusive disease-immunodeficiency syndrome",
+      "nando_parent_en": "Primary Immunodeficiency Syndrome",
+      "concept_kind": "disease_subtype",
+      "orpha_type": "Disease",
+      "official_preferred_label_equal": true,
+      "min_parent_match_depth": 3,
+      "matched_ancestors": [
+        {
+          "depth": 3,
+          "code": 101997,
+          "label": "Primary immunodeficiency",
+          "matched_term": "Primary immunodeficiency",
+          "match_label_or_synonym": "preferred_label",
+          "via": [
+            "Syndrome with combined immunodeficiency",
+            "Primary immunodeficiency due to a defect in adaptive immunity",
+            "Primary immunodeficiency"
+          ]
+        }
+      ],
+      "ancestors_examined": 7,
+      "curator_review": "pending"
+    },
+    {
+      "disease_id": "nando-65-43",
+      "orpha_code": 1334,
+      "name_en": "Chronic mucocutaneous candidiasis",
+      "nando_parent_en": "Primary Immunodeficiency Syndrome",
+      "concept_kind": "disease_subtype",
+      "orpha_type": "Disease",
+      "official_preferred_label_equal": true,
+      "min_parent_match_depth": 3,
+      "matched_ancestors": [
+        {
+          "depth": 3,
+          "code": 101997,
+          "label": "Primary immunodeficiency",
+          "matched_term": "Primary immunodeficiency",
+          "match_label_or_synonym": "preferred_label",
+          "via": [
+            "Genetic susceptibility to infections due to particular pathogens",
+            "Primary immunodeficiency due to a defect in innate immunity",
+            "Primary immunodeficiency"
+          ]
+        }
+      ],
+      "ancestors_examined": 8,
       "curator_review": "pending"
     },
     {
@@ -577,19 +897,6 @@
       "min_parent_match_depth": null,
       "matched_ancestors": [],
       "ancestors_examined": 20,
-      "curator_review": "pending"
-    },
-    {
-      "disease_id": "nando-106-2",
-      "orpha_code": 575,
-      "name_en": "Muckle-Wells syndrome",
-      "nando_parent_en": "Cryopyrin-associated periodic syndrome",
-      "concept_kind": "disease_subtype",
-      "orpha_type": "Disease",
-      "official_preferred_label_equal": true,
-      "min_parent_match_depth": null,
-      "matched_ancestors": [],
-      "ancestors_examined": 16,
       "curator_review": "pending"
     },
     {
@@ -1295,71 +1602,6 @@
       "curator_review": "pending"
     },
     {
-      "disease_id": "nando-234-1-1",
-      "orpha_code": 912,
-      "name_en": "Zellweger syndrome",
-      "nando_parent_en": "Peroxisomal Disorder",
-      "concept_kind": "disease_subtype",
-      "orpha_type": "Disease",
-      "official_preferred_label_equal": true,
-      "min_parent_match_depth": null,
-      "matched_ancestors": [],
-      "ancestors_examined": 42,
-      "curator_review": "pending"
-    },
-    {
-      "disease_id": "nando-234-1-2",
-      "orpha_code": 44,
-      "name_en": "Neonatal adrenoleukodystrophy",
-      "nando_parent_en": "Peroxisomal Disorder",
-      "concept_kind": "disease_subtype",
-      "orpha_type": "Disease",
-      "official_preferred_label_equal": true,
-      "min_parent_match_depth": null,
-      "matched_ancestors": [],
-      "ancestors_examined": 35,
-      "curator_review": "pending"
-    },
-    {
-      "disease_id": "nando-234-1-3",
-      "orpha_code": 772,
-      "name_en": "Infantile Refsum disease",
-      "nando_parent_en": "Peroxisomal Disorder",
-      "concept_kind": "disease_subtype",
-      "orpha_type": "Disease",
-      "official_preferred_label_equal": true,
-      "min_parent_match_depth": null,
-      "matched_ancestors": [],
-      "ancestors_examined": 27,
-      "curator_review": "pending"
-    },
-    {
-      "disease_id": "nando-234-2-1",
-      "orpha_code": 2971,
-      "name_en": "Peroxisomal acyl-CoA oxidase deficiency",
-      "nando_parent_en": "Peroxisomal Disorder",
-      "concept_kind": "disease_subtype",
-      "orpha_type": "Disease",
-      "official_preferred_label_equal": true,
-      "min_parent_match_depth": null,
-      "matched_ancestors": [],
-      "ancestors_examined": 17,
-      "curator_review": "pending"
-    },
-    {
-      "disease_id": "nando-234-6",
-      "orpha_code": 926,
-      "name_en": "Acatalasemia",
-      "nando_parent_en": "Peroxisomal Disorder",
-      "concept_kind": "disease_subtype",
-      "orpha_type": "Disease",
-      "official_preferred_label_equal": true,
-      "min_parent_match_depth": null,
-      "matched_ancestors": [],
-      "ancestors_examined": 5,
-      "curator_review": "pending"
-    },
-    {
       "disease_id": "nando-251-2",
       "orpha_code": 664,
       "name_en": "Ornithine transcarbamylase deficiency",
@@ -1487,19 +1729,6 @@
       "min_parent_match_depth": null,
       "matched_ancestors": [],
       "ancestors_examined": 4,
-      "curator_review": "pending"
-    },
-    {
-      "disease_id": "nando-309-2",
-      "orpha_code": 501,
-      "name_en": "Lafora disease",
-      "nando_parent_en": "Progressive myoclonus epilepsy",
-      "concept_kind": "disease_subtype",
-      "orpha_type": "Disease",
-      "official_preferred_label_equal": true,
-      "min_parent_match_depth": null,
-      "matched_ancestors": [],
-      "ancestors_examined": 6,
       "curator_review": "pending"
     },
     {
@@ -1685,19 +1914,6 @@
       "curator_review": "pending"
     },
     {
-      "disease_id": "nando-65-10",
-      "orpha_code": 906,
-      "name_en": "Wiskott-Aldrich syndrome",
-      "nando_parent_en": "Primary Immunodeficiency Syndrome",
-      "concept_kind": "disease_subtype",
-      "orpha_type": "Disease",
-      "official_preferred_label_equal": true,
-      "min_parent_match_depth": null,
-      "matched_ancestors": [],
-      "ancestors_examined": 20,
-      "curator_review": "pending"
-    },
-    {
       "disease_id": "nando-65-13",
       "orpha_code": 125,
       "name_en": "Bloom syndrome",
@@ -1734,19 +1950,6 @@
       "min_parent_match_depth": null,
       "matched_ancestors": [],
       "ancestors_examined": 3,
-      "curator_review": "pending"
-    },
-    {
-      "disease_id": "nando-65-21",
-      "orpha_code": 79124,
-      "name_en": "Hepatic veno-occlusive disease-immunodeficiency syndrome",
-      "nando_parent_en": "Primary Immunodeficiency Syndrome",
-      "concept_kind": "disease_subtype",
-      "orpha_type": "Disease",
-      "official_preferred_label_equal": true,
-      "min_parent_match_depth": null,
-      "matched_ancestors": [],
-      "ancestors_examined": 7,
       "curator_review": "pending"
     },
     {
@@ -1841,19 +2044,6 @@
       "curator_review": "pending"
     },
     {
-      "disease_id": "nando-65-43",
-      "orpha_code": 1334,
-      "name_en": "Chronic mucocutaneous candidiasis",
-      "nando_parent_en": "Primary Immunodeficiency Syndrome",
-      "concept_kind": "disease_subtype",
-      "orpha_type": "Disease",
-      "official_preferred_label_equal": true,
-      "min_parent_match_depth": null,
-      "matched_ancestors": [],
-      "ancestors_examined": 8,
-      "curator_review": "pending"
-    },
-    {
       "disease_id": "nando-65-5",
       "orpha_code": 760,
       "name_en": "Purine nucleoside phosphorylase deficiency",
@@ -1890,19 +2080,6 @@
       "min_parent_match_depth": null,
       "matched_ancestors": [],
       "ancestors_examined": 19,
-      "curator_review": "pending"
-    },
-    {
-      "disease_id": "nando-87-2",
-      "orpha_code": 199241,
-      "name_en": "Pulmonary Capillary Hemangiomatosis",
-      "nando_parent_en": "Pulmonary Veno-Occlusive Disease / Pulmonary Capillary Hemangiomatosis",
-      "concept_kind": "disease_subtype",
-      "orpha_type": "Disease",
-      "official_preferred_label_equal": true,
-      "min_parent_match_depth": null,
-      "matched_ancestors": [],
-      "ancestors_examined": 5,
       "curator_review": "pending"
     },
     {
