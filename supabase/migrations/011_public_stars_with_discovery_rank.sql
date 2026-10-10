@@ -1,11 +1,10 @@
--- Keep all disease names searchable; expose certified random-selection rank.
+-- Keep all published disease names searchable without exposing internal selection metadata.
 -- Preserve aggregated anonymous comments and event counts only.
 create or replace function public.get_public_stars()
 returns jsonb language sql stable security definer set search_path=''
 as $$
  select coalesce(jsonb_agg(jsonb_build_object(
   'id',d.id,'name',d.name_ja,'nameEn',d.name_en,
-  'discoveryRank',d.discovery_rank,
   'total',coalesce(s.total,0),'shared',coalesce(s.shared,0),
   'discovered',coalesce(s.discovered,0),
   'comments',coalesce((
