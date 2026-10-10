@@ -211,7 +211,17 @@ def generate_candidates(catalog: list[dict], nomenclature: dict,
                 "hpo_positive_terms": len(hpoa.get(code, set())),
                 "orpha_synonym_match": "exact_english_synonym" in reason,
             })
+    code_uses = collections.Counter(c["orpha_code"] for c in candidates)
+    for candidate in candidates:
+        if code_uses[candidate["orpha_code"]] > 1:
+            # E.g. some disease subtypes collapse to one broad ORPHA concept.
+            # Never auto-promote a colliding ORPHA identifier.
+            candidate["match_basis"] = "review_required"
     summary = {
+        "orpha_codes_shared_by_multiple_catalog_entries":
+            sum(n > 1 for n in code_uses.values()),
+        "catalog_rows_in_orpha_collisions":
+            sum(n for n in code_uses.values() if n > 1),
         "total_catalog": len(catalog),
         "catalog_with_english": sum(bool(x.get("name_en")) for x in catalog),
         "orpha_disorders": len(nomenclature),
