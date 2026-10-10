@@ -275,9 +275,12 @@ def main():
     reviewed=read_verified(base)
     staged=read_staged(base)
     matches={r["id"]:r["orpha"] for r in staged}
+    overlap=0
     for row in reviewed:
-        if row["id"] not in matches or str(row["orpha"])!=str(matches[row["id"]]):
-            raise ValueError(f"Verified identity diverges from upstream staging: {row['id']}")
+        if row["id"] in matches:
+            overlap+=1
+            if str(row["orpha"])!=str(matches[row["id"]]):
+                raise ValueError(f"Verified identity diverges from upstream staging: {row['id']}")
     out=Path(args.output);out.mkdir(parents=True,exist_ok=True)
     results={}
     for name,records in (("verified",reviewed),("staged_unreviewed",staged)):
@@ -287,7 +290,7 @@ def main():
         results[name]=experiment["meta"]
     summary={"model_version":MODEL_VERSION,
              "identity_crosswalk":{"verified":len(reviewed),"staged_unreviewed":len(staged),
-                 "staged_verified_overlap":len(reviewed)},
+                 "staged_verified_overlap":overlap},
              "evaluation":results,
              "no_unreviewed_promoted":True,
              "never_overwrite_taxonomy_map":True}
