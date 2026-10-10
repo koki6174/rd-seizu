@@ -159,7 +159,7 @@ def parse_hpoa(path: Path) -> tuple[dict[str, set[str]], int, int]:
             considered += 1
             qualifier, hp_id, reference, evidence = row[2], row[3], row[4], row[5]
             if (qualifier == "NOT" or row[10] != "P" or evidence.upper() == "IEA" or
-                    reference.upper().startswith(("OMIM:", "MIM:")):
+                    reference.upper().startswith(("OMIM:", "MIM:"))):
                 excluded += 1
                 continue
             if re.fullmatch(r"HP:\d{7}", hp_id):
