@@ -1,0 +1,66 @@
+name: Stage exact Orphadata clinical features
+on:
+  push:
+    branches:
+      - feature/orphapacket-hpo-enrichment-3d
+    paths:
+      - scripts/stage_orpha_hpo_exact.cjs
+      - scripts/build_orpha_hpo_stage.cjs
+      - .github/workflows/stage-orpha-hpo.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Retrieve versioned Orphanet Orphapackets
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Orphanet/orphapacket.git /tmp/rd-orphapacket
+          git -C /tmp/rd-orphapacket sparse-checkout set json
+          rev="$(git -C /tmp/rd-orphapacket rev-parse HEAD)"
+          echo "Source commit: $rev"
+          test "$rev" = "7a631b4369d8ee85695edf5c099d256a3461665d"
+          test -f /tmp/rd-orphapacket/json/ORPHApacket_803.json
+      - name: Build and evaluate provisional exact-label dataset
+        run: |
+          node --check scripts/stage_orpha_hpo_exact.cjs
+          node --check scripts/build_orpha_hpo_stage.cjs
+          ORPHAPACKET_COMMIT="$(git -C /tmp/rd-orphapacket rev-parse HEAD)" node scripts/stage_orpha_hpo_exact.cjs /tmp/rd-orphapacket/json
+          node scripts/build_orpha_hpo_stage.cjs
+          python - <<'PY'
+          import json
+          f=json.load(open('data/orphadata_exact_hpo_stage.json',encoding='utf8'))
+          m=json.load(open('data/clinical_hpo_pca_fcm_stage.json',encoding='utf8'))
+          assert f['meta']['coverage']==133, f['meta']['coverage']
+          assert m['meta']['n']==133
+          assert all(r['decision']=='PROVISIONAL_EXACT_LABEL_NOT_MEDICALLY_REVIEWED' for r in f['rows'])
+          assert len({r['code'] for r in f['rows']})==133
+          assert len({r['id'] for r in f['rows']})==133
+          print('HPO candidate coverage:',f['meta']['coverage'])
+          print('HPO terms:',m['meta']['hpoTermCount'],'gene features:',m['meta']['causalGeneCount'])
+          print('Note: NOT medically reviewed')
+          PY
+      - name: Version clinical candidate datasets for manual review
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add data/orphadata_exact_hpo_stage.json data/clinical_hpo_pca_fcm_stage.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: stage exact-label Orphanet HPO and gene evidence for manual review"
+            git push origin HEAD:feature/orphapacket-hpo-enrichment-3d
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: orpha-unreviewed-hpo-stage
+          retention-days: 14
+          path: |
+            data/orphadata_exact_hpo_stage.json
+            data/clinical_hpo_pca_fcm_stage.json
