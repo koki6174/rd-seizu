@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "cohort_status": "unreviewed",
+    "n": 19,
+    "dims": 557,
+    "block_coverage": {
+      "phenotype": {
+        "terms": 503,
+        "diseases_with_evidence": 19
+      },
+      "causal_gene": {
+        "terms": 41,
+        "diseases_with_evidence": 15
+      },
+      "inheritance": {
+        "terms": 5,
+        "diseases_with_evidence": 16
+      },
+      "onset": {
+        "terms": 8,
+        "diseases_with_evidence": 19
+      }
+    },
+    "weights": {
+      "phenotype": 1.0,
+      "causal_gene": 0.4,
+      "inheritance": 0.22,
+      "onset": 0.18
+    },
+    "pca_variance_ratio": [
+      0.08081,
+      0.06847,
+      0.06685
+    ],
+    "umap_neighbors": 3,
+    "evaluation_neighbors": 6,
+    "method_metrics": {
+      "PCA": {
+        "trustworthiness": 0.757156,
+        "knn_overlap": 0.570175,
+        "cluster_n": 3,
+        "fcm_iterations": 156,
+        "fcm_mean_membership": 0.676001,
+        "fcm_silhouette": 0.288837,
+        "seed_stability": 1.0
+      },
+      "UMAP": {
+        "trustworthiness": 0.641736,
+        "knn_overlap": 0.517544,
+        "cluster_n": 3,
+        "fcm_iterations": 40,
+        "fcm_mean_membership": 0.844159,
+        "fcm_silhouette": 0.505632,
+        "seed_stability": 0.79441
+      }
+    },
+    "selected_method": "PCA",
+    "selection_rule": "UMAP only if trustworthiness +0.01, KNN overlap not worse by >0.03, stability >0.60",
+    "limitations": [
+      "Clinical name or ORPHA code validity must be reviewed independently",
+      "Unannotated terms are unknown, not clinically negative",
+      "2D/3D distances are representations, not a medical diagnostic metric",
+      "Metrics measured on same cohort used for fitting; not clinical external validation"
+    ]
+  },
+  "positions": [
+    {
+      "id": "nando-139-1",
+      "orpha_code": 702,
+      "x": -1.74375,
+      "y": 0.10315,
+      "z": -1.5862,
+      "fcm_cluster": 1,
+      "membership": 0.68256,
+      "annotated_hpo": 32,
+      "annotated_causal_genes": 0,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-160-2",
+      "orpha_code": 457,
+      "x": 7.16461,
+      "y": 3.41678,
+      "z": 2.08845,
+      "fcm_cluster": 3,
+      "membership": 0.37281,
+      "annotated_hpo": 18,
+      "annotated_causal_genes": 1,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-160-3-1",
+      "orpha_code": 79394,
+      "x": 6.9669,
+      "y": 3.27527,
+      "z": 2.08953,
+      "fcm_cluster": 3,
+      "membership": 0.37325,
+      "annotated_hpo": 13,
+      "annotated_causal_genes": 9,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-160-4-2",
+      "orpha_code": 816,
+      "x": 3.08017,
+      "y": -0.99524,
+      "z": -2.37927,
+      "fcm_cluster": 3,
+      "membership": 0.83618,
+      "annotated_hpo": 88,
+      "annotated_causal_genes": 1,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-162-3",
+      "orpha_code": 46487,
+      "x": -0.51415,
+      "y": -1.01487,
+      "z": 3.00202,
+      "fcm_cluster": 2,
+      "membership": 0.86125,
+      "annotated_hpo": 10,
+      "annotated_causal_genes": 0,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-18-2-7",
+      "orpha_code": 94147,
+      "x": -2.08468,
+      "y": 0.43219,
+      "z": 0.1906,
+      "fcm_cluster": 1,
+      "membership": 0.76905,
+      "annotated_hpo": 32,
+      "annotated_causal_genes": 1,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-18-3-2",
+      "orpha_code": 1168,
+      "x": -2.16581,
+      "y": 2.72702,
+      "z": -2.6502,
+      "fcm_cluster": 1,
+      "membership": 0.77645,
+      "annotated_hpo": 5,
+      "annotated_causal_genes": 1,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-19-18",
+      "orpha_code": 67041,
+      "x": -0.39909,
+      "y": 2.23293,
+      "z": -1.29059,
+      "fcm_cluster": 1,
+      "membership": 0.88085,
+      "annotated_hpo": 2,
+      "annotated_causal_genes": 1,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-19-21-2",
+      "orpha_code": 577,
+      "x": -0.31082,
+      "y": 0.97221,
+      "z": -1.15399,
+      "fcm_cluster": 1,
+      "membership": 0.76685,
+      "annotated_hpo": 36,
+      "annotated_causal_genes": 0,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-19-28",
+      "orpha_code": 275761,
+      "x": 0.57079,
+      "y": -1.17785,
+      "z": 0.54483,
+      "fcm_cluster": 3,
+      "membership": 0.49446,
+      "annotated_hpo": 49,
+      "annotated_causal_genes": 0,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-19-9",
+      "orpha_code": 333,
+      "x": 1.0332,
+      "y": -1.90356,
+      "z": -4.9843,
+      "fcm_cluster": 3,
+      "membership": 0.72158,
+      "annotated_hpo": 70,
+      "annotated_causal_genes": 1,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-21-3",
+      "orpha_code": 550,
+      "x": -4.59244,
+      "y": 3.24544,
+      "z": 1.28086,
+      "fcm_cluster": 1,
+      "membership": 0.63926,
+      "annotated_hpo": 87,
+      "annotated_causal_genes": 10,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-21-4",
+      "orpha_code": 551,
+      "x": -5.26079,
+      "y": 5.74785,
+      "z": 1.51321,
+      "fcm_cluster": 1,
+      "membership": 0.57523,
+      "annotated_hpo": 11,
+      "annotated_causal_genes": 7,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-251-2",
+      "orpha_code": 664,
+      "x": -1.43378,
+      "y": -4.94746,
+      "z": 3.62758,
+      "fcm_cluster": 2,
+      "membership": 0.77211,
+      "annotated_hpo": 29,
+      "annotated_causal_genes": 1,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-251-5",
+      "orpha_code": 90,
+      "x": -0.30885,
+      "y": -3.15932,
+      "z": -3.42556,
+      "fcm_cluster": 3,
+      "membership": 0.71014,
+      "annotated_hpo": 10,
+      "annotated_causal_genes": 1,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-316-4",
+      "orpha_code": 158,
+      "x": 1.30783,
+      "y": -1.34208,
+      "z": 0.35126,
+      "fcm_cluster": 3,
+      "membership": 0.6097,
+      "annotated_hpo": 9,
+      "annotated_causal_genes": 1,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-325-3",
+      "orpha_code": 51,
+      "x": -0.08967,
+      "y": -3.31403,
+      "z": -3.29744,
+      "fcm_cluster": 3,
+      "membership": 0.72257,
+      "annotated_hpo": 72,
+      "annotated_causal_genes": 9,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-62-3",
+      "orpha_code": 447,
+      "x": -1.13201,
+      "y": -4.04033,
+      "z": 6.72937,
+      "fcm_cluster": 2,
+      "membership": 0.77078,
+      "annotated_hpo": 44,
+      "annotated_causal_genes": 1,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    },
+    {
+      "id": "nando-65-30",
+      "orpha_code": 167,
+      "x": -0.08767,
+      "y": -0.2581,
+      "z": -0.65015,
+      "fcm_cluster": 3,
+      "membership": 0.50892,
+      "annotated_hpo": 76,
+      "annotated_causal_genes": 1,
+      "model_version": "clinical-hpo-gene-inheritance-onset-3d-v4-pca",
+      "identity_status": "unreviewed"
+    }
+  ]
+}

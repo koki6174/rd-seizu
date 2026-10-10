@@ -215,3 +215,29 @@ jobs:
           assert summary['no_unreviewed_promoted'] and summary['identity_crosswalk']['source_candidates_already_reviewed']==44
           print('ORPHA identity evidence and 50 verified / 89 pending / 1241 taxonomy kept separate')
           PY
+
+      - name: Verify clinical 120 and taxonomy 1241 remain distinct
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          def rd(p):return json.loads(Path('data',p).read_text())
+          evidence=rd('orpha_mondo_crosswalk_evidence_v1.json')['matches']
+          batch=rd('orphadata_verified_batch_06.json')['rows']
+          verified=rd('clinical_verified_comparison_v4.json')['positions']
+          pending=rd('clinical_pending_unreviewed_comparison_v4.json')['positions']
+          summary=rd('clinical_model_comparison_summary_v4.json')
+          taxonomy=rd('pilot_3d_positions.json')['positions']
+          assert len(evidence)==70 and len(batch)==70
+          assert len(verified)==120 and len(pending)==19 and len(taxonomy)==1241
+          assert len({x['id'] for x in verified})==120
+          assert len({x['orpha_code'] for x in verified})==120
+          assert {x['id'] for x in verified}.isdisjoint(x['id'] for x in pending)
+          assert {x['identity_status'] for x in verified}=={'reviewed'}
+          assert {x['identity_status'] for x in pending}=={'unreviewed'}
+          assert summary['identity_crosswalk']['source_candidates_already_reviewed']==114
+          assert all(len({a['mondo_id'] for a in x['evidence']})==1 for x in evidence)
+          assert all(all(e['mondo_to_orpha_predicate']=='skos:exactMatch' for e in x['evidence']) for x in evidence)
+          assert all(x['model_version']=='clinical-hpo-gene-inheritance-onset-3d-v4-umap' for x in verified)
+          print('clinical 120 and 19 candidate identities isolated; taxonomy 1241 preserved')
+          PY

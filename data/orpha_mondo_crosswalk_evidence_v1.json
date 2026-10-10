@@ -1,0 +1,2077 @@
+{
+  "meta": {
+    "matched": 70,
+    "previous_reviewed": 50,
+    "projected_reviewed": 120,
+    "originally_staged": 133,
+    "remaining_initial_staged": 19,
+    "evidence_level": "cross-source ontology xrefs plus three-way preferred-label equality; not external clinical sign-off",
+    "limitations": [
+      "NANDO hasDbXref is not exactMatch",
+      "legacy NANDO ID is not the modern NANDO ID",
+      "MONDO-ORPHA exactMatch indicates ontology-level claim, not a diagnostic identity guarantee"
+    ]
+  },
+  "matches": [
+    {
+      "disease_id": "nando-127-2",
+      "orpha_code": 100069,
+      "local_name_en": "Semantic dementia",
+      "local_name_ja": "意味性認知症",
+      "source_nando_legacy_id": "nando-127-2",
+      "original_orpha_name_en": "Semantic dementia",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0010857",
+          "mondo_label": "semantic dementia",
+          "nando_modern_id": "NANDO:1200550",
+          "orpha_code": 100069,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-139-5",
+      "orpha_code": 59,
+      "local_name_en": "Allan-Herndon-Dudley syndrome",
+      "local_name_ja": "アラン・ハーンドン・タドリー症候群",
+      "source_nando_legacy_id": "nando-139-5",
+      "original_orpha_name_en": "Allan-Herndon-Dudley syndrome",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0010354",
+          "mondo_label": "Allan-Herndon-Dudley syndrome",
+          "nando_modern_id": "NANDO:1200580",
+          "orpha_code": 59,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0010354",
+          "mondo_label": "Allan-Herndon-Dudley syndrome",
+          "nando_modern_id": "NANDO:2201292",
+          "orpha_code": 59,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-14-2",
+      "orpha_code": 641,
+      "local_name_en": "Multifocal motor neuropathy",
+      "local_name_ja": "多巣性運動ニューロパチー",
+      "source_nando_legacy_id": "nando-14-2",
+      "original_orpha_name_en": "Multifocal motor neuropathy",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0018979",
+          "mondo_label": "multifocal motor neuropathy",
+          "nando_modern_id": "NANDO:1200031",
+          "orpha_code": 641,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-156-2",
+      "orpha_code": 3095,
+      "local_name_en": "Atypical Rett syndrome",
+      "local_name_ja": "非典型的レット症候群",
+      "source_nando_legacy_id": "nando-156-2",
+      "original_orpha_name_en": "Atypical Rett syndrome",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0017746",
+          "mondo_label": "atypical Rett syndrome",
+          "nando_modern_id": "NANDO:1200605",
+          "orpha_code": 3095,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-160-1-1",
+      "orpha_code": 312,
+      "local_name_en": "Autosomal dominant epidermolytic ichthyosis",
+      "local_name_ja": "常染色体優性表皮融解性魚鱗癬",
+      "source_nando_legacy_id": "nando-160-1-1",
+      "original_orpha_name_en": "Autosomal dominant epidermolytic ichthyosis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0020702",
+          "mondo_label": "autosomal dominant epidermolytic ichthyosis",
+          "nando_modern_id": "NANDO:1200611",
+          "orpha_code": 312,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0020702",
+          "mondo_label": "autosomal dominant epidermolytic ichthyosis",
+          "nando_modern_id": "NANDO:2200988",
+          "orpha_code": 312,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-160-1-3",
+      "orpha_code": 455,
+      "local_name_en": "Superficial epidermolytic ichthyosis",
+      "local_name_ja": "表在性表皮融解性魚鱗癬",
+      "source_nando_legacy_id": "nando-160-1-3",
+      "original_orpha_name_en": "Superficial epidermolytic ichthyosis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0007813",
+          "mondo_label": "superficial epidermolytic ichthyosis",
+          "nando_modern_id": "NANDO:1200613",
+          "orpha_code": 455,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0007813",
+          "mondo_label": "superficial epidermolytic ichthyosis",
+          "nando_modern_id": "NANDO:2200990",
+          "orpha_code": 455,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-160-3-2",
+      "orpha_code": 313,
+      "local_name_en": "Lamellar ichthyosis",
+      "local_name_ja": "葉状魚鱗癬",
+      "source_nando_legacy_id": "nando-160-3-2",
+      "original_orpha_name_en": "Lamellar ichthyosis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0017778",
+          "mondo_label": "lamellar ichthyosis",
+          "nando_modern_id": "NANDO:1200617",
+          "orpha_code": 313,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-160-4-9",
+      "orpha_code": 33364,
+      "local_name_en": "Trichothiodystrophy",
+      "local_name_ja": "硫黄欠乏性毛髪発育異常症",
+      "source_nando_legacy_id": "nando-160-4-9",
+      "original_orpha_name_en": "Trichothiodystrophy",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0018053",
+          "mondo_label": "trichothiodystrophy",
+          "nando_modern_id": "NANDO:1200627",
+          "orpha_code": 33364,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-162-1",
+      "orpha_code": 703,
+      "local_name_en": "bullous pemphigoid",
+      "local_name_ja": "水疱性類天疱瘡",
+      "source_nando_legacy_id": "nando-162-1",
+      "original_orpha_name_en": "Bullous pemphigoid",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0019082",
+          "mondo_label": "bullous pemphigoid",
+          "nando_modern_id": "NANDO:1200632",
+          "orpha_code": 703,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0019082",
+          "mondo_label": "bullous pemphigoid",
+          "nando_modern_id": "NANDO:1200633",
+          "orpha_code": 703,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-162-2",
+      "orpha_code": 46486,
+      "local_name_en": "mucous membrane pemphigoid",
+      "local_name_ja": "粘膜類天疱瘡",
+      "source_nando_legacy_id": "nando-162-2",
+      "original_orpha_name_en": "Mucous membrane pemphigoid",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0018746",
+          "mondo_label": "mucous membrane pemphigoid",
+          "nando_modern_id": "NANDO:1200634",
+          "orpha_code": 46486,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-164-1",
+      "orpha_code": 79430,
+      "local_name_en": "Hermansky-Pudlak syndrome",
+      "local_name_ja": "ヘルマンスキー・パドラック症候群",
+      "source_nando_legacy_id": "nando-164-1",
+      "original_orpha_name_en": "Hermansky-Pudlak syndrome",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0019312",
+          "mondo_label": "Hermansky-Pudlak syndrome",
+          "nando_modern_id": "NANDO:1200638",
+          "orpha_code": 79430,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-164-3",
+      "orpha_code": 381,
+      "local_name_en": "Griscelli syndrome",
+      "local_name_ja": "グリセリ症候群",
+      "source_nando_legacy_id": "nando-164-3",
+      "original_orpha_name_en": "Griscelli syndrome",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0018306",
+          "mondo_label": "Griscelli syndrome",
+          "nando_modern_id": "NANDO:1200640",
+          "orpha_code": 381,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-18-2-4",
+      "orpha_code": 217012,
+      "local_name_en": "spinocerebellar ataxia type 31",
+      "local_name_ja": "脊髄小脳失調症３１型",
+      "source_nando_legacy_id": "nando-18-2-4",
+      "original_orpha_name_en": "Spinocerebellar ataxia type 31",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0007296",
+          "mondo_label": "spinocerebellar ataxia type 31",
+          "nando_modern_id": "NANDO:1200044",
+          "orpha_code": 217012,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-18-2-6",
+      "orpha_code": 98756,
+      "local_name_en": "spinocerebellar ataxia type 2",
+      "local_name_ja": "脊髄小脳失調症２型",
+      "source_nando_legacy_id": "nando-18-2-6",
+      "original_orpha_name_en": "Spinocerebellar ataxia type 2",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0008458",
+          "mondo_label": "spinocerebellar ataxia type 2",
+          "nando_modern_id": "NANDO:1200046",
+          "orpha_code": 98756,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-18-2-8",
+      "orpha_code": 276198,
+      "local_name_en": "spinocerebellar ataxia type 36",
+      "local_name_ja": "脊髄小脳失調症３６型",
+      "source_nando_legacy_id": "nando-18-2-8",
+      "original_orpha_name_en": "Spinocerebellar ataxia type 36",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0013594",
+          "mondo_label": "spinocerebellar ataxia type 36",
+          "nando_modern_id": "NANDO:1200048",
+          "orpha_code": 276198,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-19-1",
+      "orpha_code": 812,
+      "local_name_en": "Sialidosis type 1",
+      "local_name_ja": "シアリドーシス（Ⅰ型）",
+      "source_nando_legacy_id": "nando-19-19-1",
+      "original_orpha_name_en": "Sialidosis type 1",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0019346",
+          "mondo_label": "sialidosis type 1",
+          "nando_modern_id": "NANDO:1200117",
+          "orpha_code": 812,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0019346",
+          "mondo_label": "sialidosis type 1",
+          "nando_modern_id": "NANDO:2201191",
+          "orpha_code": 812,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-19-2",
+      "orpha_code": 87876,
+      "local_name_en": "Sialidosis type 2",
+      "local_name_ja": "シアリドーシス（Ⅱ型）",
+      "source_nando_legacy_id": "nando-19-19-2",
+      "original_orpha_name_en": "Sialidosis type 2",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009738",
+          "mondo_label": "sialidosis type 2",
+          "nando_modern_id": "NANDO:1200118",
+          "orpha_code": 87876,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009738",
+          "mondo_label": "sialidosis type 2",
+          "nando_modern_id": "NANDO:1200120",
+          "orpha_code": 87876,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009738",
+          "mondo_label": "sialidosis type 2",
+          "nando_modern_id": "NANDO:2201192",
+          "orpha_code": 87876,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009738",
+          "mondo_label": "sialidosis type 2",
+          "nando_modern_id": "NANDO:2201193",
+          "orpha_code": 87876,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-20",
+      "orpha_code": 351,
+      "local_name_en": "Galactosialidosis",
+      "local_name_ja": "ガラクトシアリドーシス",
+      "source_nando_legacy_id": "nando-19-20",
+      "original_orpha_name_en": "Galactosialidosis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009737",
+          "mondo_label": "galactosialidosis",
+          "nando_modern_id": "NANDO:1200119",
+          "orpha_code": 351,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009737",
+          "mondo_label": "galactosialidosis",
+          "nando_modern_id": "NANDO:2200557",
+          "orpha_code": 351,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-21-1",
+      "orpha_code": 576,
+      "local_name_en": "Mucolipidosis Type II",
+      "local_name_ja": "ムコリピドーシスII型",
+      "source_nando_legacy_id": "nando-19-21-1",
+      "original_orpha_name_en": "Mucolipidosis type II",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009650",
+          "mondo_label": "mucolipidosis type II",
+          "nando_modern_id": "NANDO:1200124",
+          "orpha_code": 576,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009650",
+          "mondo_label": "mucolipidosis type II",
+          "nando_modern_id": "NANDO:2200567",
+          "orpha_code": 576,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-22",
+      "orpha_code": 61,
+      "local_name_en": "Alpha-mannosidosis",
+      "local_name_ja": "α-マンノシドーシス",
+      "source_nando_legacy_id": "nando-19-22",
+      "original_orpha_name_en": "Alpha-mannosidosis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009561",
+          "mondo_label": "alpha-mannosidosis",
+          "nando_modern_id": "NANDO:1200126",
+          "orpha_code": 61,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-23",
+      "orpha_code": 118,
+      "local_name_en": "Beta-mannosidosis",
+      "local_name_ja": "β-マンノシドーシス",
+      "source_nando_legacy_id": "nando-19-23",
+      "original_orpha_name_en": "Beta-mannosidosis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009562",
+          "mondo_label": "beta-mannosidosis",
+          "nando_modern_id": "NANDO:1200129",
+          "orpha_code": 118,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009562",
+          "mondo_label": "beta-mannosidosis",
+          "nando_modern_id": "NANDO:2201190",
+          "orpha_code": 118,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-24",
+      "orpha_code": 349,
+      "local_name_en": "Fucosidosis",
+      "local_name_ja": "フコシドーシス",
+      "source_nando_legacy_id": "nando-19-24",
+      "original_orpha_name_en": "Fucosidosis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009254",
+          "mondo_label": "fucosidosis",
+          "nando_modern_id": "NANDO:1200130",
+          "orpha_code": 349,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009254",
+          "mondo_label": "fucosidosis",
+          "nando_modern_id": "NANDO:2200553",
+          "orpha_code": 349,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-25",
+      "orpha_code": 93,
+      "local_name_en": "Aspartylglucosaminuria",
+      "local_name_ja": "アスパルチルグルコサミン尿症",
+      "source_nando_legacy_id": "nando-19-25",
+      "original_orpha_name_en": "Aspartylglucosaminuria",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0008830",
+          "mondo_label": "aspartylglucosaminuria",
+          "nando_modern_id": "NANDO:1200133",
+          "orpha_code": 93,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0008830",
+          "mondo_label": "aspartylglucosaminuria",
+          "nando_modern_id": "NANDO:2200555",
+          "orpha_code": 93,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-29",
+      "orpha_code": 34587,
+      "local_name_en": "Danon disease",
+      "local_name_ja": "Danon病",
+      "source_nando_legacy_id": "nando-19-29",
+      "original_orpha_name_en": "Danon disease",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0010281",
+          "mondo_label": "Danon disease",
+          "nando_modern_id": "NANDO:1200145",
+          "orpha_code": 34587,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0010281",
+          "mondo_label": "Danon disease",
+          "nando_modern_id": "NANDO:1200222",
+          "orpha_code": 34587,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-3",
+      "orpha_code": 646,
+      "local_name_en": "Niemann-Pick disease Type C",
+      "local_name_ja": "Niemann-Pick病C型",
+      "source_nando_legacy_id": "nando-19-3",
+      "original_orpha_name_en": "Niemann-Pick disease type C",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0018982",
+          "mondo_label": "Niemann-Pick disease type C",
+          "nando_modern_id": "NANDO:1200063",
+          "orpha_code": 646,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-30",
+      "orpha_code": 834,
+      "local_name_en": "Free sialic acid storage disease",
+      "local_name_ja": "遊離シアル酸蓄積症",
+      "source_nando_legacy_id": "nando-19-30",
+      "original_orpha_name_en": "Free sialic acid storage disease",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0019366",
+          "mondo_label": "free sialic acid storage disease",
+          "nando_modern_id": "NANDO:1200146",
+          "orpha_code": 834,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0019366",
+          "mondo_label": "free sialic acid storage disease",
+          "nando_modern_id": "NANDO:2200572",
+          "orpha_code": 834,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-33",
+      "orpha_code": 213,
+      "local_name_en": "Cystinosis",
+      "local_name_ja": "シスチン症",
+      "source_nando_legacy_id": "nando-19-33",
+      "original_orpha_name_en": "Cystinosis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0016239",
+          "mondo_label": "cystinosis",
+          "nando_modern_id": "NANDO:1200161",
+          "orpha_code": 213,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0016239",
+          "mondo_label": "cystinosis",
+          "nando_modern_id": "NANDO:2200571",
+          "orpha_code": 213,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-4",
+      "orpha_code": 354,
+      "local_name_en": "GM1 Gangliosidosis",
+      "local_name_ja": "GM1ガングリオシドーシス",
+      "source_nando_legacy_id": "nando-19-4",
+      "original_orpha_name_en": "GM1 gangliosidosis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0018149",
+          "mondo_label": "GM1 gangliosidosis",
+          "nando_modern_id": "NANDO:1200066",
+          "orpha_code": 354,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0018149",
+          "mondo_label": "GM1 gangliosidosis",
+          "nando_modern_id": "NANDO:2200558",
+          "orpha_code": 354,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-5-2",
+      "orpha_code": 796,
+      "local_name_en": "Sandhoff disease",
+      "local_name_ja": "Sandhoff病",
+      "source_nando_legacy_id": "nando-19-5-2",
+      "original_orpha_name_en": "Sandhoff disease",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0010006",
+          "mondo_label": "Sandhoff disease",
+          "nando_modern_id": "NANDO:1200072",
+          "orpha_code": 796,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0010006",
+          "mondo_label": "Sandhoff disease",
+          "nando_modern_id": "NANDO:2201200",
+          "orpha_code": 796,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-6",
+      "orpha_code": 487,
+      "local_name_en": "Krabbe disease",
+      "local_name_ja": "Krabbe病",
+      "source_nando_legacy_id": "nando-19-6",
+      "original_orpha_name_en": "Krabbe disease",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009499",
+          "mondo_label": "Krabbe disease",
+          "nando_modern_id": "NANDO:1200074",
+          "orpha_code": 487,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009499",
+          "mondo_label": "Krabbe disease",
+          "nando_modern_id": "NANDO:2200564",
+          "orpha_code": 487,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-19-7",
+      "orpha_code": 512,
+      "local_name_en": "Metachromatic leukodystrophy",
+      "local_name_ja": "異染性白質ジストロフィー",
+      "source_nando_legacy_id": "nando-19-7",
+      "original_orpha_name_en": "Metachromatic leukodystrophy",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0018868",
+          "mondo_label": "metachromatic leukodystrophy",
+          "nando_modern_id": "NANDO:1200078",
+          "orpha_code": 512,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0018868",
+          "mondo_label": "metachromatic leukodystrophy",
+          "nando_modern_id": "NANDO:2200560",
+          "orpha_code": 512,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-21-2",
+      "orpha_code": 506,
+      "local_name_en": "Leigh syndrome",
+      "local_name_ja": "リー脳症",
+      "source_nando_legacy_id": "nando-21-2",
+      "original_orpha_name_en": "Leigh syndrome",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009723",
+          "mondo_label": "Leigh syndrome",
+          "nando_modern_id": "NANDO:1200175",
+          "orpha_code": 506,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009723",
+          "mondo_label": "Leigh syndrome",
+          "nando_modern_id": "NANDO:2200527",
+          "orpha_code": 506,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-21-5",
+      "orpha_code": 104,
+      "local_name_en": "Leber hereditary optic neuropathy",
+      "local_name_ja": "レーバー病",
+      "source_nando_legacy_id": "nando-21-5",
+      "original_orpha_name_en": "Leber hereditary optic neuropathy",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0010788",
+          "mondo_label": "Leber hereditary optic neuropathy",
+          "nando_modern_id": "NANDO:1200178",
+          "orpha_code": 104,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0010788",
+          "mondo_label": "Leber hereditary optic neuropathy",
+          "nando_modern_id": "NANDO:1200940",
+          "orpha_code": 104,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-229-1",
+      "orpha_code": 747,
+      "local_name_en": "Autoimmune pulmonary alveolar proteinosis",
+      "local_name_ja": "自己免疫性肺胞蛋白症",
+      "source_nando_legacy_id": "nando-229-1",
+      "original_orpha_name_en": "Autoimmune pulmonary alveolar proteinosis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0012579",
+          "mondo_label": "autoimmune pulmonary alveolar proteinosis",
+          "nando_modern_id": "NANDO:1200747",
+          "orpha_code": 747,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0012579",
+          "mondo_label": "autoimmune pulmonary alveolar proteinosis",
+          "nando_modern_id": "NANDO:1200748",
+          "orpha_code": 747,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-23-1",
+      "orpha_code": 204,
+      "local_name_en": "Sporadic Creutzfeldt-Jakob disease",
+      "local_name_ja": "孤発性クロイツフェルト・ヤコブ病",
+      "source_nando_legacy_id": "nando-23-1",
+      "original_orpha_name_en": "Sporadic Creutzfeldt-Jakob disease",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0016079",
+          "mondo_label": "sporadic Creutzfeldt-Jakob disease",
+          "nando_modern_id": "NANDO:1200187",
+          "orpha_code": 204,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-23-2-2",
+      "orpha_code": 356,
+      "local_name_en": "Gerstmann-Straussler-Scheinker syndrome",
+      "local_name_ja": "ゲルストマン・ストロイスラー・シャインカー病",
+      "source_nando_legacy_id": "nando-23-2-2",
+      "original_orpha_name_en": "Gerstmann-Straussler-Scheinker syndrome",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0007656",
+          "mondo_label": "Gerstmann-Straussler-Scheinker syndrome",
+          "nando_modern_id": "NANDO:1200190",
+          "orpha_code": 356,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-23-2-3",
+      "orpha_code": 466,
+      "local_name_en": "fatal familial insomnia",
+      "local_name_ja": "致死性家族性不眠症",
+      "source_nando_legacy_id": "nando-23-2-3",
+      "original_orpha_name_en": "Fatal familial insomnia",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0010808",
+          "mondo_label": "fatal familial insomnia",
+          "nando_modern_id": "NANDO:1200191",
+          "orpha_code": 466,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-251-4",
+      "orpha_code": 23,
+      "local_name_en": "Argininosuccinic aciduria",
+      "local_name_ja": "アルギニノコハク酸尿症",
+      "source_nando_legacy_id": "nando-251-4",
+      "original_orpha_name_en": "Argininosuccinic aciduria",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0008815",
+          "mondo_label": "argininosuccinic aciduria",
+          "nando_modern_id": "NANDO:1200806",
+          "orpha_code": 23,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0008815",
+          "mondo_label": "argininosuccinic aciduria",
+          "nando_modern_id": "NANDO:2200481",
+          "orpha_code": 23,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-255-1",
+      "orpha_code": 79242,
+      "local_name_en": "Holocarboxylase synthetase deficiency",
+      "local_name_ja": "ホロカルボキシラーゼ合成酵素欠損症",
+      "source_nando_legacy_id": "nando-255-1",
+      "original_orpha_name_en": "Holocarboxylase synthetase deficiency",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009666",
+          "mondo_label": "holocarboxylase synthetase deficiency",
+          "nando_modern_id": "NANDO:1200821",
+          "orpha_code": 79242,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-255-2",
+      "orpha_code": 79241,
+      "local_name_en": "Biotinidase deficiency",
+      "local_name_ja": "ビオチニダーゼ欠損症",
+      "source_nando_legacy_id": "nando-255-2",
+      "original_orpha_name_en": "Biotinidase deficiency",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009665",
+          "mondo_label": "biotinidase deficiency",
+          "nando_modern_id": "NANDO:1200822",
+          "orpha_code": 79241,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-265-2",
+      "orpha_code": 79086,
+      "local_name_en": "Acquired generalized lipodystrophy",
+      "local_name_ja": "後天性全身性脂肪萎縮症",
+      "source_nando_legacy_id": "nando-265-2",
+      "original_orpha_name_en": "Acquired generalized lipodystrophy",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0019193",
+          "mondo_label": "acquired generalized lipodystrophy",
+          "nando_modern_id": "NANDO:1200860",
+          "orpha_code": 79086,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-28-1-1",
+      "orpha_code": 85443,
+      "local_name_en": "AL amyloidosis",
+      "local_name_ja": "免疫グロブリン性アミロイドーシス",
+      "source_nando_legacy_id": "nando-28-1-1",
+      "original_orpha_name_en": "AL amyloidosis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0019438",
+          "mondo_label": "AL amyloidosis",
+          "nando_modern_id": "NANDO:1200211",
+          "orpha_code": 85443,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-301-2",
+      "orpha_code": 827,
+      "local_name_en": "Stargardt disease",
+      "local_name_ja": "Stargardt病",
+      "source_nando_legacy_id": "nando-301-2",
+      "original_orpha_name_en": "Stargardt disease",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0019353",
+          "mondo_label": "Stargardt disease",
+          "nando_modern_id": "NANDO:1200933",
+          "orpha_code": 827,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-301-6",
+      "orpha_code": 75377,
+      "local_name_en": "Central areolar choroidal dystrophy",
+      "local_name_ja": "中心性輪紋状脈絡膜ジストロフィー",
+      "source_nando_legacy_id": "nando-301-6",
+      "original_orpha_name_en": "Central areolar choroidal dystrophy",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0008982",
+          "mondo_label": "central areolar choroidal dystrophy",
+          "nando_modern_id": "NANDO:1200939",
+          "orpha_code": 75377,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-308-1",
+      "orpha_code": 2478,
+      "local_name_en": "Megalencephalic leukoencephalopathy with subcortical cysts",
+      "local_name_ja": "皮質下嚢胞をもつ大頭型白質脳症",
+      "source_nando_legacy_id": "nando-308-1",
+      "original_orpha_name_en": "Megalencephalic leukoencephalopathy with subcortical cysts",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0011391",
+          "mondo_label": "megalencephalic leukoencephalopathy with subcortical cysts",
+          "nando_modern_id": "NANDO:1200950",
+          "orpha_code": 2478,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0011391",
+          "mondo_label": "megalencephalic leukoencephalopathy with subcortical cysts",
+          "nando_modern_id": "NANDO:2200837",
+          "orpha_code": 2478,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-316-2",
+      "orpha_code": 157,
+      "local_name_en": "Carnitine Palmitoyltransferase II deficiency",
+      "local_name_ja": "CPT2欠損症",
+      "source_nando_legacy_id": "nando-316-2",
+      "original_orpha_name_en": "Carnitine palmitoyltransferase II deficiency",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0015515",
+          "mondo_label": "carnitine palmitoyltransferase II deficiency",
+          "nando_modern_id": "NANDO:1200971",
+          "orpha_code": 157,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0015515",
+          "mondo_label": "carnitine palmitoyltransferase II deficiency",
+          "nando_modern_id": "NANDO:2200510",
+          "orpha_code": 157,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0015515",
+          "mondo_label": "carnitine palmitoyltransferase II deficiency",
+          "nando_modern_id": "NANDO:2201133",
+          "orpha_code": 157,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0015515",
+          "mondo_label": "carnitine palmitoyltransferase II deficiency",
+          "nando_modern_id": "NANDO:2201134",
+          "orpha_code": 157,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-316-3",
+      "orpha_code": 159,
+      "local_name_en": "Carnitine-acylcarnitine translocase deficiency",
+      "local_name_ja": "CACT欠損症",
+      "source_nando_legacy_id": "nando-316-3",
+      "original_orpha_name_en": "Carnitine-acylcarnitine translocase deficiency",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0008918",
+          "mondo_label": "carnitine-acylcarnitine translocase deficiency",
+          "nando_modern_id": "NANDO:1200972",
+          "orpha_code": 159,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0008918",
+          "mondo_label": "carnitine-acylcarnitine translocase deficiency",
+          "nando_modern_id": "NANDO:2200511",
+          "orpha_code": 159,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-35-2",
+      "orpha_code": 79481,
+      "local_name_en": "pemphigus foliaceus",
+      "local_name_ja": "天疱瘡（落葉状）",
+      "source_nando_legacy_id": "nando-35-2",
+      "original_orpha_name_en": "Pemphigus foliaceus",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0019324",
+          "mondo_label": "pemphigus foliaceus",
+          "nando_modern_id": "NANDO:1200230",
+          "orpha_code": 79481,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-35-3",
+      "orpha_code": 63455,
+      "local_name_en": "Paraneoplastic pemphigus",
+      "local_name_ja": "天疱瘡（腫瘍随伴性）",
+      "source_nando_legacy_id": "nando-35-3",
+      "original_orpha_name_en": "Paraneoplastic pemphigus",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0018974",
+          "mondo_label": "paraneoplastic pemphigus",
+          "nando_modern_id": "NANDO:1200231",
+          "orpha_code": 63455,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-35-4",
+      "orpha_code": 79479,
+      "local_name_en": "pemphigus vegetans",
+      "local_name_ja": "天疱瘡（増殖性）",
+      "source_nando_legacy_id": "nando-35-4",
+      "original_orpha_name_en": "Pemphigus vegetans",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0019322",
+          "mondo_label": "pemphigus vegetans",
+          "nando_modern_id": "NANDO:1200232",
+          "orpha_code": 79479,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-35-5",
+      "orpha_code": 79480,
+      "local_name_en": "Pemphigus erythematosus",
+      "local_name_ja": "天疱瘡（紅斑性）",
+      "source_nando_legacy_id": "nando-35-5",
+      "original_orpha_name_en": "Pemphigus erythematosus",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0019323",
+          "mondo_label": "pemphigus erythematosus",
+          "nando_modern_id": "NANDO:1200233",
+          "orpha_code": 79480,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-48-3",
+      "orpha_code": 464343,
+      "local_name_en": "Catastrophic antiphospholipid syndrome",
+      "local_name_ja": "劇症型",
+      "source_nando_legacy_id": "nando-48-3",
+      "original_orpha_name_en": "Catastrophic antiphospholipid syndrome",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0018737",
+          "mondo_label": "catastrophic antiphospholipid syndrome",
+          "nando_modern_id": "NANDO:1200270",
+          "orpha_code": 464343,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-50-1",
+      "orpha_code": 221,
+      "local_name_en": "Dermatomyositis",
+      "local_name_ja": "皮膚筋炎",
+      "source_nando_legacy_id": "nando-50-1",
+      "original_orpha_name_en": "Dermatomyositis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0016367",
+          "mondo_label": "dermatomyositis",
+          "nando_modern_id": "NANDO:1200274",
+          "orpha_code": 221,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-50-3",
+      "orpha_code": 732,
+      "local_name_en": "Polymyositis",
+      "local_name_ja": "多発性筋炎",
+      "source_nando_legacy_id": "nando-50-3",
+      "original_orpha_name_en": "Polymyositis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0019127",
+          "mondo_label": "polymyositis",
+          "nando_modern_id": "NANDO:1200276",
+          "orpha_code": 732,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-60-1",
+      "orpha_code": 88,
+      "local_name_en": "Idiopathic aplastic anemia",
+      "local_name_ja": "特発性再生不良性貧血",
+      "source_nando_legacy_id": "nando-60-1",
+      "original_orpha_name_en": "Idiopathic aplastic anemia",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0012197",
+          "mondo_label": "idiopathic aplastic anemia",
+          "nando_modern_id": "NANDO:1200296",
+          "orpha_code": 88,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0012197",
+          "mondo_label": "idiopathic aplastic anemia",
+          "nando_modern_id": "NANDO:2201276",
+          "orpha_code": 88,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-65-13",
+      "orpha_code": 125,
+      "local_name_en": "Bloom syndrome",
+      "local_name_ja": "ブルーム症候群",
+      "source_nando_legacy_id": "nando-65-13",
+      "original_orpha_name_en": "Bloom syndrome",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0008876",
+          "mondo_label": "Bloom syndrome",
+          "nando_modern_id": "NANDO:1200333",
+          "orpha_code": 125,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0008876",
+          "mondo_label": "Bloom syndrome",
+          "nando_modern_id": "NANDO:2200707",
+          "orpha_code": 125,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-65-18",
+      "orpha_code": 634,
+      "local_name_en": "Netherton syndrome",
+      "local_name_ja": "ネザートン症候群",
+      "source_nando_legacy_id": "nando-65-18",
+      "original_orpha_name_en": "Netherton syndrome",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009735",
+          "mondo_label": "Netherton syndrome",
+          "nando_modern_id": "NANDO:1200338",
+          "orpha_code": 634,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009735",
+          "mondo_label": "Netherton syndrome",
+          "nando_modern_id": "NANDO:1200619",
+          "orpha_code": 634,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009735",
+          "mondo_label": "Netherton syndrome",
+          "nando_modern_id": "NANDO:2200993",
+          "orpha_code": 634,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-65-2",
+      "orpha_code": 33355,
+      "local_name_en": "Reticular dysgenesis",
+      "local_name_ja": "細網異形成症",
+      "source_nando_legacy_id": "nando-65-2",
+      "original_orpha_name_en": "Reticular dysgenesis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009973",
+          "mondo_label": "reticular dysgenesis",
+          "nando_modern_id": "NANDO:1200322",
+          "orpha_code": 33355,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009973",
+          "mondo_label": "reticular dysgenesis",
+          "nando_modern_id": "NANDO:2200695",
+          "orpha_code": 33355,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-65-32",
+      "orpha_code": 3261,
+      "local_name_en": "Autoimmune lymphoproliferative syndrome",
+      "local_name_ja": "自己免疫性リンパ増殖症候群",
+      "source_nando_legacy_id": "nando-65-32",
+      "original_orpha_name_en": "Autoimmune lymphoproliferative syndrome",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0017979",
+          "mondo_label": "autoimmune lymphoproliferative syndrome",
+          "nando_modern_id": "NANDO:1200352",
+          "orpha_code": 3261,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0017979",
+          "mondo_label": "autoimmune lymphoproliferative syndrome",
+          "nando_modern_id": "NANDO:2200726",
+          "orpha_code": 3261,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-65-34",
+      "orpha_code": 2686,
+      "local_name_en": "Cyclic neutropenia",
+      "local_name_ja": "周期性好中球減少症",
+      "source_nando_legacy_id": "nando-65-34",
+      "original_orpha_name_en": "Cyclic neutropenia",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0008090",
+          "mondo_label": "cyclic neutropenia",
+          "nando_modern_id": "NANDO:1200354",
+          "orpha_code": 2686,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0008090",
+          "mondo_label": "cyclic neutropenia",
+          "nando_modern_id": "NANDO:2200746",
+          "orpha_code": 2686,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-65-35",
+      "orpha_code": 2968,
+      "local_name_en": "Leukocyte adhesion deficiency",
+      "local_name_ja": "白血球接着不全症",
+      "source_nando_legacy_id": "nando-65-35",
+      "original_orpha_name_en": "Leukocyte adhesion deficiency",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0017570",
+          "mondo_label": "leukocyte adhesion deficiency",
+          "nando_modern_id": "NANDO:1200355",
+          "orpha_code": 2968,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0017570",
+          "mondo_label": "leukocyte adhesion deficiency",
+          "nando_modern_id": "NANDO:2200755",
+          "orpha_code": 2968,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-65-36",
+      "orpha_code": 811,
+      "local_name_en": "Shwachman-Diamond syndrome",
+      "local_name_ja": "シュワッハマン・ダイアモンド症候群",
+      "source_nando_legacy_id": "nando-65-36",
+      "original_orpha_name_en": "Shwachman-Diamond syndrome",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009833",
+          "mondo_label": "Shwachman-Diamond syndrome",
+          "nando_modern_id": "NANDO:1200356",
+          "orpha_code": 811,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009833",
+          "mondo_label": "Shwachman-Diamond syndrome",
+          "nando_modern_id": "NANDO:2200756",
+          "orpha_code": 811,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-65-37",
+      "orpha_code": 379,
+      "local_name_en": "Chronic granulomatous disease",
+      "local_name_ja": "慢性肉芽腫症",
+      "source_nando_legacy_id": "nando-65-37",
+      "original_orpha_name_en": "Chronic granulomatous disease",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0018305",
+          "mondo_label": "chronic granulomatous disease",
+          "nando_modern_id": "NANDO:1200357",
+          "orpha_code": 379,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0018305",
+          "mondo_label": "chronic granulomatous disease",
+          "nando_modern_id": "NANDO:2200757",
+          "orpha_code": 379,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-65-4",
+      "orpha_code": 39041,
+      "local_name_en": "Omenn syndrome",
+      "local_name_ja": "オーメン症候群",
+      "source_nando_legacy_id": "nando-65-4",
+      "original_orpha_name_en": "Omenn syndrome",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0011338",
+          "mondo_label": "Omenn syndrome",
+          "nando_modern_id": "NANDO:1200324",
+          "orpha_code": 39041,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0011338",
+          "mondo_label": "Omenn syndrome",
+          "nando_modern_id": "NANDO:2200697",
+          "orpha_code": 39041,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-65-5",
+      "orpha_code": 760,
+      "local_name_en": "Purine nucleoside phosphorylase deficiency",
+      "local_name_ja": "プリンヌクレオシドホスホリラーゼ欠損症",
+      "source_nando_legacy_id": "nando-65-5",
+      "original_orpha_name_en": "Purine nucleoside phosphorylase deficiency",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0013171",
+          "mondo_label": "purine nucleoside phosphorylase deficiency",
+          "nando_modern_id": "NANDO:1200325",
+          "orpha_code": 760,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0013171",
+          "mondo_label": "purine nucleoside phosphorylase deficiency",
+          "nando_modern_id": "NANDO:2200698",
+          "orpha_code": 760,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-67-1",
+      "orpha_code": 730,
+      "local_name_en": "Autosomal Dominant Polycystic Kidney Disease",
+      "local_name_ja": "常染色体優性多発性嚢胞腎",
+      "source_nando_legacy_id": "nando-67-1",
+      "original_orpha_name_en": "Autosomal dominant polycystic kidney disease",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0004691",
+          "mondo_label": "autosomal dominant polycystic kidney disease",
+          "nando_modern_id": "NANDO:1200368",
+          "orpha_code": 730,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0004691",
+          "mondo_label": "autosomal dominant polycystic kidney disease",
+          "nando_modern_id": "NANDO:2200153",
+          "orpha_code": 730,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-67-2",
+      "orpha_code": 731,
+      "local_name_en": "Autosomal Recessive Polycystic Kidney Disease",
+      "local_name_ja": "常染色体劣性多発性嚢胞腎",
+      "source_nando_legacy_id": "nando-67-2",
+      "original_orpha_name_en": "Autosomal recessive polycystic kidney disease",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0009889",
+          "mondo_label": "autosomal recessive polycystic kidney disease",
+          "nando_modern_id": "NANDO:1200369",
+          "orpha_code": 731,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0009889",
+          "mondo_label": "autosomal recessive polycystic kidney disease",
+          "nando_modern_id": "NANDO:2200154",
+          "orpha_code": 731,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "nando-98-3",
+      "orpha_code": 2070,
+      "local_name_en": "Eosinophilic gastroenteritis",
+      "local_name_ja": "好酸球性胃腸炎",
+      "source_nando_legacy_id": "nando-98-3",
+      "original_orpha_name_en": "Eosinophilic gastroenteritis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0016129",
+          "mondo_label": "eosinophilic gastroenteritis",
+          "nando_modern_id": "NANDO:1200457",
+          "orpha_code": 2070,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "systemic-sclerosis",
+      "orpha_code": 90291,
+      "local_name_en": "Systemic sclerosis",
+      "local_name_ja": "全身性強皮症",
+      "source_nando_legacy_id": "systemic-sclerosis",
+      "original_orpha_name_en": "Systemic sclerosis",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0005100",
+          "mondo_label": "systemic sclerosis",
+          "nando_modern_id": "NANDO:1200277",
+          "orpha_code": 90291,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0005100",
+          "mondo_label": "systemic sclerosis",
+          "nando_modern_id": "NANDO:2200429",
+          "orpha_code": 90291,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    },
+    {
+      "disease_id": "wilson-disease",
+      "orpha_code": 905,
+      "local_name_en": "Wilson disease",
+      "local_name_ja": "ウィルソン病",
+      "source_nando_legacy_id": "wilson-disease",
+      "original_orpha_name_en": "Wilson disease",
+      "relationship": "manual_MONDO_hasDbXref_NANDO + MONDO_exactMatch_ORPHA + exact_preferred_labels",
+      "evidence": [
+        {
+          "mondo_id": "MONDO:0010200",
+          "mondo_label": "Wilson disease",
+          "nando_modern_id": "NANDO:1200655",
+          "orpha_code": 905,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        },
+        {
+          "mondo_id": "MONDO:0010200",
+          "mondo_label": "Wilson disease",
+          "nando_modern_id": "NANDO:2200579",
+          "orpha_code": 905,
+          "mondo_to_orpha_predicate": "skos:exactMatch",
+          "mondo_to_nando_predicate": "oboInOwl:hasDbXref",
+          "mondo_justification": "semapv:ManualMappingCuration",
+          "orpha_justification": "semapv:ManualMappingCuration"
+        }
+      ],
+      "curator_review": "source_corroborated_not_clinician",
+      "source_release": "MONDO SSSOM 2026-10-06; OrphaPacket pinned 7a631b4369d8ee85695edf5c099d256a3461665d"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+name: Clinical PCA UMAP FCM benchmark - 120 source-corroborated vs 19 pending
+on:
+  push:
+    branches: [feature/clinical-mondo-nando-expansion]
+    paths:
+      - scripts/compare_clinical_embedding_v4.py
+      - .github/workflows/clinical-compare-v4.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reproducible pinned dependencies
+        run: python -m pip install numpy==2.1.3 scipy==1.15.3 scikit-learn==1.6.1 umap-learn==0.5.7
+      - name: Compare four-block clinical embeddings
+        env:
+          NUMBA_NUM_THREADS: '1'
+          OPENBLAS_NUM_THREADS: '1'
+          OMP_NUM_THREADS: '1'
+          PYTHONHASHSEED: '0'
+        run: |
+          python -m py_compile scripts/compare_clinical_embedding_v4.py
+          python scripts/compare_clinical_embedding_v4.py --output data
+      - name: Strict identity/coordinate boundaries
+        run: |
+          python - <<'PY'
+          import json,math
+          from pathlib import Path
+          def load(x):return json.loads(Path('data',x).read_text())
+          v=load('clinical_verified_comparison_v4.json')
+          p=load('clinical_pending_unreviewed_comparison_v4.json')
+          s=load('clinical_model_comparison_summary_v4.json')
+          assert len(v['positions'])==120 and len(p['positions'])==19
+          vi={x['id'] for x in v['positions']};pi={x['id'] for x in p['positions']}
+          assert len(vi)==120 and len(pi)==19 and not vi.intersection(pi)
+          assert s['identity_crosswalk']['source_candidates_already_reviewed']==114
+          assert s['no_unreviewed_promoted'] and s['never_overwrite_taxonomy_map']
+          assert all(x['identity_status']=='reviewed' for x in v['positions'])
+          assert all(x['identity_status']=='unreviewed' for x in p['positions'])
+          assert all(math.isfinite(x[d]) and abs(x[d])<=30 for x in v['positions']+p['positions'] for d in ('x','y','z'))
+          print('PCA UMAP FCM passes source identity and all coordinate constraints')
+          PY
+      - name: Commit reproducible research output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/clinical_verified_comparison_v4.json data/clinical_pending_unreviewed_comparison_v4.json data/clinical_model_comparison_summary_v4.json
+          if ! git diff --cached --quiet; then
+            git commit -m "research: compute 120 source-corroborated medical 3D points"
+            git push origin HEAD:feature/clinical-mondo-nando-expansion
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: clinical-120-source-reviewed-benchmark
+          path: |
+            data/clinical_verified_comparison_v4.json
+            data/clinical_pending_unreviewed_comparison_v4.json
+            data/clinical_model_comparison_summary_v4.json
+          retention-days: 14
