@@ -1,0 +1,3880 @@
+{
+  "meta": {
+    "n": 133,
+    "dims": 2211,
+    "hpoTermCount": 1996,
+    "causalGeneCount": 215,
+    "k": 4,
+    "fcmiters": 29,
+    "explainedKernelVariance": [
+      0.024869806421723598,
+      0.019861061257618894,
+      0.01875196406757756
+    ],
+    "maxMissingnessWarning": "Unannotated phenotypes and genes are not confirmed negatives",
+    "source": "Unreviewed unique English preferred-label Orphapacket candidates",
+    "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+    "review_status": "PROVISIONAL_DO_NOT_INTERPRET_AS_VALIDATED_CLINICAL_DISTANCE"
+  },
+  "coordinates": [
+    {
+      "id": "als",
+      "orpha_code": 803,
+      "x": -0.41805,
+      "y": 0.14207,
+      "z": -1.8254,
+      "fcm_cluster": 1,
+      "membership": 0.8476,
+      "annotated_hpo": 47,
+      "annotated_causal_genes": 23,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "duchenne-muscular-dystrophy",
+      "orpha_code": 98896,
+      "x": -0.63753,
+      "y": -0.26019,
+      "z": -0.27357,
+      "fcm_cluster": 4,
+      "membership": 0.4034,
+      "annotated_hpo": 15,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "fabry-disease",
+      "orpha_code": 324,
+      "x": -0.0067,
+      "y": -0.68664,
+      "z": 0.6893,
+      "fcm_cluster": 4,
+      "membership": 0.6073,
+      "annotated_hpo": 76,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "gaucher-disease",
+      "orpha_code": 355,
+      "x": -0.49455,
+      "y": -0.48918,
+      "z": 0.78534,
+      "fcm_cluster": 3,
+      "membership": 0.6148,
+      "annotated_hpo": 93,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "huntington-disease",
+      "orpha_code": 399,
+      "x": -0.71796,
+      "y": 0.73917,
+      "z": -1.77768,
+      "fcm_cluster": 1,
+      "membership": 0.9284,
+      "annotated_hpo": 52,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-106-2",
+      "orpha_code": 575,
+      "x": 0.42113,
+      "y": -0.77278,
+      "z": 0.62908,
+      "fcm_cluster": 4,
+      "membership": 0.7453,
+      "annotated_hpo": 37,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-111-2",
+      "orpha_code": 597,
+      "x": -0.03899,
+      "y": -0.1016,
+      "z": -0.35256,
+      "fcm_cluster": 4,
+      "membership": 0.6987,
+      "annotated_hpo": 25,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-111-6",
+      "orpha_code": 2020,
+      "x": -0.18272,
+      "y": -0.38256,
+      "z": -0.52452,
+      "fcm_cluster": 4,
+      "membership": 0.618,
+      "annotated_hpo": 59,
+      "annotated_causal_genes": 8,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-113-1-2",
+      "orpha_code": 98895,
+      "x": 0.27644,
+      "y": -0.75523,
+      "z": -0.94131,
+      "fcm_cluster": 4,
+      "membership": 0.6065,
+      "annotated_hpo": 16,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-113-4",
+      "orpha_code": 261,
+      "x": -0.06916,
+      "y": 0.07573,
+      "z": -0.17798,
+      "fcm_cluster": 4,
+      "membership": 0.6513,
+      "annotated_hpo": 44,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-113-5",
+      "orpha_code": 270,
+      "x": 0.11041,
+      "y": -0.30343,
+      "z": -0.84968,
+      "fcm_cluster": 4,
+      "membership": 0.5639,
+      "annotated_hpo": 26,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-120-12-1",
+      "orpha_code": 71517,
+      "x": -0.53418,
+      "y": 0.63507,
+      "z": -2.0095,
+      "fcm_cluster": 1,
+      "membership": 0.8672,
+      "annotated_hpo": 20,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-127-2",
+      "orpha_code": 100069,
+      "x": -0.09633,
+      "y": 0.10057,
+      "z": -0.2341,
+      "fcm_cluster": 4,
+      "membership": 0.6127,
+      "annotated_hpo": 10,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-139-1",
+      "orpha_code": 702,
+      "x": -2.54549,
+      "y": 0.21302,
+      "z": 0.976,
+      "fcm_cluster": 3,
+      "membership": 0.6577,
+      "annotated_hpo": 32,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-139-5",
+      "orpha_code": 59,
+      "x": -1.17493,
+      "y": 0.3821,
+      "z": -0.46898,
+      "fcm_cluster": 1,
+      "membership": 0.5146,
+      "annotated_hpo": 54,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-14-2",
+      "orpha_code": 641,
+      "x": -0.08039,
+      "y": 0.07511,
+      "z": -0.66723,
+      "fcm_cluster": 4,
+      "membership": 0.4566,
+      "annotated_hpo": 12,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-156-2",
+      "orpha_code": 3095,
+      "x": -1.17094,
+      "y": 0.25984,
+      "z": -0.26784,
+      "fcm_cluster": 3,
+      "membership": 0.3742,
+      "annotated_hpo": 54,
+      "annotated_causal_genes": 5,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-160-1-1",
+      "orpha_code": 312,
+      "x": 1.41138,
+      "y": 1.18001,
+      "z": 1.11583,
+      "fcm_cluster": 2,
+      "membership": 0.862,
+      "annotated_hpo": 11,
+      "annotated_causal_genes": 2,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-160-1-3",
+      "orpha_code": 455,
+      "x": 1.55919,
+      "y": 1.37211,
+      "z": 1.04576,
+      "fcm_cluster": 2,
+      "membership": 0.9147,
+      "annotated_hpo": 7,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-160-2",
+      "orpha_code": 457,
+      "x": 0.47259,
+      "y": 0.4718,
+      "z": 1.17309,
+      "fcm_cluster": 4,
+      "membership": 0.3461,
+      "annotated_hpo": 18,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-160-3-1",
+      "orpha_code": 79394,
+      "x": 0.66545,
+      "y": 0.68403,
+      "z": 1.60987,
+      "fcm_cluster": 2,
+      "membership": 0.4277,
+      "annotated_hpo": 13,
+      "annotated_causal_genes": 9,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-160-3-2",
+      "orpha_code": 313,
+      "x": 0.90542,
+      "y": 0.69011,
+      "z": 1.10729,
+      "fcm_cluster": 2,
+      "membership": 0.5539,
+      "annotated_hpo": 42,
+      "annotated_causal_genes": 10,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-160-4-2",
+      "orpha_code": 816,
+      "x": -0.59908,
+      "y": 0.44549,
+      "z": 0.37619,
+      "fcm_cluster": 3,
+      "membership": 0.5076,
+      "annotated_hpo": 88,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-160-4-9",
+      "orpha_code": 33364,
+      "x": -0.35003,
+      "y": 0.27664,
+      "z": -0.01325,
+      "fcm_cluster": 4,
+      "membership": 0.4322,
+      "annotated_hpo": 91,
+      "annotated_causal_genes": 10,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-162-1",
+      "orpha_code": 703,
+      "x": 1.62977,
+      "y": 0.57038,
+      "z": 0.66735,
+      "fcm_cluster": 2,
+      "membership": 0.7077,
+      "annotated_hpo": 15,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-162-2",
+      "orpha_code": 46486,
+      "x": 1.5017,
+      "y": 0.63785,
+      "z": 0.68912,
+      "fcm_cluster": 2,
+      "membership": 0.7329,
+      "annotated_hpo": 7,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-162-3",
+      "orpha_code": 46487,
+      "x": 1.501,
+      "y": 1.52386,
+      "z": 0.49532,
+      "fcm_cluster": 2,
+      "membership": 0.9937,
+      "annotated_hpo": 10,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-164-1",
+      "orpha_code": 79430,
+      "x": 0.30008,
+      "y": -0.26127,
+      "z": 0.13769,
+      "fcm_cluster": 4,
+      "membership": 0.9562,
+      "annotated_hpo": 39,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-164-3",
+      "orpha_code": 381,
+      "x": -0.2949,
+      "y": -0.49595,
+      "z": 0.68458,
+      "fcm_cluster": 4,
+      "membership": 0.4313,
+      "annotated_hpo": 36,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-18-2-1",
+      "orpha_code": 98757,
+      "x": -1.18412,
+      "y": 0.71578,
+      "z": -1.74793,
+      "fcm_cluster": 1,
+      "membership": 0.8856,
+      "annotated_hpo": 16,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-18-2-2",
+      "orpha_code": 98758,
+      "x": -0.74862,
+      "y": 0.71554,
+      "z": -1.87788,
+      "fcm_cluster": 1,
+      "membership": 0.9094,
+      "annotated_hpo": 19,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-18-2-4",
+      "orpha_code": 217012,
+      "x": -1.31375,
+      "y": 0.96944,
+      "z": -1.9528,
+      "fcm_cluster": 1,
+      "membership": 0.7999,
+      "annotated_hpo": 11,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-18-2-5",
+      "orpha_code": 98755,
+      "x": -1.00839,
+      "y": 0.80443,
+      "z": -2.31916,
+      "fcm_cluster": 1,
+      "membership": 0.7874,
+      "annotated_hpo": 40,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-18-2-6",
+      "orpha_code": 98756,
+      "x": -0.74591,
+      "y": 0.77512,
+      "z": -2.13028,
+      "fcm_cluster": 1,
+      "membership": 0.8403,
+      "annotated_hpo": 27,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-18-2-7",
+      "orpha_code": 94147,
+      "x": -1.09748,
+      "y": 0.54061,
+      "z": -1.60358,
+      "fcm_cluster": 1,
+      "membership": 0.9348,
+      "annotated_hpo": 32,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-18-2-8",
+      "orpha_code": 276198,
+      "x": -1.14149,
+      "y": 0.52877,
+      "z": -1.51002,
+      "fcm_cluster": 1,
+      "membership": 0.9304,
+      "annotated_hpo": 27,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-18-3-2",
+      "orpha_code": 1168,
+      "x": -0.71915,
+      "y": 0.35525,
+      "z": -0.39225,
+      "fcm_cluster": 1,
+      "membership": 0.4625,
+      "annotated_hpo": 5,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-18",
+      "orpha_code": 67041,
+      "x": -0.09665,
+      "y": -0.10067,
+      "z": 0.36378,
+      "fcm_cluster": 4,
+      "membership": 0.642,
+      "annotated_hpo": 2,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-19-1",
+      "orpha_code": 812,
+      "x": -2.13976,
+      "y": -0.10235,
+      "z": 1.70427,
+      "fcm_cluster": 3,
+      "membership": 0.7244,
+      "annotated_hpo": 42,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-19-2",
+      "orpha_code": 87876,
+      "x": -1.63091,
+      "y": -0.36691,
+      "z": 1.50376,
+      "fcm_cluster": 3,
+      "membership": 0.8334,
+      "annotated_hpo": 31,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-20",
+      "orpha_code": 351,
+      "x": -1.26964,
+      "y": -0.10364,
+      "z": 1.68759,
+      "fcm_cluster": 3,
+      "membership": 0.8208,
+      "annotated_hpo": 9,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-21-1",
+      "orpha_code": 576,
+      "x": -0.23329,
+      "y": -0.28595,
+      "z": 0.54304,
+      "fcm_cluster": 4,
+      "membership": 0.5081,
+      "annotated_hpo": 63,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-21-2",
+      "orpha_code": 577,
+      "x": -0.46442,
+      "y": -0.26853,
+      "z": 0.82056,
+      "fcm_cluster": 3,
+      "membership": 0.6432,
+      "annotated_hpo": 36,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-22",
+      "orpha_code": 61,
+      "x": -1.28048,
+      "y": -0.31978,
+      "z": 1.90497,
+      "fcm_cluster": 3,
+      "membership": 0.7531,
+      "annotated_hpo": 43,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-23",
+      "orpha_code": 118,
+      "x": -1.08707,
+      "y": -0.01943,
+      "z": 1.24114,
+      "fcm_cluster": 3,
+      "membership": 0.9409,
+      "annotated_hpo": 6,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-24",
+      "orpha_code": 349,
+      "x": -1.21549,
+      "y": -0.20971,
+      "z": 1.41977,
+      "fcm_cluster": 3,
+      "membership": 0.8993,
+      "annotated_hpo": 31,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-25",
+      "orpha_code": 93,
+      "x": -1.01354,
+      "y": -0.1978,
+      "z": 1.29787,
+      "fcm_cluster": 3,
+      "membership": 0.9158,
+      "annotated_hpo": 43,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-28",
+      "orpha_code": 275761,
+      "x": 0.37294,
+      "y": -0.09719,
+      "z": -0.01954,
+      "fcm_cluster": 4,
+      "membership": 0.9232,
+      "annotated_hpo": 49,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-29",
+      "orpha_code": 34587,
+      "x": 0.02775,
+      "y": -0.80165,
+      "z": -0.70839,
+      "fcm_cluster": 4,
+      "membership": 0.6438,
+      "annotated_hpo": 32,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-3",
+      "orpha_code": 646,
+      "x": -1.80937,
+      "y": 0.3627,
+      "z": -0.71891,
+      "fcm_cluster": 1,
+      "membership": 0.5281,
+      "annotated_hpo": 82,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-30",
+      "orpha_code": 834,
+      "x": -2.02072,
+      "y": 0.08779,
+      "z": 0.7283,
+      "fcm_cluster": 3,
+      "membership": 0.7746,
+      "annotated_hpo": 30,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-33",
+      "orpha_code": 213,
+      "x": -0.09396,
+      "y": -0.60513,
+      "z": 0.48545,
+      "fcm_cluster": 4,
+      "membership": 0.6584,
+      "annotated_hpo": 56,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-4",
+      "orpha_code": 354,
+      "x": -1.82202,
+      "y": -0.02917,
+      "z": 1.01325,
+      "fcm_cluster": 3,
+      "membership": 0.8636,
+      "annotated_hpo": 90,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-5-2",
+      "orpha_code": 796,
+      "x": -1.36602,
+      "y": -0.23555,
+      "z": 1.44257,
+      "fcm_cluster": 3,
+      "membership": 0.8879,
+      "annotated_hpo": 19,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-6",
+      "orpha_code": 487,
+      "x": -1.72103,
+      "y": 0.02084,
+      "z": 0.37764,
+      "fcm_cluster": 3,
+      "membership": 0.7667,
+      "annotated_hpo": 49,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-7",
+      "orpha_code": 512,
+      "x": -1.28723,
+      "y": 0.83044,
+      "z": -0.76326,
+      "fcm_cluster": 1,
+      "membership": 0.6784,
+      "annotated_hpo": 45,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-19-9",
+      "orpha_code": 333,
+      "x": -0.70352,
+      "y": 0.01361,
+      "z": 0.41501,
+      "fcm_cluster": 3,
+      "membership": 0.6567,
+      "annotated_hpo": 70,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-21-2",
+      "orpha_code": 506,
+      "x": -0.97329,
+      "y": 0.29414,
+      "z": -0.27492,
+      "fcm_cluster": 1,
+      "membership": 0.3885,
+      "annotated_hpo": 98,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-21-3",
+      "orpha_code": 550,
+      "x": -0.75698,
+      "y": 0.12216,
+      "z": -0.45791,
+      "fcm_cluster": 1,
+      "membership": 0.4574,
+      "annotated_hpo": 87,
+      "annotated_causal_genes": 10,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-21-4",
+      "orpha_code": 551,
+      "x": -1.21809,
+      "y": -0.10215,
+      "z": 0.32992,
+      "fcm_cluster": 3,
+      "membership": 0.8009,
+      "annotated_hpo": 11,
+      "annotated_causal_genes": 7,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-21-5",
+      "orpha_code": 104,
+      "x": -0.26651,
+      "y": 0.04015,
+      "z": -0.22112,
+      "fcm_cluster": 4,
+      "membership": 0.5436,
+      "annotated_hpo": 20,
+      "annotated_causal_genes": 11,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-229-1",
+      "orpha_code": 747,
+      "x": 1.04202,
+      "y": -1.89831,
+      "z": -0.87431,
+      "fcm_cluster": 4,
+      "membership": 0.5206,
+      "annotated_hpo": 20,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-23-1",
+      "orpha_code": 204,
+      "x": -0.69677,
+      "y": 0.38726,
+      "z": -1.16122,
+      "fcm_cluster": 1,
+      "membership": 0.9556,
+      "annotated_hpo": 37,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-23-2-2",
+      "orpha_code": 356,
+      "x": -0.50136,
+      "y": 0.56655,
+      "z": -1.59681,
+      "fcm_cluster": 1,
+      "membership": 0.956,
+      "annotated_hpo": 18,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-23-2-3",
+      "orpha_code": 466,
+      "x": -0.44409,
+      "y": 0.66447,
+      "z": -1.61644,
+      "fcm_cluster": 1,
+      "membership": 0.9313,
+      "annotated_hpo": 34,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-234-1-1",
+      "orpha_code": 912,
+      "x": -1.15204,
+      "y": -0.24422,
+      "z": 1.13199,
+      "fcm_cluster": 3,
+      "membership": 0.9678,
+      "annotated_hpo": 55,
+      "annotated_causal_genes": 13,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-234-1-2",
+      "orpha_code": 44,
+      "x": -1.58266,
+      "y": 0.03997,
+      "z": 0.87336,
+      "fcm_cluster": 3,
+      "membership": 0.9235,
+      "annotated_hpo": 29,
+      "annotated_causal_genes": 13,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-234-1-3",
+      "orpha_code": 772,
+      "x": -1.66468,
+      "y": -0.1117,
+      "z": 1.14662,
+      "fcm_cluster": 3,
+      "membership": 0.9019,
+      "annotated_hpo": 27,
+      "annotated_causal_genes": 13,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-234-2-1",
+      "orpha_code": 2971,
+      "x": -1.86564,
+      "y": -0.01542,
+      "z": 0.92808,
+      "fcm_cluster": 3,
+      "membership": 0.8484,
+      "annotated_hpo": 29,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-234-6",
+      "orpha_code": 926,
+      "x": 0.61697,
+      "y": 0.1458,
+      "z": 0.02324,
+      "fcm_cluster": 4,
+      "membership": 0.7664,
+      "annotated_hpo": 17,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-251-2",
+      "orpha_code": 664,
+      "x": -0.18794,
+      "y": -0.33257,
+      "z": 0.21488,
+      "fcm_cluster": 4,
+      "membership": 0.687,
+      "annotated_hpo": 29,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-251-4",
+      "orpha_code": 23,
+      "x": -0.43962,
+      "y": -0.35319,
+      "z": 0.13506,
+      "fcm_cluster": 4,
+      "membership": 0.5113,
+      "annotated_hpo": 51,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-251-5",
+      "orpha_code": 90,
+      "x": -1.09117,
+      "y": 0.01369,
+      "z": 0.73161,
+      "fcm_cluster": 3,
+      "membership": 0.9635,
+      "annotated_hpo": 10,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-254-1",
+      "orpha_code": 79276,
+      "x": 0.85879,
+      "y": 1.92661,
+      "z": -0.87684,
+      "fcm_cluster": 2,
+      "membership": 0.4523,
+      "annotated_hpo": 51,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-254-2",
+      "orpha_code": 79273,
+      "x": 1.44471,
+      "y": 2.24531,
+      "z": -0.17048,
+      "fcm_cluster": 2,
+      "membership": 0.7305,
+      "annotated_hpo": 33,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-254-3",
+      "orpha_code": 79473,
+      "x": 1.58733,
+      "y": 2.8618,
+      "z": -0.35254,
+      "fcm_cluster": 2,
+      "membership": 0.6084,
+      "annotated_hpo": 48,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-254-5",
+      "orpha_code": 101330,
+      "x": 1.6718,
+      "y": 2.42504,
+      "z": 0.12836,
+      "fcm_cluster": 2,
+      "membership": 0.7608,
+      "annotated_hpo": 39,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-254-6",
+      "orpha_code": 79277,
+      "x": 1.98643,
+      "y": 2.82168,
+      "z": 0.52568,
+      "fcm_cluster": 2,
+      "membership": 0.7024,
+      "annotated_hpo": 50,
+      "annotated_causal_genes": 2,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-254-8",
+      "orpha_code": 95159,
+      "x": 1.88518,
+      "y": 2.80335,
+      "z": 0.57918,
+      "fcm_cluster": 2,
+      "membership": 0.7092,
+      "annotated_hpo": 37,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-255-1",
+      "orpha_code": 79242,
+      "x": -0.0659,
+      "y": -0.44724,
+      "z": 0.26056,
+      "fcm_cluster": 4,
+      "membership": 0.7736,
+      "annotated_hpo": 20,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-255-2",
+      "orpha_code": 79241,
+      "x": -0.65823,
+      "y": -0.18512,
+      "z": 0.64072,
+      "fcm_cluster": 3,
+      "membership": 0.7424,
+      "annotated_hpo": 38,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-265-2",
+      "orpha_code": 79086,
+      "x": 0.50207,
+      "y": -0.21235,
+      "z": 0.03898,
+      "fcm_cluster": 4,
+      "membership": 0.9636,
+      "annotated_hpo": 28,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-28-1-1",
+      "orpha_code": 85443,
+      "x": 0.55794,
+      "y": -0.78579,
+      "z": -0.26175,
+      "fcm_cluster": 4,
+      "membership": 0.8831,
+      "annotated_hpo": 65,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-282-3",
+      "orpha_code": 98870,
+      "x": 0.71413,
+      "y": -0.342,
+      "z": -0.19095,
+      "fcm_cluster": 4,
+      "membership": 0.9197,
+      "annotated_hpo": 20,
+      "annotated_causal_genes": 2,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-30-1",
+      "orpha_code": 45448,
+      "x": 0.17262,
+      "y": -0.06539,
+      "z": -0.56372,
+      "fcm_cluster": 4,
+      "membership": 0.6783,
+      "annotated_hpo": 25,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-30-3",
+      "orpha_code": 98897,
+      "x": 0.17241,
+      "y": -0.0876,
+      "z": -0.81297,
+      "fcm_cluster": 4,
+      "membership": 0.5442,
+      "annotated_hpo": 36,
+      "annotated_causal_genes": 6,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-301-2",
+      "orpha_code": 827,
+      "x": 0.08245,
+      "y": 0.02173,
+      "z": -0.19748,
+      "fcm_cluster": 4,
+      "membership": 0.7532,
+      "annotated_hpo": 16,
+      "annotated_causal_genes": 3,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-301-6",
+      "orpha_code": 75377,
+      "x": 0.03212,
+      "y": 0.02828,
+      "z": -0.19183,
+      "fcm_cluster": 4,
+      "membership": 0.7267,
+      "annotated_hpo": 17,
+      "annotated_causal_genes": 3,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-308-1",
+      "orpha_code": 2478,
+      "x": -1.17348,
+      "y": 0.47587,
+      "z": -0.406,
+      "fcm_cluster": 1,
+      "membership": 0.4878,
+      "annotated_hpo": 18,
+      "annotated_causal_genes": 4,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-309-2",
+      "orpha_code": 501,
+      "x": -0.93954,
+      "y": 0.61047,
+      "z": -1.23361,
+      "fcm_cluster": 1,
+      "membership": 0.9576,
+      "annotated_hpo": 35,
+      "annotated_causal_genes": 2,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-316-2",
+      "orpha_code": 157,
+      "x": 0.33854,
+      "y": -0.42517,
+      "z": -0.3407,
+      "fcm_cluster": 4,
+      "membership": 0.9198,
+      "annotated_hpo": 42,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-316-3",
+      "orpha_code": 159,
+      "x": -0.19402,
+      "y": -0.48242,
+      "z": 0.08462,
+      "fcm_cluster": 4,
+      "membership": 0.7255,
+      "annotated_hpo": 30,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-316-4",
+      "orpha_code": 158,
+      "x": 0.0663,
+      "y": -0.21099,
+      "z": -0.40039,
+      "fcm_cluster": 4,
+      "membership": 0.7722,
+      "annotated_hpo": 9,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-325-3",
+      "orpha_code": 51,
+      "x": -0.76948,
+      "y": 0.0608,
+      "z": -0.01855,
+      "fcm_cluster": 3,
+      "membership": 0.4317,
+      "annotated_hpo": 72,
+      "annotated_causal_genes": 9,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-34-1",
+      "orpha_code": 636,
+      "x": -0.51342,
+      "y": 0.05234,
+      "z": 0.58875,
+      "fcm_cluster": 3,
+      "membership": 0.6069,
+      "annotated_hpo": 77,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-35-2",
+      "orpha_code": 79481,
+      "x": 2.02669,
+      "y": 1.37334,
+      "z": 0.90586,
+      "fcm_cluster": 2,
+      "membership": 0.8896,
+      "annotated_hpo": 20,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-35-3",
+      "orpha_code": 63455,
+      "x": 1.57,
+      "y": 1.46404,
+      "z": 0.52882,
+      "fcm_cluster": 2,
+      "membership": 0.9967,
+      "annotated_hpo": 7,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-35-4",
+      "orpha_code": 79479,
+      "x": 0.70974,
+      "y": 0.47977,
+      "z": 0.25692,
+      "fcm_cluster": 4,
+      "membership": 0.4962,
+      "annotated_hpo": 25,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-35-5",
+      "orpha_code": 79480,
+      "x": 1.70113,
+      "y": 0.92371,
+      "z": 0.52992,
+      "fcm_cluster": 2,
+      "membership": 0.885,
+      "annotated_hpo": 14,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-48-3",
+      "orpha_code": 464343,
+      "x": 0.38329,
+      "y": -0.24611,
+      "z": -0.09806,
+      "fcm_cluster": 4,
+      "membership": 0.9729,
+      "annotated_hpo": 52,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-50-1",
+      "orpha_code": 221,
+      "x": 1.03917,
+      "y": -0.89984,
+      "z": 0.0413,
+      "fcm_cluster": 4,
+      "membership": 0.7692,
+      "annotated_hpo": 76,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-50-3",
+      "orpha_code": 732,
+      "x": 0.90153,
+      "y": -1.50232,
+      "z": -0.29108,
+      "fcm_cluster": 4,
+      "membership": 0.6461,
+      "annotated_hpo": 60,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-60-1",
+      "orpha_code": 88,
+      "x": 0.65199,
+      "y": -0.43775,
+      "z": 0.01902,
+      "fcm_cluster": 4,
+      "membership": 0.9618,
+      "annotated_hpo": 12,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-61-2",
+      "orpha_code": 56425,
+      "x": 1.45885,
+      "y": -1.40324,
+      "z": -0.12362,
+      "fcm_cluster": 4,
+      "membership": 0.5965,
+      "annotated_hpo": 14,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-61-4",
+      "orpha_code": 90036,
+      "x": 1.54946,
+      "y": -1.63748,
+      "z": -0.28138,
+      "fcm_cluster": 4,
+      "membership": 0.5533,
+      "annotated_hpo": 14,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-61-5",
+      "orpha_code": 1959,
+      "x": 0.97966,
+      "y": -1.39996,
+      "z": -0.3744,
+      "fcm_cluster": 4,
+      "membership": 0.6535,
+      "annotated_hpo": 13,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-62-3",
+      "orpha_code": 447,
+      "x": 0.82996,
+      "y": -0.28844,
+      "z": -0.30753,
+      "fcm_cluster": 4,
+      "membership": 0.8446,
+      "annotated_hpo": 44,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-10",
+      "orpha_code": 906,
+      "x": 1.06084,
+      "y": -1.03931,
+      "z": 0.33846,
+      "fcm_cluster": 4,
+      "membership": 0.7085,
+      "annotated_hpo": 57,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-13",
+      "orpha_code": 125,
+      "x": 0.81209,
+      "y": 0.05969,
+      "z": 0.3035,
+      "fcm_cluster": 4,
+      "membership": 0.7154,
+      "annotated_hpo": 67,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-18",
+      "orpha_code": 634,
+      "x": 0.51832,
+      "y": -0.0575,
+      "z": 0.63885,
+      "fcm_cluster": 4,
+      "membership": 0.6877,
+      "annotated_hpo": 44,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-2",
+      "orpha_code": 33355,
+      "x": 0.26201,
+      "y": -0.57958,
+      "z": 0.8643,
+      "fcm_cluster": 4,
+      "membership": 0.6216,
+      "annotated_hpo": 20,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-21",
+      "orpha_code": 79124,
+      "x": 0.21926,
+      "y": -0.49286,
+      "z": 0.07573,
+      "fcm_cluster": 4,
+      "membership": 0.9614,
+      "annotated_hpo": 39,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-30",
+      "orpha_code": 167,
+      "x": 0.33847,
+      "y": 0.08922,
+      "z": 0.06672,
+      "fcm_cluster": 4,
+      "membership": 0.8094,
+      "annotated_hpo": 76,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-32",
+      "orpha_code": 3261,
+      "x": 0.97957,
+      "y": -0.73505,
+      "z": 0.29075,
+      "fcm_cluster": 4,
+      "membership": 0.7865,
+      "annotated_hpo": 72,
+      "annotated_causal_genes": 4,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-34",
+      "orpha_code": 2686,
+      "x": 0.889,
+      "y": -0.43178,
+      "z": -0.00834,
+      "fcm_cluster": 4,
+      "membership": 0.8759,
+      "annotated_hpo": 32,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-35",
+      "orpha_code": 2968,
+      "x": 0.45314,
+      "y": -0.3779,
+      "z": 0.3537,
+      "fcm_cluster": 4,
+      "membership": 0.9091,
+      "annotated_hpo": 52,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-36",
+      "orpha_code": 811,
+      "x": 0.24254,
+      "y": -0.28086,
+      "z": 0.5395,
+      "fcm_cluster": 4,
+      "membership": 0.77,
+      "annotated_hpo": 69,
+      "annotated_causal_genes": 3,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-37",
+      "orpha_code": 379,
+      "x": 0.64101,
+      "y": -0.52958,
+      "z": 0.69842,
+      "fcm_cluster": 4,
+      "membership": 0.7341,
+      "annotated_hpo": 22,
+      "annotated_causal_genes": 6,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-4",
+      "orpha_code": 39041,
+      "x": 0.94108,
+      "y": -0.43791,
+      "z": 1.11352,
+      "fcm_cluster": 4,
+      "membership": 0.5363,
+      "annotated_hpo": 28,
+      "annotated_causal_genes": 10,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-43",
+      "orpha_code": 1334,
+      "x": 0.59395,
+      "y": -0.09263,
+      "z": 0.5386,
+      "fcm_cluster": 4,
+      "membership": 0.7438,
+      "annotated_hpo": 31,
+      "annotated_causal_genes": 5,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-65-5",
+      "orpha_code": 760,
+      "x": 0.05217,
+      "y": -0.28875,
+      "z": 0.52082,
+      "fcm_cluster": 4,
+      "membership": 0.7054,
+      "annotated_hpo": 29,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-67-1",
+      "orpha_code": 730,
+      "x": 0.45191,
+      "y": -0.09455,
+      "z": -0.24644,
+      "fcm_cluster": 4,
+      "membership": 0.8862,
+      "annotated_hpo": 26,
+      "annotated_causal_genes": 8,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-67-2",
+      "orpha_code": 731,
+      "x": 0.41071,
+      "y": -0.11267,
+      "z": -0.06224,
+      "fcm_cluster": 4,
+      "membership": 0.9305,
+      "annotated_hpo": 51,
+      "annotated_causal_genes": 2,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-85-1",
+      "orpha_code": 2032,
+      "x": 1.11048,
+      "y": -1.98461,
+      "z": -0.80424,
+      "fcm_cluster": 4,
+      "membership": 0.5156,
+      "annotated_hpo": 20,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-85-2-2",
+      "orpha_code": 79126,
+      "x": 1.3169,
+      "y": -2.43974,
+      "z": -1.06841,
+      "fcm_cluster": 4,
+      "membership": 0.4531,
+      "annotated_hpo": 33,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-85-2-3",
+      "orpha_code": 1302,
+      "x": 1.43431,
+      "y": -2.63099,
+      "z": -0.93894,
+      "fcm_cluster": 4,
+      "membership": 0.4447,
+      "annotated_hpo": 27,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-85-2-6",
+      "orpha_code": 79128,
+      "x": 1.54584,
+      "y": -2.76704,
+      "z": -0.75437,
+      "fcm_cluster": 4,
+      "membership": 0.4402,
+      "annotated_hpo": 34,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-87-2",
+      "orpha_code": 199241,
+      "x": 1.0473,
+      "y": -1.80675,
+      "z": -0.68458,
+      "fcm_cluster": 4,
+      "membership": 0.55,
+      "annotated_hpo": 25,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-9-1",
+      "orpha_code": 2388,
+      "x": -0.3725,
+      "y": 0.40422,
+      "z": -1.33473,
+      "fcm_cluster": 1,
+      "membership": 0.9172,
+      "annotated_hpo": 86,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "nando-98-3",
+      "orpha_code": 2070,
+      "x": 0.74591,
+      "y": -0.44557,
+      "z": -0.06308,
+      "fcm_cluster": 4,
+      "membership": 0.9306,
+      "annotated_hpo": 21,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "primary-biliary-cholangitis",
+      "orpha_code": 186,
+      "x": 0.775,
+      "y": -0.08947,
+      "z": 0.20525,
+      "fcm_cluster": 4,
+      "membership": 0.8234,
+      "annotated_hpo": 41,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "systemic-sclerosis",
+      "orpha_code": 90291,
+      "x": 0.65302,
+      "y": -0.54781,
+      "z": -0.20131,
+      "fcm_cluster": 4,
+      "membership": 0.9326,
+      "annotated_hpo": 86,
+      "annotated_causal_genes": 0,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    },
+    {
+      "id": "wilson-disease",
+      "orpha_code": 905,
+      "x": -0.02994,
+      "y": 0.03525,
+      "z": -0.3314,
+      "fcm_cluster": 4,
+      "membership": 0.6513,
+      "annotated_hpo": 56,
+      "annotated_causal_genes": 1,
+      "model_version": "orpha-exact-label-provisional-hpo-pca-fcm-v1"
+    }
+  ],
+  "neighbors": [
+    {
+      "id": "als",
+      "closest": [
+        {
+          "id": "nando-18-2-8",
+          "cosine": 0.18403340783231797
+        },
+        {
+          "id": "nando-120-12-1",
+          "cosine": 0.1259653338643476
+        },
+        {
+          "id": "nando-23-2-2",
+          "cosine": 0.1030220122846583
+        }
+      ]
+    },
+    {
+      "id": "duchenne-muscular-dystrophy",
+      "closest": [
+        {
+          "id": "nando-111-6",
+          "cosine": 0.1506694307647176
+        },
+        {
+          "id": "nando-19-19-2",
+          "cosine": 0.1446920483904672
+        },
+        {
+          "id": "nando-234-1-3",
+          "cosine": 0.1338535790798847
+        }
+      ]
+    },
+    {
+      "id": "fabry-disease",
+      "closest": [
+        {
+          "id": "nando-28-1-1",
+          "cosine": 0.14202592463325514
+        },
+        {
+          "id": "nando-106-2",
+          "cosine": 0.1394541613571433
+        },
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.11864294674695867
+        }
+      ]
+    },
+    {
+      "id": "gaucher-disease",
+      "closest": [
+        {
+          "id": "wilson-disease",
+          "cosine": 0.17131347528385898
+        },
+        {
+          "id": "nando-19-19-2",
+          "cosine": 0.15821835730727957
+        },
+        {
+          "id": "nando-19-4",
+          "cosine": 0.12724060454287092
+        }
+      ]
+    },
+    {
+      "id": "huntington-disease",
+      "closest": [
+        {
+          "id": "nando-9-1",
+          "cosine": 0.18717204565248927
+        },
+        {
+          "id": "nando-18-2-5",
+          "cosine": 0.18713893682644736
+        },
+        {
+          "id": "nando-19-3",
+          "cosine": 0.16319555375428077
+        }
+      ]
+    },
+    {
+      "id": "nando-106-2",
+      "closest": [
+        {
+          "id": "fabry-disease",
+          "cosine": 0.1394541613571433
+        },
+        {
+          "id": "nando-50-3",
+          "cosine": 0.12538038867246384
+        },
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.1180543246738487
+        }
+      ]
+    },
+    {
+      "id": "nando-111-2",
+      "closest": [
+        {
+          "id": "nando-111-6",
+          "cosine": 0.19484383500420807
+        },
+        {
+          "id": "nando-30-1",
+          "cosine": 0.09304416994218646
+        },
+        {
+          "id": "nando-139-5",
+          "cosine": 0.07049582020380812
+        }
+      ]
+    },
+    {
+      "id": "nando-111-6",
+      "closest": [
+        {
+          "id": "nando-111-2",
+          "cosine": 0.19484383500420807
+        },
+        {
+          "id": "nando-30-3",
+          "cosine": 0.1768211244255262
+        },
+        {
+          "id": "duchenne-muscular-dystrophy",
+          "cosine": 0.1506694307647176
+        }
+      ]
+    },
+    {
+      "id": "nando-113-1-2",
+      "closest": [
+        {
+          "id": "nando-316-2",
+          "cosine": 0.2897616680789915
+        },
+        {
+          "id": "nando-61-2",
+          "cosine": 0.16038382219293934
+        },
+        {
+          "id": "nando-30-1",
+          "cosine": 0.1510225956253769
+        }
+      ]
+    },
+    {
+      "id": "nando-113-4",
+      "closest": [
+        {
+          "id": "nando-111-6",
+          "cosine": 0.12939472404537578
+        },
+        {
+          "id": "nando-113-5",
+          "cosine": 0.1054574553454414
+        },
+        {
+          "id": "duchenne-muscular-dystrophy",
+          "cosine": 0.10423055065392692
+        }
+      ]
+    },
+    {
+      "id": "nando-113-5",
+      "closest": [
+        {
+          "id": "nando-21-4",
+          "cosine": 0.15788038029011953
+        },
+        {
+          "id": "nando-113-4",
+          "cosine": 0.1054574553454414
+        },
+        {
+          "id": "als",
+          "cosine": 0.10258624193393583
+        }
+      ]
+    },
+    {
+      "id": "nando-120-12-1",
+      "closest": [
+        {
+          "id": "nando-18-2-4",
+          "cosine": 0.22891883478700362
+        },
+        {
+          "id": "nando-18-2-2",
+          "cosine": 0.1740122140892175
+        },
+        {
+          "id": "nando-9-1",
+          "cosine": 0.14725827505029815
+        }
+      ]
+    },
+    {
+      "id": "nando-127-2",
+      "closest": [
+        {
+          "id": "nando-21-3",
+          "cosine": 0.10042038170977363
+        },
+        {
+          "id": "nando-251-5",
+          "cosine": 0.06413321370689132
+        },
+        {
+          "id": "nando-309-2",
+          "cosine": 0.05758786341139416
+        }
+      ]
+    },
+    {
+      "id": "nando-139-1",
+      "closest": [
+        {
+          "id": "nando-19-30",
+          "cosine": 0.24440286594648578
+        },
+        {
+          "id": "nando-19-7",
+          "cosine": 0.2192939164332377
+        },
+        {
+          "id": "nando-234-2-1",
+          "cosine": 0.2181467937360935
+        }
+      ]
+    },
+    {
+      "id": "nando-139-5",
+      "closest": [
+        {
+          "id": "nando-18-2-1",
+          "cosine": 0.19418837700093575
+        },
+        {
+          "id": "nando-139-1",
+          "cosine": 0.18761334367386573
+        },
+        {
+          "id": "nando-111-6",
+          "cosine": 0.14819610559398966
+        }
+      ]
+    },
+    {
+      "id": "nando-14-2",
+      "closest": [
+        {
+          "id": "nando-19-7",
+          "cosine": 0.10276510984733188
+        },
+        {
+          "id": "nando-18-2-6",
+          "cosine": 0.09373864119511505
+        },
+        {
+          "id": "nando-111-6",
+          "cosine": 0.08719676782336384
+        }
+      ]
+    },
+    {
+      "id": "nando-156-2",
+      "closest": [
+        {
+          "id": "nando-139-1",
+          "cosine": 0.14458046402514807
+        },
+        {
+          "id": "nando-234-1-2",
+          "cosine": 0.12108161700340182
+        },
+        {
+          "id": "huntington-disease",
+          "cosine": 0.10745920102766492
+        }
+      ]
+    },
+    {
+      "id": "nando-160-1-1",
+      "closest": [
+        {
+          "id": "nando-160-1-3",
+          "cosine": 0.25386397717221537
+        },
+        {
+          "id": "nando-160-3-1",
+          "cosine": 0.24779775446343988
+        },
+        {
+          "id": "nando-160-2",
+          "cosine": 0.23202859024690875
+        }
+      ]
+    },
+    {
+      "id": "nando-160-1-3",
+      "closest": [
+        {
+          "id": "nando-35-2",
+          "cosine": 0.2682925940691228
+        },
+        {
+          "id": "nando-160-1-1",
+          "cosine": 0.25386397717221537
+        },
+        {
+          "id": "nando-35-5",
+          "cosine": 0.2165205591521268
+        }
+      ]
+    },
+    {
+      "id": "nando-160-2",
+      "closest": [
+        {
+          "id": "nando-160-3-1",
+          "cosine": 0.2424932148552444
+        },
+        {
+          "id": "nando-160-1-1",
+          "cosine": 0.23202859024690875
+        },
+        {
+          "id": "nando-160-3-2",
+          "cosine": 0.20154763028755174
+        }
+      ]
+    },
+    {
+      "id": "nando-160-3-1",
+      "closest": [
+        {
+          "id": "nando-160-3-2",
+          "cosine": 0.34537573731153154
+        },
+        {
+          "id": "nando-160-1-1",
+          "cosine": 0.24779775446343988
+        },
+        {
+          "id": "nando-160-2",
+          "cosine": 0.2424932148552444
+        }
+      ]
+    },
+    {
+      "id": "nando-160-3-2",
+      "closest": [
+        {
+          "id": "nando-160-3-1",
+          "cosine": 0.34537573731153154
+        },
+        {
+          "id": "nando-160-2",
+          "cosine": 0.20154763028755174
+        },
+        {
+          "id": "nando-160-1-1",
+          "cosine": 0.15476331739849747
+        }
+      ]
+    },
+    {
+      "id": "nando-160-4-2",
+      "closest": [
+        {
+          "id": "nando-139-5",
+          "cosine": 0.1237108990521561
+        },
+        {
+          "id": "nando-160-4-9",
+          "cosine": 0.11948175111634018
+        },
+        {
+          "id": "nando-325-3",
+          "cosine": 0.11324160483065886
+        }
+      ]
+    },
+    {
+      "id": "nando-160-4-9",
+      "closest": [
+        {
+          "id": "nando-18-2-4",
+          "cosine": 0.1201861591218644
+        },
+        {
+          "id": "nando-160-4-2",
+          "cosine": 0.11948175111634018
+        },
+        {
+          "id": "nando-164-1",
+          "cosine": 0.09939045772670248
+        }
+      ]
+    },
+    {
+      "id": "nando-162-1",
+      "closest": [
+        {
+          "id": "nando-35-2",
+          "cosine": 0.22643195752793416
+        },
+        {
+          "id": "nando-162-2",
+          "cosine": 0.20984773870336593
+        },
+        {
+          "id": "nando-162-3",
+          "cosine": 0.16776019958132188
+        }
+      ]
+    },
+    {
+      "id": "nando-162-2",
+      "closest": [
+        {
+          "id": "nando-35-3",
+          "cosine": 0.29693402693863596
+        },
+        {
+          "id": "nando-162-1",
+          "cosine": 0.20984773870336593
+        },
+        {
+          "id": "nando-162-3",
+          "cosine": 0.1758540779158515
+        }
+      ]
+    },
+    {
+      "id": "nando-162-3",
+      "closest": [
+        {
+          "id": "nando-162-2",
+          "cosine": 0.1758540779158515
+        },
+        {
+          "id": "nando-162-1",
+          "cosine": 0.16776019958132188
+        },
+        {
+          "id": "nando-254-3",
+          "cosine": 0.15874257064171424
+        }
+      ]
+    },
+    {
+      "id": "nando-164-1",
+      "closest": [
+        {
+          "id": "nando-65-30",
+          "cosine": 0.22702359721480353
+        },
+        {
+          "id": "nando-61-5",
+          "cosine": 0.10980202637232826
+        },
+        {
+          "id": "nando-234-2-1",
+          "cosine": 0.10916033481298057
+        }
+      ]
+    },
+    {
+      "id": "nando-164-3",
+      "closest": [
+        {
+          "id": "nando-65-2",
+          "cosine": 0.18737027052642768
+        },
+        {
+          "id": "nando-19-30",
+          "cosine": 0.13232243091132254
+        },
+        {
+          "id": "nando-65-37",
+          "cosine": 0.12730671647385278
+        }
+      ]
+    },
+    {
+      "id": "nando-18-2-1",
+      "closest": [
+        {
+          "id": "nando-18-2-2",
+          "cosine": 0.2472220208618532
+        },
+        {
+          "id": "nando-139-5",
+          "cosine": 0.19418837700093575
+        },
+        {
+          "id": "nando-18-2-4",
+          "cosine": 0.16506799123542515
+        }
+      ]
+    },
+    {
+      "id": "nando-18-2-2",
+      "closest": [
+        {
+          "id": "nando-18-2-1",
+          "cosine": 0.2472220208618532
+        },
+        {
+          "id": "nando-18-2-4",
+          "cosine": 0.20386135906358285
+        },
+        {
+          "id": "nando-120-12-1",
+          "cosine": 0.1740122140892175
+        }
+      ]
+    },
+    {
+      "id": "nando-18-2-4",
+      "closest": [
+        {
+          "id": "nando-18-2-6",
+          "cosine": 0.24351988955391152
+        },
+        {
+          "id": "nando-120-12-1",
+          "cosine": 0.22891883478700362
+        },
+        {
+          "id": "nando-18-2-7",
+          "cosine": 0.20612366765198137
+        }
+      ]
+    },
+    {
+      "id": "nando-18-2-5",
+      "closest": [
+        {
+          "id": "nando-18-2-6",
+          "cosine": 0.25607549482844805
+        },
+        {
+          "id": "nando-18-2-8",
+          "cosine": 0.2051407658851371
+        },
+        {
+          "id": "nando-18-2-4",
+          "cosine": 0.19344049479222747
+        }
+      ]
+    },
+    {
+      "id": "nando-18-2-6",
+      "closest": [
+        {
+          "id": "nando-18-2-5",
+          "cosine": 0.25607549482844805
+        },
+        {
+          "id": "nando-18-2-4",
+          "cosine": 0.24351988955391152
+        },
+        {
+          "id": "nando-18-2-1",
+          "cosine": 0.1596554333278162
+        }
+      ]
+    },
+    {
+      "id": "nando-18-2-7",
+      "closest": [
+        {
+          "id": "nando-18-2-4",
+          "cosine": 0.20612366765198137
+        },
+        {
+          "id": "nando-18-2-8",
+          "cosine": 0.17855845317770447
+        },
+        {
+          "id": "nando-18-2-5",
+          "cosine": 0.14588013402356315
+        }
+      ]
+    },
+    {
+      "id": "nando-18-2-8",
+      "closest": [
+        {
+          "id": "nando-18-2-5",
+          "cosine": 0.2051407658851371
+        },
+        {
+          "id": "als",
+          "cosine": 0.18403340783231797
+        },
+        {
+          "id": "nando-18-2-7",
+          "cosine": 0.17855845317770447
+        }
+      ]
+    },
+    {
+      "id": "nando-18-3-2",
+      "closest": [
+        {
+          "id": "nando-19-7",
+          "cosine": 0.14472361130329656
+        },
+        {
+          "id": "nando-19-6",
+          "cosine": 0.1327887751811225
+        },
+        {
+          "id": "nando-139-1",
+          "cosine": 0.12292653571004084
+        }
+      ]
+    },
+    {
+      "id": "nando-19-18",
+      "closest": [
+        {
+          "id": "nando-21-4",
+          "cosine": 0.07927278100808385
+        },
+        {
+          "id": "nando-234-1-3",
+          "cosine": 0.0727092287053849
+        },
+        {
+          "id": "nando-19-19-2",
+          "cosine": 0.06456838503402693
+        }
+      ]
+    },
+    {
+      "id": "nando-19-19-1",
+      "closest": [
+        {
+          "id": "nando-19-19-2",
+          "cosine": 0.3096269128292984
+        },
+        {
+          "id": "nando-19-20",
+          "cosine": 0.22853714540317968
+        },
+        {
+          "id": "nando-139-1",
+          "cosine": 0.20788058895907496
+        }
+      ]
+    },
+    {
+      "id": "nando-19-19-2",
+      "closest": [
+        {
+          "id": "nando-19-19-1",
+          "cosine": 0.3096269128292984
+        },
+        {
+          "id": "nando-19-5-2",
+          "cosine": 0.1982521698979836
+        },
+        {
+          "id": "nando-19-24",
+          "cosine": 0.1937545510130132
+        }
+      ]
+    },
+    {
+      "id": "nando-19-20",
+      "closest": [
+        {
+          "id": "nando-19-19-1",
+          "cosine": 0.22853714540317968
+        },
+        {
+          "id": "nando-19-5-2",
+          "cosine": 0.21239993403800253
+        },
+        {
+          "id": "nando-19-22",
+          "cosine": 0.21038207189650676
+        }
+      ]
+    },
+    {
+      "id": "nando-19-21-1",
+      "closest": [
+        {
+          "id": "nando-19-21-2",
+          "cosine": 0.11682218846442398
+        },
+        {
+          "id": "nando-19-19-2",
+          "cosine": 0.11247226901106165
+        },
+        {
+          "id": "nando-19-4",
+          "cosine": 0.10916543689312873
+        }
+      ]
+    },
+    {
+      "id": "nando-19-21-2",
+      "closest": [
+        {
+          "id": "nando-19-22",
+          "cosine": 0.18536412320214207
+        },
+        {
+          "id": "nando-19-19-1",
+          "cosine": 0.14338037338231888
+        },
+        {
+          "id": "nando-19-4",
+          "cosine": 0.1305546458981488
+        }
+      ]
+    },
+    {
+      "id": "nando-19-22",
+      "closest": [
+        {
+          "id": "nando-19-25",
+          "cosine": 0.21782926027137858
+        },
+        {
+          "id": "nando-19-20",
+          "cosine": 0.21038207189650676
+        },
+        {
+          "id": "nando-19-4",
+          "cosine": 0.19657899901405645
+        }
+      ]
+    },
+    {
+      "id": "nando-19-23",
+      "closest": [
+        {
+          "id": "nando-19-30",
+          "cosine": 0.20516951660894198
+        },
+        {
+          "id": "nando-19-20",
+          "cosine": 0.20423544599003343
+        },
+        {
+          "id": "nando-19-5-2",
+          "cosine": 0.15474632017917953
+        }
+      ]
+    },
+    {
+      "id": "nando-19-24",
+      "closest": [
+        {
+          "id": "nando-19-19-2",
+          "cosine": 0.1937545510130132
+        },
+        {
+          "id": "nando-19-23",
+          "cosine": 0.15128798877797828
+        },
+        {
+          "id": "nando-19-19-1",
+          "cosine": 0.1336926256324361
+        }
+      ]
+    },
+    {
+      "id": "nando-19-25",
+      "closest": [
+        {
+          "id": "nando-19-22",
+          "cosine": 0.21782926027137858
+        },
+        {
+          "id": "nando-19-19-1",
+          "cosine": 0.1680329832536728
+        },
+        {
+          "id": "nando-19-19-2",
+          "cosine": 0.1645225683278336
+        }
+      ]
+    },
+    {
+      "id": "nando-19-28",
+      "closest": [
+        {
+          "id": "primary-biliary-cholangitis",
+          "cosine": 0.22998667191878555
+        },
+        {
+          "id": "nando-98-3",
+          "cosine": 0.14891947941449662
+        },
+        {
+          "id": "nando-65-30",
+          "cosine": 0.13714152671612034
+        }
+      ]
+    },
+    {
+      "id": "nando-19-29",
+      "closest": [
+        {
+          "id": "nando-85-2-3",
+          "cosine": 0.12758184766884742
+        },
+        {
+          "id": "nando-85-2-6",
+          "cosine": 0.11678843367901202
+        },
+        {
+          "id": "nando-113-1-2",
+          "cosine": 0.11330499033868437
+        }
+      ]
+    },
+    {
+      "id": "nando-19-3",
+      "closest": [
+        {
+          "id": "nando-19-30",
+          "cosine": 0.18577443254729925
+        },
+        {
+          "id": "huntington-disease",
+          "cosine": 0.16319555375428077
+        },
+        {
+          "id": "nando-19-7",
+          "cosine": 0.16192040052222556
+        }
+      ]
+    },
+    {
+      "id": "nando-19-30",
+      "closest": [
+        {
+          "id": "nando-139-1",
+          "cosine": 0.24440286594648578
+        },
+        {
+          "id": "nando-19-23",
+          "cosine": 0.20516951660894198
+        },
+        {
+          "id": "nando-19-4",
+          "cosine": 0.18931167362776907
+        }
+      ]
+    },
+    {
+      "id": "nando-19-33",
+      "closest": [
+        {
+          "id": "nando-19-19-1",
+          "cosine": 0.11522459090322963
+        },
+        {
+          "id": "nando-21-3",
+          "cosine": 0.11475173743389123
+        },
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.10935351263642701
+        }
+      ]
+    },
+    {
+      "id": "nando-19-4",
+      "closest": [
+        {
+          "id": "nando-139-1",
+          "cosine": 0.20741813211582794
+        },
+        {
+          "id": "nando-19-19-1",
+          "cosine": 0.2035815718749463
+        },
+        {
+          "id": "nando-19-22",
+          "cosine": 0.19657899901405645
+        }
+      ]
+    },
+    {
+      "id": "nando-19-5-2",
+      "closest": [
+        {
+          "id": "nando-19-20",
+          "cosine": 0.21239993403800253
+        },
+        {
+          "id": "nando-19-19-2",
+          "cosine": 0.1982521698979836
+        },
+        {
+          "id": "nando-19-19-1",
+          "cosine": 0.17216608411577478
+        }
+      ]
+    },
+    {
+      "id": "nando-19-6",
+      "closest": [
+        {
+          "id": "nando-19-7",
+          "cosine": 0.2328001671904766
+        },
+        {
+          "id": "nando-21-4",
+          "cosine": 0.21926533589358638
+        },
+        {
+          "id": "nando-139-1",
+          "cosine": 0.1948830123080173
+        }
+      ]
+    },
+    {
+      "id": "nando-19-7",
+      "closest": [
+        {
+          "id": "nando-19-6",
+          "cosine": 0.2328001671904766
+        },
+        {
+          "id": "nando-139-1",
+          "cosine": 0.2192939164332377
+        },
+        {
+          "id": "nando-23-1",
+          "cosine": 0.1655626949215664
+        }
+      ]
+    },
+    {
+      "id": "nando-19-9",
+      "closest": [
+        {
+          "id": "wilson-disease",
+          "cosine": 0.14511167028724176
+        },
+        {
+          "id": "nando-111-6",
+          "cosine": 0.13843315166437273
+        },
+        {
+          "id": "nando-19-7",
+          "cosine": 0.1221979361892991
+        }
+      ]
+    },
+    {
+      "id": "nando-21-2",
+      "closest": [
+        {
+          "id": "nando-21-3",
+          "cosine": 0.17907113286593002
+        },
+        {
+          "id": "nando-19-7",
+          "cosine": 0.1275718572736271
+        },
+        {
+          "id": "nando-19-3",
+          "cosine": 0.12330023538076217
+        }
+      ]
+    },
+    {
+      "id": "nando-21-3",
+      "closest": [
+        {
+          "id": "nando-21-4",
+          "cosine": 0.1814641411405742
+        },
+        {
+          "id": "nando-21-2",
+          "cosine": 0.17907113286593002
+        },
+        {
+          "id": "nando-19-7",
+          "cosine": 0.11530049609801042
+        }
+      ]
+    },
+    {
+      "id": "nando-21-4",
+      "closest": [
+        {
+          "id": "nando-19-6",
+          "cosine": 0.21926533589358638
+        },
+        {
+          "id": "nando-21-3",
+          "cosine": 0.1814641411405742
+        },
+        {
+          "id": "nando-113-5",
+          "cosine": 0.15788038029011953
+        }
+      ]
+    },
+    {
+      "id": "nando-21-5",
+      "closest": [
+        {
+          "id": "nando-301-2",
+          "cosine": 0.12903622671869194
+        },
+        {
+          "id": "nando-301-6",
+          "cosine": 0.09720267130127767
+        },
+        {
+          "id": "nando-21-4",
+          "cosine": 0.09079218522849528
+        }
+      ]
+    },
+    {
+      "id": "nando-229-1",
+      "closest": [
+        {
+          "id": "nando-85-2-6",
+          "cosine": 0.37594819241719224
+        },
+        {
+          "id": "nando-85-2-3",
+          "cosine": 0.23215352156734845
+        },
+        {
+          "id": "nando-85-2-2",
+          "cosine": 0.2052681666418903
+        }
+      ]
+    },
+    {
+      "id": "nando-23-1",
+      "closest": [
+        {
+          "id": "nando-309-2",
+          "cosine": 0.2718285816719938
+        },
+        {
+          "id": "nando-19-7",
+          "cosine": 0.1655626949215664
+        },
+        {
+          "id": "nando-23-2-3",
+          "cosine": 0.15017691285966062
+        }
+      ]
+    },
+    {
+      "id": "nando-23-2-2",
+      "closest": [
+        {
+          "id": "nando-18-2-4",
+          "cosine": 0.16962875468655444
+        },
+        {
+          "id": "nando-23-2-3",
+          "cosine": 0.1360288932526906
+        },
+        {
+          "id": "als",
+          "cosine": 0.1030220122846583
+        }
+      ]
+    },
+    {
+      "id": "nando-23-2-3",
+      "closest": [
+        {
+          "id": "nando-23-1",
+          "cosine": 0.15017691285966062
+        },
+        {
+          "id": "nando-254-1",
+          "cosine": 0.14594841781490278
+        },
+        {
+          "id": "huntington-disease",
+          "cosine": 0.14030109375306174
+        }
+      ]
+    },
+    {
+      "id": "nando-234-1-1",
+      "closest": [
+        {
+          "id": "nando-234-1-2",
+          "cosine": 0.26806741492202635
+        },
+        {
+          "id": "nando-234-2-1",
+          "cosine": 0.19834872465897715
+        },
+        {
+          "id": "nando-234-1-3",
+          "cosine": 0.19801500022562424
+        }
+      ]
+    },
+    {
+      "id": "nando-234-1-2",
+      "closest": [
+        {
+          "id": "nando-234-1-1",
+          "cosine": 0.26806741492202635
+        },
+        {
+          "id": "nando-234-2-1",
+          "cosine": 0.2653485282628041
+        },
+        {
+          "id": "nando-19-19-1",
+          "cosine": 0.18005689873099398
+        }
+      ]
+    },
+    {
+      "id": "nando-234-1-3",
+      "closest": [
+        {
+          "id": "nando-139-1",
+          "cosine": 0.20195761945870308
+        },
+        {
+          "id": "nando-234-1-1",
+          "cosine": 0.19801500022562424
+        },
+        {
+          "id": "nando-19-6",
+          "cosine": 0.18633806777412174
+        }
+      ]
+    },
+    {
+      "id": "nando-234-2-1",
+      "closest": [
+        {
+          "id": "nando-234-1-2",
+          "cosine": 0.2653485282628041
+        },
+        {
+          "id": "nando-251-5",
+          "cosine": 0.2630158236088709
+        },
+        {
+          "id": "nando-139-1",
+          "cosine": 0.2181467937360935
+        }
+      ]
+    },
+    {
+      "id": "nando-234-6",
+      "closest": [
+        {
+          "id": "nando-35-3",
+          "cosine": 0.14258786930363404
+        },
+        {
+          "id": "nando-65-34",
+          "cosine": 0.120396628593246
+        },
+        {
+          "id": "nando-162-2",
+          "cosine": 0.0900983838803125
+        }
+      ]
+    },
+    {
+      "id": "nando-251-2",
+      "closest": [
+        {
+          "id": "nando-251-4",
+          "cosine": 0.3531442086614358
+        },
+        {
+          "id": "nando-316-3",
+          "cosine": 0.20664945666886364
+        },
+        {
+          "id": "nando-255-1",
+          "cosine": 0.18343207422621
+        }
+      ]
+    },
+    {
+      "id": "nando-251-4",
+      "closest": [
+        {
+          "id": "nando-251-2",
+          "cosine": 0.3531442086614358
+        },
+        {
+          "id": "nando-255-1",
+          "cosine": 0.1369351302629285
+        },
+        {
+          "id": "nando-316-3",
+          "cosine": 0.13268693843099083
+        }
+      ]
+    },
+    {
+      "id": "nando-251-5",
+      "closest": [
+        {
+          "id": "nando-234-2-1",
+          "cosine": 0.2630158236088709
+        },
+        {
+          "id": "nando-19-24",
+          "cosine": 0.1320290628862568
+        },
+        {
+          "id": "nando-19-6",
+          "cosine": 0.12894857491479106
+        }
+      ]
+    },
+    {
+      "id": "nando-254-1",
+      "closest": [
+        {
+          "id": "nando-254-2",
+          "cosine": 0.47378173611723085
+        },
+        {
+          "id": "nando-254-3",
+          "cosine": 0.46552081827851394
+        },
+        {
+          "id": "nando-23-2-3",
+          "cosine": 0.14594841781490278
+        }
+      ]
+    },
+    {
+      "id": "nando-254-2",
+      "closest": [
+        {
+          "id": "nando-254-1",
+          "cosine": 0.47378173611723085
+        },
+        {
+          "id": "nando-254-3",
+          "cosine": 0.42386646283718515
+        },
+        {
+          "id": "nando-254-5",
+          "cosine": 0.21563929840668977
+        }
+      ]
+    },
+    {
+      "id": "nando-254-3",
+      "closest": [
+        {
+          "id": "nando-254-1",
+          "cosine": 0.46552081827851394
+        },
+        {
+          "id": "nando-254-2",
+          "cosine": 0.42386646283718515
+        },
+        {
+          "id": "nando-254-5",
+          "cosine": 0.2971331915402539
+        }
+      ]
+    },
+    {
+      "id": "nando-254-5",
+      "closest": [
+        {
+          "id": "nando-254-8",
+          "cosine": 0.29745682040367066
+        },
+        {
+          "id": "nando-254-3",
+          "cosine": 0.2971331915402539
+        },
+        {
+          "id": "nando-254-6",
+          "cosine": 0.2874905094393548
+        }
+      ]
+    },
+    {
+      "id": "nando-254-6",
+      "closest": [
+        {
+          "id": "nando-254-8",
+          "cosine": 0.6746588274074696
+        },
+        {
+          "id": "nando-254-5",
+          "cosine": 0.2874905094393548
+        },
+        {
+          "id": "nando-254-3",
+          "cosine": 0.26173134610629295
+        }
+      ]
+    },
+    {
+      "id": "nando-254-8",
+      "closest": [
+        {
+          "id": "nando-254-6",
+          "cosine": 0.6746588274074696
+        },
+        {
+          "id": "nando-254-5",
+          "cosine": 0.29745682040367066
+        },
+        {
+          "id": "nando-254-3",
+          "cosine": 0.22754442864097246
+        }
+      ]
+    },
+    {
+      "id": "nando-255-1",
+      "closest": [
+        {
+          "id": "nando-255-2",
+          "cosine": 0.23778289766793595
+        },
+        {
+          "id": "nando-251-2",
+          "cosine": 0.18343207422621
+        },
+        {
+          "id": "nando-251-4",
+          "cosine": 0.1369351302629285
+        }
+      ]
+    },
+    {
+      "id": "nando-255-2",
+      "closest": [
+        {
+          "id": "nando-255-1",
+          "cosine": 0.23778289766793595
+        },
+        {
+          "id": "nando-21-4",
+          "cosine": 0.12149544465571982
+        },
+        {
+          "id": "nando-18-3-2",
+          "cosine": 0.10664692917929099
+        }
+      ]
+    },
+    {
+      "id": "nando-265-2",
+      "closest": [
+        {
+          "id": "primary-biliary-cholangitis",
+          "cosine": 0.08474115965984269
+        },
+        {
+          "id": "wilson-disease",
+          "cosine": 0.06602012799346565
+        },
+        {
+          "id": "nando-162-2",
+          "cosine": 0.063229842189242
+        }
+      ]
+    },
+    {
+      "id": "nando-28-1-1",
+      "closest": [
+        {
+          "id": "fabry-disease",
+          "cosine": 0.14202592463325514
+        },
+        {
+          "id": "nando-50-3",
+          "cosine": 0.0994030753278155
+        },
+        {
+          "id": "nando-98-3",
+          "cosine": 0.09008813929574994
+        }
+      ]
+    },
+    {
+      "id": "nando-282-3",
+      "closest": [
+        {
+          "id": "nando-61-2",
+          "cosine": 0.1161406284101283
+        },
+        {
+          "id": "nando-60-1",
+          "cosine": 0.08536629940998165
+        },
+        {
+          "id": "nando-61-4",
+          "cosine": 0.08373423365165802
+        }
+      ]
+    },
+    {
+      "id": "nando-30-1",
+      "closest": [
+        {
+          "id": "nando-30-3",
+          "cosine": 0.20387514733239798
+        },
+        {
+          "id": "nando-113-1-2",
+          "cosine": 0.1510225956253769
+        },
+        {
+          "id": "nando-111-2",
+          "cosine": 0.09304416994218646
+        }
+      ]
+    },
+    {
+      "id": "nando-30-3",
+      "closest": [
+        {
+          "id": "nando-30-1",
+          "cosine": 0.20387514733239798
+        },
+        {
+          "id": "nando-111-6",
+          "cosine": 0.1768211244255262
+        },
+        {
+          "id": "nando-113-5",
+          "cosine": 0.07908918121151505
+        }
+      ]
+    },
+    {
+      "id": "nando-301-2",
+      "closest": [
+        {
+          "id": "nando-21-5",
+          "cosine": 0.12903622671869194
+        },
+        {
+          "id": "nando-301-6",
+          "cosine": 0.10197324243936604
+        },
+        {
+          "id": "nando-19-29",
+          "cosine": 0.06432287651460664
+        }
+      ]
+    },
+    {
+      "id": "nando-301-6",
+      "closest": [
+        {
+          "id": "nando-301-2",
+          "cosine": 0.10197324243936604
+        },
+        {
+          "id": "nando-21-5",
+          "cosine": 0.09720267130127767
+        },
+        {
+          "id": "nando-18-2-7",
+          "cosine": 0.09142484656888321
+        }
+      ]
+    },
+    {
+      "id": "nando-308-1",
+      "closest": [
+        {
+          "id": "nando-19-5-2",
+          "cosine": 0.15907909798152264
+        },
+        {
+          "id": "nando-309-2",
+          "cosine": 0.13891016646610277
+        },
+        {
+          "id": "nando-19-3",
+          "cosine": 0.13154153369051313
+        }
+      ]
+    },
+    {
+      "id": "nando-309-2",
+      "closest": [
+        {
+          "id": "nando-23-1",
+          "cosine": 0.2718285816719938
+        },
+        {
+          "id": "nando-19-3",
+          "cosine": 0.14963395204213276
+        },
+        {
+          "id": "nando-308-1",
+          "cosine": 0.13891016646610277
+        }
+      ]
+    },
+    {
+      "id": "nando-316-2",
+      "closest": [
+        {
+          "id": "nando-113-1-2",
+          "cosine": 0.2897616680789915
+        },
+        {
+          "id": "nando-316-3",
+          "cosine": 0.16348690544286223
+        },
+        {
+          "id": "fabry-disease",
+          "cosine": 0.089999772533098
+        }
+      ]
+    },
+    {
+      "id": "nando-316-3",
+      "closest": [
+        {
+          "id": "nando-251-2",
+          "cosine": 0.20664945666886364
+        },
+        {
+          "id": "nando-316-2",
+          "cosine": 0.16348690544286223
+        },
+        {
+          "id": "nando-255-1",
+          "cosine": 0.13528401447900298
+        }
+      ]
+    },
+    {
+      "id": "nando-316-4",
+      "closest": [
+        {
+          "id": "nando-309-2",
+          "cosine": 0.1203158187418305
+        },
+        {
+          "id": "wilson-disease",
+          "cosine": 0.11234652641643383
+        },
+        {
+          "id": "nando-251-4",
+          "cosine": 0.1105077829419162
+        }
+      ]
+    },
+    {
+      "id": "nando-325-3",
+      "closest": [
+        {
+          "id": "nando-139-5",
+          "cosine": 0.12621314457576815
+        },
+        {
+          "id": "nando-139-1",
+          "cosine": 0.11981614120148927
+        },
+        {
+          "id": "nando-160-4-2",
+          "cosine": 0.11324160483065886
+        }
+      ]
+    },
+    {
+      "id": "nando-34-1",
+      "closest": [
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.08996014838811481
+        },
+        {
+          "id": "nando-19-21-2",
+          "cosine": 0.08876133963607982
+        },
+        {
+          "id": "nando-139-1",
+          "cosine": 0.08763579983443705
+        }
+      ]
+    },
+    {
+      "id": "nando-35-2",
+      "closest": [
+        {
+          "id": "nando-35-5",
+          "cosine": 0.41687565008215666
+        },
+        {
+          "id": "nando-160-1-3",
+          "cosine": 0.2682925940691228
+        },
+        {
+          "id": "nando-162-1",
+          "cosine": 0.22643195752793416
+        }
+      ]
+    },
+    {
+      "id": "nando-35-3",
+      "closest": [
+        {
+          "id": "nando-162-2",
+          "cosine": 0.29693402693863596
+        },
+        {
+          "id": "nando-35-2",
+          "cosine": 0.21759914230632607
+        },
+        {
+          "id": "nando-35-5",
+          "cosine": 0.1648830439001729
+        }
+      ]
+    },
+    {
+      "id": "nando-35-4",
+      "closest": [
+        {
+          "id": "nando-35-3",
+          "cosine": 0.14208579420236173
+        },
+        {
+          "id": "nando-65-43",
+          "cosine": 0.13112360301271564
+        },
+        {
+          "id": "nando-162-2",
+          "cosine": 0.10673579460766268
+        }
+      ]
+    },
+    {
+      "id": "nando-35-5",
+      "closest": [
+        {
+          "id": "nando-35-2",
+          "cosine": 0.41687565008215666
+        },
+        {
+          "id": "nando-160-1-3",
+          "cosine": 0.2165205591521268
+        },
+        {
+          "id": "nando-35-3",
+          "cosine": 0.1648830439001729
+        }
+      ]
+    },
+    {
+      "id": "nando-48-3",
+      "closest": [
+        {
+          "id": "nando-62-3",
+          "cosine": 0.13022982728579707
+        },
+        {
+          "id": "nando-61-4",
+          "cosine": 0.057055235130421406
+        },
+        {
+          "id": "nando-65-32",
+          "cosine": 0.05693966289700724
+        }
+      ]
+    },
+    {
+      "id": "nando-50-1",
+      "closest": [
+        {
+          "id": "nando-50-3",
+          "cosine": 0.2964502433327349
+        },
+        {
+          "id": "nando-61-4",
+          "cosine": 0.11725535257935354
+        },
+        {
+          "id": "systemic-sclerosis",
+          "cosine": 0.11502865228127988
+        }
+      ]
+    },
+    {
+      "id": "nando-50-3",
+      "closest": [
+        {
+          "id": "nando-50-1",
+          "cosine": 0.2964502433327349
+        },
+        {
+          "id": "nando-61-4",
+          "cosine": 0.17675267286175275
+        },
+        {
+          "id": "nando-85-1",
+          "cosine": 0.14851587912782516
+        }
+      ]
+    },
+    {
+      "id": "nando-60-1",
+      "closest": [
+        {
+          "id": "nando-65-36",
+          "cosine": 0.14823953294999034
+        },
+        {
+          "id": "nando-65-30",
+          "cosine": 0.11365529548395618
+        },
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.09392032361550805
+        }
+      ]
+    },
+    {
+      "id": "nando-61-2",
+      "closest": [
+        {
+          "id": "nando-61-4",
+          "cosine": 0.5195685588198187
+        },
+        {
+          "id": "nando-61-5",
+          "cosine": 0.22325182228124968
+        },
+        {
+          "id": "nando-113-1-2",
+          "cosine": 0.16038382219293934
+        }
+      ]
+    },
+    {
+      "id": "nando-61-4",
+      "closest": [
+        {
+          "id": "nando-61-2",
+          "cosine": 0.5195685588198187
+        },
+        {
+          "id": "nando-61-5",
+          "cosine": 0.327056885651918
+        },
+        {
+          "id": "nando-50-3",
+          "cosine": 0.17675267286175275
+        }
+      ]
+    },
+    {
+      "id": "nando-61-5",
+      "closest": [
+        {
+          "id": "nando-61-4",
+          "cosine": 0.327056885651918
+        },
+        {
+          "id": "nando-65-32",
+          "cosine": 0.23754953626072256
+        },
+        {
+          "id": "nando-61-2",
+          "cosine": 0.22325182228124968
+        }
+      ]
+    },
+    {
+      "id": "nando-62-3",
+      "closest": [
+        {
+          "id": "nando-48-3",
+          "cosine": 0.13022982728579707
+        },
+        {
+          "id": "nando-254-6",
+          "cosine": 0.11264433500842938
+        },
+        {
+          "id": "nando-61-2",
+          "cosine": 0.10415341756527949
+        }
+      ]
+    },
+    {
+      "id": "nando-65-10",
+      "closest": [
+        {
+          "id": "nando-65-37",
+          "cosine": 0.2051175584152038
+        },
+        {
+          "id": "nando-61-5",
+          "cosine": 0.15745955669828046
+        },
+        {
+          "id": "nando-65-2",
+          "cosine": 0.12416322340300255
+        }
+      ]
+    },
+    {
+      "id": "nando-65-13",
+      "closest": [
+        {
+          "id": "nando-65-43",
+          "cosine": 0.10923354680624381
+        },
+        {
+          "id": "nando-160-1-1",
+          "cosine": 0.10299537387097855
+        },
+        {
+          "id": "nando-65-35",
+          "cosine": 0.08721569708239764
+        }
+      ]
+    },
+    {
+      "id": "nando-65-18",
+      "closest": [
+        {
+          "id": "nando-162-1",
+          "cosine": 0.15576789410527614
+        },
+        {
+          "id": "nando-98-3",
+          "cosine": 0.11502647237682044
+        },
+        {
+          "id": "nando-65-43",
+          "cosine": 0.1120674983676462
+        }
+      ]
+    },
+    {
+      "id": "nando-65-2",
+      "closest": [
+        {
+          "id": "nando-65-37",
+          "cosine": 0.19713653340477927
+        },
+        {
+          "id": "nando-164-3",
+          "cosine": 0.18737027052642768
+        },
+        {
+          "id": "nando-65-4",
+          "cosine": 0.15324986757114328
+        }
+      ]
+    },
+    {
+      "id": "nando-65-21",
+      "closest": [
+        {
+          "id": "nando-19-30",
+          "cosine": 0.07409949472390097
+        },
+        {
+          "id": "nando-19-28",
+          "cosine": 0.06746392057417434
+        },
+        {
+          "id": "nando-60-1",
+          "cosine": 0.06671410289835046
+        }
+      ]
+    },
+    {
+      "id": "nando-65-30",
+      "closest": [
+        {
+          "id": "nando-164-1",
+          "cosine": 0.22702359721480353
+        },
+        {
+          "id": "nando-19-28",
+          "cosine": 0.13714152671612034
+        },
+        {
+          "id": "nando-65-35",
+          "cosine": 0.1251183862998923
+        }
+      ]
+    },
+    {
+      "id": "nando-65-32",
+      "closest": [
+        {
+          "id": "nando-61-5",
+          "cosine": 0.23754953626072256
+        },
+        {
+          "id": "nando-65-4",
+          "cosine": 0.11683540869606798
+        },
+        {
+          "id": "nando-61-4",
+          "cosine": 0.11573147251192252
+        }
+      ]
+    },
+    {
+      "id": "nando-65-34",
+      "closest": [
+        {
+          "id": "nando-65-35",
+          "cosine": 0.18984233489804747
+        },
+        {
+          "id": "nando-234-6",
+          "cosine": 0.120396628593246
+        },
+        {
+          "id": "nando-65-37",
+          "cosine": 0.11087046851204665
+        }
+      ]
+    },
+    {
+      "id": "nando-65-35",
+      "closest": [
+        {
+          "id": "nando-65-34",
+          "cosine": 0.18984233489804747
+        },
+        {
+          "id": "nando-65-30",
+          "cosine": 0.1251183862998923
+        },
+        {
+          "id": "nando-65-36",
+          "cosine": 0.11975321926888995
+        }
+      ]
+    },
+    {
+      "id": "nando-65-36",
+      "closest": [
+        {
+          "id": "nando-67-2",
+          "cosine": 0.19951342623001234
+        },
+        {
+          "id": "nando-60-1",
+          "cosine": 0.14823953294999034
+        },
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.12378640223946905
+        }
+      ]
+    },
+    {
+      "id": "nando-65-37",
+      "closest": [
+        {
+          "id": "nando-65-10",
+          "cosine": 0.2051175584152038
+        },
+        {
+          "id": "nando-65-2",
+          "cosine": 0.19713653340477927
+        },
+        {
+          "id": "nando-164-3",
+          "cosine": 0.12730671647385278
+        }
+      ]
+    },
+    {
+      "id": "nando-65-4",
+      "closest": [
+        {
+          "id": "nando-160-3-1",
+          "cosine": 0.20632399450913247
+        },
+        {
+          "id": "nando-98-3",
+          "cosine": 0.16278564914578605
+        },
+        {
+          "id": "nando-65-2",
+          "cosine": 0.15324986757114328
+        }
+      ]
+    },
+    {
+      "id": "nando-65-43",
+      "closest": [
+        {
+          "id": "nando-35-4",
+          "cosine": 0.13112360301271564
+        },
+        {
+          "id": "nando-65-18",
+          "cosine": 0.1120674983676462
+        },
+        {
+          "id": "nando-65-13",
+          "cosine": 0.10923354680624381
+        }
+      ]
+    },
+    {
+      "id": "nando-65-5",
+      "closest": [
+        {
+          "id": "nando-61-4",
+          "cosine": 0.14947155850054317
+        },
+        {
+          "id": "nando-18-3-2",
+          "cosine": 0.11503110649666634
+        },
+        {
+          "id": "nando-61-5",
+          "cosine": 0.10608688506253375
+        }
+      ]
+    },
+    {
+      "id": "nando-67-1",
+      "closest": [
+        {
+          "id": "nando-67-2",
+          "cosine": 0.12029641464453465
+        },
+        {
+          "id": "fabry-disease",
+          "cosine": 0.06282282443343241
+        },
+        {
+          "id": "nando-62-3",
+          "cosine": 0.06065171050172958
+        }
+      ]
+    },
+    {
+      "id": "nando-67-2",
+      "closest": [
+        {
+          "id": "nando-65-36",
+          "cosine": 0.19951342623001234
+        },
+        {
+          "id": "primary-biliary-cholangitis",
+          "cosine": 0.15457128629672004
+        },
+        {
+          "id": "nando-67-1",
+          "cosine": 0.12029641464453465
+        }
+      ]
+    },
+    {
+      "id": "nando-85-1",
+      "closest": [
+        {
+          "id": "nando-85-2-6",
+          "cosine": 0.241311390213782
+        },
+        {
+          "id": "nando-85-2-2",
+          "cosine": 0.23559757831340936
+        },
+        {
+          "id": "nando-87-2",
+          "cosine": 0.19065949062831378
+        }
+      ]
+    },
+    {
+      "id": "nando-85-2-2",
+      "closest": [
+        {
+          "id": "nando-85-2-3",
+          "cosine": 0.3880539285563947
+        },
+        {
+          "id": "nando-85-2-6",
+          "cosine": 0.30501198566182625
+        },
+        {
+          "id": "nando-87-2",
+          "cosine": 0.28564111673939496
+        }
+      ]
+    },
+    {
+      "id": "nando-85-2-3",
+      "closest": [
+        {
+          "id": "nando-85-2-6",
+          "cosine": 0.4178339826882215
+        },
+        {
+          "id": "nando-85-2-2",
+          "cosine": 0.3880539285563947
+        },
+        {
+          "id": "nando-229-1",
+          "cosine": 0.23215352156734845
+        }
+      ]
+    },
+    {
+      "id": "nando-85-2-6",
+      "closest": [
+        {
+          "id": "nando-85-2-3",
+          "cosine": 0.4178339826882215
+        },
+        {
+          "id": "nando-229-1",
+          "cosine": 0.37594819241719224
+        },
+        {
+          "id": "nando-85-2-2",
+          "cosine": 0.30501198566182625
+        }
+      ]
+    },
+    {
+      "id": "nando-87-2",
+      "closest": [
+        {
+          "id": "nando-85-2-2",
+          "cosine": 0.28564111673939496
+        },
+        {
+          "id": "nando-85-2-6",
+          "cosine": 0.20426076685430633
+        },
+        {
+          "id": "nando-85-1",
+          "cosine": 0.19065949062831378
+        }
+      ]
+    },
+    {
+      "id": "nando-9-1",
+      "closest": [
+        {
+          "id": "huntington-disease",
+          "cosine": 0.18717204565248927
+        },
+        {
+          "id": "nando-120-12-1",
+          "cosine": 0.14725827505029815
+        },
+        {
+          "id": "nando-19-3",
+          "cosine": 0.11622325993685025
+        }
+      ]
+    },
+    {
+      "id": "nando-98-3",
+      "closest": [
+        {
+          "id": "nando-65-4",
+          "cosine": 0.16278564914578605
+        },
+        {
+          "id": "nando-85-2-3",
+          "cosine": 0.14913551247311457
+        },
+        {
+          "id": "nando-19-28",
+          "cosine": 0.14891947941449662
+        }
+      ]
+    },
+    {
+      "id": "primary-biliary-cholangitis",
+      "closest": [
+        {
+          "id": "nando-19-28",
+          "cosine": 0.22998667191878555
+        },
+        {
+          "id": "nando-67-2",
+          "cosine": 0.15457128629672004
+        },
+        {
+          "id": "wilson-disease",
+          "cosine": 0.10713591909723762
+        }
+      ]
+    },
+    {
+      "id": "systemic-sclerosis",
+      "closest": [
+        {
+          "id": "nando-50-1",
+          "cosine": 0.11502865228127988
+        },
+        {
+          "id": "nando-50-3",
+          "cosine": 0.10998858603624925
+        },
+        {
+          "id": "nando-113-1-2",
+          "cosine": 0.06544813139976226
+        }
+      ]
+    },
+    {
+      "id": "wilson-disease",
+      "closest": [
+        {
+          "id": "gaucher-disease",
+          "cosine": 0.17131347528385898
+        },
+        {
+          "id": "nando-61-2",
+          "cosine": 0.1459492681917687
+        },
+        {
+          "id": "nando-19-9",
+          "cosine": 0.14511167028724176
+        }
+      ]
+    }
+  ]
+}
