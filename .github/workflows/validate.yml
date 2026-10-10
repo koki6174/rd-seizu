@@ -23,6 +23,7 @@ jobs:
           node --check lab/scene.js
           node --check scripts/build_pilot_coords.cjs
           node --check scripts/build_hpo_pilot.cjs
+          node --check scripts/build_orpha_candidates.cjs
 
       - name: Validate content JSON
         run: |
@@ -128,3 +129,31 @@ jobs:
           assert(actual.meta.explainedKernelVariance.every(v=>v>0&&v<1));
           console.log('Verified ORPHA identities / HPO phenotype embeddings: OK');
           JS
+
+      - name: Validate conservative whole-catalog ORPHA crosswalk audit
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter,defaultdict
+          from pathlib import Path
+          data=json.loads(Path('data/orpha_matching_candidates.json').read_text())
+          summary=data['summary']
+          rows=data['records']
+          assert summary['total']==1241
+          assert len(rows)==summary['total']
+          assert len({r['id'] for r in rows})==1241
+          assert Counter(r['status'] for r in rows)=={
+              'missing_english_name':389,
+              'unique_exact_candidate':275,
+              'review_required':56,
+              'not_matched':521,
+          }
+          assert len(data['metadata']['upstream_commit'])==40
+          source_codes=defaultdict(list)
+          for r in rows:
+              if r['status']=='unique_exact_candidate':
+                  assert r['candidate']['match'] in ('exact_label','exact_synonym')
+                  source_codes[r['candidate']['code']].append(r['id'])
+          assert all(len(v)==1 for v in source_codes.values()), 'Cross-disease ORPHA collision'
+          print('No user data; exact ORPHA candidate audit is internally consistent.')
+          PY
