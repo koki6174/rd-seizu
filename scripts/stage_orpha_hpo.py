@@ -135,7 +135,10 @@ def parse_orpha_hpo(path: Path) -> dict[str, dict]:
                     continue
                 hpo = child(assoc, "HPO")
                 hp_id = text_child(hpo, "HPOId")
-                if re.fullmatch(r"HP:\d{7}", hp_id):
+                frequency = text_child(child(assoc, "HPOFrequency"), "Name").lower()
+                if ("excluded" in frequency or frequency.strip() in ("0%", "0")):
+                    continue
+                if re.fullmatch(r"HP:\\d{7}", hp_id):
                     terms.add(hp_id)
         by_orpha[code] = {"terms": sorted(terms), "count": len(terms)}
         node.clear()
@@ -255,6 +258,17 @@ def run() -> None:
                    "hpo_orpha_annotation_rows_seen": seen,
                    "omim_iea_or_negative_hpo_annotations_excluded": omitted,
                    "source_release": RELEASE})
+    candidate_orphas = sorted({c["orpha_code"] for c in candidates}, key=int)
+    staged_hpo = [
+        {"orpha_code": code, "positive_hpo_ids": orpha_hpo.get(code, {}).get("terms", []),
+         "source_release": RELEASE, "review_status": "unattached"}
+        for code in candidate_orphas
+    ]
+    (output / "orpha_phenotypes_unattached.json").write_text(
+        json.dumps(staged_hpo, ensure_ascii=False), "utf-8"
+    )
+    report["unattached_orpha_profiles"] = len(staged_hpo)
+    report["unattached_positive_terms"] = sum(len(x["positive_hpo_ids"]) for x in staged_hpo)
     with (output / "orpha_candidates.csv").open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=OUTPUT_COLUMNS)
         writer.writeheader()
