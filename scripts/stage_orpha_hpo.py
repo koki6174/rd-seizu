@@ -138,7 +138,7 @@ def parse_orpha_hpo(path: Path) -> dict[str, dict]:
                 frequency = text_child(child(assoc, "HPOFrequency"), "Name").lower()
                 if ("excluded" in frequency or frequency.strip() in ("0%", "0")):
                     continue
-                if re.fullmatch(r"HP:\\d{7}", hp_id):
+                if re.fullmatch(r"HP:\d{7}", hp_id):
                     terms.add(hp_id)
         by_orpha[code] = {"terms": sorted(terms), "count": len(terms)}
         node.clear()
