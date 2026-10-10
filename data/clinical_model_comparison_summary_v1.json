@@ -1,0 +1,140 @@
+{
+  "model_version": "clinical-hpo-gene-inheritance-onset-3d-v1",
+  "identity_crosswalk": {
+    "verified": 17,
+    "staged_unreviewed": 133,
+    "staged_verified_overlap": 11
+  },
+  "evaluation": {
+    "verified": {
+      "cohort_status": "reviewed",
+      "n": 17,
+      "dims": 521,
+      "block_coverage": {
+        "phenotype": {
+          "terms": 474,
+          "diseases_with_evidence": 17
+        },
+        "causal_gene": {
+          "terms": 32,
+          "diseases_with_evidence": 12
+        },
+        "inheritance": {
+          "terms": 7,
+          "diseases_with_evidence": 17
+        },
+        "onset": {
+          "terms": 8,
+          "diseases_with_evidence": 17
+        }
+      },
+      "weights": {
+        "phenotype": 1.0,
+        "causal_gene": 0.4,
+        "inheritance": 0.22,
+        "onset": 0.18
+      },
+      "pca_variance_ratio": [
+        0.13306,
+        0.08197,
+        0.07746
+      ],
+      "umap_neighbors": 3,
+      "evaluation_neighbors": 5,
+      "method_metrics": {
+        "PCA": {
+          "trustworthiness": 0.771242,
+          "knn_overlap": 0.635294,
+          "cluster_n": 3,
+          "fcm_iterations": 59,
+          "fcm_mean_membership": 0.787201,
+          "fcm_silhouette": 0.425952,
+          "seed_stability": 1.0
+        },
+        "UMAP": {
+          "trustworthiness": 0.810458,
+          "knn_overlap": 0.647059,
+          "cluster_n": 3,
+          "fcm_iterations": 24,
+          "fcm_mean_membership": 0.854423,
+          "fcm_silhouette": 0.489234,
+          "seed_stability": 0.844344
+        }
+      },
+      "selected_method": "UMAP",
+      "selection_rule": "UMAP only if trustworthiness +0.01, KNN overlap not worse by >0.03, stability >0.60",
+      "limitations": [
+        "Clinical name or ORPHA code validity must be reviewed independently",
+        "Unannotated terms are unknown, not clinically negative",
+        "2D/3D distances are representations, not a medical diagnostic metric",
+        "Metrics measured on same cohort used for fitting; not clinical external validation"
+      ]
+    },
+    "staged_unreviewed": {
+      "cohort_status": "unreviewed",
+      "n": 133,
+      "dims": 2221,
+      "block_coverage": {
+        "phenotype": {
+          "terms": 1990,
+          "diseases_with_evidence": 133
+        },
+        "causal_gene": {
+          "terms": 215,
+          "diseases_with_evidence": 86
+        },
+        "inheritance": {
+          "terms": 8,
+          "diseases_with_evidence": 102
+        },
+        "onset": {
+          "terms": 8,
+          "diseases_with_evidence": 133
+        }
+      },
+      "weights": {
+        "phenotype": 1.0,
+        "causal_gene": 0.4,
+        "inheritance": 0.22,
+        "onset": 0.18
+      },
+      "pca_variance_ratio": [
+        0.02907,
+        0.02201,
+        0.01962
+      ],
+      "umap_neighbors": 12,
+      "evaluation_neighbors": 7,
+      "method_metrics": {
+        "PCA": {
+          "trustworthiness": 0.820773,
+          "knn_overlap": 0.332975,
+          "cluster_n": 5,
+          "fcm_iterations": 86,
+          "fcm_mean_membership": 0.65029,
+          "fcm_silhouette": 0.325423,
+          "seed_stability": 1.0
+        },
+        "UMAP": {
+          "trustworthiness": 0.913411,
+          "knn_overlap": 0.567132,
+          "cluster_n": 5,
+          "fcm_iterations": 86,
+          "fcm_mean_membership": 0.675282,
+          "fcm_silhouette": 0.397774,
+          "seed_stability": 0.876375
+        }
+      },
+      "selected_method": "UMAP",
+      "selection_rule": "UMAP only if trustworthiness +0.01, KNN overlap not worse by >0.03, stability >0.60",
+      "limitations": [
+        "Clinical name or ORPHA code validity must be reviewed independently",
+        "Unannotated terms are unknown, not clinically negative",
+        "2D/3D distances are representations, not a medical diagnostic metric",
+        "Metrics measured on same cohort used for fitting; not clinical external validation"
+      ]
+    }
+  },
+  "no_unreviewed_promoted": true,
+  "never_overwrite_taxonomy_map": true
+}
