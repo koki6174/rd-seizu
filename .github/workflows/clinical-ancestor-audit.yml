@@ -1,0 +1,44 @@
+name: Audit full ORPHA ancestry of remaining disease matches
+on:
+  push:
+    branches: [feature/clinical-verified-expansion-20261011]
+    paths:
+      - "scripts/audit_orpha_ancestor_chain.cjs"
+      - ".github/workflows/clinical-ancestor-audit.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Acquire source snapshots
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Orphanet/orphapacket.git /tmp/rd-orphapacket
+          git -C /tmp/rd-orphapacket sparse-checkout set json
+          git clone --depth 1 https://github.com/NanbyoData/nando.git /tmp/rd-nando
+      - name: Match official parent chains
+        run: |
+          node --check scripts/audit_orpha_ancestor_chain.cjs
+          node scripts/audit_orpha_ancestor_chain.cjs /tmp/rd-orphapacket/json /tmp/rd-nando/data/nanbyo.json
+          node - <<'JS'
+          const fs=require('node:fs'),assert=require('node:assert/strict');
+          const o=JSON.parse(fs.readFileSync('data/orpha_ancestor_chain_audit_v1.json','utf8'));
+          assert.equal(o.records.length,133);
+          assert.equal(o.summary.auto_approved,0);
+          assert(o.records.every(x=>x.official_preferred_label_equal));
+          JS
+      - name: Save review report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/orpha_ancestor_chain_audit_v1.json
+          if ! git diff --cached --quiet; then
+            git commit -m "research: audit ORPHA ancestor chains before clinical identity review"
+            git push origin HEAD:feature/clinical-verified-expansion-20261011
+          fi
