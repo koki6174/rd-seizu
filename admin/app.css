@@ -25,3 +25,5 @@ input[type=search],textarea{background:#0d1830;color:#f4f8ff;border:1px solid #5
 .source-credit{display:inline-block;max-width:740px;margin-top:12px;font-size:10px;line-height:1.8;color:#8ea3be}
 .source-credit a{color:#a2cce3}
 @media(max-width:400px){.preset-option{font-size:11px;padding:9px 5px}}
+
+.disease-results .result-parent{display:block;font-size:10px;line-height:1.6;color:#a6c1d3;margin-top:3px;font-weight:400}

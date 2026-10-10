@@ -30,3 +30,22 @@ jobs:
                   json.load(f)
               print(f"OK: {path}")
           PY
+
+      - name: Validate NANDO Japanese catalog snapshot
+        run: |
+          python - <<'PY'
+          import json, csv, re, unicodedata
+          from pathlib import Path
+          rows=json.loads(Path('data/nando_subtypes_2023_import.json').read_text(encoding='utf-8'))['records']
+          assert len(rows)==655, f"expected 655 imported disease subtypes, got {len(rows)}"
+          normalize=lambda s: re.sub(r'[\s・･‐‑‒–—―－_（）()／/-]', '', unicodedata.normalize('NFKC',s).lower())
+          names=[normalize(r['name_ja']) for r in rows]
+          assert len(names)==len(set(names)), 'Duplicate normalized Japanese name in imported subtypes'
+          assert all(re.search('[ぁ-んァ-ヶ一-龯]',r['name_ja']) for r in rows), 'Untranslated label'
+          assert all(r['parent_disease_id'] for r in rows), 'Missing designated parent'
+          links=list(csv.DictReader(Path('data/nando_external_id_crosswalk.csv').open(encoding='utf-8')))
+          assert len(links)==1005 and len({v['source_id'] for v in links})==1005, 'Source code mismatch'
+          mapped={v['disease_id'] for v in links}
+          assert {v['id'] for v in rows}<=mapped, 'Subtype without source mapping'
+          print('NANDO import snapshot / crosswalk / labels: OK')
+          PY
