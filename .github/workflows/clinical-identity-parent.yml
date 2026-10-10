@@ -24,10 +24,12 @@ jobs:
           git clone --depth 1 --filter=blob:none --sparse https://github.com/Orphanet/orphapacket.git /tmp/rd-orphapacket
           git -C /tmp/rd-orphapacket sparse-checkout set json
           test -f /tmp/rd-orphapacket/json/ORPHApacket_324.json
+          git clone --depth 1 https://github.com/NanbyoData/nando.git /tmp/rd-nando
+          test -f /tmp/rd-nando/data/nanbyo.json
       - name: Verify all 133 candidate clinical concept granularities
         run: |
           node --check scripts/audit_orpha_parent_hierarchy.cjs
-          node scripts/audit_orpha_parent_hierarchy.cjs /tmp/rd-orphapacket/json
+          node scripts/audit_orpha_parent_hierarchy.cjs /tmp/rd-orphapacket/json /tmp/rd-nando/data/nanbyo.json
           node - <<'JS'
           const fs=require('node:fs'),assert=require('node:assert/strict');
           const d=JSON.parse(fs.readFileSync('data/orpha_hierarchy_review_queue_v1.json','utf8'));
