@@ -10,8 +10,8 @@
   "summary": {
     "total": 1241,
     "with_english": 852,
-    "unique_name_or_synonym": 283,
-    "ambiguous": 48,
+    "unique_name_or_synonym": 275,
+    "ambiguous": 56,
     "no_match": 521,
     "no_english": 389
   },
@@ -2329,45 +2329,66 @@
     },
     {
       "id": "nando-160-4-4",
-      "status": "unique_exact_candidate",
+      "status": "review_required",
       "source_name_en": "Dorfman-Chanarin syndrome",
-      "candidate": {
-        "code": 98907,
-        "label": "Neutral lipid storage disease with ichthyosis",
-        "type": "Disease",
-        "hpo": 32,
-        "genes": 1,
-        "match": "exact_synonym",
-        "source_term": "Dorfman-Chanarin syndrome"
-      }
+      "reason": "same_orpha_code_multiple_catalog_ids",
+      "colliding_catalog_ids": [
+        "nando-160-4-4",
+        "nando-160-4-5"
+      ],
+      "candidates": [
+        {
+          "code": 98907,
+          "label": "Neutral lipid storage disease with ichthyosis",
+          "type": "Disease",
+          "hpo": 32,
+          "genes": 1,
+          "match": "exact_synonym",
+          "source_term": "Dorfman-Chanarin syndrome"
+        }
+      ]
     },
     {
       "id": "nando-160-4-5",
-      "status": "unique_exact_candidate",
+      "status": "review_required",
       "source_name_en": "Neutral lipid storage disease with ichthyosis",
-      "candidate": {
-        "code": 98907,
-        "label": "Neutral lipid storage disease with ichthyosis",
-        "type": "Disease",
-        "hpo": 32,
-        "genes": 1,
-        "match": "exact_label",
-        "source_term": "Neutral lipid storage disease with ichthyosis"
-      }
+      "reason": "same_orpha_code_multiple_catalog_ids",
+      "colliding_catalog_ids": [
+        "nando-160-4-4",
+        "nando-160-4-5"
+      ],
+      "candidates": [
+        {
+          "code": 98907,
+          "label": "Neutral lipid storage disease with ichthyosis",
+          "type": "Disease",
+          "hpo": 32,
+          "genes": 1,
+          "match": "exact_label",
+          "source_term": "Neutral lipid storage disease with ichthyosis"
+        }
+      ]
     },
     {
       "id": "nando-160-4-6",
-      "status": "unique_exact_candidate",
+      "status": "review_required",
       "source_name_en": "Multiple sulfatase deficiency",
-      "candidate": {
-        "code": 585,
-        "label": "Multiple sulfatase deficiency",
-        "type": "Disease",
-        "hpo": 30,
-        "genes": 1,
-        "match": "exact_label",
-        "source_term": "Multiple sulfatase deficiency"
-      }
+      "reason": "same_orpha_code_multiple_catalog_ids",
+      "colliding_catalog_ids": [
+        "nando-160-4-6",
+        "nando-19-8"
+      ],
+      "candidates": [
+        {
+          "code": 585,
+          "label": "Multiple sulfatase deficiency",
+          "type": "Disease",
+          "hpo": 30,
+          "genes": 1,
+          "match": "exact_label",
+          "source_term": "Multiple sulfatase deficiency"
+        }
+      ]
     },
     {
       "id": "nando-160-4-7",
@@ -3795,17 +3816,24 @@
     },
     {
       "id": "nando-19-8",
-      "status": "unique_exact_candidate",
+      "status": "review_required",
       "source_name_en": "Multiple sulfatase deficiency",
-      "candidate": {
-        "code": 585,
-        "label": "Multiple sulfatase deficiency",
-        "type": "Disease",
-        "hpo": 30,
-        "genes": 1,
-        "match": "exact_label",
-        "source_term": "Multiple sulfatase deficiency"
-      }
+      "reason": "same_orpha_code_multiple_catalog_ids",
+      "colliding_catalog_ids": [
+        "nando-160-4-6",
+        "nando-19-8"
+      ],
+      "candidates": [
+        {
+          "code": 585,
+          "label": "Multiple sulfatase deficiency",
+          "type": "Disease",
+          "hpo": 30,
+          "genes": 1,
+          "match": "exact_label",
+          "source_term": "Multiple sulfatase deficiency"
+        }
+      ]
     },
     {
       "id": "nando-19-8-1",
@@ -4846,17 +4874,24 @@
     },
     {
       "id": "nando-257-1-10",
-      "status": "unique_exact_candidate",
+      "status": "review_required",
       "source_name_en": "Glycogen storage disease type Ⅸc",
-      "candidate": {
-        "code": 264580,
-        "label": "Glycogen storage disease due to liver phosphorylase kinase deficiency",
-        "type": "Disease",
-        "hpo": 51,
-        "genes": 2,
-        "match": "exact_synonym",
-        "source_term": "Glycogen storage disease type IXc"
-      }
+      "reason": "same_orpha_code_multiple_catalog_ids",
+      "colliding_catalog_ids": [
+        "nando-257-1-10",
+        "nando-257-1-8"
+      ],
+      "candidates": [
+        {
+          "code": 264580,
+          "label": "Glycogen storage disease due to liver phosphorylase kinase deficiency",
+          "type": "Disease",
+          "hpo": 51,
+          "genes": 2,
+          "match": "exact_synonym",
+          "source_term": "Glycogen storage disease type IXc"
+        }
+      ]
     },
     {
       "id": "nando-257-1-2",
@@ -4908,17 +4943,24 @@
     },
     {
       "id": "nando-257-1-8",
-      "status": "unique_exact_candidate",
+      "status": "review_required",
       "source_name_en": "Glycogen storage disease type Ⅸa",
-      "candidate": {
-        "code": 264580,
-        "label": "Glycogen storage disease due to liver phosphorylase kinase deficiency",
-        "type": "Disease",
-        "hpo": 51,
-        "genes": 2,
-        "match": "exact_synonym",
-        "source_term": "Glycogen storage disease type IXa"
-      }
+      "reason": "same_orpha_code_multiple_catalog_ids",
+      "colliding_catalog_ids": [
+        "nando-257-1-10",
+        "nando-257-1-8"
+      ],
+      "candidates": [
+        {
+          "code": 264580,
+          "label": "Glycogen storage disease due to liver phosphorylase kinase deficiency",
+          "type": "Disease",
+          "hpo": 51,
+          "genes": 2,
+          "match": "exact_synonym",
+          "source_term": "Glycogen storage disease type IXa"
+        }
+      ]
     },
     {
       "id": "nando-257-1-9",
@@ -6177,17 +6219,24 @@
     },
     {
       "id": "nando-60-4-2",
-      "status": "unique_exact_candidate",
+      "status": "review_required",
       "source_name_en": "dyskeratosis congenita",
-      "candidate": {
-        "code": 1775,
-        "label": "Dyskeratosis congenita",
-        "type": "Disease",
-        "hpo": 62,
-        "genes": 14,
-        "match": "exact_label",
-        "source_term": "Dyskeratosis congenita"
-      }
+      "reason": "same_orpha_code_multiple_catalog_ids",
+      "colliding_catalog_ids": [
+        "nando-60-4-2",
+        "nando-65-22"
+      ],
+      "candidates": [
+        {
+          "code": 1775,
+          "label": "Dyskeratosis congenita",
+          "type": "Disease",
+          "hpo": 62,
+          "genes": 14,
+          "match": "exact_label",
+          "source_term": "Dyskeratosis congenita"
+        }
+      ]
     },
     {
       "id": "nando-61-1",
@@ -6451,17 +6500,24 @@
     },
     {
       "id": "nando-65-22",
-      "status": "unique_exact_candidate",
+      "status": "review_required",
       "source_name_en": "Dyskeratosis congenita",
-      "candidate": {
-        "code": 1775,
-        "label": "Dyskeratosis congenita",
-        "type": "Disease",
-        "hpo": 62,
-        "genes": 14,
-        "match": "exact_label",
-        "source_term": "Dyskeratosis congenita"
-      }
+      "reason": "same_orpha_code_multiple_catalog_ids",
+      "colliding_catalog_ids": [
+        "nando-60-4-2",
+        "nando-65-22"
+      ],
+      "candidates": [
+        {
+          "code": 1775,
+          "label": "Dyskeratosis congenita",
+          "type": "Disease",
+          "hpo": 62,
+          "genes": 14,
+          "match": "exact_label",
+          "source_term": "Dyskeratosis congenita"
+        }
+      ]
     },
     {
       "id": "nando-65-23",

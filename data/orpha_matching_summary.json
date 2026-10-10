@@ -10,8 +10,8 @@
   "summary": {
     "total": 1241,
     "with_english": 852,
-    "unique_name_or_synonym": 283,
-    "ambiguous": 48,
+    "unique_name_or_synonym": 275,
+    "ambiguous": 56,
     "no_match": 521,
     "no_english": 389
   }
