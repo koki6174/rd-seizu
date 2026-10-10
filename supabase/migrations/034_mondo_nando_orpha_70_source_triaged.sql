@@ -98,8 +98,8 @@ begin
  from public.disease_orpha_mondo_evidence e
  join public.disease_orpha_evidence_staging s on s.disease_id=e.disease_id and s.orpha_code=e.orpha_code
  join public.disease_catalog d on d.id=e.disease_id
- where lower(trim(d.name_en))=lower(trim(s.orpha_label))
- and lower(trim(e.canonical_english))=lower(trim(s.orpha_label));
+ where regexp_replace(lower(d.name_en),'[[:space:]]+','','g')=regexp_replace(lower(s.orpha_label),'[[:space:]]+','','g')
+ and regexp_replace(lower(e.canonical_english),'[[:space:]]+','','g')=regexp_replace(lower(s.orpha_label),'[[:space:]]+','','g');
  if matched<>70 then raise exception 'Only %/70 corroborated candidate identities matched', matched; end if;
  if exists(select 1 from public.disease_orpha_mondo_evidence e
  join public.disease_orpha_mappings m on m.orpha_code=e.orpha_code and m.disease_id<>e.disease_id) then
