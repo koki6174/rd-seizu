@@ -1,0 +1,56 @@
+name: Audit Orphadata exact-name matches
+on:
+  push:
+    branches:
+      - feature/orphadata-catalog-matching-batch
+    paths:
+      - scripts/build_orpha_candidates.cjs
+      - data/orpha_matching_names_public.json
+      - .github/workflows/orpha-audit.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Retrieve Orphanet's versioned public nomenclature
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Orphanet/orphapacket.git /tmp/rd-orphapacket
+          git -C /tmp/rd-orphapacket sparse-checkout set json
+          test -f /tmp/rd-orphapacket/json/ORPHApacket_324.json
+      - name: Generate strict source-identity candidates
+        run: |
+          node --check scripts/build_orpha_candidates.cjs
+          node scripts/build_orpha_candidates.cjs /tmp/rd-orphapacket/json
+          python - <<'PY'
+          import json
+          p=json.load(open('data/orpha_matching_candidates.json',encoding='utf8'))
+          assert p['summary']['total']==1241
+          assert p['summary']['with_english']==852
+          assert len(p['records'])==1241
+          print(p['summary'])
+          PY
+      - name: Save candidate evidence to source-controlled branch
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add data/orpha_matching_candidates.json data/orpha_matching_summary.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: compute candidate ORPHA crosswalk for manual review"
+            git push origin HEAD:feature/orphadata-catalog-matching-batch
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exact-orphadata-crosswalk
+          path: |
+            data/orpha_matching_candidates.json
+            data/orpha_matching_summary.json
+          retention-days: 14
