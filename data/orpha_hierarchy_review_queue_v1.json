@@ -4,8 +4,8 @@
     "curated_overlap": 11,
     "pending": 122,
     "subtype_to_orpha_disease": 125,
-    "parent_name_exact": 0,
-    "no_exact_parent": 0,
+    "parent_name_exact": 9,
+    "no_exact_parent": 116,
     "source_disorder_types": {
       "Disease": 133
     },
@@ -17,7 +17,7 @@
       "disease_id": "nando-106-2",
       "name_ja": "Muckle-Wells症候群",
       "parent_disease_id": "mhlw-0106",
-      "parent_english": null,
+      "parent_english": "Cryopyrin-associated periodic syndrome",
       "orpha_code": 575,
       "orpha_url": "https://www.orpha.net/en/disease/detail/575",
       "orpha_label": "Muckle-Wells syndrome",
@@ -37,7 +37,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -46,7 +46,7 @@
       "disease_id": "nando-111-2",
       "name_ja": "セントラルコア病",
       "parent_disease_id": "mhlw-0111",
-      "parent_english": null,
+      "parent_english": "Congenital myopathy",
       "orpha_code": 597,
       "orpha_url": "https://www.orpha.net/en/disease/detail/597",
       "orpha_label": "Central core disease",
@@ -70,44 +70,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
-      ],
-      "priority": "review_first",
-      "review_status": "pending_review"
-    },
-    {
-      "disease_id": "nando-111-6",
-      "name_ja": "先天性筋線維タイプ不均等症",
-      "parent_disease_id": "mhlw-0111",
-      "parent_english": null,
-      "orpha_code": 2020,
-      "orpha_url": "https://www.orpha.net/en/disease/detail/2020",
-      "orpha_label": "Congenital fiber-type disproportion myopathy",
-      "orpha_type": "Disease",
-      "local_concept_kind": "disease_subtype",
-      "source_parents": [
-        {
-          "orpha_code": 97245,
-          "label": "Congenital myopathy"
-        },
-        {
-          "orpha_code": 209059,
-          "label": "Qualitative or quantitative defects of alpha-actin"
-        },
-        {
-          "orpha_code": 209193,
-          "label": "Qualitative or quantitative defects of selenoprotein N1"
-        },
-        {
-          "orpha_code": 284790,
-          "label": "Qualitative or quantitative defects of tropomyosin"
-        }
-      ],
-      "parent_exact_match": false,
-      "existing_curated_link": false,
-      "warning_flags": [
-        "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -116,7 +79,7 @@
       "disease_id": "nando-113-1-2",
       "name_ja": "ベッカー型筋ジストロフィー",
       "parent_disease_id": "mhlw-0113",
-      "parent_english": null,
+      "parent_english": "Muscular dystrophy",
       "orpha_code": 98895,
       "orpha_url": "https://www.orpha.net/en/disease/detail/98895",
       "orpha_label": "Becker muscular dystrophy",
@@ -136,7 +99,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -145,7 +108,7 @@
       "disease_id": "nando-113-4",
       "name_ja": "エメリー・ドレイフス型筋ジストロフィー",
       "parent_disease_id": "mhlw-0113",
-      "parent_english": null,
+      "parent_english": "Muscular dystrophy",
       "orpha_code": 261,
       "orpha_url": "https://www.orpha.net/en/disease/detail/261",
       "orpha_label": "Emery-Dreifuss muscular dystrophy",
@@ -169,7 +132,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -178,7 +141,7 @@
       "disease_id": "nando-113-5",
       "name_ja": "眼咽頭筋型筋ジストロフィー",
       "parent_disease_id": "mhlw-0113",
-      "parent_english": null,
+      "parent_english": "Muscular dystrophy",
       "orpha_code": 270,
       "orpha_url": "https://www.orpha.net/en/disease/detail/270",
       "orpha_label": "Oculopharyngeal muscular dystrophy",
@@ -206,7 +169,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -215,7 +178,7 @@
       "disease_id": "nando-120-12-1",
       "name_ja": "急性発症ジストニア・パーキンソニズム",
       "parent_disease_id": "mhlw-0120",
-      "parent_english": null,
+      "parent_english": "Hereditary dystonia",
       "orpha_code": 71517,
       "orpha_url": "https://www.orpha.net/en/disease/detail/71517",
       "orpha_label": "Rapid-onset dystonia-parkinsonism",
@@ -239,7 +202,7 @@
       "existing_curated_link": true,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "already_curated"
@@ -248,7 +211,7 @@
       "disease_id": "nando-127-2",
       "name_ja": "意味性認知症",
       "parent_disease_id": "mhlw-0127",
-      "parent_english": null,
+      "parent_english": "Frontotemporal lobar degeneration",
       "orpha_code": 100069,
       "orpha_url": "https://www.orpha.net/en/disease/detail/100069",
       "orpha_label": "Semantic dementia",
@@ -268,7 +231,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -277,7 +240,7 @@
       "disease_id": "nando-139-1",
       "name_ja": "ペリツェウス・メルツバッハ病",
       "parent_disease_id": "mhlw-0139",
-      "parent_english": null,
+      "parent_english": "Congenital Cerebral Hypomyelination",
       "orpha_code": 702,
       "orpha_url": "https://www.orpha.net/en/disease/detail/702",
       "orpha_label": "Pelizaeus-Merzbacher disease",
@@ -317,7 +280,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -326,7 +289,7 @@
       "disease_id": "nando-139-5",
       "name_ja": "アラン・ハーンドン・タドリー症候群",
       "parent_disease_id": "mhlw-0139",
-      "parent_english": null,
+      "parent_english": "Congenital Cerebral Hypomyelination",
       "orpha_code": 59,
       "orpha_url": "https://www.orpha.net/en/disease/detail/59",
       "orpha_label": "Allan-Herndon-Dudley syndrome",
@@ -350,7 +313,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -359,7 +322,7 @@
       "disease_id": "nando-14-2",
       "name_ja": "多巣性運動ニューロパチー",
       "parent_disease_id": "mhlw-0014",
-      "parent_english": null,
+      "parent_english": "Chronic Inflammatory Demyelinating Polyneuropathy /Multifocal Motor Neuropathy",
       "orpha_code": 641,
       "orpha_url": "https://www.orpha.net/en/disease/detail/641",
       "orpha_label": "Multifocal motor neuropathy",
@@ -375,7 +338,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -384,7 +347,7 @@
       "disease_id": "nando-156-2",
       "name_ja": "非典型的レット症候群",
       "parent_disease_id": "mhlw-0156",
-      "parent_english": null,
+      "parent_english": "Rett's Syndrome",
       "orpha_code": 3095,
       "orpha_url": "https://www.orpha.net/en/disease/detail/3095",
       "orpha_label": "Atypical Rett syndrome",
@@ -412,7 +375,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -421,7 +384,7 @@
       "disease_id": "nando-160-1-1",
       "name_ja": "常染色体優性表皮融解性魚鱗癬",
       "parent_disease_id": "mhlw-0160",
-      "parent_english": null,
+      "parent_english": "Congenital ichthyosis",
       "orpha_code": 312,
       "orpha_url": "https://www.orpha.net/en/disease/detail/312",
       "orpha_label": "Autosomal dominant epidermolytic ichthyosis",
@@ -437,7 +400,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -446,7 +409,7 @@
       "disease_id": "nando-160-1-3",
       "name_ja": "表在性表皮融解性魚鱗癬",
       "parent_disease_id": "mhlw-0160",
-      "parent_english": null,
+      "parent_english": "Congenital ichthyosis",
       "orpha_code": 455,
       "orpha_url": "https://www.orpha.net/en/disease/detail/455",
       "orpha_label": "Superficial epidermolytic ichthyosis",
@@ -462,7 +425,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -471,7 +434,7 @@
       "disease_id": "nando-160-2",
       "name_ja": "道化師様魚鱗癬",
       "parent_disease_id": "mhlw-0160",
-      "parent_english": null,
+      "parent_english": "Congenital ichthyosis",
       "orpha_code": 457,
       "orpha_url": "https://www.orpha.net/en/disease/detail/457",
       "orpha_label": "Harlequin ichthyosis",
@@ -487,7 +450,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -496,7 +459,7 @@
       "disease_id": "nando-160-3-1",
       "name_ja": "先天性魚鱗癬様紅皮症",
       "parent_disease_id": "mhlw-0160",
-      "parent_english": null,
+      "parent_english": "Congenital ichthyosis",
       "orpha_code": 79394,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79394",
       "orpha_label": "Congenital ichthyosiform erythroderma",
@@ -512,7 +475,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -521,7 +484,7 @@
       "disease_id": "nando-160-3-2",
       "name_ja": "葉状魚鱗癬",
       "parent_disease_id": "mhlw-0160",
-      "parent_english": null,
+      "parent_english": "Congenital ichthyosis",
       "orpha_code": 313,
       "orpha_url": "https://www.orpha.net/en/disease/detail/313",
       "orpha_label": "Lamellar ichthyosis",
@@ -537,7 +500,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -546,7 +509,7 @@
       "disease_id": "nando-160-4-2",
       "name_ja": "シェーグレン・ラルソン症候群",
       "parent_disease_id": "mhlw-0160",
-      "parent_english": null,
+      "parent_english": "Congenital ichthyosis",
       "orpha_code": 816,
       "orpha_url": "https://www.orpha.net/en/disease/detail/816",
       "orpha_label": "Sjögren-Larsson syndrome",
@@ -578,7 +541,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -587,7 +550,7 @@
       "disease_id": "nando-160-4-9",
       "name_ja": "硫黄欠乏性毛髪発育異常症",
       "parent_disease_id": "mhlw-0160",
-      "parent_english": null,
+      "parent_english": "Congenital ichthyosis",
       "orpha_code": 33364,
       "orpha_url": "https://www.orpha.net/en/disease/detail/33364",
       "orpha_label": "Trichothiodystrophy",
@@ -627,7 +590,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -636,7 +599,7 @@
       "disease_id": "nando-162-1",
       "name_ja": "水疱性類天疱瘡",
       "parent_disease_id": "mhlw-0162",
-      "parent_english": null,
+      "parent_english": "Pemphigoid （including Epidermolysis Bullosa Acquisita）",
       "orpha_code": 703,
       "orpha_url": "https://www.orpha.net/en/disease/detail/703",
       "orpha_label": "Bullous pemphigoid",
@@ -656,7 +619,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -665,7 +628,7 @@
       "disease_id": "nando-162-2",
       "name_ja": "粘膜類天疱瘡",
       "parent_disease_id": "mhlw-0162",
-      "parent_english": null,
+      "parent_english": "Pemphigoid （including Epidermolysis Bullosa Acquisita）",
       "orpha_code": 46486,
       "orpha_url": "https://www.orpha.net/en/disease/detail/46486",
       "orpha_label": "Mucous membrane pemphigoid",
@@ -685,7 +648,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -694,7 +657,7 @@
       "disease_id": "nando-162-3",
       "name_ja": "後天性表皮水疱症",
       "parent_disease_id": "mhlw-0162",
-      "parent_english": null,
+      "parent_english": "Pemphigoid （including Epidermolysis Bullosa Acquisita）",
       "orpha_code": 46487,
       "orpha_url": "https://www.orpha.net/en/disease/detail/46487",
       "orpha_label": "Epidermolysis bullosa acquisita",
@@ -710,7 +673,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -719,7 +682,7 @@
       "disease_id": "nando-164-1",
       "name_ja": "ヘルマンスキー・パドラック症候群",
       "parent_disease_id": "mhlw-0164",
-      "parent_english": null,
+      "parent_english": "Oculocutaneous albinism",
       "orpha_code": 79430,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79430",
       "orpha_label": "Hermansky-Pudlak syndrome",
@@ -747,7 +710,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -756,7 +719,7 @@
       "disease_id": "nando-164-3",
       "name_ja": "グリセリ症候群",
       "parent_disease_id": "mhlw-0164",
-      "parent_english": null,
+      "parent_english": "Oculocutaneous albinism",
       "orpha_code": 381,
       "orpha_url": "https://www.orpha.net/en/disease/detail/381",
       "orpha_label": "Griscelli syndrome",
@@ -776,7 +739,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -785,7 +748,7 @@
       "disease_id": "nando-18-2-1",
       "name_ja": "脊髄小脳失調症３型",
       "parent_disease_id": "mhlw-0018",
-      "parent_english": null,
+      "parent_english": "Spinocerebellar degeneration",
       "orpha_code": 98757,
       "orpha_url": "https://www.orpha.net/en/disease/detail/98757",
       "orpha_label": "Spinocerebellar ataxia type 3",
@@ -805,7 +768,7 @@
       "existing_curated_link": true,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "already_curated"
@@ -814,7 +777,7 @@
       "disease_id": "nando-18-2-2",
       "name_ja": "脊髄小脳失調症６型",
       "parent_disease_id": "mhlw-0018",
-      "parent_english": null,
+      "parent_english": "Spinocerebellar degeneration",
       "orpha_code": 98758,
       "orpha_url": "https://www.orpha.net/en/disease/detail/98758",
       "orpha_label": "Spinocerebellar ataxia type 6",
@@ -834,7 +797,7 @@
       "existing_curated_link": true,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "already_curated"
@@ -843,7 +806,7 @@
       "disease_id": "nando-18-2-4",
       "name_ja": "脊髄小脳失調症３１型",
       "parent_disease_id": "mhlw-0018",
-      "parent_english": null,
+      "parent_english": "Spinocerebellar degeneration",
       "orpha_code": 217012,
       "orpha_url": "https://www.orpha.net/en/disease/detail/217012",
       "orpha_label": "Spinocerebellar ataxia type 31",
@@ -859,7 +822,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -868,7 +831,7 @@
       "disease_id": "nando-18-2-5",
       "name_ja": "脊髄小脳失調症１型",
       "parent_disease_id": "mhlw-0018",
-      "parent_english": null,
+      "parent_english": "Spinocerebellar degeneration",
       "orpha_code": 98755,
       "orpha_url": "https://www.orpha.net/en/disease/detail/98755",
       "orpha_label": "Spinocerebellar ataxia type 1",
@@ -896,7 +859,7 @@
       "existing_curated_link": true,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "already_curated"
@@ -905,7 +868,7 @@
       "disease_id": "nando-18-2-6",
       "name_ja": "脊髄小脳失調症２型",
       "parent_disease_id": "mhlw-0018",
-      "parent_english": null,
+      "parent_english": "Spinocerebellar degeneration",
       "orpha_code": 98756,
       "orpha_url": "https://www.orpha.net/en/disease/detail/98756",
       "orpha_label": "Spinocerebellar ataxia type 2",
@@ -933,7 +896,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -942,7 +905,7 @@
       "disease_id": "nando-18-2-7",
       "name_ja": "脊髄小脳失調症７型",
       "parent_disease_id": "mhlw-0018",
-      "parent_english": null,
+      "parent_english": "Spinocerebellar degeneration",
       "orpha_code": 94147,
       "orpha_url": "https://www.orpha.net/en/disease/detail/94147",
       "orpha_label": "Spinocerebellar ataxia type 7",
@@ -962,7 +925,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -971,7 +934,7 @@
       "disease_id": "nando-18-2-8",
       "name_ja": "脊髄小脳失調症３６型",
       "parent_disease_id": "mhlw-0018",
-      "parent_english": null,
+      "parent_english": "Spinocerebellar degeneration",
       "orpha_code": 276198,
       "orpha_url": "https://www.orpha.net/en/disease/detail/276198",
       "orpha_label": "Spinocerebellar ataxia type 36",
@@ -987,7 +950,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -996,7 +959,7 @@
       "disease_id": "nando-18-3-2",
       "name_ja": "アプラタキシン欠損症",
       "parent_disease_id": "mhlw-0018",
-      "parent_english": null,
+      "parent_english": "Spinocerebellar degeneration",
       "orpha_code": 1168,
       "orpha_url": "https://www.orpha.net/en/disease/detail/1168",
       "orpha_label": "Ataxia-oculomotor apraxia type 1",
@@ -1020,7 +983,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1029,7 +992,7 @@
       "disease_id": "nando-19-18",
       "name_ja": "ヒアルロニダーゼ欠損症",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 67041,
       "orpha_url": "https://www.orpha.net/en/disease/detail/67041",
       "orpha_label": "Hyaluronidase deficiency",
@@ -1049,7 +1012,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1058,7 +1021,7 @@
       "disease_id": "nando-19-19-1",
       "name_ja": "シアリドーシス（Ⅰ型）",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 812,
       "orpha_url": "https://www.orpha.net/en/disease/detail/812",
       "orpha_label": "Sialidosis type 1",
@@ -1082,7 +1045,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1091,7 +1054,7 @@
       "disease_id": "nando-19-19-2",
       "name_ja": "シアリドーシス（Ⅱ型）",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 87876,
       "orpha_url": "https://www.orpha.net/en/disease/detail/87876",
       "orpha_label": "Sialidosis type 2",
@@ -1127,7 +1090,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1136,7 +1099,7 @@
       "disease_id": "nando-19-20",
       "name_ja": "ガラクトシアリドーシス",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 351,
       "orpha_url": "https://www.orpha.net/en/disease/detail/351",
       "orpha_label": "Galactosialidosis",
@@ -1164,7 +1127,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1173,7 +1136,7 @@
       "disease_id": "nando-19-21-1",
       "name_ja": "ムコリピドーシスII型",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 576,
       "orpha_url": "https://www.orpha.net/en/disease/detail/576",
       "orpha_label": "Mucolipidosis type II",
@@ -1201,7 +1164,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1210,7 +1173,7 @@
       "disease_id": "nando-19-21-2",
       "name_ja": "ムコリピドーシスIII型",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 577,
       "orpha_url": "https://www.orpha.net/en/disease/detail/577",
       "orpha_label": "Mucolipidosis type III",
@@ -1230,7 +1193,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1239,7 +1202,7 @@
       "disease_id": "nando-19-22",
       "name_ja": "α-マンノシドーシス",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 61,
       "orpha_url": "https://www.orpha.net/en/disease/detail/61",
       "orpha_label": "Alpha-mannosidosis",
@@ -1271,7 +1234,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1280,7 +1243,7 @@
       "disease_id": "nando-19-23",
       "name_ja": "β-マンノシドーシス",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 118,
       "orpha_url": "https://www.orpha.net/en/disease/detail/118",
       "orpha_label": "Beta-mannosidosis",
@@ -1312,7 +1275,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1321,7 +1284,7 @@
       "disease_id": "nando-19-24",
       "name_ja": "フコシドーシス",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 349,
       "orpha_url": "https://www.orpha.net/en/disease/detail/349",
       "orpha_label": "Fucosidosis",
@@ -1353,7 +1316,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1362,7 +1325,7 @@
       "disease_id": "nando-19-25",
       "name_ja": "アスパルチルグルコサミン尿症",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 93,
       "orpha_url": "https://www.orpha.net/en/disease/detail/93",
       "orpha_label": "Aspartylglucosaminuria",
@@ -1394,7 +1357,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1403,7 +1366,7 @@
       "disease_id": "nando-19-28",
       "name_ja": "酸性リパーゼ欠損症",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 275761,
       "orpha_url": "https://www.orpha.net/en/disease/detail/275761",
       "orpha_label": "Lysosomal acid lipase deficiency",
@@ -1427,7 +1390,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1436,7 +1399,7 @@
       "disease_id": "nando-19-29",
       "name_ja": "Danon病",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 34587,
       "orpha_url": "https://www.orpha.net/en/disease/detail/34587",
       "orpha_label": "Danon disease",
@@ -1472,7 +1435,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1481,7 +1444,7 @@
       "disease_id": "nando-19-3",
       "name_ja": "Niemann-Pick病C型",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 646,
       "orpha_url": "https://www.orpha.net/en/disease/detail/646",
       "orpha_label": "Niemann-Pick disease type C",
@@ -1529,7 +1492,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1538,7 +1501,7 @@
       "disease_id": "nando-19-30",
       "name_ja": "遊離シアル酸蓄積症",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 834,
       "orpha_url": "https://www.orpha.net/en/disease/detail/834",
       "orpha_label": "Free sialic acid storage disease",
@@ -1566,7 +1529,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1575,7 +1538,7 @@
       "disease_id": "nando-19-33",
       "name_ja": "シスチン症",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 213,
       "orpha_url": "https://www.orpha.net/en/disease/detail/213",
       "orpha_label": "Cystinosis",
@@ -1595,7 +1558,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1604,7 +1567,7 @@
       "disease_id": "nando-19-4",
       "name_ja": "GM1ガングリオシドーシス",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 354,
       "orpha_url": "https://www.orpha.net/en/disease/detail/354",
       "orpha_label": "GM1 gangliosidosis",
@@ -1632,7 +1595,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1641,7 +1604,7 @@
       "disease_id": "nando-19-5-2",
       "name_ja": "Sandhoff病",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 796,
       "orpha_url": "https://www.orpha.net/en/disease/detail/796",
       "orpha_label": "Sandhoff disease",
@@ -1669,7 +1632,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1678,7 +1641,7 @@
       "disease_id": "nando-19-6",
       "name_ja": "Krabbe病",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 487,
       "orpha_url": "https://www.orpha.net/en/disease/detail/487",
       "orpha_label": "Krabbe disease",
@@ -1718,7 +1681,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1727,7 +1690,7 @@
       "disease_id": "nando-19-7",
       "name_ja": "異染性白質ジストロフィー",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 512,
       "orpha_url": "https://www.orpha.net/en/disease/detail/512",
       "orpha_label": "Metachromatic leukodystrophy",
@@ -1767,7 +1730,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1776,7 +1739,7 @@
       "disease_id": "nando-19-9",
       "name_ja": "Farber病",
       "parent_disease_id": "mhlw-0019",
-      "parent_english": null,
+      "parent_english": "Lysosomal Storage Disease",
       "orpha_code": 333,
       "orpha_url": "https://www.orpha.net/en/disease/detail/333",
       "orpha_label": "Farber disease",
@@ -1816,7 +1779,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1825,7 +1788,7 @@
       "disease_id": "nando-21-2",
       "name_ja": "リー脳症",
       "parent_disease_id": "mhlw-0021",
-      "parent_english": null,
+      "parent_english": "Mitochondrial Diseases",
       "orpha_code": 506,
       "orpha_url": "https://www.orpha.net/en/disease/detail/506",
       "orpha_label": "Leigh syndrome",
@@ -1857,7 +1820,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1866,7 +1829,7 @@
       "disease_id": "nando-21-3",
       "name_ja": "ミトコンドリア脳筋症・乳酸アシドーシス・脳卒中様発作症候群",
       "parent_disease_id": "mhlw-0021",
-      "parent_english": null,
+      "parent_english": "Mitochondrial Diseases",
       "orpha_code": 550,
       "orpha_url": "https://www.orpha.net/en/disease/detail/550",
       "orpha_label": "MELAS",
@@ -1922,7 +1885,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1931,7 +1894,7 @@
       "disease_id": "nando-21-4",
       "name_ja": "ミトコンドリア異常を伴うミオクローヌスてんかん",
       "parent_disease_id": "mhlw-0021",
-      "parent_english": null,
+      "parent_english": "Mitochondrial Diseases",
       "orpha_code": 551,
       "orpha_url": "https://www.orpha.net/en/disease/detail/551",
       "orpha_label": "MERRF",
@@ -1979,7 +1942,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -1988,7 +1951,7 @@
       "disease_id": "nando-21-5",
       "name_ja": "レーバー病",
       "parent_disease_id": "mhlw-0021",
-      "parent_english": null,
+      "parent_english": "Mitochondrial Diseases",
       "orpha_code": 104,
       "orpha_url": "https://www.orpha.net/en/disease/detail/104",
       "orpha_label": "Leber hereditary optic neuropathy",
@@ -2008,7 +1971,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2017,7 +1980,7 @@
       "disease_id": "nando-229-1",
       "name_ja": "自己免疫性肺胞蛋白症",
       "parent_disease_id": "mhlw-0229",
-      "parent_english": null,
+      "parent_english": "pulmonary alveolar proteinosis",
       "orpha_code": 747,
       "orpha_url": "https://www.orpha.net/en/disease/detail/747",
       "orpha_label": "Autoimmune pulmonary alveolar proteinosis",
@@ -2037,7 +2000,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2046,7 +2009,7 @@
       "disease_id": "nando-23-1",
       "name_ja": "孤発性クロイツフェルト・ヤコブ病",
       "parent_disease_id": "mhlw-0023",
-      "parent_english": null,
+      "parent_english": "Prion disease",
       "orpha_code": 204,
       "orpha_url": "https://www.orpha.net/en/disease/detail/204",
       "orpha_label": "Sporadic Creutzfeldt-Jakob disease",
@@ -2066,7 +2029,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2075,7 +2038,7 @@
       "disease_id": "nando-23-2-2",
       "name_ja": "ゲルストマン・ストロイスラー・シャインカー病",
       "parent_disease_id": "mhlw-0023",
-      "parent_english": null,
+      "parent_english": "Prion disease",
       "orpha_code": 356,
       "orpha_url": "https://www.orpha.net/en/disease/detail/356",
       "orpha_label": "Gerstmann-Straussler-Scheinker syndrome",
@@ -2091,7 +2054,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2100,7 +2063,7 @@
       "disease_id": "nando-23-2-3",
       "name_ja": "致死性家族性不眠症",
       "parent_disease_id": "mhlw-0023",
-      "parent_english": null,
+      "parent_english": "Prion disease",
       "orpha_code": 466,
       "orpha_url": "https://www.orpha.net/en/disease/detail/466",
       "orpha_label": "Fatal familial insomnia",
@@ -2116,7 +2079,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2125,7 +2088,7 @@
       "disease_id": "nando-234-1-1",
       "name_ja": "ツェルベーガー症候群",
       "parent_disease_id": "mhlw-0234",
-      "parent_english": null,
+      "parent_english": "Peroxisomal Disorder",
       "orpha_code": 912,
       "orpha_url": "https://www.orpha.net/en/disease/detail/912",
       "orpha_label": "Zellweger syndrome",
@@ -2169,7 +2132,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2178,7 +2141,7 @@
       "disease_id": "nando-234-1-2",
       "name_ja": "新生児型副腎白質ジストロフィー",
       "parent_disease_id": "mhlw-0234",
-      "parent_english": null,
+      "parent_english": "Peroxisomal Disorder",
       "orpha_code": 44,
       "orpha_url": "https://www.orpha.net/en/disease/detail/44",
       "orpha_label": "Neonatal adrenoleukodystrophy",
@@ -2214,7 +2177,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2223,7 +2186,7 @@
       "disease_id": "nando-234-1-3",
       "name_ja": "乳児レフサム病",
       "parent_disease_id": "mhlw-0234",
-      "parent_english": null,
+      "parent_english": "Peroxisomal Disorder",
       "orpha_code": 772,
       "orpha_url": "https://www.orpha.net/en/disease/detail/772",
       "orpha_label": "Infantile Refsum disease",
@@ -2251,7 +2214,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2260,7 +2223,7 @@
       "disease_id": "nando-234-2-1",
       "name_ja": "アシル CoA オキシダーゼ欠損症",
       "parent_disease_id": "mhlw-0234",
-      "parent_english": null,
+      "parent_english": "Peroxisomal Disorder",
       "orpha_code": 2971,
       "orpha_url": "https://www.orpha.net/en/disease/detail/2971",
       "orpha_label": "Peroxisomal acyl-CoA oxidase deficiency",
@@ -2288,7 +2251,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2297,7 +2260,7 @@
       "disease_id": "nando-234-6",
       "name_ja": "アカタラセミア",
       "parent_disease_id": "mhlw-0234",
-      "parent_english": null,
+      "parent_english": "Peroxisomal Disorder",
       "orpha_code": 926,
       "orpha_url": "https://www.orpha.net/en/disease/detail/926",
       "orpha_label": "Acatalasemia",
@@ -2313,7 +2276,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2322,7 +2285,7 @@
       "disease_id": "nando-251-2",
       "name_ja": "OTC欠損症",
       "parent_disease_id": "mhlw-0251",
-      "parent_english": null,
+      "parent_english": "Urea cycle disorder",
       "orpha_code": 664,
       "orpha_url": "https://www.orpha.net/en/disease/detail/664",
       "orpha_label": "Ornithine transcarbamylase deficiency",
@@ -2346,7 +2309,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2355,7 +2318,7 @@
       "disease_id": "nando-251-4",
       "name_ja": "アルギニノコハク酸尿症",
       "parent_disease_id": "mhlw-0251",
-      "parent_english": null,
+      "parent_english": "Urea cycle disorder",
       "orpha_code": 23,
       "orpha_url": "https://www.orpha.net/en/disease/detail/23",
       "orpha_label": "Argininosuccinic aciduria",
@@ -2375,7 +2338,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2384,7 +2347,7 @@
       "disease_id": "nando-251-5",
       "name_ja": "アルギニン血症",
       "parent_disease_id": "mhlw-0251",
-      "parent_english": null,
+      "parent_english": "Urea cycle disorder",
       "orpha_code": 90,
       "orpha_url": "https://www.orpha.net/en/disease/detail/90",
       "orpha_label": "Argininemia",
@@ -2404,7 +2367,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2413,7 +2376,7 @@
       "disease_id": "nando-254-1",
       "name_ja": "急性間欠性ポルフィリン症",
       "parent_disease_id": "mhlw-0254",
-      "parent_english": null,
+      "parent_english": "Porphyria",
       "orpha_code": 79276,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79276",
       "orpha_label": "Acute intermittent porphyria",
@@ -2429,7 +2392,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2438,7 +2401,7 @@
       "disease_id": "nando-254-2",
       "name_ja": "遺伝性コプロポルフィリン症",
       "parent_disease_id": "mhlw-0254",
-      "parent_english": null,
+      "parent_english": "Porphyria",
       "orpha_code": 79273,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79273",
       "orpha_label": "Hereditary coproporphyria",
@@ -2454,7 +2417,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2463,7 +2426,7 @@
       "disease_id": "nando-254-3",
       "name_ja": "異型ポルフィリン症",
       "parent_disease_id": "mhlw-0254",
-      "parent_english": null,
+      "parent_english": "Porphyria",
       "orpha_code": 79473,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79473",
       "orpha_label": "Variegate porphyria",
@@ -2479,7 +2442,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2488,7 +2451,7 @@
       "disease_id": "nando-254-5",
       "name_ja": "晩発性皮膚ポルフィリン症",
       "parent_disease_id": "mhlw-0254",
-      "parent_english": null,
+      "parent_english": "Porphyria",
       "orpha_code": 101330,
       "orpha_url": "https://www.orpha.net/en/disease/detail/101330",
       "orpha_label": "Porphyria cutanea tarda",
@@ -2504,7 +2467,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2513,7 +2476,7 @@
       "disease_id": "nando-254-6",
       "name_ja": "先天性骨髄性ポルフィリン症",
       "parent_disease_id": "mhlw-0254",
-      "parent_english": null,
+      "parent_english": "Porphyria",
       "orpha_code": 79277,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79277",
       "orpha_label": "Congenital erythropoietic porphyria",
@@ -2533,7 +2496,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2542,7 +2505,7 @@
       "disease_id": "nando-254-8",
       "name_ja": "肝性骨髄性ポルフィリン症",
       "parent_disease_id": "mhlw-0254",
-      "parent_english": null,
+      "parent_english": "Porphyria",
       "orpha_code": 95159,
       "orpha_url": "https://www.orpha.net/en/disease/detail/95159",
       "orpha_label": "Hepatoerythropoietic porphyria",
@@ -2558,7 +2521,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2567,7 +2530,7 @@
       "disease_id": "nando-255-1",
       "name_ja": "ホロカルボキシラーゼ合成酵素欠損症",
       "parent_disease_id": "mhlw-0255",
-      "parent_english": null,
+      "parent_english": "Multiple carboxylase deficiency",
       "orpha_code": 79242,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79242",
       "orpha_label": "Holocarboxylase synthetase deficiency",
@@ -2583,7 +2546,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2592,7 +2555,7 @@
       "disease_id": "nando-255-2",
       "name_ja": "ビオチニダーゼ欠損症",
       "parent_disease_id": "mhlw-0255",
-      "parent_english": null,
+      "parent_english": "Multiple carboxylase deficiency",
       "orpha_code": 79241,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79241",
       "orpha_label": "Biotinidase deficiency",
@@ -2616,7 +2579,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2625,7 +2588,7 @@
       "disease_id": "nando-265-2",
       "name_ja": "後天性全身性脂肪萎縮症",
       "parent_disease_id": "mhlw-0265",
-      "parent_english": null,
+      "parent_english": "Lipodystrophy",
       "orpha_code": 79086,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79086",
       "orpha_label": "Acquired generalized lipodystrophy",
@@ -2645,7 +2608,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2654,7 +2617,7 @@
       "disease_id": "nando-28-1-1",
       "name_ja": "免疫グロブリン性アミロイドーシス",
       "parent_disease_id": "mhlw-0028",
-      "parent_english": null,
+      "parent_english": "Systemic amyloidosis",
       "orpha_code": 85443,
       "orpha_url": "https://www.orpha.net/en/disease/detail/85443",
       "orpha_label": "AL amyloidosis",
@@ -2694,32 +2657,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
-      ],
-      "priority": "review_first",
-      "review_status": "pending_review"
-    },
-    {
-      "disease_id": "nando-282-3",
-      "name_ja": "先天性赤血球形成異常性貧血 Type III",
-      "parent_disease_id": "mhlw-0282",
-      "parent_english": null,
-      "orpha_code": 98870,
-      "orpha_url": "https://www.orpha.net/en/disease/detail/98870",
-      "orpha_label": "Congenital dyserythropoietic anemia type III",
-      "orpha_type": "Disease",
-      "local_concept_kind": "disease_subtype",
-      "source_parents": [
-        {
-          "orpha_code": 85,
-          "label": "Congenital dyserythropoietic anemia"
-        }
-      ],
-      "parent_exact_match": false,
-      "existing_curated_link": false,
-      "warning_flags": [
-        "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2728,7 +2666,7 @@
       "disease_id": "nando-30-1",
       "name_ja": "三好型ミオパチー",
       "parent_disease_id": "mhlw-0030",
-      "parent_english": null,
+      "parent_english": "Distal myopathy",
       "orpha_code": 45448,
       "orpha_url": "https://www.orpha.net/en/disease/detail/45448",
       "orpha_label": "Miyoshi myopathy",
@@ -2748,7 +2686,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2757,7 +2695,7 @@
       "disease_id": "nando-30-3",
       "name_ja": "眼咽頭遠位型ミオパチー",
       "parent_disease_id": "mhlw-0030",
-      "parent_english": null,
+      "parent_english": "Distal myopathy",
       "orpha_code": 98897,
       "orpha_url": "https://www.orpha.net/en/disease/detail/98897",
       "orpha_label": "Oculopharyngodistal myopathy",
@@ -2789,7 +2727,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2798,7 +2736,7 @@
       "disease_id": "nando-301-2",
       "name_ja": "Stargardt病",
       "parent_disease_id": "mhlw-0301",
-      "parent_english": null,
+      "parent_english": "Macular dystrophy",
       "orpha_code": 827,
       "orpha_url": "https://www.orpha.net/en/disease/detail/827",
       "orpha_label": "Stargardt disease",
@@ -2822,7 +2760,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2831,7 +2769,7 @@
       "disease_id": "nando-301-6",
       "name_ja": "中心性輪紋状脈絡膜ジストロフィー",
       "parent_disease_id": "mhlw-0301",
-      "parent_english": null,
+      "parent_english": "Macular dystrophy",
       "orpha_code": 75377,
       "orpha_url": "https://www.orpha.net/en/disease/detail/75377",
       "orpha_label": "Central areolar choroidal dystrophy",
@@ -2851,7 +2789,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2860,7 +2798,7 @@
       "disease_id": "nando-308-1",
       "name_ja": "皮質下嚢胞をもつ大頭型白質脳症",
       "parent_disease_id": "mhlw-0308",
-      "parent_english": null,
+      "parent_english": "Progressive multifocal leukoencephalopathy",
       "orpha_code": 2478,
       "orpha_url": "https://www.orpha.net/en/disease/detail/2478",
       "orpha_label": "Megalencephalic leukoencephalopathy with subcortical cysts",
@@ -2876,7 +2814,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2885,7 +2823,7 @@
       "disease_id": "nando-309-2",
       "name_ja": "ラフォラ病",
       "parent_disease_id": "mhlw-0309",
-      "parent_english": null,
+      "parent_english": "Progressive myoclonus epilepsy",
       "orpha_code": 501,
       "orpha_url": "https://www.orpha.net/en/disease/detail/501",
       "orpha_label": "Lafora disease",
@@ -2901,7 +2839,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2910,7 +2848,7 @@
       "disease_id": "nando-316-2",
       "name_ja": "CPT2欠損症",
       "parent_disease_id": "mhlw-0316",
-      "parent_english": null,
+      "parent_english": "carnitine cycle disorders",
       "orpha_code": 157,
       "orpha_url": "https://www.orpha.net/en/disease/detail/157",
       "orpha_label": "Carnitine palmitoyltransferase II deficiency",
@@ -2930,7 +2868,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2939,7 +2877,7 @@
       "disease_id": "nando-316-3",
       "name_ja": "CACT欠損症",
       "parent_disease_id": "mhlw-0316",
-      "parent_english": null,
+      "parent_english": "carnitine cycle disorders",
       "orpha_code": 159,
       "orpha_url": "https://www.orpha.net/en/disease/detail/159",
       "orpha_label": "Carnitine-acylcarnitine translocase deficiency",
@@ -2963,7 +2901,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -2972,7 +2910,7 @@
       "disease_id": "nando-316-4",
       "name_ja": "OCTN-2異常症",
       "parent_disease_id": "mhlw-0316",
-      "parent_english": null,
+      "parent_english": "carnitine cycle disorders",
       "orpha_code": 158,
       "orpha_url": "https://www.orpha.net/en/disease/detail/158",
       "orpha_label": "Systemic primary carnitine deficiency",
@@ -2996,7 +2934,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3005,7 +2943,7 @@
       "disease_id": "nando-325-3",
       "name_ja": "エカルディ・グティエール症候群",
       "parent_disease_id": "mhlw-0325",
-      "parent_english": null,
+      "parent_english": "Hereditary autoinflammatory syndrome",
       "orpha_code": 51,
       "orpha_url": "https://www.orpha.net/en/disease/detail/51",
       "orpha_label": "Aicardi-Goutières syndrome",
@@ -3037,7 +2975,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3046,7 +2984,7 @@
       "disease_id": "nando-34-1",
       "name_ja": "神経線維腫症Ⅰ型",
       "parent_disease_id": "mhlw-0034",
-      "parent_english": null,
+      "parent_english": "Neurofibromatosis",
       "orpha_code": 636,
       "orpha_url": "https://www.orpha.net/en/disease/detail/636",
       "orpha_label": "Neurofibromatosis type 1",
@@ -3110,7 +3048,7 @@
       "existing_curated_link": true,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "already_curated"
@@ -3119,7 +3057,7 @@
       "disease_id": "nando-35-2",
       "name_ja": "天疱瘡（落葉状）",
       "parent_disease_id": "mhlw-0035",
-      "parent_english": null,
+      "parent_english": "Pemphigus",
       "orpha_code": 79481,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79481",
       "orpha_label": "Pemphigus foliaceus",
@@ -3135,7 +3073,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3144,7 +3082,7 @@
       "disease_id": "nando-35-3",
       "name_ja": "天疱瘡（腫瘍随伴性）",
       "parent_disease_id": "mhlw-0035",
-      "parent_english": null,
+      "parent_english": "Pemphigus",
       "orpha_code": 63455,
       "orpha_url": "https://www.orpha.net/en/disease/detail/63455",
       "orpha_label": "Paraneoplastic pemphigus",
@@ -3160,7 +3098,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3169,7 +3107,7 @@
       "disease_id": "nando-35-4",
       "name_ja": "天疱瘡（増殖性）",
       "parent_disease_id": "mhlw-0035",
-      "parent_english": null,
+      "parent_english": "Pemphigus",
       "orpha_code": 79479,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79479",
       "orpha_label": "Pemphigus vegetans",
@@ -3185,7 +3123,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3194,7 +3132,7 @@
       "disease_id": "nando-35-5",
       "name_ja": "天疱瘡（紅斑性）",
       "parent_disease_id": "mhlw-0035",
-      "parent_english": null,
+      "parent_english": "Pemphigus",
       "orpha_code": 79480,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79480",
       "orpha_label": "Pemphigus erythematosus",
@@ -3210,7 +3148,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3219,7 +3157,7 @@
       "disease_id": "nando-48-3",
       "name_ja": "劇症型",
       "parent_disease_id": "mhlw-0048",
-      "parent_english": null,
+      "parent_english": "Antiphospholipid Antibody Syndrome",
       "orpha_code": 464343,
       "orpha_url": "https://www.orpha.net/en/disease/detail/464343",
       "orpha_label": "Catastrophic antiphospholipid syndrome",
@@ -3239,7 +3177,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3248,7 +3186,7 @@
       "disease_id": "nando-50-1",
       "name_ja": "皮膚筋炎",
       "parent_disease_id": "mhlw-0050",
-      "parent_english": null,
+      "parent_english": "Dermatomyositis/Polymyositis",
       "orpha_code": 221,
       "orpha_url": "https://www.orpha.net/en/disease/detail/221",
       "orpha_label": "Dermatomyositis",
@@ -3272,7 +3210,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3281,7 +3219,7 @@
       "disease_id": "nando-50-3",
       "name_ja": "多発性筋炎",
       "parent_disease_id": "mhlw-0050",
-      "parent_english": null,
+      "parent_english": "Dermatomyositis/Polymyositis",
       "orpha_code": 732,
       "orpha_url": "https://www.orpha.net/en/disease/detail/732",
       "orpha_label": "Polymyositis",
@@ -3301,7 +3239,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3310,7 +3248,7 @@
       "disease_id": "nando-60-1",
       "name_ja": "特発性再生不良性貧血",
       "parent_disease_id": "mhlw-0060",
-      "parent_english": null,
+      "parent_english": "Aplastic anemia",
       "orpha_code": 88,
       "orpha_url": "https://www.orpha.net/en/disease/detail/88",
       "orpha_label": "Idiopathic aplastic anemia",
@@ -3330,7 +3268,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3339,7 +3277,7 @@
       "disease_id": "nando-61-2",
       "name_ja": "寒冷凝集素症",
       "parent_disease_id": "mhlw-0061",
-      "parent_english": null,
+      "parent_english": "Autoimmune hemolytic anemia",
       "orpha_code": 56425,
       "orpha_url": "https://www.orpha.net/en/disease/detail/56425",
       "orpha_label": "Cold agglutinin disease",
@@ -3355,61 +3293,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
-      ],
-      "priority": "review_first",
-      "review_status": "pending_review"
-    },
-    {
-      "disease_id": "nando-61-4",
-      "name_ja": "混合型",
-      "parent_disease_id": "mhlw-0061",
-      "parent_english": null,
-      "orpha_code": 90036,
-      "orpha_url": "https://www.orpha.net/en/disease/detail/90036",
-      "orpha_label": "Mixed-type autoimmune hemolytic anemia",
-      "orpha_type": "Disease",
-      "local_concept_kind": "disease_subtype",
-      "source_parents": [
-        {
-          "orpha_code": 98375,
-          "label": "Autoimmune hemolytic anemia"
-        }
-      ],
-      "parent_exact_match": false,
-      "existing_curated_link": false,
-      "warning_flags": [
-        "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
-      ],
-      "priority": "review_first",
-      "review_status": "pending_review"
-    },
-    {
-      "disease_id": "nando-61-5",
-      "name_ja": "エヴァンズ症候群",
-      "parent_disease_id": "mhlw-0061",
-      "parent_english": null,
-      "orpha_code": 1959,
-      "orpha_url": "https://www.orpha.net/en/disease/detail/1959",
-      "orpha_label": "Evans syndrome",
-      "orpha_type": "Disease",
-      "local_concept_kind": "disease_subtype",
-      "source_parents": [
-        {
-          "orpha_code": 71203,
-          "label": "Autoimmune thrombocytopenia"
-        },
-        {
-          "orpha_code": 98375,
-          "label": "Autoimmune hemolytic anemia"
-        }
-      ],
-      "parent_exact_match": false,
-      "existing_curated_link": false,
-      "warning_flags": [
-        "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3418,7 +3302,7 @@
       "disease_id": "nando-62-3",
       "name_ja": "混合型PNH",
       "parent_disease_id": "mhlw-0062",
-      "parent_english": null,
+      "parent_english": "Paroxysmal nocturnal hemoglobinuria",
       "orpha_code": 447,
       "orpha_url": "https://www.orpha.net/en/disease/detail/447",
       "orpha_label": "Paroxysmal nocturnal hemoglobinuria",
@@ -3446,7 +3330,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3455,7 +3339,7 @@
       "disease_id": "nando-65-10",
       "name_ja": "ウィスコット・オルドリッチ症候群",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 906,
       "orpha_url": "https://www.orpha.net/en/disease/detail/906",
       "orpha_label": "Wiskott-Aldrich syndrome",
@@ -3495,7 +3379,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3504,7 +3388,7 @@
       "disease_id": "nando-65-13",
       "name_ja": "ブルーム症候群",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 125,
       "orpha_url": "https://www.orpha.net/en/disease/detail/125",
       "orpha_label": "Bloom syndrome",
@@ -3548,7 +3432,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3557,7 +3441,7 @@
       "disease_id": "nando-65-18",
       "name_ja": "ネザートン症候群",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 634,
       "orpha_url": "https://www.orpha.net/en/disease/detail/634",
       "orpha_label": "Netherton syndrome",
@@ -3577,7 +3461,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3586,7 +3470,7 @@
       "disease_id": "nando-65-2",
       "name_ja": "細網異形成症",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 33355,
       "orpha_url": "https://www.orpha.net/en/disease/detail/33355",
       "orpha_label": "Reticular dysgenesis",
@@ -3602,7 +3486,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3611,7 +3495,7 @@
       "disease_id": "nando-65-21",
       "name_ja": "肝中心静脈閉鎖症を伴う免疫不全症",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 79124,
       "orpha_url": "https://www.orpha.net/en/disease/detail/79124",
       "orpha_label": "Hepatic veno-occlusive disease-immunodeficiency syndrome",
@@ -3635,7 +3519,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3644,7 +3528,7 @@
       "disease_id": "nando-65-30",
       "name_ja": "チェディアック・東症候群",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 167,
       "orpha_url": "https://www.orpha.net/en/disease/detail/167",
       "orpha_label": "Chédiak-Higashi syndrome",
@@ -3692,7 +3576,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3701,7 +3585,7 @@
       "disease_id": "nando-65-32",
       "name_ja": "自己免疫性リンパ増殖症候群",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 3261,
       "orpha_url": "https://www.orpha.net/en/disease/detail/3261",
       "orpha_label": "Autoimmune lymphoproliferative syndrome",
@@ -3725,7 +3609,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3734,7 +3618,7 @@
       "disease_id": "nando-65-34",
       "name_ja": "周期性好中球減少症",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 2686,
       "orpha_url": "https://www.orpha.net/en/disease/detail/2686",
       "orpha_label": "Cyclic neutropenia",
@@ -3750,7 +3634,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3759,7 +3643,7 @@
       "disease_id": "nando-65-35",
       "name_ja": "白血球接着不全症",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 2968,
       "orpha_url": "https://www.orpha.net/en/disease/detail/2968",
       "orpha_label": "Leukocyte adhesion deficiency",
@@ -3783,7 +3667,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3792,7 +3676,7 @@
       "disease_id": "nando-65-36",
       "name_ja": "シュワッハマン・ダイアモンド症候群",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 811,
       "orpha_url": "https://www.orpha.net/en/disease/detail/811",
       "orpha_label": "Shwachman-Diamond syndrome",
@@ -3836,7 +3720,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3845,7 +3729,7 @@
       "disease_id": "nando-65-37",
       "name_ja": "慢性肉芽腫症",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 379,
       "orpha_url": "https://www.orpha.net/en/disease/detail/379",
       "orpha_label": "Chronic granulomatous disease",
@@ -3893,7 +3777,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3902,7 +3786,7 @@
       "disease_id": "nando-65-4",
       "name_ja": "オーメン症候群",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 39041,
       "orpha_url": "https://www.orpha.net/en/disease/detail/39041",
       "orpha_label": "Omenn syndrome",
@@ -3922,7 +3806,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3931,7 +3815,7 @@
       "disease_id": "nando-65-43",
       "name_ja": "慢性皮膚粘膜カンジダ症",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 1334,
       "orpha_url": "https://www.orpha.net/en/disease/detail/1334",
       "orpha_label": "Chronic mucocutaneous candidiasis",
@@ -3955,7 +3839,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3964,7 +3848,7 @@
       "disease_id": "nando-65-5",
       "name_ja": "プリンヌクレオシドホスホリラーゼ欠損症",
       "parent_disease_id": "mhlw-0065",
-      "parent_english": null,
+      "parent_english": "Primary Immunodeficiency Syndrome",
       "orpha_code": 760,
       "orpha_url": "https://www.orpha.net/en/disease/detail/760",
       "orpha_label": "Purine nucleoside phosphorylase deficiency",
@@ -3988,7 +3872,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -3997,7 +3881,7 @@
       "disease_id": "nando-67-1",
       "name_ja": "常染色体優性多発性嚢胞腎",
       "parent_disease_id": "mhlw-0067",
-      "parent_english": null,
+      "parent_english": "Polycystic Kidney Disease",
       "orpha_code": 730,
       "orpha_url": "https://www.orpha.net/en/disease/detail/730",
       "orpha_label": "Autosomal dominant polycystic kidney disease",
@@ -4029,7 +3913,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -4038,7 +3922,7 @@
       "disease_id": "nando-67-2",
       "name_ja": "常染色体劣性多発性嚢胞腎",
       "parent_disease_id": "mhlw-0067",
-      "parent_english": null,
+      "parent_english": "Polycystic Kidney Disease",
       "orpha_code": 731,
       "orpha_url": "https://www.orpha.net/en/disease/detail/731",
       "orpha_label": "Autosomal recessive polycystic kidney disease",
@@ -4078,111 +3962,7 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
-      ],
-      "priority": "review_first",
-      "review_status": "pending_review"
-    },
-    {
-      "disease_id": "nando-85-1",
-      "name_ja": "特発性肺線維症",
-      "parent_disease_id": "mhlw-0085",
-      "parent_english": null,
-      "orpha_code": 2032,
-      "orpha_url": "https://www.orpha.net/en/disease/detail/2032",
-      "orpha_label": "Idiopathic pulmonary fibrosis",
-      "orpha_type": "Disease",
-      "local_concept_kind": "disease_subtype",
-      "source_parents": [
-        {
-          "orpha_code": 98300,
-          "label": "Idiopathic interstitial pneumonia"
-        },
-        {
-          "orpha_code": 231957,
-          "label": "Disease associated with a genetic susceptibility or tested for a biomarker"
-        }
-      ],
-      "parent_exact_match": false,
-      "existing_curated_link": false,
-      "warning_flags": [
-        "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
-      ],
-      "priority": "review_first",
-      "review_status": "pending_review"
-    },
-    {
-      "disease_id": "nando-85-2-2",
-      "name_ja": "急性間質性肺炎",
-      "parent_disease_id": "mhlw-0085",
-      "parent_english": null,
-      "orpha_code": 79126,
-      "orpha_url": "https://www.orpha.net/en/disease/detail/79126",
-      "orpha_label": "Acute interstitial pneumonia",
-      "orpha_type": "Disease",
-      "local_concept_kind": "disease_subtype",
-      "source_parents": [
-        {
-          "orpha_code": 98300,
-          "label": "Idiopathic interstitial pneumonia"
-        }
-      ],
-      "parent_exact_match": false,
-      "existing_curated_link": false,
-      "warning_flags": [
-        "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
-      ],
-      "priority": "review_first",
-      "review_status": "pending_review"
-    },
-    {
-      "disease_id": "nando-85-2-3",
-      "name_ja": "特発性器質化肺炎",
-      "parent_disease_id": "mhlw-0085",
-      "parent_english": null,
-      "orpha_code": 1302,
-      "orpha_url": "https://www.orpha.net/en/disease/detail/1302",
-      "orpha_label": "Cryptogenic organizing pneumonia",
-      "orpha_type": "Disease",
-      "local_concept_kind": "disease_subtype",
-      "source_parents": [
-        {
-          "orpha_code": 98300,
-          "label": "Idiopathic interstitial pneumonia"
-        }
-      ],
-      "parent_exact_match": false,
-      "existing_curated_link": false,
-      "warning_flags": [
-        "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
-      ],
-      "priority": "review_first",
-      "review_status": "pending_review"
-    },
-    {
-      "disease_id": "nando-85-2-6",
-      "name_ja": "リンパ球性間質性肺炎",
-      "parent_disease_id": "mhlw-0085",
-      "parent_english": null,
-      "orpha_code": 79128,
-      "orpha_url": "https://www.orpha.net/en/disease/detail/79128",
-      "orpha_label": "Lymphoid interstitial pneumonia",
-      "orpha_type": "Disease",
-      "local_concept_kind": "disease_subtype",
-      "source_parents": [
-        {
-          "orpha_code": 98300,
-          "label": "Idiopathic interstitial pneumonia"
-        }
-      ],
-      "parent_exact_match": false,
-      "existing_curated_link": false,
-      "warning_flags": [
-        "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -4191,7 +3971,7 @@
       "disease_id": "nando-87-2",
       "name_ja": "肺毛細血管腫症",
       "parent_disease_id": "mhlw-0087",
-      "parent_english": null,
+      "parent_english": "Pulmonary Veno-Occlusive Disease / Pulmonary Capillary Hemangiomatosis",
       "orpha_code": 199241,
       "orpha_url": "https://www.orpha.net/en/disease/detail/199241",
       "orpha_label": "Pulmonary capillary hemangiomatosis",
@@ -4207,7 +3987,248 @@
       "existing_curated_link": false,
       "warning_flags": [
         "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_parent_not_exact_in_orpha_parents"
+      ],
+      "priority": "review_first",
+      "review_status": "pending_review"
+    },
+    {
+      "disease_id": "nando-98-3",
+      "name_ja": "好酸球性胃腸炎",
+      "parent_disease_id": "mhlw-0098",
+      "parent_english": "Eosinophilic Gastro-Intestinal Disorder",
+      "orpha_code": 2070,
+      "orpha_url": "https://www.orpha.net/en/disease/detail/2070",
+      "orpha_label": "Eosinophilic gastroenteritis",
+      "orpha_type": "Disease",
+      "local_concept_kind": "disease_subtype",
+      "source_parents": [
+        {
+          "orpha_code": 101936,
+          "label": "Rare gastroesophageal disease"
+        },
+        {
+          "orpha_code": 402029,
+          "label": "Primary eosinophilic gastrointestinal disease"
+        }
+      ],
+      "parent_exact_match": false,
+      "existing_curated_link": false,
+      "warning_flags": [
+        "local_subtype_maps_to_orpha_disease",
+        "local_parent_not_exact_in_orpha_parents"
+      ],
+      "priority": "review_first",
+      "review_status": "pending_review"
+    },
+    {
+      "disease_id": "nando-111-6",
+      "name_ja": "先天性筋線維タイプ不均等症",
+      "parent_disease_id": "mhlw-0111",
+      "parent_english": "Congenital myopathy",
+      "orpha_code": 2020,
+      "orpha_url": "https://www.orpha.net/en/disease/detail/2020",
+      "orpha_label": "Congenital fiber-type disproportion myopathy",
+      "orpha_type": "Disease",
+      "local_concept_kind": "disease_subtype",
+      "source_parents": [
+        {
+          "orpha_code": 97245,
+          "label": "Congenital myopathy"
+        },
+        {
+          "orpha_code": 209059,
+          "label": "Qualitative or quantitative defects of alpha-actin"
+        },
+        {
+          "orpha_code": 209193,
+          "label": "Qualitative or quantitative defects of selenoprotein N1"
+        },
+        {
+          "orpha_code": 284790,
+          "label": "Qualitative or quantitative defects of tropomyosin"
+        }
+      ],
+      "parent_exact_match": true,
+      "existing_curated_link": false,
+      "warning_flags": [
+        "local_subtype_maps_to_orpha_disease"
+      ],
+      "priority": "review_first",
+      "review_status": "pending_review"
+    },
+    {
+      "disease_id": "nando-282-3",
+      "name_ja": "先天性赤血球形成異常性貧血 Type III",
+      "parent_disease_id": "mhlw-0282",
+      "parent_english": "Congenital dyserythropoietic anemia",
+      "orpha_code": 98870,
+      "orpha_url": "https://www.orpha.net/en/disease/detail/98870",
+      "orpha_label": "Congenital dyserythropoietic anemia type III",
+      "orpha_type": "Disease",
+      "local_concept_kind": "disease_subtype",
+      "source_parents": [
+        {
+          "orpha_code": 85,
+          "label": "Congenital dyserythropoietic anemia"
+        }
+      ],
+      "parent_exact_match": true,
+      "existing_curated_link": false,
+      "warning_flags": [
+        "local_subtype_maps_to_orpha_disease"
+      ],
+      "priority": "review_first",
+      "review_status": "pending_review"
+    },
+    {
+      "disease_id": "nando-61-4",
+      "name_ja": "混合型",
+      "parent_disease_id": "mhlw-0061",
+      "parent_english": "Autoimmune hemolytic anemia",
+      "orpha_code": 90036,
+      "orpha_url": "https://www.orpha.net/en/disease/detail/90036",
+      "orpha_label": "Mixed-type autoimmune hemolytic anemia",
+      "orpha_type": "Disease",
+      "local_concept_kind": "disease_subtype",
+      "source_parents": [
+        {
+          "orpha_code": 98375,
+          "label": "Autoimmune hemolytic anemia"
+        }
+      ],
+      "parent_exact_match": true,
+      "existing_curated_link": false,
+      "warning_flags": [
+        "local_subtype_maps_to_orpha_disease"
+      ],
+      "priority": "review_first",
+      "review_status": "pending_review"
+    },
+    {
+      "disease_id": "nando-61-5",
+      "name_ja": "エヴァンズ症候群",
+      "parent_disease_id": "mhlw-0061",
+      "parent_english": "Autoimmune hemolytic anemia",
+      "orpha_code": 1959,
+      "orpha_url": "https://www.orpha.net/en/disease/detail/1959",
+      "orpha_label": "Evans syndrome",
+      "orpha_type": "Disease",
+      "local_concept_kind": "disease_subtype",
+      "source_parents": [
+        {
+          "orpha_code": 71203,
+          "label": "Autoimmune thrombocytopenia"
+        },
+        {
+          "orpha_code": 98375,
+          "label": "Autoimmune hemolytic anemia"
+        }
+      ],
+      "parent_exact_match": true,
+      "existing_curated_link": false,
+      "warning_flags": [
+        "local_subtype_maps_to_orpha_disease"
+      ],
+      "priority": "review_first",
+      "review_status": "pending_review"
+    },
+    {
+      "disease_id": "nando-85-1",
+      "name_ja": "特発性肺線維症",
+      "parent_disease_id": "mhlw-0085",
+      "parent_english": "Idiopathic interstitial pneumonia",
+      "orpha_code": 2032,
+      "orpha_url": "https://www.orpha.net/en/disease/detail/2032",
+      "orpha_label": "Idiopathic pulmonary fibrosis",
+      "orpha_type": "Disease",
+      "local_concept_kind": "disease_subtype",
+      "source_parents": [
+        {
+          "orpha_code": 98300,
+          "label": "Idiopathic interstitial pneumonia"
+        },
+        {
+          "orpha_code": 231957,
+          "label": "Disease associated with a genetic susceptibility or tested for a biomarker"
+        }
+      ],
+      "parent_exact_match": true,
+      "existing_curated_link": false,
+      "warning_flags": [
+        "local_subtype_maps_to_orpha_disease"
+      ],
+      "priority": "review_first",
+      "review_status": "pending_review"
+    },
+    {
+      "disease_id": "nando-85-2-2",
+      "name_ja": "急性間質性肺炎",
+      "parent_disease_id": "mhlw-0085",
+      "parent_english": "Idiopathic interstitial pneumonia",
+      "orpha_code": 79126,
+      "orpha_url": "https://www.orpha.net/en/disease/detail/79126",
+      "orpha_label": "Acute interstitial pneumonia",
+      "orpha_type": "Disease",
+      "local_concept_kind": "disease_subtype",
+      "source_parents": [
+        {
+          "orpha_code": 98300,
+          "label": "Idiopathic interstitial pneumonia"
+        }
+      ],
+      "parent_exact_match": true,
+      "existing_curated_link": false,
+      "warning_flags": [
+        "local_subtype_maps_to_orpha_disease"
+      ],
+      "priority": "review_first",
+      "review_status": "pending_review"
+    },
+    {
+      "disease_id": "nando-85-2-3",
+      "name_ja": "特発性器質化肺炎",
+      "parent_disease_id": "mhlw-0085",
+      "parent_english": "Idiopathic interstitial pneumonia",
+      "orpha_code": 1302,
+      "orpha_url": "https://www.orpha.net/en/disease/detail/1302",
+      "orpha_label": "Cryptogenic organizing pneumonia",
+      "orpha_type": "Disease",
+      "local_concept_kind": "disease_subtype",
+      "source_parents": [
+        {
+          "orpha_code": 98300,
+          "label": "Idiopathic interstitial pneumonia"
+        }
+      ],
+      "parent_exact_match": true,
+      "existing_curated_link": false,
+      "warning_flags": [
+        "local_subtype_maps_to_orpha_disease"
+      ],
+      "priority": "review_first",
+      "review_status": "pending_review"
+    },
+    {
+      "disease_id": "nando-85-2-6",
+      "name_ja": "リンパ球性間質性肺炎",
+      "parent_disease_id": "mhlw-0085",
+      "parent_english": "Idiopathic interstitial pneumonia",
+      "orpha_code": 79128,
+      "orpha_url": "https://www.orpha.net/en/disease/detail/79128",
+      "orpha_label": "Lymphoid interstitial pneumonia",
+      "orpha_type": "Disease",
+      "local_concept_kind": "disease_subtype",
+      "source_parents": [
+        {
+          "orpha_code": 98300,
+          "label": "Idiopathic interstitial pneumonia"
+        }
+      ],
+      "parent_exact_match": true,
+      "existing_curated_link": false,
+      "warning_flags": [
+        "local_subtype_maps_to_orpha_disease"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
@@ -4216,7 +4237,7 @@
       "disease_id": "nando-9-1",
       "name_ja": "有棘赤血球舞踏病",
       "parent_disease_id": "mhlw-0009",
-      "parent_english": null,
+      "parent_english": "Neuroacanthocytosis",
       "orpha_code": 2388,
       "orpha_url": "https://www.orpha.net/en/disease/detail/2388",
       "orpha_label": "Choreoacanthocytosis",
@@ -4248,40 +4269,10 @@
           "label": "Other epidermal disorder"
         }
       ],
-      "parent_exact_match": false,
+      "parent_exact_match": true,
       "existing_curated_link": false,
       "warning_flags": [
-        "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
-      ],
-      "priority": "review_first",
-      "review_status": "pending_review"
-    },
-    {
-      "disease_id": "nando-98-3",
-      "name_ja": "好酸球性胃腸炎",
-      "parent_disease_id": "mhlw-0098",
-      "parent_english": null,
-      "orpha_code": 2070,
-      "orpha_url": "https://www.orpha.net/en/disease/detail/2070",
-      "orpha_label": "Eosinophilic gastroenteritis",
-      "orpha_type": "Disease",
-      "local_concept_kind": "disease_subtype",
-      "source_parents": [
-        {
-          "orpha_code": 101936,
-          "label": "Rare gastroesophageal disease"
-        },
-        {
-          "orpha_code": 402029,
-          "label": "Primary eosinophilic gastrointestinal disease"
-        }
-      ],
-      "parent_exact_match": false,
-      "existing_curated_link": false,
-      "warning_flags": [
-        "local_subtype_maps_to_orpha_disease",
-        "local_parent_without_english_label"
+        "local_subtype_maps_to_orpha_disease"
       ],
       "priority": "review_first",
       "review_status": "pending_review"
