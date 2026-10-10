@@ -26,7 +26,9 @@ function read(code){
  for(const r of sourceParentGroups)for(const p of (Array.isArray(r.Parent)?r.Parent:[r.Parent])){
   if(p&&p.ORPHAcode&&p.Label)links.push({code:Number(p.ORPHAcode),label:p.Label});
  }
- const data={code:Number(packet.ORPHAcode),label:packet.Label,type:packet.DisorderType?.value||'',links};
+ const synonyms=(Array.isArray(packet.Synonyms)?packet.Synonyms:packet.Synonyms?[packet.Synonyms]:[])
+    .map(v=>typeof v==='string'?v:v?.Synonym||'').filter(Boolean);
+ const data={code:Number(packet.ORPHAcode),label:packet.Label,synonyms,type:packet.DisorderType?.value||'',links};
  cached.set(code,data);return data;
 }
 const results=[];
@@ -34,7 +36,10 @@ for(const rec of items){
  const d=byId.get(rec.disease_id);
  if(!d)throw Error('Missing local '+rec.disease_id);
  const directParent=parents.get(parentId(d.parent_disease_id));
- const expected=canon(directParent?.name_en||byId.get(d.parent_disease_id)?.name_en);
+ const nandoTerms=[directParent?.name_en,...(directParent?.synonyms_en||[]),
+   byId.get(d.parent_disease_id)?.name_en,
+   ...(byId.get(d.parent_disease_id)?.aliases||[])].filter(Boolean);
+ const expectedTerms=new Set(nandoTerms.map(canon));
  let frontier=[{code:Number(rec.orpha_code),depth:0,via:[]}],seen=new Set(frontier.map(x=>x.code));
  const matches=[],visited=[];
  while(frontier.length){
@@ -43,7 +48,11 @@ for(const rec of items){
   if(!node)continue;
   if(current.depth>0){
    visited.push({depth:current.depth,code:node.code,label:node.label});
-   if(expected && expected===canon(node.label))matches.push({depth:current.depth,code:node.code,label:node.label,via:current.via});
+   const acceptable=[node.label,...node.synonyms];
+   const cross=acceptable.find(term=>expectedTerms.has(canon(term)));
+   if(cross)matches.push({depth:current.depth,code:node.code,label:node.label,
+      matched_term:cross,match_label_or_synonym:canon(node.label)===canon(cross)?'preferred_label':'official_synonym',
+      via:current.via});
   }
   if(current.depth===3)continue;
   for(const link of node.links){
