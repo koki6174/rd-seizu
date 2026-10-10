@@ -104,7 +104,7 @@ function initScene(data,clinicalData=[]){
   const lit=records.filter(d=>Number(d.total)>0).length;
   counter.textContent=format(lit)+' / '+format(records.length)+' 個の星';
   $('mode-explanation').textContent=mode==='clinical'
-   ?'症状・原因遺伝子を照合できた17疾患だけの研究用配置。残りは未解析です。'
+   ?`症状・遺伝子情報に基づく${format(clinicalData.length)}疾患の試験的配置。医療上の近さを保証するものではありません。`
    :'分類情報に基づいた1,241個の星。';
   camera.position.set(0,1.2,mode==='clinical'?13:25);
   controls.target.set(0,0,0);
