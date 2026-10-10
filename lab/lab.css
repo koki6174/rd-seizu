@@ -1,0 +1,47 @@
+:root{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",Meiryo,sans-serif;background:#080e20;color:#e9f4fa;line-height:1.7}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse 65% 30% at 40% 0,#233551 0,transparent 85%),#080e20}
+a{color:inherit}button{font:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:3px solid #9ce8ec;outline-offset:3px}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:1px solid #ffffff16;padding:17px clamp(18px,5vw,56px)}
+.back{text-decoration:none;color:#c8e8f3;font-size:13px;font-weight:700}
+.lab-badge{border:1px solid #466780;border-radius:100px;padding:5px 10px;font-size:10px;letter-spacing:.12em;color:#92b3cd}
+main{max-width:1180px;margin:0 auto;padding:0 clamp(16px,4vw,40px) 46px}
+.intro{text-align:center;margin:40px auto 24px}.intro h1{font-size:clamp(30px,6.6vw,54px);line-height:1.38;letter-spacing:0;font-weight:730;margin:0}
+.intro h1 em{font-style:normal;color:#b6e1ef}.intro p{color:#afc2d5;font-size:14px;margin:15px auto 0}
+.universe-wrap{max-width:1100px;margin:auto}.universe{position:relative;height:clamp(400px,58vw,650px);border-radius:24px;
+ overflow:hidden;background:radial-gradient(ellipse 52% 45% at 50% 50%,#18304b,#101b32 52%,#070d1f);border:1px solid #4e708145}
+.universe:before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background-image:radial-gradient(#9dbacb .7px,transparent 1.2px);
+ background-size:67px 78px;opacity:.09}
+.universe canvas{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;outline:none;cursor:grab}
+.universe canvas:active{cursor:grabbing}
+#space-message{position:absolute;z-index:1;left:0;right:0;top:44%;text-align:center;font-size:14px;color:#c3dcea;pointer-events:none}
+#space-message:empty{display:none}
+.scene-guide{position:absolute;bottom:15px;left:0;right:0;text-align:center;font-size:11px;color:#adc3d5;pointer-events:none}
+.scene-controls{display:flex;gap:10px;align-items:center;padding:14px 2px}
+.scene-controls button{min-height:44px;border:1px solid #4e7282;color:#e9f5fd;border-radius:10px;background:#142942;padding:9px 17px;font-size:12px;font-weight:700}
+.scene-controls button:hover{background:#203c56}
+.scene-controls .star-counter{margin-left:auto;font-size:12px;color:#a7bfd0}
+.star-info{background:#18263d;border:1px solid #66859d70;border-radius:18px;padding:24px;margin:22px auto;max-width:760px}
+.star-info[hidden]{display:none}
+.info-meta{font-size:12px;color:#91cadd}.star-info h2{font-size:clamp(23px,5vw,30px);margin:8px 0 10px;line-height:1.5}
+.star-info p{font-size:13px;color:#c3d2e0;margin:0 0 16px}
+.comments{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.comments span{border:1px solid #ffffff24;background:#ffffff0c;border-radius:15px;padding:9px 12px;font-size:12px;color:#e1f4f7}
+.join-link{display:inline-flex;min-height:45px;align-items:center;text-decoration:none;border-radius:100px;padding:8px 19px;
+ background:#27596a;color:#eaffff;font-size:13px;font-weight:700;margin-top:10px}
+.note{color:#95a9bd;font-size:12px;margin:22px auto 15px;line-height:1.8;max-width:900px}
+.legend{display:flex;gap:18px;flex-wrap:wrap;color:#a6bbd1;font-size:12px}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.key{display:inline-block;width:9px;height:9px;border-radius:50%}.key.dormant{background:#465269}.key.share{background:#ffc8b9}.key.discover{background:#a6e4fc}
+footer{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;font-size:11px;color:#8ea8bc;padding:30px 18px;border-top:1px solid #ffffff16}
+footer a{color:#b5d5dc}
+@media(max-width:640px){.topbar{padding:13px 17px}.intro{margin:36px auto 22px}
+.universe{height:min(119vw,520px);border-radius:18px}
+.scene-controls{gap:8px;flex-wrap:wrap}
+.scene-controls button{font-size:12px;padding:10px 12px}
+.scene-controls .star-counter{flex:1;min-width:100%;text-align:right}
+.star-info{padding:20px}
+.note{font-size:11px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
