@@ -7,6 +7,9 @@
     ? window.supabase.createClient(config.supabaseUrl, config.supabasePublishableKey)
     : null;
   const DEVICE_KEY = 'nenone-constellation-device-v2';
+  const analytics = () => window.NENONE_ANALYTICS;
+  let noResultLogged = false;
+  let suggestionPending = false;
   const state = { stars:[], selected:null, kind:null, disease:null, token:null, submitted:false, busy:false };
   const sortMap = (a,b) => a.name.localeCompare(b.name, 'ja');
 
@@ -121,6 +124,7 @@
     document.querySelectorAll('.star-node').forEach(n=>n.classList.toggle('selected',n===el));
     fillStarDetail(star);
     $('star-detail').hidden=false;
+    analytics()?.track('star_view','sky');
   }
   function closeStar() {
     state.selected=null;
@@ -143,22 +147,29 @@
     for(const id of ['choose','disease','comment','done']) {
       $('step-'+id).hidden=(step!==id);
     }
-    $('step-counter').textContent=step==='done'?'THANK YOU':({'choose':'STEP 1 / 3','disease':'STEP 2 / 3','comment':'STEP 3 / 3'})[step];
+    $('step-counter').textContent=step==='done'?'完了':({'choose':'1 / 3','disease':'2 / 3','comment':'3 / 3'})[step];
+    analytics()?.flow(step,state.kind);
     const modal=$('flow-modal');
     if(modal.open) modal.scrollTo({top:0,behavior:'instant'});
   }
   function choosePath(kind) {
     state.kind=kind;state.disease=null;
+    analytics()?.track(kind==='share'?'path_share':'path_discover','choose',kind);
     showStep('disease');
     const isShare=kind==='share';
     $('disease-step-title').textContent=isShare?'想いを届けたい病気は？':'新しい星に出会おう。';
     $('disease-step-description').textContent=isShare
       ?'伝えたい病気を名前から選んでください。病気との関係は質問しません。'
-      :'国内の受給者証所持者数が多い50疾患と、すでに光が灯った星から紹介します。診断数や患者総数のランキングではありません。';
+      :'これまでに灯った星と、最初の50疾患から一つ紹介します。';
     $('disease-search-wrap').hidden=!isShare;
     $('auto-disease').hidden=isShare;
     $('disease-search').value='';
+    $('suggest-panel').hidden=true;
+    $('suggest-name').value='';
+    $('suggest-status').textContent='';
+    $('suggest-send').disabled=false;
     $('to-comment').disabled=true;
+    noResultLogged=false;
     if(isShare) {
       filterDisease('');
       $('disease-search').focus();
@@ -177,7 +188,14 @@
       || s.id.toLowerCase().includes(q)
     ).sort(sortMap).slice(0,25);
     if (!matches.length) {
-      const p=document.createElement('p');p.textContent='一致する疾患はありません。';area.append(p);
+      const p=document.createElement('p');p.className='search-empty';p.textContent='一致する病名が見つかりませんでした。';
+      area.append(p);
+      if (q.length>=2 && !noResultLogged) {
+        analytics()?.track('search_no_result','disease','share');
+        noResultLogged=true;
+      }
+    } else {
+      noResultLogged=false;
     }
     for (const s of matches) {
       const b=document.createElement('button');
@@ -193,6 +211,8 @@
       b.classList.toggle('selected',state.disease===s.id);
       b.addEventListener('click',()=>{
         state.disease=s.id;
+        analytics()?.track('disease_select','disease','share');
+        $('suggest-panel').hidden=true;
         $('disease-search').value=s.name;
         $('to-comment').disabled=false;
         filterDisease(s.name);
@@ -215,6 +235,7 @@
     const candidates=different.length?different:pool;
     const chosen=candidates[Math.floor(Math.random()*candidates.length)];
     state.disease=chosen.id;
+    analytics()?.track('random_draw','disease','discover');
     $('auto-disease-name').textContent=chosen.name;
     $('to-comment').disabled=false;
   }
@@ -251,6 +272,7 @@
         throw new Error((data&&data.reason)||'submission rejected');
       }
       setSubmitted(true);
+      analytics()?.track('submit_success','comment',state.kind);
       $('comment-publish-status').textContent =
         data.comment_public ? '選んだ定型コメントも星に表示されました。' :
         data.comment_review_pending ? '自由記述のコメントは内容の確認後に表示します。' :
@@ -266,7 +288,54 @@
       $('submit-entry').textContent='この想いで星を灯す ✦';
     }
   }
-  function closeFlow() { $('flow-modal').close(); }
+  function closeFlow() {
+    $('flow-modal').close();
+    analytics()?.exitFlow();
+  }
+  function toggleSuggestion(open) {
+    $('suggest-panel').hidden = !open;
+    $('suggest-toggle').setAttribute('aria-expanded',String(open));
+    if(open){
+      analytics()?.track('suggest_open','disease','share');
+      $('suggest-name').value=state.disease?'':$('disease-search').value.trim().slice(0,80);
+      $('suggest-name').focus();
+    }
+  }
+  async function sendSuggestion() {
+    if(suggestionPending || !client || !state.token)return;
+    const name=$('suggest-name').value.trim();
+    const status=$('suggest-status');
+    if(name.length<2 || name.length>80 || /https?:\/\/|www\.|@|[\r\n]/i.test(name)) {
+      status.textContent='病名を2〜80文字で入力してください。URLや連絡先は入力できません。';
+      return;
+    }
+    suggestionPending=true;
+    $('suggest-send').disabled=true;
+    status.textContent='申請中…';
+    try {
+      const {data,error}=await client.rpc('suggest_missing_disease',{
+        p_device_token:state.token,p_name:name
+      });
+      if(error) throw error;
+      if(!data?.ok) {
+        status.textContent=data?.reason==='daily_limit'
+          ?'病名の申請は1日1回までです。内容は運営に届いています。'
+          :'入力内容を確認してください。';
+        return;
+      }
+      analytics()?.track('suggest_sent','disease','share');
+      status.textContent='運営に申請しました。内容を確認して、掲載するか判断します。';
+      $('suggest-send').textContent='申請済み ✓';
+      $('suggest-name').disabled=true;
+      $('suggest-toggle').disabled=true;
+    } catch (error) {
+      console.error(error);
+      status.textContent='送信できませんでした。通信を確認して再度お試しください。';
+    } finally {
+      suggestionPending=false;
+      $('suggest-send').disabled=status.textContent.includes('申請しました。');
+    }
+  }
   function openFlow() {
     if(state.submitted || state.busy || !client || !state.token) return;
     state.kind=null;state.disease=null;
@@ -280,6 +349,9 @@
     });
     $('path-share').addEventListener('click',()=>choosePath('share'));
     $('path-discover').addEventListener('click',()=>choosePath('discover'));
+    $('suggest-toggle').addEventListener('click',()=>toggleSuggestion($('suggest-panel').hidden));
+    $('suggest-cancel').addEventListener('click',()=>toggleSuggestion(false));
+    $('suggest-send').addEventListener('click',sendSuggestion);
     $('disease-search').addEventListener('input',event=>{
       state.disease=null;$('to-comment').disabled=true;filterDisease(event.target.value);
     });
