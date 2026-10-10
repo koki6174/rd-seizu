@@ -6,10 +6,11 @@
 <meta name="theme-color" content="#111831">
 <meta name="description" content="見えない病気の星図。これまでに集まった想いと関心の累積記録。毎週月曜更新・A4横印刷対応。">
 <title>これまでの星図 | みんなでつくる見えない病気の星図</title>
-<link rel="stylesheet" href="./cumulative.css?v=2">
+<link rel="stylesheet" href="./cumulative.css?v=3">
 <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script defer src="../config.js"></script>
-<script defer src="./cumulative.js?v=2"></script>
+<script defer src="../admin/analytics.js?v=2"></script>
+<script defer src="./cumulative.js?v=3"></script>
 </head>
 <body>
 <header class="toolbar">
@@ -25,18 +26,18 @@
 </header>
 <main>
   <article class="poster" aria-label="これまでの星図、累積レポート">
-    <div class="decoration" aria-hidden="true">✦　⋆　✧</div>
+    
     <div class="poster-body">
       <header class="poster-head">
         <div>
-          <p class="eyebrow">WEEKLY CONSTELLATION 　✧　 GROWING TOGETHER</p>
-          <h1>これまでの星図<span class="asterisk">✧</span></h1>
-          <p class="lead">あなたの「伝えたい」と「知りたい」が、少しずつ星図を育てています。</p>
+          
+          <h1>これまでの星図</h1>
+          <p class="lead">想いが重なり、星図が育っていく。</p>
         </div>
         <div class="update-date">
           <span>最終集計日</span>
           <strong id="updated-date">——</strong>
-          <small>毎週月曜日に集計更新</small>
+          
         </div>
       </header>
       <div class="line"></div>
@@ -45,13 +46,13 @@
           <p class="stat-label">これまでに届いた関心</p>
           <h2>累積の記録数</h2>
           <p class="big-number"><strong id="cumulative-total">—</strong><span>件</span></p>
-          <p class="stat-foot">積み重なった想いを、これからも。</p>
+          
         </div>
         <div class="stat-box">
           <p class="stat-label">星図の広がり</p>
           <h2>光が灯った星</h2>
           <p class="big-number"><strong id="cumulative-diseases">—</strong><span>種類</span></p>
-          <p class="stat-foot">関心が寄せられた疾患の数</p>
+          
         </div>
         <div class="stat-box accent">
           <p class="stat-label">直近1週間の成長</p>
@@ -63,39 +64,36 @@
       <div class="story-grid">
         <section class="story-block">
           <h3><span class="spark">✧</span> 2つの想いが星を育てる</h3>
-          <p>伝えたい気持ち、新しく知る気持ち。</p>
+          
           <div class="action-counts">
             <span><i class="share-light"></i>伝えたい光 <b id="share-count">—</b>件</span>
             <span><i class="discover-light"></i>知る光 <b id="discover-count">—</b>件</span>
           </div>
-          <p class="small-note">※内訳は新しい参加形式による投稿のみです。</p>
+          
         </section>
         <section class="story-block">
           <h3><span class="spark">✧</span> 今回の問い</h3>
           <p class="large-copy" id="featured-question">公開する問いを準備しています。</p>
-          <p class="small-note">確認・承認されたコメントから掲載します。</p>
+          
         </section>
         <section class="story-block">
           <h3><span class="spark">✧</span> 星図の成長</h3>
           <p class="large-copy" id="growth-summary">今週も、少しずつ。</p>
           <p class="small-note" id="growth-detail">関心が積み重なっています。</p>
         </section>
-        <section class="story-block featured-section">
-          <h3><span class="spark">✧</span> 次の星につながる</h3>
-          <p class="large-copy">まだ見えない光を、<br>一緒に見つけていこう。</p>
-          <p class="small-note">あなたの関心が、誰かの一歩に。</p>
-        </section>
+
       </div>
       <div class="line bottom-line"></div>
       <footer class="poster-foot">
         <p>あなたの「知りたい」が、次の星につながる。</p>
-        <small>「記録数」は操作件数であり、参加人数とは異なります。日本時間の各月曜日0時までの累積値です。</small>
+        <small>累積件数は参加人数ではありません。日本時間・月曜0時時点。</small>
         <span>みんなでつくる「見えない病気の星図」</span>
       </footer>
       <div id="error-message" class="error" role="status" aria-live="polite"></div>
     </div>
   </article>
-  <p class="under-note">毎週月曜に集計が更新されます。A4横向きに印刷すると、そのまま展示用の記録として掲示できます。過去の週も表示できます。</p>
+  
 </main>
+<footer class="site-legal"><a href="../privacy/">利用データについて</a></footer>
 </body>
 </html>
