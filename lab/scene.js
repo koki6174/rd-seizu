@@ -66,8 +66,8 @@ function initScene(data,clinicalData=[]){
  controls=new OrbitControls(camera,renderer.domElement);
  controls.enableDamping=true;controls.dampingFactor=.065;
  controls.enablePan=false;controls.minDistance=9;controls.maxDistance=40;
- controls.autoRotate=false;controls.autoRotateSpeed=1.35;
- controls.rotateSpeed=1.15;
+ controls.autoRotate=false;controls.autoRotateSpeed=2.1;
+ controls.rotateSpeed=1.35;
  const texture=spriteTexture();
  let mode='taxonomy';
  const modeDefault=$('mode-taxonomy'),modeClinical=$('mode-clinical');
