@@ -88,7 +88,7 @@ for(const [code,items] of mapByCode) {
 }
 const release={note:'Automated exact-label/synonym candidates, NOT clinically reviewed',
  source:'https://github.com/Orphanet/orphapacket',source_type:'Orpha data snapshot',
- source_file_count:parsed,license:'CC BY 4.0',
+ source_file_count:parsed,upstream_commit:process.env.ORPHAPACKET_COMMIT||'not_pinned',license:'CC BY 4.0',
  matching_rule:'NFKC + lowercase + whitespace, no edit-distance or translation'};
 const output={metadata:release,summary,records:results};
 fs.writeFileSync('data/orpha_matching_candidates.json',JSON.stringify(output,null,2)+'\n');
