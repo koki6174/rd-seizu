@@ -8,7 +8,6 @@ as $$
   'id',d.id,'name',d.name_ja,'nameEn',d.name_en,
   'aliases',d.aliases,'parentId',d.parent_disease_id,
   'parentName',parent.name_ja,'conceptKind',d.concept_kind,
-  'discoveryRank',d.discovery_rank,
   'total',coalesce(s.total,0),'shared',coalesce(s.shared,0),
   'discovered',coalesce(s.discovered,0),
   'comments',coalesce((
