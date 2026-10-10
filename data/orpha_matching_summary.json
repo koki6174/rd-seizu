@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "note": "Automated exact-label/synonym candidates, NOT clinically reviewed",
+    "source": "https://github.com/Orphanet/orphapacket",
+    "source_type": "Orpha data snapshot",
+    "source_file_count": 10104,
+    "upstream_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+    "license": "CC BY 4.0",
+    "matching_rule": "NFKC + lowercase + whitespace, no edit-distance or translation"
+  },
+  "summary": {
+    "total": 1241,
+    "with_english": 852,
+    "unique_name_or_synonym": 275,
+    "ambiguous": 56,
+    "no_match": 521,
+    "no_english": 389
+  }
+}
