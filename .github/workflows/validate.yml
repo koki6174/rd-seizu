@@ -185,3 +185,33 @@ jobs:
           assert report['evaluation']['verified']['method_metrics']['UMAP']['trustworthiness']>0.7
           print('Reviewed 17 vs staged 133 remain disjoint in publication')
           PY
+
+      - name: Validate independent ORPHA evidence and two 3D model scopes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,math
+          def load(name): return json.loads(Path('data',name).read_text())
+          source4=load('orphadata_verified_batch_04.json')['rows']
+          source5=load('orphadata_verified_batch_05.json')['rows']
+          audit=load('orpha_ancestor_chain_audit_v1.json')
+          verified=load('clinical_verified_comparison_v3.json')
+          pending=load('clinical_pending_unreviewed_comparison_v3.json')
+          summary=load('clinical_model_comparison_summary_v3.json')
+          base=load('pilot_3d_positions.json')['positions']
+          assert len(source4)==22 and len(source5)==11
+          assert len({r['id'] for r in source4+source5})==33
+          assert len({r['code'] for r in source4+source5})==33
+          corroborated={r['disease_id']:r for r in audit['records'] if r['min_parent_match_depth'] is not None}
+          assert len(corroborated)==33
+          assert all(r['id'] in corroborated and r['code']==corroborated[r['id']]['orpha_code'] for r in source4+source5)
+          assert len(verified['positions'])==50 and len(pending['positions'])==89
+          assert len(base)==1241
+          ids={r['id'] for r in verified['positions']}
+          assert len(ids)==50 and ids.isdisjoint(r['id'] for r in pending['positions'])
+          assert {r['identity_status'] for r in verified['positions']}=={'reviewed'}
+          assert {r['identity_status'] for r in pending['positions']}=={'unreviewed'}
+          assert all(math.isfinite(r[a]) and abs(r[a])<=30 for r in verified['positions'] for a in ('x','y','z'))
+          assert summary['no_unreviewed_promoted'] and summary['identity_crosswalk']['source_candidates_already_reviewed']==44
+          print('ORPHA identity evidence and 50 verified / 89 pending / 1241 taxonomy kept separate')
+          PY
