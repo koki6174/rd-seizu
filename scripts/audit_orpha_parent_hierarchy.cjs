@@ -6,8 +6,13 @@
  * node scripts/audit_orpha_parent_hierarchy.cjs /tmp/rd-orphapacket/json
  */
 const fs=require('node:fs'),path=require('node:path');
-const dir=process.argv[2];
+const dir=process.argv[2],nandoPath=process.argv[3];
 if(!dir||!fs.existsSync(dir))throw Error('Orphapacket json directory required');
+if(!nandoPath||!fs.existsSync(nandoPath))throw Error('Official NANDO nanbyo.json path required');
+const nandoRows=JSON.parse(fs.readFileSync(nandoPath,'utf8'));
+const nandoEnglish=new Map(nandoRows.map(x=>[String(x.id),String(x.name_en||'')]));
+const nandoId=localId=>localId?.startsWith('nando-')?localId.slice(6)
+ :localId?.startsWith('mhlw-')?String(Number(localId.slice(5))):null;
 const labels=JSON.parse(fs.readFileSync('data/orpha_matching_names_public.json','utf8')).rows;
 const byId=new Map(labels.map(d=>[d.id,d]));
 const verified=new Map([1,2,3].flatMap(i=>
@@ -37,7 +42,8 @@ for(const c of staged){
  }
  const parents=cleanParentList(source.Parents);
  const parent=local.parent_disease_id?byId.get(local.parent_disease_id):null;
- const comparableParent=normalize(parent?.name_en||'');
+ const originalNandoEnglish=nandoEnglish.get(nandoId(local.parent_disease_id))||'';
+ const comparableParent=normalize(parent?.name_en||originalNandoEnglish);
  const parentExact=Boolean(comparableParent) &&
   parents.some(p=>normalize(p.label)===comparableParent);
  const orphaType=String(source.DisorderType?.value||'unknown');
@@ -52,7 +58,7 @@ for(const c of staged){
  const record={
   disease_id:c.disease_id, name_ja:local.name_ja,
   parent_disease_id:local.parent_disease_id||null,
-  parent_english:parent?.name_en||null, orpha_code:code,
+  parent_english:parent?.name_en||originalNandoEnglish||null, orpha_code:code,
   orpha_url:`https://www.orpha.net/en/disease/detail/${code}`,
   orpha_label:source.Label, orpha_type:orphaType,
   local_concept_kind:local.concept_kind,
