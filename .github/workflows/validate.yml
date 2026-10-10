@@ -20,6 +20,7 @@ jobs:
           node --check weekly/cumulative.js
           node --check admin/app.js
           node --check admin/analytics.js
+          python -m py_compile scripts/stage_orpha_hpo.py
           node --check lab/scene.js
           node --check scripts/build_pilot_coords.cjs
           node --check scripts/build_hpo_pilot.cjs
