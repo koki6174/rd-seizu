@@ -160,7 +160,7 @@
     $('disease-step-title').textContent=isShare?'想いを届けたい病気は？':'新しい星に出会おう。';
     $('disease-step-description').textContent=isShare
       ?'伝えたい病気を名前から選んでください。病気との関係は質問しません。'
-      :'これまでに灯った星と、最初の50疾患から一つ紹介します。';
+      :'星図の中から、新しい病気をひとつ紹介します。';
     $('disease-search-wrap').hidden=!isShare;
     $('auto-disease').hidden=isShare;
     $('disease-search').value='';
@@ -220,24 +220,36 @@
       area.append(b);
     }
   }
-  function pickNewStar() {
-    // Weighted prevalence ranking is not guessed. The verified top-50
-    // certificate-holder pool is combined with every existing lit star.
-    // Each DISTINCT disease in this union gets one equal chance.
-    const pool=state.stars.filter(star =>
-      total(star)>0 || (Number.isInteger(star.discoveryRank) && star.discoveryRank>0));
-    if (!pool.length) {
-      $('auto-disease-name').textContent='紹介できる星がありません';
-      $('to-comment').disabled=true;
-      return;
+  let randomRequestId = 0;
+  async function pickNewStar() {
+    if (!client || state.kind !== 'discover') return;
+    const requestId = ++randomRequestId;
+    const previousId = state.disease;
+    $('to-comment').disabled = true;
+    $('retry-disease').disabled = true;
+    $('auto-disease-name').textContent = '星を探しています…';
+    try {
+      const {data,error} = await client.rpc('pick_discovery_disease', {
+        p_exclude_id: previousId || null
+      });
+      if (error) throw error;
+      if (requestId !== randomRequestId || state.kind !== 'discover' ||
+          $('step-disease').hidden) return;
+      const choice = state.stars.find(s => s.id === data?.id);
+      if (!choice) throw new Error('No matching disease available');
+      state.disease = choice.id;
+      $('auto-disease-name').textContent = choice.name;
+      $('to-comment').disabled = false;
+      analytics()?.track('random_draw','disease','discover');
+    } catch (error) {
+      console.error('星の紹介に失敗しました', error);
+      if (requestId === randomRequestId && state.kind === 'discover') {
+        $('auto-disease-name').textContent =
+          '紹介できませんでした。もう一度お試しください。';
+      }
+    } finally {
+      if (requestId === randomRequestId) $('retry-disease').disabled = false;
     }
-    const different=pool.filter(star=>star.id!==state.disease);
-    const candidates=different.length?different:pool;
-    const chosen=candidates[Math.floor(Math.random()*candidates.length)];
-    state.disease=chosen.id;
-    analytics()?.track('random_draw','disease','discover');
-    $('auto-disease-name').textContent=chosen.name;
-    $('to-comment').disabled=false;
   }
   function moveToComment() {
     const star=state.stars.find(s=>s.id===state.disease);
