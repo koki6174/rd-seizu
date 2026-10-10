@@ -1,61 +1,100 @@
 <!doctype html>
 <html lang="ja">
 <head>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width,initial-scale=1">
- <meta name="robots" content="noindex,nofollow">
- <meta name="theme-color" content="#111b2f">
- <title>利用データについて | 見えない病気の星図</title>
- <style>
- :root{color-scheme:dark;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",Meiryo,sans-serif;
- background:#10192c;color:#eff5fa;line-height:1.8}
- *{box-sizing:border-box}body{margin:0;min-height:100vh}
- main{max-width:650px;padding:48px 24px 65px;margin:auto}
- a{color:#b4e0ea}h1{font-size:clamp(27px,6vw,39px);letter-spacing:.01em;line-height:1.4;margin:25px 0 23px}
- h2{font-size:18px;line-height:1.5;margin:30px 0 9px}
- p,li{color:#c4d0dc;font-size:14px}
- ul{padding-left:21px}li{padding:4px 0}button{border:1px solid #8bc4c9;border-radius:10px;
- background:#24415b;color:#eefcff;padding:14px 18px;font:inherit;font-weight:700;min-height:48px;cursor:pointer}
- button:focus-visible{outline:3px solid #9ce6eb;outline-offset:3px}
- #preference-message{color:#a9e4e9;min-height:24px;font-size:13px}
- footer{border-top:1px solid #ffffff25;margin-top:40px;padding-top:23px}
- </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111b2f">
+  <title>プライバシーポリシー | 見えない病気の星図</title>
+  <meta name="description" content="見えない病気の星図における情報の取扱いについて。">
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+      background: #10192c;
+      color: #eff5fa;
+      line-height: 1.85;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; }
+    main { max-width: 670px; margin: 0 auto; padding: clamp(32px, 7vw, 62px) 24px 70px; }
+    a { color: #b9e3eb; text-underline-offset: 3px; }
+    .back { display: inline-block; font-size: 13px; text-decoration: none; }
+    h1 { font-size: clamp(26px, 5.8vw, 36px); line-height: 1.45; margin: 30px 0 17px; letter-spacing: .01em; }
+    h2 { font-size: 17px; line-height: 1.5; margin: 31px 0 9px; font-weight: 700; }
+    p { color: #c4d0dc; font-size: 14px; margin: 0; }
+    .intro { margin-bottom: 8px; }
+    button { display: inline-block; margin: 17px 0 0; padding: 12px 20px;
+      background: #24415b; color: #effbff; border: 1px solid #8bc4c9;
+      border-radius: 10px; font: inherit; font-size: 13px; font-weight: 700;
+      min-height: 48px; cursor: pointer;
+    }
+    button:focus-visible, a:focus-visible { outline: 3px solid #9ce6eb; outline-offset: 3px; }
+    #preference-message { min-height: 22px; color: #a9e4e9; font-size: 13px; margin-top: 7px; }
+    footer { margin-top: 36px; padding-top: 20px; border-top: 1px solid #ffffff22; }
+    .date { font-size: 12px; color: #9aaec4; }
+  </style>
 </head>
 <body>
-<main>
- <a href="../admin/">← 星図へ戻る</a>
- <h1>利用データについて</h1>
- <p>この展示では、星図の運営と体験改善のため、必要な範囲のデータを取得します。</p>
- <h2>参加の記録</h2>
- <p>参加した日、選んだ疾患、想いの種類を保存します。同じブラウザで1日1回の制限を行うため、ブラウザ内にランダムな識別子を保存し、サーバーにはそのハッシュ値を保存します。IMEIや氏名は取得しません。</p>
- <h2>自由記述・未掲載の病名</h2>
- <p>コメントや病名の追加提案は運営が内容を確認します。未承認の文章は一般公開しません。氏名、連絡先、本人や家族の病歴などは書かないでください。</p>
- <h2>画面の利用状況</h2>
- <p>展示を改善するため、開いた画面、各画面の滞在秒数、選択した経路、ランダム紹介の再抽選回数、投稿完了数などを記録します。これらの分析記録には病名、検索文字列、コメント、端末識別子を含めません。画面を開くたびに新しいランダムなセッション番号を発行します。</p>
- <p>分析データは第三者の広告サービスには送信せず、Supabaseに保存して運営者が集計します。IPアドレスや通信ログがサービス提供者側で処理される可能性はあります。</p>
- <h2>利用状況の記録を停止</h2>
- <p>下のボタンで、このブラウザからの今後の任意の利用状況記録を停止できます。星図への参加機能は引き続き利用できます。</p>
- <button type="button" id="analytics-choice">設定を確認しています…</button>
- <p id="preference-message" role="status" aria-live="polite"></p>
- <h2>管理と保存</h2>
- <p>投稿データは展示終了後に必要性を見直します。画面利用状況の詳細記録は原則90日以内を目安に削除する方針です。集計済みの匿名統計は継続利用することがあります。削除の運用は管理者が実施します。</p>
- <footer><a href="../">公開準備中のトップへ</a></footer>
-</main>
-<script>
-(() => {
- const button=document.getElementById('analytics-choice');
- const message=document.getElementById('preference-message');
- const key='nenone-analytics-optout';
- const render=()=>{try{
-   button.textContent=localStorage.getItem(key)==='1'?'利用状況の記録を再開する':'利用状況の記録を停止する';
- }catch{button.disabled=true;message.textContent='ブラウザの設定上、この操作は利用できません。';}};
- button.addEventListener('click',()=>{
-   try{if(localStorage.getItem(key)==='1'){localStorage.removeItem(key);message.textContent='今後の利用状況を記録します。';}
-   else{localStorage.setItem(key,'1');message.textContent='今後の利用状況の記録を停止しました。';}
-   render();}catch{message.textContent='このブラウザでは設定を変更できません。';}
- });
- render();
-})();
-</script>
+  <main>
+    <a class="back" href="../admin/">← 星図へ戻る</a>
+    <h1>プライバシーポリシー</h1>
+    <p class="intro">「見えない病気の星図」は、利用者の情報を以下のとおり取り扱います。</p>
+
+    <section>
+      <h2>取得する情報と利用目的</h2>
+      <p>参加日時、選択した疾患、投稿内容およびブラウザ識別情報を、星図の表示・投稿管理・重複投稿防止に利用します。また、ページの閲覧状況や操作履歴、滞在時間を、展示の利用状況の集計と改善に利用します。</p>
+    </section>
+
+    <section>
+      <h2>情報の公開と管理</h2>
+      <p>疾患ごとの関心件数を公開します。定型文はそのまま公開し、自由記述は運営の確認・承認後に公開します。取得した情報は運営に必要な範囲で管理し、保存には外部のクラウドサービスを利用します。</p>
+    </section>
+
+    <section>
+      <h2>利用状況の記録</h2>
+      <p>閲覧・操作状況の記録は、以下から停止・再開できます。</p>
+      <button type="button" id="analytics-choice">設定を確認しています…</button>
+      <p id="preference-message" role="status" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>お問い合わせ</h2>
+      <p>情報の取扱いに関するお問い合わせは、展示の運営担当者までお申し出ください。</p>
+    </section>
+
+    <footer><p class="date">制定：2026年10月10日</p></footer>
+  </main>
+  <script>
+    (() => {
+      const button = document.getElementById('analytics-choice');
+      const message = document.getElementById('preference-message');
+      const key = 'nenone-analytics-optout';
+      const render = () => {
+        try {
+          button.textContent = localStorage.getItem(key) === '1'
+            ? '利用状況の記録を再開する'
+            : '利用状況の記録を停止する';
+        } catch {
+          button.disabled = true;
+          message.textContent = 'このブラウザでは設定を変更できません。';
+        }
+      };
+      button.addEventListener('click', () => {
+        try {
+          if (localStorage.getItem(key) === '1') {
+            localStorage.removeItem(key);
+            message.textContent = '記録を再開しました。';
+          } else {
+            localStorage.setItem(key, '1');
+            message.textContent = '記録を停止しました。';
+          }
+          render();
+        } catch {
+          message.textContent = '設定を変更できませんでした。';
+        }
+      });
+      render();
+    })();
+  </script>
 </body>
 </html>
