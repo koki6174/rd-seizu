@@ -109,7 +109,7 @@ end $$;
 
 insert into public.disease_orpha_mappings
 (disease_id,orpha_code,orpha_label,source_synonym,match_method,source_release)
-select s.disease_id,s.orpha_code,s.orpha_label,null,'mondo_cross_source',
+select s.disease_id,s.orpha_code,s.orpha_label,null,'exact_label',
  'MONDO 2026-10-06 and Orphapacket June 2026; source corroborated, not clinician-reviewed'
 from public.disease_orpha_mondo_evidence e
 join public.disease_orpha_evidence_staging s on s.disease_id=e.disease_id and s.orpha_code=e.orpha_code
