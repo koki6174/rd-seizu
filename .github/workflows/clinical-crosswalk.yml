@@ -1,0 +1,50 @@
+name: Clinical crosswalk staging (private review)
+on:
+  workflow_dispatch:
+  push:
+    branches: [feature/hpo-orphadata-crosswalk-stage]
+    paths:
+      - "scripts/stage_orpha_hpo.py"
+      - "data/orpha_mapping_catalog.json"
+      - ".github/workflows/clinical-crosswalk.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check source code
+        run: python -m py_compile scripts/stage_orpha_hpo.py
+      - name: Fetch current Orphadata and HPO, stage candidates without auto-approval
+        run: python scripts/stage_orpha_hpo.py --output /tmp/orpha-review
+      - name: Summarize mapping coverage
+        if: success()
+        run: |
+          python - <<'PY'
+          import json, os
+          d=json.load(open('/tmp/orpha-review/matching_report.json'))
+          keys=['total_catalog','orpha_disorders','orpha_disorders_with_phenotypes',
+                'matched_catalog','unique_exact_english_candidates',
+                'multiple_candidates_diseases','candidate_pairs','unmatched_catalog','approved_pairs']
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+            f.write('## HPO/Orphadata audit — candidate links only, no automatic approval\n\n')
+            f.write('| Measure | Count |\n|---|---:|\n')
+            for k in keys:f.write(f'| {k} | {d[k]} |\n')
+            f.write('\nNo candidate has been approved or applied to the live medical embedding.\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: orpha-hpo-review-candidates
+          path: |
+            /tmp/orpha-review/orpha_candidates.csv
+            /tmp/orpha-review/matching_report.json
+          retention-days: 7
+          if-no-files-found: error
