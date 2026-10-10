@@ -55,7 +55,7 @@ function showDetails(id){
  }
  $('star-info').scrollIntoView({block:'nearest',behavior:reduceMotion?'instant':'smooth'});
 }
-function initScene(data){
+function initScene(data,clinicalData=[]){
  scene=new THREE.Scene();
  camera=new THREE.PerspectiveCamera(45,1,.1,90);
  camera.position.set(0,1.2,25);
@@ -66,25 +66,53 @@ function initScene(data){
  controls=new OrbitControls(camera,renderer.domElement);
  controls.enableDamping=true;controls.dampingFactor=.065;
  controls.enablePan=false;controls.minDistance=9;controls.maxDistance=40;
- controls.autoRotate=false;controls.autoRotateSpeed=.5;
+ controls.autoRotate=false;controls.autoRotateSpeed=1.35;
+ controls.rotateSpeed=1.15;
  const texture=spriteTexture();
- const points={unlit:[],share:[],discover:[],mixed:[]};
- for(const d of data){
-  const total=Math.max(0,Number(d.total)||0);
-  const kind=total===0?'unlit':
-   (d.shared>0&&d.discovered>0)?'mixed':d.shared>0?'share':'discover';
-  points[kind].push(d);
-  starData.set(d.id,d);
+ let mode='taxonomy';
+ const modeDefault=$('mode-taxonomy'),modeClinical=$('mode-clinical');
+ const clinicalReady=clinicalData.length>=4;
+ modeClinical.disabled=!clinicalReady;
+ if(!clinicalReady) modeClinical.title='臨床データを準備しています';
+ function drawDataset(records,nextMode) {
+  mode=nextMode;
+  for(const o of objects) {
+   scene.remove(o);
+   o.geometry.dispose();
+   o.material.dispose();
+  }
+  objects=[];
+  starData.clear();
+  $('star-info').hidden=true;
+  modeDefault.setAttribute('aria-pressed',String(mode==='taxonomy'));
+  modeClinical.setAttribute('aria-pressed',String(mode==='clinical'));
+  const points={unlit:[],share:[],discover:[],mixed:[]};
+  for(const d of records) {
+   const total=Math.max(0,Number(d.total)||0);
+   const kind=total===0?'unlit':
+    (d.shared>0&&d.discovered>0)?'mixed':d.shared>0?'share':'discover';
+   points[kind].push(d);
+   starData.set(d.id,d);
+  }
+  createCloud(points.unlit,'#4d5c73',.29,texture,.54);
+  const colors={share:'#ffc6ad',discover:'#99e4ff',mixed:'#dcb6ff'};
+  for(const type of ['share','discover','mixed']){
+   const items=points[type];
+   createCloud(items,colors[type],.63,texture,.75);
+   if(items.length)createCloud(items,colors[type],.28,texture,1);
+  }
+  const lit=records.filter(d=>Number(d.total)>0).length;
+  counter.textContent=format(lit)+' / '+format(records.length)+' 個の星';
+  $('mode-explanation').textContent=mode==='clinical'
+   ?'症状・原因遺伝子を照合できた17疾患だけの研究用配置。残りは未解析です。'
+   :'分類情報に基づいた1,241個の星。';
+  camera.position.set(0,1.2,mode==='clinical'?13:25);
+  controls.target.set(0,0,0);
+  controls.update();
  }
- // No-record diseases are visible as small, almost-black points.
- createCloud(points.unlit,'#4d5c73',.29,texture,.54);
- // Glowing points reflect participant activity. All objects stay at stable xyz.
- const colors={share:'#ffc6ad',discover:'#99e4ff',mixed:'#dcb6ff'};
- for(const type of ['share','discover','mixed']){
-  const items=points[type];
-  createCloud(items,colors[type],.63,texture,.75);
-  if(items.length)createCloud(items,colors[type],.28,texture,1);
- }
+ modeDefault.addEventListener('click',()=>drawDataset(data,'taxonomy'));
+ if(clinicalReady) modeClinical.addEventListener('click',()=>drawDataset(clinicalData,'clinical'));
+ drawDataset(data,'taxonomy');
  const raycaster=new THREE.Raycaster();
  raycaster.params.Points.threshold=.32;
  const pointer=new THREE.Vector2();
@@ -118,7 +146,7 @@ function initScene(data){
  resizeObserver.observe(mount);
  resize();
  $('reset-view').addEventListener('click',()=>{
-  camera.position.set(0,1.2,25);controls.target.set(0,0,0);controls.update();
+  camera.position.set(0,1.2,mode==='clinical'?13:25);controls.target.set(0,0,0);controls.update();
  });
  const motionButton=$('toggle-motion');
  motionButton.addEventListener('click',()=>{
@@ -148,8 +176,10 @@ async function boot(){
   ?window.supabase.createClient(cfg.supabaseUrl,cfg.supabasePublishableKey):null;
  if(!client)throw new Error('Supabase is unavailable');
  if(typeof WebGLRenderingContext==='undefined')throw new Error('WebGL unavailable');
- const [starsRes,coordsRes]=await Promise.all([
-  client.rpc('get_public_stars'),client.rpc('get_constellation_positions')
+ const [starsRes,coordsRes,clinicalRes]=await Promise.all([
+  client.rpc('get_public_stars'),
+  client.rpc('get_constellation_positions'),
+  client.rpc('get_clinical_pilot_positions')
  ]);
  if(starsRes.error)throw starsRes.error;
  if(coordsRes.error)throw coordsRes.error;
@@ -165,10 +195,17 @@ async function boot(){
   return {...s,cluster:p.cluster,position:{x:v[0],y:v[1],z:v[2]}};
  }).filter(Boolean);
  if(!data.length)throw new Error('No valid coordinate match');
- const lit=data.filter(d=>Number(d.total)>0);
- counter.textContent=format(lit.length)+' / '+format(data.length)+' 個の星';
+ const clinicalCoords=Array.isArray(clinicalRes?.data)?clinicalRes.data:[];
+ const clinical=clinicalCoords.map(p=>{
+  const s=info.get(p.id);
+  if(!s)return null;
+  const v=[Number(p.x),Number(p.y),Number(p.z)];
+  if(!v.every(Number.isFinite))return null;
+  return {...s,cluster:'HPO症状・原因遺伝子（試験）',
+    position:{x:v[0],y:v[1],z:v[2]}};
+ }).filter(Boolean);
  message.textContent='';
- initScene(data);
+ initScene(data,clinical);
 }
 boot().catch(error=>{
  console.error('3D星図の読み込みに失敗:',error);

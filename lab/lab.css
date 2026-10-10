@@ -45,3 +45,13 @@ footer a{color:#b5d5dc}
 .note{font-size:11px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Research-only HPO view; the 1,241-star taxonomy mode remains the default */
+.mode-select{display:flex;gap:9px;align-items:center;justify-content:center;flex-wrap:wrap;margin:10px auto 10px}
+.mode-select button{padding:10px 20px;min-height:47px;border:1px solid #47667b;border-radius:100px;
+ background:#152740;color:#bad1de;font-weight:700;font-size:13px}
+.mode-select button[aria-pressed="true"]{color:#f0ffff;border-color:#8cb9c7;background:#29495d}
+.mode-select button:disabled{opacity:.44;cursor:not-allowed}
+.mode-select small{font-weight:400;opacity:.7;font-size:11px;margin-left:4px}
+.mode-explanation{margin:0 auto 13px;min-height:22px;color:#a5c3d1;text-align:center;font-size:12px;line-height:1.7}
+@media(max-width:400px){.mode-select{gap:7px}.mode-select button{padding:10px 13px;font-size:12px}}
