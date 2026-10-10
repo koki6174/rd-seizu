@@ -40,3 +40,8 @@
 - `sb_publishable_...` はブラウザ公開用キーです。RLSを前提に公開コードで使用します。
 - Secret key / service_role key はリポジトリへ保存しません。
 - 自由記述の問いはINSERTのみ許可し、公開サイトからSELECTできない設計です。
+
+
+## 今週の星図（週次レポート）
+
+週次集計・A4印刷・過去週へのリンクに対応したページを `/weekly/` に追加しました。運用方法とデータ保全については [docs/WEEKLY_REPORT.md](docs/WEEKLY_REPORT.md) を参照してください。
