@@ -1,0 +1,63 @@
+name: Build Orphadata HPO evidence candidates
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/stage_orpha_hpo_evidence.cjs
+      - .github/workflows/orpha-hpo-evidence.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stage-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch pinned Orphanet/Orphapacket evidence
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Orphanet/orphapacket.git /tmp/rd-orphapacket
+          git -C /tmp/rd-orphapacket sparse-checkout set json
+          test -f /tmp/rd-orphapacket/json/ORPHApacket_324.json
+          echo "ORPHAPACKET_COMMIT=$(git -C /tmp/rd-orphapacket rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Build and validate source-backed HPO candidates
+        run: |
+          node --check scripts/stage_orpha_hpo_evidence.cjs
+          node scripts/stage_orpha_hpo_evidence.cjs /tmp/rd-orphapacket/json
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          rows=[]
+          for f in sorted(Path('data').glob('orpha_hpo_exact_source_[0-9][0-9].json')):
+              d=json.loads(f.read_text())
+              rows.extend(d['records'])
+          assert len(rows)>=110
+          assert len(rows)==len({x['disease_id'] for x in rows})
+          assert len(rows)==len({x['orpha_code'] for x in rows})
+          assert all(x['review_status']=='unreviewed' for x in rows)
+          assert all(x['hpo_annotations'] for x in rows)
+          assert all(x['source_commit']!='not_pinned' for x in rows)
+          print('Verified format, provenance and distinct ORPHA codes for',len(rows),'unreviewed matches')
+          PY
+      - name: Version evidence snapshots in repository
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add data/orpha_hpo_exact_source_*.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: stage Orphadata and HPO exact-label candidate evidence"
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: orpha-hpo-evidence
+          path: |
+            data/orpha_hpo_exact_source_*.json
+          retention-days: 30

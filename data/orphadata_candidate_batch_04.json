@@ -1,0 +1,1633 @@
+{
+  "source": "Orphanet/orphapacket",
+  "status": "unreviewed",
+  "records": [
+    {
+      "disease_id": "nando-251-5",
+      "orpha_code": "90",
+      "original_label": "Argininemia",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000708",
+          "label": "Atypical behavior",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001987",
+          "label": "Hyperammonemia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002167",
+          "label": "Abnormality of speech or vocalization",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002353",
+          "label": "EEG abnormality",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002478",
+          "label": "Progressive spastic quadriplegia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0004374",
+          "label": "Hemiplegia/hemiparesis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0008339",
+          "label": "Diaminoaciduria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010864",
+          "label": "Intellectual disability, severe",
+          "frequency": "Very frequent (99-80%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "ARG1",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Childhood",
+        "Infancy"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0"
+    },
+    {
+      "disease_id": "nando-254-1",
+      "orpha_code": "79276",
+      "original_label": "Acute intermittent porphyria",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0002027",
+          "label": "Abdominal pain",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003163",
+          "label": "Elevated urinary delta-aminolevulinic acid",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010473",
+          "label": "Porphyrinuria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012217",
+          "label": "Increased urinary porphobilinogen",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012379",
+          "label": "Abnormal enzyme/coenzyme activity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000083",
+          "label": "Renal insufficiency",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000822",
+          "label": "Hypertension",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001268",
+          "label": "Mental deterioration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001649",
+          "label": "Tachycardia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002017",
+          "label": "Nausea and vomiting",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002019",
+          "label": "Constipation",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003418",
+          "label": "Back pain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0006824",
+          "label": "Cranial nerve paralysis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0009763",
+          "label": "Limb pain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0009830",
+          "label": "Peripheral neuropathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0030833",
+          "label": "Neck pain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000711",
+          "label": "Restlessness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000716",
+          "label": "Depression",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000738",
+          "label": "Hallucinations",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000739",
+          "label": "Anxiety",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001262",
+          "label": "Excessive daytime somnolence",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001289",
+          "label": "Confusion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001402",
+          "label": "Hepatocellular carcinoma",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001945",
+          "label": "Fever",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002014",
+          "label": "Diarrhea",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002093",
+          "label": "Respiratory insufficiency",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002203",
+          "label": "Respiratory paralysis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002354",
+          "label": "Memory impairment",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002460",
+          "label": "Distal muscle weakness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002595",
+          "label": "Ileus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002902",
+          "label": "Hyponatremia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003270",
+          "label": "Abdominal distention",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003474",
+          "label": "Somatic sensory dysfunction",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004347",
+          "label": "Weakness of muscles of respiration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007002",
+          "label": "Motor axonal neuropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007024",
+          "label": "Pseudobulbar paralysis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007178",
+          "label": "Motor polyneuropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0008994",
+          "label": "Proximal muscle weakness in lower limbs",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0008997",
+          "label": "Proximal muscle weakness in upper limbs",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011999",
+          "label": "Paranoia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0040319",
+          "label": "Dark urine",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100785",
+          "label": "Insomnia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0410263",
+          "label": "Brain imaging abnormality",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000016",
+          "label": "Urinary retention",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000020",
+          "label": "Urinary incontinence",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000975",
+          "label": "Hyperhidrosis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001259",
+          "label": "Coma",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001337",
+          "label": "Tremor",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0100518",
+          "label": "Dysuria",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0011121",
+          "label": "Abnormal skin morphology",
+          "frequency": "Excluded (0%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "HMBS",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal dominant"
+      ],
+      "onset_terms": [
+        "Adolescent",
+        "Adult"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0"
+    },
+    {
+      "disease_id": "nando-254-2",
+      "orpha_code": "79273",
+      "original_label": "Hereditary coproporphyria",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0002027",
+          "label": "Abdominal pain",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003163",
+          "label": "Elevated urinary delta-aminolevulinic acid",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010472",
+          "label": "Abnormal circulating porphyrin concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000987",
+          "label": "Atypical scarring of skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002018",
+          "label": "Nausea",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002460",
+          "label": "Distal muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002572",
+          "label": "Episodic vomiting",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0008994",
+          "label": "Proximal muscle weakness in lower limbs",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0008997",
+          "label": "Proximal muscle weakness in upper limbs",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0009763",
+          "label": "Limb pain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0010473",
+          "label": "Porphyrinuria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0011121",
+          "label": "Abnormal skin morphology",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012217",
+          "label": "Increased urinary porphobilinogen",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0040319",
+          "label": "Dark urine",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000112",
+          "label": "Nephropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000709",
+          "label": "Psychosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000992",
+          "label": "Cutaneous photosensitivity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001030",
+          "label": "Fragile skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001402",
+          "label": "Hepatocellular carcinoma",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001649",
+          "label": "Tachycardia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002093",
+          "label": "Respiratory insufficiency",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002902",
+          "label": "Hyponatremia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003418",
+          "label": "Back pain",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0005325",
+          "label": "Extension of hair growth on temples to lateral eyebrow",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007178",
+          "label": "Motor polyneuropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0008066",
+          "label": "Abnormal blistering of the skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0008528",
+          "label": "Long hairs growing from helix of pinna",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0009937",
+          "label": "Facial hirsutism",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012850",
+          "label": "Small intestinal dysmotility",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0032936",
+          "label": "Intrusion symptom",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001903",
+          "label": "Anemia",
+          "frequency": "Excluded (0%)"
+        },
+        {
+          "id": "HP:0001945",
+          "label": "Fever",
+          "frequency": "Excluded (0%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "CPOX",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal dominant"
+      ],
+      "onset_terms": [
+        "Adolescent",
+        "Adult"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0"
+    },
+    {
+      "disease_id": "nando-254-3",
+      "orpha_code": "79473",
+      "original_label": "Variegate porphyria",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0002027",
+          "label": "Abdominal pain",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010472",
+          "label": "Abnormal circulating porphyrin concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010473",
+          "label": "Porphyrinuria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012217",
+          "label": "Increased urinary porphobilinogen",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012379",
+          "label": "Abnormal enzyme/coenzyme activity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000707",
+          "label": "Abnormality of the nervous system",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000708",
+          "label": "Atypical behavior",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000739",
+          "label": "Anxiety",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000992",
+          "label": "Cutaneous photosensitivity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002019",
+          "label": "Constipation",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002273",
+          "label": "Tetraparesis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003163",
+          "label": "Elevated urinary delta-aminolevulinic acid",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003418",
+          "label": "Back pain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0007178",
+          "label": "Motor polyneuropathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0008066",
+          "label": "Abnormal blistering of the skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0008997",
+          "label": "Proximal muscle weakness in upper limbs",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0100749",
+          "label": "Chest pain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0200037",
+          "label": "Skin vesicle",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0200041",
+          "label": "Skin erosion",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000011",
+          "label": "Neurogenic bladder",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000822",
+          "label": "Hypertension",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000953",
+          "label": "Hyperpigmentation of the skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000998",
+          "label": "Hypertrichosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001010",
+          "label": "Hypopigmentation of the skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001056",
+          "label": "Milia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001072",
+          "label": "Thickened skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001265",
+          "label": "Hyporeflexia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001347",
+          "label": "Hyperreflexia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001649",
+          "label": "Tachycardia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002018",
+          "label": "Nausea",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002203",
+          "label": "Respiratory paralysis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002595",
+          "label": "Ileus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002902",
+          "label": "Hyponatremia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002910",
+          "label": "Elevated circulating hepatic transaminase concentration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003474",
+          "label": "Somatic sensory dysfunction",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011355",
+          "label": "Localized skin lesion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012332",
+          "label": "Abnormal autonomic nervous system physiology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0031218",
+          "label": "Inappropriate antidiuretic hormone secretion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100699",
+          "label": "Scarring",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000738",
+          "label": "Hallucinations",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001259",
+          "label": "Coma",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001392",
+          "label": "Abnormality of the liver",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001402",
+          "label": "Hepatocellular carcinoma",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001903",
+          "label": "Anemia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0011999",
+          "label": "Paranoia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0012622",
+          "label": "Chronic kidney disease",
+          "frequency": "Very rare (<4-1%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "PPOX",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal dominant"
+      ],
+      "onset_terms": [
+        "Adolescent",
+        "Adult"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0"
+    },
+    {
+      "disease_id": "nando-254-5",
+      "orpha_code": "101330",
+      "original_label": "Porphyria cutanea tarda",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0012379",
+          "label": "Abnormal enzyme/coenzyme activity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0030272",
+          "label": "Abnormal erythrocyte enzyme activity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003281",
+          "label": "Increased circulating ferritin concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012465",
+          "label": "Elevated hepatic iron concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0031876",
+          "label": "Decreased circulating hepcidin concentration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0032500",
+          "label": "Exacerbated by tobacco use",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0030955",
+          "label": "Alcoholism",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0200123",
+          "label": "Chronic hepatitis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002725",
+          "label": "Systemic lupus erythematosus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003774",
+          "label": "Stage 5 chronic kidney disease",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000819",
+          "label": "Diabetes mellitus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001397",
+          "label": "Hepatic steatosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004377",
+          "label": "Hematological neoplasm",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000992",
+          "label": "Cutaneous photosensitivity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0008066",
+          "label": "Abnormal blistering of the skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001030",
+          "label": "Fragile skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0040189",
+          "label": "Scaling skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001058",
+          "label": "Poor wound healing",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012531",
+          "label": "Pain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0005406",
+          "label": "Recurrent bacterial skin infections",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0031292",
+          "label": "Cutaneous abscess",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000998",
+          "label": "Hypertrichosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001010",
+          "label": "Hypopigmentation of the skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000953",
+          "label": "Hyperpigmentation of the skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001007",
+          "label": "Hirsutism",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100699",
+          "label": "Scarring",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000559",
+          "label": "Corneal scarring",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000656",
+          "label": "Ectropion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002910",
+          "label": "Elevated circulating hepatic transaminase concentration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001405",
+          "label": "Periportal fibrosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0033197",
+          "label": "Hepatic lobular inflammation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0033196",
+          "label": "Portal inflammation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001402",
+          "label": "Hepatocellular carcinoma",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0010473",
+          "label": "Porphyrinuria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010472",
+          "label": "Abnormal circulating porphyrin concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0032999",
+          "label": "Increased fecal porphyrin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012217",
+          "label": "Increased urinary porphobilinogen",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003452",
+          "label": "Increased circulating iron concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0006562",
+          "label": "Viral hepatitis",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "gene_associations": [],
+      "inheritance_terms": [],
+      "onset_terms": [
+        "Adult"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0"
+    },
+    {
+      "disease_id": "nando-254-6",
+      "orpha_code": "79277",
+      "original_label": "Congenital erythropoietic porphyria",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0007537",
+          "label": "Severe photosensitivity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0008066",
+          "label": "Abnormal blistering of the skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001030",
+          "label": "Fragile skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0040320",
+          "label": "Red-brown urine",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001878",
+          "label": "Hemolytic anemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012804",
+          "label": "Corneal ulceration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100699",
+          "label": "Scarring",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0030756",
+          "label": "Erythrodontia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001790",
+          "label": "Nonimmune hydrops fetalis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000618",
+          "label": "Blindness",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0100532",
+          "label": "Scleritis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0500046",
+          "label": "Seborrhoeic blepharitis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001096",
+          "label": "Keratoconjunctivitis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000656",
+          "label": "Ectropion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000938",
+          "label": "Osteopenia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100512",
+          "label": "Low levels of vitamin D",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001560",
+          "label": "Abnormality of the amniotic fluid",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0040322",
+          "label": "Purple urine",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0200041",
+          "label": "Skin erosion",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0005406",
+          "label": "Recurrent bacterial skin infections",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0011457",
+          "label": "Loss of eyelashes",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004552",
+          "label": "Scarring alopecia of scalp",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002797",
+          "label": "Osteolysis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000939",
+          "label": "Osteoporosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012132",
+          "label": "Erythroid hyperplasia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0008069",
+          "label": "Neoplasm of the skin",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002860",
+          "label": "Squamous cell carcinoma",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0012187",
+          "label": "Increased erythrocyte protoporphyrin concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010472",
+          "label": "Abnormal circulating porphyrin concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012217",
+          "label": "Increased urinary porphobilinogen",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010473",
+          "label": "Porphyrinuria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0009025",
+          "label": "Increased connective tissue",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001072",
+          "label": "Thickened skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000953",
+          "label": "Hyperpigmentation of the skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001010",
+          "label": "Hypopigmentation of the skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002219",
+          "label": "Facial hypertrichosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0033009",
+          "label": "Increased fecal coproporphyrin 1",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003401",
+          "label": "Paresthesia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000989",
+          "label": "Pruritus",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000969",
+          "label": "Edema",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0011273",
+          "label": "Anisocytosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004447",
+          "label": "Poikilocytosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001923",
+          "label": "Reticulocytosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0020181",
+          "label": "Reduced haptoglobin level",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0008282",
+          "label": "Unconjugated hyperbilirubinemia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0500115",
+          "label": "Increased stool urobilinogen concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001882",
+          "label": "Leukopenia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001873",
+          "label": "Thrombocytopenia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001892",
+          "label": "Abnormal bleeding",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "UROS",
+          "association": "Disease-causing germline mutation(s) (loss of function) in"
+        },
+        {
+          "symbol": "GATA1",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "All ages"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0"
+    },
+    {
+      "disease_id": "nando-254-8",
+      "orpha_code": "95159",
+      "original_label": "Hepatoerythropoietic porphyria",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0040318",
+          "label": "Red urine",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0010472",
+          "label": "Abnormal circulating porphyrin concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0032999",
+          "label": "Increased fecal porphyrin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012379",
+          "label": "Abnormal enzyme/coenzyme activity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0007537",
+          "label": "Severe photosensitivity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0008066",
+          "label": "Abnormal blistering of the skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001030",
+          "label": "Fragile skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0040320",
+          "label": "Red-brown urine",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001878",
+          "label": "Hemolytic anemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012804",
+          "label": "Corneal ulceration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100699",
+          "label": "Scarring",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0030756",
+          "label": "Erythrodontia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001790",
+          "label": "Nonimmune hydrops fetalis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001072",
+          "label": "Thickened skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000953",
+          "label": "Hyperpigmentation of the skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001010",
+          "label": "Hypopigmentation of the skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002219",
+          "label": "Facial hypertrichosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003401",
+          "label": "Paresthesia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000989",
+          "label": "Pruritus",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000969",
+          "label": "Edema",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001892",
+          "label": "Abnormal bleeding",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000618",
+          "label": "Blindness",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0100532",
+          "label": "Scleritis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0500046",
+          "label": "Seborrhoeic blepharitis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001096",
+          "label": "Keratoconjunctivitis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000656",
+          "label": "Ectropion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000938",
+          "label": "Osteopenia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001560",
+          "label": "Abnormality of the amniotic fluid",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0040322",
+          "label": "Purple urine",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0200041",
+          "label": "Skin erosion",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0005406",
+          "label": "Recurrent bacterial skin infections",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0011457",
+          "label": "Loss of eyelashes",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004552",
+          "label": "Scarring alopecia of scalp",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002797",
+          "label": "Osteolysis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000939",
+          "label": "Osteoporosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012132",
+          "label": "Erythroid hyperplasia",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "UROD",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Childhood"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0"
+    },
+    {
+      "disease_id": "nando-255-1",
+      "orpha_code": "79242",
+      "original_label": "Holocarboxylase synthetase deficiency",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000737",
+          "label": "Irritability",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001096",
+          "label": "Keratoconjunctivitis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001252",
+          "label": "Hypotonia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001510",
+          "label": "Growth delay",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001824",
+          "label": "Weight loss",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002017",
+          "label": "Nausea and vomiting",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002039",
+          "label": "Anorexia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0011127",
+          "label": "Perioral eczema",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001987",
+          "label": "Hyperammonemia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001992",
+          "label": "Organic aciduria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002098",
+          "label": "Respiratory distress",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002789",
+          "label": "Tachypnea",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000964",
+          "label": "Eczematoid dermatitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001254",
+          "label": "Lethargy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001259",
+          "label": "Coma",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001596",
+          "label": "Alopecia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001873",
+          "label": "Thrombocytopenia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007549",
+          "label": "Desquamation of skin soon after birth",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "HLCS",
+          "association": "Disease-causing germline mutation(s) (loss of function) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Childhood",
+        "Infancy",
+        "Neonatal"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0"
+    }
+  ]
+}
