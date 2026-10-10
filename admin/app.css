@@ -27,3 +27,69 @@ input[type=search],textarea{background:#0d1830;color:#f4f8ff;border:1px solid #5
 @media(max-width:400px){.preset-option{font-size:11px;padding:9px 5px}}
 
 .disease-results .result-parent{display:block;font-size:10px;line-height:1.6;color:#a6c1d3;margin-top:3px;font-weight:400}
+
+/* Exhibition UX v3: clearer type scale and reliable centered Safari dialog */
+:root{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",Meiryo,sans-serif}
+.hero{padding-top:clamp(40px,7vw,78px);padding-bottom:28px}
+.hero h1{font-size:clamp(34px,8vw,58px);line-height:1.38;letter-spacing:0;font-weight:760}
+.hero h1 em{font-weight:760;text-shadow:none}
+.hero p:not(.eyebrow){font-size:clamp(14px,2.6vw,16px);line-height:1.8;margin:16px 0}
+.hero-join{display:inline-flex;gap:14px;align-items:center;justify-content:center;margin:17px auto 8px;
+ min-height:48px;padding:12px 27px;border:1px solid #9acbd177;border-radius:100px;
+ color:#d4f7ff;font-size:14px;font-weight:700;text-decoration:none}
+.hero-join:hover{background:#284b5a66}
+.map-topline h2{font-size:clamp(17px,3.5vw,22px)}
+.map-topline span{font-size:12px}
+.hint{font-size:12px;line-height:1.7}
+.participation h2{font-size:clamp(24px,5vw,34px)}
+.participation p:not(.eyebrow){font-size:14px}
+.about{margin:0 auto 45px}
+.about h2{font-size:20px}
+.about p{font-size:14px}
+.footer,footer{line-height:1.8}
+.privacy-link{display:inline-block;font-size:12px;margin:10px 0 4px}
+.privacy-link a{color:#b3dfe7}
+.source-credit{font-size:10px}
+.flow-modal{inset:0;position:fixed;margin:auto;max-height:min(85dvh,760px);overscroll-behavior:contain}
+.form-step h2{font-size:clamp(23px,5vw,30px);letter-spacing:.01em}
+.form-step>p:not(.eyebrow):not(.privacy-line){font-size:14px}
+.path-card{gap:13px;min-height:102px;padding:18px 15px}
+.path-card strong{font-size:16px}
+.path-card small{font-size:12px;line-height:1.6}
+.modal-bar{margin-bottom:18px}
+.modal-bar button{width:44px;height:44px;font-size:27px;display:grid;place-items:center;padding:0;border-radius:10px}
+.disease-results button{padding:13px 14px;font-size:14px;min-height:44px}
+.disease-results .result-parent{font-size:11px}
+.suggest-toggle{display:block;width:100%;border:1px dashed #8ba5b8;background:transparent;color:#bde1ed;
+ border-radius:10px;padding:13px 12px;font-weight:700;font-size:13px;text-align:center;margin-top:13px;min-height:47px}
+.suggest-toggle:hover{background:#2a435d}
+.suggest-panel{background:#162943;border:1px solid #597b9b;border-radius:14px;margin-top:14px;padding:17px}
+.suggest-panel[hidden]{display:none!important}
+.suggest-panel h3{font-size:17px;margin:0 0 5px}
+.suggest-panel p{color:#c2d4e2;font-size:12px;line-height:1.7}
+.suggest-panel input{display:block;width:100%;border:1px solid #7791a8;background:#0d1830;color:#fff;
+ border-radius:10px;min-height:49px;padding:12px;font:inherit}
+.suggest-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:12px}
+.suggest-actions .cta{font-size:13px;padding:11px 20px}
+.suggest-actions .back{border:0;background:none;color:#c3e4ee;min-height:44px;padding:10px}
+#suggest-status{margin:12px 0 0;font-size:12px;line-height:1.7}
+#suggest-status:empty{display:none}
+.stat-row strong{font-size:26px}
+.cta{font-size:15px;min-height:51px}
+.form-step .error-message{min-height:0}
+@media(max-width:600px){
+ .header{padding:11px 16px}
+ .hero{padding-top:40px;padding-bottom:23px}
+ .hero h1{font-size:clamp(33px,8.4vw,42px)}
+ .hero p:not(.eyebrow){font-size:13px}
+ .sky-view{height:min(116vw,500px)}
+ .participation{padding:31px 20px;margin:36px auto 46px}
+ dialog.flow-modal{position:fixed;inset:0;margin:auto;width:calc(100% - 24px);max-width:520px;
+  max-height:calc(100dvh - 36px);border-radius:21px;overflow-y:auto;}
+ .modal-inner{padding:22px 21px max(23px,env(safe-area-inset-bottom))}
+ .path-card{min-height:100px}
+ .modal-bottom{position:sticky;bottom:0;background:#152540;padding:10px 0}
+ .privacy-line{margin-top:20px}
+ .preset-list{gap:8px}
+ .stat-row{gap:22px}
+}
