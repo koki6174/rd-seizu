@@ -46,5 +46,6 @@ jobs:
           path: |
             /tmp/orpha-review/orpha_candidates.csv
             /tmp/orpha-review/matching_report.json
+            /tmp/orpha-review/orpha_phenotypes_unattached.json
           retention-days: 7
           if-no-files-found: error
