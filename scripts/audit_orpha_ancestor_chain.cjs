@@ -21,7 +21,9 @@ function read(code){
  if(!fs.existsSync(fname)){cached.set(code,null);return null;}
  const packet=JSON.parse(fs.readFileSync(fname,'utf8')).Orphapacket;
  const links=[];
- for(const r of packet.Parents||[])for(const p of (Array.isArray(r.Parent)?r.Parent:[r.Parent])){
+ const sourceParentGroups=Array.isArray(packet.Parents)?packet.Parents:
+   packet.Parents?[packet.Parents]:[];
+ for(const r of sourceParentGroups)for(const p of (Array.isArray(r.Parent)?r.Parent:[r.Parent])){
   if(p&&p.ORPHAcode&&p.Label)links.push({code:Number(p.ORPHAcode),label:p.Label});
  }
  const data={code:Number(packet.ORPHAcode),label:packet.Label,type:packet.DisorderType?.value||'',links};
