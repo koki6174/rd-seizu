@@ -64,7 +64,9 @@
       <p>このサイトは病気の診断・治療の判断を提供しません。入力されたコメントは公開前に内容を確認します。</p>
     </section>
   </main>
-  <footer>みんなでつくる「見えない病気の星図」<br><small>知ることから、つながりへ。</small></footer>
+  <footer>みんなでつくる「見えない病気の星図」<br><small>知ることから、つながりへ。</small><br>
+  <small class="source-credit">疾患名は <a href="https://www.mhlw.go.jp/stf/newpage_53881.html" target="_blank" rel="noopener noreferrer">厚生労働省「指定難病一覧」</a> を参照しています。
+  一覧データ整理：<a href="https://github.com/136s/intractable-disease" target="_blank" rel="noopener noreferrer">136s/intractable-disease</a>（CC BY 4.0）。医学的な詳細情報は未掲載です。</small></footer>
 
   <dialog class="flow-modal" id="flow-modal" aria-labelledby="flow-title">
     <div class="modal-inner">
@@ -97,8 +99,16 @@
         <p class="eyebrow">YOUR THOUGHT, YOUR STAR</p>
         <h2>この星に、想いを添えますか？</h2>
         <p id="selected-disease-name"></p>
-        <label for="thought-text">伝えたいこと、知ってみたいこと（任意）</label>
+        <label>一言を選ぶと、すぐ星に表示されます（任意）</label>
+        <div class="preset-list" role="group" aria-label="すぐ表示される定型コメント">
+          <button type="button" class="preset-option" data-preset="この病気のことをもっと知りたい">もっと知りたい</button>
+          <button type="button" class="preset-option" data-preset="少しでも多くの人に知ってほしい">知ってほしい</button>
+          <button type="button" class="preset-option" data-preset="研究や支援が進んでほしい">研究・支援に期待</button>
+          <button type="button" class="preset-option" data-preset="知るきっかけになりました">知るきっかけに</button>
+        </div>
+        <label for="thought-text">自分の言葉で伝える（任意・140文字以内）</label>
         <textarea id="thought-text" maxlength="140" rows="4" placeholder="例：この病気について、もっと知る人が増えたらうれしいです。"></textarea>
+        <p class="approval-note">定型コメントは即時公開されます。自由記述は運営確認後に掲載します。投稿自体はどちらもすぐ星図に反映されます。</p>
         <div class="text-info"><span id="text-count">0 / 140</span><span>名前・連絡先・病歴などは書かないでください。</span></div>
         <p class="privacy-line">入力内容は運営が確認し、承認されたコメントだけを星の周りに表示します。</p>
         <div id="submit-error" class="error-message" aria-live="polite"></div>
@@ -108,6 +118,7 @@
         <span class="done-symbol">✦</span>
         <h2>星が、ひとつ増えました。</h2>
         <p>あなたの光が、みんなの星図につながりました。<br>また明日、新しい星を灯せます。</p>
+        <p id="comment-publish-status" class="comment-publish-status"></p>
         <button class="cta" type="button" id="finish-flow">星図を見る →</button>
       </div>
     </div>

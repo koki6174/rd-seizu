@@ -154,7 +154,7 @@
     $('disease-step-title').textContent=isShare?'想いを届けたい病気は？':'新しい星に出会おう。';
     $('disease-step-description').textContent=isShare
       ?'伝えたい病気を名前から選んでください。病気との関係は質問しません。'
-      :'まだ関心が集まっていない星を優先して、ひとつ紹介します。';
+      :'まだ関心が集まっていない星を優先します。現在は病名を紹介し、詳しい情報は順次整備しています。';
     $('disease-search-wrap').hidden=!isShare;
     $('auto-disease').hidden=isShare;
     $('disease-search').value='';
@@ -168,10 +168,10 @@
   }
   function filterDisease(search) {
     const area=$('disease-results');area.replaceChildren();
-    const q=search.trim().toLowerCase();
+    const q=search.normalize('NFKC').trim().toLowerCase();
     const matches=state.stars.filter(s=>
-      !q || String(s.name).toLowerCase().includes(q)
-      || String(s.nameEn||'').toLowerCase().includes(q)
+      !q || String(s.name).normalize('NFKC').toLowerCase().includes(q)
+      || String(s.nameEn||'').normalize('NFKC').toLowerCase().includes(q)
       || s.id.toLowerCase().includes(q)
     ).sort(sortMap).slice(0,25);
     if (!matches.length) {
@@ -210,6 +210,7 @@
     $('selected-disease-name').textContent=star.name;
     $('thought-text').value='';
     $('text-count').textContent='0 / 140';
+    document.querySelectorAll('[data-preset]').forEach(b=>b.classList.remove('selected'));
     $('submit-error').textContent='';
     showStep('comment');
   }
@@ -236,6 +237,10 @@
         throw new Error((data&&data.reason)||'submission rejected');
       }
       setSubmitted(true);
+      $('comment-publish-status').textContent =
+        data.comment_public ? '選んだ定型コメントも星に表示されました。' :
+        data.comment_review_pending ? '自由記述のコメントは内容の確認後に表示します。' :
+        'コメントなしで参加が完了しました。';
       showStep('done');
       await refreshSky();
     } catch (error) {
@@ -268,7 +273,17 @@
     $('back-to-choice').addEventListener('click',()=>showStep('choose'));
     $('back-to-disease').addEventListener('click',()=>showStep('disease'));
     $('to-comment').addEventListener('click',moveToComment);
-    $('thought-text').addEventListener('input',e=>$('text-count').textContent=e.target.value.length+' / 140');
+    $('thought-text').addEventListener('input',e=>{
+      $('text-count').textContent=e.target.value.length+' / 140';
+      document.querySelectorAll('[data-preset]').forEach(b=>
+        b.classList.toggle('selected',b.dataset.preset===e.target.value.trim()));
+    });
+    document.querySelectorAll('[data-preset]').forEach(button=>button.addEventListener('click',()=>{
+      const area=$('thought-text');
+      const text=button.dataset.preset;
+      area.value=area.value.trim()===text?'':text;
+      area.dispatchEvent(new Event('input',{bubbles:true}));
+    }));
     $('submit-entry').addEventListener('click',submit);
     $('finish-flow').addEventListener('click',closeFlow);
     $('close-star').addEventListener('click',closeStar);
