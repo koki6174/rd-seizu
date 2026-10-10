@@ -1,0 +1,48 @@
+name: Review MONDO-NANDO-ORPHA identity triangulation
+on:
+  push:
+    branches: [feature/clinical-mondo-nando-expansion]
+    paths:
+      - "scripts/audit_mondo_nando_orpha.cjs"
+      - ".github/workflows/mondo-nando-review.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Fetch pinned MONDO October 2026 SSSOM source mappings
+        run: |
+          mkdir -p /tmp/mondo
+          curl -fLsS --retry 3 'https://raw.githubusercontent.com/monarch-initiative/mondo/9bfccbe9217cdfa6a225058bfa6e4bd55512b432/src/ontology/mappings/mondo_hasdbxref_nando.sssom.tsv' -o /tmp/mondo/nando.sssom.tsv
+          curl -fLsS --retry 3 'https://raw.githubusercontent.com/monarch-initiative/mondo/9bfccbe9217cdfa6a225058bfa6e4bd55512b432/src/ontology/mappings/mondo_exactmatch_orphanet.sssom.tsv' -o /tmp/mondo/orphanet.sssom.tsv
+          test $(wc -c < /tmp/mondo/nando.sssom.tsv) -gt 200000
+          test $(wc -c < /tmp/mondo/orphanet.sssom.tsv) -gt 1000000
+      - name: Cross-check unique ORPHA and legacy NANDO references
+        run: |
+          node --check scripts/audit_mondo_nando_orpha.cjs
+          node scripts/audit_mondo_nando_orpha.cjs /tmp/mondo/nando.sssom.tsv /tmp/mondo/orphanet.sssom.tsv
+          node - <<'JS'
+          const fs=require('node:fs'),assert=require('node:assert/strict');
+          const a=JSON.parse(fs.readFileSync('data/orpha_mondo_crosswalk_evidence_v1.json','utf8'));
+          const b=JSON.parse(fs.readFileSync('data/orphadata_verified_batch_06.json','utf8'));
+          assert.equal(a.matches.length,70);
+          assert.equal(b.rows.length,70);
+          assert.equal(new Set(a.matches.map(x=>x.orpha_code)).size,70);
+          assert(a.matches.every(x=>x.evidence.every(y=>y.mondo_to_orpha_predicate==='skos:exactMatch')));
+          JS
+      - name: Save reproducible review evidence and source clinical records
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/orpha_mondo_crosswalk_evidence_v1.json data/orphadata_verified_batch_06.json
+          if ! git diff --cached --quiet; then
+            git commit -m "research: source-triangulate MONDO-NANDO-Orpha 70 additional disease records"
+            git push origin HEAD:feature/clinical-mondo-nando-expansion
+          fi
