@@ -104,22 +104,10 @@ select section, round(avg(seconds)::numeric,1) as avg_session_seconds
 from by_session group by section;
 ```
 
-### 上位50疾患の「飽和」を判断する
+### 展示の改善
 
-```sql
-select
- count(*) filter(where d.discovery_rank is not null) as top50_diseases,
- count(*) filter(where d.discovery_rank is not null and s.posts>0) as top50_lit,
- coalesce(sum(s.posts) filter(where d.discovery_rank is not null),0) as top50_posts,
- coalesce(sum(s.posts) filter(where d.discovery_rank is null),0) as other_posts
-from public.disease_catalog d
-left join (select disease_id,count(*) as posts from public.star_entries
-           where kind='discover' group by disease_id) s
-on s.disease_id=d.id
-where d.published;
-```
-
-「紹介抽選回数」と「実際の投稿数」は異なる。どの疾患がランダム抽選されたかという詳細ログは**個人の興味を追跡しない設計**なので現状取得しない。閲覧されたページの秒数は概算であり、行動を直接の個人プロフィールにしない。
+紹介機能の利用件数と投稿完了件数の変化を確認し、必要に応じて体験を調整します。
+公開リポジトリに個別の紹介基準や運営用の設定値を記載しません。
 
 ## 法務・削除ルール
 
