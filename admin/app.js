@@ -172,6 +172,8 @@
     const matches=state.stars.filter(s=>
       !q || String(s.name).normalize('NFKC').toLowerCase().includes(q)
       || String(s.nameEn||'').normalize('NFKC').toLowerCase().includes(q)
+      || (Array.isArray(s.aliases) && s.aliases.some(a =>
+           String(a).normalize('NFKC').toLowerCase().includes(q)))
       || s.id.toLowerCase().includes(q)
     ).sort(sortMap).slice(0,25);
     if (!matches.length) {
@@ -182,6 +184,12 @@
       b.type='button';
       b.setAttribute('role','option');
       b.textContent=s.name;
+      if(s.parentName && s.conceptKind==='disease_subtype') {
+        const hint=document.createElement('small');
+        hint.className='result-parent';
+        hint.textContent='関連する分類：'+s.parentName;
+        b.append(hint);
+      }
       b.classList.toggle('selected',state.disease===s.id);
       b.addEventListener('click',()=>{
         state.disease=s.id;
