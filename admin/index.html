@@ -2,63 +2,115 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex, nofollow">
-  <!-- Resolve shared CSS, JavaScript, and content/ data at the repository root. -->
-  <base href="../">
-  <meta name="description" content="希少疾患を知り、問いを残し、関心をつなぐ参加型展示の応募用プロトタイプ">
-  <title>見えない病気の星図</title>
-  <link rel="stylesheet" href="styles.css?v=20260727-7">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#080e20">
+  <meta name="description" content="一つの想いから星が生まれる。あなたの関心がみんなの星図を育てる参加型展示。">
+  <title>見えない病気の星図 | 参加する</title>
+  <link rel="stylesheet" href="./app.css?v=2">
+  <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script defer src="../config.js"></script>
+  <script defer src="./app.js?v=2"></script>
 </head>
 <body>
-  <a class="skip-link" href="admin/#main">本文へ移動</a>
-  <header class="site-header">
-    <a class="brand" href="admin/#top" aria-label="見えない病気の星図 ホーム"><span class="brand-star">✦</span> 見えない病気の星図</a>
-    <nav aria-label="ページ内ナビゲーション"><a href="admin/#about">この展示について</a><a href="admin/#safety">安全性と情報の扱い</a><a href="weekly/">今週の星図</a></nav>
+  <header class="header">
+    <a href="../" class="brand"><span class="brand-star">✦</span> 見えない病気の星図</a>
+    <a class="weekly-link" href="../weekly/">これまでの星図 ↗</a>
   </header>
-  <main id="main">
-    <section id="top" class="hero" aria-labelledby="page-title">
-      <div class="hero-copy">
-        <p class="eyebrow">ComoNe「ねのねプログラム」応募用プロトタイプ</p>
-        <p class="hero-kicker"><span>観測をはじめる</span><span aria-hidden="true">／</span><span>知ることから、つながりへ</span></p>
-        <h1 id="page-title">みんなでつくる<br>「見えない病気の<span class="mobile-break"><br></span>星図」</h1>
-        <p class="subtitle">希少疾患を知り、問いを残し、関心をつなぐ参加型展示</p>
-        <p class="lead">一つひとつは小さな光。集まると、社会の大きさが見えてくる。</p>
-        <button class="primary" id="start-button" type="button">体験を始める <span aria-hidden="true">↓</span></button>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">YOUR THOUGHTS, OUR CONSTELLATION</p>
+      <h1>あなたの想いが、<br><em>ひとつの星になる。</em></h1>
+      <p>ひとりの「伝えたい」と、ひとりの「知りたい」。<br>小さな光が重なって、見えない病気の星図を育てます。</p>
+      <div class="stat-row">
+        <span><strong id="total-stars">—</strong> 育った星</span>
+        <span><strong id="total-entries">—</strong> 届いた想い</span>
       </div>
-      <div class="hero-orbit" aria-hidden="true"><i></i><i></i><i></i><span>12<br><small>lights</small></span></div>
     </section>
 
-    <section class="constellation-section" aria-labelledby="map-title">
-      <div class="section-heading"><div><p class="eyebrow">INTERACTIVE CONSTELLATION</p><h2 id="map-title">一つの光を選んでください</h2><p>疾患を一つ選び、短い情報に触れ、問いを残します。あなたの関心が、星図を育てる一つの光になります。</p></div><button id="reset-button" class="text-button" type="button">この端末のデータをリセット</button></div>
-      <div class="map-layout">
-        <section class="map-card" aria-label="希少疾患の星図。光を選択すると詳細が表示されます。">
-          <div class="map-meta"><span class="map-state"><i aria-hidden="true"></i><span id="node-count">12の光</span></span><span>気になる光を選んで、ことばを読んでみる</span></div>
-          <svg id="constellation" viewBox="0 0 800 500" role="group" aria-label="希少疾患を表す星図"></svg>
-          <div class="legend"><span><i class="dot cyan"></i>神経・心臓肺</span><span><i class="dot violet"></i>遺伝に関係</span><span><i class="dot amber"></i>筋肉・免疫</span><span><i class="dot mint"></i>代謝・複数の臓器</span><span class="legend-note">光の色は関連するテーマを示します</span></div>
-        </section>
-        <aside class="detail-panel" id="detail-panel" aria-live="polite" aria-label="疾患の詳細">
-          <div class="empty-state" id="empty-state"><span class="empty-orb">✦</span><h3>光を選んでください</h3><p>病気の情報を知る入口として、短い仮文と情報源を表示します。</p></div>
-          <div id="detail-content" hidden></div>
+    <section class="constellation" aria-labelledby="map-title">
+      <div class="map-topline"><h2 id="map-title">みんなの星図</h2><span id="map-status">星図を読み込み中…</span></div>
+      <div class="sky-view" id="sky-view" aria-live="polite">
+        <div class="sky-decoration" aria-hidden="true"></div>
+        <div class="empty-stars" id="empty-stars" hidden>
+          <span class="empty-spark">✧</span>
+          <h3>まだ、誰も知らない夜空。</h3>
+          <p>最初の想いから、星が生まれます。</p>
+        </div>
+        <div id="star-layer" class="star-layer"></div>
+        <aside class="star-detail" id="star-detail" hidden aria-live="polite">
+          <button type="button" id="close-star" aria-label="星の説明を閉じる">×</button>
+          <p class="detail-overline">A STAR IN OUR SKY</p>
+          <h3 id="detail-name"></h3>
+          <p id="detail-counts"></p>
+          <div id="comment-bubbles" class="comment-bubbles"></div>
         </aside>
       </div>
+      <div class="legend"><span><i class="light-share"></i>想いを伝える光</span><span><i class="light-discover"></i>新しく知る光</span></div>
+      <p class="hint">星をタップすると、寄せられた想いや関心が見られます。コメントは運営による確認後に公開します。</p>
     </section>
 
-    <section class="interest-section" aria-labelledby="interest-title">
-      <div class="section-heading compact"><div><p class="eyebrow">LEAVE A TRACE</p><h2 id="interest-title">関心を、ひとつ残す</h2><p>選んだ疾患について、今の気持ちを一つだけ記録できます。</p></div></div>
-      <div class="interest-grid">
-        <div class="interest-card"><h3>この疾患を</h3><div class="interest-actions" role="group" aria-label="関心の記録"><button data-interest="first" type="button">今日初めて知った</button><button data-interest="learn" type="button">もっと知りたい</button><button data-interest="known" type="button">以前から知っている</button></div><p id="interest-message" class="status-message" aria-live="polite">選んだ疾患への関心を記録できます。</p></div>
-        <form id="question-form" class="question-card"><label for="question-input">この疾患について、どんな問いが残りましたか？</label><textarea id="question-input" maxlength="100" rows="3" placeholder="例：なぜ診断が難しいのですか？" disabled></textarea><div class="form-bottom"><small id="char-count">0 / 100文字</small><button class="primary" type="submit" disabled>問いを星図に加える</button></div><p class="form-note">氏名、連絡先、個人を特定できる病歴は入力しないでください。問いはこの端末にも保持され、展示用DBへ匿名で送信されます。投稿内容は公開サイトから表示しません。</p><p id="question-message" class="status-message" aria-live="polite"></p><section class="question-history" id="question-history" aria-live="polite" hidden></section></form>
-      </div>
+    <section class="participation">
+      <p class="eyebrow">LEAVE YOUR LIGHT</p>
+      <h2>あなたも、星をひとつ。</h2>
+      <p>今日はどんな想いを届けたいですか？<br>特定の病気についての個人的な経験を公開する必要はありません。</p>
+      <div class="participation-status" id="participation-status" role="status" aria-live="polite">参加状況を確認しています…</div>
+      <button type="button" id="open-form" class="cta" disabled>星をひとつ灯す <span aria-hidden="true">✦</span></button>
+      <p class="note">1つのブラウザにつき1日1回（日本時間の0時に更新）。個人を特定する情報は入力しないでください。</p>
     </section>
 
-    <section id="about" class="about-section" aria-labelledby="about-title"><div><p class="eyebrow">WHY A STAR MAP?</p><h2 id="about-title">見えないことを、<br>みんなの関心で照らす。</h2></div><div><p>希少疾患は、一つひとつの患者数が少なく、病名や暮らしへの影響を知る機会が限られています。</p><p>知ることだけで病気が治るわけではありません。それでも、存在を知り、問いを持つことは、理解、支援、研究へつながる入口になります。</p></div></section>
-    <section id="safety" class="safety-section" aria-labelledby="safety-title"><div class="safety-icon" aria-hidden="true">◇</div><div><p class="eyebrow">SAFETY &amp; PRIVACY</p><h2 id="safety-title">安全性と情報の扱い</h2><p>このサイトは応募用の体験プロトタイプです。診断、治療判断、医療相談を提供しません。氏名、連絡先、個人を特定できる病歴は入力しないでください。</p><p>関心は匿名の集計データとして、問いは匿名の投稿として展示用DBへ送信されます。問いの本文は公開サイトから読み出せない設定にしています。端末側にも操作継続のため一時保存します。症状や治療についての相談は、医療機関などの専門窓口へ相談してください。</p></div></section>
+    <section class="about">
+      <h2>ひとつの星に、いろいろな想い。</h2>
+      <p>身近な誰かを思い浮かべても、まだ知らない病気に出会っても。その関心を、次の人へつないでいきます。</p>
+      <p>このサイトは病気の診断・治療の判断を提供しません。入力されたコメントは公開前に内容を確認します。</p>
+    </section>
   </main>
-  <footer><span>診断・治療判断を目的としたサイトではありません。</span></footer>
-  <dialog id="confirm-dialog" aria-labelledby="confirm-title"><h2 id="confirm-title">端末内のデータをリセットしますか？</h2><p>この端末に保存された操作履歴を削除します。すでに展示用DBへ送信された匿名記録は削除されません。</p><div class="dialog-actions"><button id="cancel-reset" type="button">キャンセル</button><button id="confirm-reset" class="danger" type="button">すべて削除する</button></div></dialog>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="config.js?v=20261007-1"></script>
-  <script src="script.js?v=20261007-8"></script>
+  <footer>みんなでつくる「見えない病気の星図」<br><small>知ることから、つながりへ。</small></footer>
+
+  <dialog class="flow-modal" id="flow-modal" aria-labelledby="flow-title">
+    <div class="modal-inner">
+      <div class="modal-bar"><span id="step-counter">STEP 1 / 3</span><button type="button" id="exit-flow" aria-label="閉じる">×</button></div>
+      <div class="form-step" id="step-choose">
+        <p class="eyebrow">CHOOSE YOUR LIGHT</p>
+        <h2 id="flow-title">今日は、どんな光を灯しますか？</h2>
+        <p>想いを伝える側でも、新しく知る側でも。どちらも大切な光です。</p>
+        <button class="path-card" type="button" id="path-share"><span class="path-icon share">✦</span><span><strong>伝えたい想いがある</strong><small>知ってほしい病気や、届けたい想いがある</small></span><span class="arrow">→</span></button>
+        <button class="path-card" type="button" id="path-discover"><span class="path-icon discover">✧</span><span><strong>まだ知らない星に出会いたい</strong><small>関心の少ない病気をひとつ知ってみる</small></span><span class="arrow">→</span></button>
+        <p class="privacy-line">病歴や、本人・家族の健康状態を答える必要はありません。</p>
+      </div>
+      <div class="form-step" id="step-disease" hidden>
+        <p class="eyebrow">A STAR TO DISCOVER</p>
+        <h2 id="disease-step-title">星を選んでください</h2>
+        <p id="disease-step-description">ここに説明が表示されます。</p>
+        <div id="disease-search-wrap">
+          <label for="disease-search">疾患名を検索</label>
+          <input id="disease-search" type="search" autocomplete="off" placeholder="例：ALS、ファブリー病">
+          <div class="disease-results" id="disease-results" role="listbox" aria-label="候補の疾患名"></div>
+        </div>
+        <div class="auto-disease" id="auto-disease" hidden>
+          <span>今日出会う星</span>
+          <strong id="auto-disease-name"></strong>
+          <button id="retry-disease" type="button">別の星を見つける ↻</button>
+        </div>
+        <div class="modal-bottom"><button type="button" class="back" id="back-to-choice">← 戻る</button><button class="cta step-next" type="button" id="to-comment" disabled>次へ →</button></div>
+      </div>
+      <div class="form-step" id="step-comment" hidden>
+        <p class="eyebrow">YOUR THOUGHT, YOUR STAR</p>
+        <h2>この星に、想いを添えますか？</h2>
+        <p id="selected-disease-name"></p>
+        <label for="thought-text">伝えたいこと、知ってみたいこと（任意）</label>
+        <textarea id="thought-text" maxlength="140" rows="4" placeholder="例：この病気について、もっと知る人が増えたらうれしいです。"></textarea>
+        <div class="text-info"><span id="text-count">0 / 140</span><span>名前・連絡先・病歴などは書かないでください。</span></div>
+        <p class="privacy-line">入力内容は運営が確認し、承認されたコメントだけを星の周りに表示します。</p>
+        <div id="submit-error" class="error-message" aria-live="polite"></div>
+        <div class="modal-bottom"><button type="button" class="back" id="back-to-disease">← 戻る</button><button class="cta step-next" type="button" id="submit-entry">この想いで星を灯す ✦</button></div>
+      </div>
+      <div class="form-step finish" id="step-done" hidden>
+        <span class="done-symbol">✦</span>
+        <h2>星が、ひとつ増えました。</h2>
+        <p>あなたの光が、みんなの星図につながりました。<br>また明日、新しい星を灯せます。</p>
+        <button class="cta" type="button" id="finish-flow">星図を見る →</button>
+      </div>
+    </div>
+  </dialog>
 </body>
 </html>

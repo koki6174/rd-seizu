@@ -17,6 +17,8 @@ jobs:
           node --check script.js
           node --check config.js
           node --check weekly/weekly.js
+          node --check weekly/cumulative.js
+          node --check admin/app.js
 
       - name: Validate content JSON
         run: |
