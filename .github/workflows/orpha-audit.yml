@@ -29,7 +29,7 @@ jobs:
       - name: Generate strict source-identity candidates
         run: |
           node --check scripts/build_orpha_candidates.cjs
-          node scripts/build_orpha_candidates.cjs /tmp/rd-orphapacket/json
+          ORPHAPACKET_COMMIT=$(git -C /tmp/rd-orphapacket rev-parse HEAD) node scripts/build_orpha_candidates.cjs /tmp/rd-orphapacket/json
           python - <<'PY'
           import json
           p=json.load(open('data/orpha_matching_candidates.json',encoding='utf8'))
