@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-10T14:49:46.935Z",
+  "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+  "status": "clinical_identity_unreviewed",
+  "catalog_total": 1241,
+  "lexical_candidates": 133,
+  "source_confirmed": 133,
+  "rejected": [],
+  "positive_hpo_annotations": 4927,
+  "gene_associations": 305,
+  "no_imputation": true,
+  "note": "No clinical review. Data are not copied to user-facing diagnosis advice or promoted into verified mappings."
+}

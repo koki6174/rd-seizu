@@ -1,0 +1,5251 @@
+{
+  "source": "https://github.com/Orphanet/orphapacket",
+  "version": "7a631b4369d8ee85695edf5c099d256a3461665d",
+  "status": "unreviewed exact English preferred-name candidate, NOT clinically validated",
+  "records": [
+    {
+      "disease_id": "nando-19-20",
+      "orpha_code": 351,
+      "original_label": "Galactosialidosis",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000280",
+          "label": "Coarse facial features",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000365",
+          "label": "Hearing impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000925",
+          "label": "Abnormality of the vertebral column",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001249",
+          "label": "Intellectual disability",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002652",
+          "label": "Skeletal dysplasia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003468",
+          "label": "Abnormal vertebral morphology",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0007957",
+          "label": "Corneal opacity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010729",
+          "label": "Cherry red spot of the macula",
+          "frequency": "Very frequent (99-80%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "CTSA",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "All ages"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-21-1",
+      "orpha_code": 576,
+      "original_label": "Mucolipidosis type II",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000212",
+          "label": "Gingival overgrowth",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000280",
+          "label": "Coarse facial features",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001072",
+          "label": "Thickened skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001270",
+          "label": "Motor delay",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001537",
+          "label": "Umbilical hernia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001538",
+          "label": "Protuberant abdomen",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001609",
+          "label": "Hoarse voice",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002474",
+          "label": "Expressive language delay",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0004322",
+          "label": "Short stature",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0006596",
+          "label": "Restricted chest movement",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0008897",
+          "label": "Postnatal growth retardation",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0030680",
+          "label": "Abnormal cardiovascular system morphology",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0031650",
+          "label": "Abnormal atrioventricular valve physiology",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000388",
+          "label": "Otitis media",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000405",
+          "label": "Conductive hearing impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000774",
+          "label": "Narrow chest",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001363",
+          "label": "Craniosynostosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001376",
+          "label": "Limitation of joint mobility",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001633",
+          "label": "Abnormal mitral valve morphology",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001653",
+          "label": "Mitral regurgitation",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002091",
+          "label": "Restrictive ventilatory defect",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002465",
+          "label": "Poor speech",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002540",
+          "label": "Inability to walk",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002870",
+          "label": "Obstructive sleep apnea",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0005280",
+          "label": "Depressed nasal bridge",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0010444",
+          "label": "Pulmonary insufficiency",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012368",
+          "label": "Flat face",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0045027",
+          "label": "Abnormality of the thoracic cavity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0100543",
+          "label": "Cognitive impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000023",
+          "label": "Inguinal hernia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000286",
+          "label": "Epicanthus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000586",
+          "label": "Shallow orbits",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001433",
+          "label": "Hepatosplenomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001540",
+          "label": "Diastasis recti",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001562",
+          "label": "Oligohydramnios",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001638",
+          "label": "Cardiomyopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001646",
+          "label": "Abnormal aortic valve morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001655",
+          "label": "Patent foramen ovale",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001659",
+          "label": "Aortic regurgitation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001712",
+          "label": "Left ventricular hypertrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001762",
+          "label": "Talipes equinovarus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001824",
+          "label": "Weight loss",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002205",
+          "label": "Recurrent respiratory infections",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002213",
+          "label": "Fine hair",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002808",
+          "label": "Kyphosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002827",
+          "label": "Hip dislocation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003273",
+          "label": "Hip contracture",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0005487",
+          "label": "Prominent metopic ridge",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0006203",
+          "label": "Decreased movement range in interphalangeal joints",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0006248",
+          "label": "Limited wrist movement",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0006380",
+          "label": "Knee flexion contracture",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0006467",
+          "label": "Limited shoulder movement",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007421",
+          "label": "Telangiectases of the cheeks",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0008936",
+          "label": "Axial hypotonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0010307",
+          "label": "Stridor",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011314",
+          "label": "Abnormality of long bone morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011359",
+          "label": "Dry hair",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011364",
+          "label": "White hair",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012389",
+          "label": "Appendicular hypotonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000407",
+          "label": "Sensorineural hearing impairment",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0004887",
+          "label": "Respiratory failure requiring assisted ventilation",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0011471",
+          "label": "Gastrostomy tube feeding in infancy",
+          "frequency": "Very rare (<4-1%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "GNPTAB",
+          "association": "Disease-causing germline mutation(s) (loss of function) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Antenatal",
+        "Neonatal"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-21-2",
+      "orpha_code": 577,
+      "original_label": "Mucolipidosis type III",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0002515",
+          "label": "Waddling gait",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004349",
+          "label": "Reduced bone mineral density",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012378",
+          "label": "Fatigue",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002857",
+          "label": "Genu valgum",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003307",
+          "label": "Hyperlordosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0007957",
+          "label": "Corneal opacity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000269",
+          "label": "Prominent occiput",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000505",
+          "label": "Visual impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001387",
+          "label": "Joint stiffness",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003264",
+          "label": "Deficiency of N-acetylglucosamine-1-phosphotransferase",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003272",
+          "label": "Abnormality of the hip bone",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003312",
+          "label": "Abnormal form of the vertebral bodies",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0004322",
+          "label": "Short stature",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0004493",
+          "label": "Craniofacial hyperostosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0008818",
+          "label": "Large iliac wings",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0008821",
+          "label": "Hypoplastic inferior ilia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0025261",
+          "label": "Stiff finger",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000280",
+          "label": "Coarse facial features",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000938",
+          "label": "Osteopenia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000943",
+          "label": "Dysostosis multiplex",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001385",
+          "label": "Hip dysplasia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001634",
+          "label": "Mitral valve prolapse",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002650",
+          "label": "Scoliosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002758",
+          "label": "Osteoarthritis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0009837",
+          "label": "Bullet-shaped distal phalanges of the hand",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012185",
+          "label": "Constrictive median neuropathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012532",
+          "label": "Chronic pain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0030680",
+          "label": "Abnormal cardiovascular system morphology",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0034337",
+          "label": "Claw hand deformity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0100543",
+          "label": "Cognitive impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000885",
+          "label": "Broad ribs",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001072",
+          "label": "Thickened skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001653",
+          "label": "Mitral regurgitation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001659",
+          "label": "Aortic regurgitation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002091",
+          "label": "Restrictive ventilatory defect",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002176",
+          "label": "Spinal cord compression",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "gene_associations": [],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Childhood"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-22",
+      "orpha_code": 61,
+      "original_label": "Alpha-mannosidosis",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000158",
+          "label": "Macroglossia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000280",
+          "label": "Coarse facial features",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000365",
+          "label": "Hearing impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000518",
+          "label": "Cataract",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001249",
+          "label": "Intellectual disability",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002652",
+          "label": "Skeletal dysplasia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002750",
+          "label": "Delayed skeletal maturation",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0004493",
+          "label": "Craniofacial hyperostosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0005280",
+          "label": "Depressed nasal bridge",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0005978",
+          "label": "Type II diabetes mellitus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0007957",
+          "label": "Corneal opacity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0008821",
+          "label": "Hypoplastic inferior ilia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000023",
+          "label": "Inguinal hernia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000189",
+          "label": "Narrow palate",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000212",
+          "label": "Gingival overgrowth",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000316",
+          "label": "Hypertelorism",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000336",
+          "label": "Prominent supraorbital ridges",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000389",
+          "label": "Chronic otitis media",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000400",
+          "label": "Macrotia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000470",
+          "label": "Short neck",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000708",
+          "label": "Atypical behavior",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001252",
+          "label": "Hypotonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001385",
+          "label": "Hip dysplasia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002650",
+          "label": "Scoliosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002808",
+          "label": "Kyphosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0006487",
+          "label": "Bowing of the long bones",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0010807",
+          "label": "Open bite",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0011039",
+          "label": "Abnormal helix morphology",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0011354",
+          "label": "Generalized abnormality of skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000256",
+          "label": "Macrocephaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000303",
+          "label": "Mandibular prognathia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000687",
+          "label": "Widely spaced teeth",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000689",
+          "label": "Dental malocclusion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000738",
+          "label": "Hallucinations",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001369",
+          "label": "Arthritis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002205",
+          "label": "Recurrent respiratory infections",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002516",
+          "label": "Increased intracranial pressure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0010885",
+          "label": "Avascular necrosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011369",
+          "label": "Mongolian blue spot",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100240",
+          "label": "Synostosis of joints",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "gene_associations": [],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Childhood",
+        "Infancy",
+        "Neonatal"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-23",
+      "orpha_code": 118,
+      "original_label": "Beta-mannosidosis",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000365",
+          "label": "Hearing impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001249",
+          "label": "Intellectual disability",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001999",
+          "label": "Abnormal facial shape",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002205",
+          "label": "Recurrent respiratory infections",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0005247",
+          "label": "Hypoplasia of the abdominal wall musculature",
+          "frequency": "Very frequent (99-80%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "MANBA",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Adolescent",
+        "Adult",
+        "Childhood",
+        "Infancy",
+        "Neonatal"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-24",
+      "orpha_code": 349,
+      "original_label": "Fucosidosis",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000164",
+          "label": "Abnormality of the dentition",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000248",
+          "label": "Brachycephaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000280",
+          "label": "Coarse facial features",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000365",
+          "label": "Hearing impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000821",
+          "label": "Hypothyroidism",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000943",
+          "label": "Dysostosis multiplex",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000975",
+          "label": "Hyperhidrosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001063",
+          "label": "Acrocyanosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001252",
+          "label": "Hypotonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001257",
+          "label": "Spasticity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001508",
+          "label": "Failure to thrive",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001597",
+          "label": "Abnormal nail morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001626",
+          "label": "Abnormality of the cardiovascular system",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001640",
+          "label": "Cardiomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001999",
+          "label": "Abnormal facial shape",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002510",
+          "label": "Spastic tetraplegia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002808",
+          "label": "Kyphosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003199",
+          "label": "Decreased muscle mass",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0005264",
+          "label": "Abnormality of the gallbladder",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0005595",
+          "label": "Generalized hyperkeratosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0007256",
+          "label": "Abnormal pyramidal sign",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007957",
+          "label": "Corneal opacity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0008155",
+          "label": "Mucopolysacchariduria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0008430",
+          "label": "Anterior beaking of lumbar vertebrae",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010864",
+          "label": "Intellectual disability, severe",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0011220",
+          "label": "Prominent forehead",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0011276",
+          "label": "Vascular skin abnormality",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0100578",
+          "label": "Lipoatrophy",
+          "frequency": "Very frequent (99-80%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "FUCA1",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Childhood",
+        "Infancy"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-25",
+      "orpha_code": 93,
+      "original_label": "Aspartylglucosaminuria",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000212",
+          "label": "Gingival overgrowth",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000303",
+          "label": "Mandibular prognathia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000316",
+          "label": "Hypertelorism",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000431",
+          "label": "Wide nasal bridge",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000750",
+          "label": "Delayed speech and language development",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001249",
+          "label": "Intellectual disability",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001537",
+          "label": "Umbilical hernia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001999",
+          "label": "Abnormal facial shape",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002167",
+          "label": "Abnormality of speech or vocalization",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002650",
+          "label": "Scoliosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003196",
+          "label": "Short nose",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0004337",
+          "label": "Abnormality of amino acid metabolism",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0008551",
+          "label": "Microtia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012068",
+          "label": "Aspartylglucosaminuria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012471",
+          "label": "Thick vermilion border",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0100660",
+          "label": "Dyskinesia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0100729",
+          "label": "Large face",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000053",
+          "label": "Macroorchidism",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000158",
+          "label": "Macroglossia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000164",
+          "label": "Abnormality of the dentition",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000280",
+          "label": "Coarse facial features",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000670",
+          "label": "Carious teeth",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000768",
+          "label": "Pectus carinatum",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002684",
+          "label": "Thickened calvaria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003103",
+          "label": "Abnormal cortical bone morphology",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0008430",
+          "label": "Anterior beaking of lumbar vertebrae",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0040071",
+          "label": "Abnormal morphology of ulna",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000023",
+          "label": "Inguinal hernia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000389",
+          "label": "Chronic otitis media",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000708",
+          "label": "Atypical behavior",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001369",
+          "label": "Arthritis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001387",
+          "label": "Joint stiffness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001763",
+          "label": "Pes planus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002024",
+          "label": "Malabsorption",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002205",
+          "label": "Recurrent respiratory infections",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002360",
+          "label": "Sleep abnormality",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002750",
+          "label": "Delayed skeletal maturation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003468",
+          "label": "Abnormal vertebral morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004568",
+          "label": "Beaking of vertebral bodies",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011276",
+          "label": "Vascular skin abnormality",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "AGA",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Childhood"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-28",
+      "orpha_code": 275761,
+      "original_label": "Lysosomal acid lipase deficiency",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0002902",
+          "label": "Hyponatremia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002910",
+          "label": "Elevated circulating hepatic transaminase concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003124",
+          "label": "Hypercholesterolemia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001824",
+          "label": "Weight loss",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003155",
+          "label": "Elevated circulating alkaline phosphatase concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003270",
+          "label": "Abdominal distention",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012605",
+          "label": "Hypernatriuria",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004326",
+          "label": "Cachexia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004333",
+          "label": "Bone-marrow foam cells",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004395",
+          "label": "Malnutrition",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004416",
+          "label": "Precocious atherosclerosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001903",
+          "label": "Anemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001922",
+          "label": "Vacuolated lymphocytes",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001941",
+          "label": "Acidosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001944",
+          "label": "Dehydration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001971",
+          "label": "Hypersplenism",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002013",
+          "label": "Vomiting",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002014",
+          "label": "Diarrhea",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002017",
+          "label": "Nausea and vomiting",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002027",
+          "label": "Abdominal pain",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002040",
+          "label": "Esophageal varix",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002092",
+          "label": "Pulmonary arterial hypertension",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002153",
+          "label": "Hyperkalemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002155",
+          "label": "Hypertriglyceridemia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002361",
+          "label": "Psychomotor deterioration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002570",
+          "label": "Steatorrhea",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002615",
+          "label": "Hypotension",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0010512",
+          "label": "Adrenal calcification",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0011106",
+          "label": "Hypovolemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011968",
+          "label": "Feeding difficulties",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012598",
+          "label": "Abnormal urine potassium concentration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100543",
+          "label": "Cognitive impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0006583",
+          "label": "Fatal liver failure in infancy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001297",
+          "label": "Stroke",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0008207",
+          "label": "Primary adrenal insufficiency",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000952",
+          "label": "Jaundice",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000989",
+          "label": "Pruritus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000991",
+          "label": "Xanthomatosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001114",
+          "label": "Xanthelasma",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000127",
+          "label": "Renal salt wasting",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001395",
+          "label": "Hepatic fibrosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001399",
+          "label": "Hepatic failure",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001410",
+          "label": "Decreased liver function",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001414",
+          "label": "Microvesicular hepatic steatosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001433",
+          "label": "Hepatosplenomegaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001508",
+          "label": "Failure to thrive",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001541",
+          "label": "Ascites",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001677",
+          "label": "Coronaryartery atherosclerosis",
+          "frequency": "Frequent (79-30%)"
+        }
+      ],
+      "gene_associations": [],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Adolescent",
+        "Adult",
+        "Childhood",
+        "Infancy",
+        "Neonatal"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-29",
+      "orpha_code": 34587,
+      "original_label": "Danon disease",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0007663",
+          "label": "Reduced visual acuity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0009073",
+          "label": "Progressive proximal muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012735",
+          "label": "Cough",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0030828",
+          "label": "Wheezing",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0100749",
+          "label": "Chest pain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000488",
+          "label": "Retinopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000613",
+          "label": "Photophobia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000662",
+          "label": "Nyctalopia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000708",
+          "label": "Atypical behavior",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000716",
+          "label": "Depression",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000739",
+          "label": "Anxiety",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001270",
+          "label": "Motor delay",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007018",
+          "label": "Attention deficit hyperactivity disorder",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001310",
+          "label": "Dysmetria",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001644",
+          "label": "Dilated cardiomyopathy",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0003756",
+          "label": "Skeletal myopathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001328",
+          "label": "Specific learning disability",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001716",
+          "label": "Wolff-Parkinson-White syndrome",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002094",
+          "label": "Dyspnea",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002910",
+          "label": "Elevated circulating hepatic transaminase concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003236",
+          "label": "Elevated circulating creatine kinase concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001279",
+          "label": "Syncope",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001639",
+          "label": "Hypertrophic cardiomyopathy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001962",
+          "label": "Palpitations",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0006543",
+          "label": "Cardiorespiratory arrest",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010547",
+          "label": "Muscle flaccidity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000545",
+          "label": "Myopia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000622",
+          "label": "Blurred vision",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001249",
+          "label": "Intellectual disability",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "LAMP2",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "X-linked dominant"
+      ],
+      "onset_terms": [
+        "Childhood"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-3",
+      "orpha_code": 646,
+      "original_label": "Niemann-Pick disease type C",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000511",
+          "label": "Vertical supranuclear gaze palsy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000708",
+          "label": "Atypical behavior",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000952",
+          "label": "Jaundice",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001268",
+          "label": "Mental deterioration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001392",
+          "label": "Abnormality of the liver",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002015",
+          "label": "Dysphagia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002344",
+          "label": "Progressive neurologic deterioration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003349",
+          "label": "Low cholesterol esterification rate",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000365",
+          "label": "Hearing impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001260",
+          "label": "Dysarthria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001332",
+          "label": "Dystonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001618",
+          "label": "Dysphonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002167",
+          "label": "Abnormality of speech or vocalization",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002451",
+          "label": "Limb dystonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002530",
+          "label": "Axial dystonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003651",
+          "label": "Foam cells",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0004333",
+          "label": "Bone-marrow foam cells",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0007240",
+          "label": "Progressive gait ataxia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0010318",
+          "label": "Aplasia/Hypoplasia of the abdominal wall musculature",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0011446",
+          "label": "Abnormality of higher mental function",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0011968",
+          "label": "Feeding difficulties",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0100022",
+          "label": "Abnormality of movement",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0100543",
+          "label": "Cognitive impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000709",
+          "label": "Psychosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000716",
+          "label": "Depression",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000718",
+          "label": "Aggressive behavior",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000722",
+          "label": "Compulsive behaviors",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000726",
+          "label": "Dementia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000734",
+          "label": "Disinhibition",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000741",
+          "label": "Apathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000744",
+          "label": "Low frustration tolerance",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000750",
+          "label": "Delayed speech and language development",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001249",
+          "label": "Intellectual disability",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001252",
+          "label": "Hypotonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001328",
+          "label": "Specific learning disability",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001336",
+          "label": "Myoclonus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001337",
+          "label": "Tremor",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001433",
+          "label": "Hepatosplenomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002059",
+          "label": "Cerebral atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002061",
+          "label": "Lower limb spasticity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002072",
+          "label": "Chorea",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002079",
+          "label": "Hypoplasia of the corpus callosum",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002080",
+          "label": "Intention tremor",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002197",
+          "label": "Generalized-onset seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002312",
+          "label": "Clumsiness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002359",
+          "label": "Frequent falls",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002360",
+          "label": "Sleep abnormality",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002367",
+          "label": "Visual hallucinations",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002376",
+          "label": "Developmental regression",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002415",
+          "label": "Leukodystrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002493",
+          "label": "Upper motor neuron dysfunction",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002524",
+          "label": "Cataplexy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0006855",
+          "label": "Cerebellar vermis atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007256",
+          "label": "Abnormal pyramidal sign",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007359",
+          "label": "Focal-onset seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0008765",
+          "label": "Auditory hallucinations",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011098",
+          "label": "Speech apraxia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011369",
+          "label": "Mongolian blue spot",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011400",
+          "label": "Abnormal CNS myelination",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011471",
+          "label": "Gastrostomy tube feeding in infancy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012433",
+          "label": "Abnormal social behavior",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0030050",
+          "label": "Narcolepsy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100753",
+          "label": "Schizophrenia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001399",
+          "label": "Hepatic failure",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001541",
+          "label": "Ascites",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001789",
+          "label": "Hydrops fetalis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001791",
+          "label": "Fetal ascites",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002088",
+          "label": "Abnormal lung morphology",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002093",
+          "label": "Respiratory insufficiency",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002113",
+          "label": "Pulmonary infiltrates",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002133",
+          "label": "Status epilepticus",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002878",
+          "label": "Respiratory failure",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0006913",
+          "label": "Frontal cortical atrophy",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0007108",
+          "label": "Demyelinating peripheral neuropathy",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0007302",
+          "label": "Bipolar affective disorder",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0011951",
+          "label": "Aspiration pneumonia",
+          "frequency": "Very rare (<4-1%)"
+        }
+      ],
+      "gene_associations": [],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "All ages"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-30",
+      "orpha_code": 834,
+      "original_label": "Free sialic acid storage disease",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000093",
+          "label": "Proteinuria",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000100",
+          "label": "Nephrotic syndrome",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000639",
+          "label": "Nystagmus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000657",
+          "label": "Oculomotor apraxia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001000",
+          "label": "Abnormality of skin pigmentation",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001249",
+          "label": "Intellectual disability",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001252",
+          "label": "Hypotonia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001257",
+          "label": "Spasticity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001260",
+          "label": "Dysarthria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001531",
+          "label": "Failure to thrive in infancy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001541",
+          "label": "Ascites",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001760",
+          "label": "Abnormal foot morphology",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001789",
+          "label": "Hydrops fetalis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001999",
+          "label": "Abnormal facial shape",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002167",
+          "label": "Abnormality of speech or vocalization",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002205",
+          "label": "Recurrent respiratory infections",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002305",
+          "label": "Athetosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002652",
+          "label": "Skeletal dysplasia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002817",
+          "label": "Abnormality of the upper limb",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0004349",
+          "label": "Reduced bone mineral density",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0007256",
+          "label": "Abnormal pyramidal sign",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0007730",
+          "label": "Iris hypopigmentation",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0010318",
+          "label": "Aplasia/Hypoplasia of the abdominal wall musculature",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0200042",
+          "label": "Skin ulcer",
+          "frequency": "Frequent (79-30%)"
+        }
+      ],
+      "gene_associations": [],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Antenatal",
+        "Infancy",
+        "Neonatal"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-33",
+      "orpha_code": 213,
+      "original_label": "Cystinosis",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0007957",
+          "label": "Corneal opacity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0009806",
+          "label": "Nephrogenic diabetes insipidus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012378",
+          "label": "Fatigue",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0100651",
+          "label": "Type I diabetes mellitus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000083",
+          "label": "Renal insufficiency",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000121",
+          "label": "Nephrocalcinosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000135",
+          "label": "Hypogonadism",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000488",
+          "label": "Retinopathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000585",
+          "label": "Band keratopathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000787",
+          "label": "Nephrolithiasis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001510",
+          "label": "Growth delay",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001942",
+          "label": "Metabolic acidosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002748",
+          "label": "Rickets",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002749",
+          "label": "Osteomalacia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002901",
+          "label": "Hypocalcemia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003076",
+          "label": "Glycosuria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003109",
+          "label": "Hyperphosphaturia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003155",
+          "label": "Elevated circulating alkaline phosphatase concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003458",
+          "label": "EMG: myopathic abnormalities",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0011968",
+          "label": "Feeding difficulties",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012072",
+          "label": "Aciduria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000027",
+          "label": "Azoospermia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000093",
+          "label": "Proteinuria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000112",
+          "label": "Nephropathy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000124",
+          "label": "Renal tubular dysfunction",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000613",
+          "label": "Photophobia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000821",
+          "label": "Hypothyroidism",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000823",
+          "label": "Delayed puberty",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001508",
+          "label": "Failure to thrive",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001944",
+          "label": "Dehydration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001959",
+          "label": "Polydipsia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001994",
+          "label": "Renal Fanconi syndrome",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002013",
+          "label": "Vomiting",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002148",
+          "label": "Hypophosphatemia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002900",
+          "label": "Hypokalemia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003198",
+          "label": "Myopathy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003355",
+          "label": "Aminoaciduria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0004322",
+          "label": "Short stature",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000505",
+          "label": "Visual impairment",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001252",
+          "label": "Hypotonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001256",
+          "label": "Intellectual disability, mild",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001409",
+          "label": "Portal hypertension",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001738",
+          "label": "Exocrine pancreatic insufficiency",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001945",
+          "label": "Fever",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001952",
+          "label": "Glucose intolerance",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002019",
+          "label": "Constipation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002024",
+          "label": "Malabsorption",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002381",
+          "label": "Aphasia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002902",
+          "label": "Hyponatremia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003234",
+          "label": "Decreased circulating carnitine concentration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0006824",
+          "label": "Cranial nerve paralysis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012093",
+          "label": "Abnormality of endocrine pancreas physiology",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "gene_associations": [],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Adolescent",
+        "Adult",
+        "Childhood",
+        "Infancy"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-4",
+      "orpha_code": 354,
+      "original_label": "GM1 gangliosidosis",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000951",
+          "label": "Abnormality of the skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001072",
+          "label": "Thickened skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001252",
+          "label": "Hypotonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001257",
+          "label": "Spasticity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001337",
+          "label": "Tremor",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001387",
+          "label": "Joint stiffness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001433",
+          "label": "Hepatosplenomegaly",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001508",
+          "label": "Failure to thrive",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001627",
+          "label": "Abnormal heart morphology",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002071",
+          "label": "Abnormality of extrapyramidal motor function",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002167",
+          "label": "Abnormality of speech or vocalization",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002230",
+          "label": "Generalized hirsutism",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002317",
+          "label": "Unsteady gait",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002376",
+          "label": "Developmental regression",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002500",
+          "label": "Abnormal cerebral white matter morphology",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002652",
+          "label": "Skeletal dysplasia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003307",
+          "label": "Hyperlordosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003312",
+          "label": "Abnormal form of the vertebral bodies",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0004322",
+          "label": "Short stature",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0007325",
+          "label": "Generalized dystonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0100022",
+          "label": "Abnormality of movement",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0100490",
+          "label": "Camptodactyly of finger",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0100543",
+          "label": "Cognitive impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000045",
+          "label": "Abnormality of the scrotum",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000160",
+          "label": "Narrow mouth",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000343",
+          "label": "Long philtrum",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000369",
+          "label": "Low-set ears",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000400",
+          "label": "Macrotia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000455",
+          "label": "Broad nasal tip",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000618",
+          "label": "Blindness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000648",
+          "label": "Optic atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000926",
+          "label": "Platyspondyly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000943",
+          "label": "Dysostosis multiplex",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001007",
+          "label": "Hirsutism",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000280",
+          "label": "Coarse facial features",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000457",
+          "label": "Depressed nasal ridge",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000639",
+          "label": "Nystagmus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000940",
+          "label": "Abnormal diaphysis morphology",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000944",
+          "label": "Abnormal metaphysis morphology",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001347",
+          "label": "Hyperreflexia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001824",
+          "label": "Weight loss",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002011",
+          "label": "Morphological central nervous system abnormality",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002383",
+          "label": "Infectious encephalitis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002829",
+          "label": "Arthralgia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0004345",
+          "label": "Abnormality of ganglioside metabolism",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0005930",
+          "label": "Abnormality of epiphysis morphology",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0008166",
+          "label": "Decreased beta-galactosidase activity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010318",
+          "label": "Aplasia/Hypoplasia of the abdominal wall musculature",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0100670",
+          "label": "Rough bone trabeculation",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0410263",
+          "label": "Brain imaging abnormality",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000023",
+          "label": "Inguinal hernia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000158",
+          "label": "Macroglossia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000212",
+          "label": "Gingival overgrowth",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000303",
+          "label": "Mandibular prognathia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000486",
+          "label": "Strabismus",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000924",
+          "label": "Abnormality of the skeletal system",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001290",
+          "label": "Generalized hypotonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001332",
+          "label": "Dystonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001543",
+          "label": "Gastroschisis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001622",
+          "label": "Premature birth",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001629",
+          "label": "Ventricular septal defect",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001635",
+          "label": "Congestive heart failure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001638",
+          "label": "Cardiomyopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001643",
+          "label": "Patent ductus arteriosus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001789",
+          "label": "Hydrops fetalis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002007",
+          "label": "Frontal bossing",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002015",
+          "label": "Dysphagia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002020",
+          "label": "Gastroesophageal reflux",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002205",
+          "label": "Recurrent respiratory infections",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002650",
+          "label": "Scoliosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002808",
+          "label": "Kyphosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0005280",
+          "label": "Depressed nasal bridge",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007957",
+          "label": "Corneal opacity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0008046",
+          "label": "Abnormal retinal vascular morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0009826",
+          "label": "Limb undergrowth",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0010729",
+          "label": "Cherry red spot of the macula",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011369",
+          "label": "Mongolian blue spot",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011968",
+          "label": "Feeding difficulties",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012523",
+          "label": "Oral aversion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0025190",
+          "label": "Bilateral tonic-clonic seizure with generalized onset",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0500049",
+          "label": "Retinopathy of prematurity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011471",
+          "label": "Gastrostomy tube feeding in infancy",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0011951",
+          "label": "Aspiration pneumonia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0025013",
+          "label": "Decerebrate rigidity",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0040197",
+          "label": "Encephalomalacia",
+          "frequency": "Very rare (<4-1%)"
+        }
+      ],
+      "gene_associations": [],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Childhood"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-5-2",
+      "orpha_code": 796,
+      "original_label": "Sandhoff disease",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000256",
+          "label": "Macrocephaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000293",
+          "label": "Full cheeks",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000365",
+          "label": "Hearing impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000618",
+          "label": "Blindness",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001508",
+          "label": "Failure to thrive",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001635",
+          "label": "Congestive heart failure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002205",
+          "label": "Recurrent respiratory infections",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002333",
+          "label": "Motor deterioration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002652",
+          "label": "Skeletal dysplasia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002808",
+          "label": "Kyphosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0004343",
+          "label": "Abnormal glycosphingolipid metabolism",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0007272",
+          "label": "Progressive psychomotor deterioration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010729",
+          "label": "Cherry red spot of the macula",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0100022",
+          "label": "Abnormality of movement",
+          "frequency": "Very frequent (99-80%)"
+        }
+      ],
+      "gene_associations": [],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Adolescent",
+        "Adult",
+        "Childhood",
+        "Infancy"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-6",
+      "orpha_code": 487,
+      "original_label": "Krabbe disease",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000365",
+          "label": "Hearing impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000407",
+          "label": "Sensorineural hearing impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000505",
+          "label": "Visual impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000708",
+          "label": "Atypical behavior",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000763",
+          "label": "Sensory neuropathy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001172",
+          "label": "Abnormal thumb morphology",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001257",
+          "label": "Spasticity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001939",
+          "label": "Abnormality of metabolism/homeostasis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002676",
+          "label": "Cloverleaf skull",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003457",
+          "label": "EMG abnormality",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0009830",
+          "label": "Peripheral neuropathy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0010318",
+          "label": "Aplasia/Hypoplasia of the abdominal wall musculature",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0011968",
+          "label": "Feeding difficulties",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0034322",
+          "label": "Reduced galactocerebrosidase activity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000737",
+          "label": "Irritability",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001508",
+          "label": "Failure to thrive",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001945",
+          "label": "Fever",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002013",
+          "label": "Vomiting",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002123",
+          "label": "Generalized myoclonic seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002205",
+          "label": "Recurrent respiratory infections",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002313",
+          "label": "Spastic paraparesis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002376",
+          "label": "Developmental regression",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003134",
+          "label": "Abnormality of peripheral nerve conduction",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0004374",
+          "label": "Hemiplegia/hemiparesis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0033031",
+          "label": "Hyperpyrexia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000020",
+          "label": "Urinary incontinence",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000618",
+          "label": "Blindness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000648",
+          "label": "Optic atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001188",
+          "label": "Hand clenching",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001265",
+          "label": "Hyporeflexia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001336",
+          "label": "Myoclonus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001761",
+          "label": "Pes cavus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001824",
+          "label": "Weight loss",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002179",
+          "label": "Opisthotonus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002312",
+          "label": "Clumsiness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002359",
+          "label": "Frequent falls",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002421",
+          "label": "Poor head control",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002445",
+          "label": "Tetraplegia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002878",
+          "label": "Respiratory failure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002922",
+          "label": "Increased CSF protein concentration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0025013",
+          "label": "Decerebrate rigidity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0030211",
+          "label": "Slow pupillary light response",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100639",
+          "label": "Erectile dysfunction",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100963",
+          "label": "Hyperesthesia",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "gene_associations": [],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Adolescent",
+        "Adult",
+        "Childhood",
+        "Infancy",
+        "Neonatal"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-7",
+      "orpha_code": 512,
+      "original_label": "Metachromatic leukodystrophy",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0006970",
+          "label": "Periventricular leukomalacia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012379",
+          "label": "Abnormal enzyme/coenzyme activity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000365",
+          "label": "Hearing impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000505",
+          "label": "Visual impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000649",
+          "label": "Abnormality of visual evoked potentials",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000762",
+          "label": "Decreased nerve conduction velocity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001265",
+          "label": "Hyporeflexia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002191",
+          "label": "Progressive spasticity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002359",
+          "label": "Frequent falls",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002376",
+          "label": "Developmental regression",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002922",
+          "label": "Increased CSF protein concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003394",
+          "label": "Muscle spasm",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0008947",
+          "label": "Floppy infant",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0009830",
+          "label": "Peripheral neuropathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0030890",
+          "label": "Hyperintensity of cerebral white matter on MRI",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000020",
+          "label": "Urinary incontinence",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000708",
+          "label": "Atypical behavior",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000709",
+          "label": "Psychosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000712",
+          "label": "Emotional lability",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000726",
+          "label": "Dementia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000751",
+          "label": "Personality changes",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001260",
+          "label": "Dysarthria",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001332",
+          "label": "Dystonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001337",
+          "label": "Tremor",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002311",
+          "label": "Incoordination",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002607",
+          "label": "Bowel incontinence",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0009763",
+          "label": "Limb pain",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011471",
+          "label": "Gastrostomy tube feeding in infancy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011968",
+          "label": "Feeding difficulties",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012531",
+          "label": "Pain",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0030051",
+          "label": "Tip-toe gait",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0030858",
+          "label": "Addictive behavior",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0031064",
+          "label": "Impaired continence",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100753",
+          "label": "Schizophrenia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002246",
+          "label": "Abnormality of the duodenum",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002576",
+          "label": "Intussusception",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002577",
+          "label": "Abnormal stomach morphology",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0012437",
+          "label": "Abnormal gallbladder morphology",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0025013",
+          "label": "Decerebrate rigidity",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0100575",
+          "label": "Neoplasm of the gallbladder",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0100762",
+          "label": "Hemobilia",
+          "frequency": "Very rare (<4-1%)"
+        }
+      ],
+      "gene_associations": [],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Adolescent",
+        "Adult",
+        "Childhood",
+        "Infancy"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-19-9",
+      "orpha_code": 333,
+      "original_label": "Farber disease",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0003019",
+          "label": "Abnormality of the wrist",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003202",
+          "label": "Skeletal muscle atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004322",
+          "label": "Short stature",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0005483",
+          "label": "Abnormal epiglottis morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0006511",
+          "label": "Laryngeal stridor",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007957",
+          "label": "Corneal opacity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0009811",
+          "label": "Abnormality of the elbow",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011968",
+          "label": "Feeding difficulties",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012444",
+          "label": "Brain atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0025392",
+          "label": "Nodular pattern on pulmonary HRCT",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0025405",
+          "label": "Visual fixation instability",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0025423",
+          "label": "Abnormal larynx morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100750",
+          "label": "Atelectasis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000639",
+          "label": "Nystagmus",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001395",
+          "label": "Hepatic fibrosis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001399",
+          "label": "Hepatic failure",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001541",
+          "label": "Ascites",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001686",
+          "label": "Loss of voice",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001789",
+          "label": "Hydrops fetalis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001831",
+          "label": "Short toe",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001873",
+          "label": "Thrombocytopenia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001903",
+          "label": "Anemia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001999",
+          "label": "Abnormal facial shape",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002028",
+          "label": "Chronic diarrhea",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002385",
+          "label": "Paraparesis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002716",
+          "label": "Lymphadenopathy",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002910",
+          "label": "Elevated circulating hepatic transaminase concentration",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0006575",
+          "label": "Intrahepatic cholestasis with episodic jaundice",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0007759",
+          "label": "Opacification of the corneal stroma",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0009381",
+          "label": "Short finger",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0012469",
+          "label": "Infantile spasms",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001369",
+          "label": "Arthritis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001371",
+          "label": "Flexion contracture",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001386",
+          "label": "Joint swelling",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001609",
+          "label": "Hoarse voice",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0007470",
+          "label": "Periarticular subcutaneous nodules",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012379",
+          "label": "Abnormal enzyme/coenzyme activity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000707",
+          "label": "Abnormality of the nervous system",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000708",
+          "label": "Atypical behavior",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001249",
+          "label": "Intellectual disability",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001508",
+          "label": "Failure to thrive",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001615",
+          "label": "Hoarse cry",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002086",
+          "label": "Abnormality of the respiratory system",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002829",
+          "label": "Arthralgia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003444",
+          "label": "EMG: chronic denervation signs",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003640",
+          "label": "Foam cells in visceral organs and CNS",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0008947",
+          "label": "Floppy infant",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0010729",
+          "label": "Cherry red spot of the macula",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0011842",
+          "label": "Abnormality of skeletal morphology",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000502",
+          "label": "Abnormal conjunctiva morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000608",
+          "label": "Macular degeneration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000766",
+          "label": "Abnormal sternum morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000939",
+          "label": "Osteoporosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001155",
+          "label": "Abnormality of the hand",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001257",
+          "label": "Spasticity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001336",
+          "label": "Myoclonus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001433",
+          "label": "Hepatosplenomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001612",
+          "label": "Weak cry",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001618",
+          "label": "Dysphonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001760",
+          "label": "Abnormal foot morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001954",
+          "label": "Recurrent fever",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002093",
+          "label": "Respiratory insufficiency",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002098",
+          "label": "Respiratory distress",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002207",
+          "label": "Diffuse reticular or finely nodular infiltrations",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002300",
+          "label": "Mutism",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002376",
+          "label": "Developmental regression",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002788",
+          "label": "Recurrent upper respiratory tract infections",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002815",
+          "label": "Abnormality of the knee",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "ASAH1",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Autosomal recessive"
+      ],
+      "onset_terms": [
+        "Antenatal",
+        "Childhood",
+        "Infancy",
+        "Neonatal"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-21-2",
+      "orpha_code": 506,
+      "original_label": "Leigh syndrome",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0001629",
+          "label": "Ventricular septal defect",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001875",
+          "label": "Decreased total neutrophil count",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001947",
+          "label": "Renal tubular acidosis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001999",
+          "label": "Abnormal facial shape",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002133",
+          "label": "Status epilepticus",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002579",
+          "label": "Gastrointestinal dysmotility",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0008314",
+          "label": "Decreased activity of mitochondrial complex II",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0011335",
+          "label": "Frontal hirsutism",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0012469",
+          "label": "Infantile spasms",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0040197",
+          "label": "Encephalomalacia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0100660",
+          "label": "Dyskinesia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0002151",
+          "label": "Increased circulating lactate concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002490",
+          "label": "Increased CSF lactate",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003128",
+          "label": "Lactic acidosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003648",
+          "label": "Lacticaciduria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0008947",
+          "label": "Floppy infant",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012379",
+          "label": "Abnormal enzyme/coenzyme activity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0100022",
+          "label": "Abnormality of movement",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000407",
+          "label": "Sensorineural hearing impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000587",
+          "label": "Abnormal optic nerve morphology",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000602",
+          "label": "Ophthalmoplegia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000648",
+          "label": "Optic atrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000998",
+          "label": "Hypertrichosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001508",
+          "label": "Failure to thrive",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001510",
+          "label": "Growth delay",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001639",
+          "label": "Hypertrophic cardiomyopathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002171",
+          "label": "Gliosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002344",
+          "label": "Progressive neurologic deterioration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002376",
+          "label": "Developmental regression",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002415",
+          "label": "Leukodystrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002493",
+          "label": "Upper motor neuron dysfunction",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002928",
+          "label": "Decreased activity of the pyruvate dehydrogenase complex",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0004305",
+          "label": "Involuntary movements",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0006943",
+          "label": "Diffuse spongiform leukoencephalopathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0007183",
+          "label": "Focal T2 hyperintense basal ganglia lesion",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0008336",
+          "label": "Complex organic aciduria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0008972",
+          "label": "Decreased activity of mitochondrial respiratory chain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0011923",
+          "label": "Decreased activity of mitochondrial complex I",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0011968",
+          "label": "Feeding difficulties",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012696",
+          "label": "Abnormal thalamic MRI signal intensity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012707",
+          "label": "Elevated brain lactate level by MRS",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012747",
+          "label": "Abnormal brainstem MRI signal intensity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012748",
+          "label": "Focal T2 hyperintense brainstem lesion",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0012751",
+          "label": "Abnormal basal ganglia MRI signal intensity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0031691",
+          "label": "Severe viral infection",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0100321",
+          "label": "Abnormality of the dentate nucleus",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0410263",
+          "label": "Brain imaging abnormality",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000508",
+          "label": "Ptosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000639",
+          "label": "Nystagmus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000924",
+          "label": "Abnormality of the skeletal system",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001257",
+          "label": "Spasticity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001264",
+          "label": "Spastic diplegia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001266",
+          "label": "Choreoathetosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001274",
+          "label": "Agenesis of corpus callosum",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001332",
+          "label": "Dystonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001399",
+          "label": "Hepatic failure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001635",
+          "label": "Congestive heart failure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001903",
+          "label": "Anemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001943",
+          "label": "Hypoglycemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001993",
+          "label": "Ketoacidosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002015",
+          "label": "Dysphagia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002071",
+          "label": "Abnormality of extrapyramidal motor function",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002072",
+          "label": "Chorea",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002079",
+          "label": "Hypoplasia of the corpus callosum",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002305",
+          "label": "Athetosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002460",
+          "label": "Distal muscle weakness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002487",
+          "label": "Hyperkinetic movements",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002521",
+          "label": "Hypsarrhythmia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002542",
+          "label": "Olivopontocerebellar atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002793",
+          "label": "Abnormal pattern of respiration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002828",
+          "label": "Multiple joint contractures",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002878",
+          "label": "Respiratory failure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002909",
+          "label": "Generalized aminoaciduria",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003198",
+          "label": "Myopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003202",
+          "label": "Skeletal muscle atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003219",
+          "label": "Ethylmalonic aciduria",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003348",
+          "label": "Hyperalaninemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003390",
+          "label": "Sensory axonal neuropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003535",
+          "label": "3-Methylglutaconic aciduria",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0008347",
+          "label": "Decreased activity of mitochondrial complex IV",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0009830",
+          "label": "Peripheral neuropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011924",
+          "label": "Decreased activity of mitochondrial complex III",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012120",
+          "label": "Methylmalonic aciduria",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0200147",
+          "label": "Neuronal loss in basal ganglia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0410145",
+          "label": "Decreased biotinidase activity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000100",
+          "label": "Nephrotic syndrome",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000124",
+          "label": "Renal tubular dysfunction",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000348",
+          "label": "High forehead",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000400",
+          "label": "Macrotia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000518",
+          "label": "Cataract",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000964",
+          "label": "Eczematoid dermatitis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001272",
+          "label": "Cerebellar atrophy",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001511",
+          "label": "Intrauterine growth retardation",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0001596",
+          "label": "Alopecia",
+          "frequency": "Very rare (<4-1%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "IARS2",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [],
+      "onset_terms": [
+        "All ages"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-21-3",
+      "orpha_code": 550,
+      "original_label": "MELAS",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0007067",
+          "label": "Distal peripheral sensory neuropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007141",
+          "label": "Sensorimotor neuropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007302",
+          "label": "Bipolar affective disorder",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0007327",
+          "label": "Mixed demyelinating and axonal polyneuropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0010783",
+          "label": "Erythema",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0011442",
+          "label": "Abnormality of central motor function",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012444",
+          "label": "Brain atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0012707",
+          "label": "Elevated brain lactate level by MRS",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0025268",
+          "label": "Stuttering",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0031546",
+          "label": "Cardiac conduction abnormality",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100027",
+          "label": "Recurrent pancreatitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0100651",
+          "label": "Type I diabetes mellitus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000044",
+          "label": "Hypogonadotropic hypogonadism",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000821",
+          "label": "Hypothyroidism",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000829",
+          "label": "Hypoparathyroidism",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "id": "HP:0000726",
+          "label": "Dementia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002076",
+          "label": "Migraine",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002151",
+          "label": "Increased circulating lactate concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002353",
+          "label": "EEG abnormality",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002381",
+          "label": "Aphasia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002401",
+          "label": "Stroke-like episode",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003128",
+          "label": "Lactic acidosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003200",
+          "label": "Ragged-red muscle fibers",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0008316",
+          "label": "Abnormal mitochondria in muscle tissue",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012429",
+          "label": "Aplasia/Hypoplasia of the cerebral white matter",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0012766",
+          "label": "Widened cerebral subarachnoid space",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000407",
+          "label": "Sensorineural hearing impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000572",
+          "label": "Visual loss",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000709",
+          "label": "Psychosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000716",
+          "label": "Depression",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000736",
+          "label": "Short attention span",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000739",
+          "label": "Anxiety",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000819",
+          "label": "Diabetes mellitus",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001269",
+          "label": "Hemiparesis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001298",
+          "label": "Encephalopathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001328",
+          "label": "Specific learning disability",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001336",
+          "label": "Myoclonus",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002013",
+          "label": "Vomiting",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002069",
+          "label": "Bilateral tonic-clonic seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002135",
+          "label": "Basal ganglia calcification",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002331",
+          "label": "Recurrent paroxysmal headache",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002354",
+          "label": "Memory impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002490",
+          "label": "Increased CSF lactate",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0002922",
+          "label": "Increased CSF protein concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0003198",
+          "label": "Myopathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0004322",
+          "label": "Short stature",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0007159",
+          "label": "Fluctuations in consciousness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0007359",
+          "label": "Focal-onset seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0009830",
+          "label": "Peripheral neuropathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0010794",
+          "label": "Impaired visuospatial constructive cognition",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0000093",
+          "label": "Proteinuria",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000097",
+          "label": "Focal segmental glomerulosclerosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000112",
+          "label": "Nephropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000114",
+          "label": "Proximal tubulopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000580",
+          "label": "Pigmentary retinopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000590",
+          "label": "Progressive external ophthalmoplegia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000648",
+          "label": "Optic atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000751",
+          "label": "Personality changes",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0000998",
+          "label": "Hypertrichosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001045",
+          "label": "Vitiligo",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001270",
+          "label": "Motor delay",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001274",
+          "label": "Agenesis of corpus callosum",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001345",
+          "label": "Psychotic mentation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001508",
+          "label": "Failure to thrive",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001638",
+          "label": "Cardiomyopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001639",
+          "label": "Hypertrophic cardiomyopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001644",
+          "label": "Dilated cardiomyopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001716",
+          "label": "Wolff-Parkinson-White syndrome",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001903",
+          "label": "Anemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0001945",
+          "label": "Fever",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002014",
+          "label": "Diarrhea",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002019",
+          "label": "Constipation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002079",
+          "label": "Hypoplasia of the corpus callosum",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002092",
+          "label": "Pulmonary arterial hypertension",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002120",
+          "label": "Cerebral cortical atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0002579",
+          "label": "Gastrointestinal dysmotility",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003477",
+          "label": "Peripheral axonal neuropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0003546",
+          "label": "Exercise intolerance",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004372",
+          "label": "Reduced consciousness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0004389",
+          "label": "Intestinal pseudo-obstruction",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0005157",
+          "label": "Concentric hypertrophic cardiomyopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "id": "HP:0005978",
+          "label": "Type II diabetes mellitus",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "MT-CO1",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-CO2",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-ND1",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-ND4",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-ND5",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-ND6",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-TL1",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-TW",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-TS1",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-TF",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [],
+      "onset_terms": [
+        "Adolescent",
+        "Adult",
+        "Childhood"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    },
+    {
+      "disease_id": "nando-21-4",
+      "orpha_code": 551,
+      "original_label": "MERRF",
+      "match_method": "exact_preferred_label_unique",
+      "review_status": "unreviewed",
+      "hpo_annotations": [
+        {
+          "id": "HP:0000407",
+          "label": "Sensorineural hearing impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0000648",
+          "label": "Optic atrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001012",
+          "label": "Multiple lipomas",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0002123",
+          "label": "Generalized myoclonic seizure",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003198",
+          "label": "Myopathy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003200",
+          "label": "Ragged-red muscle fibers",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0003457",
+          "label": "EMG abnormality",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0004322",
+          "label": "Short stature",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "id": "HP:0100022",
+          "label": "Abnormality of movement",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "id": "HP:0100543",
+          "label": "Cognitive impairment",
+          "frequency": "Frequent (79-30%)"
+        }
+      ],
+      "gene_associations": [
+        {
+          "symbol": "MT-ND5",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-TL1",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-TK",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-TH",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-TS1",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-TF",
+          "association": "Disease-causing germline mutation(s) in"
+        },
+        {
+          "symbol": "MT-TP",
+          "association": "Disease-causing germline mutation(s) in"
+        }
+      ],
+      "inheritance_terms": [
+        "Mitochondrial inheritance"
+      ],
+      "onset_terms": [
+        "Adult",
+        "Childhood"
+      ],
+      "source_commit": "7a631b4369d8ee85695edf5c099d256a3461665d",
+      "source_license": "CC BY 4.0, Orphanet/INSERM"
+    }
+  ]
+}
