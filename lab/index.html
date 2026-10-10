@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+ <meta name="theme-color" content="#080e20">
+ <meta name="robots" content="noindex,nofollow">
+ <title>立体星図の試作 | 見えない病気の星図</title>
+ <link rel="stylesheet" href="./lab.css?v=1">
+ <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+ <script defer src="../config.js"></script>
+ <script type="module" src="./scene.js?v=1"></script>
+</head>
+<body>
+<header class="topbar">
+ <a class="back" href="../admin/">← 星図へ戻る</a>
+ <span class="lab-badge">3D PROTOTYPE</span>
+</header>
+<main>
+ <div class="intro">
+  <h1>まだ見えない星も、<br><em>ここにある。</em></h1>
+  <p>病気のつながりを、立体的な星図へ。</p>
+ </div>
+ <section aria-label="回転できる3D星図" class="universe-wrap">
+  <div class="universe" id="universe">
+   <div id="space-message" role="status" aria-live="polite">立体星図を準備しています…</div>
+   <div class="scene-guide">ドラッグで回転 ・ ピンチで拡大</div>
+  </div>
+  <div class="scene-controls">
+   <button type="button" id="reset-view">全体を見る</button>
+   <button type="button" id="toggle-motion" aria-pressed="false">回転を開始</button>
+   <span class="star-counter" id="lit-count">— / — 個の星</span>
+  </div>
+ </section>
+ <section id="star-info" class="star-info" hidden aria-live="polite">
+  <span class="info-meta" id="info-group"></span>
+  <h2 id="info-name"></h2>
+  <p id="info-count"></p>
+  <div id="info-comments" class="comments"></div>
+  <a href="../admin/#participation" class="join-link">この星に想いを届ける →</a>
+ </section>
+ <p class="note">星の配置は分類情報に基づく試作です。星同士の距離が診断上の類似性を示すものではありません。</p>
+ <nav class="legend" aria-label="星の色">
+  <span><i class="key dormant"></i>まだ灯っていない星</span>
+  <span><i class="key share"></i>伝えたい光</span>
+  <span><i class="key discover"></i>知りたい光</span>
+ </nav>
+</main>
+<footer><a href="../privacy/">プライバシーポリシー</a> <span>疾患の分類：NANDO / DBCLS（CC BY 4.0）</span></footer>
+</body>
+</html>
