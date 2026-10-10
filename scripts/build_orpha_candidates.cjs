@@ -65,6 +65,27 @@ for(const disease of records){
   results.push({id:disease.id,status:'not_matched',source_name_en:english});
  }
 }
+// Verify global uniqueness too: one ORPHAcode matching multiple Japanese
+// catalog rows may indicate a true duplicate, overlapping group or stale alias.
+const mapByCode=new Map();
+for(const row of results){
+ if(row.status!=='unique_exact_candidate')continue;
+ const code=row.candidate.code;
+ if(!mapByCode.has(code))mapByCode.set(code,[]);
+ mapByCode.get(code).push(row);
+}
+for(const [code,items] of mapByCode) {
+ if(items.length<2)continue;
+ for(const item of items){
+  item.status='review_required';
+  item.reason='same_orpha_code_multiple_catalog_ids';
+  item.colliding_catalog_ids=items.map(x=>x.id).sort();
+  item.candidates=[item.candidate];
+  delete item.candidate;
+  summary.ambiguous++;
+  summary.unique_name_or_synonym--;
+ }
+}
 const release={note:'Automated exact-label/synonym candidates, NOT clinically reviewed',
  source:'https://github.com/Orphanet/orphapacket',source_type:'Orpha data snapshot',
  source_file_count:parsed,license:'CC BY 4.0',
