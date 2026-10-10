@@ -6,7 +6,10 @@
   <meta name="theme-color" content="#080e1d">
   <meta name="robots" content="noindex, nofollow">
   <meta name="description" content="みんなでつくる「見えない病気の星図」は現在公開準備中です。">
-  <title>Coming Soon | 見えない病気の星図</title>
+  <title>公開準備中 | 見えない病気の星図</title>
+  <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script defer src="./config.js"></script>
+  <script defer src="./admin/analytics.js?v=2"></script>
   <style>
     :root {
       color-scheme: dark;
@@ -142,6 +145,14 @@
         50% { box-shadow: 0 0 70px rgba(66,201,218,.22); }
       }
     }
+    /* Reduced visual effects for a quieter single-purpose landing page. */
+    .panel{background:rgba(12,21,41,.72);box-shadow:none;border:1px solid rgba(177,221,237,.1);padding:clamp(40px,8vw,78px) clamp(26px,7vw,70px)}
+    .symbol{width:56px;height:56px;font-size:38px;margin-bottom:20px;box-shadow:none}
+    h1{font-size:clamp(39px,8vw,64px);font-weight:650;letter-spacing:-.03em}
+    h2{font-size:clamp(19px,3.7vw,24px);line-height:1.65;letter-spacing:0}
+    .description{font-size:14px;line-height:1.8}
+    .project{margin-top:32px}
+    .footnote a{color:#a7c9d4;text-decoration:underline;text-underline-offset:3px}
   </style>
 </head>
 <body>
@@ -180,13 +191,13 @@
   </svg>
   <main class="panel">
     <div class="symbol" aria-hidden="true">✦</div>
-    <p class="eyebrow">A NEW CONSTELLATION IS COMING</p>
-    <h1>Coming soon<span aria-hidden="true">.</span></h1>
+
+    <h1>Coming soon.</h1>
     <div class="accent" aria-hidden="true"></div>
     <h2>まだ見えない光が、<br>ここからつながっていく。</h2>
-    <p class="description">ただいま、公開に向けて準備を進めています。<br>もうしばらくお待ちください。</p>
+    <p class="description">公開まで、もうしばらくお待ちください。</p>
     <div class="project"><strong>みんなでつくる「見えない病気の星図」</strong></div>
-    <p class="footnote">知ることから、つながりへ。</p>
+    <p class="footnote"><a href="./privacy/">利用データについて</a></p>
   </main>
 </body>
 </html>

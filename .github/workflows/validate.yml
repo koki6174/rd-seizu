@@ -19,6 +19,7 @@ jobs:
           node --check weekly/weekly.js
           node --check weekly/cumulative.js
           node --check admin/app.js
+          node --check admin/analytics.js
 
       - name: Validate content JSON
         run: |
@@ -48,4 +49,28 @@ jobs:
           mapped={v['disease_id'] for v in links}
           assert {v['id'] for v in rows}<=mapped, 'Subtype without source mapping'
           print('NANDO import snapshot / crosswalk / labels: OK')
+          PY
+
+      - name: Check exhibition page links and required controls
+        run: |
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          class Collector(HTMLParser):
+              def __init__(self):
+                  super().__init__();self.ids=set();self.references=[]
+              def handle_starttag(self,tag,attrs):
+                  a=dict(attrs)
+                  if 'id' in a: self.ids.add(a['id'])
+                  if tag in ('script','link') and a.get('src',a.get('href','')).startswith(('./','../')):
+                      self.references.append(a.get('src',a.get('href')).split('?')[0])
+          for f in ['index.html','admin/index.html','weekly/index.html','privacy/index.html']:
+              parser=Collector();parser.feed(Path(f).read_text())
+              for ref in parser.references:
+                  assert (Path(f).parent/ref).resolve().is_file(), f'{f}: missing {ref}'
+          parser=Collector();parser.feed(Path('admin/index.html').read_text())
+          for required in ['flow-modal','suggest-toggle','suggest-panel','suggest-name','suggest-send',
+                           'suggest-status','open-form','step-disease','thought-text','finish-flow']:
+              assert required in parser.ids, f'missing {required}'
+          print('Exhibition navigation and dynamic UI controls: OK')
           PY

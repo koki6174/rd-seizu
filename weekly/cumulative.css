@@ -5,3 +5,62 @@ main{max-width:1240px;padding:22px;margin:0 auto}.poster{position:relative;overf
 @media(max-width:560px){main{padding:13px}.controls{flex-wrap:wrap;gap:4px}.controls button{font-size:10px;padding:7px 10px}.poster-head{display:block}.update-date{text-align:left;display:inline-block;margin-top:20px}.poster h1{font-size:34px}.stats{grid-template-columns:1fr}.stat-box{min-height:0;padding:17px 20px}.stat-box h2{font-size:18px}.big-number strong{font-size:45px}.story-grid{grid-template-columns:1fr;gap:22px}.bottom-line{margin-top:30px}}
 @page{size:A4 landscape;margin:6mm}
 @media print{html,body{background:white!important;margin:0;padding:0}.toolbar,.under-note{display:none!important}main{padding:0;max-width:none}.poster{border-radius:0;box-shadow:none!important;width:285mm;height:198mm;min-height:0;aspect-ratio:auto;-webkit-print-color-adjust:exact;print-color-adjust:exact;background:#111730!important}.poster-body{padding:11mm 12mm 7mm}.poster h1{font-size:37px;margin:8px 0}.eyebrow{font-size:9px}.lead{font-size:11px}.update-date{padding:9px 12px}.update-date strong{font-size:15px}.line{margin:12px 0}.stats{gap:10px}.stat-box{min-height:0;padding:13px 15px}.stat-label{font-size:10px}.stat-box h2{font-size:15px;margin:5px 0 8px}.big-number strong{font-size:43px}.stat-foot{font-size:10px;margin-top:5px}.story-grid{margin-top:15px;gap:16px 28px}.story-block h3{font-size:14px;margin-bottom:6px}.story-block>p{font-size:11px}.story-block .large-copy{font-size:15px}.story-block .small-note{font-size:9px}.action-counts{margin:8px 0}.action-counts b{font-size:16px}.poster-foot p{font-size:14px}.poster-foot small{font-size:8px}.poster-foot span{font-size:9px}.decoration{font-size:10px} }
+
+/* Exhibition report v3: larger reading size, quieter editorial layout */
+.poster{background:radial-gradient(ellipse at 90% 8%,#243756,transparent 68%),#101729}
+.poster:before{opacity:.05}
+.poster-head h1{font-size:clamp(38px,4.8vw,62px);font-weight:760;letter-spacing:0}
+.lead{font-size:clamp(14px,1.5vw,19px)}
+.stat-box{background:#202d46;border:1px solid #ffffff14}
+.stat-box.accent{background:#243952}
+.stat-label{font-size:13px}
+.stat-box h2{font-size:clamp(17px,2vw,23px)}
+.stat-box .big-number strong{font-size:clamp(46px,6.2vw,79px)}
+.story-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;align-content:center}
+.story-block h3{font-size:clamp(16px,1.65vw,21px);line-height:1.5}
+.story-block .large-copy{font-size:clamp(18px,2vw,25px)}
+.story-block .small-note{font-size:13px;line-height:1.7}
+.action-counts{font-size:16px;gap:14px}
+.action-counts b{font-size:24px}
+.update-date span{font-size:13px}
+.update-date strong{font-size:clamp(18px,2vw,25px)}
+.poster-foot p{font-size:clamp(17px,1.8vw,23px)}
+.poster-foot small{font-size:11px}
+.site-legal{text-align:center;margin:0 auto 22px;font-size:12px;color:#4f6271}
+.site-legal a{color:#334c62}
+@media(max-width:850px){
+ .poster{min-height:720px;aspect-ratio:auto}
+ .story-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+ .story-block:last-child{grid-column:span 2}
+}
+@media(max-width:560px){
+ .poster{min-height:0}
+ .story-grid{grid-template-columns:1fr;gap:25px}
+ .story-block:last-child{grid-column:auto}
+ .poster-head h1{font-size:36px}
+ .stat-box .big-number strong{font-size:48px}
+ .poster-body{padding:30px 22px}
+ .stat-box{padding:19px}
+ .story-block h3{font-size:18px}
+ .story-block .large-copy{font-size:20px}
+}
+@media print{
+ .poster{background:#101729!important}
+ .poster:before{opacity:.045}
+ .poster-head h1{font-size:38px}
+ .lead{font-size:13px}
+ .stat-box{padding:16px 17px;min-height:0;background:#202d46!important}
+ .stat-box h2{font-size:18px}
+ .stat-box .big-number strong{font-size:51px}
+ .stat-label{font-size:12px}
+ .update-date span{font-size:11px}
+ .update-date strong{font-size:19px}
+ .story-grid{grid-template-columns:repeat(3,minmax(0,1fr));align-content:center;gap:24px}
+ .story-block:last-child{grid-column:auto}
+ .story-block h3{font-size:16px}
+ .story-block .large-copy{font-size:17px}
+ .story-block .small-note{font-size:10px}
+ .poster-foot p{font-size:16px}
+ .poster-foot small{font-size:9px}
+ .site-legal{display:none!important}
+}
