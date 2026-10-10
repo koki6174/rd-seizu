@@ -1,0 +1,55 @@
+name: Audit ORPHA disease granularity and hierarchy
+on:
+  push:
+    branches: [feature/clinical-umap-pca-fcm-benchmark]
+    paths:
+      - "scripts/audit_orpha_parent_hierarchy.cjs"
+      - ".github/workflows/clinical-identity-parent.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Download Orphanet source packets
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Orphanet/orphapacket.git /tmp/rd-orphapacket
+          git -C /tmp/rd-orphapacket sparse-checkout set json
+          test -f /tmp/rd-orphapacket/json/ORPHApacket_324.json
+          git clone --depth 1 https://github.com/NanbyoData/nando.git /tmp/rd-nando
+          test -f /tmp/rd-nando/data/nanbyo.json
+      - name: Verify all 133 candidate clinical concept granularities
+        run: |
+          node --check scripts/audit_orpha_parent_hierarchy.cjs
+          node scripts/audit_orpha_parent_hierarchy.cjs /tmp/rd-orphapacket/json /tmp/rd-nando/data/nanbyo.json
+          node - <<'JS'
+          const fs=require('node:fs'),assert=require('node:assert/strict');
+          const d=JSON.parse(fs.readFileSync('data/orpha_hierarchy_review_queue_v1.json','utf8'));
+          assert.equal(d.records.length,133);
+          assert.equal(d.stats.curated_overlap,11);
+          assert.equal(d.stats.auto_approved,0);
+          assert(d.records.every(x=>x.orpha_url.startsWith('https://www.orpha.net/')));
+          console.log('Source hierarchy crosscheck only: no clinical identity was auto-approved');
+          JS
+      - name: Commit private-review evidence snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/orpha_hierarchy_review_queue_v1.json
+          if ! git diff --cached --quiet; then
+            git commit -m "research: review ORPHA and NANDO disease hierarchy granularity"
+            git push origin HEAD:feature/clinical-umap-pca-fcm-benchmark
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: orpha-hierarchy-review
+          path: data/orpha_hierarchy_review_queue_v1.json
+          retention-days: 14

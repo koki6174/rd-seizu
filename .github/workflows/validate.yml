@@ -158,3 +158,30 @@ jobs:
           assert all(len(v)==1 for v in source_codes.values()), 'Cross-disease ORPHA collision'
           print('No user data; exact ORPHA candidate audit is internally consistent.')
           PY
+
+      - name: Validate UMAP comparison and ORPHA identity-review boundaries
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          def load(name): return json.loads(Path('data',name).read_text())
+          report=load('clinical_model_comparison_summary_v1.json')
+          verified=load('clinical_verified_comparison_v1.json')
+          staging=load('clinical_staged_unreviewed_comparison_v1.json')
+          identity=load('orpha_hierarchy_review_queue_v1.json')
+          assert len(verified['positions'])==17
+          assert len(staging['positions'])==133
+          assert all(r['identity_status']=='reviewed' for r in verified['positions'])
+          assert all(r['identity_status']=='unreviewed' for r in staging['positions'])
+          assert report['no_unreviewed_promoted']
+          assert report['identity_crosswalk']['staged_verified_overlap']==11
+          assert identity['stats']['total']==133
+          assert identity['stats']['pending']==122
+          assert identity['stats']['auto_approved']==0
+          assert identity['stats']['parent_name_exact']==9
+          assert identity['stats']['subtype_to_orpha_disease']==125
+          assert all(r['orpha_url'].startswith('https://www.orpha.net/en/disease/detail/')
+            for r in identity['records'])
+          assert report['evaluation']['verified']['method_metrics']['UMAP']['trustworthiness']>0.7
+          print('Reviewed 17 vs staged 133 remain disjoint in publication')
+          PY
