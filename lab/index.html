@@ -6,7 +6,7 @@
  <meta name="theme-color" content="#080e20">
  <meta name="robots" content="noindex,nofollow">
  <title>立体星図の試作 | 見えない病気の星図</title>
- <link rel="stylesheet" href="./lab.css?v=1">
+ <link rel="stylesheet" href="./lab.css?v=2">
  <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
  <script defer src="../config.js"></script>
  <script type="importmap">
@@ -15,7 +15,7 @@
    "three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
  }}
  </script>
- <script type="module" src="./scene.js?v=1"></script>
+ <script type="module" src="./scene.js?v=2"></script>
 </head>
 <body>
 <header class="topbar">
@@ -28,6 +28,11 @@
   <p>病気のつながりを、立体的な星図へ。</p>
  </div>
  <section aria-label="回転できる3D星図" class="universe-wrap">
+  <div class="mode-select" role="group" aria-label="星の配置の選択">
+   <button type="button" id="mode-taxonomy" aria-pressed="true">すべての星</button>
+   <button type="button" id="mode-clinical" aria-pressed="false" disabled>症状のつながり <small>試験中</small></button>
+  </div>
+  <p id="mode-explanation" class="mode-explanation" aria-live="polite">分類情報に基づいた1,241個の星。</p>
   <div class="universe" id="universe">
    <div id="space-message" role="status" aria-live="polite">立体星図を準備しています…</div>
    <div class="scene-guide">ドラッグで回転 ・ ピンチで拡大</div>
@@ -45,13 +50,13 @@
   <div id="info-comments" class="comments"></div>
   <a href="../admin/#participation" class="join-link">この星に想いを届ける →</a>
  </section>
- <p class="note">星の配置は分類情報に基づく試作です。星同士の距離が診断上の類似性を示すものではありません。</p>
+ <p class="note">どちらの配置も研究段階です。星同士の距離は医学的な診断や病気の重症度を表すものではありません。</p>
  <nav class="legend" aria-label="星の色">
   <span><i class="key dormant"></i>まだ灯っていない星</span>
   <span><i class="key share"></i>伝えたい光</span>
   <span><i class="key discover"></i>知りたい光</span>
  </nav>
 </main>
-<footer><a href="../privacy/">プライバシーポリシー</a> <span>疾患の分類：NANDO / DBCLS（CC BY 4.0）</span></footer>
+<footer><a href="../privacy/">プライバシーポリシー</a> <span>分類：NANDO / DBCLS　症状：Orphadata / Orphanet（CC BY 4.0）</span></footer>
 </body>
 </html>
