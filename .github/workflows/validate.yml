@@ -20,6 +20,8 @@ jobs:
           node --check weekly/cumulative.js
           node --check admin/app.js
           node --check admin/analytics.js
+          node --check lab/scene.js
+          node --check scripts/build_pilot_coords.cjs
 
       - name: Validate content JSON
         run: |
@@ -64,7 +66,7 @@ jobs:
                   if 'id' in a: self.ids.add(a['id'])
                   if tag in ('script','link') and a.get('src',a.get('href','')).startswith(('./','../')):
                       self.references.append(a.get('src',a.get('href')).split('?')[0])
-          for f in ['index.html','admin/index.html','weekly/index.html','privacy/index.html']:
+          for f in ['index.html','admin/index.html','weekly/index.html','privacy/index.html','lab/index.html']:
               parser=Collector();parser.feed(Path(f).read_text())
               for ref in parser.references:
                   assert (Path(f).parent/ref).resolve().is_file(), f'{f}: missing {ref}'
@@ -74,3 +76,28 @@ jobs:
               assert required in parser.ids, f'missing {required}'
           print('Exhibition navigation and dynamic UI controls: OK')
           PY
+
+      - name: Reproduce pilot PCA and fuzzy-cluster positions
+        run: |
+          node - <<'JS'
+          const fs=require('node:fs');
+          const assert=require('node:assert/strict');
+          const {calculate}=require('./scripts/build_pilot_coords.cjs');
+          const input=JSON.parse(fs.readFileSync('data/pilot_3d_feature_input.json','utf8')).rows;
+          const expected=JSON.parse(fs.readFileSync('data/pilot_3d_positions.json','utf8')).positions;
+          const {coordinates,variance,iterations}=calculate(input);
+          assert.equal(input.length,1241);
+          assert.equal(coordinates.length,1241);
+          let different=0;
+          for(let i=0;i<coordinates.length;i++){
+            const a=coordinates[i],b=expected[i];
+            assert.equal(a.id,b.id);
+            for(const key of ['x','y','z','fuzzy_cluster','membership_strength','coverage_kind']){
+              if(a[key]!==b[key])different++;
+            }
+          }
+          assert.equal(different,0,'Generated positions differ from versioned snapshot');
+          assert.equal(coordinates.filter(x=>x.coverage_kind==='unclassified').length,20);
+          assert(variance.every(x=>Number.isFinite(x)&&x>=0&&x<=1));
+          console.log('3D pilot PCA+FCM match:',coordinates.length,'clusters; iterations:',iterations);
+          JS
