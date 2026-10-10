@@ -10,7 +10,7 @@
   const sessionId = typeof crypto !== 'undefined' && crypto.randomUUID ? crypto.randomUUID() : null;
   const client = window.supabase && c.supabaseUrl && c.supabasePublishableKey
     ? window.supabase.createClient(c.supabaseUrl, c.supabasePublishableKey) : null;
-  let section = 'home';
+  let section = location.pathname.includes('/weekly/') ? 'weekly' : 'home';
   let activeFrom = document.visibilityState === 'visible' ? performance.now() : null;
   let modalActive = false;
   let currentRoute = null;
@@ -69,7 +69,7 @@
     },
     exitFlow() {modalActive=false;currentRoute=null;showSection('sky');}
   };
-  if(sessionId && enabled()) track('visit','home');
+  if(sessionId && enabled()) track('visit',section);
   document.addEventListener('visibilitychange',()=>{
     if(document.hidden) closeActive(true);
     else if(activeFrom===null) activeFrom=performance.now();
