@@ -154,7 +154,7 @@
     $('disease-step-title').textContent=isShare?'想いを届けたい病気は？':'新しい星に出会おう。';
     $('disease-step-description').textContent=isShare
       ?'伝えたい病気を名前から選んでください。病気との関係は質問しません。'
-      :'まだ関心が集まっていない星を優先して、ひとつ紹介します。';
+      :'まだ関心が集まっていない星を優先します。現在は病名を紹介し、詳しい情報は順次整備しています。';
     $('disease-search-wrap').hidden=!isShare;
     $('auto-disease').hidden=isShare;
     $('disease-search').value='';
