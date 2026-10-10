@@ -154,7 +154,7 @@
     $('disease-step-title').textContent=isShare?'想いを届けたい病気は？':'新しい星に出会おう。';
     $('disease-step-description').textContent=isShare
       ?'伝えたい病気を名前から選んでください。病気との関係は質問しません。'
-      :'まだ関心が集まっていない星を優先します。現在は病名を紹介し、詳しい情報は順次整備しています。';
+      :'国内の受給者証所持者数が多い50疾患と、すでに光が灯った星から紹介します。診断数や患者総数のランキングではありません。';
     $('disease-search-wrap').hidden=!isShare;
     $('auto-disease').hidden=isShare;
     $('disease-search').value='';
@@ -193,13 +193,19 @@
     }
   }
   function pickNewStar() {
-    const s=state.stars;
-    if (!s.length) { $('auto-disease-name').textContent='まだ星が登録されていません'; $('to-comment').disabled=true; return; }
-    const least=Math.min(...s.map(total));
-    let pool=s.filter(star=>total(star)===least);
-    const other=pool.filter(star=>star.id!==state.disease);
-    if(other.length) pool=other;
-    const chosen=pool[Math.floor(Math.random()*pool.length)];
+    // Weighted prevalence ranking is not guessed. The verified top-50
+    // certificate-holder pool is combined with every existing lit star.
+    // Each DISTINCT disease in this union gets one equal chance.
+    const pool=state.stars.filter(star =>
+      total(star)>0 || (Number.isInteger(star.discoveryRank) && star.discoveryRank>0));
+    if (!pool.length) {
+      $('auto-disease-name').textContent='紹介できる星がありません';
+      $('to-comment').disabled=true;
+      return;
+    }
+    const different=pool.filter(star=>star.id!==state.disease);
+    const candidates=different.length?different:pool;
+    const chosen=candidates[Math.floor(Math.random()*candidates.length)];
     state.disease=chosen.id;
     $('auto-disease-name').textContent=chosen.name;
     $('to-comment').disabled=false;
