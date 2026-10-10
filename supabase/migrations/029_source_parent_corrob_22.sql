@@ -11,14 +11,14 @@ create table if not exists public.disease_orpha_review_evidence(
  orpha_ancestor_code integer not null,
  ancestor_depth integer not null check(ancestor_depth between 1 and 3),
  review_type text not null default 'independent_taxonomy_parent_corroboration_not_clinician',
- source_commit text not null,
+ source_commit text not null default '7a631b4369d8ee85695edf5c099d256a3461665d',
  reviewed_at timestamptz not null default now()
 );
 alter table public.disease_orpha_review_evidence enable row level security;
 revoke all on public.disease_orpha_review_evidence from anon,authenticated;
 
 insert into public.disease_orpha_review_evidence
-(disease_id,orpha_code,nando_parent_en,orpha_ancestor_en,orpha_ancestor_code,ancestor_depth,source_commit)
+(disease_id,orpha_code,nando_parent_en,orpha_ancestor_en,orpha_ancestor_code,ancestor_depth)
 values
  ('nando-111-2',597,'Congenital myopathy','Congenital myopathy',97245,2),
  ('nando-111-6',2020,'Congenital myopathy','Congenital myopathy',97245,1),
