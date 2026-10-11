@@ -391,7 +391,12 @@
       area.dispatchEvent(new Event('input',{bubbles:true}));
     }));
     $('submit-entry').addEventListener('click',submit);
-    $('finish-flow').addEventListener('click',closeFlow);
+    $('finish-flow').addEventListener('click',()=>{
+      closeFlow();
+      if(document.body.dataset.starScene==='taxonomy') {
+        $('universe')?.scrollIntoView({behavior:'smooth',block:'center'});
+      }
+    });
     $('close-star')?.addEventListener('click',closeStar);
     document.addEventListener('visibilitychange',()=>{if(!document.hidden){refreshStatus();refreshSky();}});
     setInterval(()=>{
