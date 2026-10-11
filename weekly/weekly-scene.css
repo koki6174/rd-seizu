@@ -1,0 +1,36 @@
+/* Historical weekly 3D miniature: interactive on screen, static capture on A4 print. */
+.weekly-growth-block{min-width:0}
+.weekly-growth-block .large-copy{font-size:clamp(15px,1.65vw,21px)}
+.weekly-growth-block .small-note{font-size:11px}
+.weekly-space{
+ position:relative;height:clamp(125px,14vw,195px);overflow:hidden;
+ background:radial-gradient(ellipse at 52% 50%,#253e60 0%,#101c32 60%,#0b1225 100%);
+ border:1px solid #7499ae33;border-radius:13px;margin:13px 0 6px;
+}
+.weekly-space::before{position:absolute;inset:0;content:'';z-index:0;pointer-events:none;
+ background-image:radial-gradient(#d1e8f8 .6px,transparent 1.15px);
+ background-size:49px 53px;opacity:.13}
+.weekly-space canvas{position:absolute;inset:0;display:block;width:100%;height:100%;touch-action:none;cursor:grab}
+.weekly-space canvas:active{cursor:grabbing}
+.weekly-space #weekly-space-status{position:absolute;z-index:1;top:42%;left:7px;right:7px;
+ color:#c1d5e1;text-align:center;font-size:11px;pointer-events:none;margin:0}
+.weekly-space #weekly-space-status:empty{display:none}
+.weekly-space-note{font-size:11px!important;color:#a4c5d9!important;text-align:right;margin:3px 0!important}
+.weekly-space #weekly-space-print{display:none}
+@media(max-width:850px){.weekly-space{height:190px}}
+@media(max-width:560px){.weekly-space{height:255px}}
+@media print{
+ .weekly-space{height:105px;margin:6px 0 3px;border-radius:8px;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ .weekly-space canvas{display:none!important}
+ .weekly-space #weekly-space-print:not([hidden]){display:block!important;width:100%;height:100%;object-fit:cover}
+ .weekly-space #weekly-space-status{display:none!important}
+ .weekly-growth-block .large-copy{font-size:14px}
+ .weekly-growth-block .small-note{font-size:10px}
+ .weekly-space-note{font-size:9px!important}
+}
+
+.weekly-selected-info{position:absolute;z-index:3;top:9px;left:9px;right:9px;
+ color:#effaff;background:#101f33e8;border:1px solid #77a2b082;
+ border-radius:9px;padding:5px 9px;font-size:11px!important;pointer-events:none;margin:0!important}
+.weekly-selected-info[hidden]{display:none}
+@media print{.weekly-selected-info{display:none!important}}

@@ -28,14 +28,23 @@
    set('error-message','');
    if(!api){set('error-message','集計サービスに接続できません。');return;}
    try {
-     const [report,editorial] = await Promise.all([
+     const [report,editorial,historicalStars] = await Promise.all([
        api.rpc('get_cumulative_constellation',{p_week_start:mon}),
        api.from('weekly_editorial').select('featured_question,growth_note')
-         .eq('week_start',mon).eq('approved',true).maybeSingle()
+         .eq('week_start',mon).eq('approved',true).maybeSingle(),
+       api.rpc('get_weekly_constellation_stars',{p_week_start:mon})
      ]);
      if(mon!==selectedMonday) return;
      if(report.error) throw report.error;
      if(editorial.error) throw editorial.error;
+     if(historicalStars.error) throw historicalStars.error;
+     const historyRows=Array.isArray(historicalStars.data)?historicalStars.data:[];
+     // Shared with the embedded 3D renderer; only the selected week's
+     // database cutoff may illuminate stars (never today's live totals).
+     window.NENONE_WEEKLY_SNAPSHOT={weekStart:mon,stars:historyRows};
+     window.dispatchEvent(new CustomEvent('nenone:weekly-snapshot',{
+       detail:window.NENONE_WEEKLY_SNAPSHOT
+     }));
      const data=report.data||{};
      set('cumulative-total',fmt(data.total));
      set('cumulative-diseases',fmt(data.active_diseases));

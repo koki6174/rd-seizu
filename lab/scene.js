@@ -20,7 +20,7 @@ function spriteTexture(){
  c.fillStyle=gradient;c.fillRect(0,0,64,64);
  const t=new THREE.CanvasTexture(canvas);t.colorSpace=THREE.SRGBColorSpace;return t;
 }
-function createCloud(items,color,size,texture,opacity=1){
+function createCloud(items,color,size,texture,opacity=1,pickable=true){
  const geo=new THREE.BufferGeometry();
  const coords=new Float32Array(items.length*3);
  for(let i=0;i<items.length;i++){
@@ -33,6 +33,7 @@ function createCloud(items,color,size,texture,opacity=1){
   depthWrite:false,blending:THREE.AdditiveBlending});
  const cloud=new THREE.Points(geo,material);
  cloud.userData.itemIds=items.map(x=>x.id);
+ cloud.userData.pickable=pickable;
  scene.add(cloud);objects.push(cloud);
  return cloud;
 }
@@ -99,7 +100,7 @@ function initScene(initialData,mode='taxonomy'){
    points[kind].push(d);
    starData.set(d.id,d);
   }
-  createCloud(points.unlit,'#4d5c73',.29,texture,.54);
+  createCloud(points.unlit,'#4d5c73',.29,texture,.54,false);
   const colors={share:'#ffc6ad',discover:'#99e4ff',mixed:'#dcb6ff'};
   for(const type of ['share','discover','mixed']) {
    const items=points[type];
@@ -150,10 +151,11 @@ function initScene(initialData,mode='taxonomy'){
   pointer.x=(event.clientX-rect.left)/rect.width*2-1;
   pointer.y=-(event.clientY-rect.top)/rect.height*2+1;
   raycaster.setFromCamera(pointer,camera);
-  const collisions=raycaster.intersectObjects(objects,false);
+  const collisions=raycaster.intersectObjects(objects.filter(o=>o.userData.pickable),false);
   for(const item of collisions){
    const id=item.object.userData.itemIds?.[item.index];
-   if(id){lastSelection=id;showDetails(id);break;}
+   // Never reveal the identity of an unlit star through 3D interaction.
+   if(id && Number(starData.get(id)?.total)>0){lastSelection=id;showDetails(id);break;}
   }
  });
  const resize=()=>{
@@ -198,12 +200,55 @@ async function boot(){
  if(!client)throw new Error('Supabase is unavailable');
  if(typeof WebGLRenderingContext==='undefined')throw new Error('WebGL unavailable');
  const mode=document.body.dataset.starScene==='clinical'?'clinical':'taxonomy';
- // Pages are separate on purpose: the public home never fetches the
- // unpublished medical research coordinates, and clinical never fetches all
- // 1,241 taxonomy coordinates.
- const coordsRpc=mode==='clinical'?'get_clinical_pilot_positions':'get_constellation_positions';
+ let clinicalPositions=[];
+ if(mode==='clinical'){
+  const access=$('clinical-access'),login=$('clinical-login');
+  const signout=$('clinical-signout'),state=$('clinical-auth-status');
+  if(!access||!login||!state||!signout)throw new Error('Research login unavailable');
+  const {data:userResponse,error:authError}=await client.auth.getUser();
+  if(authError||!userResponse?.user){
+   // Only the registered owner can call the protected clinical RPC.
+   access.hidden=false;
+   message.textContent='開発者認証が必要です。';
+   login.addEventListener('submit',async event=>{
+    event.preventDefault();
+    const email=$('clinical-email')?.value?.trim();
+    if(!email)return;
+    const button=login.querySelector('button[type="submit"]');
+    button.disabled=true;state.textContent='認証メールを送信しています…';
+    try{
+     const {error}=await client.auth.signInWithOtp({
+      email,options:{emailRedirectTo:location.origin+location.pathname}
+     });
+     if(error)throw error;
+     state.textContent='認証メールを確認してください。閲覧には開発者アカウントの登録が必要です。';
+    }catch(error){
+     console.error('Developer sign-in unavailable',error);
+     state.textContent='認証メールを送信できません。設定を確認してください。';
+    }finally{button.disabled=false;}
+   });
+   return;
+  }
+  // A signed-in account alone is insufficient; DB checks an owner allowlist.
+  const authorized=await client.rpc('get_private_clinical_positions');
+  if(authorized.error){
+   access.hidden=false;login.hidden=true;signout.hidden=false;
+   message.textContent='研究用データの閲覧権限がありません。';
+   state.textContent='認証は済んでいますが、このアカウントには閲覧権限が登録されていません。';
+   signout.addEventListener('click',async()=>{
+    await client.auth.signOut();location.reload();
+   });
+   return;
+  }
+  clinicalPositions=Array.isArray(authorized.data)?authorized.data:[];
+ }
+ // Routes request only their own geometry. Auth was verified *before*
+ // the clinical data was requested; visitors cannot access its RPC.
  const [starsRes,coordsRes]=await Promise.all([
-  client.rpc('get_public_stars'),client.rpc(coordsRpc)
+  client.rpc('get_public_stars'),
+  mode==='clinical'?Promise.resolve({
+   data:clinicalPositions,error:null
+  }):client.rpc('get_constellation_positions')
  ]);
  if(starsRes.error)throw starsRes.error;
  if(coordsRes.error)throw coordsRes.error;
