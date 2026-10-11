@@ -18,6 +18,7 @@ jobs:
           node --check config.js
           node --check weekly/weekly.js
           node --check weekly/cumulative.js
+          node --check weekly/weekly-scene.js
           node --check admin/app.js
           node --check admin/analytics.js
           node --check scripts/stage_orpha_hpo_evidence.cjs
@@ -95,6 +96,28 @@ jobs:
           assert 'join-selected-star' in parser.ids
           assert 'NENONE_START_FOR_DISEASE' in shared
           assert 'NENONE_START_FOR_DISEASE=openFlowForSelectedStar' in Path('admin/app.js').read_text()
+          assert 'href="./clinical/"' not in Path('index.html').read_text()
+          assert 'get_weekly_constellation_stars' in Path('weekly/cumulative.js').read_text()
+          assert 'weekly-space' in Path('weekly/index.html').read_text()
+          assert 'weekly-selected-info' in Path('weekly/index.html').read_text()
+          assert 'weekly-space-print' in Path('weekly/index.html').read_text()
+          assert 'get_constellation_positions' in Path('weekly/weekly-scene.js').read_text()
+          assert 'clouds.filter(c=>c.userData.selectable)' in Path('weekly/weekly-scene.js').read_text()
+          assert 'objects.filter(o=>o.userData.pickable)' in shared
+          assert "Number(starData.get(id)?.total)>0" in shared
+          assert 'get_private_clinical_positions' in shared
+          assert 'get_clinical_pilot_positions' not in shared
+          assert 'id="clinical-access"' in research
+          assert 'noindex,nofollow' in research
+          guard=Path('supabase/migrations/044_private_clinical_preview.sql').read_text()
+          assert 'revoke all on function public.get_clinical_pilot_positions()' in guard
+          assert 'public.clinical_research_viewers' in guard
+          assert 'grant execute on function public.get_private_clinical_positions()' in guard
+          historical=Path('supabase/migrations/045_historical_weekly_3d_counts.sql').read_text()
+          assert "p_week_start::timestamp at time zone 'Asia/Tokyo'" in historical
+          assert 'e.created_at<t.dt' in historical
+          assert 'i.created_at<t.dt' in historical
+          print('Private clinical preview, lit-only hit targets and historical weekly 3D verified')
           print('Separated 1241 home / clinical research and participant controls: OK')
           PY
 
