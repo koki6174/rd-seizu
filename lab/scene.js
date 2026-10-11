@@ -200,12 +200,54 @@ async function boot(){
  if(!client)throw new Error('Supabase is unavailable');
  if(typeof WebGLRenderingContext==='undefined')throw new Error('WebGL unavailable');
  const mode=document.body.dataset.starScene==='clinical'?'clinical':'taxonomy';
- // Pages are separate on purpose: the public home never fetches the
- // unpublished medical research coordinates, and clinical never fetches all
- // 1,241 taxonomy coordinates.
- const coordsRpc=mode==='clinical'?'get_clinical_pilot_positions':'get_constellation_positions';
+ if(mode==='clinical'){
+  const access=$('clinical-access'),login=$('clinical-login');
+  const signout=$('clinical-signout'),state=$('clinical-auth-status');
+  if(!access||!login||!state||!signout)throw new Error('Research login unavailable');
+  const {data:userResponse,error:authError}=await client.auth.getUser();
+  if(authError||!userResponse?.user){
+   // Only the registered owner can call the protected clinical RPC.
+   access.hidden=false;
+   message.textContent='開発者認証が必要です。';
+   login.addEventListener('submit',async event=>{
+    event.preventDefault();
+    const email=$('clinical-email')?.value?.trim();
+    if(!email)return;
+    const button=login.querySelector('button[type="submit"]');
+    button.disabled=true;state.textContent='認証メールを送信しています…';
+    try{
+     const {error}=await client.auth.signInWithOtp({
+      email,options:{emailRedirectTo:location.origin+location.pathname}
+     });
+     if(error)throw error;
+     state.textContent='認証メールを確認してください。閲覧には開発者アカウントの登録が必要です。';
+    }catch(error){
+     console.error('Developer sign-in unavailable',error);
+     state.textContent='認証メールを送信できません。設定を確認してください。';
+    }finally{button.disabled=false;}
+   });
+   return;
+  }
+  // A signed-in account alone is insufficient; DB checks an owner allowlist.
+  const authorized=await client.rpc('get_private_clinical_positions');
+  if(authorized.error){
+   access.hidden=false;login.hidden=true;signout.hidden=false;
+   message.textContent='研究用データの閲覧権限がありません。';
+   state.textContent='認証は済んでいますが、このアカウントには閲覧権限が登録されていません。';
+   signout.addEventListener('click',async()=>{
+    await client.auth.signOut();location.reload();
+   });
+   return;
+  }
+  window.__NENONE_AUTHORIZED_CLINICAL_POSITIONS=Array.isArray(authorized.data)?authorized.data:[];
+ }
+ // Routes request only their own geometry. Auth was verified *before*
+ // the clinical data was requested; visitors cannot access its RPC.
  const [starsRes,coordsRes]=await Promise.all([
-  client.rpc('get_public_stars'),client.rpc(coordsRpc)
+  client.rpc('get_public_stars'),
+  mode==='clinical'?Promise.resolve({
+   data:window.__NENONE_AUTHORIZED_CLINICAL_POSITIONS,error:null
+  }):client.rpc('get_constellation_positions')
  ]);
  if(starsRes.error)throw starsRes.error;
  if(coordsRes.error)throw coordsRes.error;
