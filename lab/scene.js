@@ -20,7 +20,7 @@ function spriteTexture(){
  c.fillStyle=gradient;c.fillRect(0,0,64,64);
  const t=new THREE.CanvasTexture(canvas);t.colorSpace=THREE.SRGBColorSpace;return t;
 }
-function createCloud(items,color,size,texture,opacity=1){
+function createCloud(items,color,size,texture,opacity=1,selectable=true){
  const geo=new THREE.BufferGeometry();
  const coords=new Float32Array(items.length*3);
  for(let i=0;i<items.length;i++){
@@ -33,12 +33,14 @@ function createCloud(items,color,size,texture,opacity=1){
   depthWrite:false,blending:THREE.AdditiveBlending});
  const cloud=new THREE.Points(geo,material);
  cloud.userData.itemIds=items.map(x=>x.id);
+ cloud.userData.selectable=selectable;
  scene.add(cloud);objects.push(cloud);
  return cloud;
 }
 function showDetails(id,scrollToDetails=true){
  const star=starData.get(id);
- if(!star)return;
+ // Dark, never-illuminated stars remain visible but cannot reveal an identity.
+ if(!star || Number(star.total)<=0)return;
  $('star-info').hidden=false;
  const joinSelected=$('join-selected-star');
  if(joinSelected) {
@@ -99,7 +101,7 @@ function initScene(initialData,mode='taxonomy'){
    points[kind].push(d);
    starData.set(d.id,d);
   }
-  createCloud(points.unlit,'#4d5c73',.29,texture,.54);
+  createCloud(points.unlit,'#4d5c73',.29,texture,.54,false);
   const colors={share:'#ffc6ad',discover:'#99e4ff',mixed:'#dcb6ff'};
   for(const type of ['share','discover','mixed']) {
    const items=points[type];
@@ -118,7 +120,7 @@ function initScene(initialData,mode='taxonomy'){
    controls.target.set(0,0,0);
    controls.update();
   }
-  if(lastSelection && starData.has(lastSelection)) showDetails(lastSelection,false);
+  if(lastSelection && Number(starData.get(lastSelection)?.total)>0) showDetails(lastSelection,false);
   else $('star-info').hidden=true;
  }
  drawDataset(initialData,true);
@@ -152,8 +154,11 @@ function initScene(initialData,mode='taxonomy'){
   raycaster.setFromCamera(pointer,camera);
   const collisions=raycaster.intersectObjects(objects,false);
   for(const item of collisions){
+   // Other nearby dark-star sprites can overlap; ignore them entirely,
+   // rather than letting an unlit cloud intercept illuminated stars.
+   if(!item.object.userData.selectable)continue;
    const id=item.object.userData.itemIds?.[item.index];
-   if(id){lastSelection=id;showDetails(id);break;}
+   if(id && Number(starData.get(id)?.total)>0){lastSelection=id;showDetails(id);break;}
   }
  });
  const resize=()=>{
