@@ -1,0 +1,53 @@
+name: Stage full-catalog MONDO-Orphanet candidates
+on:
+  push:
+    branches: [feature/numeric-features-1241-ontology-provenance]
+    paths:
+      - scripts/stage_mondo_full_catalog.cjs
+      - .github/workflows/full-catalog-crosswalk.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download pinned MONDO mapping files
+        run: |
+          mkdir -p /tmp/mondo
+          curl -fLsS --retry 3 https://raw.githubusercontent.com/monarch-initiative/mondo/9bfccbe9217cdfa6a225058bfa6e4bd55512b432/src/ontology/mappings/mondo_hasdbxref_nando.sssom.tsv -o /tmp/mondo/nando.sssom.tsv
+          curl -fLsS --retry 3 https://raw.githubusercontent.com/monarch-initiative/mondo/9bfccbe9217cdfa6a225058bfa6e4bd55512b432/src/ontology/mappings/mondo_exactmatch_orphanet.sssom.tsv -o /tmp/mondo/orpha.sssom.tsv
+      - name: Download official ORPHA source packets
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Orphanet/orphapacket.git /tmp/rd-orphapacket
+          git -C /tmp/rd-orphapacket sparse-checkout set json
+          echo "ORPHAPACKET_COMMIT=$(git -C /tmp/rd-orphapacket rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Stage 75 new matches from official labels and evidence
+        run: |
+          node --check scripts/stage_mondo_full_catalog.cjs
+          node scripts/stage_mondo_full_catalog.cjs /tmp/mondo/nando.sssom.tsv /tmp/mondo/orpha.sssom.tsv /tmp/rd-orphapacket/json
+      - name: Verify all clinical candidates are unpublished
+        run: |
+          node - <<'JS'
+          const assert=require('node:assert/strict'),fs=require('node:fs');
+          const r=JSON.parse(fs.readFileSync('data/full_catalog_mondo_orpha_candidate_evidence_v1.json'));
+          assert.equal(r.candidates.length,75);
+          assert.equal(r.summary.rows_reviewed_automatically,0);
+          assert.equal(new Set(r.candidates.map(x=>x.orpha_code)).size,75);
+          assert(r.candidates.every(x=>x.concept_kind!=='pediatric_disease_group'));
+          assert(r.candidates.every(x=>x.clinical_identity_review==='pending_concept_granularity_review'));
+          JS
+      - name: Preserve source evidence on branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/full_catalog_mondo_orpha_candidate_evidence_v1.json
+          if ! git diff --cached --quiet; then
+            git commit -m "research: stage 75 additional ontology crosswalk candidates for manual review"
+            git push origin HEAD:feature/numeric-features-1241-ontology-provenance
+          fi
