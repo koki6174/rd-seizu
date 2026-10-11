@@ -92,6 +92,9 @@ jobs:
           assert "mode==='clinical'?'get_clinical_pilot_positions':'get_constellation_positions'" in shared
           assert "data.length!==1241" in shared
           assert 'get_public_stars' in shared
+          assert 'join-selected-star' in parser.ids
+          assert 'NENONE_START_FOR_DISEASE' in shared
+          assert 'NENONE_START_FOR_DISEASE=openFlowForSelectedStar' in Path('admin/app.js').read_text()
           print('Separated 1241 home / clinical research and participant controls: OK')
           PY
 
