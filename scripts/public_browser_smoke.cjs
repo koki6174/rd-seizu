@@ -41,7 +41,7 @@ async function main(){
   assert.equal(await page.locator('#to-comment').isEnabled(),true,
    'Next should be available before reading about a disease');
   await Promise.all([
-   page.waitForURL(/\\/disease\\/\\?id=/,{timeout:18000}),
+   page.waitForURL(url=>url.pathname.endsWith('/disease/') && url.searchParams.has('id'),{timeout:18000}),
    page.locator('#read-auto-disease').click()
   ]);
   await page.locator('#disease-content:not([hidden])').waitFor({timeout:12000});
