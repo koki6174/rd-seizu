@@ -40,6 +40,13 @@ function showDetails(id,scrollToDetails=true){
  const star=starData.get(id);
  if(!star)return;
  $('star-info').hidden=false;
+ const joinSelected=$('join-selected-star');
+ if(joinSelected) {
+  joinSelected.onclick=event=>{
+   const start=window.NENONE_START_FOR_DISEASE;
+   if(typeof start==='function' && start(id)) event.preventDefault();
+  };
+ }
  $('info-name').textContent=star.name;
  $('info-group').textContent=star.cluster==='分類未整備'?'分類情報を準備中':star.cluster;
  const total=Math.max(0,Number(star.total)||0);

@@ -361,6 +361,21 @@
     state.kind=null;state.disease=null;
     showStep('choose');$('flow-modal').showModal();
   }
+  function openFlowForSelectedStar(diseaseId) {
+    if(state.submitted || state.busy || !client || !state.token) return false;
+    const selected=state.stars.find(star=>star.id===diseaseId);
+    if(!selected)return false;
+    openFlow();
+    choosePath('share');
+    state.disease=selected.id;
+    $('disease-search').value=selected.name;
+    filterDisease(selected.name);
+    $('to-comment').disabled=false;
+    return true;
+  }
+  // Called only by the public home's 3D point-info CTA.
+  // Ordinary link navigation remains available if participation is unavailable.
+  window.NENONE_START_FOR_DISEASE=openFlowForSelectedStar;
   function bind() {
     $('open-form').addEventListener('click',openFlow);
     $('exit-flow').addEventListener('click',closeFlow);
