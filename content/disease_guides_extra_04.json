@@ -1,0 +1,555 @@
+{
+  "part": 4,
+  "records": [
+    {
+      "id": "mhlw-0121",
+      "name": "脳内鉄沈着神経変性症",
+      "overview": "脳の一部に鉄がたまることに関連して神経細胞の働きが障害される遺伝性疾患の一群です。体の動かしにくさや筋肉のこわばりなどがみられます。",
+      "dailyLife": "歩行や姿勢の保持、手足の動きに支援が必要になる場合があります。食事やコミュニケーションを支える工夫も重要です。",
+      "currentState": "遺伝子や画像の検査などで病型を調べ、運動症状への薬やリハビリなどを用います。病型により経過や対応が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0122",
+      "name": "脳表ヘモジデリン沈着症",
+      "overview": "脳や脊髄の表面に、以前の出血によって生じた鉄を含む物質が沈着し、神経に障害が起こる病気です。聴力低下やふらつきなどが現れることがあります。",
+      "dailyLife": "聞こえにくさやバランスの問題が生活に影響する場合があります。補聴器や転倒予防など、機能に合わせた支援が役立ちます。",
+      "currentState": "出血の原因が見つかれば治療を検討します。聴覚・歩行機能を確認しながら、症状を和らげる支援を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0123",
+      "name": "ＨＴＲＡ１関連脳小血管病",
+      "overview": "HTRA1遺伝子の変化によって脳の細い血管が障害され、脳の白質や小さな脳梗塞に関連する症状が起こる病気です。症状と発症時期には個人差があります。",
+      "dailyLife": "歩きにくさ、認知の変化、腰痛などが生活に影響する場合があります。運動機能と血管の健康を確認しながら、環境を整えることが大切です。",
+      "currentState": "画像検査や遺伝子検査を踏まえて診断します。脳卒中の危険因子の管理、リハビリ、症状への対応などを行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4549",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0124",
+      "name": "皮質下梗塞と白質脳症を伴う常染色体優性脳動脈症",
+      "overview": "CADASILとも呼ばれる、NOTCH3遺伝子の変化に関連した脳の細い血管の病気です。片頭痛、脳梗塞、認知機能の変化などが現れることがあります。",
+      "dailyLife": "頭痛や手足の動かしにくさ、集中しにくさなどが生活に影響する場合があります。血管の健康を保つための定期診察が大切です。",
+      "currentState": "画像や遺伝子の検査を踏まえて診断し、脳卒中の危険因子を管理します。症状に応じたリハビリや生活支援も行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0125",
+      "name": "神経軸索スフェロイド形成を伴う遺伝性びまん性白質脳症",
+      "overview": "主にCSF1R遺伝子などに関係する脳の白質の病気です。物忘れ、意欲の低下、動作の遅さ、歩行の問題などが現れる場合があります。",
+      "dailyLife": "仕事や家事の段取り、移動、意思疎通に支援が必要になることがあります。本人の意思を尊重した生活環境の調整が大切です。",
+      "currentState": "MRIや遺伝子検査などで病気を見分け、症状を和らげる治療やリハビリを行います。一部では専門施設で別の治療法を検討する場合があります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4498",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0126",
+      "name": "ペリー病",
+      "overview": "DCTN1遺伝子の変化に関係し、パーキンソン症状や意欲の低下、体重減少、呼吸の調節の異常などを伴うことがある遺伝性神経疾患です。",
+      "dailyLife": "歩くことや食事、気分の調整などに支援が必要になる場合があります。呼吸や栄養の状態を医療者と継続して確認することが大切です。",
+      "currentState": "運動症状や気分、呼吸の問題に応じた治療とケアを行います。病気の特徴を理解した専門チームによる支援が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4702",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0127",
+      "name": "前頭側頭葉変性症",
+      "overview": "脳の前頭葉や側頭葉の神経細胞が障害され、行動、性格、言葉の使い方などに変化が起こる病気の一群です。症状は病型によって異なります。",
+      "dailyLife": "会話や仕事の段取り、社会生活で支援が必要になる場合があります。本人に合うコミュニケーション方法と家族への支援が重要です。",
+      "currentState": "病型を評価し、行動や言語の症状に応じたケアを行います。日常生活や意思決定を支えるための多職種連携が大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0128",
+      "name": "ビッカースタッフ脳幹脳炎",
+      "overview": "脳幹などに免疫が関わる炎症が起こり、眼球の動かしにくさ、ふらつき、意識の変化などが現れる病気です。感染後に発症する場合があります。",
+      "dailyLife": "急性期には入院して歩行や飲み込み、呼吸の状態を見守る必要がある場合があります。回復後にもリハビリが必要になることがあります。",
+      "currentState": "免疫グロブリン療法などが病状に応じて検討されます。神経症状と全身状態を確認し、回復に向けた支援を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0129",
+      "name": "痙攣重積型（二相性）急性脳症",
+      "overview": "発熱などに伴って長いけいれんを起こした後、一度落ち着いてから再びけいれんや意識の障害が現れることがある急性脳症です。",
+      "dailyLife": "急性期には入院での治療が必要で、回復後の発達や運動・学習への影響を確認することがあります。家族への支援も重要です。",
+      "currentState": "けいれんや呼吸・循環の状態を管理し、必要に応じて集中治療を行います。回復後は神経・発達機能を長期的に評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0130",
+      "name": "先天性無痛無汗症",
+      "overview": "痛みや温度を感じる神経、汗をかく仕組みが生まれつき障害される遺伝性疾患です。けがややけどに気付きにくく、体温調節が難しいことがあります。",
+      "dailyLife": "暑い環境や運動中の体温管理、傷の確認などが日常生活で重要です。本人が痛みを感じなくても、けがや感染がないか注意が必要です。",
+      "currentState": "皮膚・骨・歯などの障害や体温を継続して管理します。安全な生活環境を整えるため、家族や学校との連携が大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0131",
+      "name": "アレキサンダー病",
+      "overview": "GFAP遺伝子の変化に関連する神経の病気です。乳幼児期から成人期まで発症する型があり、発達、歩行、飲み込みなどの症状は型によって異なります。",
+      "dailyLife": "運動や食事、コミュニケーションに支援が必要になる場合があります。年齢や症状に合わせた生活環境の調整が役立ちます。",
+      "currentState": "MRIや遺伝子検査で病気を評価し、てんかんや飲み込み、運動症状への対応を行います。病型ごとの経過に沿った支援が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4345",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0132",
+      "name": "先天性核上性球麻痺",
+      "overview": "口や舌、顔を動かす脳の神経回路の働きに、生まれつき障害がある病気です。飲み込みにくさや発音の困難などがみられる場合があります。",
+      "dailyLife": "食事や会話に時間がかかったり、むせに注意が必要になったりすることがあります。意思を伝える手段を増やす工夫が生活を支えます。",
+      "currentState": "飲み込みと発声の評価、栄養・呼吸の管理、言語・嚥下のリハビリなどを行います。本人の発達や生活に合わせた支援が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0133",
+      "name": "メビウス症候群",
+      "overview": "生まれつき顔の表情をつくる神経や眼球を動かす神経の働きに問題がある病気です。表情の動かしにくさや目の動きの制限などがみられます。",
+      "dailyLife": "表情だけでは気持ちが伝わりにくい場合がありますが、感情がないわけではありません。会話や食事、目の保護などに合った支援が役立ちます。",
+      "currentState": "目・口・顔の機能を評価し、必要に応じて手術やリハビリを検討します。コミュニケーション環境を整えることも大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0134",
+      "name": "中隔視神経形成異常症/ドモルシア症候群",
+      "overview": "脳の一部や視神経、下垂体などの発達に生まれつき特徴がある病気です。見え方の問題やホルモンの不足、発達の違いなどが現れることがあります。",
+      "dailyLife": "視覚支援やホルモン補充、発達への支援が必要になる場合があります。子どもの成長に合わせて学校や家庭の環境を整えます。",
+      "currentState": "視力・下垂体ホルモン・神経発達を確認し、必要な治療を組み合わせます。複数の診療科による長期的な評価が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0135",
+      "name": "アイカルディ症候群",
+      "overview": "主に女児にみられ、脳の発達や網膜に特徴がある先天性の病気です。乳児期からてんかん発作や発達の遅れなどがみられることがあります。",
+      "dailyLife": "発作への対応や食事、姿勢、視覚・発達面の支援などが生活の中心になる場合があります。家族と医療・福祉の協力が重要です。",
+      "currentState": "てんかんに対する治療と発達・運動・栄養の支援を行います。症状の程度や必要なケアは一人ひとり異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0136",
+      "name": "片側巨脳症",
+      "overview": "胎児期の脳の発達の違いによって、大脳の片側が大きくなり、てんかん発作や運動・発達の問題が起こる場合がある病気です。",
+      "dailyLife": "発作への備えや発達・運動の支援が必要になることがあります。本人の得意なことを伸ばしながら、学校や家庭の環境を整えることが大切です。",
+      "currentState": "脳波や画像検査で病態を評価し、抗てんかん発作薬などを使います。発作の程度によっては専門施設で手術を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0137",
+      "name": "限局性皮質異形成",
+      "overview": "大脳皮質の一部の発達に特徴があり、そこからてんかん発作が起こることがある病気です。発作の種類や運動・発達への影響は場所によって異なります。",
+      "dailyLife": "てんかん発作が日常生活や学習に影響する場合があります。安全な環境と、周囲の人が発作時の対応を理解することが大切です。",
+      "currentState": "脳波やMRIなどで発作の原因部位を調べ、薬を用います。薬で十分に抑えられない場合は手術の適応を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4458",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0138",
+      "name": "神経細胞移動異常症",
+      "overview": "胎児期に神経細胞が脳の適切な位置へ移動する過程に違いが生じ、脳の構造や機能に影響する病気の一群です。てんかんや発達の問題を伴う場合があります。",
+      "dailyLife": "発作への対応や学習、運動、コミュニケーションに支援が必要になることがあります。必要な配慮は病型と本人の状態によって異なります。",
+      "currentState": "画像検査などで病型を評価し、てんかんや運動・発達の症状に対応します。生活機能を支えるため長期的な支援を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0139",
+      "name": "先天性大脳白質形成不全症",
+      "overview": "脳の神経線維を覆う髄鞘の形成が生まれつき十分でないなど、白質に異常が起こる遺伝性疾患の一群です。筋緊張や運動、発達に影響する場合があります。",
+      "dailyLife": "歩行や姿勢、食事、意思疎通に支援が必要になる人がいます。成長に合わせた補助具やリハビリ、家族支援が重要です。",
+      "currentState": "病型と原因遺伝子などを調べ、筋緊張・栄養・呼吸への対応を行います。多職種による長期的なケアが中心です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0140",
+      "name": "ドラベ症候群",
+      "overview": "乳児期からてんかん発作が始まることが多い、発達性てんかん性脳症の一つです。SCN1A遺伝子が関係する場合があり、発熱をきっかけとする発作もあります。",
+      "dailyLife": "発熱時や日常生活での発作への備えが重要です。成長とともに学習や行動面の支援が必要になる場合があります。",
+      "currentState": "病型を確認し、適した抗てんかん発作薬や食事療法などを検討します。病型によって避ける薬もあるため専門的な診療が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0141",
+      "name": "海馬硬化を伴う内側側頭葉てんかん",
+      "overview": "脳の海馬などに構造の変化がみられ、側頭葉からてんかん発作が起こる病気です。意識の変化や独特の感覚、記憶への影響などが現れることがあります。",
+      "dailyLife": "発作の予測が難しいと外出や仕事に不安を感じる場合があります。周囲と発作時の対応を共有し、睡眠など生活のリズムを整えることが大切です。",
+      "currentState": "薬による発作の抑制を目指します。薬で発作が十分に止まらない場合は専門施設で外科的治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0142",
+      "name": "ミオクロニー欠神てんかん",
+      "overview": "短い筋肉のピクッとした動きと、意識が一時的に途切れる欠神発作が同時に起こることがあるてんかん症候群です。",
+      "dailyLife": "発作が学習や活動中に起こると、集中や安全面への配慮が必要になります。家族や学校で発作の特徴を共有することが役立ちます。",
+      "currentState": "発作の種類を脳波などで確認し、適した抗てんかん発作薬などを用います。発達や学習の状態も継続的に確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0143",
+      "name": "ミオクロニー脱力発作を伴うてんかん",
+      "overview": "筋肉が急にピクッと動く発作や、一瞬力が抜けて転倒する発作などが現れる小児期のてんかん症候群です。発達への影響は人によって異なります。",
+      "dailyLife": "急な転倒によるけがに注意が必要です。学校や遊びの場で発作への理解を得ながら、本人の活動を支える工夫が役立ちます。",
+      "currentState": "薬による発作の抑制や、状態に応じた食事療法などを検討します。発達と生活機能も含めて経過を確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0144",
+      "name": "レノックス・ガストー症候群",
+      "overview": "複数の種類のてんかん発作と特徴的な脳波の変化がみられる、発達性てんかん性脳症の一つです。発作の抑制が難しい場合があります。",
+      "dailyLife": "転倒を伴う発作や学習・発達の問題に支援が必要になることがあります。本人の安全と活動の機会を両立するため周囲の協力が大切です。",
+      "currentState": "複数の抗てんかん発作薬や食事療法、神経刺激療法などを状態に応じて検討します。発作と発達の両面を長期的に支えます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    },
+    {
+      "id": "mhlw-0145",
+      "name": "ウエスト症候群",
+      "overview": "乳児期に体を折り曲げるような短い発作を繰り返す、乳児てんかん性スパズム症候群です。特徴的な脳波異常や発達への影響を伴う場合があります。",
+      "dailyLife": "乳児の小さな動きが発作であることに気付きにくい場合があります。発作の記録や早期の相談が重要で、成長に応じた発達支援も必要です。",
+      "currentState": "ACTH療法や適した抗てんかん発作薬などを病型に応じて検討します。発作と発達の経過を継続して確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4414",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 4
+    }
+  ]
+}

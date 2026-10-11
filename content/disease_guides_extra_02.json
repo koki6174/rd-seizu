@@ -1,0 +1,555 @@
+{
+  "part": 2,
+  "records": [
+    {
+      "id": "mhlw-0038",
+      "name": "スティーヴンス・ジョンソン症候群",
+      "overview": "薬剤や感染症などをきっかけに、皮膚や口・目などの粘膜に強い炎症とただれが起こる病気です。発熱や痛みを伴い、早期の専門的な対応が必要です。",
+      "dailyLife": "皮膚や口の痛みのために食事や水分摂取が難しくなる場合があります。目の症状が長く残る人もおり、回復後も生活上の支援が必要になることがあります。",
+      "currentState": "原因となった可能性のある薬剤などを医療者が評価し、中止や全身管理を行います。皮膚・眼科などの専門家が協力して治療します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0039",
+      "name": "中毒性表皮壊死症",
+      "overview": "薬剤などに関連して、皮膚の広い範囲がはがれ、粘膜にも重い炎症が起こる病気です。全身状態が急速に悪化することがあるため緊急治療が必要です。",
+      "dailyLife": "入院中は皮膚の傷の保護や痛みへの対応、栄養・水分の管理が必要になります。回復後も目や皮膚の後遺症への支援が続く場合があります。",
+      "currentState": "疑われる原因薬剤への対応と、専門施設での皮膚・粘膜・全身の管理を行います。重症度と経過に応じて専門的な治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0041",
+      "name": "巨細胞性動脈炎",
+      "overview": "主に中高年の人の頭部や首などの太い血管に炎症が起こる病気です。新しい頭痛、頭皮の痛み、あごの疲れ、視力の変化などがみられます。",
+      "dailyLife": "頭痛や疲れやすさが生活に影響する場合があります。急に見えにくくなったときは、視力に関わるため速やかな医療機関での評価が大切です。",
+      "currentState": "血管の炎症を抑えるためステロイドや適応に応じた免疫を調節する薬を使います。視機能と血管の状態を確認しながら治療します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0042",
+      "name": "結節性多発動脈炎",
+      "overview": "中くらいの太さの動脈に炎症が起こり、皮膚、神経、腎臓、消化管などの血流に影響する病気です。発熱、痛み、しびれなどが現れる場合があります。",
+      "dailyLife": "関節や筋肉の痛み、疲れやすさで活動が難しくなる人もいます。腎機能や神経症状など、体の複数の変化を定期的に確認することが重要です。",
+      "currentState": "臓器障害の程度に応じてステロイドや免疫抑制薬などを用います。血管への影響を調べ、感染など治療に伴う問題にも注意します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0044",
+      "name": "多発血管炎性肉芽腫症",
+      "overview": "鼻・副鼻腔、肺、腎臓などの小さな血管に炎症が起こる病気です。長引く鼻の症状、咳、血尿、全身のだるさなどが現れることがあります。",
+      "dailyLife": "鼻や耳の症状だけでなく、腎臓など自覚しにくい臓器への影響もあるため、通院と検査を続けることが大切です。",
+      "currentState": "ステロイドや免疫を抑える薬、適応があれば分子標的薬などで炎症を抑えます。再燃や臓器障害の確認が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0047",
+      "name": "バージャー病",
+      "overview": "主に手足の比較的小さな血管に炎症と血栓が起こり、血流が悪くなる病気です。指先の冷え、痛み、傷が治りにくいなどの症状がみられます。",
+      "dailyLife": "手足の冷えや痛みで歩行や作業が難しくなる場合があります。禁煙は治療上とても重要で、皮膚を傷つけないケアも役立ちます。",
+      "currentState": "禁煙を基本として血流を改善する薬や傷のケアなどを行います。血流障害の程度によっては外科的な治療も検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0048",
+      "name": "原発性抗リン脂質抗体症候群",
+      "overview": "抗リン脂質抗体という自己抗体に関連して、静脈や動脈に血栓ができやすくなる病気です。妊娠に関する合併症を起こす場合もあります。",
+      "dailyLife": "血栓を防ぐための薬や通院が必要になる人がいます。妊娠を希望するときは、薬の調整や医療機関との計画的な相談が重要です。",
+      "currentState": "血栓の既往や妊娠歴などに応じて抗凝固療法などを行います。出血の危険性も踏まえて、専門医が治療方針を判断します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0055",
+      "name": "再発性多発軟骨炎",
+      "overview": "耳や鼻、気管などの軟骨に繰り返し炎症が起こる病気です。耳の赤みや痛み、関節症状、声や呼吸の変化などがみられる場合があります。",
+      "dailyLife": "耳や関節の痛みで日常の活動が負担になるほか、気道に炎症が及ぶ人では息苦しさへの注意が必要です。",
+      "currentState": "炎症の場所と程度に応じてステロイドや免疫を調節する薬を使います。気道や心臓・血管の状態を確認することが大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0059",
+      "name": "拘束型心筋症",
+      "overview": "心臓の筋肉が硬くなり、血液を十分に受け入れにくくなる病気です。息切れ、むくみ、動悸などが現れることがあります。原因や経過は人によって異なります。",
+      "dailyLife": "疲れやすさや息切れにより運動や外出の調整が必要になる場合があります。体重、むくみ、動悸などの変化を確認しながら生活します。",
+      "currentState": "原因となる別の病気を調べ、心不全や不整脈に対応する薬などを使います。状態によっては専門的な治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0061",
+      "name": "自己免疫性溶血性貧血",
+      "overview": "自分の赤血球に免疫が反応し、赤血球が壊れやすくなる病気です。貧血によるだるさや息切れ、皮膚が黄色くなる症状などが現れることがあります。",
+      "dailyLife": "疲労や動悸が強いと日常活動に影響します。寒さで症状が悪化する病型もあるため、病型に合わせた生活上の注意が必要です。",
+      "currentState": "原因と病型を調べ、ステロイドや免疫治療などを検討します。重症時には輸血などの対応が必要になることがあります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0062",
+      "name": "発作性夜間ヘモグロビン尿症",
+      "overview": "血液をつくる細胞の後天的な変化によって、赤血球が補体という免疫の仕組みで壊れやすくなる病気です。貧血や血栓などが問題になる場合があります。",
+      "dailyLife": "疲れやすさや息切れ、血尿などの変化が生活に影響することがあります。血栓や感染の症状にも注意し、長期的な検査を続けます。",
+      "currentState": "補体の働きを抑える薬などが治療の中心となる場合があります。病状に応じ輸血や造血不全への対応も検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3784",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0064",
+      "name": "血栓性血小板減少性紫斑病",
+      "overview": "血管の中で小さな血栓が多数でき、血小板が減少して臓器の働きに影響する病気です。ADAMTS13という酵素の働きの不足が関係します。",
+      "dailyLife": "急なあざや出血、強いだるさ、意識や神経の変化などが現れることがあります。発症時は速やかな専門治療が重要です。",
+      "currentState": "血漿交換や免疫治療などを急いで行う必要がある場合があります。病型と状態に応じて専門的な薬を組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0065",
+      "name": "原発性免疫不全症候群",
+      "overview": "免疫を担う細胞やたんぱく質の働きが生まれつき弱い、または異常になる疾患の一群です。感染を繰り返すほか、自己免疫や炎症が起こる型もあります。",
+      "dailyLife": "感染への注意や定期的な医療機関との相談が必要な場合があります。学校や仕事、予防接種の対応は病型によって異なります。",
+      "currentState": "病型に応じて免疫グロブリン補充、感染予防、造血幹細胞移植などを検討します。遺伝的な原因を調べることも重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0072",
+      "name": "下垂体性ADH分泌異常症",
+      "overview": "体内の水分を調節するバソプレシンというホルモンの分泌が少なすぎたり、多すぎたりする病気の総称です。多尿・強い口渇や低ナトリウム血症などが起こります。",
+      "dailyLife": "尿の量が増える型では、外出中の水分やトイレの確保が重要になります。反対に水分が体内にたまりすぎる型もあるため、自己判断で水分量を一律に変えないことが大切です。",
+      "currentState": "ホルモンの不足と過剰を区別し、必要な薬や水分・ナトリウム管理を行います。治療方法は病型によって大きく異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3988",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0073",
+      "name": "下垂体性TSH分泌亢進症",
+      "overview": "脳の下垂体から甲状腺を刺激するTSHというホルモンが過剰に分泌され、甲状腺ホルモンが増えすぎる病気です。動悸や発汗などが現れることがあります。",
+      "dailyLife": "動悸や疲れやすさ、汗の増加などが活動に影響する場合があります。甲状腺の状態を検査し、症状に合わせて生活を調整します。",
+      "currentState": "下垂体腫瘍などの原因を評価し、手術や薬物療法などを検討します。下垂体と甲状腺の両方のホルモンを確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0074",
+      "name": "下垂体性PRL分泌亢進症",
+      "overview": "下垂体からプロラクチンというホルモンが過剰に分泌される病気です。月経異常や乳汁分泌、不妊などの症状がみられ、下垂体の腫瘍が関係する場合があります。",
+      "dailyLife": "生殖に関わる悩みや、腫瘍が大きい場合の頭痛・見え方の変化などが生活に影響することがあります。医療者へ相談できる環境が大切です。",
+      "currentState": "プロラクチンの分泌を抑える薬が中心になる場合があります。腫瘍の大きさや症状に応じ、画像検査や手術を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4045",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0075",
+      "name": "クッシング病",
+      "overview": "下垂体からACTHというホルモンが過剰に分泌され、副腎でつくられるコルチゾールが増えすぎる病気です。体重や血圧、血糖などに影響することがあります。",
+      "dailyLife": "疲れやすさ、筋力低下、皮膚の変化などが生活に影響します。血圧や血糖、骨の健康を調べながら、無理のない活動を考えます。",
+      "currentState": "原因となる下垂体の病変への手術を中心に、必要に応じて薬や放射線治療を検討します。ホルモンの量を継続的に確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0076",
+      "name": "下垂体性ゴナドトロピン分泌亢進症",
+      "overview": "下垂体から性腺を刺激するホルモンが過剰に分泌されるまれな病気です。ホルモンの影響や腫瘍の大きさによって症状が異なります。",
+      "dailyLife": "月経や生殖機能の変化、頭痛、見え方の問題などが生じる場合があります。症状を一律に決めつけず、検査結果に応じて生活への影響を確認します。",
+      "currentState": "ホルモン検査と画像検査で原因を調べます。下垂体腫瘍が関与する場合は手術などの専門的な治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0079",
+      "name": "家族性高コレステロール血症（ホモ接合体）",
+      "overview": "生まれつきLDLコレステロールを血液から取り除く仕組みが強く障害され、若い時期から動脈硬化の危険性が高くなる遺伝性の病気です。",
+      "dailyLife": "症状が目立たない時期にも血管の健康を確認し、治療を続けることが重要です。家族にも同じ病気がないか検査を勧められることがあります。",
+      "currentState": "コレステロールを下げる複数の薬やLDLアフェレシスなどを組み合わせる場合があります。早期の診断と継続的な管理が大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/65",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0080",
+      "name": "甲状腺ホルモン不応症",
+      "overview": "甲状腺ホルモンを受け取る体の仕組みが働きにくくなる遺伝性の病気です。血液中のホルモンが多くても、組織での反応は病型によって異なります。",
+      "dailyLife": "動悸や集中しにくさなどが現れる人もいますが、無症状の場合もあります。血液検査の数値だけで甲状腺の働きを判断できないことがあります。",
+      "currentState": "専門医がホルモン値と症状を総合して評価します。すべての人にホルモンを下げる治療が必要なわけではありません。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0081",
+      "name": "先天性副腎皮質酵素欠損症",
+      "overview": "副腎でホルモンをつくる酵素の働きが生まれつき低下する疾患群です。必要なホルモンが不足したり、別のホルモンが過剰になったりします。",
+      "dailyLife": "病型によっては毎日の服薬や、発熱・けがの際の対応を医療者と共有する必要があります。成長や体調の確認も大切です。",
+      "currentState": "不足するホルモンの補充などを行い、病型に合わせて治療量を調整します。副腎の危機を避けるための緊急時対応が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0082",
+      "name": "先天性副腎低形成症",
+      "overview": "生まれつき副腎の発達が十分でなく、副腎皮質ホルモンが不足する病気です。新生児期や小児期に脱水、低血糖などで気付く型があります。",
+      "dailyLife": "日常の服薬管理に加え、感染や発熱時に対応が変わることがあります。家族や学校と緊急時の対応を共有しておくことが役立ちます。",
+      "currentState": "不足するホルモンを補充し、成長や性腺機能なども継続して評価します。遺伝子検査などで原因を調べる場合があります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0083",
+      "name": "アジソン病",
+      "overview": "副腎皮質の働きが低下し、体に必要なコルチゾールなどのホルモンが不足する病気です。強い疲れ、食欲低下、体重減少、皮膚の色の変化などがみられます。",
+      "dailyLife": "毎日のホルモン補充と、体調が悪いときの対応が生活の重要な部分になります。重い病気や手術の際には医療機関への連絡が必要です。",
+      "currentState": "不足する副腎皮質ホルモンを補充します。発熱や手術などストレスがかかる場面の投与調整について、医療者と計画を共有します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0087",
+      "name": "肺静脈閉塞症／肺毛細血管腫症",
+      "overview": "肺の細い静脈や毛細血管に異常が起こり、肺の血液が流れにくくなって肺高血圧を生じるまれな病気の一群です。息切れなどがみられます。",
+      "dailyLife": "動いたときの息切れや疲れやすさが生活に影響します。呼吸や酸素の状態を確認しながら、医療者と活動量を調整します。",
+      "currentState": "専門施設で原因と病型を慎重に評価します。薬の種類によっては肺水腫の危険があるため、肺高血圧症の一般的な治療をそのまま適用できません。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    },
+    {
+      "id": "mhlw-0089",
+      "name": "リンパ脈管筋腫症",
+      "overview": "主に肺などで異常な平滑筋様の細胞が増え、肺に嚢胞ができたりリンパの流れに問題が起こったりする病気です。息切れや気胸がみられることがあります。",
+      "dailyLife": "階段での息切れや繰り返す気胸などが外出や運動の負担になる場合があります。呼吸機能の定期的な確認と生活上の工夫が役立ちます。",
+      "currentState": "病状に応じてmTORの働きを抑える薬、気胸への治療、酸素療法などを検討します。肺機能の変化を継続的に調べます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 2
+    }
+  ]
+}

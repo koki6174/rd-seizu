@@ -1,0 +1,555 @@
+{
+  "part": 1,
+  "records": [
+    {
+      "id": "mhlw-0001",
+      "name": "球脊髄性筋萎縮症",
+      "overview": "X染色体上のアンドロゲン受容体遺伝子の変化に関係する神経・筋肉の病気です。成人期に手足や舌、飲み込みに使う筋肉の力が弱くなることがあります。",
+      "dailyLife": "歩行や細かな手作業、食事、発声に時間がかかる場合があります。体力や飲み込みの状態に合わせた道具と生活環境の調整が役立ちます。",
+      "currentState": "病状に応じて専門医が薬物療法やリハビリを検討します。筋力だけでなく、飲み込みや呼吸の状態を継続的に確認することが大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/73",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "sma",
+      "name": "脊髄性筋萎縮症（SMA）",
+      "overview": "運動神経細胞が障害され、体幹や手足の筋力が低下する病気の一群です。乳児期から成人期まで発症する型があり、原因と症状は病型ごとに異なります。",
+      "dailyLife": "起き上がる、移動する、食べる、呼吸するなどの動作に支援が必要になる場合があります。成長や生活環境に合わせた補助具の検討が役立ちます。",
+      "currentState": "SMN1遺伝子に関係する型では、病気の仕組みに働きかける薬や遺伝子治療があります。呼吸・栄養・リハビリなどの支援も組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/135",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0004",
+      "name": "原発性側索硬化症",
+      "overview": "脳から脊髄へ動きの指令を伝える上位運動ニューロンが障害される神経変性疾患です。手足のこわばりや歩行障害、話しにくさが徐々に現れる場合があります。",
+      "dailyLife": "筋肉のつっぱりによって、歩くことや着替えなどの動作が負担になることがあります。転倒予防や意思疎通の手段を整える支援が役立ちます。",
+      "currentState": "症状を和らげる薬とリハビリ、生活支援を行います。ほかの神経疾患との鑑別が必要であり、経過を丁寧に確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/92",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "huntington-disease",
+      "name": "ハンチントン病",
+      "overview": "遺伝子の変化によって脳の神経細胞が障害され、本人の意思によらない体の動き、行動や認知の変化などが現れることがある病気です。",
+      "dailyLife": "動きの調整や仕事の段取り、食事などで工夫が必要になる場合があります。本人の意思を尊重しながら、家族や専門職が継続して支えることが重要です。",
+      "currentState": "病気の経過を完全に止める治療は確立していませんが、不随意運動や精神症状などへの治療とリハビリ、心理社会的な支援を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0009",
+      "name": "神経有棘赤血球症",
+      "overview": "赤血球の形の変化と、不随意運動や神経症状などがみられる遺伝性疾患の一群です。原因遺伝子や症状の組み合わせは病型ごとに異なります。",
+      "dailyLife": "口や舌、手足が意図せず動き、食事や会話、歩行に影響する場合があります。安全な食事方法や移動環境の調整が助けになります。",
+      "currentState": "病型を特定する検査を行い、運動症状や飲み込みの問題などに対応します。根本治療が限られる型では、生活を支えるケアが重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4051",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0010",
+      "name": "シャルコー・マリー・トゥース病",
+      "overview": "末梢神経の働きが障害され、足先や手先の筋力が低下したり感覚が鈍くなったりする遺伝性疾患の一群です。発症時期と経過には幅があります。",
+      "dailyLife": "つまずきやすさや手先の不器用さが生活に影響する場合があります。装具や靴の選び方、転倒予防、体力に応じた運動などの支援が役立ちます。",
+      "currentState": "神経の働きや遺伝的な病型を調べ、装具・リハビリ・痛みへの対応を行います。症状と生活機能を長期的に確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3773",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0012",
+      "name": "先天性筋無力症候群",
+      "overview": "神経から筋肉へ命令を伝える場所のたんぱく質の働きに、生まれつき異常がある疾患群です。疲れやすさ、筋力低下、まぶたの下がりなどが現れる場合があります。",
+      "dailyLife": "体を動かすことや食事、呼吸で支援が必要になる病型があります。活動と休息の配分や、家族・学校での理解が生活の助けになります。",
+      "currentState": "原因となる分子の違いによって効果的な薬が異なります。遺伝子検査などで病型を見分け、適切な治療や呼吸・運動の支援を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3965",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0015",
+      "name": "封入体筋炎",
+      "overview": "筋肉に炎症や変性が起こり、太ももや指を曲げる筋肉などの力が徐々に弱くなる病気です。中高年に発症することが多く、飲み込みの問題を伴う場合もあります。",
+      "dailyLife": "椅子から立つ、階段を上る、物をつかむなどの動作に困りごとが生じます。転倒予防や生活道具の工夫、食事の際の安全確保が大切です。",
+      "currentState": "根本的な治療法は限られており、筋力と生活動作を保つリハビリや、飲み込みへの対応などの支援が中心となります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0016",
+      "name": "クロウ・深瀬症候群",
+      "overview": "POEMS症候群とも呼ばれ、末梢神経の障害に加えてむくみ、皮膚の変化、内分泌異常などが現れる病気です。形質細胞の異常が関与すると考えられています。",
+      "dailyLife": "しびれや筋力低下、むくみによって移動や細かな作業が難しくなることがあります。神経・血液・内分泌など複数の専門分野での支援が役立ちます。",
+      "currentState": "異常な形質細胞を標的にする治療や造血幹細胞移植などを、全身状態に応じて検討します。神経症状の回復には時間がかかる場合があります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/82",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0019",
+      "name": "ライソゾーム病",
+      "overview": "細胞内で物質を分解するライソゾームの働きが低下し、分解できない物質が蓄積する遺伝性疾患の総称です。臓器や症状は病型ごとに大きく異なります。",
+      "dailyLife": "病型によって移動、食事、心臓・呼吸の管理など必要な支援が異なります。学校や仕事と通院を両立するための調整が必要になる場合があります。",
+      "currentState": "一部の病型には酵素補充療法や基質合成抑制療法などがあります。病型の確定と臓器障害への対応が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0020",
+      "name": "副腎白質ジストロフィー",
+      "overview": "脂肪酸の代謝に関わる遺伝子の変化により、神経の白質や副腎が障害されるX染色体関連の病気です。神経症状と副腎機能の低下は人によって異なります。",
+      "dailyLife": "歩行や認知、学校生活に影響が出る型があります。副腎ホルモンの不足への備えや、家族も含めた長期的な相談体制が役立ちます。",
+      "currentState": "病型や発症段階に応じ、造血幹細胞移植などが選択肢となる場合があります。副腎ホルモンの補充やリハビリも重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0021",
+      "name": "ミトコンドリア病",
+      "overview": "細胞のエネルギーを生み出すミトコンドリアの働きが障害される病気の一群です。筋肉、脳、心臓、目など複数の臓器に症状が現れる場合があります。",
+      "dailyLife": "疲れやすさ、筋力低下、視力や聴力の変化などに応じ、活動量や学校・仕事の環境を調整することがあります。病型によって生活上の注意点は異なります。",
+      "currentState": "原因を調べ、てんかんや心臓の問題など臓器症状に対応します。一部の病型では特定の治療が検討されますが、すべてに共通する治療法はありません。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0023",
+      "name": "プリオン病",
+      "overview": "プリオンたんぱく質の異常な構造が脳の神経細胞に影響する病気の一群です。認知機能や運動の調整に急速な変化が生じる型もあります。",
+      "dailyLife": "判断や歩行、会話、食事などに短期間で多くの支援が必要になる場合があります。本人と家族の負担を減らすため、多職種でのケアが重要です。",
+      "currentState": "病型の鑑別や症状緩和を行います。病気の進行を確実に止める治療法は確立しておらず、適切なケアと相談支援が中心になります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0024",
+      "name": "亜急性硬化性全脳炎",
+      "overview": "過去の麻疹感染に関連して、数年後などに脳の炎症・神経症状が生じるまれな病気です。認知や行動の変化、筋肉の不随意な動きなどが現れます。",
+      "dailyLife": "学習や日常動作に変化が起こり、継続的な介助が必要になる場合があります。家族の支援と安全な生活環境、学校や医療の連携が大切です。",
+      "currentState": "専門的な診断のうえで症状を和らげる治療や一部の抗ウイルス・免疫関連治療が検討されますが、有効性には限界があります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0025",
+      "name": "進行性多巣性白質脳症",
+      "overview": "免疫が低下したときなどにJCウイルスが脳で増殖し、神経の白質を障害する病気です。視覚、運動、言語、認知にさまざまな症状が現れます。",
+      "dailyLife": "手足の動かしにくさや見え方の変化などが急に生活へ影響する場合があります。原因となる免疫の状態や日々の変化に応じた支援が必要です。",
+      "currentState": "可能な場合は免疫機能の回復や原因薬剤の調整を検討します。リハビリや症状への対応も行い、感染症・免疫の専門的な評価が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0026",
+      "name": "HTLV-1関連脊髄症",
+      "overview": "HTLV-1への感染に関連して、脊髄に慢性的な炎症が起こる病気です。足のつっぱり、歩行障害、排尿障害などが徐々に現れる場合があります。",
+      "dailyLife": "歩行やトイレの動作に時間がかかることがあります。手すり・装具・移動補助具や排尿管理など、症状に合わせた工夫が役立ちます。",
+      "currentState": "炎症を抑える治療やリハビリ、排尿障害への対応などを行います。病状の進み方を定期的に確認し、生活機能を支えます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0027",
+      "name": "特発性基底核石灰化症",
+      "overview": "脳の基底核などに石灰化がみられる病気で、遺伝性の型もあります。運動や認知、精神症状が現れる人もいれば、症状が目立たない人もいます。",
+      "dailyLife": "動きのぎこちなさや記憶・気分の変化などが生活に影響する場合があります。症状がない場合にも検査や経過観察を行うことがあります。",
+      "currentState": "石灰化の原因となるほかの病気を調べ、症状に合わせて治療と支援を行います。原因遺伝子が分かる場合もあります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0029",
+      "name": "ウルリッヒ病",
+      "overview": "コラーゲンVIに関わる遺伝子の変化などで筋肉や結合組織が障害される先天性の筋疾患です。筋力低下や関節の動かしにくさなどがみられます。",
+      "dailyLife": "歩行や姿勢の保持、呼吸に補助が必要になる場合があります。成長に合わせた装具、運動・呼吸の支援や学校生活の調整が大切です。",
+      "currentState": "筋力・関節・呼吸の状態を定期的に確認し、リハビリや必要な呼吸補助などを行います。症状に合わせた多職種の支援が中心です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0030",
+      "name": "遠位型ミオパチー",
+      "overview": "足首や指先など体の中心から遠い筋肉の力が低下する遺伝性筋疾患の一群です。原因遺伝子や発症年齢、経過は病型ごとに異なります。",
+      "dailyLife": "足先が上がりにくくなってつまずいたり、手の細かな作業が難しくなったりする場合があります。装具や生活道具の工夫が役立ちます。",
+      "currentState": "遺伝的な病型を調べ、筋力と生活機能を守るリハビリや装具などを検討します。病型ごとの新しい治療法の研究も進められています。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4002",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0031",
+      "name": "ベスレムミオパチー",
+      "overview": "コラーゲンVIの異常に関連する筋疾患で、筋力低下と関節の動かしにくさがみられることがあります。症状の程度や経過には個人差があります。",
+      "dailyLife": "歩行や手足を伸ばす動作などに工夫が必要になる場合があります。運動機能を保つために、無理のない活動と適切な補助具を考えます。",
+      "currentState": "病状に応じて関節の拘縮や呼吸機能を確認し、理学療法や装具などを使います。長期的な生活機能への支援が大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0032",
+      "name": "自己貪食空胞性ミオパチー",
+      "overview": "筋肉の細胞内で物質を分解・再利用する仕組みに関係した異常が起こる、まれな筋疾患の一群です。筋力低下や心臓・呼吸の問題を伴う型があります。",
+      "dailyLife": "歩く、立つ、物を持つなどの動作に支援が必要になる場合があります。心臓や呼吸の状態によって、活動量や生活環境を調整します。",
+      "currentState": "筋肉の検査や遺伝子検査などで病型を見分け、心臓・呼吸を含む症状に対応します。必要に応じリハビリを組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0033",
+      "name": "シュワルツ・ヤンペル症候群",
+      "overview": "筋肉のこわばりや関節の拘縮、骨格の特徴などがみられる遺伝性疾患です。筋肉が収縮した後に緩みにくい症状が生活に影響することがあります。",
+      "dailyLife": "姿勢や歩行、手足を動かすことが難しくなる場合があります。成長に合わせて運動機能や関節の状態を確認し、生活動作を支援します。",
+      "currentState": "筋肉のこわばりを和らげる治療や理学療法、整形外科的な対応を病状に合わせて検討します。麻酔時には医療者への情報共有も重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0035",
+      "name": "天疱瘡",
+      "overview": "皮膚や粘膜の細胞同士をつなぐ部分に自己抗体が作用し、水ぶくれやただれができる病気です。口の中に痛みを伴う病変ができることもあります。",
+      "dailyLife": "皮膚の痛みや口内のただれで食事・入浴がつらくなる場合があります。皮膚を傷つけない工夫や口腔ケアが生活の助けになります。",
+      "currentState": "ステロイドや免疫を調節する薬などで炎症を抑えます。傷のケアと感染への注意、治療に伴う副作用の確認も必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0036",
+      "name": "表皮水疱症",
+      "overview": "皮膚をつなぎとめるたんぱく質の働きに関係する遺伝子の変化などにより、少しの摩擦で水ぶくれや傷ができやすい病気の一群です。",
+      "dailyLife": "皮膚を傷つけない着替えや入浴、保護材の選び方などに工夫が必要です。病型によって口の中や食道の症状、栄養の問題にも配慮します。",
+      "currentState": "皮膚の保護、感染予防、栄養管理などを中心に行います。一部の病型では遺伝子や皮膚の修復を標的とする治療の研究・導入が進んでいます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    },
+    {
+      "id": "mhlw-0037",
+      "name": "膿疱性乾癬（汎発型）",
+      "overview": "全身の皮膚が赤くなり、細菌感染によらない小さな膿疱が多数できる炎症性の病気です。発熱や全身のだるさを伴う場合があります。",
+      "dailyLife": "皮膚の痛みや発熱、疲れやすさによって日常活動が難しくなることがあります。急に症状が悪化したときは医療機関での評価が重要です。",
+      "currentState": "炎症の状態に合わせて全身に作用する薬や生物学的製剤などを用います。皮膚症状と全身状態の両方を確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/168",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 1
+    }
+  ]
+}

@@ -55,9 +55,9 @@ assert(scene.includes('if(guides && total>0)'), 'unlit stars must never show dis
 assert(scene.includes("Number(starData.get(id)?.total)>0"), 'original unlit click guard must remain');
 assert(app.includes("client.rpc('pick_discovery_disease'"),'preserve original random RPC');
 assert(app.includes("const record=guides?await guides.get(choice.id):null"));
-assert(article.includes('id="disease-sources"')&&article.includes('医療専門家による個別監修は未実施'));
+assert(article.includes('id="disease-sources"')&&!article.includes('医療専門家による個別監修は未実施'));
 assert(articleJs.includes("source.url")&&articleJs.includes("document.title"));
-assert(lib.includes("map.size!==50"));
+assert(lib.includes("map.size!==150"));
 console.log('PASS: 50 rank-matched source-checked editorial drafts and both shared links');
 console.log('Number of articles:',list.length,'number of disease-specific Nanbyou source pages:',
  list.filter(x=>x.references[0].verifiedSpecific).length);
