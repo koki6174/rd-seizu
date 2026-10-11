@@ -1,0 +1,555 @@
+{
+  "part": 3,
+  "records": [
+    {
+      "id": "mhlw-0091",
+      "name": "バッド・キアリ症候群",
+      "overview": "肝臓から血液が出ていく静脈が狭くなったり詰まったりして、肝臓の血流に障害が生じる病気です。おなかの張りや腹水、肝機能の変化などが現れる場合があります。",
+      "dailyLife": "腹部の不快感やむくみ、疲れやすさによって生活に支障が出ることがあります。肝臓と血流の状態を継続して確認することが大切です。",
+      "currentState": "血栓の原因などを調べ、抗凝固療法や血管を広げる治療、肝臓への負担を減らす治療などを病態に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0092",
+      "name": "特発性門脈圧亢進症",
+      "overview": "肝硬変などの明確な原因がないのに、肝臓へ流れ込む門脈という血管の圧力が高くなる病気です。脾臓の腫大や食道静脈瘤などがみられる場合があります。",
+      "dailyLife": "自覚症状が少なくても血液検査や内視鏡検査などの通院が必要になることがあります。消化管出血の兆候に注意することが大切です。",
+      "currentState": "門脈圧が高くなったことによる静脈瘤や血球減少などに対応します。内視鏡治療や血流を調整する治療が必要になる場合があります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0094",
+      "name": "原発性硬化性胆管炎",
+      "overview": "肝臓の中や外にある胆管に炎症や線維化が起こり、胆汁が流れにくくなる病気です。疲れやかゆみ、黄疸、胆管炎などが現れることがあります。",
+      "dailyLife": "かゆみや疲労感が生活に影響する場合があります。発熱や黄疸などの変化に気付き、肝機能の検査を続けることが大切です。",
+      "currentState": "胆管が狭くなった場合の内視鏡治療や、症状・感染症への対応を行います。肝臓の状態に応じて専門的な治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0098",
+      "name": "好酸球性消化管疾患",
+      "overview": "好酸球という白血球が食道、胃や腸などの消化管で炎症に関わる病気の一群です。腹痛、嘔吐、飲み込みにくさ、下痢など、病変の場所で症状が異なります。",
+      "dailyLife": "食事中の飲み込みにくさや腹痛が学業・仕事に影響する場合があります。食べ物の制限を自己判断で広げず、栄養面も含めて相談することが重要です。",
+      "currentState": "病変の場所と重症度に応じ、食事療法やステロイドなどを検討します。内視鏡検査や症状の確認を通じて治療を調整します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0099",
+      "name": "慢性特発性偽性腸閉塞症",
+      "overview": "腸が詰まっていないのに、腸を動かす働きが障害されて腸閉塞のような症状が続く病気です。腹部膨満、腹痛、吐き気などが現れます。",
+      "dailyLife": "食べられる量や食事の回数が制限され、栄養を確保する支援が必要になる場合があります。症状が日によって変わることもあります。",
+      "currentState": "原因や腸の機能を詳しく調べ、栄養管理、消化管の減圧、症状への薬物治療などを組み合わせます。長期的な支援が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0100",
+      "name": "巨大膀胱短小結腸腸管蠕動不全症",
+      "overview": "生まれつき膀胱が大きく、結腸が短いなどの特徴を伴い、腸の動きが著しく障害される病気です。排尿や栄養の管理が必要になることがあります。",
+      "dailyLife": "乳児期から食事・排泄の支援が必要になる場合があります。家族の負担が大きくなりやすく、在宅医療や多職種の協力が重要です。",
+      "currentState": "消化管の減圧や栄養管理、尿路の管理を中心に行います。症状と成長に応じて手術などの専門的な対応を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0101",
+      "name": "腸管神経節細胞僅少症",
+      "overview": "腸の動きを調節する神経節細胞が少ないため、便や食べ物を送り出しにくくなる先天性の病気です。強い便秘や腹部膨満などがみられます。",
+      "dailyLife": "食事・排便の調整や栄養の確保が生活の中心になる場合があります。成長に合わせた医療と日常生活の支援が必要です。",
+      "currentState": "腸の状態を調べ、排便・栄養管理や必要な外科的治療を行います。長期的に消化管の働きを確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0102",
+      "name": "ルビンシュタイン・テイビ症候群",
+      "overview": "指や足の親指などの形の特徴、発達の遅れ、成長の問題などがみられる遺伝性疾患です。心臓や目などの合併症を伴う場合もあります。",
+      "dailyLife": "学習やコミュニケーション、食事などで本人に合う支援が必要になることがあります。得意なことや発達のペースを尊重した環境調整が役立ちます。",
+      "currentState": "発達支援や必要な臓器の検査、合併症の治療などを行います。成長段階に応じて複数の専門職が協力します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0103",
+      "name": "CFC症候群",
+      "overview": "細胞の増殖や発達に関わるRAS/MAPKシグナル経路の遺伝子の変化による病気です。顔貌や皮膚・毛髪の特徴、心臓の病気、発達の遅れなどがみられます。",
+      "dailyLife": "成長や食事、学習、運動面で支援が必要になる場合があります。家庭や学校で本人に合ったペースと環境を整えることが大切です。",
+      "currentState": "心臓、栄養、発達などの状態を定期的に評価し、必要な治療や療育を組み合わせます。症状は人によって大きく異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0104",
+      "name": "コステロ症候群",
+      "overview": "HRAS遺伝子の変化が関係する先天性疾患で、成長の遅れ、特徴的な皮膚や顔貌、心臓の異常などがみられることがあります。",
+      "dailyLife": "食事や発達、心臓の状態を確認しながら、学校や家庭での生活を支えることが重要です。通院先が複数になることがあります。",
+      "currentState": "心臓や発達の評価に加え、病型に応じて腫瘍などの合併症の検査を行います。個々の症状に合わせた長期的な支援が中心です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0105",
+      "name": "チャージ症候群",
+      "overview": "主にCHD7遺伝子の変化に関連し、目・耳・鼻、心臓などのさまざまな先天的な特徴を伴う病気です。聴覚や視覚、バランスなどに影響することがあります。",
+      "dailyLife": "見え方や聞こえ方に応じたコミュニケーション支援が生活の大切な部分になります。食事・呼吸や発達への支援が必要な人もいます。",
+      "currentState": "眼科・耳鼻科・循環器などが連携し、合併症の治療と発達・コミュニケーション支援を行います。成長に応じた評価が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0106",
+      "name": "クリオピリン関連周期熱症候群",
+      "overview": "体の炎症を調節する仕組みに関係した遺伝子の変化によって、発熱や発疹、関節痛などの炎症症状を繰り返す疾患群です。症状の程度は病型によって異なります。",
+      "dailyLife": "熱や痛みが出る時期には活動が難しくなることがあります。聴力や関節などへの影響を確認し、学校・仕事での理解を得ることが助けになります。",
+      "currentState": "炎症に関わるIL-1の働きを抑える薬などが用いられます。合併症を予防するため、専門的な評価を続けます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0107",
+      "name": "若年性特発性関節炎",
+      "overview": "小児期に始まる原因不明の慢性的な関節炎の一群です。関節の腫れや痛み、こわばりが現れ、発熱や発疹を伴う病型もあります。",
+      "dailyLife": "朝のこわばりや関節の痛みが学校や運動に影響する場合があります。必要な配慮を受けながら、本人の発達や活動を支えることが大切です。",
+      "currentState": "病型と症状に応じて抗炎症薬、免疫を調節する薬、生物学的製剤などを使います。関節・眼などの経過観察が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0108",
+      "name": "TNF受容体関連周期性症候群",
+      "overview": "炎症を調節するTNF受容体に関係した遺伝子の変化によって、発熱や腹痛、筋肉痛、発疹などが繰り返し起こる病気です。",
+      "dailyLife": "発作的な発熱や痛みのために予定を変更する場合があります。体調の記録や、学校・職場との情報共有が役立つことがあります。",
+      "currentState": "炎症の仕組みに働きかける薬などを病状に応じて用います。再燃や腎臓などへの合併症を確認することが重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0109",
+      "name": "非典型溶血性尿毒症症候群",
+      "overview": "補体という免疫の働きの調節異常などに関連して、細い血管に血栓ができ、赤血球や腎臓が障害される病気です。急な腎機能の低下などが起こります。",
+      "dailyLife": "体調が大きく変化した際に迅速な医療対応が必要になる場合があります。血圧や腎機能などを長期的に確認することが重要です。",
+      "currentState": "原因を詳しく調べ、補体の働きを抑える薬などを病態に応じて検討します。腎機能の管理と再発への備えが必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0110",
+      "name": "ブラウ症候群",
+      "overview": "免疫反応に関わるNOD2遺伝子の変化に関連する炎症性の病気です。皮膚、関節、眼などに慢性的な炎症が起こることがあります。",
+      "dailyLife": "関節の動かしにくさや目の症状が生活に影響する場合があります。視力と関節機能を保つための継続的な通院が大切です。",
+      "currentState": "眼や関節などの炎症を抑えるためにステロイドや免疫を調節する薬などを使います。臓器の状態を長く確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0111",
+      "name": "先天性ミオパチー",
+      "overview": "筋肉の構造や働きに関係する遺伝子の変化などによって、乳児期や小児期から筋力が弱くなる病気の一群です。呼吸や飲み込みに影響する型もあります。",
+      "dailyLife": "姿勢の保持、移動、食事などに支援が必要になる人がいます。成長とともに補助具や学校での環境を調整することが大切です。",
+      "currentState": "病型を診断し、呼吸・栄養・整形外科的な問題に対応します。リハビリや長期的な生活支援を組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0112",
+      "name": "マリネスコ・シェーグレン症候群",
+      "overview": "小脳の障害によるふらつき、白内障、筋力低下などを特徴とする遺伝性の病気です。発達への影響を伴う場合もあります。",
+      "dailyLife": "歩行や見え方、学習などの支援が必要になることがあります。視力の調整や移動の補助、本人に合った学習環境が役立ちます。",
+      "currentState": "白内障への治療や運動・発達への支援を行います。筋力や神経症状を確認しながら、複数の専門職が協力します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0114",
+      "name": "非ジストロフィー性ミオトニー症候群",
+      "overview": "筋肉が収縮したあとに緩みにくくなるミオトニーを特徴とする遺伝性疾患の一群です。寒さや運動などで症状が変化する型があります。",
+      "dailyLife": "手を握ったあとに開きにくい、歩き始めに筋肉が動きにくいなど、日常の動作で工夫が必要になる場合があります。",
+      "currentState": "筋肉の電気的な働きを調べ、病型に応じて症状を和らげる薬や生活上の対策を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0115",
+      "name": "遺伝性周期性四肢麻痺",
+      "overview": "筋肉の細胞膜で電気信号をつくる仕組みの異常により、手足の力が発作的に入りにくくなる遺伝性の病気です。誘因や発作の長さは病型で異なります。",
+      "dailyLife": "急に力が入らなくなる発作に備え、医療者と対応を共有することが役立ちます。運動や食事などの影響は病型に応じて考える必要があります。",
+      "currentState": "電解質や遺伝的な病型を調べ、発作の予防と症状に応じた治療を行います。自己判断で薬や塩分・カリウムを調整しないことが大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0116",
+      "name": "アトピー性脊髄炎",
+      "overview": "アレルギーに関連した体質や免疫の反応が関与し、脊髄に炎症が起こる病気です。手足のしびれや感覚の異常などが現れることがあります。",
+      "dailyLife": "しびれや痛み、歩きにくさが仕事や移動に影響することがあります。症状の変化を確認しながら生活環境を整えます。",
+      "currentState": "ほかの脊髄疾患を鑑別し、炎症を抑える治療などを検討します。神経症状に応じたリハビリや生活支援も行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0117",
+      "name": "脊髄空洞症",
+      "overview": "脊髄の中に液体を含む空洞が生じ、周囲の神経の働きが障害される病気です。痛みや温度の感じにくさ、筋力低下などが現れる場合があります。",
+      "dailyLife": "痛みや温度を感じにくい部分では、やけどやけがに気付くのが遅れることがあります。手足の動かしにくさに合わせた工夫も役立ちます。",
+      "currentState": "画像検査で空洞と原因を調べます。症状や原因によっては髄液の流れを改善する手術などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0118",
+      "name": "脊髄髄膜瘤",
+      "overview": "胎児期に脊椎や脊髄の一部が十分に閉じず、神経の働きに影響が生じる先天性疾患です。足の運動や排尿・排便に問題が起こる場合があります。",
+      "dailyLife": "移動や排尿・排便の管理、皮膚の保護に支援が必要になることがあります。成長に応じた装具や学校生活の調整が大切です。",
+      "currentState": "生後早期などに神経を保護する手術を行うことがあり、その後も泌尿器・整形外科などの継続的な診療が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0119",
+      "name": "アイザックス症候群",
+      "overview": "末梢神経が過剰に興奮し、筋肉の細かな動きやこわばり、けいれんなどが起こる病気です。自己免疫との関連がみられる場合があります。",
+      "dailyLife": "筋肉のつっぱりや疲れやすさが睡眠・仕事に影響することがあります。症状の強さに合わせた休息と活動の調整が役立ちます。",
+      "currentState": "神経の興奮を抑える薬や、病態に応じた免疫治療などを検討します。筋肉と神経の状態を確認しながら治療します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    },
+    {
+      "id": "mhlw-0120",
+      "name": "遺伝性ジストニア",
+      "overview": "筋肉が本人の意思とは異なる形で収縮し、体の一部や全身の姿勢・動きに影響する遺伝性疾患の一群です。発症時期や病型には幅があります。",
+      "dailyLife": "文字を書く、歩く、話すなど特定の動作で困りごとが生じる場合があります。道具や活動方法を調整し、本人に合った支援を考えます。",
+      "currentState": "原因となる病型を調べ、症状を和らげる薬やボツリヌス療法、条件により脳深部刺激療法などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向けの病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "editorial_draft_sources_not_individually_medically_validated",
+      "reviewedAt": "2026-10-11",
+      "batch": 3
+    }
+  ]
+}
