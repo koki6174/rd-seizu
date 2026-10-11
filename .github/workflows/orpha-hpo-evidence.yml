@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   stage-evidence:
@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          persist-credentials: true
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -46,15 +46,12 @@ jobs:
           assert all(x['source_commit']!='not_pinned' for x in rows)
           print('Verified format, provenance and distinct ORPHA codes for',len(rows),'unreviewed matches')
           PY
-      - name: Version evidence snapshots in repository
+      # Never auto-commit unreviewed external evidence to the default branch.
+      # Review the uploaded JSON offline and submit a separate pull request.
+      - name: Confirm review-only staging
         run: |
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git add data/orpha_hpo_exact_source_*.json
-          if ! git diff --cached --quiet; then
-            git commit -m "data: stage Orphadata and HPO exact-label candidate evidence"
-            git push origin HEAD:main
-          fi
+          test "${{ github.ref }}" = "refs/heads/main"
+          echo "Evidence is staged as an artifact only; no production data or website changes."
       - uses: actions/upload-artifact@v4
         with:
           name: orpha-hpo-evidence
