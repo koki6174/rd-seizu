@@ -57,6 +57,36 @@ async function main(){
   assert.equal(await page.locator('#universe canvas').count(),0,
    'Research preview exposed a 3D scene before authentication');
   console.log('PASS CLINICAL: unauthorized user receives login, no research 3D');
+  // Verify *network* authorization, not merely that the UI hides the research map.
+  // First prove the public key can reach the intended read-only coordinate RPC,
+  // so a 401 from protected endpoints isn't a broken test credential.
+  const config=await page.evaluate(()=>window.NENONE_CONFIG);
+  assert(config?.supabaseUrl?.startsWith('https://')&&config?.supabasePublishableKey);
+  const headers={
+    apikey:config.supabasePublishableKey,
+    authorization:'Bearer '+config.supabasePublishableKey
+  };
+  const open=await page.request.get(config.supabaseUrl+
+    '/rest/v1/rpc/get_constellation_positions',{headers,timeout:15000});
+  assert(open.ok(),'Public RPC positive control failed; cannot verify access policy');
+  const exposed=await open.json();
+  assert.equal(exposed.length,1241,'Public RPC control unexpectedly incomplete');
+  for(const endpoint of [
+    '/rest/v1/rpc/get_provisional_hpo_positions',
+    '/rest/v1/rpc/get_clinical_pilot_positions',
+    '/rest/v1/rpc/get_private_clinical_positions',
+    '/rest/v1/disease_clinical_embedding_pilot?select=disease_id&limit=1',
+    '/rest/v1/star_entries?select=id&limit=1',
+    '/rest/v1/interactions?select=id&limit=1',
+    '/rest/v1/disease_suggestions?select=id&limit=1'
+  ]){
+    const denial=await page.request.get(config.supabaseUrl+endpoint,
+     {headers,timeout:15000});
+    assert([401,403,404].includes(denial.status()),
+     'Unexpected public access '+denial.status()+' to '+endpoint);
+  }
+  console.log('PASS DB: 1 public coordinate RPC works; 7 protected APIs denied to anonymous');
+
   assert.deepEqual(fatal,[],'Uncaught browser JS errors');
  }finally{await browser.close();}
 }
