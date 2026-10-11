@@ -200,6 +200,7 @@ async function boot(){
  if(!client)throw new Error('Supabase is unavailable');
  if(typeof WebGLRenderingContext==='undefined')throw new Error('WebGL unavailable');
  const mode=document.body.dataset.starScene==='clinical'?'clinical':'taxonomy';
+ let clinicalPositions=[];
  if(mode==='clinical'){
   const access=$('clinical-access'),login=$('clinical-login');
   const signout=$('clinical-signout'),state=$('clinical-auth-status');
@@ -239,14 +240,14 @@ async function boot(){
    });
    return;
   }
-  window.__NENONE_AUTHORIZED_CLINICAL_POSITIONS=Array.isArray(authorized.data)?authorized.data:[];
+  clinicalPositions=Array.isArray(authorized.data)?authorized.data:[];
  }
  // Routes request only their own geometry. Auth was verified *before*
  // the clinical data was requested; visitors cannot access its RPC.
  const [starsRes,coordsRes]=await Promise.all([
   client.rpc('get_public_stars'),
   mode==='clinical'?Promise.resolve({
-   data:window.__NENONE_AUTHORIZED_CLINICAL_POSITIONS,error:null
+   data:clinicalPositions,error:null
   }):client.rpc('get_constellation_positions')
  ]);
  if(starsRes.error)throw starsRes.error;
