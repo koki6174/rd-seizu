@@ -42,7 +42,7 @@ begin
    and d.concept_kind='disease_subtype'
    and q.has_positive_hpo
    and jsonb_array_length(s.hpo_annotations)>0
-   and lower(trim(d.name_en))=lower(trim(s.orpha_label));
+   and regexp_replace(lower(replace(d.name_en,chr(160),' ')),'[[:space:]‐‑–—-]+','','g')=regexp_replace(lower(replace(s.orpha_label,chr(160),' ')),'[[:space:]‐‑–—-]+','','g');
  if n<>24 then raise exception 'Refusing research import: %/24 subtype concepts corroborated',n;end if;
  if exists (
    with intended(disease_id,orpha_code) as (values
