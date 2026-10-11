@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+ <meta name="theme-color" content="#080e20">
+ <meta name="description" content="見えない病気の星図。疾患の概要、日常生活との関係、医療・研究の現状を公的資料にもとづいて紹介します。">
+ <title>この病気について知る | 見えない病気の星図</title>
+ <link rel="stylesheet" href="../admin/app.css?v=3">
+ <link rel="stylesheet" href="./disease.css?v=1">
+ <script defer src="../content/disease-guides.js?v=1"></script>
+ <script defer src="./disease.js?v=1"></script>
+</head>
+<body class="disease-article">
+ <header class="header">
+  <a class="brand" href="../"><span class="brand-star" aria-hidden="true">✦</span>見えない病気の星図</a>
+  <a class="weekly-link" href="../">星図に戻る ↗</a>
+ </header>
+ <main class="disease-page">
+  <a href="../" class="page-back">← 星図にもどる</a>
+  <div id="loading" class="loading" role="status" aria-live="polite">病気の解説を読み込んでいます…</div>
+  <article id="disease-content" hidden>
+   <p class="section-caption">ひとつの星を、知る。</p>
+   <h1 id="disease-title"></h1>
+   <p class="article-intro" id="disease-intro"></p>
+   <div class="section-rule" aria-hidden="true"></div>
+   <section class="article-section" aria-labelledby="about-title">
+    <div class="number">01 / OVERVIEW</div>
+    <h2 id="about-title">どんな病気？</h2>
+    <p id="disease-overview"></p>
+   </section>
+   <section class="article-section" aria-labelledby="living-title">
+    <div class="number">02 / DAILY LIFE</div>
+    <h2 id="living-title">暮らしとの関係</h2>
+    <p id="disease-living"></p>
+   </section>
+   <section class="article-section" aria-labelledby="medicine-title">
+    <div class="number">03 / CARE & RESEARCH</div>
+    <h2 id="medicine-title">医療と研究の現在地</h2>
+    <p id="disease-treatment"></p>
+   </section>
+   <section class="references" aria-labelledby="references-title">
+    <h2 id="references-title">参考資料</h2>
+    <p>内容は公的な疾患解説・指定難病資料をもとに要約しています。詳しく知りたい方は、原典もご覧ください。</p>
+    <ul id="disease-sources"></ul>
+    <p class="review-note">資料確認日：2026年10月11日 ／ 医療専門家による個別監修は未実施です。病状や治療は一人ひとり異なるため、この文章を診断・治療の判断に使わないでください。</p>
+   </section>
+   <nav class="article-end" aria-label="星図に戻る">
+    <a href="../#participation" class="join-link">星を灯しにいく <span aria-hidden="true">✦</span></a>
+    <a href="../" class="plain-link">星図へ戻る →</a>
+   </nav>
+  </article>
+ </main>
+ <footer><a href="../">見えない病気の星図</a><br>知ることから、つながりへ。</footer>
+</body>
+</html>
