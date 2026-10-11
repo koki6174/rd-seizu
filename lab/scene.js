@@ -36,7 +36,7 @@ function createCloud(items,color,size,texture,opacity=1){
  scene.add(cloud);objects.push(cloud);
  return cloud;
 }
-function showDetails(id){
+function showDetails(id,scrollToDetails=true){
  const star=starData.get(id);
  if(!star)return;
  $('star-info').hidden=false;
@@ -53,7 +53,7 @@ function showDetails(id){
   const bubble=document.createElement('span');bubble.textContent=value;
   comments.append(bubble);
  }
- $('star-info').scrollIntoView({block:'nearest',behavior:reduceMotion?'instant':'smooth'});
+ if(scrollToDetails) $('star-info').scrollIntoView({block:'nearest',behavior:reduceMotion?'instant':'smooth'});
 }
 function initScene(initialData,mode='taxonomy'){
  scene=new THREE.Scene();
@@ -111,7 +111,7 @@ function initScene(initialData,mode='taxonomy'){
    controls.target.set(0,0,0);
    controls.update();
   }
-  if(lastSelection && starData.has(lastSelection)) showDetails(lastSelection);
+  if(lastSelection && starData.has(lastSelection)) showDetails(lastSelection,false);
   else $('star-info').hidden=true;
  }
  drawDataset(initialData,true);
@@ -226,3 +226,6 @@ boot().catch(error=>{
  message.textContent='立体星図を読み込めませんでした。通信状況を確認して再読み込みしてください。';
  counter.textContent='読み込みに失敗しました';
 });
+
+// Safari may restore the disposed WebGL canvas from the back/forward cache.
+window.addEventListener('pageshow',event=>{if(event.persisted)location.reload();});
