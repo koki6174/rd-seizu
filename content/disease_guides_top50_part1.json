@@ -1,0 +1,530 @@
+{
+  "part": 1,
+  "records": [
+    {
+      "id": "mhlw-0097",
+      "rank": 1,
+      "overview": "大腸の内側の粘膜に炎症や潰瘍が生じる炎症性腸疾患です。腹痛、下痢、血便などが現れ、症状のある時期と落ち着く時期を繰り返すことがあります。",
+      "dailyLife": "急にトイレへ行きたくなったり、腹痛や疲れやすさが通勤・通学に影響したりします。症状が安定していれば、仕事や学業、趣味を続けられる人も多くいます。",
+      "currentState": "炎症を抑えて寛解を維持することが治療の中心です。抗炎症薬や免疫を調節する薬、生物学的製剤などが用いられ、重症例などでは手術を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/62",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0006",
+      "rank": 2,
+      "overview": "脳のドパミンをつくる神経細胞などが障害され、動作が遅くなる、手足が震える、筋肉がこわばるといった症状が現れる神経の病気です。便秘や睡眠の問題なども伴います。",
+      "dailyLife": "歩く、着替える、文字を書くなどの日常動作に時間がかかる場合があります。症状が一日の中で変動することもあり、服薬の時間や運動、生活環境の調整が役立ちます。",
+      "currentState": "ドパミンの働きを補う薬やリハビリテーションが基本です。症状や経過により脳深部刺激療法などが検討され、動作以外の症状への対応も大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/169",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0049",
+      "rank": 3,
+      "overview": "免疫が自分の体を攻撃する自己免疫疾患です。発熱、関節痛、皮膚症状のほか、腎臓や血液など複数の臓器に影響する場合があり、現れる症状には個人差があります。",
+      "dailyLife": "強い疲労感や関節の痛みなどが、外からは分かりにくいことがあります。紫外線への配慮や体調に合わせた活動の調整、継続的な診察が生活を支えます。",
+      "currentState": "病状と障害された臓器に応じ、ステロイド、免疫抑制薬、生物学的製剤などを使います。再燃を防ぎながら、薬の副作用と臓器の状態も定期的に確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/53",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0096",
+      "rank": 4,
+      "overview": "口から肛門までの消化管のどこにでも炎症が生じうる炎症性腸疾患です。腹痛、下痢、体重減少、肛門の病変などがみられ、腸が狭くなったり瘻孔ができたりすることがあります。",
+      "dailyLife": "腹痛や下痢、栄養の吸収障害が食事や外出、仕事に影響する場合があります。必要な食事の工夫は病状によって異なり、栄養面も含めた個別の相談が重要です。",
+      "currentState": "腸の炎症を抑える薬、生物学的製剤、栄養療法などを病態に応じて組み合わせます。狭窄や膿瘍などの合併症では内視鏡治療や手術が必要になることもあります。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/81",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0306",
+      "rank": 5,
+      "overview": "鼻や副鼻腔で好酸球が関係する炎症が続き、鼻茸ができやすい慢性の病気です。鼻づまりや嗅覚の低下が特徴で、気管支ぜんそくを伴うこともあります。",
+      "dailyLife": "においが分かりにくくなると、食事の楽しさやガス・焦げのにおいへの気付きに影響することがあります。鼻づまりによる睡眠の質の低下にも配慮が必要です。",
+      "currentState": "鼻に使うステロイド薬、洗浄、内視鏡手術などを病状に応じて行います。再発しやすく、適応によっては生物学的製剤を用いるため、継続的な経過観察が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/4537",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0069",
+      "rank": 6,
+      "overview": "背骨に沿う後縦靱帯が骨のように硬くなり、脊髄や神経を圧迫する病気です。手足のしびれ、動きにくさ、歩行障害などが起こることがあります。",
+      "dailyLife": "細かな手作業や階段の昇降が難しくなったり、転びやすくなったりする場合があります。脊髄が圧迫されているときは転倒などによる強い衝撃への注意が必要です。",
+      "currentState": "画像検査と神経症状をもとに経過をみます。症状が進む場合などには神経の圧迫を減らす手術を検討しますが、治療方針は部位と重症度で異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/98",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0011",
+      "rank": 7,
+      "overview": "神経から筋肉へ信号を伝える場所で免疫の異常が起こり、筋肉の力が出にくくなる病気です。まぶたが下がる、物が二重に見える、飲み込みにくいなどの症状がみられます。",
+      "dailyLife": "活動すると疲れて力が入りにくくなり、休むと改善することがあります。発声や食事、腕を使う作業が負担になる場合があり、呼吸の変化には特に注意が必要です。",
+      "currentState": "神経と筋肉の信号を助ける薬や免疫治療が中心です。病型や胸腺の状態により手術なども検討し、呼吸・飲み込みの機能を確認しながら治療します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/120",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0050",
+      "rank": 8,
+      "overview": "筋肉に炎症が起こり、肩や太ももなど体の中心に近い筋肉の力が弱くなる病気の一群です。皮膚筋炎では特徴的な皮膚症状が現れ、肺などに病変を伴うこともあります。",
+      "dailyLife": "立ち上がる、階段を上る、髪を洗うなどの動作が難しくなる場合があります。日による疲れやすさを踏まえた活動の調整と、皮膚・肺の症状への注意が必要です。",
+      "currentState": "病型や臓器症状に応じてステロイドや免疫抑制薬などを使います。筋力の回復や維持を図るリハビリも、炎症の状態に合わせて検討されます。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/4079",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "systemic-sclerosis",
+      "rank": 9,
+      "overview": "皮膚や血管、内臓に免疫異常と線維化が起こる病気です。指先が冷えて色が変わるレイノー現象や皮膚の硬化がみられ、肺や消化管などが影響を受ける人もいます。",
+      "dailyLife": "寒さで指の血流が悪くなったり、手指の動かしにくさが生活に影響したりすることがあります。手足の保温や皮膚の保護、息切れなどの変化に気付くことが大切です。",
+      "currentState": "すべての症状に同じ薬を使うのではなく、血管・肺・消化管などの障害に合わせて治療します。臓器の定期的な評価と、生活を支える支援を組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/4026",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0018",
+      "rank": 10,
+      "overview": "小脳や脊髄などの働きが徐々に障害され、ふらつき、歩きにくさ、ろれつが回らないなどの症状が現れる疾患群です。原因や遺伝性の有無は病型ごとに異なります。",
+      "dailyLife": "歩行や食事、細かな手作業で工夫が必要になる場合があります。手すりや移動補助具、言葉や飲み込みを支えるリハビリなどが生活の助けになります。",
+      "currentState": "病型を見分けることが重要で、症状を和らげる薬や運動・言語・嚥下のリハビリを用います。一部の原因疾患では個別の治療法があるため専門的な評価が必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0013",
+      "rank": 11,
+      "overview": "脳や脊髄などの中枢神経に炎症が起きる病気をまとめた指定難病名です。多発性硬化症と視神経脊髄炎スペクトラム障害は別の疾患で、病因や治療法も異なります。",
+      "dailyLife": "見えにくさ、しびれ、疲れやすさ、歩行の問題などが生活に影響することがあります。症状が外から見えにくい場合もあり、学校や職場での配慮が役立ちます。",
+      "currentState": "再発を抑える薬などが病型によって異なり、正確な鑑別が欠かせません。急な神経症状への治療と、症状に応じたリハビリや生活支援も行います。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/3806",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0085",
+      "rank": 12,
+      "overview": "肺の奥にある空気と血液の交換を担う組織に炎症や線維化が起こる病気のうち、原因を特定できないものの総称です。空せきや息切れなどが現れ、経過は病型で異なります。",
+      "dailyLife": "坂道や階段で息切れを感じ、以前と同じ活動が負担になることがあります。病状に応じた活動量の調整や感染予防、呼吸機能の定期的な確認が大切です。",
+      "currentState": "特発性肺線維症などでは抗線維化薬を用いる場合があり、別の病型では治療が異なります。酸素療法や呼吸リハビリなども状態に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/156",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0053",
+      "rank": 13,
+      "overview": "自分の免疫が主に涙腺や唾液腺に影響する自己免疫疾患です。目や口の乾燥が特徴ですが、関節や肺、神経など全身に症状が出る場合もあります。",
+      "dailyLife": "目の乾き、飲み込みにくさ、口の中のトラブル、疲労感などが日常生活に影響します。こまめな保湿、口腔ケア、必要に応じた眼科・歯科の受診が助けになります。",
+      "currentState": "涙や唾液の不足を補う治療と、炎症が起きている臓器に応じた治療を行います。症状と全身の状態を分けて評価し、継続的にケアすることが重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/111",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0090",
+      "rank": 14,
+      "overview": "網膜にある光を感じる細胞などが徐々に障害される遺伝性の病気の一群です。暗い場所で見えにくい、視野が狭くなるなどの症状が現れますが、進み方は人によって異なります。",
+      "dailyLife": "夜道や段差が見えにくく、移動や読書に工夫が必要なことがあります。照明・拡大表示・白杖など、見え方に合わせた環境調整や支援が役立ちます。",
+      "currentState": "定期的な眼科評価とロービジョンケアが基本です。原因遺伝子や病型によっては研究・治療の対象が異なり、すべての人に共通する根治療法があるわけではありません。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/196",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0078",
+      "rank": 15,
+      "overview": "脳の下垂体前葉から分泌されるホルモンの一部または複数が不足する病気です。疲れやすさ、血圧の低下、成長や生殖に関する変化など、足りないホルモンに応じて症状が違います。",
+      "dailyLife": "体調を保つために毎日の薬が必要な人もいます。特に副腎皮質ホルモンが不足する場合は、発熱や手術時などの対応を医療者と事前に確認することが大切です。",
+      "currentState": "血液検査などで不足するホルモンを調べ、必要なホルモンを補充します。原因の治療や投与量の調整を行い、体調・成長・代謝などの経過をみます。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/4017",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0071",
+      "rank": 16,
+      "overview": "股関節を構成する大腿骨頭の血流が障害され、骨の一部が壊死する病気です。壊死した部分の骨がつぶれると、股関節の痛みや動かしにくさが現れます。",
+      "dailyLife": "長く歩く、しゃがむ、階段を上るなどの動作がつらくなることがあります。骨への負担を減らす生活の工夫や、仕事・運動の調整が必要になる人もいます。",
+      "currentState": "骨頭の形が保たれているかなどを画像で評価します。進行度に応じて経過観察や骨を温存する手術、人工股関節手術などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/160",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0057",
+      "rank": 17,
+      "overview": "心臓の筋肉の働きが弱くなり、心室が広がって血液を送り出しにくくなる病気です。息切れ、むくみ、動悸、疲れやすさなどの心不全症状が起こることがあります。",
+      "dailyLife": "日常の運動量や塩分・水分の管理が必要な場合があります。急な体重増加、息切れの悪化、むくみの変化に気付き、医療者へ相談することが重要です。",
+      "currentState": "心不全の薬を中心に治療し、不整脈への対応や医療機器の使用などを検討します。原因や状態に応じて治療が異なり、定期的な心機能の確認が必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/3985",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0063",
+      "rank": 18,
+      "overview": "免疫の働きによって血小板が減り、出血しやすくなる病気です。青あざ、点状の出血、鼻血などが現れることがあり、血小板数が少なくても症状が目立たない人もいます。",
+      "dailyLife": "出血しやすさの程度は人によって違います。けがを避ける工夫や、出血が長引くときの受診の目安を主治医と共有すると安心です。",
+      "currentState": "血小板数だけでなく出血症状や生活状況を考えて治療します。経過観察のみの場合もあり、必要時にはステロイドや血小板を増やす薬などを用います。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/157",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0084",
+      "rank": 19,
+      "overview": "免疫細胞が集まった肉芽腫という小さな炎症性の組織が、肺やリンパ節、眼、皮膚、心臓などにできる病気です。症状が少ない人もいれば臓器障害が生じる人もいます。",
+      "dailyLife": "咳や息切れ、目の見え方の変化、疲労感などが生活に影響することがあります。どの臓器が影響を受けているかによって必要な通院や生活上の配慮が変わります。",
+      "currentState": "自然に落ち着く例では経過をみることもあります。臓器障害や症状に応じてステロイドなどを使い、心臓や眼の病変を見逃さないための評価が大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/110",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "primary-biliary-cholangitis",
+      "rank": 20,
+      "overview": "肝臓の中にある細い胆管が免疫の異常などによって傷つき、胆汁の流れが悪くなる慢性の病気です。初期は無症状の場合もありますが、かゆみや疲労感が現れることがあります。",
+      "dailyLife": "皮膚のかゆみや強い疲れが睡眠や活動に影響することがあります。症状がなくても検査で分かる場合があり、肝機能を定期的に確かめることが重要です。",
+      "currentState": "胆汁の流れや肝機能を改善するためにウルソデオキシコール酸などを使います。効果や病期に応じて追加治療を検討し、長期的な肝臓の状態を追います。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/93",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0066",
+      "rank": 21,
+      "overview": "腎臓で血液をろ過する糸球体にIgAという抗体を含む免疫複合体が沈着し、炎症が起こる病気です。尿に血液やたんぱくが混じり、長期的に腎機能が低下する場合があります。",
+      "dailyLife": "自覚症状が少なくても尿検査で見つかることがあります。血圧や尿たんぱくの管理、定期検査が将来の腎臓の働きを守るうえで重要です。",
+      "currentState": "腎機能や尿たんぱく、腎生検の結果に応じて、血圧管理や腎臓を守る薬、免疫治療などを検討します。病状ごとの方針が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/41",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0056",
+      "rank": 22,
+      "overview": "口内炎を繰り返すほか、皮膚、目、外陰部などに炎症が起こる全身性の病気です。腸や血管、神経に症状が出ることもあり、人によって障害される臓器が異なります。",
+      "dailyLife": "口内炎の痛みや皮膚症状、目の炎症によって食事や仕事、外出に影響する場合があります。見え方の急な変化や強い腹痛などは早めの受診が大切です。",
+      "currentState": "炎症の部位や重症度に応じ、コルヒチン、ステロイド、免疫調節薬、生物学的製剤などを使います。眼・腸・血管などの症状に応じ専門診療科が協力します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/187",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0222",
+      "rank": 23,
+      "overview": "腎臓の糸球体から大量のたんぱくが尿に漏れ、血液中のたんぱくが減る病気の一群です。むくみや体重増加が現れることがあり、原因となる病型は一つではありません。",
+      "dailyLife": "足やまぶたのむくみ、疲れやすさなどが日常生活に影響します。体重や尿の変化、血圧などを確認しながら、病状に応じて生活上の工夫をします。",
+      "currentState": "病型に応じてステロイドや免疫抑制薬などを使い、尿たんぱくと腎機能を管理します。むくみ、血栓、感染などの合併症への対策も必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/4516",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0022",
+      "rank": 24,
+      "overview": "脳へ血液を送る動脈が狭くなり、その周囲に細い側副血管が発達する脳血管の病気です。一時的な手足の脱力や脳梗塞、脳出血を起こすことがあります。",
+      "dailyLife": "一過性の脱力や頭痛などで生活への配慮が必要な人がいます。症状や手術の前後によって活動上の注意は異なり、一律に生活を制限する病気ではありません。",
+      "currentState": "脳の血流や出血の危険性を検査で評価し、必要に応じて脳血流を増やすバイパス手術などを検討します。年齢や症状により判断が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/47",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0067",
+      "rank": 25,
+      "overview": "腎臓に多数の嚢胞という液体の袋が生じ、長い時間をかけて腎臓の働きが低下することがある病気です。遺伝性の型が多く、血圧が高くなったり血尿が出たりします。",
+      "dailyLife": "腎機能や血圧を定期的に確認することが重要です。腹部の張りや痛みが出ることもあり、仕事や運動の負担は症状に合わせて調整します。",
+      "currentState": "血圧管理や腎臓を守る治療を行い、条件に合う人には嚢胞の増大を抑える薬が検討されます。腎機能が大きく低下した場合は腎代替療法が必要になることもあります。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/146",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    }
+  ]
+}
