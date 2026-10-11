@@ -7,10 +7,15 @@
 <meta name="description" content="見えない病気の星図。これまでに集まった想いと関心の累積記録。毎週月曜更新・A4横印刷対応。">
 <title>これまでの星図 | みんなでつくる見えない病気の星図</title>
 <link rel="stylesheet" href="./cumulative.css?v=3">
+<link rel="stylesheet" href="./weekly-scene.css?v=1">
 <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script defer src="../config.js"></script>
 <script defer src="../admin/analytics.js?v=2"></script>
-<script defer src="./cumulative.js?v=3"></script>
+<script defer src="./cumulative.js?v=4"></script>
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}
+</script>
+<script type="module" src="./weekly-scene.js?v=1"></script>
 </head>
 <body>
 <header class="toolbar">
@@ -76,10 +81,15 @@
           <p class="large-copy" id="featured-question">公開する問いを準備しています。</p>
           
         </section>
-        <section class="story-block">
+        <section class="story-block weekly-growth-block">
           <h3><span class="spark">✧</span> 星図の成長</h3>
           <p class="large-copy" id="growth-summary">今週も、少しずつ。</p>
           <p class="small-note" id="growth-detail">関心が積み重なっています。</p>
+          <div class="weekly-space" id="weekly-space" role="img" aria-label="選択した週までに灯った星を示す3D星図">
+            <p id="weekly-space-status" aria-live="polite">その週の星図を準備しています…</p>
+            <img id="weekly-space-print" alt="その週までの3D星図" hidden>
+          </div>
+          <p class="weekly-space-note"><span id="weekly-space-count">— / 1,241</span> の星に光が灯っています。</p>
         </section>
 
       </div>
