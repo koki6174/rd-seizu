@@ -8,12 +8,14 @@
   <title>見えない病気の星図 | みんなでつくる星図</title>
   <link rel="stylesheet" href="./admin/app.css?v=3">
   <link rel="stylesheet" href="./main-3d.css?v=1">
+  <link rel="stylesheet" href="./disease-guides-ui.css?v=1">
   <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script defer src="./config.js"></script>
   <script defer src="./admin/analytics.js?v=1"></script>
-  <script defer src="./admin/app.js?v=5"></script>
+  <script defer src="./content/disease-guides.js?v=1"></script>
+  <script defer src="./admin/app.js?v=6"></script>
   <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}</script>
-  <script type="module" src="./lab/scene.js?v=4"></script>
+  <script type="module" src="./lab/scene.js?v=7"></script>
 </head>
 <body class="main-3d-home" data-star-scene="taxonomy">
   <header class="header">
@@ -55,6 +57,8 @@
         <span class="info-meta" id="info-group"></span>
         <h3 id="info-name"></h3>
         <p id="info-count"></p>
+        <p class="info-overview" id="info-overview" hidden></p>
+        <a id="read-disease-detail" class="disease-read-link" href="#" hidden>この病気について知る <span aria-hidden="true">→</span></a>
         <div id="info-comments" class="comments"></div>
         <a class="join-link" id="join-selected-star" href="#participation">この星に想いを届ける →</a>
       </section>
@@ -116,6 +120,8 @@
         <div class="auto-disease" id="auto-disease" hidden>
           <span>今日出会う星</span>
           <strong id="auto-disease-name"></strong>
+          <p id="auto-disease-summary" class="auto-disease-summary" hidden></p>
+          <a id="read-auto-disease" class="disease-read-link" href="#" hidden>この病気について知る <span aria-hidden="true">→</span></a>
           <button id="retry-disease" type="button">別の星を見つける ↻</button>
         </div>
         <div class="modal-bottom"><button type="button" class="back" id="back-to-choice">← 戻る</button><button class="cta step-next" type="button" id="to-comment" disabled>次へ →</button></div>
