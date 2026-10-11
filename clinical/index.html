@@ -4,16 +4,31 @@
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
  <meta name="theme-color" content="#080e20">
- <meta name="robots" content="noindex,follow">
+ <meta name="robots" content="noindex,nofollow">
  <meta name="description" content="HPO症状や原因遺伝子の情報を使った研究用3D星図。メインの1,241疾患の星図とは独立した試験表示です。">
  <title>症状のつながり（研究用）| 見えない病気の星図</title>
  <link rel="stylesheet" href="../lab/lab.css?v=3">
+ <style>
+ #clinical-content[hidden],#clinical-access[hidden]{display:none!important}
+ .research-gate{max-width:500px;margin:clamp(54px,8vw,100px) auto;padding:30px;
+  border:1px solid #45677c;border-radius:22px;background:#101f36;color:#e9f6fa}
+ .research-gate h1{font-size:clamp(26px,5vw,34px);line-height:1.4;margin:0 0 14px}
+ .research-gate p{font-size:13px;line-height:1.85;color:#b5cddd}
+ .research-gate label{display:block;font-size:12px;margin:20px 0 7px;color:#bde0ea}
+ .research-gate input{width:100%;padding:12px;border-radius:10px;border:1px solid #627b91;
+  background:#0a152a;color:#f0fbff;font:inherit;min-height:46px}
+ .research-gate button,.research-session button{padding:11px 22px;background:#244960;
+  color:#eafaff;border:1px solid #6c95a6;border-radius:100px;min-height:45px;font:inherit}
+ .research-gate button{margin-top:22px;width:100%}
+ .research-session{display:flex;justify-content:flex-end;align-items:center;gap:12px;
+  margin-top:12px;color:#9ab8c7;font-size:11px}
+ </style>
  <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
  <script defer src="../config.js"></script>
  <script type="importmap">
  {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}
  </script>
- <script type="module" src="../lab/scene.js?v=4"></script>
+ <script type="module" src="../lab/scene.js?v=5"></script>
 </head>
 <body data-star-scene="clinical">
 <header class="topbar">
@@ -21,6 +36,23 @@
  <span class="lab-badge">研究用の配置</span>
 </header>
 <main>
+ <section class="research-gate" id="clinical-access" aria-label="研究用データのアクセス認証">
+  <h1>研究者用ページ</h1>
+  <p>この星図を見るには、登録された管理者アカウントでのログインが必要です。</p>
+  <form id="clinical-login">
+   <label for="research-email">メールアドレス</label>
+   <input id="research-email" type="email" required autocomplete="username">
+   <label for="research-password">パスワード</label>
+   <input id="research-password" type="password" required autocomplete="current-password">
+   <button type="submit" id="research-submit">ログイン</button>
+  </form>
+  <p id="research-login-status" role="status" aria-live="polite">閲覧権限を確認しています…</p>
+ </section>
+ <div id="clinical-content" hidden>
+ <div class="research-session">
+  <span>研究用のデータにアクセス中</span>
+  <button type="button" id="research-logout">ログアウト</button>
+ </div>
  <div class="intro">
   <h1>症状のつながりを、<br><em>星の位置に。</em></h1>
   <p>症状・遺伝子などの情報を使った、研究段階の立体星図です。</p>
@@ -50,6 +82,7 @@
   <span><i class="key share"></i>伝えたい光</span>
   <span><i class="key discover"></i>知りたい光</span>
  </nav>
+</div>
 </main>
 <footer>
  <a href="../">1,241件のメイン星図</a>
