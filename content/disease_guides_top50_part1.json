@@ -20,7 +20,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "潰瘍性大腸炎"
     },
     {
       "id": "mhlw-0006",
@@ -41,7 +42,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "パーキンソン病"
     },
     {
       "id": "mhlw-0049",
@@ -62,7 +64,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "全身性エリテマトーデス"
     },
     {
       "id": "mhlw-0096",
@@ -83,7 +86,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "クローン病"
     },
     {
       "id": "mhlw-0306",
@@ -104,7 +108,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "好酸球性副鼻腔炎"
     },
     {
       "id": "mhlw-0069",
@@ -125,7 +130,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "後縦靱帯骨化症"
     },
     {
       "id": "mhlw-0011",
@@ -146,7 +152,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "重症筋無力症"
     },
     {
       "id": "mhlw-0050",
@@ -167,7 +174,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "皮膚筋炎／多発性筋炎"
     },
     {
       "id": "systemic-sclerosis",
@@ -188,7 +196,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "全身性強皮症"
     },
     {
       "id": "mhlw-0018",
@@ -209,7 +218,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "脊髄小脳変性症(多系統萎縮症を除く。)"
     },
     {
       "id": "mhlw-0013",
@@ -230,7 +240,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "多発性硬化症／視神経脊髄炎"
     },
     {
       "id": "mhlw-0085",
@@ -251,7 +262,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "特発性間質性肺炎"
     },
     {
       "id": "mhlw-0053",
@@ -272,7 +284,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "シェーグレン症候群"
     },
     {
       "id": "mhlw-0090",
@@ -293,7 +306,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "網膜色素変性症"
     },
     {
       "id": "mhlw-0078",
@@ -314,7 +328,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "下垂体前葉機能低下症"
     },
     {
       "id": "mhlw-0071",
@@ -335,7 +350,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "特発性大腿骨頭壊死症"
     },
     {
       "id": "mhlw-0057",
@@ -356,7 +372,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "特発性拡張型心筋症"
     },
     {
       "id": "mhlw-0063",
@@ -377,7 +394,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "免疫性血小板減少症"
     },
     {
       "id": "mhlw-0084",
@@ -398,7 +416,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "サルコイドーシス"
     },
     {
       "id": "primary-biliary-cholangitis",
@@ -419,7 +438,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "原発性胆汁性胆管炎"
     },
     {
       "id": "mhlw-0066",
@@ -440,7 +460,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "IgＡ 腎症"
     },
     {
       "id": "mhlw-0056",
@@ -461,7 +482,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "ベーチェット病"
     },
     {
       "id": "mhlw-0222",
@@ -482,7 +504,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "一次性ネフローゼ症候群"
     },
     {
       "id": "mhlw-0022",
@@ -503,7 +526,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "もやもや病"
     },
     {
       "id": "mhlw-0067",
@@ -524,7 +548,8 @@
         }
       ],
       "reviewStatus": "official_sources_checked_editorial_draft",
-      "reviewedAt": "2026-10-11"
+      "reviewedAt": "2026-10-11",
+      "name": "多発性嚢胞腎"
     }
   ]
 }
