@@ -24,6 +24,7 @@ jobs:
           node --check disease/disease.js
           node --check scripts/validate_disease_guides.cjs
           node --check scripts/validate_disease_guides_extra.cjs
+          node --check scripts/validate_disease_guides_currently_lit.cjs
           node --check admin/analytics.js
           node --check scripts/stage_orpha_hpo_evidence.cjs
           node --check lab/scene.js
@@ -326,6 +327,7 @@ jobs:
         run: |
           node scripts/validate_disease_guides.cjs
           node scripts/validate_disease_guides_extra.cjs
+          node scripts/validate_disease_guides_currently_lit.cjs
 
       - name: Python Japanese article character audit
         run: python scripts/audit_guide_text_lengths.py
