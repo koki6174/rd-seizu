@@ -54,6 +54,26 @@ function showDetails(id,scrollToDetails=true){
  $('info-count').textContent=total
    ?format(total)+'件の想いが届いています。'
    :'この星には、まだ光が灯っていません。';
+ // Optional editorial descriptions are bound strictly to the selected,
+ // illuminated disease ID. Blank the previous result immediately.
+ const intro=$('info-overview'),readLink=$('read-disease-detail');
+ if(intro&&readLink){
+  intro.textContent='';intro.hidden=true;readLink.hidden=true;
+  const selectedId=id;
+  const guides=window.NENONE_DISEASE_GUIDES;
+  if(guides && total>0){
+   guides.get(selectedId).then(record=>{
+    if(!record||$('star-info').hidden||$('info-name').textContent!==star.name)return;
+    // Prevent an earlier async fetch from updating a later star selection.
+    if($('star-info').dataset.selectedId!==selectedId)return;
+    intro.textContent=record.overview.split('。')[0]+'。';
+    intro.hidden=false;
+    readLink.href=guides.href(selectedId);
+    readLink.hidden=false;
+   }).catch(error=>console.warn('Disease text unavailable',error));
+  }
+ }
+ $('star-info').dataset.selectedId=id;
  const comments=$('info-comments');comments.replaceChildren();
  for(const row of (Array.isArray(star.comments)?star.comments:[]).slice(0,5)){
   const value=typeof row?.text==='string'?row.text.trim():'';
