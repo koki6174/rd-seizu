@@ -47,3 +47,43 @@ console.log('PASS: 7 visitor JS modules use no direct HTML/eval sinks.');
 console.log('PASS: comment and disease guides use DOM text APIs; writes only via RPC.');
 console.log('PASS: no service-role key in publishable config; exact browser SDK pin.');
 console.log('PASS: retire unrestricted legacy table and prototype research grants.');
+
+const linkGuard=read('disease/disease.js');
+for(const host of [
+ 'www.nanbyou.or.jp','www.mhlw.go.jp','www.ncchd.go.jp',
+ 'www.shouman.jp','www.ncbi.nlm.nih.gov','www.orpha.net'
+])assert(linkGuard.includes(host),'Unrecognized official reference domain in guide guard');
+assert(linkGuard.includes('approvedHosts.has(url.hostname)'),'Guide hostname allowlist missing');
+assert(linkGuard.includes('url.username || url.password || url.port'),
+ 'Guide URL credential/port redirect checks missing');
+
+for(const html of [
+ 'index.html','weekly/index.html','disease/index.html',
+ 'clinical/index.html','privacy/index.html','admin/index.html','lab/index.html'
+]){
+ assert(read(html).includes('name="referrer" content="no-referrer"'),
+   html+': disease page URL can leak as Referer');
+}
+const evidenceWorkflow=read('.github/workflows/orpha-hpo-evidence.yml');
+assert(evidenceWorkflow.includes('contents: read'),
+ 'Automatic disease evidence collection needs read-only GitHub token');
+assert(!evidenceWorkflow.includes('git push origin HEAD:main'),
+ 'Unreviewed external content must never auto-push to the default branch');
+assert(evidenceWorkflow.includes('persist-credentials: false'),
+ 'Do not persist repository credentials in third-party data staging');
+
+const rateGuard=read('supabase/migrations/047_analytics_ingestion_guardrails.sql');
+for(const clause of [
+ 'pg_advisory_xact_lock','v_recent_count>=60','v_daily_count>=300',
+ 'revoke all on function public.record_exhibition_event',
+ 'grant execute on function public.record_exhibition_event'
+]){
+ assert(rateGuard.includes(clause),'Missing analytics guard: '+clause);
+}
+const smoke=read('scripts/public_browser_smoke.cjs');
+assert(smoke.includes('Public RPC positive control failed'));
+assert(smoke.includes('get_private_clinical_positions'));
+assert(smoke.includes('disease_suggestions?select=id'));
+console.log('PASS: official source link allowlist, no-referrer pages and read-only research staging.');
+console.log('PASS: per-session analytics flood guard and real anonymous API-denial tests configured.');
+
