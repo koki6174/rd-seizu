@@ -1,0 +1,530 @@
+{
+  "part": 2,
+  "records": [
+    {
+      "id": "mhlw-0005",
+      "rank": 26,
+      "overview": "脳の神経細胞にタウというたんぱく質が異常に蓄積することなどに関連する神経変性疾患です。転びやすさ、目を上下に動かしにくい、歩行・発話・飲み込みの問題などが現れます。",
+      "dailyLife": "転倒しやすさや食事中のむせが生活に影響することがあります。周囲の安全確保、移動の補助、飲み込みの評価、家族と支援者の協力が重要です。",
+      "currentState": "病気の進行そのものを止める確立した治療は限られますが、リハビリや症状を和らげる対応を組み合わせます。食事や移動、呼吸・栄養の支援も大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/4114",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0043",
+      "rank": 27,
+      "overview": "毛細血管などの小さな血管に炎症が起こる血管炎です。腎臓や肺、末梢神経などが影響を受け、発熱、だるさ、血尿、息切れなど多様な症状が現れることがあります。",
+      "dailyLife": "疲れやすさだけでなく、腎機能や呼吸状態など目に見えない変化に注意が必要です。治療中の感染予防と定期的な血液・尿検査が生活を支えます。",
+      "currentState": "ステロイドや免疫を抑える薬、必要に応じて分子標的薬などで炎症を抑えます。再発と臓器障害、治療による感染の危険性をあわせて管理します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/86",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0052",
+      "rank": 28,
+      "overview": "全身性エリテマトーデス、強皮症、筋炎などの特徴が重なって現れる自己免疫疾患です。レイノー現象、手指の腫れ、関節痛、筋力低下などがみられることがあります。",
+      "dailyLife": "寒い環境で指先が冷えたり、疲れや痛みで活動を調整したりする必要がある場合があります。息切れなどの変化を含め、複数の臓器の状態をみることが重要です。",
+      "currentState": "炎症や障害される臓器に合わせてステロイド・免疫調節薬などを用います。肺高血圧症や間質性肺疾患などの合併症の確認が大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/105",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0017",
+      "rank": 29,
+      "overview": "神経の働きが徐々に障害され、歩行やバランス、動作の調整、血圧や排尿など自律神経の機能にも影響する神経変性疾患です。症状の組み合わせは病型で異なります。",
+      "dailyLife": "立ちくらみ、ふらつき、排尿の困りごとなど、複数の症状が生活に重なることがあります。転倒予防や移動の工夫、リハビリと支援者の協力が役立ちます。",
+      "currentState": "根本的な進行を止める治療は確立していませんが、動作・血圧・排尿などの症状に応じた薬やリハビリを行います。継続的な生活支援も重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "als",
+      "rank": 30,
+      "overview": "筋肉を動かす運動ニューロンが障害され、手足やのど、呼吸に使う筋肉の力が徐々に弱くなる病気です。進み方や症状の現れ方には個人差があります。",
+      "dailyLife": "話す、食べる、移動する、呼吸することに支援が必要になる人もいます。意思を伝える機器やコミュニケーション支援、生活環境の調整が本人の選択を支えます。",
+      "currentState": "病気の進行を遅らせることを目指す薬や、栄養・呼吸・意思疎通を支える多職種のケアを行います。利用できる治療は病型や地域、時点によって異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/52",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0045",
+      "rank": 31,
+      "overview": "ぜんそくや好酸球の増加と関連して血管に炎症が生じる病気です。鼻の症状、発熱、神経のしびれ、皮膚の変化などが現れ、臓器障害が起きることがあります。",
+      "dailyLife": "ぜんそくの管理に加え、しびれや痛み、体力低下が仕事や移動に影響する場合があります。治療中は体調の変化や感染に注意して通院を続けます。",
+      "currentState": "ステロイドを中心に病状に応じた免疫治療や生物学的製剤などを検討します。心臓や神経などへの影響がないか評価し、再発を防ぐことが重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0060",
+      "rank": 32,
+      "overview": "骨髄で赤血球・白血球・血小板をつくる働きが低下する病気です。貧血による息切れ、感染しやすさ、出血しやすさが現れる場合があります。",
+      "dailyLife": "疲れやすさのほか、発熱や出血への注意が必要です。病状や血球数に応じた活動・感染予防の工夫と、血液検査による確認が役立ちます。",
+      "currentState": "重症度や年齢などに応じ、免疫抑制療法、造血幹細胞移植、輸血などを検討します。感染と出血への対応も治療の一部です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/106",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0028",
+      "rank": 33,
+      "overview": "異常なたんぱく質がアミロイドとして組織に沈着し、心臓、腎臓、神経などの働きを障害する病気の総称です。原因となるたんぱく質や病型によって症状・治療が違います。",
+      "dailyLife": "手足のしびれ、むくみ、息切れ、疲れやすさなどが起こる場合があります。どの臓器が影響を受けているかによって生活上の困りごとも異なります。",
+      "currentState": "病型を正確に診断することが重要です。原因たんぱく質の産生を抑える治療や、障害された臓器を支える治療などを病型に合わせて行います。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/45",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0095",
+      "rank": 34,
+      "overview": "免疫の異常によって肝臓に慢性的な炎症が起こる病気です。だるさや食欲低下が現れることもありますが、自覚症状が少なく血液検査で気付く場合もあります。",
+      "dailyLife": "体調がよくても肝機能の経過を確かめることが大切です。通院や服薬を続けながら、強い疲れや黄疸などの変化を医療者へ伝えます。",
+      "currentState": "ステロイドを中心に肝炎を抑える治療を行い、必要に応じて免疫抑制薬などを使います。炎症の再燃や肝硬変への進行を防ぐため長期管理が必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/113",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0068",
+      "rank": 35,
+      "overview": "背骨にある黄色靱帯が骨のように硬くなり、脊髄や神経を圧迫する病気です。足のしびれや力の入りにくさ、歩きにくさなどが起こることがあります。",
+      "dailyLife": "長い距離を歩くことや階段の昇降が難しくなる場合があります。ふらつきや転倒に注意し、症状の変化を確認しながら生活環境を整えます。",
+      "currentState": "画像検査で圧迫の程度を評価し、症状に合わせて経過をみます。神経障害が進む場合には圧迫を取り除く手術などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/58",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0113",
+      "rank": 36,
+      "overview": "筋肉の働きに関わる遺伝子の変化などによって、筋力低下や筋萎縮が生じる病気の一群です。発症する年齢や影響を受ける筋肉、進行の速さは病型によって異なります。",
+      "dailyLife": "歩行や着替え、食事などで補助が必要になる人がいます。呼吸や心臓の機能にも注意し、本人に合う道具や学校・仕事での環境調整が役立ちます。",
+      "currentState": "病型に応じて心臓・呼吸の管理、リハビリ、薬物療法などを行います。一部の型では原因を標的にした治療もありますが、全病型に共通する治療ではありません。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/4522",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0088",
+      "rank": 37,
+      "overview": "過去にできた血栓などが肺の血管に残り、肺の血流が妨げられて肺動脈の血圧が高くなる病気です。息切れ、疲れやすさ、むくみなどが現れることがあります。",
+      "dailyLife": "階段や坂道での息切れが生活に影響する場合があります。血流や心臓への負担を定期的に調べながら、活動量を個別に調整します。",
+      "currentState": "血液を固まりにくくする治療を基本に、適応があれば肺動脈血栓内膜摘除術やバルーン肺動脈形成術、薬による治療を組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/192",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0271",
+      "rank": 38,
+      "overview": "背骨や骨盤の関節などに慢性的な炎症が起こり、腰や背中の痛み、こわばりが現れる病気です。安静時に痛みが強く、体を動かすと軽くなることがあります。",
+      "dailyLife": "朝のこわばりや睡眠中の痛みが学校・仕事に影響する場合があります。体の動きを保つ運動や姿勢の工夫、無理のない活動の継続が大切です。",
+      "currentState": "炎症や痛みを抑える薬、運動・理学療法などを行います。症状が続く場合は、生物学的製剤などが適応になることがあります。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0014",
+      "rank": 39,
+      "overview": "末梢神経の髄鞘などが免疫によって障害され、手足の力が弱くなる病気をまとめた指定難病名です。CIDPと多巣性運動ニューロパチーは症状や治療に違いがあります。",
+      "dailyLife": "階段の昇降やボタンを留めるなどの動作が難しくなる場合があります。歩行の安全や生活動作を保つため、症状に合わせた補助具やリハビリが役立ちます。",
+      "currentState": "免疫グロブリン療法などを病型に応じて用います。CIDPではステロイド等が使われることもありますが、MMNでは有効性が異なるため、鑑別が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/4089",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0054",
+      "rank": 40,
+      "overview": "全身に強い炎症が起こり、発熱、関節痛、発疹などを生じる病気です。症状の組み合わせはさまざまで、関節や内臓に影響することもあります。",
+      "dailyLife": "熱や関節の痛み、疲労感が続くと日常活動が難しくなることがあります。症状の変化や感染との見分けが大切で、定期的な検査と休息の調整が役立ちます。",
+      "currentState": "炎症を抑えるためにステロイドや免疫調節薬、生物学的製剤などを病状に応じて使います。強い全身炎症などの合併症への対応が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/132",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "pulmonary-arterial-hypertension",
+      "rank": 41,
+      "overview": "肺の細い動脈の血圧が高くなり、右心臓に負担がかかる病気です。運動時の息切れ、疲労感、めまいなどが現れることがあります。",
+      "dailyLife": "坂道や階段での息切れが外出や仕事の負担になる場合があります。体調や酸素の状態に合わせた活動調整が必要で、病状によって注意点が異なります。",
+      "currentState": "肺血管に作用する複数の種類の薬を組み合わせるなど、専門施設で治療を行います。病状に応じて酸素療法や移植などを検討する場合もあります。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/171",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0040",
+      "rank": 42,
+      "overview": "大動脈やその枝に炎症が起こり、血管が狭くなったり広がったりする病気です。全身のだるさ、発熱、手足の血流不足、血圧の左右差などが現れることがあります。",
+      "dailyLife": "疲れやすさや手足の痛み、めまいなどが生活に影響する場合があります。血圧や血管の状態を定期的に確認し、症状に合わせて活動を調整します。",
+      "currentState": "ステロイドや免疫を調整する薬などで炎症を抑えます。血管の狭窄や動脈瘤などが進む場合は血管治療を検討し、継続的に画像で観察します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/141",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0070",
+      "rank": 43,
+      "overview": "背骨の中で神経が通る脊柱管が広い範囲にわたって狭くなり、脊髄や神経を圧迫する病気です。しびれ、歩行障害、手足の動かしにくさなどを生じる場合があります。",
+      "dailyLife": "歩く距離が短くなったり、長く立つことが難しくなったりすることがあります。転倒防止や移動の工夫、休憩を取り入れることが生活の助けになります。",
+      "currentState": "圧迫の部位と症状に応じて保存的な治療やリハビリを行います。神経症状が強い場合や進む場合には手術を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/101",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0046",
+      "rank": 44,
+      "overview": "関節リウマチに伴って血管や内臓などにも強い炎症が及び、さまざまな臓器症状が生じる病気です。関節以外に皮膚、神経、肺などが障害されることがあります。",
+      "dailyLife": "関節の痛みに加えて疲労感やしびれ、皮膚の傷などが生活に影響する場合があります。治療中の感染や臓器症状の変化にも注意が必要です。",
+      "currentState": "炎症の程度や臓器の障害に応じ、ステロイドや免疫抑制薬などを用います。関節と全身の病状をともに確認し、多診療科で治療する場合があります。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/43",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0300",
+      "rank": 45,
+      "overview": "IgG4という抗体に関係する免疫反応が多様な臓器に起こり、腫れや線維化を生じる病気の一群です。膵臓、唾液腺、涙腺、腎臓などに病変が生じることがあります。",
+      "dailyLife": "臓器の腫れによる不快感や機能低下が生活に影響する場合があります。症状が軽くても臓器の状態を追う必要があり、通院先が複数になることもあります。",
+      "currentState": "障害された臓器と重症度を評価してステロイドなどの治療を検討します。似た症状を示す他の病気との鑑別や、治療後の再燃確認が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/4504",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0058",
+      "rank": 46,
+      "overview": "心臓の筋肉が厚くなり、血液を送り出す働きや心臓内の血流に影響することがある病気です。症状がない人もいますが、息切れ、胸痛、動悸などが現れる場合があります。",
+      "dailyLife": "運動時の息切れや動悸に注意が必要で、活動の制限の程度は病型・不整脈リスクなどによって異なります。家族の検査を勧められることもあります。",
+      "currentState": "症状を抑える薬や不整脈予防、流出路の狭さに対する治療などを状態に応じて行います。心臓の画像検査とリスク評価を続けることが重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/177",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0007",
+      "rank": 47,
+      "overview": "脳の特定の神経細胞の働きが障害され、体の片側の動かしにくさ、筋肉のこわばり、ぎこちない動作などが現れる神経変性疾患です。認知や言語の変化を伴うこともあります。",
+      "dailyLife": "片手の細かな作業、歩行、着替えなどが難しくなり、支援が必要になる場合があります。転倒予防や本人のペースに合わせた環境調整が重要です。",
+      "currentState": "病気を根本的に止める確立した治療は限られますが、運動症状の緩和、リハビリ、生活支援を組み合わせます。症状の特徴を評価し続けます。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/142",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0077",
+      "rank": 48,
+      "overview": "下垂体から成長ホルモンが過剰に分泌される病気です。成人では手足や顔貌の変化、関節の痛み、睡眠時の呼吸障害などが起こることがあり、子どもでは高身長につながります。",
+      "dailyLife": "手足のサイズの変化や頭痛、関節症状などが生活に影響する場合があります。糖代謝や血圧、睡眠などの検査を続けることも重要です。",
+      "currentState": "原因となる下垂体腫瘍への手術が治療の中心となる場合があります。残った病変やホルモンの状態に応じて薬や放射線治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/3922",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0162",
+      "rank": 49,
+      "overview": "皮膚や粘膜に対する自己抗体などによって、水ぶくれやただれができる病気の一群です。強いかゆみが現れることもあり、病型によって病変の場所や経過が異なります。",
+      "dailyLife": "水ぶくれや傷、かゆみが着替え、入浴、睡眠に影響することがあります。皮膚を保護するケアや、感染を防ぐための処置が生活の助けになります。",
+      "currentState": "病型と重症度に応じて外用・内服のステロイドや免疫治療などを使います。皮膚の傷を保護し、薬の副作用と治癒の状況を確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/4525",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    },
+    {
+      "id": "mhlw-0034",
+      "rank": 50,
+      "overview": "神経に関係する組織に腫瘍などができる遺伝性疾患の総称で、神経線維腫症1型と2型関連の疾患では原因や主な症状が異なります。皮膚や神経、聴覚などに影響することがあります。",
+      "dailyLife": "皮膚の変化、痛み、聴こえや視力の変化など、困りごとは病型によって大きく異なります。成長や学習面の支援が必要な人もおり、個別の配慮が大切です。",
+      "currentState": "病型を特定して必要な臓器や腫瘍を定期的に評価します。手術や症状への対応、一部の病型・病変に対する薬物治療などを状況に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病気の解説（一般利用者向け）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：2026年4月時点の指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_sources_checked_editorial_draft",
+      "reviewedAt": "2026-10-11"
+    }
+  ]
+}
