@@ -209,14 +209,15 @@ function initScene(initialData,mode='taxonomy'){
  // A bfcache navigation preserves the WebGL context and camera position.
  // Do not dispose on pagehide.persisted: iOS Safari would otherwise restore
  // an empty scene and the old workaround forced a page reload.
- window.addEventListener('pagehide',event=>{
+ window.addEventListener('pagehide',function cleanupScene(event){
   if(event.persisted)return;
   disposed=true;resizeObserver.disconnect();
   controls.dispose();
   texture.dispose();
   for(const object of objects){object.geometry.dispose();object.material.dispose();}
   renderer.dispose();
- },{once:true});
+  window.removeEventListener('pagehide',cleanupScene);
+ });
  window.addEventListener('pageshow',event=>{
   if(event.persisted && !disposed) resize();
  });
