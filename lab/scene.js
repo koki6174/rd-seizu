@@ -163,7 +163,6 @@ function initScene(initialData,mode='taxonomy'){
  $('reset-view').addEventListener('click',()=>{
   camera.position.set(0,1.2,mode==='clinical'?13:25);controls.target.set(0,0,0);controls.update();
  });
- const motionButton=$('toggle-motion');
  motionButton.addEventListener('click',()=>{
   auto=!auto;controls.autoRotate=auto;
   motionButton.setAttribute('aria-pressed',String(auto));
