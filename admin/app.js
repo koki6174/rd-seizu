@@ -78,10 +78,18 @@
   }
   function renderStars() {
     const stars = state.stars.filter(s=>total(s)>0).sort((a,b)=>a.id.localeCompare(b.id));
-    $('empty-stars').hidden = stars.length>0;
+    if ($('empty-stars')) $('empty-stars').hidden = stars.length>0;
     $('total-stars').textContent = format(stars.length);
     $('total-entries').textContent = format(state.stars.reduce((n,s)=>n+total(s),0));
-    $('map-status').textContent = stars.length + ' 個の星が見えています';
+    $('map-status').textContent = stars.length + ' 個の星に光が灯っています';
+    // Main / page displays all 1,241 catalog stars in the shared 3D scene;
+    // keep the original 2D renderer only for legacy pages that include a star layer.
+    if (document.body.dataset.starScene === 'taxonomy') {
+      window.dispatchEvent(new CustomEvent('nenone:stars-updated', {
+        detail: {stars:state.stars}
+      }));
+      return;
+    }
     const layer = $('star-layer'); layer.replaceChildren();
     stars.forEach((star,index) => {
       const [x,y] = starPoint(index,stars.length);
@@ -384,7 +392,7 @@
     }));
     $('submit-entry').addEventListener('click',submit);
     $('finish-flow').addEventListener('click',closeFlow);
-    $('close-star').addEventListener('click',closeStar);
+    $('close-star')?.addEventListener('click',closeStar);
     document.addEventListener('visibilitychange',()=>{if(!document.hidden){refreshStatus();refreshSky();}});
     setInterval(()=>{
       if(!document.hidden){refreshStatus();refreshSky();}
