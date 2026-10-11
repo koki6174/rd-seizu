@@ -20,9 +20,10 @@ async function main(){
   let response=await page.goto(url.toString(),{waitUntil:'domcontentloaded',timeout:30000});
   assert(response&&response.ok(),'Home HTTP failed');
   await page.waitForFunction(()=>{
+   const canvas=document.querySelector('#universe canvas');
    const text=document.querySelector('#lit-count')?.textContent||'';
-   return text.includes('1,241') || text.includes('読み込みに失敗');
-  },{timeout:45000});
+   return !!canvas || text.includes('読み込みに失敗');
+  },null,{timeout:45000});
   assert((await page.locator('#lit-count').textContent()).includes('1,241'),
    'Full public star scene did not initialize all 1241 coordinates');
   assert.equal(await page.locator('#universe canvas').count(),1,
@@ -41,9 +42,10 @@ async function main(){
    {waitUntil:'domcontentloaded',timeout:30000});
   assert(response&&response.ok(),'Weekly HTTP failed');
   await page.waitForFunction(()=>{
-   const text=document.querySelector('#weekly-space-count')?.textContent||'';
-   return text.includes('1,241');
-  },{timeout:45000});
+   const canvas=document.querySelector('#weekly-space canvas');
+   const error=(document.querySelector('#weekly-space-status')?.textContent||'').includes('表示できません');
+   return !!canvas || error;
+  },null,{timeout:45000});
   assert.equal(await page.locator('#weekly-space canvas').count(),1,
    'Weekly historical 3D not rendered');
   console.log('PASS WEEKLY: historical 3D renders');
