@@ -30,6 +30,33 @@ async function main(){
    '3D home canvas missing');
   console.log('PASS HOME: full taxonomy 1241 points render');
 
+  // Reproduce the user journey without posting anything to the database:
+  // random discovery -> educational article -> browser Back -> same star -> Next.
+  await page.locator('#open-form:not([disabled])').waitFor({timeout:15000});
+  await page.locator('#open-form').click();
+  await page.locator('#path-discover').click();
+  await page.locator('#read-auto-disease:not([hidden])').waitFor({timeout:20000});
+  const chosen=await page.locator('#auto-disease-name').textContent();
+  assert(chosen?.trim(),'Random disease not selected');
+  assert.equal(await page.locator('#to-comment').isEnabled(),true,
+   'Next should be available before reading about a disease');
+  await Promise.all([
+   page.waitForURL(url=>url.pathname.endsWith('/disease/') && url.searchParams.has('id'),{timeout:18000}),
+   page.locator('#read-auto-disease').click()
+  ]);
+  await page.locator('#disease-content:not([hidden])').waitFor({timeout:12000});
+  await page.goBack({waitUntil:'domcontentloaded',timeout:30000});
+  await page.locator('#flow-modal[open]').waitFor({timeout:25000});
+  assert.equal((await page.locator('#auto-disease-name').textContent()).trim(),
+   chosen.trim(),'Returning from the article picked a different random disease');
+  assert.equal(await page.locator('#to-comment').isEnabled(),true,
+   'Next must be enabled after browser Back');
+  await page.locator('#to-comment').click();
+  assert.equal((await page.locator('#selected-disease-name').textContent()).trim(),
+   chosen.trim(),'Next did not preserve the selected disease');
+  await page.locator('#exit-flow').click();
+  console.log('PASS BACK: discovered disease and enabled Next persist across article navigation');
+
   response=await page.goto(new URL('disease/?id=fabry-disease',base).toString(),
    {waitUntil:'domcontentloaded',timeout:30000});
   assert(response&&response.ok(),'Disease article HTTP failed');

@@ -206,13 +206,21 @@ function initScene(initialData,mode='taxonomy'){
   renderer.render(scene,camera);
  };
  requestAnimationFrame(animate);
- window.addEventListener('pagehide',()=>{
+ // A bfcache navigation preserves the WebGL context and camera position.
+ // Do not dispose on pagehide.persisted: iOS Safari would otherwise restore
+ // an empty scene and the old workaround forced a page reload.
+ window.addEventListener('pagehide',function cleanupScene(event){
+  if(event.persisted)return;
   disposed=true;resizeObserver.disconnect();
   controls.dispose();
   texture.dispose();
   for(const object of objects){object.geometry.dispose();object.material.dispose();}
   renderer.dispose();
- },{once:true});
+  window.removeEventListener('pagehide',cleanupScene);
+ });
+ window.addEventListener('pageshow',event=>{
+  if(event.persisted && !disposed) resize();
+ });
 }
 async function boot(){
  const client=window.supabase&&cfg.supabaseUrl&&cfg.supabasePublishableKey
@@ -299,5 +307,5 @@ boot().catch(error=>{
  counter.textContent='読み込みに失敗しました';
 });
 
-// Safari may restore the disposed WebGL canvas from the back/forward cache.
-window.addEventListener('pageshow',event=>{if(event.persisted)location.reload();});
+// Browsers with no bfcache will initialize a fresh scene normally.
+// The participant modal's selected disease is restored separately.

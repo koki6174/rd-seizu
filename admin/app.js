@@ -7,6 +7,10 @@
     ? window.supabase.createClient(config.supabaseUrl, config.supabasePublishableKey)
     : null;
   const DEVICE_KEY = 'nenone-constellation-device-v2';
+  // This browser-tab-only draft holds a disease ID and participation route,
+  // never visitor identity, free-text comments, tokens or medical history.
+  const GUIDE_RETURN_KEY = 'nenone-guide-return-v1';
+  const GUIDE_RETURN_MAX_AGE = 30 * 60 * 1000;
   const analytics = () => window.NENONE_ANALYTICS;
   let noResultLogged = false;
   let suggestionPending = false;
@@ -33,8 +37,71 @@
       return null;
     }
   }
+  function clearGuideReturn() {
+    try { sessionStorage.removeItem(GUIDE_RETURN_KEY); } catch {}
+  }
+  function rememberGuideReturn(diseaseId,kind) {
+    if(state.submitted || !['share','discover'].includes(kind) ||
+       !state.stars.some(s=>s.id===diseaseId)) return;
+    try {
+      sessionStorage.setItem(GUIDE_RETURN_KEY,JSON.stringify({
+        diseaseId, kind, day:jstDay(), savedAt:Date.now()
+      }));
+    } catch {
+      // Safari/private mode may reject storage; allow navigation anyway.
+    }
+  }
+  function restoreGuideReturn() {
+    let saved;
+    try { saved=JSON.parse(sessionStorage.getItem(GUIDE_RETURN_KEY)||'null'); }
+    catch {clearGuideReturn();return;}
+    if(!saved) return;
+    const valid=Number.isFinite(saved.savedAt) && Date.now()>=saved.savedAt
+      && Date.now()-saved.savedAt<GUIDE_RETURN_MAX_AGE
+      && saved.day===jstDay() && ['share','discover'].includes(saved.kind);
+    if(!valid || state.submitted) {clearGuideReturn();return;}
+    if(!client || !state.token || !state.stars.length) return;
+    const star=state.stars.find(s=>s.id===saved.diseaseId);
+    if(!star) {clearGuideReturn();return;}
+    // bfcache restores the *existing* open modal; an ordinary navigation
+    // creates a new document and needs the form reconstructed from the ID.
+    if($('flow-modal').open){clearGuideReturn();return;}
+    state.kind=saved.kind;
+    state.disease=star.id;
+    const isShare=state.kind==='share';
+    $('disease-step-title').textContent=isShare?'想いを届けたい病気は？':'新しい星に出会おう。';
+    $('disease-step-description').textContent='解説から戻りました。選んだ星から続けられます。';
+    $('disease-search-wrap').hidden=!isShare;
+    $('auto-disease').hidden=isShare;
+    $('suggest-panel').hidden=true;
+    $('to-comment').disabled=false;
+    if(isShare){
+      $('disease-search').value=star.name;
+      filterDisease(star.name);
+    }else{
+      $('auto-disease-name').textContent=star.name;
+      $('retry-disease').disabled=false;
+      $('auto-disease-summary').textContent='';
+      $('auto-disease-summary').hidden=true;
+      $('read-auto-disease').hidden=true;
+      const guides=window.NENONE_DISEASE_GUIDES;
+      if(guides){
+        guides.get(star.id).then(record=>{
+          if(!record || state.kind!=='discover' || state.disease!==star.id)return;
+          $('auto-disease-summary').textContent=record.overview.split('。')[0]+'。';
+          $('auto-disease-summary').hidden=false;
+          const link=$('read-auto-disease');
+          link.href=guides.href(star.id);link.hidden=false;
+        }).catch(()=>{});
+      }
+    }
+    showStep('disease');
+    $('flow-modal').showModal();
+    clearGuideReturn();
+  }
   function setSubmitted(value) {
     state.submitted = !!value;
+    if(value) clearGuideReturn();
     $('open-form').disabled = !client || !state.token || value;
     $('open-form').textContent = value ? '今日は参加済みです ✓' : '星をひとつ灯す ✦';
     announce(value
@@ -333,6 +400,7 @@
     }
   }
   function closeFlow() {
+    clearGuideReturn();
     $('flow-modal').close();
     analytics()?.exitFlow();
   }
@@ -415,6 +483,18 @@
       state.disease=null;$('to-comment').disabled=true;filterDisease(event.target.value);
     });
     $('retry-disease').addEventListener('click',pickNewStar);
+    // Links remain ordinary same-tab links: the browser Back button returns
+    // to the exact selected disease even if Safari discards bfcache.
+    $('read-auto-disease').addEventListener('click',event=>{
+      if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||event.button!==0)return;
+      if(state.kind==='discover' && state.disease)
+        rememberGuideReturn(state.disease,'discover');
+    });
+    $('read-disease-detail')?.addEventListener('click',event=>{
+      if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||event.button!==0)return;
+      const diseaseId=$('star-info')?.dataset.selectedId;
+      if(diseaseId) rememberGuideReturn(diseaseId,'share');
+    });
     $('back-to-choice').addEventListener('click',()=>showStep('choose'));
     $('back-to-disease').addEventListener('click',()=>showStep('disease'));
     $('to-comment').addEventListener('click',moveToComment);
@@ -437,7 +517,16 @@
       }
     });
     $('close-star')?.addEventListener('click',closeStar);
-    document.addEventListener('visibilitychange',()=>{if(!document.hidden){refreshStatus();refreshSky();}});
+    document.addEventListener('visibilitychange',()=>{
+      if(!document.hidden){refreshStatus();refreshSky();}
+    });
+    window.addEventListener('pageshow',event=>{
+      if(!event.persisted)return;
+      refreshStatus().then(()=>{
+        restoreGuideReturn();
+        return refreshSky();
+      });
+    });
     setInterval(()=>{
       if(!document.hidden){refreshStatus();refreshSky();}
     },120000);
@@ -451,6 +540,7 @@
       return;
     }
     await Promise.all([refreshSky(),refreshStatus()]);
+    restoreGuideReturn();
   }
   init().catch(error=>{console.error(error);announce('初期化に失敗しました。ページを再読み込みしてください。');});
 })();
