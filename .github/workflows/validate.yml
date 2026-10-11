@@ -21,6 +21,7 @@ jobs:
           node --check weekly/weekly-scene.js
           node --check admin/app.js
           node --check scripts/security_static_checks.cjs
+          node --check scripts/public_browser_smoke.cjs
           node --check content/disease-guides.js
           node --check disease/disease.js
           node --check scripts/validate_disease_guides.cjs
