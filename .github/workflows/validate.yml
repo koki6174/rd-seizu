@@ -324,3 +324,6 @@ jobs:
       - name: Source-linked discovery top-50 article checks
         run: |
           node scripts/validate_disease_guides.cjs
+
+      - name: Python Japanese article character audit
+        run: python scripts/audit_guide_text_lengths.py
