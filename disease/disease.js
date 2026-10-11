@@ -22,9 +22,19 @@
   $('disease-living').textContent=record.dailyLife;
   $('disease-treatment').textContent=record.currentState;
   const ul=$('disease-sources');ul.replaceChildren();
+  // Editorial JSON is data, not authority to send readers to arbitrary sites.
+  // Even a future AI/import pipeline must not turn references into phishing links.
+  const approvedHosts=new Set([
+   'www.nanbyou.or.jp','www.mhlw.go.jp','www.ncchd.go.jp',
+   'www.shouman.jp','www.ncbi.nlm.nih.gov','www.orpha.net'
+  ]);
   for(const source of record.references){
    let url;
-   try{url=new URL(source.url);if(url.protocol!=='https:')continue;}catch{continue;}
+   try{
+    url=new URL(source.url);
+    if(url.protocol!=='https:' || !approvedHosts.has(url.hostname)
+       || url.username || url.password || url.port)continue;
+   }catch{continue;}
    const li=document.createElement('li'),a=document.createElement('a');
    a.href=url.toString();a.target='_blank';a.rel='noopener noreferrer';
    a.textContent=source.title+' ↗';
