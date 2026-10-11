@@ -36,7 +36,7 @@ function createCloud(items,color,size,texture,opacity=1){
  scene.add(cloud);objects.push(cloud);
  return cloud;
 }
-function showDetails(id){
+function showDetails(id,scrollToDetails=true){
  const star=starData.get(id);
  if(!star)return;
  $('star-info').hidden=false;
@@ -53,39 +53,37 @@ function showDetails(id){
   const bubble=document.createElement('span');bubble.textContent=value;
   comments.append(bubble);
  }
- $('star-info').scrollIntoView({block:'nearest',behavior:reduceMotion?'instant':'smooth'});
+ if(scrollToDetails) $('star-info').scrollIntoView({block:'nearest',behavior:reduceMotion?'instant':'smooth'});
 }
-function initScene(data,clinicalData=[]){
+function initScene(initialData,mode='taxonomy'){
  scene=new THREE.Scene();
  camera=new THREE.PerspectiveCamera(45,1,.1,90);
- camera.position.set(0,1.2,25);
+ camera.position.set(0,1.2,mode==='clinical'?13:25);
  renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,powerPreference:'low-power'});
  renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));
  renderer.outputColorSpace=THREE.SRGBColorSpace;
  mount.prepend(renderer.domElement);
+ renderer.domElement.setAttribute('role','img');
+ renderer.domElement.setAttribute('aria-label',
+   mode==='clinical'?'症状・遺伝子に基づく研究用3D星図':'全1,241疾患の回転できる3D星図');
  controls=new OrbitControls(camera,renderer.domElement);
  controls.enableDamping=true;controls.dampingFactor=.065;
  controls.enablePan=false;controls.minDistance=9;controls.maxDistance=40;
- controls.autoRotate=false;controls.autoRotateSpeed=2.5;
+ controls.autoRotate=!reduceMotion;controls.autoRotateSpeed=2.5;
  controls.rotateSpeed=1.35;
+ auto=controls.autoRotate;
+ const motionButton=$('toggle-motion');
+ motionButton.setAttribute('aria-pressed',String(auto));
+ motionButton.textContent=auto?'回転を止める':'回転を開始';
  const texture=spriteTexture();
- let mode='taxonomy';
- const modeDefault=$('mode-taxonomy'),modeClinical=$('mode-clinical');
- const clinicalReady=clinicalData.length>=4;
- modeClinical.disabled=!clinicalReady;
- if(!clinicalReady) modeClinical.title='臨床データを準備しています';
- function drawDataset(records,nextMode) {
-  mode=nextMode;
+ let lastSelection=null;
+ function drawDataset(records,resetCamera=false) {
   for(const o of objects) {
    scene.remove(o);
    o.geometry.dispose();
    o.material.dispose();
   }
-  objects=[];
-  starData.clear();
-  $('star-info').hidden=true;
-  modeDefault.setAttribute('aria-pressed',String(mode==='taxonomy'));
-  modeClinical.setAttribute('aria-pressed',String(mode==='clinical'));
+  objects=[];starData.clear();
   const points={unlit:[],share:[],discover:[],mixed:[]};
   for(const d of records) {
    const total=Math.max(0,Number(d.total)||0);
@@ -96,23 +94,40 @@ function initScene(data,clinicalData=[]){
   }
   createCloud(points.unlit,'#4d5c73',.29,texture,.54);
   const colors={share:'#ffc6ad',discover:'#99e4ff',mixed:'#dcb6ff'};
-  for(const type of ['share','discover','mixed']){
+  for(const type of ['share','discover','mixed']) {
    const items=points[type];
    createCloud(items,colors[type],.63,texture,.75);
    if(items.length)createCloud(items,colors[type],.28,texture,1);
   }
   const lit=records.filter(d=>Number(d.total)>0).length;
   counter.textContent=format(lit)+' / '+format(records.length)+' 個の星';
-  $('mode-explanation').textContent=mode==='clinical'
-   ?`症状・遺伝子情報に基づく${format(clinicalData.length)}疾患の試験的配置。医療上の近さを保証するものではありません。`
-   :'分類情報に基づいた1,241個の星。';
-  camera.position.set(0,1.2,mode==='clinical'?13:25);
-  controls.target.set(0,0,0);
-  controls.update();
+  if($('mode-explanation')){
+   $('mode-explanation').textContent=mode==='clinical'
+    ?'症状・遺伝子情報から計算した'+format(records.length)+'疾患の研究用配置。'
+    :'分類情報に基づいた'+format(records.length)+'個の星。';
+  }
+  if(resetCamera){
+   camera.position.set(0,1.2,mode==='clinical'?13:25);
+   controls.target.set(0,0,0);
+   controls.update();
+  }
+  if(lastSelection && starData.has(lastSelection)) showDetails(lastSelection,false);
+  else $('star-info').hidden=true;
  }
- modeDefault.addEventListener('click',()=>drawDataset(data,'taxonomy'));
- if(clinicalReady) modeClinical.addEventListener('click',()=>drawDataset(clinicalData,'clinical'));
- drawDataset(data,'taxonomy');
+ drawDataset(initialData,true);
+ // The public participation form dispatches refreshed star counts after submission.
+ // Update color/glow without resetting the user's chosen 3D view.
+ if(mode==='taxonomy'){
+  window.addEventListener('nenone:stars-updated',event=>{
+   const refreshed=event.detail?.stars;
+   if(!Array.isArray(refreshed)||!refreshed.length||disposed)return;
+   const updated=new Map(refreshed.map(x=>[x.id,x]));
+   drawDataset(initialData.map(original=>{
+    const latest=updated.get(original.id);
+    return latest?{...original,...latest,position:original.position}:original;
+   }));
+  });
+ }
  const raycaster=new THREE.Raycaster();
  raycaster.params.Points.threshold=.32;
  const pointer=new THREE.Vector2();
@@ -131,7 +146,7 @@ function initScene(data,clinicalData=[]){
   const collisions=raycaster.intersectObjects(objects,false);
   for(const item of collisions){
    const id=item.object.userData.itemIds?.[item.index];
-   if(id){showDetails(id);break;}
+   if(id){lastSelection=id;showDetails(id);break;}
   }
  });
  const resize=()=>{
@@ -148,7 +163,6 @@ function initScene(data,clinicalData=[]){
  $('reset-view').addEventListener('click',()=>{
   camera.position.set(0,1.2,mode==='clinical'?13:25);controls.target.set(0,0,0);controls.update();
  });
- const motionButton=$('toggle-motion');
  motionButton.addEventListener('click',()=>{
   auto=!auto;controls.autoRotate=auto;
   motionButton.setAttribute('aria-pressed',String(auto));
@@ -176,10 +190,13 @@ async function boot(){
   ?window.supabase.createClient(cfg.supabaseUrl,cfg.supabasePublishableKey):null;
  if(!client)throw new Error('Supabase is unavailable');
  if(typeof WebGLRenderingContext==='undefined')throw new Error('WebGL unavailable');
- const [starsRes,coordsRes,clinicalRes]=await Promise.all([
-  client.rpc('get_public_stars'),
-  client.rpc('get_constellation_positions'),
-  client.rpc('get_clinical_pilot_positions')
+ const mode=document.body.dataset.starScene==='clinical'?'clinical':'taxonomy';
+ // Pages are separate on purpose: the public home never fetches the
+ // unpublished medical research coordinates, and clinical never fetches all
+ // 1,241 taxonomy coordinates.
+ const coordsRpc=mode==='clinical'?'get_clinical_pilot_positions':'get_constellation_positions';
+ const [starsRes,coordsRes]=await Promise.all([
+  client.rpc('get_public_stars'),client.rpc(coordsRpc)
  ]);
  if(starsRes.error)throw starsRes.error;
  if(coordsRes.error)throw coordsRes.error;
@@ -188,27 +205,27 @@ async function boot(){
  if(!stars.length||!positions.length)throw new Error('Empty constellation data');
  const info=new Map(stars.map(d=>[d.id,d]));
  const data=positions.map(p=>{
-  const s=info.get(p.id);
-  if(!s)return null;
+  const star=info.get(p.id);
+  if(!star)return null;
   const v=[Number(p.x),Number(p.y),Number(p.z)];
   if(!v.every(Number.isFinite))return null;
-  return {...s,cluster:p.cluster,position:{x:v[0],y:v[1],z:v[2]}};
+  return {...star,
+   cluster:mode==='clinical'?'HPO症状・原因遺伝子（研究用）':p.cluster,
+   position:{x:v[0],y:v[1],z:v[2]}};
  }).filter(Boolean);
  if(!data.length)throw new Error('No valid coordinate match');
- const clinicalCoords=Array.isArray(clinicalRes?.data)?clinicalRes.data:[];
- const clinical=clinicalCoords.map(p=>{
-  const s=info.get(p.id);
-  if(!s)return null;
-  const v=[Number(p.x),Number(p.y),Number(p.z)];
-  if(!v.every(Number.isFinite))return null;
-  return {...s,cluster:'HPO症状・原因遺伝子（試験）',
-    position:{x:v[0],y:v[1],z:v[2]}};
- }).filter(Boolean);
+ // Prevent an accidental partial 1241-disease view being mistaken for the
+ // complete constellation; clinical is intentionally a smaller cohort.
+ if(mode==='taxonomy'&&data.length!==1241)
+  throw new Error('Full constellation is incomplete: '+data.length+'/1241');
  message.textContent='';
- initScene(data,clinical);
+ initScene(data,mode);
 }
 boot().catch(error=>{
  console.error('3D星図の読み込みに失敗:',error);
- message.textContent='立体表示を読み込めませんでした。通常の星図をご利用ください。';
+ message.textContent='立体星図を読み込めませんでした。通信状況を確認して再読み込みしてください。';
  counter.textContent='読み込みに失敗しました';
 });
+
+// Safari may restore the disposed WebGL canvas from the back/forward cache.
+window.addEventListener('pageshow',event=>{if(event.persisted)location.reload();});

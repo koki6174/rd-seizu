@@ -69,15 +69,30 @@ jobs:
                   if 'id' in a: self.ids.add(a['id'])
                   if tag in ('script','link') and a.get('src',a.get('href','')).startswith(('./','../')):
                       self.references.append(a.get('src',a.get('href')).split('?')[0])
-          for f in ['index.html','admin/index.html','weekly/index.html','privacy/index.html','lab/index.html']:
+          for f in ['index.html','admin/index.html','weekly/index.html','privacy/index.html','lab/index.html','clinical/index.html']:
               parser=Collector();parser.feed(Path(f).read_text())
               for ref in parser.references:
                   assert (Path(f).parent/ref).resolve().is_file(), f'{f}: missing {ref}'
-          parser=Collector();parser.feed(Path('admin/index.html').read_text())
+          parser=Collector();parser.feed(Path('index.html').read_text())
           for required in ['flow-modal','suggest-toggle','suggest-panel','suggest-name','suggest-send',
                            'suggest-status','open-form','step-disease','thought-text','finish-flow']:
               assert required in parser.ids, f'missing {required}'
-          print('Exhibition navigation and dynamic UI controls: OK')
+          for required in ['universe','reset-view','toggle-motion','lit-count',
+                           'star-info','info-name','info-comments','map-status']:
+              assert required in parser.ids, f'missing 3D main control {required}'
+          assert 'data-star-scene="taxonomy"' in Path('index.html').read_text()
+          research=Path('clinical/index.html').read_text()
+          assert 'data-star-scene="clinical"' in research
+          assert 'mode-taxonomy' not in research and 'mode-clinical' not in research
+          assert 'mode-clinical' not in Path('index.html').read_text()
+          assert 'data-star-scene' not in Path('lab/index.html').read_text()
+          assert 'url=../' in Path('lab/index.html').read_text()
+          assert 'url=../#participation' in Path('admin/index.html').read_text()
+          shared=Path('lab/scene.js').read_text()
+          assert "mode==='clinical'?'get_clinical_pilot_positions':'get_constellation_positions'" in shared
+          assert "data.length!==1241" in shared
+          assert 'get_public_stars' in shared
+          print('Separated 1241 home / clinical research and participant controls: OK')
           PY
 
       - name: Reproduce pilot PCA and fuzzy-cluster positions
