@@ -84,9 +84,9 @@
       if(modalActive || document.hidden)return;
       const best=entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];
       if(!best)return;
-      showSection(best.target.id==='sky-view'?'sky':'home');
+      showSection(['sky-view','universe'].includes(best.target.id)?'sky':'home');
     },{threshold:[0.55]});
-    for(const id of ['sky-view','participation']){
+    for(const id of ['sky-view','universe','participation']){
       const el=document.getElementById(id);
       if(el) observer.observe(el);
     }
