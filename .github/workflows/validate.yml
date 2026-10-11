@@ -30,6 +30,8 @@ jobs:
           node --check admin/analytics.js
           node --check scripts/stage_orpha_hpo_evidence.cjs
           node --check lab/scene.js
+          node --check glow-preview/glow.js
+          node --check scripts/validate_glow_preview.cjs
           node --check scripts/build_pilot_coords.cjs
           node --check scripts/build_hpo_pilot.cjs
           node --check scripts/build_orpha_candidates.cjs
@@ -333,6 +335,9 @@ jobs:
 
       - name: Python Japanese article character audit
         run: python scripts/audit_guide_text_lengths.py
+
+      - name: Check unlisted six-way glow preview
+        run: node scripts/validate_glow_preview.cjs
 
       - name: Static security regression for public site and RPC boundaries
         run: node scripts/security_static_checks.cjs
