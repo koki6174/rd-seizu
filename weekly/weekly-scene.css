@@ -28,3 +28,9 @@
  .weekly-growth-block .small-note{font-size:10px}
  .weekly-space-note{font-size:9px!important}
 }
+
+.weekly-selected-info{position:absolute;z-index:3;top:9px;left:9px;right:9px;
+ color:#effaff;background:#101f33e8;border:1px solid #77a2b082;
+ border-radius:9px;padding:5px 9px;font-size:11px!important;pointer-events:none;margin:0!important}
+.weekly-selected-info[hidden]{display:none}
+@media print{.weekly-selected-info{display:none!important}}
