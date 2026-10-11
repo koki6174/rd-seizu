@@ -90,7 +90,8 @@ jobs:
           assert 'url=../' in Path('lab/index.html').read_text()
           assert 'url=../#participation' in Path('admin/index.html').read_text()
           shared=Path('lab/scene.js').read_text()
-          assert "mode==='clinical'?'get_clinical_pilot_positions':'get_constellation_positions'" in shared
+          assert "client.rpc('get_constellation_positions')" in shared
+          assert "client.rpc('get_private_clinical_positions')" in shared
           assert "data.length!==1241" in shared
           assert 'get_public_stars' in shared
           assert 'join-selected-star' in parser.ids
