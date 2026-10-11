@@ -1,0 +1,26 @@
+.disease-article{background:radial-gradient(ellipse 77% 22% at 50% 0%,#1b344c 0%,transparent 90%),#080e20;color:#eef7ff}
+.disease-page{max-width:850px;margin:0 auto;padding:28px clamp(22px,6vw,70px) 100px}
+.page-back,.plain-link{display:inline-flex;color:#b8dbeb;text-decoration:none;font-size:12px;align-items:center;min-height:44px}
+.page-back:hover,.plain-link:hover{color:#fff}
+.loading{margin-top:75px;padding:60px 16px;text-align:center;color:#c2e0ee;border:1px solid #456986;border-radius:18px}
+#disease-content[hidden]{display:none}
+.section-caption{font-size:11px;letter-spacing:.13em;color:#94c8dc;font-weight:750;margin:58px 0 14px}
+.disease-article h1{font-size:clamp(29px,6.5vw,48px);line-height:1.43;letter-spacing:.025em;margin:0 0 19px;font-weight:750}
+.article-intro{font-size:clamp(14px,2.4vw,17px);color:#c5d7e6;line-height:2.1;margin:0 0 30px;max-width:700px}
+.section-rule{height:1px;background:linear-gradient(90deg,#63a6be88,transparent);margin:48px 0 15px}
+.article-section{padding:38px 0 37px;border-bottom:1px solid #ffffff20}
+.article-section .number{font-size:10px;letter-spacing:.14em;font-weight:800;color:#78aec9;margin-bottom:15px}
+.article-section h2{font-size:clamp(19px,4vw,25px);font-weight:730;margin:0 0 21px}
+.article-section p{font-size:clamp(14px,2.5vw,16px);line-height:2.15;letter-spacing:.02em;color:#d7e3ef;margin:0;max-width:710px}
+.references{margin:57px 0 0;color:#b9c9d7}
+.references h2{color:#e7f7fd;font-size:17px;margin:0 0 19px}
+.references>p{font-size:12px;line-height:2;margin:0 0 15px}
+.references ul{list-style:none;padding:0;margin:17px 0 28px;display:grid;gap:10px}
+.references li a{display:block;color:#b5e3f0;border:1px solid #50788a88;background:#13263b;
+padding:14px 17px;border-radius:12px;line-height:1.65;text-decoration:none;font-size:13px}
+.references li a:hover{background:#1d3851;border-color:#9bc6d9}
+.review-note{color:#92acbe!important;border-left:2px solid #6e9eb8;padding-left:14px}
+.article-end{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:13px;margin:50px 0 0}
+.article-end .join-link{display:inline-flex;border-radius:100px;border:1px solid #5a8aa0;
+background:#255168;padding:14px 23px;text-decoration:none;color:#efffff;font-size:13px;font-weight:750;min-height:46px;gap:12px}
+@media(max-width:600px){.disease-page{padding-top:12px;padding-bottom:70px}.section-caption{margin-top:35px}.article-section{padding:31px 0}.references{margin-top:38px}}

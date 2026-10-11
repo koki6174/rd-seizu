@@ -1,0 +1,17 @@
+/* Optional reading layer; never adds labels to dormant/unlit stars. */
+.info-overview{font-size:13px!important;line-height:2!important;color:#cbdce9!important;
+ margin:15px 0 8px!important;border-top:1px solid #ffffff22;padding-top:15px;max-width:650px}
+.info-overview[hidden],.auto-disease-summary[hidden],.disease-read-link[hidden]{display:none!important}
+.disease-read-link{display:inline-flex;align-items:center;justify-content:center;gap:10px;
+ min-height:44px;border:1px solid #5e98ae;border-radius:100px;background:#1d455d;
+ padding:10px 20px;color:#e5faff;text-decoration:none;font-weight:750;font-size:12px;
+ transition:background .2s,border-color .2s}
+.disease-read-link:hover{background:#28637a;border-color:#8fd7e2}
+.main-3d-home #read-disease-detail{margin:10px 0 6px}
+.auto-disease-summary{font-size:12px!important;color:#c5dde9!important;line-height:1.9!important;
+ text-align:left;margin:8px 0 18px!important;max-width:430px}
+.auto-disease .disease-read-link{margin:0 auto 19px;display:flex;max-width:330px}
+.auto-disease #retry-disease{display:inline-flex;margin:0 auto;align-items:center;min-height:44px}
+@media(max-width:640px){.info-overview{font-size:12px!important}
+ .auto-disease-summary{font-size:12px!important}
+ .disease-read-link{font-size:12px;padding:10px 16px}}

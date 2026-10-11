@@ -236,6 +236,10 @@
     $('to-comment').disabled = true;
     $('retry-disease').disabled = true;
     $('auto-disease-name').textContent = '星を探しています…';
+    // Existing public discovery RPC remains untouched: priority 50 + already-lit stars.
+    $('auto-disease-summary').textContent='';
+    $('auto-disease-summary').hidden=true;
+    $('read-auto-disease').hidden=true;
     try {
       const {data,error} = await client.rpc('pick_discovery_disease', {
         p_exclude_id: previousId || null
@@ -249,6 +253,26 @@
       $('auto-disease-name').textContent = choice.name;
       $('to-comment').disabled = false;
       analytics()?.track('random_draw','disease','discover');
+      // A disease description is shown only if a source-checked editorial
+      // guide for the exact catalog ID exists; no generic/guessed summaries.
+      try {
+        const guides=window.NENONE_DISEASE_GUIDES;
+        const record=guides?await guides.get(choice.id):null;
+        if(requestId !== randomRequestId || state.kind !== 'discover'
+          || state.disease !== choice.id || $('step-disease').hidden)return;
+        if(record){
+          const shortText=record.overview.split('。')[0]+'。';
+          $('auto-disease-summary').textContent=shortText;
+          $('auto-disease-summary').hidden=false;
+          const link=$('read-auto-disease');
+          link.href=guides.href(choice.id);
+          link.hidden=false;
+          analytics()?.track('disease_guide_available','disease','discover');
+        }
+      }catch(readError){
+        console.warn('Disease guide unavailable',readError);
+        // Do not affect random star selection or the ability to participate.
+      }
     } catch (error) {
       console.error('星の紹介に失敗しました', error);
       if (requestId === randomRequestId && state.kind === 'discover') {

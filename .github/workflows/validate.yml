@@ -20,6 +20,9 @@ jobs:
           node --check weekly/cumulative.js
           node --check weekly/weekly-scene.js
           node --check admin/app.js
+          node --check content/disease-guides.js
+          node --check disease/disease.js
+          node --check scripts/validate_disease_guides.cjs
           node --check admin/analytics.js
           node --check scripts/stage_orpha_hpo_evidence.cjs
           node --check lab/scene.js
@@ -70,7 +73,7 @@ jobs:
                   if 'id' in a: self.ids.add(a['id'])
                   if tag in ('script','link') and a.get('src',a.get('href','')).startswith(('./','../')):
                       self.references.append(a.get('src',a.get('href')).split('?')[0])
-          for f in ['index.html','admin/index.html','weekly/index.html','privacy/index.html','lab/index.html','clinical/index.html']:
+          for f in ['index.html','admin/index.html','weekly/index.html','privacy/index.html','lab/index.html','clinical/index.html','disease/index.html']:
               parser=Collector();parser.feed(Path(f).read_text())
               for ref in parser.references:
                   assert (Path(f).parent/ref).resolve().is_file(), f'{f}: missing {ref}'
@@ -317,3 +320,7 @@ jobs:
           assert 'from generate_series(1,34)' in seeds
           print('1241 category vectors, 144 research HPO links, 75 private review candidates, 19 older pending preserved')
           PY
+
+      - name: Source-linked discovery top-50 article checks
+        run: |
+          node scripts/validate_disease_guides.cjs
