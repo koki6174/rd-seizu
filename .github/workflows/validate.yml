@@ -241,3 +241,37 @@ jobs:
           assert all(x['model_version']=='clinical-hpo-gene-inheritance-onset-3d-v4-umap' for x in verified)
           print('clinical 120 and 19 candidate identities isolated; taxonomy 1241 preserved')
           PY
+
+      - name: Check all 1241 sourced numeric profiles and clinical observation masks
+        run: |
+          node --check scripts/stage_mondo_full_catalog.cjs
+          python - <<'PY'
+          from pathlib import Path
+          import json,math
+          def load(name):return json.loads(Path('data',name).read_text())
+          catalogue=load('orpha_matching_names_public.json')['rows']
+          taxonomy=load('pilot_3d_positions.json')['positions']
+          stage=load('full_catalog_mondo_orpha_candidate_evidence_v1.json')['candidates']
+          additional=load('orphadata_verified_batch_07.json')['rows']
+          medical=load('clinical_verified_comparison_v5.json')['positions']
+          pending=load('clinical_pending_unreviewed_comparison_v5.json')['positions']
+          assert len(catalogue)==1241 and len(taxonomy)==1241
+          assert len({x['id'] for x in taxonomy})==1241
+          assert len(stage)==75
+          assert len({x['orpha_code'] for x in stage})==75
+          assert len(additional)==24
+          assert all(x['id'].startswith('nando-') for x in additional)
+          assert all(x['id'] in {c['disease_id'] for c in stage} for x in additional)
+          assert len(medical)==144 and len(pending)==19
+          assert len({x['id'] for x in medical})==144
+          assert {x['id'] for x in medical}.isdisjoint(x['id'] for x in pending)
+          assert all(x['model_version']=='clinical-hpo-gene-inheritance-onset-3d-v5-umap' for x in medical)
+          assert all(math.isfinite(x[d]) and abs(x[d])<=30 for x in medical for d in ('x','y','z'))
+          schema=Path('supabase/migrations/036_numeric_feature_profiles_schema.sql').read_text()
+          seeds=Path('supabase/migrations/038_populate_all_numeric_features.sql').read_text()
+          assert 'observed_mask jsonb not null' in schema
+          assert 'where weight is not null' in seeds
+          assert 'if (select count(*) from public.disease_numeric_feature_profiles)' in seeds
+          assert 'from generate_series(1,34)' in seeds
+          print('1241 category vectors, 144 research HPO links, 75 private review candidates, 19 older pending preserved')
+          PY
