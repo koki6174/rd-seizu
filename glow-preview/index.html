@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#08101d">
+  <title>星の輝き・比較実験 | 見えない病気の星図</title>
+  <meta name="description" content="点灯した星の光の強さ・広がりを本番と同じ座標で比較する、運営者向けの検証用ページ。">
+  <link rel="stylesheet" href="./glow.css?v=1">
+  <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.3"></script>
+  <script defer src="../config.js"></script>
+  <script type="importmap">
+    {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}
+  </script>
+  <script type="module" src="./glow.js?v=1"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="../" class="brand"><span aria-hidden="true">✦</span> 見えない病気の星図</a>
+    <span class="internal-tag">VISUAL STUDY · 01</span>
+  </header>
+  <main class="layout">
+    <nav class="breadcrumb"><a href="../">星図へ戻る</a><span aria-hidden="true"> / </span><span>光のデザイン検証</span></nav>
+    <section class="intro" aria-labelledby="page-heading">
+      <p class="eyebrow">LIGHT STUDIES / 2026</p>
+      <h1 id="page-heading">星の輝きを、<em>比べる。</em></h1>
+      <p class="lede">同じ星、同じ位置、同じ視点。<br>変えているのは、<strong>光の強さ・広がり・余韻</strong>だけです。</p>
+      <p class="secondary-note">本番の星図は変更していません。こちらは検証用の別ページです。<br>光が灯った星の本体サイズと色分けは、6案すべて同じです。</p>
+    </section>
+
+    <section class="comparison" aria-labelledby="compare-title">
+      <div class="section-heading">
+        <div>
+          <span class="overline">SIX LIGHT PROFILES</span>
+          <h2 id="compare-title">6つの光り方</h2>
+        </div>
+        <p id="dataset-status" role="status" aria-live="polite">現在の星図を読み込んでいます…</p>
+      </div>
+      <div class="toolbar" aria-label="視点の操作">
+        <button type="button" id="reset-view">視点をリセット</button>
+        <button type="button" id="toggle-motion" aria-pressed="false">回転を開始</button>
+        <label class="distance-control" for="distance">
+          <span>視点の距離</span>
+          <input id="distance" type="range" min="14" max="37" step="1" value="25">
+          <output id="distance-value" for="distance">25</output>
+        </label>
+        <button type="button" id="return-grid" hidden>6案に戻す</button>
+      </div>
+      <p class="guide">ドラッグして回転・ピンチで拡大できます。6案のカメラ角度はすべて連動します。</p>
+
+      <div class="compare-stage" id="compare-stage" aria-label="6種類の星の光り方を同じ視点で比較">
+        <div class="compare-grid" id="compare-grid">
+          <section class="compare-panel" data-profile="A" aria-label="案A 現行表示">
+            <div class="panel-head"><span class="panel-letter">A</span><div><h3>現在の光り方</h3><p>比較の基準</p></div></div>
+            <div class="panel-foot"><span>CORE ONLY</span><button type="button" data-focus="A">大きく見る <span aria-hidden="true">↗</span></button></div>
+          </section>
+          <section class="compare-panel" data-profile="B" aria-label="案B やわらかな余光">
+            <div class="panel-head"><span class="panel-letter">B</span><div><h3>やわらかな余光</h3><p>淡い光を少し広げる</p></div></div>
+            <div class="panel-foot"><span>SOFT</span><button type="button" data-focus="B">大きく見る <span aria-hidden="true">↗</span></button></div>
+          </section>
+          <section class="compare-panel" data-profile="C" aria-label="案C くっきりと輝く">
+            <div class="panel-head"><span class="panel-letter">C</span><div><h3>くっきりと輝く</h3><p>近くに強い光を集める</p></div></div>
+            <div class="panel-foot"><span>BRIGHT</span><button type="button" data-focus="C">大きく見る <span aria-hidden="true">↗</span></button></div>
+          </section>
+          <section class="compare-panel" data-profile="D" aria-label="案D 遠くまで届く光">
+            <div class="panel-head"><span class="panel-letter">D</span><div><h3>遠くまで届く光</h3><p>広い半径の淡いにじみ</p></div></div>
+            <div class="panel-foot"><span>WIDE HALO</span><button type="button" data-focus="D">大きく見る <span aria-hidden="true">↗</span></button></div>
+          </section>
+          <section class="compare-panel" data-profile="E" aria-label="案E 二重の光輪">
+            <div class="panel-head"><span class="panel-letter">E</span><div><h3>二重の光輪</h3><p>周囲に薄い輪を重ねる</p></div></div>
+            <div class="panel-foot"><span>HALO RING</span><button type="button" data-focus="E">大きく見る <span aria-hidden="true">↗</span></button></div>
+          </section>
+          <section class="compare-panel" data-profile="F" aria-label="案F 星雲のような光">
+            <div class="panel-head"><span class="panel-letter">F</span><div><h3>星雲のような光</h3><p>大きく柔らかな光の余韻</p></div></div>
+            <div class="panel-foot"><span>NEBULA</span><button type="button" data-focus="F">大きく見る <span aria-hidden="true">↗</span></button></div>
+          </section>
+        </div>
+        <p id="canvas-message" role="status">3D表示を準備しています…</p>
+      </div>
+      <div class="below-stage">
+        <span id="lit-stat">現在の点灯状況を確認中…</span>
+        <span class="legend"><i class="unlit"></i>未点灯 <i class="lit"></i>点灯</span>
+      </div>
+      <p class="footnote">見た目の比較のため、点灯していない星は控えめな明るさで描画しています。クリックしても病名は表示されません。<br>各案で表示される星の数・座標・カメラ位置・星本体のサイズは共通です。</p>
+    </section>
+    <section class="selection" aria-labelledby="select-title">
+      <span class="overline">NEXT STEP</span>
+      <h2 id="select-title">好みの案が決まったら</h2>
+      <p>「AからFのどれがいいか」を教えてください。まだ本番への適用は行いません。</p>
+      <div class="selection-summary">
+        <span id="selected-profile">現在は6案を比較しています。</span>
+        <button type="button" id="copy-selection" disabled>案の名前をコピー</button>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>見えない病気の星図 — 光度検証</span><a href="../">公開中の星図を見る →</a></footer>
+</body>
+</html>
