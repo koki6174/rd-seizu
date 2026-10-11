@@ -65,6 +65,27 @@ async function main(){
   assert((await page.locator('#disease-sources a').count())>=2);
   console.log('PASS ARTICLE: sourced disease guide visible');
 
+  // Visual study uses the exact public 1241-star geometry and current
+  // illumination; it never writes submissions or uses the clinical RPC.
+  response=await page.goto(new URL('glow-preview/',base).toString(),
+   {waitUntil:'domcontentloaded',timeout:30000});
+  assert(response&&response.ok(),'Unlisted glow comparison page HTTP failed');
+  await page.waitForFunction(()=>
+   (document.querySelector('#dataset-status')?.textContent||'').includes('1,241')
+   && !!document.querySelector('#compare-stage canvas'),
+   null,{timeout:30000});
+  assert.equal(await page.locator('.compare-panel').count(),6);
+  assert.equal(await page.locator('#compare-stage canvas').count(),1,
+   'Glow comparison should use one synchronized WebGL context');
+  await page.locator('[data-focus="D"]').click();
+  assert.equal(await page.locator('.compare-panel:visible').count(),1,
+   'Focused glow variant must use the larger single-view layout');
+  assert((await page.locator('#selected-profile').textContent()).includes('D案'));
+  await page.locator('#return-grid').click();
+  assert.equal(await page.locator('.compare-panel:visible').count(),6,
+   'All six panels should be visible after returning from focus');
+  console.log('PASS GLOW: six synchronized current-data preview variants and focus mode');
+
   response=await page.goto(new URL('weekly/',base).toString(),
    {waitUntil:'domcontentloaded',timeout:30000});
   assert(response&&response.ok(),'Weekly HTTP failed');
