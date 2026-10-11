@@ -35,8 +35,10 @@ revoke all on function public.rls_auto_enable()
 -- explicit GRANT EXECUTE will be needed for any new public-facing RPC.
 alter default privileges for role postgres in schema public
  revoke execute on functions from public, anon, authenticated;
-alter default privileges for role supabase_admin in schema public
- revoke execute on functions from public, anon, authenticated;
+-- Database migration role cannot modify supabase_admin's default grants.
+-- Apply the equivalent separately using a supabase_admin-authorized session
+-- if future migrations create RPCs under that role. Current functions are
+-- explicitly audited and protected by the revokes above.
 
 -- Assert that all essential visitor RPCs remain executable without a login.
 do $$
