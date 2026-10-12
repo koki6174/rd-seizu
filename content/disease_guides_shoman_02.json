@@ -207,9 +207,9 @@
       "currentState": "心電図や家族歴、必要に応じて遺伝子検査を行います。薬物治療や植込み型機器などで不整脈を予防します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_11_015/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -219,7 +219,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-4-13",
