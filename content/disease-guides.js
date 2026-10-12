@@ -16,7 +16,9 @@
   'disease_guides_orpha_01.json','disease_guides_orpha_02.json',
   'disease_guides_orpha_03.json','disease_guides_orpha_04.json',
   'disease_guides_orpha_05.json','disease_guides_orpha_06.json',
-  'disease_guides_orpha_07.json','disease_guides_orpha_08.json'
+  'disease_guides_orpha_07.json','disease_guides_orpha_08.json',
+  'disease_guides_shoman_01.json','disease_guides_shoman_02.json',
+  'disease_guides_shoman_03.json','disease_guides_shoman_04.json'
  ];
  let cache=null,inflight=null;
  const idPattern=/^[a-z0-9-]{2,100}$/;
@@ -38,7 +40,7 @@
     if(!Array.isArray(record.references)||!record.references.length)throw new Error('Missing references');
     map.set(record.id,record);
    }
-   if(map.size!==553)throw new Error('Expected 553 sourced editorial draft records');
+   if(map.size!==653)throw new Error('Expected 653 sourced editorial draft records');
    cache=map;return map;
   }).catch(error=>{inflight=null;throw error});
   return inflight;
