@@ -10,7 +10,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -32,7 +32,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -54,7 +54,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -75,9 +75,9 @@
       "currentState": "原因薬剤や下垂体の状態を調べ、原因に応じて経過観察やプロラクチンを抑える薬などを検討します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/05_06_009/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -87,7 +87,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-5-7",
@@ -97,9 +97,9 @@
       "currentState": "血液・尿の電解質などから原因を調べ、原因疾患への対応と水分管理などを慎重に行います。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/05_07_010/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -109,7 +109,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-5-8",
@@ -120,7 +120,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -141,9 +141,9 @@
       "currentState": "血液・尿の電解質と体液量を評価し、必要な水分やナトリウムの補充を医療機関で調整します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/05_09_014/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -153,7 +153,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-5-10",
@@ -164,7 +164,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -186,7 +186,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -207,9 +207,9 @@
       "currentState": "超音波やホルモン検査などで結節の状態を調べ、経過観察や必要な治療を判断します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/05_13_025/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -219,7 +219,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-5-14",
@@ -229,9 +229,9 @@
       "currentState": "カルシウムと副甲状腺ホルモンを調べ、原因に応じて経過観察、薬や手術などを検討します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/05_14_026/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -241,7 +241,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-5-16",
@@ -252,7 +252,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -274,7 +274,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -296,7 +296,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -318,7 +318,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -340,7 +340,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -362,7 +362,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -384,7 +384,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -428,7 +428,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -450,7 +450,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -472,7 +472,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -494,7 +494,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -516,7 +516,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
@@ -538,7 +538,7 @@
       "references": [
         {
           "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
-          "url": "https://www.shouman.jp/disease/search/group/",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
           "sourceScope": "category_listing"
         },
         {
