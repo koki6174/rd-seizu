@@ -1,0 +1,34 @@
+name: Find missing rare disease source packets
+on:
+  push:
+    branches: [feature/guide-next100-unique-20261012]
+    paths:
+      - scripts/discover_novel_orpha_guides.cjs
+      - .github/workflows/source-rare-disease-discovery.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Clone official OrphaPacket source data
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Orphanet/orphapacket.git /tmp/rd-orphapacket
+          git -C /tmp/rd-orphapacket sparse-checkout set json
+      - name: Scan exact source-backed catalogue matches
+        run: node scripts/discover_novel_orpha_guides.cjs /tmp/rd-orphapacket/json
+      - name: Save audit on branch only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/guide_orpha_exact_candidates_after553_20261012.json
+          if ! git diff --cached --quiet; then
+            git commit -m "research: enumerate distinct Orpha source packets after 553 published guides"
+            git push origin HEAD:feature/guide-next100-unique-20261012
+          fi
