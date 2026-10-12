@@ -5,27 +5,27 @@
 <meta name="referrer" content="no-referrer">
  <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#111831">
-<meta name="description" content="見えない病気の星図。これまでに集まった想いと関心の累積記録。毎週月曜更新・A4横印刷対応。">
+<meta name="description" content="見えない病気の星図。これまでに集まった想いと関心の累積記録。日本時間の日付別に集計。最新の記録は約1分ごとに更新。A4横印刷対応。">
 <title>これまでの星図 | みんなでつくる見えない病気の星図</title>
-<link rel="stylesheet" href="./cumulative.css?v=3">
-<link rel="stylesheet" href="./weekly-scene.css?v=1">
+<link rel="stylesheet" href="./cumulative.css?v=4">
+<link rel="stylesheet" href="./weekly-scene.css?v=2">
 <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.3"></script>
 <script defer src="../config.js"></script>
 <script defer src="../admin/analytics.js?v=2"></script>
-<script defer src="./cumulative.js?v=4"></script>
+<script defer src="./cumulative.js?v=5"></script>
 <script type="importmap">
 {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}
 </script>
-<script type="module" src="./weekly-scene.js?v=1"></script>
+<script type="module" src="./weekly-scene.js?v=2"></script>
 </head>
 <body>
 <header class="toolbar">
   <div class="toolbar-inner">
     <a href="../">✦ 見えない病気の星図</a>
     <div class="controls">
-      <button type="button" id="prev-week">← 前週</button>
-      <span id="chosen-week" aria-live="polite">読み込み中</span>
-      <button type="button" id="next-week">次週 →</button>
+      <button type="button" id="prev-day">← 前日</button>
+      <span id="chosen-day" aria-live="polite">読み込み中</span>
+      <button type="button" id="next-day">翌日 →</button>
       <button type="button" id="print-report" class="print">印刷・PDF保存 ⤴</button>
     </div>
   </div>
@@ -41,7 +41,7 @@
           <p class="lead">想いが重なり、星図が育っていく。</p>
         </div>
         <div class="update-date">
-          <span>最終集計日</span>
+          <span>集計日・更新時刻</span>
           <strong id="updated-date">——</strong>
           
         </div>
@@ -61,10 +61,10 @@
           
         </div>
         <div class="stat-box accent">
-          <p class="stat-label">直近1週間の成長</p>
+          <p class="stat-label" id="new-period-label">今日の成長</p>
           <h2>新しく増えた光</h2>
           <p class="big-number"><strong id="new-count">—</strong><span>件</span></p>
-          <p class="stat-foot" id="last-week-label">月曜〜日曜の集計</p>
+          <p class="stat-foot" id="last-day-label">1日ごとの集計</p>
         </div>
       </div>
       <div class="story-grid">
@@ -84,12 +84,12 @@
         </section>
         <section class="story-block weekly-growth-block">
           <h3><span class="spark">✧</span> 星図の成長</h3>
-          <p class="large-copy" id="growth-summary">今週も、少しずつ。</p>
+          <p class="large-copy" id="growth-summary">今日も、少しずつ。</p>
           <p class="small-note" id="growth-detail">関心が積み重なっています。</p>
-          <div class="weekly-space" id="weekly-space" role="img" aria-label="選択した週までに灯った星を示す3D星図">
-            <p id="weekly-space-status" aria-live="polite">その週の星図を準備しています…</p>
+          <div class="weekly-space" id="weekly-space" role="img" aria-label="選択した日までに灯った星を示す3D星図">
+            <p id="weekly-space-status" aria-live="polite">星図を準備しています…</p>
             <p id="weekly-selected-info" class="weekly-selected-info" aria-live="polite" hidden></p>
-            <img id="weekly-space-print" alt="その週までの3D星図" hidden>
+            <img id="weekly-space-print" alt="その日までの3D星図" hidden>
           </div>
           <p class="weekly-space-note"><span id="weekly-space-count">— / 1,241</span> の星に光が灯っています。</p>
         </section>
@@ -98,7 +98,6 @@
       <div class="line bottom-line"></div>
       <footer class="poster-foot">
         <p>あなたの「知りたい」が、次の星につながる。</p>
-        <small>累積件数は参加人数ではありません。日本時間・月曜0時時点。</small>
         <span>みんなでつくる「見えない病気の星図」</span>
       </footer>
       <div id="error-message" class="error" role="status" aria-live="polite"></div>
