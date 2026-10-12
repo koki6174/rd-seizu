@@ -1,0 +1,1007 @@
+{
+  "checkedAt": "2026-10-12",
+  "purpose": "Four additional 25-disease subtype article batches, distinct from 353 published guides",
+  "count": 100,
+  "records": [
+    {
+      "selectionIndex": 1,
+      "id": "duchenne-muscular-dystrophy",
+      "name_ja": "デュシェンヌ型筋ジストロフィー",
+      "name_en": "Duchenne muscular dystrophy",
+      "parent_disease_id": null,
+      "concept_kind": "named_disease",
+      "published": true,
+      "source_url": "https://www.nanbyou.or.jp/"
+    },
+    {
+      "selectionIndex": 2,
+      "id": "hereditary-attr-amyloidosis",
+      "name_ja": "遺伝性ATTRアミロイドーシス",
+      "name_en": "Hereditary transthyretin amyloidosis",
+      "parent_disease_id": null,
+      "concept_kind": "named_disease",
+      "published": true,
+      "source_url": "https://www.nanbyou.or.jp/"
+    },
+    {
+      "selectionIndex": 3,
+      "id": "nando-10-1",
+      "name_ja": "脱髄型CMT",
+      "name_en": "Charcot-Marie-Tooth disease type 1",
+      "parent_disease_id": "mhlw-0010",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 4,
+      "id": "nando-10-2",
+      "name_ja": "軸索型CMT",
+      "name_en": "Charcot-Marie-Tooth disease type 2",
+      "parent_disease_id": "mhlw-0010",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 5,
+      "id": "nando-10-3",
+      "name_ja": "中間型CMT",
+      "name_en": "Intermediate Charcot-Marie-Tooth disease",
+      "parent_disease_id": "mhlw-0010",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 6,
+      "id": "nando-13-1-1",
+      "name_ja": "再発寛解型MS",
+      "name_en": "Relapsing-remitting multiple sclerosis",
+      "parent_disease_id": "mhlw-0013",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 7,
+      "id": "nando-13-1-2",
+      "name_ja": "一次性進行型MS",
+      "name_en": "primary progressive multiple sclerosis",
+      "parent_disease_id": "mhlw-0013",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 8,
+      "id": "nando-13-1-3",
+      "name_ja": "二次性進行型MS",
+      "name_en": "secondary progressive multiple sclerosis",
+      "parent_disease_id": "mhlw-0013",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 9,
+      "id": "nando-13-2",
+      "name_ja": "視神経脊髄炎",
+      "name_en": "Neuromyelitis Optica",
+      "parent_disease_id": "mhlw-0013",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 10,
+      "id": "nando-13-3",
+      "name_ja": "Baló病",
+      "name_en": "Baló concentric sclerosis",
+      "parent_disease_id": "mhlw-0013",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 11,
+      "id": "nando-17-1",
+      "name_ja": "多系統萎縮症（小脳型・MSA-C）",
+      "name_en": "Multiple system atrophy, cerebellar type",
+      "parent_disease_id": "mhlw-0017",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 12,
+      "id": "nando-17-2",
+      "name_ja": "多系統萎縮症（パーキンソン型・MSA-P）",
+      "name_en": "Multiple system atrophy, parkinsonian type",
+      "parent_disease_id": "mhlw-0017",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 13,
+      "id": "nando-18-1-1",
+      "name_ja": "皮質性小脳萎縮症",
+      "name_en": "cortical cerebellar atrophy",
+      "parent_disease_id": "mhlw-0018",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 14,
+      "id": "nando-18-2-1",
+      "name_ja": "脊髄小脳失調症３型",
+      "name_en": "spinocerebellar ataxia type 3",
+      "parent_disease_id": "mhlw-0018",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 15,
+      "id": "nando-18-2-2",
+      "name_ja": "脊髄小脳失調症６型",
+      "name_en": "spinocerebellar ataxia type 6",
+      "parent_disease_id": "mhlw-0018",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 16,
+      "id": "nando-18-2-3",
+      "name_ja": "歯状核赤核淡蒼球ルイ体萎縮症",
+      "name_en": "Dentatorubropallidoluysian atrophy",
+      "parent_disease_id": "mhlw-0018",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 17,
+      "id": "nando-18-2-4",
+      "name_ja": "脊髄小脳失調症３１型",
+      "name_en": "spinocerebellar ataxia type 31",
+      "parent_disease_id": "mhlw-0018",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 18,
+      "id": "nando-18-2-5",
+      "name_ja": "脊髄小脳失調症１型",
+      "name_en": "spinocerebellar ataxia type 1",
+      "parent_disease_id": "mhlw-0018",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 19,
+      "id": "nando-18-2-6",
+      "name_ja": "脊髄小脳失調症２型",
+      "name_en": "spinocerebellar ataxia type 2",
+      "parent_disease_id": "mhlw-0018",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 20,
+      "id": "nando-18-2-7",
+      "name_ja": "脊髄小脳失調症７型",
+      "name_en": "spinocerebellar ataxia type 7",
+      "parent_disease_id": "mhlw-0018",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 21,
+      "id": "nando-18-2-8",
+      "name_ja": "脊髄小脳失調症３６型",
+      "name_en": "spinocerebellar ataxia type 36",
+      "parent_disease_id": "mhlw-0018",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 22,
+      "id": "nando-23-2-1",
+      "name_ja": "家族性CJD",
+      "name_en": "Familial Creutzfeldt-Jakob Disease",
+      "parent_disease_id": "mhlw-0023",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 23,
+      "id": "nando-23-2-2",
+      "name_ja": "ゲルストマン・ストロイスラー・シャインカー病",
+      "name_en": "Gerstmann-Straussler-Scheinker syndrome",
+      "parent_disease_id": "mhlw-0023",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 24,
+      "id": "nando-23-2-3",
+      "name_ja": "致死性家族性不眠症",
+      "name_en": "fatal familial insomnia",
+      "parent_disease_id": "mhlw-0023",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 25,
+      "id": "nando-14-2",
+      "name_ja": "多巣性運動ニューロパチー",
+      "name_en": "Multifocal motor neuropathy",
+      "parent_disease_id": "mhlw-0014",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 26,
+      "id": "nando-19-1-1",
+      "name_ja": "Gaucher病１型",
+      "name_en": "Gaucher disease type 1",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 27,
+      "id": "nando-19-1-2",
+      "name_ja": "Gaucher病２型",
+      "name_en": "Gaucher disease type 2",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 28,
+      "id": "nando-19-1-3",
+      "name_ja": "Gaucher病３型",
+      "name_en": "Gaucher disease type 3",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 29,
+      "id": "nando-19-2-1",
+      "name_ja": "Niemann-Pick病A型",
+      "name_en": "Niemann-Pick disease type A",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 30,
+      "id": "nando-19-2-2",
+      "name_ja": "Niemann-Pick病B型",
+      "name_en": "Niemann-Pick disease type B",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 31,
+      "id": "nando-19-3",
+      "name_ja": "Niemann-Pick病C型",
+      "name_en": "Niemann-Pick disease Type C",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 32,
+      "id": "nando-19-4",
+      "name_ja": "GM1ガングリオシドーシス",
+      "name_en": "GM1 Gangliosidosis",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 33,
+      "id": "nando-19-5-1",
+      "name_ja": "Tay-Sachs病",
+      "name_en": "Tay–Sachs disease",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 34,
+      "id": "nando-19-5-2",
+      "name_ja": "Sandhoff病",
+      "name_en": "Sandhoff disease",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 35,
+      "id": "nando-19-6",
+      "name_ja": "Krabbe病",
+      "name_en": "Krabbe disease",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 36,
+      "id": "nando-19-7",
+      "name_ja": "異染性白質ジストロフィー",
+      "name_en": "Metachromatic leukodystrophy",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 37,
+      "id": "nando-19-10",
+      "name_ja": "Hurler症候群",
+      "name_en": "Hurler syndrome",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 38,
+      "id": "nando-19-13",
+      "name_ja": "Hunter症候群",
+      "name_en": "Hunter syndrome",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 39,
+      "id": "nando-19-14",
+      "name_ja": "Sanfilippo症候群",
+      "name_en": "Sanfilippo syndrome",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 40,
+      "id": "nando-19-15",
+      "name_ja": "Morquio症候群",
+      "name_en": "Morquio disease",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 41,
+      "id": "nando-19-27-1",
+      "name_ja": "Pompe病（乳児型）",
+      "name_en": "Classic infantile-onset Pompe disease",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 42,
+      "id": "nando-19-27-3",
+      "name_ja": "Pompe病（成人型）",
+      "name_en": "Late-onset Pompe disease",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 43,
+      "id": "nando-19-33",
+      "name_ja": "シスチン症",
+      "name_en": "Cystinosis",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 44,
+      "id": "nando-21-1",
+      "name_ja": "慢性進行性外眼筋麻痺症候群",
+      "name_en": "chronic progressive external ophthalmoplegia",
+      "parent_disease_id": "mhlw-0021",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 45,
+      "id": "nando-21-2",
+      "name_ja": "リー脳症",
+      "name_en": "Leigh syndrome",
+      "parent_disease_id": "mhlw-0021",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 46,
+      "id": "nando-21-3",
+      "name_ja": "ミトコンドリア脳筋症・乳酸アシドーシス・脳卒中様発作症候群",
+      "name_en": "MELAS",
+      "parent_disease_id": "mhlw-0021",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 47,
+      "id": "nando-21-4",
+      "name_ja": "ミトコンドリア異常を伴うミオクローヌスてんかん",
+      "name_en": "MERRF",
+      "parent_disease_id": "mhlw-0021",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 48,
+      "id": "nando-21-5",
+      "name_ja": "レーバー病",
+      "name_en": "Leber hereditary optic neuropathy",
+      "parent_disease_id": "mhlw-0021",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 49,
+      "id": "nando-20-1",
+      "name_ja": "副腎白質ジストロフィー（小児大脳型）",
+      "name_en": "Childhood X-linked Adrenoleukodystrophy",
+      "parent_disease_id": "mhlw-0020",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 50,
+      "id": "nando-20-3",
+      "name_ja": "副腎白質ジストロフィー（副腎脊髄ニューロパチー）",
+      "name_en": "adrenomyeloneuropathy",
+      "parent_disease_id": "mhlw-0020",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 51,
+      "id": "nando-111-1",
+      "name_ja": "ネマリンミオパチー",
+      "name_en": "Nemaline myopathy",
+      "parent_disease_id": "mhlw-0111",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 52,
+      "id": "nando-111-2",
+      "name_ja": "セントラルコア病",
+      "name_en": "Central core disease",
+      "parent_disease_id": "mhlw-0111",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 53,
+      "id": "nando-111-3",
+      "name_ja": "ミニコア病",
+      "name_en": "Minicore myopathy",
+      "parent_disease_id": "mhlw-0111",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 54,
+      "id": "nando-111-4",
+      "name_ja": "ミオチュブラーミオパチー",
+      "name_en": "Myotubular myopathy",
+      "parent_disease_id": "mhlw-0111",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 55,
+      "id": "nando-111-5",
+      "name_ja": "中心核ミオパチー",
+      "name_en": "Centronuclear myopathy",
+      "parent_disease_id": "mhlw-0111",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 56,
+      "id": "nando-111-6",
+      "name_ja": "先天性筋線維タイプ不均等症",
+      "name_en": "Congenital fiber-type disproportion myopathy",
+      "parent_disease_id": "mhlw-0111",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 57,
+      "id": "nando-111-7",
+      "name_ja": "全タイプ１繊維ミオパチー",
+      "name_en": "Type 1 Fiber Predominance Myopathy",
+      "parent_disease_id": "mhlw-0111",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 58,
+      "id": "nando-113-1-2",
+      "name_ja": "ベッカー型筋ジストロフィー",
+      "name_en": "Becker muscular dystrophy",
+      "parent_disease_id": "mhlw-0113",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 59,
+      "id": "nando-113-2",
+      "name_ja": "肢帯型筋ジストロフィー",
+      "name_en": "Limb-girdle muscular dystrophy",
+      "parent_disease_id": "mhlw-0113",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 60,
+      "id": "nando-113-3",
+      "name_ja": "顔面肩甲上腕型筋ジストロフィー",
+      "name_en": "Facioscapulohumeral muscular dystrophy",
+      "parent_disease_id": "mhlw-0113",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 61,
+      "id": "nando-113-4",
+      "name_ja": "エメリー・ドレイフス型筋ジストロフィー",
+      "name_en": "Emery-Dreifuss muscular dystrophy",
+      "parent_disease_id": "mhlw-0113",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 62,
+      "id": "nando-113-5",
+      "name_ja": "眼咽頭筋型筋ジストロフィー",
+      "name_en": "Oculopharyngeal muscular dystrophy",
+      "parent_disease_id": "mhlw-0113",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 63,
+      "id": "nando-113-6",
+      "name_ja": "福山型先天性筋ジストロフィー",
+      "name_en": "Fukuyama type congenital muscular dystrophy",
+      "parent_disease_id": "mhlw-0113",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 64,
+      "id": "nando-113-7",
+      "name_ja": "筋強直性ジストロフィー",
+      "name_en": "Myotonic dystrophy",
+      "parent_disease_id": "mhlw-0113",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 65,
+      "id": "nando-114-1-1",
+      "name_ja": "先天性ミオトニー（トムゼン病（優性遺伝））",
+      "name_en": "Thomsen disease",
+      "parent_disease_id": "mhlw-0114",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 66,
+      "id": "nando-114-1-2",
+      "name_ja": "先天性ミオトニー（ベッカー病（劣性遺伝））",
+      "name_en": "Becker disease",
+      "parent_disease_id": "mhlw-0114",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 67,
+      "id": "nando-114-2",
+      "name_ja": "ナトリウムチャネルミオトニー(カリウム惹起性ミオトニー)",
+      "name_en": "Sodium channel myotonia",
+      "parent_disease_id": "mhlw-0114",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 68,
+      "id": "nando-114-3",
+      "name_ja": "先天性パラミオトニー",
+      "name_en": "Paramyotonia congenita",
+      "parent_disease_id": "mhlw-0114",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 69,
+      "id": "nando-115-1",
+      "name_ja": "遺伝性低カリウム性周期性四肢麻痺",
+      "name_en": "Hereditary Hypokalemic Periodic Paralysis",
+      "parent_disease_id": "mhlw-0115",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 70,
+      "id": "nando-30-1",
+      "name_ja": "三好型ミオパチー",
+      "name_en": "Miyoshi myopathy",
+      "parent_disease_id": "mhlw-0030",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 71,
+      "id": "nando-30-2",
+      "name_ja": "縁取り空胞を伴う遠位型ミオパチー",
+      "name_en": "Distal myopathy with rimmed vacuoles",
+      "parent_disease_id": "mhlw-0030",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 72,
+      "id": "nando-168-1",
+      "name_ja": "古典型エーラス・ダンロス症候群",
+      "name_en": "Ehlers-Danlos syndrome, classic type",
+      "parent_disease_id": "mhlw-0168",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 73,
+      "id": "nando-168-2",
+      "name_ja": "関節型エーラス・ダンロス症候群",
+      "name_en": "Ehlers-Danlos syndrome, hypermobility type",
+      "parent_disease_id": "mhlw-0168",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 74,
+      "id": "nando-168-3",
+      "name_ja": "血管型エーラス・ダンロス症候群",
+      "name_en": "Ehlers-Danlos syndrome, vascular type",
+      "parent_disease_id": "mhlw-0168",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 75,
+      "id": "nando-168-4",
+      "name_ja": "後側彎型エーラス・ダンロス症候群",
+      "name_en": "Ehlers-Danlos syndrome, kyphoscoliotic type",
+      "parent_disease_id": "mhlw-0168",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 76,
+      "id": "nando-106-1",
+      "name_ja": "家族性寒冷蕁麻疹",
+      "name_en": "Familial cold autoinflammatorysyndrome",
+      "parent_disease_id": "mhlw-0106",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 77,
+      "id": "nando-106-2",
+      "name_ja": "Muckle-Wells症候群",
+      "name_en": "Muckle-Wells syndrome",
+      "parent_disease_id": "mhlw-0106",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 78,
+      "id": "nando-106-3",
+      "name_ja": "CINCA症候群",
+      "name_en": "Chronic infantile neurological cutaneous articular syndrome",
+      "parent_disease_id": "mhlw-0106",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 79,
+      "id": "nando-107-1",
+      "name_ja": "全身型若年性特発性関節炎",
+      "name_en": "Systemic juvenile idiopathic arthritis",
+      "parent_disease_id": "mhlw-0107",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 80,
+      "id": "nando-107-2",
+      "name_ja": "関節型若年性特発性関節炎",
+      "name_en": "Articular-type juvenile idiopathic arthritis",
+      "parent_disease_id": "mhlw-0107",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 81,
+      "id": "nando-109-1",
+      "name_ja": "先天性非典型溶血性尿毒症症候群",
+      "name_en": "congenital atypical hemolytic uremic syndrome",
+      "parent_disease_id": "mhlw-0109",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 82,
+      "id": "nando-109-2",
+      "name_ja": "後天性非典型溶血性尿毒症症候群",
+      "name_en": "acquired aHUS",
+      "parent_disease_id": "mhlw-0109",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 83,
+      "id": "nando-61-1",
+      "name_ja": "温式自己免疫性溶血性貧血",
+      "name_en": "Warm autoimmune hemolytic anemia",
+      "parent_disease_id": "mhlw-0061",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 84,
+      "id": "nando-61-2",
+      "name_ja": "寒冷凝集素症",
+      "name_en": "cold agglutinin disease",
+      "parent_disease_id": "mhlw-0061",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 85,
+      "id": "nando-61-5",
+      "name_ja": "エヴァンズ症候群",
+      "name_en": "Evans syndrome",
+      "parent_disease_id": "mhlw-0061",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 86,
+      "id": "nando-62-1",
+      "name_ja": "古典的PNH",
+      "name_en": "Classical Paroxysmal Nocturnal Hemoglobinuria",
+      "parent_disease_id": "mhlw-0062",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 87,
+      "id": "nando-62-2",
+      "name_ja": "骨髄不全型PNH",
+      "name_en": "PNH in the setting of another specified bone marrow disorder",
+      "parent_disease_id": "mhlw-0062",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 88,
+      "id": "nando-64-1",
+      "name_ja": "先天性血栓性血小板減少性紫斑病",
+      "name_en": "Congenital thrombotic thrombocytopenic purpura",
+      "parent_disease_id": "mhlw-0064",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 89,
+      "id": "nando-64-2",
+      "name_ja": "後天性原発性血栓性血小板減少性紫斑病",
+      "name_en": "Acquired idiopathic thrombotic thrombocytopenic purpura",
+      "parent_disease_id": "mhlw-0064",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 90,
+      "id": "nando-65-1",
+      "name_ja": "X連鎖重症複合免疫不全症",
+      "name_en": "X-linked severe combined immunodeficiency",
+      "parent_disease_id": "mhlw-0065",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 91,
+      "id": "nando-65-10",
+      "name_ja": "ウィスコット・オルドリッチ症候群",
+      "name_en": "Wiskott-Aldrich syndrome",
+      "parent_disease_id": "mhlw-0065",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 92,
+      "id": "nando-65-11",
+      "name_ja": "毛細血管拡張性運動失調症",
+      "name_en": "Ataxia telangiectasia",
+      "parent_disease_id": "mhlw-0065",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 93,
+      "id": "nando-67-1",
+      "name_ja": "常染色体優性多発性嚢胞腎",
+      "name_en": "Autosomal Dominant Polycystic Kidney Disease",
+      "parent_disease_id": "mhlw-0067",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 94,
+      "id": "nando-67-2",
+      "name_ja": "常染色体劣性多発性嚢胞腎",
+      "name_en": "Autosomal Recessive Polycystic Kidney Disease",
+      "parent_disease_id": "mhlw-0067",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 95,
+      "id": "nando-81-3",
+      "name_ja": "21-水酸化酵素欠損症",
+      "name_en": "21-Hydroxylase deficiency",
+      "parent_disease_id": "mhlw-0081",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 96,
+      "id": "nando-82-5",
+      "name_ja": "Allgrove症候群",
+      "name_en": "Allgrove Syndrome",
+      "parent_disease_id": "mhlw-0082",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 97,
+      "id": "nando-85-1",
+      "name_ja": "特発性肺線維症",
+      "name_en": "Idiopathic pulmonary fibrosis",
+      "parent_disease_id": "mhlw-0085",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 98,
+      "id": "nando-96-1",
+      "name_ja": "小腸型クローン病",
+      "name_en": "Ileal Crohn's disease",
+      "parent_disease_id": "mhlw-0096",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 99,
+      "id": "nando-97-3",
+      "name_ja": "潰瘍性大腸炎（直腸炎型）",
+      "name_en": "Ulcerative proctitis",
+      "parent_disease_id": "mhlw-0097",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    },
+    {
+      "selectionIndex": 100,
+      "id": "nando-98-2",
+      "name_ja": "好酸球性食道炎",
+      "name_en": "Eosinophilic esophagitis",
+      "parent_disease_id": "mhlw-0098",
+      "concept_kind": "disease_subtype",
+      "published": true,
+      "source_url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+    }
+  ]
+}
