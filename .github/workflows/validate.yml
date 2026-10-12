@@ -360,5 +360,3 @@ jobs:
       - name: Audit 100 newly researched disease detail pages
         run: |
           python scripts/audit_additional_100_guides_20261012.py
-          node scripts/audit_pending_guide_candidates.cjs
-          python scripts/audit_additional_100_guides_20261012.py
