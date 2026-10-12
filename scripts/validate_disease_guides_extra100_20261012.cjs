@@ -52,11 +52,11 @@ for(const [index,x] of incoming.entries()){
 assert(specific>=70,'Insufficient confirmed official disease-specific article URLs');
 const loader=fs.readFileSync(path.join(root,'content/disease-guides.js'),'utf8');
 for(const n of [5,6,7,8])assert(loader.includes(`disease_guides_extra_0${n}.json`));
-assert(loader.includes('map.size!==353'));
+assert(loader.includes('map.size!==453'));
 const html=fs.readFileSync(path.join(root,'disease/index.html'),'utf8');
 const stars=fs.readFileSync(path.join(root,'lab/scene.js'),'utf8');
 const home=fs.readFileSync(path.join(root,'index.html'),'utf8');
-assert(html.includes('disease-guides.js?v=4') && home.includes('disease-guides.js?v=4'));
+assert(html.includes('disease-guides.js?v=5') && home.includes('disease-guides.js?v=5'));
 assert(!html.includes('医療専門家による個別監修は未実施です。'));
 assert(stars.includes('if(guides && total>0)'));
 assert(stars.includes('objects.filter(o=>o.userData.pickable)'));
