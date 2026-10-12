@@ -6,7 +6,6 @@
 #disease-content[hidden]{display:none}
 .section-caption{font-size:11px;letter-spacing:.13em;color:#94c8dc;font-weight:750;margin:58px 0 14px}
 .disease-article h1{font-size:clamp(29px,6.5vw,48px);line-height:1.43;letter-spacing:.025em;margin:0 0 19px;font-weight:750}
-.article-intro{font-size:clamp(14px,2.4vw,17px);color:#c5d7e6;line-height:2.1;margin:0 0 30px;max-width:700px}
 .section-rule{height:1px;background:linear-gradient(90deg,#63a6be88,transparent);margin:48px 0 15px}
 .article-section{padding:38px 0 37px;border-bottom:1px solid #ffffff20}
 .article-section .number{font-size:10px;letter-spacing:.14em;font-weight:800;color:#78aec9;margin-bottom:15px}
