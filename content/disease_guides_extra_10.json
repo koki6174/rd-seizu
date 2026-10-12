@@ -1,0 +1,580 @@
+{
+  "part": 10,
+  "records": [
+    {
+      "id": "mhlw-0274",
+      "name": "骨形成不全症",
+      "designation": 274,
+      "overview": "骨を構成するコラーゲンなどの働きに変化があり、骨折しやすくなる遺伝性の病気の一群です。骨の変形、低身長、聴力の変化などがみられる場合があります。",
+      "dailyLife": "骨折を防ぐ環境の工夫と、本人が安全に動ける方法を考えることが重要です。車いすや装具を使用する人もいますが、必要な支援は病型で異なります。",
+      "currentState": "骨の状態と骨折歴を確認し、骨を強くする薬や整形外科的治療、リハビリなどを組み合わせます。歯や聴力なども評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0275",
+      "name": "タナトフォリック骨異形成症",
+      "designation": 275,
+      "overview": "FGFR3という遺伝子の変化に関連し、骨格や胸郭の形成に強い影響が出る重い骨系統疾患です。四肢が短いことや胸郭の狭さなどが特徴です。",
+      "dailyLife": "新生児期から呼吸に専門的な管理が必要になる場合があります。家族に対する丁寧な説明と、本人の状態に応じた医療・福祉支援が大切です。",
+      "currentState": "画像検査や遺伝子検査で診断し、呼吸や骨格の状態を評価します。治療方針は症状と全身状態に合わせて専門チームが判断します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0276",
+      "name": "軟骨無形成症",
+      "designation": 276,
+      "overview": "骨の成長に関わるFGFR3の働きの変化によって、腕や脚の骨が伸びにくくなる遺伝性疾患です。低身長のほか、脊柱管や呼吸に関係する問題を伴うことがあります。",
+      "dailyLife": "身長だけで生活の可能性が決まるわけではありません。机や家具の高さの調整、学校での配慮、耳や睡眠・歩行の問題への対応が役立ちます。",
+      "currentState": "成長と骨格、神経・呼吸の状態を確認します。年齢や適応によって薬物療法や整形外科的な治療などが検討されます。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0277",
+      "name": "リンパ管腫症/ゴーハム病",
+      "designation": 277,
+      "overview": "リンパ管や骨に異常が生じ、骨が徐々に溶けるように変化することがある病気の一群です。骨の痛みや骨折、胸の中にリンパ液がたまる症状などが現れる場合があります。",
+      "dailyLife": "骨折の危険性や痛み、呼吸の症状に合わせて活動を調整することがあります。学校・仕事や移動の支援を個別に考えます。",
+      "currentState": "画像や病理検査などで病態を評価し、薬物療法や手術・処置などを病変の場所に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0278",
+      "name": "巨大リンパ管奇形（頚部顔面病変）",
+      "designation": 278,
+      "overview": "顔や首に広がる大きなリンパ管の奇形です。柔らかな腫れとして現れることがあり、病変の位置によっては呼吸や飲み込みに影響する場合があります。",
+      "dailyLife": "食事や睡眠、発声の困りごとへの配慮が必要な人がいます。病変の見た目だけで生活機能を判断せず、本人の困りごとを確認します。",
+      "currentState": "超音波やMRIで病変の範囲を調べ、硬化療法、手術や薬物療法などから専門医が方針を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0279",
+      "name": "巨大静脈奇形（頚部口腔咽頭びまん性病変）",
+      "designation": 279,
+      "overview": "首・口腔・咽頭などの広い範囲に静脈の奇形が生じる病気です。腫れ、痛み、出血、飲み込みにくさなどが現れる場合があります。",
+      "dailyLife": "話すことや食べること、睡眠に影響が出る人もいます。出血への注意と、病変に負担をかけない日常の工夫が役立ちます。",
+      "currentState": "画像検査で血流と病変の広がりを調べ、硬化療法、手術や症状への対応を組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0280",
+      "name": "巨大動静脈奇形（頚部顔面又は四肢病変）",
+      "designation": 280,
+      "overview": "動脈と静脈が異常につながり、血流が多い血管の奇形が頭頸部や四肢に生じる病気です。腫れ、熱感、痛み、出血などがみられます。",
+      "dailyLife": "病変の場所によって手足の使いにくさや外見への悩みが生じることがあります。出血や急な変化が起きたときの受診計画を共有します。",
+      "currentState": "血管画像で病変を評価し、塞栓術や手術などを病変の規模・部位に応じて検討します。経過観察も重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0281",
+      "name": "クリッペル・トレノネー・ウェーバー症候群",
+      "designation": 281,
+      "overview": "生まれつき手足の血管やリンパ管などに奇形があり、一部の四肢が大きくなるなどの特徴がみられる病気です。症状の組み合わせと程度には幅があります。",
+      "dailyLife": "左右の足の長さやむくみ、皮膚の状態などによって日常生活で工夫が必要になる場合があります。装具や衣服の選び方を調整します。",
+      "currentState": "血管・骨・皮膚の状態を評価し、圧迫療法や必要に応じた処置などを検討します。血栓などの合併症にも注意します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0282",
+      "name": "先天性赤血球形成異常性貧血",
+      "designation": 282,
+      "overview": "骨髄で赤血球が十分に成熟できず、貧血になる先天性の疾患群です。病型によって黄疸や鉄の蓄積、体の形の特徴などを伴うことがあります。",
+      "dailyLife": "疲労や息切れ、通院・輸血などが学習や仕事に影響する場合があります。鉄の蓄積や成長の状態の確認も大切です。",
+      "currentState": "血液・骨髄検査や遺伝子検査で型を調べ、必要に応じて輸血、鉄の管理や造血幹細胞移植などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0283",
+      "name": "後天性赤芽球癆",
+      "designation": 283,
+      "overview": "赤血球のもとになる赤芽球が骨髄で十分につくられなくなる病気です。免疫の異常、感染症、薬剤などが関与する場合があります。",
+      "dailyLife": "貧血による疲れや息切れが生活に影響することがあります。原因によっては治療中に感染への注意も必要です。",
+      "currentState": "骨髄検査などで原因を調べ、免疫を調整する薬、原因疾患の治療、輸血などを必要に応じて行います。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0284",
+      "name": "ダイアモンド・ブラックファン貧血",
+      "designation": 284,
+      "overview": "生まれつき骨髄で赤血球が十分につくられない病気です。乳幼児期の貧血のほか、成長の問題や体の形の特徴がみられる場合があります。",
+      "dailyLife": "貧血による疲れや通院が日々の活動に影響する場合があります。発達や学校生活への配慮を含めた支援が役立ちます。",
+      "currentState": "血液・骨髄・遺伝子検査を行い、ステロイドや輸血、適応があれば造血幹細胞移植などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0285",
+      "name": "ファンコニ貧血",
+      "designation": 285,
+      "overview": "DNAの修復に関わる遺伝子の変化などによって、骨髄の働きが低下しやすく、成長や臓器にも影響する遺伝性疾患です。感染や出血の問題が起こることがあります。",
+      "dailyLife": "体調や血球数に応じた活動の調整、感染への注意が必要になる場合があります。家族と医療チームで長期的な見通しを共有することが大切です。",
+      "currentState": "血液・遺伝子・染色体の検査などで評価し、造血幹細胞移植や合併症の管理を検討します。腫瘍への注意も必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0286",
+      "name": "遺伝性鉄芽球性貧血",
+      "designation": 286,
+      "overview": "赤血球のヘモグロビンを作るための鉄の利用が障害され、骨髄の赤芽球に鉄がたまる遺伝性貧血の一群です。病型によって症状が異なります。",
+      "dailyLife": "貧血の程度によって疲れやすさや息切れが生じます。輸血や鉄の蓄積の管理で通院が必要な場合があります。",
+      "currentState": "骨髄・血液・遺伝子検査で型を特定し、反応する型ではビタミンB6などを用います。輸血・鉄管理は病態に応じます。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0287",
+      "name": "エプスタイン症候群",
+      "designation": 287,
+      "overview": "MYH9関連疾患の一つとして扱われることがある遺伝性の血小板異常症で、血小板が大きく数が少ないことに加え、腎臓や聴力への影響がみられる場合があります。",
+      "dailyLife": "鼻血やあざなどの出血だけでなく、聞こえや腎機能を確認する必要がある人もいます。学校や仕事での困りごとを共有します。",
+      "currentState": "血液像や遺伝子検査を行い、出血への対応と腎・聴覚の経過観察を行います。治療方針は出血症状などで異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0288",
+      "name": "自己免疫性後天性凝固因子欠乏症",
+      "designation": 288,
+      "overview": "免疫が血液を固める凝固因子に作用し、その働きを低下させることで出血しやすくなる病気の一群です。突然の皮下出血や筋肉内出血などが起こる場合があります。",
+      "dailyLife": "出血への注意が必要で、けがや手術などの際には医療者との情報共有が重要です。必要な治療を継続して受けられる支援も大切です。",
+      "currentState": "不足する凝固因子や自己抗体を調べ、止血治療と免疫を抑える治療などを病型に合わせて行います。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0289",
+      "name": "クロンカイト・カナダ症候群",
+      "designation": 289,
+      "overview": "消化管に多発するポリープ様の変化と、脱毛、爪の変化、皮膚の色の変化などを伴うまれな病気です。下痢や栄養の吸収障害が起こることがあります。",
+      "dailyLife": "食事が取れないことや体重減少、疲れやすさが生活に影響する場合があります。栄養面の支援と定期的な内視鏡検査が必要な人もいます。",
+      "currentState": "内視鏡などで診断し、栄養管理や炎症を抑える薬などを検討します。消化管の病変を継続的に確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0290",
+      "name": "非特異性多発性小腸潰瘍症",
+      "designation": 290,
+      "overview": "小腸に繰り返し潰瘍ができ、慢性的な出血や貧血、腹痛などが起こる病気です。SLCO2A1遺伝子の変化に関係する病型が知られています。",
+      "dailyLife": "貧血による疲れ、食事や外出への不安が生じる場合があります。症状が目立たなくても血液検査や栄養の確認が大切です。",
+      "currentState": "小腸内視鏡や画像・遺伝子検査などで評価し、出血・狭窄や栄養障害への対応を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0291",
+      "name": "ヒルシュスプルング病（全結腸型又は小腸型）",
+      "designation": 291,
+      "overview": "腸の神経節細胞が生まれつき欠け、便を送り出す働きが障害される病気のうち、結腸全体や小腸に広がる型です。重い便秘や腸閉塞などが起こります。",
+      "dailyLife": "乳児期から排便・栄養やストーマの管理が必要になる場合があります。成長とともに家庭・学校での支援を考えます。",
+      "currentState": "病変の範囲を調べ、腸の手術や排便・栄養管理を行います。術後も腸の働きや合併症を確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0292",
+      "name": "総排泄腔外反症",
+      "designation": 292,
+      "overview": "胎児期の体の形成の違いによって、下腹部の臓器や腸・膀胱などが外へ露出する重い先天性疾患です。骨盤や脊椎にも変化を伴うことがあります。",
+      "dailyLife": "生後から排泄や栄養の管理、複数回の手術が必要になる場合があります。家族の負担軽減と、成長段階に応じた生活の支援が重要です。",
+      "currentState": "小児外科や泌尿器科などが協力し、臓器の保護・再建と排泄管理を行います。長期的なフォローが大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0293",
+      "name": "総排泄腔遺残",
+      "designation": 293,
+      "overview": "排尿・排便・生殖に関係する器官が胎児期に分かれる過程に違いがあり、一つの共通した出口が残る先天性疾患です。ほかの臓器の異常を伴う場合があります。",
+      "dailyLife": "排尿や排便の管理、成長後の生活や身体に関する相談が重要です。本人の尊厳と選択を大切にした医療支援が求められます。",
+      "currentState": "解剖学的な状態を詳しく調べ、段階的な手術や排泄機能の管理を行います。成長に合わせて多診療科で診療します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0294",
+      "name": "先天性横隔膜ヘルニア",
+      "designation": 294,
+      "overview": "おなかと胸を隔てる横隔膜に生まれつき穴があり、腸や胃などが胸に入り込むことで肺の発育に影響する病気です。出生後の呼吸の問題が重要になります。",
+      "dailyLife": "新生児期に集中治療を受けることがあり、退院後も呼吸・栄養・発育などを見守る場合があります。家族への支援も重要です。",
+      "currentState": "呼吸・循環の状態を安定させたうえで、必要な外科手術を行います。肺機能や成長を継続して確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0295",
+      "name": "乳幼児肝巨大血管腫",
+      "designation": 295,
+      "overview": "乳幼児の肝臓に大きな血管の腫瘍性病変ができる病気です。肝臓の腫れや貧血、心臓への負担などが起こる場合があります。",
+      "dailyLife": "おなかの張りや体重・哺乳の変化に注意が必要なことがあります。治療中は定期的な画像検査や全身状態の確認が重要です。",
+      "currentState": "画像検査で病変を評価し、薬物療法や必要に応じた血管治療などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0296",
+      "name": "胆道閉鎖症",
+      "designation": 296,
+      "overview": "肝臓で作られた胆汁を腸へ運ぶ胆管が乳児期に閉塞する病気です。黄疸や便の色の異常などが見られ、早期の治療が重要です。",
+      "dailyLife": "乳児期の手術後も栄養や肝機能の管理が必要になる場合があります。家族と医療者が発熱や便の変化などの対応を共有します。",
+      "currentState": "早期に葛西手術などを検討し、胆汁の流れと肝機能を確認します。病状によっては肝移植が必要になる場合があります。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0297",
+      "name": "アラジール症候群",
+      "designation": 297,
+      "overview": "肝臓の細い胆管が少ないことや、心臓・目・骨格などの特徴を伴う遺伝性の病気です。JAG1やNOTCH2の変化が関係する場合があります。",
+      "dailyLife": "かゆみ、栄養の問題、心臓の状態などに応じて生活上の工夫が必要になることがあります。成長の支援も大切です。",
+      "currentState": "胆汁うっ滞と合併症を管理し、必要に応じて手術や肝移植を検討します。複数臓器の評価が欠かせません。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    },
+    {
+      "id": "mhlw-0298",
+      "name": "遺伝性膵炎",
+      "designation": 298,
+      "overview": "膵臓の消化酵素が作動する仕組みに関係する遺伝子の変化などによって、膵炎を繰り返しやすくなる病気です。腹痛が続いたり消化機能に影響が出たりします。",
+      "dailyLife": "痛みで学校や仕事を休むことがあります。食事や日常生活での注意は個人差があるため、主治医と相談することが大切です。",
+      "currentState": "膵臓の画像・機能と遺伝的背景などを調べ、痛みや消化障害への治療を行います。必要に応じ内視鏡・外科治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病251〜300番・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 10
+    }
+  ]
+}
