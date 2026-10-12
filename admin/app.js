@@ -140,7 +140,7 @@
     return [50 + Math.cos(angle) * radius,50 + Math.sin(angle) * radius];
   }
   function starClass(star) {
-    if (safeNumber(star.shared) && safeNumber(star.discovered)) return 'mixed';
+    // Keep the fallback 2D star color consistent with the main 3D and archive scenes.
     return safeNumber(star.shared) ? 'share' : 'discover';
   }
   function renderStars() {
@@ -357,6 +357,14 @@
     $('thought-text').value='';
     $('text-count').textContent='0 / 140';
     document.querySelectorAll('[data-preset]').forEach(b=>b.classList.remove('selected'));
+    const contextualPreset=$('preset-contextual');
+    if(contextualPreset){
+      const isShare=state.kind==='share';
+      contextualPreset.dataset.preset=isShare
+        ?'この病気への理解や配慮が広がってほしい'
+        :'知るきっかけになりました';
+      contextualPreset.textContent=isShare?'理解・配慮を願う':'知るきっかけに';
+    }
     $('submit-error').textContent='';
     showStep('comment');
   }

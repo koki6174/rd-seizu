@@ -14,9 +14,9 @@
   <script defer src="./config.js"></script>
   <script defer src="./admin/analytics.js?v=1"></script>
   <script defer src="./content/disease-guides.js?v=7"></script>
-  <script defer src="./admin/app.js?v=7"></script>
+  <script defer src="./admin/app.js?v=8"></script>
   <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}</script>
-  <script type="module" src="./lab/scene.js?v=9"></script>
+  <script type="module" src="./lab/scene.js?v=10"></script>
 </head>
 <body class="main-3d-home" data-star-scene="taxonomy">
   <main>
@@ -132,7 +132,7 @@
           <button type="button" class="preset-option" data-preset="この病気のことをもっと知りたい">もっと知りたい</button>
           <button type="button" class="preset-option" data-preset="少しでも多くの人に知ってほしい">知ってほしい</button>
           <button type="button" class="preset-option" data-preset="研究や支援が進んでほしい">研究・支援に期待</button>
-          <button type="button" class="preset-option" data-preset="知るきっかけになりました">知るきっかけに</button>
+          <button type="button" class="preset-option" id="preset-contextual" data-preset="知るきっかけになりました">知るきっかけに</button>
         </div>
         <label for="thought-text">自分の言葉で伝える（任意・140文字以内）</label>
         <textarea id="thought-text" maxlength="140" rows="4" placeholder="例：この病気について、もっと知る人が増えたらうれしいです。"></textarea>

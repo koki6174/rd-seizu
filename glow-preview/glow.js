@@ -18,7 +18,7 @@ const profiles={
  E:{name:'二重の光輪',layers:[{texture:'soft',size:1.45,opacity:.36},{texture:'ring',size:2.4,opacity:.45}]},
  F:{name:'星雲のような光（本番採用）',layers:[{texture:'soft',size:4.1,opacity:.29},{texture:'soft',size:2.25,opacity:.31},{texture:'ring',size:3.3,opacity:.16}]}
 };
-const palette={share:'#ffc6ad',discover:'#99e4ff',mixed:'#dcb6ff'};
+const palette={share:'#ffc6ad',discover:'#99e4ff'};
 const preferReduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let renderer,sceneList={},camera,controls,observer,visibilityObserver;
 let geometries=[],materials=[],textures={};
@@ -80,10 +80,9 @@ function addCloud(scene,geo,color,size,opacity,texture){
  scene.add(new THREE.Points(geo,material));
 }
 function populateScenes(points){
- const groups={unlit:[],share:[],discover:[],mixed:[]};
+ const groups={unlit:[],share:[],discover:[]};
  for(const p of points){
   if(p.total<=0)groups.unlit.push(p);
-  else if(p.shared>0 && p.discovered>0)groups.mixed.push(p);
   else if(p.shared>0)groups.share.push(p);
   else groups.discover.push(p);
  }
@@ -92,7 +91,7 @@ function populateScenes(points){
   const scene=new THREE.Scene();
   // Dormant points identical across all six patterns.
   addCloud(scene,geos.unlit,'#4d5c73',.29,.54,'core');
-  for(const type of ['share','discover','mixed']){
+  for(const type of ['share','discover']){
    // Halos are placed behind the unchanged point core (core drawn last).
    for(const layer of preset.layers)
     addCloud(scene,geos[type],palette[type],layer.size,layer.opacity,layer.texture);

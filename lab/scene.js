@@ -146,17 +146,17 @@ function initScene(initialData,mode='taxonomy'){
    o.material.dispose();
   }
   objects=[];starData.clear();
-  const points={unlit:[],share:[],discover:[],mixed:[]};
+  const points={unlit:[],share:[],discover:[]};
   for(const d of records) {
    const total=Math.max(0,Number(d.total)||0);
-   const kind=total===0?'unlit':
-    (d.shared>0&&d.discovered>0)?'mixed':d.shared>0?'share':'discover';
+   // Orange share light takes priority over blue discovery light, regardless of which came first.
+   const kind=total===0?'unlit':Number(d.shared)>0?'share':'discover';
    points[kind].push(d);
    starData.set(d.id,d);
   }
   createCloud(points.unlit,'#4d5c73',.29,texture,.54,false);
-  const colors={share:'#ffc6ad',discover:'#99e4ff',mixed:'#dcb6ff'};
-  for(const type of ['share','discover','mixed']) {
+  const colors={share:'#ffc6ad',discover:'#99e4ff'};
+  for(const type of ['share','discover']) {
    const items=points[type];
    // F's wide nebula is visual-only. No extra picking target is introduced.
    if(haloTextures && items.length){
