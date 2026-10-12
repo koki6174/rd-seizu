@@ -1,0 +1,404 @@
+{
+  "part": 2,
+  "records": [
+    {
+      "id": "nando-127-2",
+      "name": "意味性認知症",
+      "overview": "言葉の意味や物の名前に関する知識が徐々に失われる、前頭側頭葉変性症に含まれる病気です。発話が滑らかでも語の理解に問題が生じます。",
+      "dailyLife": "本人に伝わりやすい短い文章や写真、日課の工夫が役立ちます。職場や家庭での意思疎通に配慮が必要になる場合があります。",
+      "currentState": "言語・認知機能の検査と脳画像などで評価します。根本治療は限られ、コミュニケーションを補う方法と日常生活の支援が中心です。",
+      "orphaCode": 100069,
+      "sourceScope": "exact_orphanet_crosswalk",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:100069）",
+          "url": "https://www.orpha.net/en/disease/detail/100069"
+        },
+        {
+          "title": "Orphanet：HPO症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/100069"
+        }
+      ]
+    },
+    {
+      "id": "nando-19-20",
+      "name": "ガラクトシアリドーシス",
+      "overview": "CTSA遺伝子に関係する保護たんぱく質の障害によってライソゾームの酵素が働きにくくなる病気です。神経・心臓・腎臓などに影響する場合があります。",
+      "dailyLife": "発達や運動、食事の支援が必要になる人もいます。複数の臓器の状態を確認し、本人に合う通院や生活環境を整えます。",
+      "currentState": "酵素活性や遺伝学的検査などで評価し、臓器ごとの症状に対応します。原因に働きかける治療法の研究が続いています。",
+      "orphaCode": 351,
+      "sourceScope": "exact_orphanet_crosswalk",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:351）",
+          "url": "https://www.orpha.net/en/disease/detail/351"
+        },
+        {
+          "title": "Orphanet：HPO症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/351"
+        }
+      ]
+    },
+    {
+      "id": "nando-160-1-3",
+      "name": "表在性表皮融解性魚鱗癬",
+      "overview": "皮膚の表面が浅く剥がれ、水ぶくれや鱗屑が生じやすい遺伝性の魚鱗癬です。皮膚のケラチンの変化が関係する病型があります。",
+      "dailyLife": "衣類の摩擦や乾燥が負担になることがあります。刺激を減らし、皮膚の保湿と保護について皮膚科で相談することが役立ちます。",
+      "currentState": "皮膚所見や必要に応じた遺伝子検査で病型を区別し、保湿や傷のケア、炎症・感染への対策を行います。",
+      "orphaCode": 455,
+      "sourceScope": "exact_orphanet_crosswalk",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:455）",
+          "url": "https://www.orpha.net/en/disease/detail/455"
+        },
+        {
+          "title": "Orphanet：HPO症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/455"
+        }
+      ]
+    },
+    {
+      "id": "nando-162-2",
+      "name": "粘膜類天疱瘡",
+      "overview": "口や目、鼻、のどなどの粘膜に水ぶくれとびらんができ、瘢痕を残すことがある自己免疫疾患です。皮膚主体の水疱性類天疱瘡とは異なります。",
+      "dailyLife": "口の痛みで食事が難しくなったり、目の炎症で見え方に影響が出たりします。眼科や歯科との連携が大切です。",
+      "currentState": "粘膜の診察と免疫学的検査などを行い、炎症の程度に応じて局所治療や免疫調節薬を検討します。目の瘢痕化を防ぐ管理が重要です。",
+      "orphaCode": 46486,
+      "sourceScope": "exact_orphanet_crosswalk",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:46486）",
+          "url": "https://www.orpha.net/en/disease/detail/46486"
+        },
+        {
+          "title": "Orphanet：HPO症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/46486"
+        }
+      ]
+    },
+    {
+      "id": "nando-35-3",
+      "name": "天疱瘡（腫瘍随伴性）",
+      "overview": "腫瘍に関連する免疫異常により、皮膚や口腔などの粘膜に強いびらんが生じるまれな病気です。一般的な天疱瘡と合併症が異なります。",
+      "dailyLife": "口の痛みが食事に影響し、呼吸器の障害を伴うこともあります。皮膚と全身を専門チームが確認する必要があります。",
+      "currentState": "抗体検査や病理検査に加え、関連腫瘍の評価を行います。腫瘍治療と免疫治療、栄養や呼吸の支援を組み合わせます。",
+      "orphaCode": 63455,
+      "sourceScope": "exact_orphanet_crosswalk",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:63455）",
+          "url": "https://www.orpha.net/en/disease/detail/63455"
+        },
+        {
+          "title": "Orphanet：HPO症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/63455"
+        }
+      ]
+    },
+    {
+      "id": "nando-19-23",
+      "name": "β-マンノシドーシス",
+      "overview": "糖鎖の分解に関わる酵素の働きが低下する遺伝性ライソゾーム病です。神経発達や聴覚、行動などへの影響が報告されています。",
+      "dailyLife": "学習や意思疎通、移動で支援が必要になる場合があります。聴力と発達の状況を確認し、本人に合った環境を整えます。",
+      "currentState": "酵素活性やMANBA遺伝子などを調べ、神経症状・聴覚・生活機能への支援を行います。",
+      "orphaCode": 118,
+      "sourceScope": "exact_orphanet_crosswalk",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:118）",
+          "url": "https://www.orpha.net/en/disease/detail/118"
+        },
+        {
+          "title": "Orphanet：HPO症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/118"
+        }
+      ]
+    },
+    {
+      "id": "nando-19-33-3",
+      "name": "シスチン症（非腎型）",
+      "overview": "シスチノーシスのうち主に眼の角膜にシスチン結晶がたまる病型です。まぶしさや痛みが現れる一方、典型的な腎障害を中心とする型とは異なります。",
+      "dailyLife": "屋外のまぶしさや眼の刺激感によって読書や外出に工夫が必要になる場合があります。眼科で定期的に角膜を評価します。",
+      "currentState": "眼科検査と必要に応じた代謝・遺伝子検査で評価し、角膜へのシスチン沈着に対する点眼などを検討します。",
+      "orphaCode": 411641,
+      "sourceScope": "exact_orphanet_crosswalk",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:411641）",
+          "url": "https://www.orpha.net/en/disease/detail/411641"
+        },
+        {
+          "title": "Orphanet：HPO症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/411641"
+        }
+      ]
+    },
+    {
+      "id": "hereditary-attr-amyloidosis",
+      "name": "遺伝性ATTRアミロイドーシス",
+      "overview": "TTR遺伝子の変化に関連し、異常なトランスサイレチンが神経や心臓などに沈着する病気です。しびれ、立ちくらみ、息切れなどが現れます。",
+      "dailyLife": "手足の感覚や胃腸の不調、心臓の症状が生活に影響することがあります。臓器の状態を長期的に確認します。",
+      "currentState": "遺伝子・臓器の検査などで評価し、TTRを安定させる薬や産生を抑える治療を病型と適応に応じて検討します。",
+      "orphaCode": null,
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病の解説索引（病型別原典未照合）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-10-1",
+      "name": "脱髄型CMT",
+      "overview": "末梢神経を覆う髄鞘の働きが主に障害されるCMTの病型群です。足先からの筋力低下や感覚の変化が徐々に現れる場合があります。",
+      "dailyLife": "つまずきや足の形の変化が生活に影響します。装具や靴の調整、転倒防止、運動機能を支える工夫が役立ちます。",
+      "currentState": "神経伝導検査や必要な遺伝子検査で病型を評価し、リハビリや装具による機能維持を行います。",
+      "orphaCode": null,
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病の解説索引（病型別原典未照合）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-10-2",
+      "name": "軸索型CMT",
+      "overview": "末梢神経の軸索が主に障害されるCMTの病型群で、足や手の筋力低下・感覚の変化が現れます。原因遺伝子は一種類ではありません。",
+      "dailyLife": "歩行や手先の動作が負担になることがあります。本人の歩き方に合わせた靴や補助具が役立ちます。",
+      "currentState": "神経伝導検査と遺伝学的検査などで脱髄型との違いを評価し、機能維持と痛みへの対応を行います。",
+      "orphaCode": null,
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病の解説索引（病型別原典未照合）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-10-3",
+      "name": "中間型CMT",
+      "overview": "軸索と髄鞘の両方の特徴を示す場合があるCMTの病型群です。手足の筋力低下や感覚障害など、症状の現れ方はさまざまです。",
+      "dailyLife": "足先の上げにくさや疲れやすさが外出に影響する場合があります。転倒予防や装具の利用を考えます。",
+      "currentState": "神経の電気的な働きと家族歴・遺伝子検査を組み合わせ、他の病型と区別して生活機能を支えます。",
+      "orphaCode": null,
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病の解説索引（病型別原典未照合）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-107-1",
+      "name": "全身型若年性特発性関節炎",
+      "overview": "関節炎に加えて高熱や発疹など全身の炎症が現れる若年性特発性関節炎の病型です。心膜など関節以外の臓器にも影響する場合があります。",
+      "dailyLife": "発熱や痛みによって学校や遊びを休むことがあります。体調に応じた学習や運動の調整が大切です。",
+      "currentState": "IL-1・IL-6などに関わる治療を含め病状に応じた薬を選び、重い全身炎症の合併症を確認します。",
+      "orphaCode": null,
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：この病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3946"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-107-2",
+      "name": "関節型若年性特発性関節炎",
+      "overview": "小児期に関節炎を中心として発症する若年性特発性関節炎の病型群です。少関節型や多関節型などがあり、痛みや腫れの範囲が異なります。",
+      "dailyLife": "朝のこわばりで通学や運動が難しい場合があります。関節の機能維持や学校での配慮、必要な眼科検査が役立ちます。",
+      "currentState": "関節と眼の状態を評価し、抗炎症薬や免疫調節薬、生物学的製剤などを活動性に応じて使用します。",
+      "orphaCode": null,
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：この病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3946"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-3-1",
+      "name": "脊髄性筋萎縮症 I 型",
+      "overview": "乳児期早期から強い筋力低下がみられる脊髄性筋萎縮症の病型です。呼吸や飲み込みの働きに影響することがあります。",
+      "dailyLife": "授乳、姿勢保持、呼吸の支援が生活の大切な部分になります。本人と家族を支える医療・福祉の連携が必要です。",
+      "currentState": "SMN1などの検査で評価し、疾患修飾薬・遺伝子治療の適応を検討します。呼吸・栄養・リハビリも重要です。",
+      "orphaCode": null,
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病の解説索引（病型別原典未照合）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-3-2",
+      "name": "脊髄性筋萎縮症 II 型",
+      "overview": "乳幼児期から筋力低下が現れ、座位を保てることのある脊髄性筋萎縮症の病型です。歩行が難しい場合があります。",
+      "dailyLife": "移動や姿勢を支える車いすや装具を、成長に合わせて調整することが役立ちます。",
+      "currentState": "原因に働きかける治療の適応を検討し、呼吸機能や脊柱変形への対応、リハビリを続けます。",
+      "orphaCode": null,
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病の解説索引（病型別原典未照合）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-3-3",
+      "name": "脊髄性筋萎縮症 III 型",
+      "overview": "小児期以降に発症し、歩行を獲得することが多い脊髄性筋萎縮症の病型です。筋力低下で階段の昇降などが難しくなる場合があります。",
+      "dailyLife": "歩行や運動の負担が変わることがあります。学校や職場での工夫と必要な移動支援を考えます。",
+      "currentState": "遺伝学的検査で病型を評価し、疾患修飾療法の適応と運動機能の維持について専門医と相談します。",
+      "orphaCode": null,
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病の解説索引（病型別原典未照合）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-3-4",
+      "name": "脊髄性筋萎縮症 IV 型",
+      "overview": "成人期から発症する脊髄性筋萎縮症の比較的緩やかな病型です。体幹に近い筋肉の力が低下することがあります。",
+      "dailyLife": "歩行能力が保たれる人もいますが、仕事や外出で疲れやすくなることがあります。無理のない活動を考えます。",
+      "currentState": "神経・筋力検査と遺伝学的評価で他疾患と鑑別し、病状に応じた治療やリハビリを行います。",
+      "orphaCode": null,
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病の解説索引（病型別原典未照合）",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-111-1",
+      "name": "ネマリンミオパチー",
+      "overview": "筋線維にネマリン小体と呼ばれる構造がみられる先天性ミオパチーです。筋力・筋緊張の低下が現れ、重症度には幅があります。",
+      "dailyLife": "起き上がる、歩く、食べるなどの動作に支援が必要になることがあります。呼吸と飲み込みにも配慮します。",
+      "currentState": "筋病理や遺伝学的検査で病型を調べ、呼吸・栄養・関節の問題への対応とリハビリを行います。",
+      "orphaCode": null,
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：この病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-111-3",
+      "name": "ミニコア病",
+      "overview": "筋線維の中に小さなコア状の構造が複数みられる先天性ミオパチーです。SELENONやRYR1などの変化が関係します。",
+      "dailyLife": "体幹の筋力低下や背骨の変形、呼吸の問題が生活に影響する場合があります。装具や呼吸支援を考えます。",
+      "currentState": "筋肉の病理と遺伝子検査などで評価し、呼吸と運動機能の経過観察、リハビリを行います。",
+      "orphaCode": null,
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "source_crosswalk_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：この病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    }
+  ]
+}
