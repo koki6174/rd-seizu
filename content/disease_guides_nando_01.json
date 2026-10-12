@@ -1,0 +1,605 @@
+{
+  "part": 1,
+  "records": [
+    {
+      "id": "nando-19-17",
+      "name": "Sly病",
+      "name_en": "Sly syndrome",
+      "overview": "Sly病（ムコ多糖症VII型）は、GUSB遺伝子に関係するβグルクロニダーゼの働きが不足してムコ多糖が蓄積する遺伝性疾患です。骨格や肝脾、心臓などに影響することがあります。",
+      "dailyLife": "関節の動かしにくさ、成長や呼吸の問題が通学や移動に影響する場合があります。症状の程度には大きな幅があり、本人の状態に合う生活支援が重要です。",
+      "currentState": "酵素活性や遺伝子検査を踏まえて診断し、病型・適応に応じて酵素補充療法などを検討します。骨格・心肺・聴力なども継続して確認します。",
+      "parentDiseaseId": "mhlw-0019",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-222-2",
+      "name": "膜性腎症",
+      "name_en": "Membranous nephropathy",
+      "overview": "膜性腎症は腎臓の糸球体で血液をろ過する膜に免疫反応などが起こり、尿へたんぱくが漏れやすくなる病気です。成人のネフローゼ症候群の原因の一つです。",
+      "dailyLife": "足のむくみや疲れやすさが仕事や外出に影響することがあります。症状が少なくても尿たんぱく、腎機能、血圧を定期的に確認することが大切です。",
+      "currentState": "原因となる病気の有無を評価し、腎臓を守る治療と、必要に応じた免疫治療を検討します。血栓や感染などの合併症にも注意します。",
+      "parentDiseaseId": "mhlw-0222",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4516",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-111-3",
+      "name": "ミニコア病",
+      "name_en": "Minicore myopathy",
+      "overview": "ミニコア病は、筋肉の組織に小さなコア状の変化が見られる先天性ミオパチーの一型です。SELENONやRYR1など複数の遺伝子との関連が知られています。",
+      "dailyLife": "体幹や手足の筋力低下、背骨の変形、呼吸筋の弱さが生活に影響することがあります。疲れにくい姿勢や補助具、呼吸状態の確認が役立ちます。",
+      "currentState": "筋組織や遺伝子などを調べて病型を確認し、呼吸・運動機能の管理とリハビリを行います。麻酔時の注意点は病因によって異なります。",
+      "parentDiseaseId": "mhlw-0111",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-13-3",
+      "name": "Baló病",
+      "name_en": "Baló concentric sclerosis",
+      "overview": "Baló病は、脳の白質に同心円状の特徴的な脱髄病変が生じる炎症性の神経疾患です。手足のまひや感覚の異常、視覚症状などが現れることがあります。",
+      "dailyLife": "症状が出た部位によって歩行や手作業、仕事などへの影響が異なります。急な神経症状の変化があれば医療機関へ相談することが大切です。",
+      "currentState": "MRIなどで特徴的な病変を評価し、炎症の治療を検討します。多発性硬化症などの別の脱髄疾患との違いも慎重に確認します。",
+      "parentDiseaseId": "mhlw-0013",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3806",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-177-1",
+      "name": "有馬症候群",
+      "name_en": "Arima syndrome",
+      "overview": "有馬症候群は、ジュベール症候群関連疾患に含まれる先天性の病気で、脳の発達や網膜、腎臓などに特徴的な変化が見られます。遺伝的な原因が関わります。",
+      "dailyLife": "見え方、運動・発達、腎臓の働きなどに応じた支援が必要になる場合があります。家族と医療、教育・福祉の協力が生活を支えます。",
+      "currentState": "脳画像や眼科・腎機能の検査などを組み合わせて評価し、臓器ごとの問題に対応します。成長に合わせた長期的な支援が重要です。",
+      "parentDiseaseId": "mhlw-0177",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4552",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-18-4",
+      "name": "痙性対麻痺",
+      "name_en": "hereditary spastic paraplegia",
+      "overview": "痙性対麻痺は主に両脚の筋肉が突っ張り、歩きにくさが現れる神経疾患群です。遺伝性の型が多く、ほかの神経症状を伴う複雑型もあります。",
+      "dailyLife": "階段や長距離の歩行、立った姿勢の維持が難しくなることがあります。装具、杖、手すりなどの工夫で生活を支えられる場合があります。",
+      "currentState": "神経診察や必要な遺伝子検査などで病型を評価します。筋肉のこわばりへの薬、リハビリ、移動支援を症状に合わせて検討します。",
+      "parentDiseaseId": "mhlw-0018",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4881",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-234-3",
+      "name": "レフサム病",
+      "name_en": "Refsum disease",
+      "overview": "レフサム病は、フィタン酸という脂肪酸を分解する仕組みが障害され、体内に蓄積する遺伝性代謝疾患です。視覚、嗅覚、末梢神経などに症状が出ることがあります。",
+      "dailyLife": "夜間の見えにくさやふらつき、しびれが外出や作業に影響する場合があります。食事管理が必要な人もおり、専門職による栄養指導が大切です。",
+      "currentState": "血中フィタン酸の評価などを行い、医師・管理栄養士の指導のもと食事療法などを検討します。眼と神経の状態も継続的に確認します。",
+      "parentDiseaseId": "mhlw-0234",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4621",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-257-1-7",
+      "name": "糖原病Ⅵ型",
+      "name_en": "Glycogen storage disease type VI",
+      "overview": "糖原病VI型は、主に肝臓でグリコーゲンを分解する酵素の働きが低下する遺伝性の病気です。空腹時の低血糖や肝臓の腫大、成長の問題が起こることがあります。",
+      "dailyLife": "食事の間隔が長くなると体調に影響する場合があり、学校や外出先でも栄養補給の計画が必要になることがあります。対応は年齢・病状で異なります。",
+      "currentState": "代謝専門医が血糖や肝臓の状態を確認し、絶食を避ける食事管理などを個別に指導します。成長と代謝の変化を長期的にみます。",
+      "parentDiseaseId": "mhlw-0257",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-257-2",
+      "name": "Ⅳ型糖原病",
+      "name_en": "Glycogen storage disease type IV",
+      "overview": "糖原病IV型は、グリコーゲンの枝分かれ構造をつくる酵素に関係した遺伝性疾患です。肝臓や筋肉、心臓などへの影響は病型で異なります。",
+      "dailyLife": "肝機能の変化や筋力低下などに応じ、通院、食事、活動の調整が必要になる場合があります。進行の程度には幅があります。",
+      "currentState": "酵素・遺伝子検査や臓器の評価をもとに診断し、肝臓・心臓・筋肉の状態に合わせて治療します。重い肝障害では移植を検討することもあります。",
+      "parentDiseaseId": "mhlw-0257",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-277-2",
+      "name": "ゴーハム病",
+      "name_en": "Gorham disease",
+      "overview": "ゴーハム病は骨の一部が次第に失われ、リンパ管の異常な増殖などが関わるまれな疾患です。骨折、痛み、変形、胸部のリンパ液貯留などが起こる場合があります。",
+      "dailyLife": "骨の痛みや骨折への注意が必要で、病変の場所によって移動や運動の調整が必要になることがあります。胸部症状にも配慮が必要です。",
+      "currentState": "画像検査と組織検査などで病変を評価し、薬物療法や外科的な治療などを個別に検討します。骨とリンパの状態を継続的に確認します。",
+      "parentDiseaseId": "mhlw-0277",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-308-2",
+      "name": "白質消失病",
+      "name_en": "Leukoencephalopathy with vanishing white matter",
+      "overview": "白質消失病は、脳の白質の働きが徐々に障害される遺伝性の神経疾患です。運動のぎこちなさ、筋緊張の変化、認知面の変化などが現れることがあります。",
+      "dailyLife": "発熱や強い身体的負担をきっかけに症状が悪化する場合があり、体調管理や緊急時の相談体制が重要です。移動や学習への支援も役立ちます。",
+      "currentState": "MRIや遺伝子検査などで診断し、けいれん・運動・栄養の問題に対応します。病因に応じた支援と、体調悪化時の備えが重要です。",
+      "parentDiseaseId": "mhlw-0308",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-19",
+      "name": "胸腺低形成",
+      "name_en": "thymus hypoplasia",
+      "overview": "胸腺低形成は、免疫細胞の一部であるT細胞が成熟する胸腺の発達が十分でない状態です。原因となる先天性疾患は複数あり、免疫の働きへの影響もさまざまです。",
+      "dailyLife": "感染を繰り返す人では通園・通学や予防接種について専門医への相談が必要です。心臓などほかの先天的な特徴を伴う場合もあります。",
+      "currentState": "免疫細胞の数と働き、原因疾患を詳しく調べます。感染予防や免疫機能を支える治療などは重症度と原因により異なります。",
+      "parentDiseaseId": "mhlw-0065",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-10-1",
+      "name": "脱髄型CMT",
+      "name_en": "Charcot-Marie-Tooth disease type 1",
+      "overview": "脱髄型CMTは、末梢神経を包む髄鞘の働きが障害されて神経の信号が遅くなるシャルコー・マリー・トゥース病の一群です。足先の筋力低下などが起こります。",
+      "dailyLife": "つまずきやすさ、足の変形、手先の不器用さなどが生活に影響する場合があります。靴や装具、転倒しにくい環境の工夫が役立ちます。",
+      "currentState": "神経伝導検査や遺伝子検査で病型を評価し、リハビリや装具、痛みへの対応を行います。原因遺伝子によって経過は異なります。",
+      "parentDiseaseId": "mhlw-0010",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3773",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-10-2",
+      "name": "軸索型CMT",
+      "name_en": "Charcot-Marie-Tooth disease type 2",
+      "overview": "軸索型CMTは、末梢神経の軸索そのものの障害が主体となるCMTの一群です。足先や手先の筋力低下、感覚低下などが現れます。",
+      "dailyLife": "足首の上げにくさや細かな手作業の難しさに応じ、装具や日常道具の工夫が役立ちます。疲れやすさにも個人差があります。",
+      "currentState": "神経伝導検査や遺伝子検査などで脱髄型との違いを評価し、運動機能を保つ支援や痛みへの対応を行います。",
+      "parentDiseaseId": "mhlw-0010",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3773",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-10-3",
+      "name": "中間型CMT",
+      "name_en": "Intermediate Charcot-Marie-Tooth disease",
+      "overview": "中間型CMTは、末梢神経の髄鞘と軸索の障害が混在する特徴を持つCMTの一群です。症状の種類や進み方は遺伝的な型によって異なります。",
+      "dailyLife": "足の筋力低下やしびれにより歩行や手作業が負担になることがあります。本人の状態に合う装具や活動方法の調整が役立ちます。",
+      "currentState": "神経機能と遺伝的な原因を調べ、ほかのCMT病型と区別します。リハビリや装具などを用いて生活機能を支えます。",
+      "parentDiseaseId": "mhlw-0010",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3773",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-127-2",
+      "name": "意味性認知症",
+      "name_en": "Semantic dementia",
+      "overview": "意味性認知症は、言葉や物の意味についての知識が次第に失われる前頭側頭葉変性症の一型です。名前を思い出せない、言葉の意味が分かりにくいなどが起こります。",
+      "dailyLife": "会話や買い物、日常の判断に支援が必要になる場合があります。短く分かりやすい言葉や写真、慣れた生活手順が意思疎通を助けます。",
+      "currentState": "神経診察や認知機能検査、画像検査で病型を評価します。本人の生活を支える環境づくりと家族への支援が重要です。",
+      "parentDiseaseId": "mhlw-0127",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-13-2",
+      "name": "視神経脊髄炎",
+      "name_en": "Neuromyelitis Optica",
+      "overview": "視神経脊髄炎スペクトラム障害は、視神経や脊髄などに強い炎症が起こる病気です。AQP4抗体などが関係する場合があり、多発性硬化症とは治療方針が異なります。",
+      "dailyLife": "見え方、しびれ、歩行の問題などが急に起こる場合があります。再発を防ぐための通院と、視覚・移動を支える環境調整が大切です。",
+      "currentState": "抗体検査やMRIなどで診断し、急性期の炎症を抑える治療と再発予防の免疫治療を検討します。MSとの鑑別が重要です。",
+      "parentDiseaseId": "mhlw-0013",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3806",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-160-4",
+      "name": "魚鱗癬症候群",
+      "name_en": "Ichthyosis syndrome",
+      "overview": "魚鱗癬症候群は、生まれつき皮膚の角層が厚くなったり乾燥したりする症状に加え、ほかの臓器症状を伴う疾患群です。原因は病型ごとに異なります。",
+      "dailyLife": "皮膚の乾燥や亀裂へのケアに加え、聴覚、眼、運動などの問題に対応する必要がある場合があります。生活環境の調整が大切です。",
+      "currentState": "皮膚を保護する治療とともに、原因となる病型を特定します。ほかの臓器の状態を確認し、専門職が協力して支援します。",
+      "parentDiseaseId": "mhlw-0160",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/139",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-160-4-10",
+      "name": "毛包性魚鱗癬",
+      "name_en": "Ichthyosis Follicularis",
+      "overview": "毛包性魚鱗癬は、毛穴の周囲に強い角化が生じる遺伝性の皮膚疾患です。病型によって脱毛や光への過敏さなど、皮膚以外の症状を伴う場合があります。",
+      "dailyLife": "皮膚の乾燥や刺激を避けるケア、必要に応じた視覚・皮膚の支援が生活の助けになります。見た目の変化への心理的な配慮も重要です。",
+      "currentState": "皮膚症状を評価し、保湿や角化への治療などを行います。原因遺伝子や合併症の確認が必要になる場合があります。",
+      "parentDiseaseId": "mhlw-0160",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/139",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-160-4-3",
+      "name": "KID症候群",
+      "name_en": "Keratitis-ichthyosis-deafness syndrome",
+      "overview": "KID症候群は、角膜炎、魚鱗癬に似た皮膚症状、難聴を主な特徴とする先天性疾患です。皮膚や眼、耳の異常には個人差があります。",
+      "dailyLife": "聴こえや見え方への支援に加え、皮膚のケアが必要になる場合があります。学校や仕事で情報を受け取りやすい環境づくりが大切です。",
+      "currentState": "皮膚科・眼科・耳鼻科が協力し、皮膚を保護する治療や視聴覚の評価を行います。長期的な合併症の確認も重要です。",
+      "parentDiseaseId": "mhlw-0160",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/139",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-162-2",
+      "name": "粘膜類天疱瘡",
+      "name_en": "mucous membrane pemphigoid",
+      "overview": "粘膜類天疱瘡は、口や眼などの粘膜に自己抗体が関係する水疱やただれが起こる病気です。炎症が治った後に瘢痕を残すことがあります。",
+      "dailyLife": "口内の痛みで食事が難しくなったり、眼の症状が視力に影響したりすることがあります。早めの相談と継続的なケアが大切です。",
+      "currentState": "病変の場所と重症度に応じてステロイドや免疫治療などを使います。特に眼やのどの症状は専門的に評価します。",
+      "parentDiseaseId": "mhlw-0162",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4525",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-28-1",
+      "name": "ウォルマン病",
+      "name_en": "Wolman disease",
+      "overview": "ウォルマン病は、ライソゾーム酸性リパーゼの働きが著しく低下する遺伝性代謝疾患です。乳児期から肝脾腫や栄養吸収の問題、成長障害などが起こる場合があります。",
+      "dailyLife": "乳児期の哺乳や体重増加に支援が必要になり、家族と医療チームの連携が重要です。栄養状態と全身の変化をこまめに確認します。",
+      "currentState": "酵素活性や遺伝子検査で診断し、適応に応じて酵素補充療法や栄養・臓器の管理を行います。早期の専門診療が重要です。",
+      "parentDiseaseId": "mhlw-0019",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-23-2-1",
+      "name": "家族性CJD",
+      "name_en": "Familial Creutzfeldt-Jakob Disease",
+      "overview": "家族性クロイツフェルト・ヤコブ病は、PRNP遺伝子の病的な変化に関連する遺伝性プリオン病の一型です。認知機能や運動機能の変化が現れることがあります。",
+      "dailyLife": "歩行、会話、食事などに支援が必要になる場合があります。本人と家族が遺伝や生活上の意思決定について相談できる体制も大切です。",
+      "currentState": "神経診察、画像検査や遺伝学的評価などを行い、症状を和らげるケアを組み合わせます。進行を確実に止める治療は確立していません。",
+      "parentDiseaseId": "mhlw-0023",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-240-1",
+      "name": "PAH欠損症",
+      "name_en": "Phenylalanine Hydroxylase Deficiency",
+      "overview": "PAH欠損症は、フェニルアラニン水酸化酵素の働きが低下して、血液中のフェニルアラニンが増える遺伝性代謝疾患です。治療せず高値が続くと神経発達に影響します。",
+      "dailyLife": "食事に含まれるフェニルアラニンを管理する必要がある人がいます。成長や学校生活に合わせて栄養を確保しながら継続することが大切です。",
+      "currentState": "新生児検査や血液検査などで確認し、食事療法や病型に適した薬を用います。血中濃度と発達を長期的に確認します。",
+      "parentDiseaseId": "mhlw-0240",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4747",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-240-2",
+      "name": "BH4欠損症",
+      "name_en": "Tetrahydrobiopterin deficiency",
+      "overview": "BH4欠損症は、フェニルアラニンなどの代謝に必要な補酵素テトラヒドロビオプテリンの働きに異常が起こる疾患群です。神経伝達物質の不足を伴う型があります。",
+      "dailyLife": "食事管理に加えて、運動や発達、体調などへの支援が必要になる場合があります。病型によって治療と生活上の注意が異なります。",
+      "currentState": "血液・尿などの検査でPAH欠損症と鑑別し、BH4補充や神経伝達物質に関わる治療などを病型に応じて検討します。",
+      "parentDiseaseId": "mhlw-0240",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4747",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    }
+  ]
+}
