@@ -24,6 +24,7 @@ jobs:
           node --check scripts/public_browser_smoke.cjs
           node --check content/disease-guides.js
           node --check disease/disease.js
+          node --check contact/contact.js
           node --check scripts/validate_disease_guides.cjs
           node --check scripts/validate_disease_guides_extra.cjs
           node --check scripts/validate_disease_guides_currently_lit.cjs
@@ -85,11 +86,18 @@ jobs:
                   if 'id' in a: self.ids.add(a['id'])
                   if tag in ('script','link') and a.get('src',a.get('href','')).startswith(('./','../')):
                       self.references.append(a.get('src',a.get('href')).split('?')[0])
-          for f in ['index.html','admin/index.html','weekly/index.html','privacy/index.html','lab/index.html','clinical/index.html','disease/index.html']:
+          for f in ['index.html','admin/index.html','weekly/index.html','privacy/index.html','lab/index.html','clinical/index.html','disease/index.html','contact/index.html']:
               parser=Collector();parser.feed(Path(f).read_text())
               for ref in parser.references:
                   assert (Path(f).parent/ref).resolve().is_file(), f'{f}: missing {ref}'
-          parser=Collector();parser.feed(Path('index.html').read_text())
+          contact=Path('contact/index.html').read_text()
+          assert 'id="contact-form"' in contact and 'id="contact-message"' in contact
+          assert 'id="contact-email"' in contact and 'id="contact-send"' in contact
+          home_markup=Path('index.html').read_text()
+          assert 'href="./contact/"' in home_markup and 'href="./weekly/"' in home_markup
+          assert '1ブラウザにつき1日1回' not in home_markup
+          assert 'map-disclaimer' not in home_markup
+          parser=Collector();parser.feed(home_markup)
           for required in ['flow-modal','suggest-toggle','suggest-panel','suggest-name','suggest-send',
                            'suggest-status','open-form','step-disease','thought-text','finish-flow']:
               assert required in parser.ids, f'missing {required}'
