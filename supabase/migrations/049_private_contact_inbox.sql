@@ -26,15 +26,15 @@ create or replace function public.submit_contact(
 returns jsonb language plpgsql volatile security definer set search_path = ''
 as $fn$
 declare
- v_message text := pg_catalog.btrim(pg_catalog.coalesce(p_message, ''));
- v_email text := pg_catalog.nullif(pg_catalog.btrim(pg_catalog.coalesce(p_email, '')), '');
+ v_message text := pg_catalog.btrim(coalesce(p_message, ''));
+ v_email text := nullif(pg_catalog.btrim(coalesce(p_email, '')), '');
  v_hash text;
  v_now timestamptz := pg_catalog.clock_timestamp();
  v_recent integer;
  v_day integer;
 begin
  -- Honeypot: populated only by automated form fillers.
- if pg_catalog.length(pg_catalog.coalesce(p_website,'')) > 0 then
+ if pg_catalog.length(coalesce(p_website,'')) > 0 then
   return pg_catalog.jsonb_build_object('ok',false,'reason','invalid');
  end if;
  if p_contact_token is null or
