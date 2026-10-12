@@ -1,0 +1,705 @@
+{
+  "scopeNote": "Source references document parent disease context; parent webpage alone does not independently validate subtype-specific symptom/gene/treatment statements.",
+  "records": [
+    {
+      "id": "nando-19-17",
+      "parentId": "mhlw-0019",
+      "parentName": "ライソゾーム病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-222-2",
+      "parentId": "mhlw-0222",
+      "parentName": "一次性ネフローゼ症候群",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4516",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-111-3",
+      "parentId": "mhlw-0111",
+      "parentName": "先天性ミオパチー",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-13-3",
+      "parentId": "mhlw-0013",
+      "parentName": "多発性硬化症／視神経脊髄炎",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/3806",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-177-1",
+      "parentId": "mhlw-0177",
+      "parentName": "ジュベール症候群関連疾患",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4552",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-18-4",
+      "parentId": "mhlw-0018",
+      "parentName": "脊髄小脳変性症(多系統萎縮症を除く。)",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4881",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-234-3",
+      "parentId": "mhlw-0234",
+      "parentName": "ペルオキシソーム病（副腎白質ジストロフィーを除く。）",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4621",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-257-1-7",
+      "parentId": "mhlw-0257",
+      "parentName": "肝型糖原病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-257-2",
+      "parentId": "mhlw-0257",
+      "parentName": "肝型糖原病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-277-2",
+      "parentId": "mhlw-0277",
+      "parentName": "リンパ管腫症/ゴーハム病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-308-2",
+      "parentId": "mhlw-0308",
+      "parentName": "進行性白質脳症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-65-19",
+      "parentId": "mhlw-0065",
+      "parentName": "原発性免疫不全症候群",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-10-1",
+      "parentId": "mhlw-0010",
+      "parentName": "シャルコー・マリー・トゥース病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/3773",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-10-2",
+      "parentId": "mhlw-0010",
+      "parentName": "シャルコー・マリー・トゥース病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/3773",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-10-3",
+      "parentId": "mhlw-0010",
+      "parentName": "シャルコー・マリー・トゥース病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/3773",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-127-2",
+      "parentId": "mhlw-0127",
+      "parentName": "前頭側頭葉変性症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-13-2",
+      "parentId": "mhlw-0013",
+      "parentName": "多発性硬化症／視神経脊髄炎",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/3806",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-160-4",
+      "parentId": "mhlw-0160",
+      "parentName": "先天性魚鱗癬",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/139",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-160-4-10",
+      "parentId": "mhlw-0160",
+      "parentName": "先天性魚鱗癬",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/139",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-160-4-3",
+      "parentId": "mhlw-0160",
+      "parentName": "先天性魚鱗癬",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/139",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-162-2",
+      "parentId": "mhlw-0162",
+      "parentName": "類天疱瘡（後天性表皮水疱症を含む。）",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4525",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-19-28-1",
+      "parentId": "mhlw-0019",
+      "parentName": "ライソゾーム病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-23-2-1",
+      "parentId": "mhlw-0023",
+      "parentName": "プリオン病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-240-1",
+      "parentId": "mhlw-0240",
+      "parentName": "フェニルケトン尿症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4747",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-240-2",
+      "parentId": "mhlw-0240",
+      "parentName": "フェニルケトン尿症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4747",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-246-1",
+      "parentId": "mhlw-0246",
+      "parentName": "メチルマロン酸血症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4861",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-251-2",
+      "parentId": "mhlw-0251",
+      "parentName": "尿素サイクル異常症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-256-8",
+      "parentId": "mhlw-0256",
+      "parentName": "筋型糖原病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-257-1-1",
+      "parentId": "mhlw-0257",
+      "parentName": "肝型糖原病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-277-1",
+      "parentId": "mhlw-0277",
+      "parentName": "リンパ管腫症/ゴーハム病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-37-3",
+      "parentId": "mhlw-0037",
+      "parentName": "膿疱性乾癬（汎発型）",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/168",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-48-1",
+      "parentId": "mhlw-0048",
+      "parentName": "原発性抗リン脂質抗体症候群",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-61-2",
+      "parentId": "mhlw-0061",
+      "parentName": "自己免疫性溶血性貧血",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-62-1",
+      "parentId": "mhlw-0062",
+      "parentName": "発作性夜間ヘモグロビン尿症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/3784",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-65-14",
+      "parentId": "mhlw-0065",
+      "parentName": "原発性免疫不全症候群",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-65-17",
+      "parentId": "mhlw-0065",
+      "parentName": "原発性免疫不全症候群",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-72-1",
+      "parentId": "mhlw-0072",
+      "parentName": "下垂体性ADH分泌異常症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/3988",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-87-1",
+      "parentId": "mhlw-0087",
+      "parentName": "肺静脈閉塞症／肺毛細血管腫症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-13-1-1",
+      "parentId": "mhlw-0013",
+      "parentName": "多発性硬化症／視神経脊髄炎",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/3806",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-162-1",
+      "parentId": "mhlw-0162",
+      "parentName": "類天疱瘡（後天性表皮水疱症を含む。）",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4525",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-19-19",
+      "parentId": "mhlw-0019",
+      "parentName": "ライソゾーム病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-21-6-1",
+      "parentId": "mhlw-0021",
+      "parentName": "ミトコンドリア病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-21-6-2",
+      "parentId": "mhlw-0021",
+      "parentName": "ミトコンドリア病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-234-6",
+      "parentId": "mhlw-0234",
+      "parentName": "ペルオキシソーム病（副腎白質ジストロフィーを除く。）",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4621",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-251-1",
+      "parentId": "mhlw-0251",
+      "parentName": "尿素サイクル異常症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-251-5",
+      "parentId": "mhlw-0251",
+      "parentName": "尿素サイクル異常症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-256-1",
+      "parentId": "mhlw-0256",
+      "parentName": "筋型糖原病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-256-5",
+      "parentId": "mhlw-0256",
+      "parentName": "筋型糖原病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-296-1",
+      "parentId": "mhlw-0296",
+      "parentName": "胆道閉鎖症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-296-3",
+      "parentId": "mhlw-0296",
+      "parentName": "胆道閉鎖症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-296-4",
+      "parentId": "mhlw-0296",
+      "parentName": "胆道閉鎖症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-300-2",
+      "parentId": "mhlw-0300",
+      "parentName": "ＩｇＧ４関連疾患",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4504",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-316-1",
+      "parentId": "mhlw-0316",
+      "parentName": "カルニチン回路異常症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-325-2",
+      "parentId": "mhlw-0325",
+      "parentName": "遺伝性自己炎症疾患",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-82-2",
+      "parentId": "mhlw-0082",
+      "parentName": "先天性副腎低形成症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-82-4",
+      "parentId": "mhlw-0082",
+      "parentName": "先天性副腎低形成症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-82-4-1",
+      "parentId": "mhlw-0082",
+      "parentName": "先天性副腎低形成症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-85-1",
+      "parentId": "mhlw-0085",
+      "parentName": "特発性間質性肺炎",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/156",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-98-2",
+      "parentId": "mhlw-0098",
+      "parentName": "好酸球性消化管疾患",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-106-1",
+      "parentId": "mhlw-0106",
+      "parentName": "クリオピリン関連周期熱症候群",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-106-3",
+      "parentId": "mhlw-0106",
+      "parentName": "クリオピリン関連周期熱症候群",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-111-5",
+      "parentId": "mhlw-0111",
+      "parentName": "先天性ミオパチー",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-114-1",
+      "parentId": "mhlw-0114",
+      "parentName": "非ジストロフィー性ミオトニー症候群",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-117-1",
+      "parentId": "mhlw-0117",
+      "parentName": "脊髄空洞症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-120-23",
+      "parentId": "mhlw-0120",
+      "parentName": "遺伝性ジストニア",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-139-4",
+      "parentId": "mhlw-0139",
+      "parentName": "先天性大脳白質形成不全症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-162-3",
+      "parentId": "mhlw-0162",
+      "parentName": "類天疱瘡（後天性表皮水疱症を含む。）",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4525",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-18-1-1",
+      "parentId": "mhlw-0018",
+      "parentName": "脊髄小脳変性症(多系統萎縮症を除く。)",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4881",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-229-2",
+      "parentId": "mhlw-0229",
+      "parentName": "肺胞蛋白症（自己免疫性又は先天性）",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-229-3",
+      "parentId": "mhlw-0229",
+      "parentName": "肺胞蛋白症（自己免疫性又は先天性）",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-229-4",
+      "parentId": "mhlw-0229",
+      "parentName": "肺胞蛋白症（自己免疫性又は先天性）",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-23-2",
+      "parentId": "mhlw-0023",
+      "parentName": "プリオン病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-230-1",
+      "parentId": "mhlw-0230",
+      "parentName": "肺胞低換気症候群",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/172",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-325-1",
+      "parentId": "mhlw-0325",
+      "parentName": "遺伝性自己炎症疾患",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-330-1",
+      "parentId": "mhlw-0330",
+      "parentName": "先天性気管狭窄症／先天性声門下狭窄症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-34-2",
+      "parentId": "mhlw-0034",
+      "parentName": "神経線維腫症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-35-2",
+      "parentId": "mhlw-0035",
+      "parentName": "天疱瘡",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-35-5",
+      "parentId": "mhlw-0035",
+      "parentName": "天疱瘡",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-50-2",
+      "parentId": "mhlw-0050",
+      "parentName": "皮膚筋炎／多発性筋炎",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4079",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-60-4-2",
+      "parentId": "mhlw-0060",
+      "parentName": "再生不良性貧血",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/106",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-61-5",
+      "parentId": "mhlw-0061",
+      "parentName": "自己免疫性溶血性貧血",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-62-2",
+      "parentId": "mhlw-0062",
+      "parentName": "発作性夜間ヘモグロビン尿症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/3784",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-83-2",
+      "parentId": "mhlw-0083",
+      "parentName": "アジソン病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-85-2-4",
+      "parentId": "mhlw-0085",
+      "parentName": "特発性間質性肺炎",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/156",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-96-1",
+      "parentId": "mhlw-0096",
+      "parentName": "クローン病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/81",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-96-2",
+      "parentId": "mhlw-0096",
+      "parentName": "クローン病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/81",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-96-4",
+      "parentId": "mhlw-0096",
+      "parentName": "クローン病",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/81",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-111-1",
+      "parentId": "mhlw-0111",
+      "parentName": "先天性ミオパチー",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-117-2",
+      "parentId": "mhlw-0117",
+      "parentName": "脊髄空洞症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-120-1",
+      "parentId": "mhlw-0120",
+      "parentName": "遺伝性ジストニア",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-120-2",
+      "parentId": "mhlw-0120",
+      "parentName": "遺伝性ジストニア",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-137-1",
+      "parentId": "mhlw-0137",
+      "parentName": "限局性皮質異形成",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4458",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-137-2",
+      "parentId": "mhlw-0137",
+      "parentName": "限局性皮質異形成",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4458",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-137-3",
+      "parentId": "mhlw-0137",
+      "parentName": "限局性皮質異形成",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4458",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-18-2-1",
+      "parentId": "mhlw-0018",
+      "parentName": "脊髄小脳変性症(多系統萎縮症を除く。)",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4881",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-234-2-2",
+      "parentId": "mhlw-0234",
+      "parentName": "ペルオキシソーム病（副腎白質ジストロフィーを除く。）",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/4621",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-301-4-1",
+      "parentId": "mhlw-0301",
+      "parentName": "黄斑ジストロフィー",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-310-1",
+      "parentId": "mhlw-0310",
+      "parentName": "先天異常症候群",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-310-2",
+      "parentId": "mhlw-0310",
+      "parentName": "先天異常症候群",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    },
+    {
+      "id": "nando-315-1",
+      "parentId": "mhlw-0315",
+      "parentName": "ネイルパテラ症候群（爪膝蓋骨症候群）／ＬＭＸ１Ｂ関連腎症",
+      "parentUrl": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+      "sourceScope": "parent_disorder_not_subtype_confirmation"
+    }
+  ]
+}
