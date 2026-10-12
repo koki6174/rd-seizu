@@ -1,0 +1,342 @@
+{
+  "part": 5,
+  "origin": "Individually written subtype-focused drafts; identified by exact Supabase disease IDs; reference evidence at parent level where individual page unavailable.",
+  "records": [
+    {
+      "id": "nando-301-6",
+      "name": "中心性輪紋状脈絡膜ジストロフィー",
+      "overview": "網膜の中心部にある脈絡膜と網膜色素上皮などが徐々に障害される遺伝性の眼の病気です。視野の中心が見えにくくなる場合があり、発症時期や進み方には個人差があります。",
+      "dailyLife": "読書や顔の認識、細かな作業などに影響することがあります。拡大表示や照明の調整など、見え方に応じた環境づくりが役立ちます。",
+      "currentState": "眼底写真や網膜の画像検査、家族歴などで評価します。視機能を補う機器やリハビリなどを利用しながら経過を確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 75377,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 87
+    },
+    {
+      "id": "nando-308-1",
+      "name": "皮質下嚢胞をもつ大頭型白質脳症",
+      "overview": "脳の白質に特徴的な変化と皮質下の嚢胞が生じる遺伝性疾患です。幼少期から頭囲が大きくなる、歩行が不安定になる、けいれん発作などの症状が起こる場合があります。",
+      "dailyLife": "ふらつきや筋肉のこわばりが移動や日常動作に影響することがあります。頭部へのけがを防ぐ環境づくりや、発作への備えが重要です。",
+      "currentState": "MRIや遺伝子検査などで診断を検討し、てんかんや運動症状への治療とリハビリを行います。長期的に神経症状を見守ります。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 2478,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 88
+    },
+    {
+      "id": "nando-35-2",
+      "name": "天疱瘡（落葉状）",
+      "overview": "皮膚の細胞同士をつなぐたんぱく質に自己抗体が作用し、皮膚の浅い場所に水疱やかさぶたができる天疱瘡の病型です。口の中の病変は尋常性天疱瘡より目立たないことが一般的です。",
+      "dailyLife": "皮膚のただれや痛みで入浴や衣類の着用が負担になる場合があります。皮膚を傷つけない処置と感染への配慮が大切です。",
+      "currentState": "皮膚の診察と病理・免疫学的な検査で診断し、外用・内服のステロイドなどを病状に応じて使います。再燃や治療の副作用を確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 79481,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 89
+    },
+    {
+      "id": "nando-35-3",
+      "name": "天疱瘡（腫瘍随伴性）",
+      "overview": "腫瘍、特に血液やリンパ系の病気などに関連して生じることがある自己免疫性の皮膚・粘膜疾患です。口の中の強いただれや多様な皮疹が現れ、呼吸器に影響する例もあります。",
+      "dailyLife": "食事や会話が難しくなるほど口内に痛みがある場合があります。呼吸状態の変化にも注意し、専門医療チームとの連携が重要です。",
+      "currentState": "原因となる腫瘍の評価と治療に加え、免疫の炎症を抑える治療、皮膚・粘膜のケアを行います。状態により入院治療が必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 63455,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 90
+    },
+    {
+      "id": "nando-35-5",
+      "name": "天疱瘡（紅斑性）",
+      "overview": "天疱瘡の一病型で、顔や頭皮、胸などの日光が当たりやすい場所に赤い皮疹や鱗屑が生じることがあります。別の自己免疫疾患と似た皮膚の特徴を伴う場合もあります。",
+      "dailyLife": "顔など目立つ場所の皮疹やかゆみが日常生活に影響することがあります。皮膚を刺激から守り、症状の変化を皮膚科に相談します。",
+      "currentState": "皮膚や自己抗体の検査で病型を確認し、外用ステロイドなどの治療を検討します。病変の広がりにより全身への治療が必要な場合もあります。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 79480,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 91
+    },
+    {
+      "id": "nando-60-1",
+      "name": "特発性再生不良性貧血",
+      "overview": "骨髄で血液の細胞をつくる働きが低下する再生不良性貧血のうち、原因となる薬剤や感染症などが明らかでない型です。貧血、感染や出血しやすさが現れることがあります。",
+      "dailyLife": "疲れやすさや発熱、出血への注意が必要になる場合があります。血球数に応じて活動や感染予防を工夫し、定期検査を続けます。",
+      "currentState": "骨髄検査などで診断と重症度を評価し、免疫抑制療法、造血幹細胞移植、輸血などを状態に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/106",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 88,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 92
+    },
+    {
+      "id": "nando-65-2",
+      "name": "細網異形成症",
+      "overview": "AK2遺伝子の変化に関係する重い先天性免疫不全症の一つです。白血球のうち好中球やT細胞などが著しく少なく、乳児期から重い感染症を起こしやすくなります。",
+      "dailyLife": "幼い時期から感染予防と専門的な医療が必要になることがあります。家族が緊急時の受診方法を医療チームと共有することが大切です。",
+      "currentState": "血液や免疫機能、遺伝子の検査で病型を評価し、感染への対応と造血幹細胞移植などの根治を目指す治療を専門施設で検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 33355,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 93
+    },
+    {
+      "id": "nando-160-2",
+      "name": "道化師様魚鱗癬",
+      "overview": "出生時から全身の皮膚が非常に厚い角質で覆われ、深い亀裂や強い赤みがみられる重い先天性魚鱗癬の病型です。皮膚のバリア機能が低下し、呼吸や体温・水分の管理に影響します。",
+      "dailyLife": "新生児期には感染、水分の不足や体温の変化に注意が必要です。成長後も保湿や角質ケアを続け、学校生活での配慮が必要になる場合があります。",
+      "currentState": "出生直後から専門施設で皮膚・呼吸・栄養を管理します。保湿や角質への治療を行い、成長に合わせてケアを調整します。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/139",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": null,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 94
+    },
+    {
+      "id": "nando-160-3-1",
+      "name": "先天性魚鱗癬様紅皮症",
+      "overview": "生まれつき全身の皮膚が赤く乾燥し、細かな鱗屑が出ることがある遺伝性の魚鱗癬です。角質の形成に関わる複数の遺伝子が原因となる場合があります。",
+      "dailyLife": "毎日の保湿や皮膚の保護、暑さへの配慮などが生活に関わります。皮膚の感染やかゆみ、見た目の違いへの理解も重要です。",
+      "currentState": "病型と皮膚の状態を評価し、保湿を基本に必要な外用・全身治療を検討します。感染や体温管理にも注意します。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/139",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": null,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 95
+    },
+    {
+      "id": "nando-160-4-2",
+      "name": "シェーグレン・ラルソン症候群",
+      "overview": "皮膚が乾燥して鱗屑が増える魚鱗癬に、下肢の筋肉のつっぱりや発達の問題などが加わる遺伝性疾患です。脂肪酸の代謝に関わる酵素の異常が原因です。",
+      "dailyLife": "皮膚のケアに加え、歩行・姿勢や学習の支援が必要になる場合があります。学校や家庭で本人に合う環境を整えることが大切です。",
+      "currentState": "皮膚・神経・発達の状態を評価し、保湿やリハビリ、必要な教育・生活支援を組み合わせます。病気を根本的に治す治療法は限られます。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/139",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": null,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 96
+    },
+    {
+      "id": "nando-139-1",
+      "name": "ペリツェウス・メルツバッハ病",
+      "overview": "PLP1遺伝子の変化に関連し、脳や脊髄の神経を覆う髄鞘が十分に形成されないX染色体関連の病気です。乳幼児期から眼振、筋緊張の変化、発達や運動の問題がみられます。",
+      "dailyLife": "姿勢や移動、食事、コミュニケーションに支援が必要になる場合があります。呼吸や飲み込みなどの状態も見守り、成長に応じた補助具を考えます。",
+      "currentState": "MRIや遺伝子検査で病型を評価し、筋緊張・栄養・呼吸の問題への対応とリハビリを行います。多職種による長期的な支援が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": null,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 97
+    },
+    {
+      "id": "nando-120-5",
+      "name": "DYT5ジストニア",
+      "overview": "ドパミンの合成などに関連する遺伝的な異常によって、筋肉が不随意に収縮し、脚や体幹の姿勢が変わることがあるジストニアの病型です。日中の活動で悪化する型があります。",
+      "dailyLife": "歩行や立ち姿勢が時間帯によって変化することがあります。症状が日常動作に影響した場合は、神経内科で具体的な変化を伝えることが重要です。",
+      "currentState": "症状や神経学的検査、必要な遺伝子検査を踏まえて診断します。レボドパで症状が大きく改善する型があり、専門医が治療を判断します。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": null,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 98
+    },
+    {
+      "id": "nando-137-5",
+      "name": "FCD タイプ2b",
+      "overview": "胎児期に大脳皮質が形成される過程に局所的な違いが生じ、てんかん発作の原因となる病型です。異常な大きな神経細胞やバルーン細胞と呼ばれる細胞が特徴とされます。",
+      "dailyLife": "てんかん発作が学習や日常の安全に影響する場合があります。周囲と発作時の対応を共有し、本人の活動を支えることが大切です。",
+      "currentState": "脳波やMRIなどで発作の原因部位を調べ、薬で十分に抑えられない場合は専門施設で外科治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4458",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": null,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 99
+    },
+    {
+      "id": "nando-160-4-11",
+      "name": "CHILD症候群",
+      "overview": "体の片側を中心とした魚鱗癬様の皮膚病変と、同じ側の手足や骨格の発達の違いを特徴とするまれな遺伝性疾患です。コレステロール合成に関わる遺伝子の変化が原因です。",
+      "dailyLife": "皮膚の乾燥や赤み、手足の動かしにくさが生活に影響する場合があります。皮膚のケアと補助具やリハビリを組み合わせます。",
+      "currentState": "皮膚所見と骨格、遺伝学的な情報などから評価します。保湿、皮膚病変への治療、整形外科的な支援を個別に検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/139",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": null,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 100
+    }
+  ]
+}
