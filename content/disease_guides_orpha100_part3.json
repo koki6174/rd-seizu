@@ -226,7 +226,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/313",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -240,7 +241,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-19-19-1",
@@ -467,7 +469,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/812",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -481,7 +484,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-316-2",
@@ -708,7 +712,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/157",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -722,7 +727,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-18-2-5",
@@ -939,7 +945,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/98755",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -953,7 +960,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-19-1-3",
@@ -1170,7 +1178,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/77261",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -1184,7 +1193,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-275-1",
@@ -1401,7 +1411,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/1860",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -1415,7 +1426,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-164-1",
@@ -1627,7 +1639,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/79430",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -1641,7 +1654,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-19-33-2",
@@ -1853,7 +1867,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/411634",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -1867,7 +1882,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-254-5",
@@ -2079,7 +2095,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/101330",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -2093,7 +2110,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-65-21",
@@ -2305,7 +2323,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/79124",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -2319,7 +2338,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-255-2",
@@ -2526,7 +2546,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/79241",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -2540,7 +2561,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-106-2",
@@ -2742,7 +2764,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/575",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -2756,7 +2779,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-18-3-1",
@@ -2958,7 +2982,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/96",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -2972,7 +2997,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-19-7-2",
@@ -3174,7 +3200,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/309263",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -3188,7 +3215,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-254-8",
@@ -3390,7 +3418,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/95159",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -3404,7 +3433,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-65-11",
@@ -3606,7 +3636,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/100",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -3620,7 +3651,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-164-3",
@@ -3817,7 +3849,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/381",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -3831,7 +3864,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-19-7-1",
@@ -4028,7 +4062,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/309256",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -4042,7 +4077,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-30-3",
@@ -4239,7 +4275,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/98897",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -4253,7 +4290,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-17-1",
@@ -4445,7 +4483,8 @@
         {
           "title": "Orphanet：疾患別の詳細情報",
           "url": "https://www.orpha.net/en/disease/detail/227510",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata：2026年7月版の症状・出現頻度情報",
@@ -4459,7 +4498,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     }
   ]
 }
