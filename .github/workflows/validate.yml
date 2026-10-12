@@ -29,6 +29,7 @@ jobs:
           node --check scripts/validate_disease_guides_currently_lit.cjs
           node --check scripts/validate_disease_guides_extra100_20261012.cjs
           node --check scripts/validate_disease_guides_extra100_batch2_20261012.cjs
+          node --check scripts/validate_disease_guides_orpha100_20261012.cjs
           node --check admin/analytics.js
           node --check scripts/stage_orpha_hpo_evidence.cjs
           node --check lab/scene.js
@@ -337,12 +338,14 @@ jobs:
           node scripts/validate_disease_guides_currently_lit.cjs
           node scripts/validate_disease_guides_extra100_20261012.cjs
           node scripts/validate_disease_guides_extra100_batch2_20261012.cjs
+          node scripts/validate_disease_guides_orpha100_20261012.cjs
 
       - name: Python Japanese article character audit
         run: |
           python scripts/audit_guide_text_lengths.py
           python scripts/audit_guide_extra100_20261012.py
           python scripts/audit_guide_extra100_batch2_20261012.py
+          python scripts/audit_orpha100_text_lengths.py
 
       - name: Check unlisted six-way glow preview
         run: node scripts/validate_glow_preview.cjs

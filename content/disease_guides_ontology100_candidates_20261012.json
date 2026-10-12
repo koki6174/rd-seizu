@@ -1,0 +1,906 @@
+{
+  "asOf": "2026-10-12",
+  "selected": [
+    {
+      "id": "nando-21-2",
+      "name_ja": "リー脳症",
+      "name_en": "Leigh syndrome",
+      "parent_disease_id": "mhlw-0021",
+      "orpha_code": 506,
+      "hpo_n": 98,
+      "genes": "IARS2"
+    },
+    {
+      "id": "nando-160-4-9",
+      "name_ja": "硫黄欠乏性毛髪発育異常症",
+      "name_en": "Trichothiodystrophy",
+      "parent_disease_id": "mhlw-0160",
+      "orpha_code": 33364,
+      "hpo_n": 91,
+      "genes": "AARS1, CARS1, DBR1, ERCC2, ERCC3, GTF2E2, GTF2H5, MPLKIP, RNF113A, TARS1"
+    },
+    {
+      "id": "nando-19-4",
+      "name_ja": "GM1ガングリオシドーシス",
+      "name_en": "GM1 Gangliosidosis",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 354,
+      "hpo_n": 90,
+      "genes": null
+    },
+    {
+      "id": "nando-19-22-1",
+      "name_ja": "α-マンノシドーシス（乳児型）",
+      "name_en": "Alpha-mannosidosis, infantile form",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 309282,
+      "hpo_n": 88,
+      "genes": "MAN2B1"
+    },
+    {
+      "id": "nando-9-1",
+      "name_ja": "有棘赤血球舞踏病",
+      "name_en": "Choreoacanthocytosis",
+      "parent_disease_id": "mhlw-0009",
+      "orpha_code": 2388,
+      "hpo_n": 86,
+      "genes": "VPS13A"
+    },
+    {
+      "id": "nando-19-3",
+      "name_ja": "Niemann-Pick病C型",
+      "name_en": "Niemann-Pick disease Type C",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 646,
+      "hpo_n": 82,
+      "genes": null
+    },
+    {
+      "id": "nando-34-1",
+      "name_ja": "神経線維腫症Ⅰ型",
+      "name_en": "Neurofibromatosis Type 1",
+      "parent_disease_id": "mhlw-0034",
+      "orpha_code": 636,
+      "hpo_n": 77,
+      "genes": null
+    },
+    {
+      "id": "nando-50-1",
+      "name_ja": "皮膚筋炎",
+      "name_en": "Dermatomyositis",
+      "parent_disease_id": "mhlw-0050",
+      "orpha_code": 221,
+      "hpo_n": 76,
+      "genes": null
+    },
+    {
+      "id": "nando-65-32",
+      "name_ja": "自己免疫性リンパ増殖症候群",
+      "name_en": "Autoimmune lymphoproliferative syndrome",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 3261,
+      "hpo_n": 72,
+      "genes": "CASP10, FAS, FASLG"
+    },
+    {
+      "id": "nando-19-6-1",
+      "name_ja": "Krabbe病（乳児型）",
+      "name_en": "Infantile Krabbe disease",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 206436,
+      "hpo_n": 70,
+      "genes": "GALC, PSAP"
+    },
+    {
+      "id": "nando-65-36",
+      "name_ja": "シュワッハマン・ダイアモンド症候群",
+      "name_en": "Shwachman-Diamond syndrome",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 811,
+      "hpo_n": 69,
+      "genes": "DNAJC21, EFL1, SBDS"
+    },
+    {
+      "id": "nando-65-13",
+      "name_ja": "ブルーム症候群",
+      "name_en": "Bloom syndrome",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 125,
+      "hpo_n": 67,
+      "genes": "BLM"
+    },
+    {
+      "id": "nando-28-1-1",
+      "name_ja": "免疫グロブリン性アミロイドーシス",
+      "name_en": "AL amyloidosis",
+      "parent_disease_id": "mhlw-0028",
+      "orpha_code": 85443,
+      "hpo_n": 64,
+      "genes": null
+    },
+    {
+      "id": "nando-19-21-1",
+      "name_ja": "ムコリピドーシスII型",
+      "name_en": "Mucolipidosis Type II",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 576,
+      "hpo_n": 63,
+      "genes": "GNPTAB"
+    },
+    {
+      "id": "nando-19-10",
+      "name_ja": "Hurler症候群",
+      "name_en": "Hurler syndrome",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 93473,
+      "hpo_n": 60,
+      "genes": "IDUA"
+    },
+    {
+      "id": "nando-50-3",
+      "name_ja": "多発性筋炎",
+      "name_en": "Polymyositis",
+      "parent_disease_id": "mhlw-0050",
+      "orpha_code": 732,
+      "hpo_n": 60,
+      "genes": null
+    },
+    {
+      "id": "nando-111-6",
+      "name_ja": "先天性筋線維タイプ不均等症",
+      "name_en": "Congenital fiber-type disproportion myopathy",
+      "parent_disease_id": "mhlw-0111",
+      "orpha_code": 2020,
+      "hpo_n": 59,
+      "genes": "ACTA1, HACD1, ITGA7, MAP3K20, MYL2, SELENON, TPM2, TPM3"
+    },
+    {
+      "id": "nando-300-5",
+      "name_ja": "IgG4関連腎臓病",
+      "name_en": "IgG4-related kidney disease",
+      "parent_disease_id": "mhlw-0300",
+      "orpha_code": 449395,
+      "hpo_n": 58,
+      "genes": null
+    },
+    {
+      "id": "nando-65-10",
+      "name_ja": "ウィスコット・オルドリッチ症候群",
+      "name_en": "Wiskott-Aldrich syndrome",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 906,
+      "hpo_n": 57,
+      "genes": "WAS"
+    },
+    {
+      "id": "nando-19-33",
+      "name_ja": "シスチン症",
+      "name_en": "Cystinosis",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 213,
+      "hpo_n": 56,
+      "genes": null
+    },
+    {
+      "id": "nando-234-1-1",
+      "name_ja": "ツェルベーガー症候群",
+      "name_en": "Zellweger syndrome",
+      "parent_disease_id": "mhlw-0234",
+      "orpha_code": 912,
+      "hpo_n": 55,
+      "genes": "PEX1, PEX10, PEX11B, PEX12, PEX13, PEX14, PEX16, PEX19, PEX2, PEX26, PEX3, PEX5, PEX6"
+    },
+    {
+      "id": "nando-139-5",
+      "name_ja": "アラン・ハーンドン・タドリー症候群",
+      "name_en": "Allan-Herndon-Dudley syndrome",
+      "parent_disease_id": "mhlw-0139",
+      "orpha_code": 59,
+      "hpo_n": 54,
+      "genes": "SLC16A2"
+    },
+    {
+      "id": "nando-19-4-1",
+      "name_ja": "GM1ガングリオシドーシス（乳児型）",
+      "name_en": "GM1 gangliosidosis type 1",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 79255,
+      "hpo_n": 54,
+      "genes": "GLB1"
+    },
+    {
+      "id": "nando-156-2",
+      "name_ja": "非典型的レット症候群",
+      "name_en": "Atypical Rett syndrome",
+      "parent_disease_id": "mhlw-0156",
+      "orpha_code": 3095,
+      "hpo_n": 53,
+      "genes": "CDKL5, GABBR2, MECP2, NTNG1, SMC1A"
+    },
+    {
+      "id": "nando-65-35",
+      "name_ja": "白血球接着不全症",
+      "name_en": "Leukocyte adhesion deficiency",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 2968,
+      "hpo_n": 52,
+      "genes": null
+    },
+    {
+      "id": "nando-251-4",
+      "name_ja": "アルギニノコハク酸尿症",
+      "name_en": "Argininosuccinic aciduria",
+      "parent_disease_id": "mhlw-0251",
+      "orpha_code": 23,
+      "hpo_n": 51,
+      "genes": "ASL"
+    },
+    {
+      "id": "nando-67-2",
+      "name_ja": "常染色体劣性多発性嚢胞腎",
+      "name_en": "Autosomal Recessive Polycystic Kidney Disease",
+      "parent_disease_id": "mhlw-0067",
+      "orpha_code": 731,
+      "hpo_n": 51,
+      "genes": "DZIP1L, PKHD1"
+    },
+    {
+      "id": "nando-254-1",
+      "name_ja": "急性間欠性ポルフィリン症",
+      "name_en": "Acute intermittent porphyria",
+      "parent_disease_id": "mhlw-0254",
+      "orpha_code": 79276,
+      "hpo_n": 50,
+      "genes": "HMBS"
+    },
+    {
+      "id": "nando-254-6",
+      "name_ja": "先天性骨髄性ポルフィリン症",
+      "name_en": "Congenital erythropoietic porphyria",
+      "parent_disease_id": "mhlw-0254",
+      "orpha_code": 79277,
+      "hpo_n": 50,
+      "genes": "GATA1, UROS"
+    },
+    {
+      "id": "nando-19-1-1",
+      "name_ja": "Gaucher病１型",
+      "name_en": "Gaucher disease type 1",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 77259,
+      "hpo_n": 49,
+      "genes": "GBA1, SCARB2"
+    },
+    {
+      "id": "nando-19-6",
+      "name_ja": "Krabbe病",
+      "name_en": "Krabbe disease",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 487,
+      "hpo_n": 49,
+      "genes": null
+    },
+    {
+      "id": "nando-20-3",
+      "name_ja": "副腎白質ジストロフィー（副腎脊髄ニューロパチー）",
+      "name_en": "adrenomyeloneuropathy",
+      "parent_disease_id": "mhlw-0020",
+      "orpha_code": 139399,
+      "hpo_n": 49,
+      "genes": "ABCD1"
+    },
+    {
+      "id": "nando-19-7-3",
+      "name_ja": "異染性白質ジストロフィー（成人型）",
+      "name_en": "Metachromatic leukodystrophy, adult form",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 309271,
+      "hpo_n": 48,
+      "genes": "ARSA, PSAP"
+    },
+    {
+      "id": "nando-254-3",
+      "name_ja": "異型ポルフィリン症",
+      "name_en": "Variegate porphyria",
+      "parent_disease_id": "mhlw-0254",
+      "orpha_code": 79473,
+      "hpo_n": 48,
+      "genes": "PPOX"
+    },
+    {
+      "id": "nando-19-7",
+      "name_ja": "異染性白質ジストロフィー",
+      "name_en": "Metachromatic leukodystrophy",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 512,
+      "hpo_n": 45,
+      "genes": null
+    },
+    {
+      "id": "nando-19-6-3",
+      "name_ja": "Krabbe病（成人型）",
+      "name_en": "Adult Krabbe disease",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 206448,
+      "hpo_n": 44,
+      "genes": "GALC"
+    },
+    {
+      "id": "nando-65-18",
+      "name_ja": "ネザートン症候群",
+      "name_en": "Netherton syndrome",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 634,
+      "hpo_n": 44,
+      "genes": "SPINK5"
+    },
+    {
+      "id": "nando-113-4",
+      "name_ja": "エメリー・ドレイフス型筋ジストロフィー",
+      "name_en": "Emery-Dreifuss muscular dystrophy",
+      "parent_disease_id": "mhlw-0113",
+      "orpha_code": 261,
+      "hpo_n": 43,
+      "genes": null
+    },
+    {
+      "id": "nando-19-22",
+      "name_ja": "α-マンノシドーシス",
+      "name_en": "Alpha-mannosidosis",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 61,
+      "hpo_n": 43,
+      "genes": null
+    },
+    {
+      "id": "nando-19-25",
+      "name_ja": "アスパルチルグルコサミン尿症",
+      "name_en": "Aspartylglucosaminuria",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 93,
+      "hpo_n": 43,
+      "genes": "AGA"
+    },
+    {
+      "id": "nando-160-3-2",
+      "name_ja": "葉状魚鱗癬",
+      "name_en": "Lamellar ichthyosis",
+      "parent_disease_id": "mhlw-0160",
+      "orpha_code": 313,
+      "hpo_n": 42,
+      "genes": "ABCA12, ALOX12B, ALOXE3, ASPRV1, CYP4F22, LIPN, NIPAL4, SDR9C7, SULT2B1, TGM1"
+    },
+    {
+      "id": "nando-19-19-1",
+      "name_ja": "シアリドーシス（Ⅰ型）",
+      "name_en": "Sialidosis type 1",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 812,
+      "hpo_n": 42,
+      "genes": "NEU1"
+    },
+    {
+      "id": "nando-316-2",
+      "name_ja": "CPT2欠損症",
+      "name_en": "Carnitine Palmitoyltransferase II deficiency",
+      "parent_disease_id": "mhlw-0316",
+      "orpha_code": 157,
+      "hpo_n": 42,
+      "genes": null
+    },
+    {
+      "id": "nando-18-2-5",
+      "name_ja": "脊髄小脳失調症１型",
+      "name_en": "spinocerebellar ataxia type 1",
+      "parent_disease_id": "mhlw-0018",
+      "orpha_code": 98755,
+      "hpo_n": 40,
+      "genes": "ATXN1"
+    },
+    {
+      "id": "nando-19-1-3",
+      "name_ja": "Gaucher病３型",
+      "name_en": "Gaucher disease type 3",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 77261,
+      "hpo_n": 40,
+      "genes": "GBA1"
+    },
+    {
+      "id": "nando-275-1",
+      "name_ja": "タナトフォリック骨異形成症１型",
+      "name_en": "Thanatophoric dysplasia type 1",
+      "parent_disease_id": "mhlw-0275",
+      "orpha_code": 1860,
+      "hpo_n": 40,
+      "genes": "FGFR3"
+    },
+    {
+      "id": "nando-164-1",
+      "name_ja": "ヘルマンスキー・パドラック症候群",
+      "name_en": "Hermansky-Pudlak syndrome",
+      "parent_disease_id": "mhlw-0164",
+      "orpha_code": 79430,
+      "hpo_n": 39,
+      "genes": null
+    },
+    {
+      "id": "nando-19-33-2",
+      "name_ja": "シスチン症（中間型）",
+      "name_en": "Juvenile nephropathic cystinosis",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 411634,
+      "hpo_n": 39,
+      "genes": "CTNS"
+    },
+    {
+      "id": "nando-254-5",
+      "name_ja": "晩発性皮膚ポルフィリン症",
+      "name_en": "Porphyria cutanea tarda",
+      "parent_disease_id": "mhlw-0254",
+      "orpha_code": 101330,
+      "hpo_n": 39,
+      "genes": null
+    },
+    {
+      "id": "nando-65-21",
+      "name_ja": "肝中心静脈閉鎖症を伴う免疫不全症",
+      "name_en": "Hepatic veno-occlusive disease-immunodeficiency syndrome",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 79124,
+      "hpo_n": 39,
+      "genes": "SP110"
+    },
+    {
+      "id": "nando-255-2",
+      "name_ja": "ビオチニダーゼ欠損症",
+      "name_en": "Biotinidase deficiency",
+      "parent_disease_id": "mhlw-0255",
+      "orpha_code": 79241,
+      "hpo_n": 38,
+      "genes": "BTD"
+    },
+    {
+      "id": "nando-106-2",
+      "name_ja": "Muckle-Wells症候群",
+      "name_en": "Muckle-Wells syndrome",
+      "parent_disease_id": "mhlw-0106",
+      "orpha_code": 575,
+      "hpo_n": 37,
+      "genes": "NLRP3"
+    },
+    {
+      "id": "nando-18-3-1",
+      "name_ja": "ビタミンE単独欠乏性失調症",
+      "name_en": "Ataxia with isolated vitamin E deficiency",
+      "parent_disease_id": "mhlw-0018",
+      "orpha_code": 96,
+      "hpo_n": 37,
+      "genes": "TTPA"
+    },
+    {
+      "id": "nando-19-7-2",
+      "name_ja": "異染性白質ジストロフィー（若年型）",
+      "name_en": "Metachromatic leukodystrophy, juvenile form",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 309263,
+      "hpo_n": 37,
+      "genes": "ARSA, PSAP"
+    },
+    {
+      "id": "nando-254-8",
+      "name_ja": "肝性骨髄性ポルフィリン症",
+      "name_en": "Hepatoerythropoietic porphyria",
+      "parent_disease_id": "mhlw-0254",
+      "orpha_code": 95159,
+      "hpo_n": 37,
+      "genes": "UROD"
+    },
+    {
+      "id": "nando-65-11",
+      "name_ja": "毛細血管拡張性運動失調症",
+      "name_en": "Ataxia telangiectasia",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 100,
+      "hpo_n": 37,
+      "genes": "ATM"
+    },
+    {
+      "id": "nando-164-3",
+      "name_ja": "グリセリ症候群",
+      "name_en": "Griscelli syndrome",
+      "parent_disease_id": "mhlw-0164",
+      "orpha_code": 381,
+      "hpo_n": 36,
+      "genes": null
+    },
+    {
+      "id": "nando-19-7-1",
+      "name_ja": "異染性白質ジストロフィー（後期乳児型）",
+      "name_en": "Metachromatic leukodystrophy, late infantile form",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 309256,
+      "hpo_n": 36,
+      "genes": "ARSA, PSAP"
+    },
+    {
+      "id": "nando-30-3",
+      "name_ja": "眼咽頭遠位型ミオパチー",
+      "name_en": "Oculopharyngodistal myopathy",
+      "parent_disease_id": "mhlw-0030",
+      "orpha_code": 98897,
+      "hpo_n": 36,
+      "genes": "ABCD3, GIPC1, LRP12, NOTCH2NLC, NUTM2B-AS1, RILPL1"
+    },
+    {
+      "id": "nando-17-1",
+      "name_ja": "多系統萎縮症（小脳型・MSA-C）",
+      "name_en": "Multiple system atrophy, cerebellar type",
+      "parent_disease_id": "mhlw-0017",
+      "orpha_code": 227510,
+      "hpo_n": 35,
+      "genes": "COQ2"
+    },
+    {
+      "id": "nando-275-2",
+      "name_ja": "タナトフォリック骨異形成症２型",
+      "name_en": "Thanatophoric dysplasia type 2",
+      "parent_disease_id": "mhlw-0275",
+      "orpha_code": 93274,
+      "hpo_n": 35,
+      "genes": "FGFR3"
+    },
+    {
+      "id": "nando-309-2",
+      "name_ja": "ラフォラ病",
+      "name_en": "Lafora disease",
+      "parent_disease_id": "mhlw-0309",
+      "orpha_code": 501,
+      "hpo_n": 35,
+      "genes": "EPM2A, NHLRC1"
+    },
+    {
+      "id": "nando-85-2-6",
+      "name_ja": "リンパ球性間質性肺炎",
+      "name_en": "Lymphoid interstitial pneumonia",
+      "parent_disease_id": "mhlw-0085",
+      "orpha_code": 79128,
+      "hpo_n": 34,
+      "genes": null
+    },
+    {
+      "id": "nando-19-1-2",
+      "name_ja": "Gaucher病２型",
+      "name_en": "Gaucher disease type 2",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 77260,
+      "hpo_n": 33,
+      "genes": "GBA1"
+    },
+    {
+      "id": "nando-23-2-3",
+      "name_ja": "致死性家族性不眠症",
+      "name_en": "fatal familial insomnia",
+      "parent_disease_id": "mhlw-0023",
+      "orpha_code": 466,
+      "hpo_n": 33,
+      "genes": "PRNP"
+    },
+    {
+      "id": "nando-300-4",
+      "name_ja": "IgG4関連涙腺・眼窩および唾液腺病変",
+      "name_en": "IgG4 related dacryoadenitis and sialadenitis",
+      "parent_disease_id": "mhlw-0300",
+      "orpha_code": 79078,
+      "hpo_n": 33,
+      "genes": null
+    },
+    {
+      "id": "nando-85-2-2",
+      "name_ja": "急性間質性肺炎",
+      "name_en": "acute interstitial pneumonia",
+      "parent_disease_id": "mhlw-0085",
+      "orpha_code": 79126,
+      "hpo_n": 33,
+      "genes": null
+    },
+    {
+      "id": "nando-19-29",
+      "name_ja": "Danon病",
+      "name_en": "Danon disease",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 34587,
+      "hpo_n": 32,
+      "genes": "LAMP2"
+    },
+    {
+      "id": "nando-65-34",
+      "name_ja": "周期性好中球減少症",
+      "name_en": "Cyclic neutropenia",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 2686,
+      "hpo_n": 32,
+      "genes": "ELANE"
+    },
+    {
+      "id": "nando-19-19-2",
+      "name_ja": "シアリドーシス（Ⅱ型）",
+      "name_en": "Sialidosis type 2",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 87876,
+      "hpo_n": 31,
+      "genes": null
+    },
+    {
+      "id": "nando-19-24",
+      "name_ja": "フコシドーシス",
+      "name_en": "Fucosidosis",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 349,
+      "hpo_n": 31,
+      "genes": "FUCA1"
+    },
+    {
+      "id": "nando-254-2",
+      "name_ja": "遺伝性コプロポルフィリン症",
+      "name_en": "Hereditary coproporphyria",
+      "parent_disease_id": "mhlw-0254",
+      "orpha_code": 79273,
+      "hpo_n": 31,
+      "genes": "CPOX"
+    },
+    {
+      "id": "nando-65-43",
+      "name_ja": "慢性皮膚粘膜カンジダ症",
+      "name_en": "Chronic mucocutaneous candidiasis",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 1334,
+      "hpo_n": 31,
+      "genes": "CLEC7A, IL17F, IL17RA, IL17RC, TRAF3IP2"
+    },
+    {
+      "id": "nando-17-2",
+      "name_ja": "多系統萎縮症（パーキンソン型・MSA-P）",
+      "name_en": "Multiple system atrophy, parkinsonian type",
+      "parent_disease_id": "mhlw-0017",
+      "orpha_code": 98933,
+      "hpo_n": 30,
+      "genes": "COQ2"
+    },
+    {
+      "id": "nando-19-22-2",
+      "name_ja": "α-マンノシドーシス（若年成人型）",
+      "name_en": "Alpha-mannosidosis, adult form",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 309288,
+      "hpo_n": 30,
+      "genes": "MAN2B1"
+    },
+    {
+      "id": "nando-19-30",
+      "name_ja": "遊離シアル酸蓄積症",
+      "name_en": "Free sialic acid storage disease",
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 834,
+      "hpo_n": 30,
+      "genes": null
+    },
+    {
+      "id": "nando-234-1-2",
+      "name_ja": "新生児型副腎白質ジストロフィー",
+      "name_en": "Neonatal adrenoleukodystrophy",
+      "parent_disease_id": "mhlw-0234",
+      "orpha_code": 44,
+      "hpo_n": 29,
+      "genes": "PEX1, PEX10, PEX11B, PEX12, PEX13, PEX14, PEX16, PEX19, PEX2, PEX26, PEX3, PEX5, PEX6"
+    },
+    {
+      "id": "nando-234-2-1",
+      "name_ja": "アシル CoA オキシダーゼ欠損症",
+      "name_en": "Peroxisomal acyl-CoA oxidase deficiency",
+      "parent_disease_id": "mhlw-0234",
+      "orpha_code": 2971,
+      "hpo_n": 29,
+      "genes": "ACOX1"
+    },
+    {
+      "id": "nando-65-5",
+      "name_ja": "プリンヌクレオシドホスホリラーゼ欠損症",
+      "name_en": "Purine nucleoside phosphorylase deficiency",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 760,
+      "hpo_n": 29,
+      "genes": "PNP"
+    },
+    {
+      "id": "nando-265-2",
+      "name_ja": "後天性全身性脂肪萎縮症",
+      "name_en": "Acquired generalized lipodystrophy",
+      "parent_disease_id": "mhlw-0265",
+      "orpha_code": 79086,
+      "hpo_n": 28,
+      "genes": null
+    },
+    {
+      "id": "nando-65-4",
+      "name_ja": "オーメン症候群",
+      "name_en": "Omenn syndrome",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 39041,
+      "hpo_n": 28,
+      "genes": "ADA, CHD7, DCLRE1C, IL2RG, IL7R, NUDCD3, PSMB10, RAG1, RAG2, RMRP"
+    },
+    {
+      "id": "nando-18-2-6",
+      "name_ja": "脊髄小脳失調症２型",
+      "name_en": "spinocerebellar ataxia type 2",
+      "parent_disease_id": "mhlw-0018",
+      "orpha_code": 98756,
+      "hpo_n": 27,
+      "genes": "ATXN2"
+    },
+    {
+      "id": "nando-18-2-8",
+      "name_ja": "脊髄小脳失調症３６型",
+      "name_en": "spinocerebellar ataxia type 36",
+      "parent_disease_id": "mhlw-0018",
+      "orpha_code": 276198,
+      "hpo_n": 27,
+      "genes": "NOP56"
+    },
+    {
+      "id": "nando-234-1-3",
+      "name_ja": "乳児レフサム病",
+      "name_en": "Infantile Refsum disease",
+      "parent_disease_id": "mhlw-0234",
+      "orpha_code": 772,
+      "hpo_n": 27,
+      "genes": "PEX1, PEX10, PEX11B, PEX12, PEX13, PEX14, PEX16, PEX19, PEX2, PEX26, PEX3, PEX5, PEX6"
+    },
+    {
+      "id": "nando-85-2-3",
+      "name_ja": "特発性器質化肺炎",
+      "name_en": "Cryptogenic organizing pneumonia",
+      "parent_disease_id": "mhlw-0085",
+      "orpha_code": 1302,
+      "hpo_n": 27,
+      "genes": null
+    },
+    {
+      "id": "nando-113-5",
+      "name_ja": "眼咽頭筋型筋ジストロフィー",
+      "name_en": "Oculopharyngeal muscular dystrophy",
+      "parent_disease_id": "mhlw-0113",
+      "orpha_code": 270,
+      "hpo_n": 26,
+      "genes": "PABPN1"
+    },
+    {
+      "id": "nando-67-1",
+      "name_ja": "常染色体優性多発性嚢胞腎",
+      "name_en": "Autosomal Dominant Polycystic Kidney Disease",
+      "parent_disease_id": "mhlw-0067",
+      "orpha_code": 730,
+      "hpo_n": 26,
+      "genes": "ALG5, ALG9, DNAJB11, GANAB, IFT140, NEK8, PKD1, PKD2"
+    },
+    {
+      "id": "nando-35-4",
+      "name_ja": "天疱瘡（増殖性）",
+      "name_en": "pemphigus vegetans",
+      "parent_disease_id": "mhlw-0035",
+      "orpha_code": 79479,
+      "hpo_n": 25,
+      "genes": null
+    },
+    {
+      "id": "nando-111-2",
+      "name_ja": "セントラルコア病",
+      "name_en": "Central core disease",
+      "parent_disease_id": "mhlw-0111",
+      "orpha_code": 597,
+      "hpo_n": 24,
+      "genes": "RYR1"
+    },
+    {
+      "id": "nando-87-2",
+      "name_ja": "肺毛細血管腫症",
+      "name_en": "Pulmonary Capillary Hemangiomatosis",
+      "parent_disease_id": "mhlw-0087",
+      "orpha_code": 199241,
+      "hpo_n": 23,
+      "genes": "EIF2AK4"
+    },
+    {
+      "id": "nando-131-1",
+      "name_ja": "大脳優位型アレキサンダー病",
+      "name_en": "Alexander disease type I",
+      "parent_disease_id": "mhlw-0131",
+      "orpha_code": 363717,
+      "hpo_n": 22,
+      "genes": "GFAP"
+    },
+    {
+      "id": "nando-65-37",
+      "name_ja": "慢性肉芽腫症",
+      "name_en": "Chronic granulomatous disease",
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 379,
+      "hpo_n": 22,
+      "genes": "CYBA, CYBB, CYBC1, NCF1, NCF2, NCF4"
+    },
+    {
+      "id": "nando-30-1",
+      "name_ja": "三好型ミオパチー",
+      "name_en": "Miyoshi myopathy",
+      "parent_disease_id": "mhlw-0030",
+      "orpha_code": 45448,
+      "hpo_n": 21,
+      "genes": "DYSF"
+    },
+    {
+      "id": "nando-98-3",
+      "name_ja": "好酸球性胃腸炎",
+      "name_en": "Eosinophilic gastroenteritis",
+      "parent_disease_id": "mhlw-0098",
+      "orpha_code": 2070,
+      "hpo_n": 21,
+      "genes": null
+    },
+    {
+      "id": "nando-120-12-1",
+      "name_ja": "急性発症ジストニア・パーキンソニズム",
+      "name_en": "Rapid-onset dystonia-parkinsonism",
+      "parent_disease_id": "mhlw-0120",
+      "orpha_code": 71517,
+      "hpo_n": 20,
+      "genes": "ATP1A3"
+    },
+    {
+      "id": "nando-131-2",
+      "name_ja": "延髄・脊髄優位型アレキサンダー病",
+      "name_en": "Alexander disease type II",
+      "parent_disease_id": "mhlw-0131",
+      "orpha_code": 363722,
+      "hpo_n": 20,
+      "genes": "GFAP"
+    },
+    {
+      "id": "nando-21-5",
+      "name_ja": "レーバー病",
+      "name_en": "Leber hereditary optic neuropathy",
+      "parent_disease_id": "mhlw-0021",
+      "orpha_code": 104,
+      "hpo_n": 20,
+      "genes": "DNAJC30, MT-ATP6, MT-CO3, MT-CYB, MT-ND1, MT-ND2, MT-ND4, MT-ND4L, MT-ND5, MT-ND6, NDUFS2"
+    },
+    {
+      "id": "nando-229-1",
+      "name_ja": "自己免疫性肺胞蛋白症",
+      "name_en": "Autoimmune pulmonary alveolar proteinosis",
+      "parent_disease_id": "mhlw-0229",
+      "orpha_code": 747,
+      "hpo_n": 20,
+      "genes": "HLA-DRB1"
+    },
+    {
+      "id": "nando-255-1",
+      "name_ja": "ホロカルボキシラーゼ合成酵素欠損症",
+      "name_en": "Holocarboxylase synthetase deficiency",
+      "parent_disease_id": "mhlw-0255",
+      "orpha_code": 79242,
+      "hpo_n": 20,
+      "genes": "HLCS"
+    },
+    {
+      "id": "nando-282-3",
+      "name_ja": "先天性赤血球形成異常性貧血 Type III",
+      "name_en": "Congenital dyserythropoietic anemia type III",
+      "parent_disease_id": "mhlw-0282",
+      "orpha_code": 98870,
+      "hpo_n": 20,
+      "genes": "KIF23, RACGAP1"
+    }
+  ],
+  "selection": "100 not-yet-guided, published disease subtypes with matched Orpha identity and sourced positive HPO annotations, sorted by source annotation depth; ambiguous generic subtypes excluded"
+}
