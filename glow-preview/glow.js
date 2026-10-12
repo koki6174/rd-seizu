@@ -11,12 +11,12 @@ const panels=[...document.querySelectorAll('.compare-panel')];
 const status=$('dataset-status');
 const message=$('canvas-message');
 const profiles={
- A:{name:'現在の光り方',layers:[]},
+ A:{name:'変更前の光り方',layers:[]},
  B:{name:'やわらかな余光',layers:[{texture:'soft',size:1.5,opacity:.35}]},
  C:{name:'くっきりと輝く',layers:[{texture:'soft',size:1.1,opacity:.68},{texture:'soft',size:1.9,opacity:.18}]},
  D:{name:'遠くまで届く光',layers:[{texture:'soft',size:2.9,opacity:.40},{texture:'soft',size:1.6,opacity:.18}]},
  E:{name:'二重の光輪',layers:[{texture:'soft',size:1.45,opacity:.36},{texture:'ring',size:2.4,opacity:.45}]},
- F:{name:'星雲のような光',layers:[{texture:'soft',size:4.1,opacity:.29},{texture:'soft',size:2.25,opacity:.31},{texture:'ring',size:3.3,opacity:.16}]}
+ F:{name:'星雲のような光（本番採用）',layers:[{texture:'soft',size:4.1,opacity:.29},{texture:'soft',size:2.25,opacity:.31},{texture:'ring',size:3.3,opacity:.16}]}
 };
 const palette={share:'#ffc6ad',discover:'#99e4ff',mixed:'#dcb6ff'};
 const preferReduced=matchMedia('(prefers-reduced-motion: reduce)').matches;

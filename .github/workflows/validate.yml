@@ -32,6 +32,7 @@ jobs:
           node --check lab/scene.js
           node --check glow-preview/glow.js
           node --check scripts/validate_glow_preview.cjs
+          node --check scripts/validate_nebula_f_main.cjs
           node --check scripts/build_pilot_coords.cjs
           node --check scripts/build_hpo_pilot.cjs
           node --check scripts/build_orpha_candidates.cjs
@@ -338,6 +339,9 @@ jobs:
 
       - name: Check unlisted six-way glow preview
         run: node scripts/validate_glow_preview.cjs
+
+      - name: Verify live glow is exact preset F
+        run: node scripts/validate_nebula_f_main.cjs
 
       - name: Static security regression for public site and RPC boundaries
         run: node scripts/security_static_checks.cjs
