@@ -59,21 +59,22 @@ function createCloud(items,color,size,sourceTexture,opacity=1,selectable=true){
 function draw(snapshot){
  if(!renderer||disposed||!snapshot||!Array.isArray(snapshot.stars))return;
  const counts=new Map(snapshot.stars.filter(x=>Number(x.total)>0).map(x=>[x.id,x]));
- const groups={unlit:[],share:[],discover:[],mixed:[]};
+ const groups={unlit:[],share:[],discover:[]};
  activePoints=new Map();
  for(const p of coords){
   const record=counts.get(p.id);
   if(!record){groups.unlit.push(p);continue;}
   activePoints.set(p.id,record);
-  const shared=Number(record.shared)||0,discovered=Number(record.discovered)||0;
-  const kind=shared&&discovered?'mixed':shared?'share':'discover';
+  // Historical counts remain unchanged; a share light always wins the display color.
+  const shared=Number(record.shared)||0;
+  const kind=shared>0?'share':'discover';
   groups[kind].push(p);
  }
  for(const cloud of clouds){scene.remove(cloud);cloud.geometry.dispose();cloud.material.dispose();}
  clouds=[];
  createCloud(groups.unlit,'#4d5c73',.29,texture,.54,false);
- const colors={share:'#ffc6ad',discover:'#99e4ff',mixed:'#dcb6ff'};
- for(const kind of ['share','discover','mixed']){
+ const colors={share:'#ffc6ad',discover:'#99e4ff'};
+ for(const kind of ['share','discover']){
   const items=groups[kind];
   if(items.length){
    for(const layer of NEBULA_F){
