@@ -1,0 +1,487 @@
+{
+  "part": 2,
+  "sourceOriginalCount": 100,
+  "nonOverlappingWithOrpha553": true,
+  "records": [
+    {
+      "id": "nando-256-8",
+      "name": "PGK欠損症",
+      "name_en": "Phosphoglycerate kinase deficiency",
+      "overview": "PGK欠損症は、糖の代謝に必要なホスホグリセリン酸キナーゼの働きが低下する遺伝性疾患です。筋症状、溶血性貧血、神経症状などは病型で異なります。",
+      "dailyLife": "運動後の筋肉の痛みや疲れやすさ、貧血による息切れなどが生活に影響する場合があります。活動の強さを病状に合わせることが重要です。",
+      "currentState": "血液・筋肉の検査や遺伝子検査を組み合わせ、症状に応じた運動・血液・神経の管理を行います。自己判断で運動負荷を増やさないようにします。",
+      "parentDiseaseId": "mhlw-0256",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-257-1-1",
+      "name": "糖原病Ⅰa型",
+      "name_en": "Glycogen storage disease type Ia",
+      "overview": "糖原病Ia型は、肝臓で糖を放出する酵素の働きが低下する遺伝性代謝疾患です。空腹時の低血糖、肝腫大、乳酸や脂質の増加などが起こる場合があります。",
+      "dailyLife": "食事の間隔と栄養の取り方が体調に関係するため、外出や学校で補食の計画が必要になることがあります。家族や周囲の協力が役立ちます。",
+      "currentState": "代謝専門医が血糖や乳酸、肝臓と腎臓の状態を確認し、個別の栄養療法を行います。成長とともに管理方法を見直します。",
+      "parentDiseaseId": "mhlw-0257",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/5331",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-277-1",
+      "name": "リンパ管腫症",
+      "name_en": "Lymphangiomatosis",
+      "overview": "リンパ管腫症はリンパ管の異常な増殖などが広い範囲に生じ、骨や胸腹部などに影響する病気です。骨の痛みやリンパ液の貯留、呼吸症状が現れる場合があります。",
+      "dailyLife": "痛みや胸の症状で活動が制限されることがあります。病変の場所に応じて、移動や呼吸を支える工夫、通院の調整が必要です。",
+      "currentState": "画像などで病変を評価し、薬物療法、排液や外科的な処置を状況に合わせて検討します。長期的な経過観察が大切です。",
+      "parentDiseaseId": "mhlw-0277",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4636",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-37-3",
+      "name": "疱疹状膿痂疹",
+      "name_en": "Impetigo Herpesformis",
+      "overview": "疱疹状膿痂疹は、妊娠中などに全身に赤みと小さな膿疱が広がる病態として知られ、汎発性膿疱性乾癬との関連が深い病気です。発熱や全身症状を伴う場合があります。",
+      "dailyLife": "皮膚の痛みや発熱で活動が難しくなることがあります。妊娠中に起こった場合は本人と胎児の状態をともに確認するため、早めの受診が大切です。",
+      "currentState": "皮膚症状と全身状態を評価し、専門医が炎症を抑える治療を行います。妊娠の有無などにより使用できる薬が異なります。",
+      "parentDiseaseId": "mhlw-0037",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/168",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-48-1",
+      "name": "動静脈血栓症",
+      "name_en": "Thrombotic Antiphospholipid Syndrome",
+      "overview": "抗リン脂質抗体症候群に伴う動静脈血栓症は、自己抗体の関与によって動脈や静脈に血栓ができる病態です。脳梗塞や深部静脈血栓症などにつながることがあります。",
+      "dailyLife": "血栓の部位によって手足の痛み、息切れ、神経症状などが生活に影響します。血栓予防の治療を続け、急な症状の変化に注意します。",
+      "currentState": "血栓の種類と抗体の特徴、出血の危険性などを評価して抗凝固療法などを検討します。病型に合わせた長期的な管理が必要です。",
+      "parentDiseaseId": "mhlw-0048",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-62-1",
+      "name": "古典的PNH",
+      "name_en": "Classical Paroxysmal Nocturnal Hemoglobinuria",
+      "overview": "古典的PNHは、血液をつくる幹細胞の後天的な変化によって赤血球が補体で壊れやすくなる発作性夜間ヘモグロビン尿症の一型です。溶血や血栓が問題になります。",
+      "dailyLife": "疲労感や息切れ、尿の色の変化などが生活に影響することがあります。血栓や感染の兆候に注意し、継続的な通院が重要です。",
+      "currentState": "血液検査と細胞表面の検査で診断し、補体を抑える薬などを病状に応じて用います。輸血や血栓への対応が必要な場合もあります。",
+      "parentDiseaseId": "mhlw-0062",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3784",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-72-1",
+      "name": "中枢性尿崩症",
+      "name_en": "Central diabetes insipidus",
+      "overview": "中枢性尿崩症は脳から分泌されるバソプレシンというホルモンが不足し、尿の量が多くなって強いのどの渇きが起こる病気です。",
+      "dailyLife": "水分やトイレを確保しにくい外出や学校生活で困る場合があります。体調や服薬に応じて、脱水と水分の取り過ぎの両方に注意が必要です。",
+      "currentState": "原因を調べ、必要に応じてデスモプレシンなどの薬を用います。血液のナトリウム濃度や尿量などを確認しながら調整します。",
+      "parentDiseaseId": "mhlw-0072",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3988",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-87-1",
+      "name": "肺静脈閉塞症",
+      "name_en": "Pulmonary Veno-Occlusive Disease",
+      "overview": "肺静脈閉塞症は肺の小さな静脈が狭くなり、肺高血圧や血液中の酸素不足が起こるまれな病気です。運動時の息切れや疲れやすさなどが現れます。",
+      "dailyLife": "階段や歩行で息切れし、活動量の調整が必要になることがあります。呼吸や酸素の状態を医療者と確認することが重要です。",
+      "currentState": "画像や呼吸循環の検査で病型を慎重に評価します。肺高血圧症の薬で肺水腫を起こす危険があるため、専門施設で治療を検討します。",
+      "parentDiseaseId": "mhlw-0087",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-13-1-1",
+      "name": "再発寛解型MS",
+      "name_en": "Relapsing-remitting multiple sclerosis",
+      "overview": "再発寛解型MSは多発性硬化症の一型で、新しい神経症状が現れる再発と、症状が軽くなる寛解を繰り返します。視覚や感覚、歩行などへの影響は部位で異なります。",
+      "dailyLife": "再発時の症状や疲労感が学業・仕事に影響することがあります。体調を調整し、見えにくさや移動の困りごとに合わせた配慮が役立ちます。",
+      "currentState": "MRIなどで経過を確認し、急性期の治療と再発を減らすための疾患修飾薬を検討します。視神経脊髄炎との鑑別が重要です。",
+      "parentDiseaseId": "mhlw-0013",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3806",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-19",
+      "name": "シアリドーシス",
+      "name_en": "Sialidosis",
+      "overview": "シアリドーシスはシアル酸を含む物質を分解する酵素の働きが不足する遺伝性のライソゾーム病です。視覚の変化、筋肉の不随意な動き、神経症状などが現れる型があります。",
+      "dailyLife": "見え方や手足の動きへの影響が生活に生じる場合があります。症状に合った移動やコミュニケーションの工夫が役立ちます。",
+      "currentState": "酵素活性や遺伝学的検査などで病型を確認します。神経や眼などの症状を和らげる治療と長期的な支援が中心です。",
+      "parentDiseaseId": "mhlw-0019",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4063",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-21-6-1",
+      "name": "複合体Ⅰ欠損症",
+      "name_en": "Mitochondrial complex I deficiency",
+      "overview": "複合体I欠損症はミトコンドリアのエネルギー産生に関わる呼吸鎖複合体Iが十分に働かない病気の一群です。筋力低下や神経症状などは原因遺伝子で異なります。",
+      "dailyLife": "疲れやすさや発達・運動の問題が生活に影響する場合があります。発熱や食事が取れないときの対応を医療者と相談します。",
+      "currentState": "生化学検査や遺伝子検査などで病因を調べ、影響を受ける臓器の治療や栄養・運動の支援を行います。",
+      "parentDiseaseId": "mhlw-0021",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-21-6-2",
+      "name": "複合体Ⅱ欠損症",
+      "name_en": "Mitochondrial complex II deficiency",
+      "overview": "複合体II欠損症はミトコンドリアの呼吸鎖複合体IIの働きが低下する遺伝性疾患群です。神経、筋肉、心臓などの症状は病型によって異なります。",
+      "dailyLife": "筋力や体力、成長、食事などで支援が必要になることがあります。無理のない活動と体調変化の確認が大切です。",
+      "currentState": "ミトコンドリア機能や遺伝子を評価し、症状のある臓器に応じた診療を行います。すべての型に共通する治療法はありません。",
+      "parentDiseaseId": "mhlw-0021",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-251-1",
+      "name": "CPSI欠損症",
+      "name_en": "Carbamoyl phosphate synthetase I deficiency",
+      "overview": "CPSI欠損症は尿素回路でアンモニアを処理する最初の段階の酵素が十分に働かない遺伝性代謝疾患です。高アンモニア血症が重い神経症状につながる場合があります。",
+      "dailyLife": "食事の摂取が減ったり感染したりすると代謝状態が悪化することがあります。家族が緊急時の対応計画を共有しておくことが重要です。",
+      "currentState": "アンモニア値や代謝検査、遺伝子検査などで診断し、代謝専門チームが栄養と薬による管理を行います。急性期の対応が大切です。",
+      "parentDiseaseId": "mhlw-0251",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4732",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-256-1",
+      "name": "筋型糖原病0型",
+      "name_en": "Glycogen storage diseases type 0",
+      "overview": "筋型糖原病0型は、筋肉でグリコーゲンを十分につくれないことに関係する代謝疾患です。運動時の筋力低下や疲れやすさなどを伴う場合があります。",
+      "dailyLife": "運動の途中で体力が続きにくいことがあり、休息や運動強度の調整が必要です。病型によって栄養管理の方針が異なります。",
+      "currentState": "代謝・筋機能検査や遺伝的な原因を調べ、運動と栄養を個別に調整します。原因疾患の正確な特定が重要です。",
+      "parentDiseaseId": "mhlw-0256",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-256-5",
+      "name": "筋型糖原病V型",
+      "name_en": "Glycogen storage diseases type V",
+      "overview": "筋型糖原病V型（マッカードル病）は筋肉のグリコーゲンを分解する酵素の不足によって、運動時に筋肉痛やけいれんなどが起こる遺伝性疾患です。",
+      "dailyLife": "急な激しい運動が負担になる一方、適切に調整した運動が生活機能に役立つ場合があります。無理のない活動計画を相談します。",
+      "currentState": "筋酵素や遺伝子検査などで評価し、運動の取り組み方と症状への対応を指導します。重い筋障害の兆候にも注意します。",
+      "parentDiseaseId": "mhlw-0256",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-296-1",
+      "name": "Ⅰ型胆道閉鎖症",
+      "name_en": "type I biliary atresia",
+      "overview": "I型胆道閉鎖症は生まれつき肝臓から腸へ胆汁を送る管の一部に閉塞がある病型です。黄疸や便の色の変化、肝機能の障害がみられることがあります。",
+      "dailyLife": "乳児期から通院や栄養管理が必要になる場合があります。便の色や体重増加などを家族と医療チームで確認することが大切です。",
+      "currentState": "画像や胆道の評価で病型を確認し、適応に応じて胆汁の流れを改善する手術などを検討します。肝機能の経過観察が重要です。",
+      "parentDiseaseId": "mhlw-0296",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-296-3",
+      "name": "Ⅱ型胆道閉鎖症",
+      "name_en": "type II biliary atresia",
+      "overview": "II型胆道閉鎖症は胆管が閉じている位置によって分類される胆道閉鎖症の一型です。黄疸や胆汁の流れの障害に伴う肝機能の問題が起こります。",
+      "dailyLife": "食事と成長の管理、感染などの合併症への注意が必要になる場合があります。家族が体調の変化を把握する支援が大切です。",
+      "currentState": "手術前に胆道の形を評価し、胆汁の流れを確保する治療を行います。肝臓の状態に応じて長期的な診療を続けます。",
+      "parentDiseaseId": "mhlw-0296",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-296-4",
+      "name": "Ⅲ型胆道閉鎖症",
+      "name_en": "type III biliary atresia",
+      "overview": "III型胆道閉鎖症は、胆道閉鎖症の中でも肝門部近くまで胆管が閉塞する型です。乳児期に黄疸や便の色の異常などがみられ、肝臓の働きに影響します。",
+      "dailyLife": "乳児期から授乳・栄養や体重増加、発熱などへの注意が必要になります。家庭と医療機関が協力して経過を確認することが重要です。",
+      "currentState": "胆道の状態を評価して葛西手術などを検討し、胆汁の流れと肝機能を追います。状況によっては肝移植が必要になることもあります。",
+      "parentDiseaseId": "mhlw-0296",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-300-2",
+      "name": "自己免疫性膵炎",
+      "name_en": "Autoimmune pancreatitis",
+      "overview": "自己免疫性膵炎は、膵臓に免疫に関係した炎症や腫れが生じる病気です。IgG4関連疾患の一部としてみられる型と、それとは異なる型があります。",
+      "dailyLife": "腹部の不快感や黄疸、血糖の変化などが生活に影響する場合があります。治療後も再燃やほかの臓器の症状を確認することが大切です。",
+      "currentState": "画像や血液検査などで膵臓のがんなどと慎重に鑑別し、病型に応じてステロイドなどを検討します。自己判断で薬を始めないことが重要です。",
+      "parentDiseaseId": "mhlw-0300",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4504",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-316-1",
+      "name": "CPT1欠損症",
+      "name_en": "Carnitine Palmitoyltransferase I deficiency",
+      "overview": "CPT1欠損症は、長鎖脂肪酸を細胞のミトコンドリアに運ぶ過程に必要な酵素の働きが低下する遺伝性代謝疾患です。空腹時の低血糖などが起こる場合があります。",
+      "dailyLife": "食事が取れないときや長時間の空腹が体調に影響することがあります。年齢や病状に合った食事と緊急時の対応を専門医と共有します。",
+      "currentState": "新生児検査や血液の代謝検査、遺伝子検査などで評価し、栄養管理と急性の代謝異常への対応を行います。",
+      "parentDiseaseId": "mhlw-0316",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    }
+  ]
+}
