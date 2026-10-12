@@ -32,8 +32,11 @@
    let url;
    try{
     url=new URL(source.url);
-    if(url.protocol!=='https:' || !approvedHosts.has(url.hostname)
-       || url.username || url.password || url.port)continue;
+    const verifiedNando=(url.hostname==='github.com'
+      && url.pathname==='/NanbyoData/nando/blob/master/data/nanbyo.json');
+    if(url.protocol!=='https:' || (!approvedHosts.has(url.hostname)&&!verifiedNando)
+       || url.username || url.password || url.port
+       || url.search || url.hash)continue;
    }catch{continue;}
    const li=document.createElement('li'),a=document.createElement('a');
    a.href=url.toString();a.target='_blank';a.rel='noopener noreferrer';
