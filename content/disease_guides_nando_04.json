@@ -1,0 +1,439 @@
+{
+  "part": 4,
+  "sourceOriginalCount": 100,
+  "nonOverlappingWithOrpha553": true,
+  "records": [
+    {
+      "id": "nando-50-2",
+      "name": "無筋症性皮膚筋炎",
+      "name_en": "amyopathic dermatomyositis",
+      "overview": "無筋症性皮膚筋炎は、皮膚筋炎に特徴的な皮疹があっても、明らかな筋力低下が目立たない病型です。筋肉以外の臓器、とくに肺に影響する場合があります。",
+      "dailyLife": "皮膚症状が日常生活や対人関係に影響することがあります。筋力が保たれていても息切れや咳などの変化を確認することが大切です。",
+      "currentState": "皮膚・筋肉に加えて肺の状態を評価し、病状に応じた免疫治療を検討します。病型によって注意すべき合併症が異なります。",
+      "parentDiseaseId": "mhlw-0050",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4079",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-62-2",
+      "name": "骨髄不全型PNH",
+      "name_en": "PNH in the setting of another specified bone marrow disorder",
+      "overview": "骨髄不全型PNHは、発作性夜間ヘモグロビン尿症に再生不良性貧血などの骨髄不全が重なる病型です。血球の減少や溶血が問題になる場合があります。",
+      "dailyLife": "疲労感、感染しやすさ、出血の危険性などが生活に影響します。定期的な血液検査と体調の変化の確認が重要です。",
+      "currentState": "PNH細胞の検査と骨髄機能の評価を行い、溶血と骨髄不全のどちらが主体かによって治療方針を検討します。",
+      "parentDiseaseId": "mhlw-0062",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/3784",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-83-2",
+      "name": "結核性アジソン病",
+      "name_en": "Tuberculous Addison's disease",
+      "overview": "結核性アジソン病は、結核の影響によって副腎の働きが低下し、副腎皮質ホルモンが不足する病気です。疲れやすさ、低血圧、食欲低下などが起こることがあります。",
+      "dailyLife": "ホルモン補充が必要な場合は毎日の服薬と、発熱や重い病気の際の対応が重要です。結核の治療と並行した管理が必要なことがあります。",
+      "currentState": "結核の検査と副腎ホルモンの評価を行い、感染症への治療と不足するホルモンの補充を専門医が調整します。",
+      "parentDiseaseId": "mhlw-0083",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-85-2-4",
+      "name": "剥離型間質性肺炎",
+      "name_en": "desquamative interstitial pneumonia",
+      "overview": "剥離型間質性肺炎は、肺の小さな空気の袋の中に炎症細胞が集まる間質性肺炎の病型です。喫煙との関連が知られ、咳や息切れなどが現れる場合があります。",
+      "dailyLife": "長く歩くと息切れするなど、生活上の活動量に影響することがあります。喫煙している場合は禁煙の相談が重要です。",
+      "currentState": "胸部画像や必要な検査でほかの肺疾患と区別し、禁煙や炎症への治療などを状態に応じて検討します。",
+      "parentDiseaseId": "mhlw-0085",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/156",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-96-1",
+      "name": "小腸型クローン病",
+      "name_en": "Ileal Crohn's disease",
+      "overview": "小腸型クローン病は、小腸を主な炎症の場所とするクローン病の病型です。腹痛や下痢のほか、栄養の吸収不足や腸が狭くなる症状などが現れることがあります。",
+      "dailyLife": "食事量や外出の予定が症状に左右される場合があります。栄養状態を確認し、病状に合った食事や休息を専門職と相談することが大切です。",
+      "currentState": "小腸の炎症と狭窄を評価し、薬物療法や栄養療法を行います。合併症がある場合は内視鏡治療や手術を検討します。",
+      "parentDiseaseId": "mhlw-0096",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/81",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-96-2",
+      "name": "大腸型クローン病",
+      "name_en": "Colonic Crohn Disease",
+      "overview": "大腸型クローン病は、大腸に炎症がみられるクローン病の病型です。腹痛、下痢、血便などの症状が現れ、肛門の病変を伴う人もいます。",
+      "dailyLife": "急な便意や腹痛が学校・仕事に影響することがあります。トイレへのアクセスや活動の調整などの配慮が役立ちます。",
+      "currentState": "大腸の炎症の範囲と程度を調べ、薬物療法などで寛解を目指します。狭窄や瘻孔などの合併症にも注意します。",
+      "parentDiseaseId": "mhlw-0096",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/81",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-96-4",
+      "name": "特殊型クローン病",
+      "name_en": "atypical crohn's disease",
+      "overview": "特殊型クローン病は、典型的な病変分布とは異なる特徴をもつクローン病の病型として分類されています。症状と障害される場所は個別に確認が必要です。",
+      "dailyLife": "腹痛、下痢、栄養面の問題などが起こる場合があります。症状が多様なため、自分に合う食事と生活の調整を医療者と相談します。",
+      "currentState": "消化管の検査で炎症の場所と病型を評価し、薬物療法や栄養療法、合併症への治療を病状に応じて検討します。",
+      "parentDiseaseId": "mhlw-0096",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/81",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-111-1",
+      "name": "ネマリンミオパチー",
+      "name_en": "Nemaline myopathy",
+      "overview": "ネマリンミオパチーは、筋肉の組織にネマリン小体という構造がみられる先天性の筋疾患群です。筋力低下や呼吸・飲み込みの問題が起こる場合があります。",
+      "dailyLife": "姿勢の保持、移動、食事などの動作に支援が必要になることがあります。成長に合わせた補助具や呼吸管理が大切です。",
+      "currentState": "筋組織と遺伝子の検査などで病型を評価し、運動、呼吸、栄養の支援とリハビリを組み合わせます。",
+      "parentDiseaseId": "mhlw-0111",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-117-2",
+      "name": "無症候性脊髄空洞症",
+      "name_en": "asymptomatic Syringomyelia",
+      "overview": "無症候性脊髄空洞症は、脊髄の中に空洞が認められるものの、明らかな神経症状が出ていない状態です。空洞の原因や経過は人によって異なります。",
+      "dailyLife": "日常生活に大きな支障がない場合もありますが、しびれや筋力の変化などが現れたときは相談が必要です。",
+      "currentState": "MRIなどで空洞の大きさや関連する病気を確認し、症状がなければ経過観察を行うことがあります。",
+      "parentDiseaseId": "mhlw-0117",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-120-1",
+      "name": "DYT1ジストニア",
+      "name_en": "DYT1 dystonia",
+      "overview": "DYT1ジストニアは、主にTOR1A遺伝子の変化に関連する遺伝性ジストニアの一型です。手足や体幹の筋肉が本人の意思とは異なって収縮し、姿勢や動きに影響します。",
+      "dailyLife": "書く、歩く、物を持つなどの動作が難しくなることがあります。本人に合う補助具や活動方法の工夫が役立ちます。",
+      "currentState": "遺伝的な原因や神経症状を確認し、薬、ボツリヌス療法、条件により脳深部刺激療法などを検討します。",
+      "parentDiseaseId": "mhlw-0120",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-120-2",
+      "name": "DYT2ジストニア",
+      "name_en": "DYT2 dystonia",
+      "overview": "DYT2ジストニアは、歴史的に常染色体劣性遺伝を示すジストニアの病型として用いられた分類名です。筋肉の不随意な収縮が姿勢や動きに影響する場合があります。",
+      "dailyLife": "手足のこわばりや不自然な姿勢が歩行や日常動作を難しくすることがあります。状態に合わせた道具と生活環境の調整が役立ちます。",
+      "currentState": "神経診察と遺伝学的評価などから原因を確認し、症状に応じた薬、リハビリや専門的な治療を検討します。分類名と原因遺伝子は同一ではありません。",
+      "parentDiseaseId": "mhlw-0120",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-137-1",
+      "name": "FCD タイプ1a",
+      "name_en": "Focal cortical dysplasia type 1a",
+      "overview": "FCDタイプ1aは限局性皮質異形成の組織学的な一分類で、大脳皮質の神経細胞の並び方に特徴があります。てんかん発作との関連がみられることがあります。",
+      "dailyLife": "発作が学習や生活の安全に影響する場合があります。本人や周囲が発作時の対応を知り、安心して活動できる環境が大切です。",
+      "currentState": "MRIや脳波などで発作の原因部位を調べ、薬で十分に抑えられない場合には外科治療などを専門施設で検討します。",
+      "parentDiseaseId": "mhlw-0137",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4456",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-137-2",
+      "name": "FCD タイプ1b",
+      "name_en": "Focal cortical dysplasia type 1b",
+      "overview": "FCDタイプ1bは、大脳皮質の神経細胞の配列の特徴によって区別される限局性皮質異形成の組織学的病型です。てんかん発作の症状は病変の場所で異なります。",
+      "dailyLife": "発作によるけがや学習への影響に配慮し、本人の状態に合った学校・家庭の環境を整えることが重要です。",
+      "currentState": "脳波、MRI、必要な病理評価などで診断し、抗てんかん発作薬や、適応があれば手術を検討します。",
+      "parentDiseaseId": "mhlw-0137",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4456",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-137-3",
+      "name": "FCD タイプ1c",
+      "name_en": "Focal cortical dysplasia type 1c",
+      "overview": "FCDタイプ1cは、大脳皮質の細胞が並ぶ方向や層の特徴に違いがある限局性皮質異形成の一分類です。薬で抑えにくいてんかんの原因になる場合があります。",
+      "dailyLife": "発作の頻度や生活への影響は一人ひとり異なります。安全な環境と、発作時の対応を周囲で共有することが大切です。",
+      "currentState": "画像・脳波・病理所見などを総合して評価し、薬物療法や外科的な治療の適応を専門的に判断します。",
+      "parentDiseaseId": "mhlw-0137",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4456",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-234-2-2",
+      "name": "D-二頭酵素欠損症",
+      "name_en": "D-bifunctional protein deficiency",
+      "overview": "D-二頭酵素欠損症は、ペルオキシソームで脂肪酸などを分解する働きが障害される遺伝性代謝疾患です。乳児期から神経症状や発達への影響が現れる場合があります。",
+      "dailyLife": "食事、姿勢、呼吸などへの支援が必要になる人がいます。家族と医療・福祉が連携して生活を支えることが重要です。",
+      "currentState": "脂肪酸の代謝検査や遺伝子検査などで診断し、栄養・神経症状・全身状態への対応を行います。",
+      "parentDiseaseId": "mhlw-0234",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4621",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-301-4-1",
+      "name": "錐体ジストロフィー",
+      "name_en": "Cone dystrophy",
+      "overview": "錐体ジストロフィーは網膜で色や明るい場所の視覚を担う錐体細胞が障害される遺伝性の病気の一群です。視力の低下、まぶしさ、色の見分けにくさなどが現れます。",
+      "dailyLife": "明るい場所で見えにくくなったり、読み書きが負担になったりすることがあります。拡大表示や照明の調整などの支援が役立ちます。",
+      "currentState": "眼科検査や必要な遺伝的評価を行い、視機能を支えるロービジョンケアなどを進めます。原因によって研究対象は異なります。",
+      "parentDiseaseId": "mhlw-0301",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-310-1",
+      "name": "1q部分重複症候群",
+      "name_en": "Partial trisomy 1q",
+      "overview": "1q部分重複症候群は1番染色体の長腕の一部分が重複することに関連する先天性疾患です。発達、成長、体の構造などへの影響は重複範囲によって異なります。",
+      "dailyLife": "発達や学習、運動などに支援が必要になる場合があります。本人の得意なことを尊重し、家庭・学校で環境を整えます。",
+      "currentState": "染色体検査で重複範囲を確認し、心臓などの合併症と発達の状態を調べ、必要な治療や療育を行います。",
+      "parentDiseaseId": "mhlw-0310",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-310-2",
+      "name": "9q34欠失症候群",
+      "name_en": "9q34 deletion syndrome",
+      "overview": "9q34欠失症候群は9番染色体の長腕の一部が欠けることに関連する先天性疾患です。欠失の範囲によって発達、筋緊張、顔貌などに特徴が現れる場合があります。",
+      "dailyLife": "学習やコミュニケーション、姿勢の保持などに支援が必要になることがあります。本人の成長に合わせて生活環境を調整します。",
+      "currentState": "染色体検査などで欠失部位を特定し、心臓や発達などの合併症に応じた治療と支援を行います。",
+      "parentDiseaseId": "mhlw-0310",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説の索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "general_index"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    }
+  ]
+}
