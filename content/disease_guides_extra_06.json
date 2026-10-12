@@ -1,0 +1,555 @@
+{
+  "part": 6,
+  "records": [
+    {
+      "id": "mhlw-0172",
+      "name": "低ホスファターゼ症",
+      "overview": "骨や歯の石灰化に必要なアルカリホスファターゼの働きが低下する遺伝性の病気です。骨が弱くなる、歯が早く抜ける、呼吸や成長の問題が生じるなど、病型によって症状は大きく異なります。",
+      "dailyLife": "歩行や運動、歯のケアに工夫が必要になる場合があります。乳児期の重い型では呼吸や栄養に関する専門的な支援も重要です。",
+      "currentState": "血液検査や遺伝子検査で評価し、適応のある病型では酵素補充療法を検討します。骨・歯・呼吸機能の長期的な確認も行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 172
+    },
+    {
+      "id": "mhlw-0173",
+      "name": "VATER症候群",
+      "overview": "背骨、肛門、心臓、気管と食道、腎臓、手足などに複数の先天的な特徴が組み合わさる病態です。すべての特徴がそろうわけではなく、原因は一つに限りません。",
+      "dailyLife": "食事、排泄、運動などに支援が必要になる場合があります。成長に応じて複数の診療科を受診し、家庭・学校で環境を整えることが役立ちます。",
+      "currentState": "各臓器の状態を評価し、必要な手術や機能への支援を個別に検討します。発達や生活の質を含めた継続的な医療が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 173
+    },
+    {
+      "id": "mhlw-0174",
+      "name": "那須・ハコラ病",
+      "overview": "TREM2またはTYROBPなどの遺伝子に関係し、骨に嚢胞ができて骨折しやすくなることと、脳の白質に異常が起こることを特徴とする遺伝性の病気です。成人期に神経症状が現れる場合があります。",
+      "dailyLife": "骨折の予防や転倒に配慮することが必要です。判断力や行動の変化が生じた場合は、本人と家族の暮らしを支える環境の調整が重要です。",
+      "currentState": "骨の病変と神経症状を評価し、骨折やてんかんなどの症状に対応します。原因自体を治す治療は限られ、長期的な支援が中心です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4256",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 174
+    },
+    {
+      "id": "mhlw-0175",
+      "name": "ウィーバー症候群",
+      "overview": "EZH2などの遺伝子に関連した過成長症候群で、身長の伸びや発達の特徴、筋肉の緊張の低さなどがみられることがあります。症状の幅は大きく、外見だけで診断できません。",
+      "dailyLife": "学習や運動、食事などに本人に合う支援が必要になることがあります。成長のペースを見守りながら学校や家庭の環境を調整します。",
+      "currentState": "発達や骨・関節、ほかの臓器の状態を確認し、合併症への治療や療育を行います。遺伝学的な評価が役立つ場合があります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4684",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 175
+    },
+    {
+      "id": "mhlw-0176",
+      "name": "コフィン・ローリー症候群",
+      "overview": "RPS6KA3遺伝子の変化などが関係し、発達の遅れや特徴的な手指・顔貌、骨格の変化などを伴うことがある遺伝性疾患です。症状の程度には個人差があります。",
+      "dailyLife": "運動・学習・コミュニケーションなどで支援が必要になる場合があります。本人の得意なことを伸ばし、生活動作を支える工夫が重要です。",
+      "currentState": "遺伝子や発達の状態を評価し、骨格・心臓などの合併症を確認します。療育と必要な臓器への医療を組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4666",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 176
+    },
+    {
+      "id": "mhlw-0177",
+      "name": "ジュベール症候群関連疾患",
+      "overview": "小脳虫部など脳の発達の違いに関連する遺伝性の病気の一群です。乳幼児期の筋緊張の低さ、特徴的な呼吸、目の動きや歩行の問題などがみられることがあります。",
+      "dailyLife": "移動や食事、学習などに支援が必要になる場合があります。病型によって腎臓や肝臓、眼にも影響するため、定期的な確認が大切です。",
+      "currentState": "MRIで見られる脳の特徴と遺伝子などを調べ、呼吸・発達・臓器症状に対応します。病型によって必要な検査が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4552",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 177
+    },
+    {
+      "id": "mhlw-0178",
+      "name": "モワット・ウィルソン症候群",
+      "overview": "ZEB2遺伝子の変化に関連し、発達の遅れ、てんかん、便秘や先天的な腸の病気などがみられる場合がある症候群です。特徴の組み合わせは人によって異なります。",
+      "dailyLife": "食事や排便、コミュニケーション、学習面に支援が必要になることがあります。家庭と医療・教育の連携が重要です。",
+      "currentState": "消化管や心臓、てんかんなどの状態を評価し、必要な治療と療育を行います。長期的な発達支援が中心です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4594",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 178
+    },
+    {
+      "id": "mhlw-0179",
+      "name": "ウィリアムズ症候群",
+      "overview": "7番染色体の特定の領域が欠けることに関連する疾患で、心血管の狭窄、発達や学習の特徴、高カルシウム血症などを伴う場合があります。すべての症状が現れるわけではありません。",
+      "dailyLife": "心臓・血管の定期的な診察や、本人の認知の特徴に合わせた学習支援が重要です。社会性や音への敏感さなども人によって異なります。",
+      "currentState": "染色体検査と各臓器の評価を行い、血管病変やカルシウム代謝の問題などに対応します。発達支援も継続します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4765",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 179
+    },
+    {
+      "id": "mhlw-0180",
+      "name": "ＡＴＲ－Ｘ症候群",
+      "overview": "X染色体のATRX遺伝子に関連し、発達の遅れや特徴的な顔貌、筋緊張の低さ、貧血などの症状を伴う場合がある疾患です。重症度や症状には幅があります。",
+      "dailyLife": "食事、移動、コミュニケーション、学習に支援が必要になる人がいます。本人の成長や生活の状況に合わせた配慮が重要です。",
+      "currentState": "遺伝子検査などで診断し、発達・栄養・血液などの合併症を確認します。必要な医療と療育を長期的に組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 180
+    },
+    {
+      "id": "mhlw-0181",
+      "name": "クルーゾン症候群",
+      "overview": "頭蓋骨の縫合が早く閉じる頭蓋縫合早期癒合を特徴とし、主にFGFR2などの遺伝子に関係する疾患です。頭・顔の骨格や眼の位置に違いがみられます。",
+      "dailyLife": "呼吸、睡眠、視力、歯並びなどへの配慮が必要になる場合があります。外見の違いによる心理社会的な負担にも注意が必要です。",
+      "currentState": "頭蓋・顔面の状態を評価し、必要に応じて外科的な治療や眼科・耳鼻科・歯科のケアを組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4672",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 181
+    },
+    {
+      "id": "mhlw-0182",
+      "name": "アペール症候群",
+      "overview": "頭蓋縫合早期癒合と手足の指の癒合が特徴の遺伝性疾患です。FGFR2に関連することが多く、頭蓋や顔面の形状、呼吸や視覚などに影響する場合があります。",
+      "dailyLife": "手指の動かしやすさ、食事・呼吸、睡眠や学校での生活に配慮が必要な人もいます。成長に合わせた機能面の支援が役立ちます。",
+      "currentState": "頭蓋顔面や手足の手術を含めて専門チームで治療計画を立てます。視覚・呼吸・発達なども定期的に確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4678",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 182
+    },
+    {
+      "id": "mhlw-0183",
+      "name": "ファイファー症候群",
+      "overview": "頭蓋縫合早期癒合や、手足の親指・足趾の幅が広いなどの特徴を伴う遺伝性疾患です。FGFRに関連し、症状の程度は型によって大きく異なります。",
+      "dailyLife": "呼吸や視力、手足の動き、成長に関する支援が必要になる場合があります。重い型では新生児期から多診療科の連携が重要です。",
+      "currentState": "頭蓋や顔面、気道、手足の状態を確認し、必要な外科的治療や発達支援を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4675",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 183
+    },
+    {
+      "id": "mhlw-0184",
+      "name": "アントレー・ビクスラー症候群",
+      "overview": "頭蓋骨の早期癒合や骨格、泌尿生殖器などの特徴を伴うまれな疾患です。POR遺伝子などに関係する型とFGFR2に関係する型があり、ホルモンの問題が加わる場合もあります。",
+      "dailyLife": "呼吸・栄養・運動やホルモン管理で支援が必要になることがあります。病型により対応が異なるため、検査結果に沿って生活を整えます。",
+      "currentState": "頭蓋顔面外科や内分泌などの専門家が協力します。病型の確認と、副腎機能・呼吸機能への配慮が大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4669",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 184
+    },
+    {
+      "id": "mhlw-0185",
+      "name": "コフィン・シリス症候群",
+      "overview": "染色体構造や遺伝子の働きを調節する仕組みに関係する遺伝性疾患で、手足の指の発達の違い、発達の遅れ、低い筋緊張などがみられることがあります。",
+      "dailyLife": "食事、運動、学習、コミュニケーションの支援が必要な場合があります。本人の発達に合わせて家庭・学校で環境を調整します。",
+      "currentState": "遺伝子検査と全身の評価を行い、発達支援や心臓・腎臓などの合併症に対応します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4762",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 185
+    },
+    {
+      "id": "mhlw-0186",
+      "name": "ロスムンド・トムソン症候群",
+      "overview": "DNAを複製する仕組みなどに関わる遺伝子の変化で起こる疾患です。日光に敏感な皮膚の変化、成長の問題、骨格の特徴などがみられ、がんの危険性が高い病型もあります。",
+      "dailyLife": "皮膚の紫外線対策や体調に合わせた活動調整が重要です。成長とともに必要な検査や学校・仕事の配慮が変わります。",
+      "currentState": "皮膚病変と腫瘍、骨格・歯などの状態を継続して評価します。必要な治療や生活支援を専門医が組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4471",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 186
+    },
+    {
+      "id": "mhlw-0187",
+      "name": "歌舞伎症候群",
+      "overview": "KMT2DやKDM6Aなどの遺伝子の変化に関係する症候群で、発達や学習の特徴、顔貌、心臓、聴力、免疫などに影響が及ぶ場合があります。",
+      "dailyLife": "本人に合う学習支援と、聴力・感染・栄養などの状態への配慮が大切です。多くの症状が必ず現れるわけではありません。",
+      "currentState": "遺伝子と発達・臓器の状態を確認し、心臓や聴覚、免疫などの問題に個別に対応します。長期的な発達支援も行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4663",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 187
+    },
+    {
+      "id": "mhlw-0188",
+      "name": "多脾症候群",
+      "overview": "脾臓が複数あるなど臓器の左右の配置に違いが生じる先天性の病態です。心臓や腸の位置・構造の異常、刺激伝導系の問題を伴う場合があります。",
+      "dailyLife": "心臓や消化器の状態によって活動や通院の内容が異なります。脾臓の働きが十分かどうかも確認する必要があります。",
+      "currentState": "心臓・血管・消化管や脾臓の機能を評価し、必要な手術・不整脈への対応などを行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 188
+    },
+    {
+      "id": "mhlw-0189",
+      "name": "無脾症候群",
+      "overview": "脾臓がないか非常に小さく、臓器の左右の配置と心臓の構造に違いを伴うことが多い先天性の病態です。重い先天性心疾患を伴う場合があります。",
+      "dailyLife": "心臓の治療に加え、脾臓の機能低下に伴う細菌感染への注意が必要です。発熱時の対応を家族と医療者で共有します。",
+      "currentState": "心臓・血管の異常への専門的治療を行います。感染症予防として予防接種などの計画を立てることが重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 189
+    },
+    {
+      "id": "mhlw-0190",
+      "name": "鰓耳腎症候群",
+      "overview": "耳の形や聴力、首の鰓裂由来の病変、腎臓の発達などに特徴がみられる遺伝性の症候群です。EYA1などの遺伝子が関係する場合があります。",
+      "dailyLife": "聞こえ方や腎機能の状態に応じて学習・コミュニケーションの工夫、定期的な検査が必要な場合があります。",
+      "currentState": "聴力と腎臓、首の病変などを評価し、補聴や必要な手術、腎臓を守る治療を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4387",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 190
+    },
+    {
+      "id": "mhlw-0191",
+      "name": "ウェルナー症候群",
+      "overview": "WRN遺伝子に関連し、思春期以降に白髪や脱毛、皮膚の変化、白内障など早老症の特徴が現れる疾患です。糖尿病や動脈硬化、腫瘍などに注意が必要です。",
+      "dailyLife": "皮膚の傷の治りにくさや足の潰瘍、代謝の問題が日常生活に影響する場合があります。定期検査や足のケアが大切です。",
+      "currentState": "血糖・脂質や血管、骨、腫瘍などの合併症を継続して管理します。病気の全身的な特徴を理解した医療が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 191
+    },
+    {
+      "id": "mhlw-0192",
+      "name": "コケイン症候群",
+      "overview": "DNA修復と転写の仕組みに関係する遺伝性の病気で、成長の遅れ、光への過敏、聴力の低下、神経症状などが現れる場合があります。症状の組み合わせは病型で異なります。",
+      "dailyLife": "見え方・聞こえ方、食事や運動に支援が必要な場合があります。日光を避けつつ、成長・発達に合う生活環境を整えます。",
+      "currentState": "皮膚・眼・聴覚・神経・栄養を多診療科で評価し、症状と発達への支援を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4435",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 192
+    },
+    {
+      "id": "mhlw-0193",
+      "name": "プラダー・ウィリ症候群",
+      "overview": "15番染色体の特定領域の父親由来の遺伝子の働きが失われることなどで起こる病気です。乳児期の筋緊張低下の後に食欲が強くなりやすいほか、発達やホルモンの問題を伴います。",
+      "dailyLife": "食事や体重の管理だけでなく、学習・行動、睡眠などへの支援が重要です。本人の尊厳を守りつつ家族と学校が協力します。",
+      "currentState": "成長ホルモン治療の適応を評価し、栄養・内分泌や発達の支援を長期的に行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 193
+    },
+    {
+      "id": "mhlw-0194",
+      "name": "ソトス症候群",
+      "overview": "NSD1遺伝子の変化に関連する過成長症候群です。幼児期から身長・頭囲が大きいなどの特徴や、運動・言語の発達の違いがみられる場合があります。",
+      "dailyLife": "姿勢や運動、学習の支援が必要になることがあります。成長に伴い本人の得意なことを生かす環境調整が役立ちます。",
+      "currentState": "発達・骨格や心臓など必要な臓器の状態を確認し、療育と症状に応じた治療を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 194
+    },
+    {
+      "id": "mhlw-0195",
+      "name": "ヌーナン症候群",
+      "overview": "RAS/MAPK経路に関わる遺伝子の変化による症候群です。先天的な心疾患、低身長、筋緊張や発達の特徴などがみられ、症状の程度には幅があります。",
+      "dailyLife": "心臓の検査や成長・発達の支援が必要になる場合があります。学業・仕事での支援内容は本人の状態によって異なります。",
+      "currentState": "心臓・血液凝固・発達・成長などを評価し、必要な治療や療育を行います。成長ホルモン治療を検討する場合もあります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4865",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 195
+    },
+    {
+      "id": "mhlw-0196",
+      "name": "ヤング・シンプソン症候群",
+      "overview": "KAT6B遺伝子の変化などが関連し、顔貌、甲状腺、骨格や生殖器、発達などに特徴がみられる症候群です。症状の組み合わせは人によって異なります。",
+      "dailyLife": "食事や運動、学習の支援が必要な場合があります。本人と家族の暮らしに合わせた生活環境や支援の調整が重要です。",
+      "currentState": "甲状腺機能や全身の合併症を確認し、成長段階に合わせた治療・療育を多職種で行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4759",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 196
+    }
+  ]
+}

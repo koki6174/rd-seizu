@@ -1,0 +1,555 @@
+{
+  "part": 8,
+  "records": [
+    {
+      "id": "mhlw-0223",
+      "name": "一次性膜性増殖性糸球体腎炎",
+      "overview": "腎臓の糸球体に炎症が起こり、基底膜の二重化や細胞の増殖などの特徴的な組織像を示す腎炎です。血尿、尿たんぱく、むくみなどがみられ、原因が分からない一次性のものを指します。",
+      "dailyLife": "尿検査で初めて気付く人もおり、体調が良いときも血圧と腎機能の確認が重要です。むくみや尿量の変化が日常生活に影響する場合があります。",
+      "currentState": "腎生検などで病型と補体の働きなどを評価し、血圧・尿たんぱくの管理や炎症を抑える治療を検討します。C3腎症などは別の病態として区別します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4423",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 223
+    },
+    {
+      "id": "mhlw-0224",
+      "name": "紫斑病性腎炎",
+      "overview": "IgA血管炎などに関連して腎臓の糸球体に炎症が起こる病気です。皮膚の紫斑、腹痛、関節の痛みとともに血尿や尿たんぱくがみられる場合があります。",
+      "dailyLife": "皮膚症状が落ち着いても尿検査の変化が続く場合があります。血圧と腎機能を定期的に確認し、学校や仕事との両立を考えます。",
+      "currentState": "尿・血液検査や必要に応じて腎生検で評価し、病状によって血圧管理、ステロイドなどを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4657",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 224
+    },
+    {
+      "id": "mhlw-0225",
+      "name": "先天性腎性尿崩症",
+      "overview": "腎臓がバソプレシンというホルモンに十分反応できず、大量の薄い尿が出る遺伝性などの病気です。乳幼児期から強い口渇、脱水や成長への影響がみられることがあります。",
+      "dailyLife": "こまめな水分補給とトイレの確保が生活の重要な部分になります。乳児や小児では脱水を自分で訴えにくいため、家族と医療者の支援が大切です。",
+      "currentState": "ホルモンへの反応を調べ、原因に合わせて水分・電解質の管理や薬物治療を行います。中枢性尿崩症とは原因と治療が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/5539",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 225
+    },
+    {
+      "id": "mhlw-0226",
+      "name": "間質性膀胱炎（ハンナ型）",
+      "overview": "膀胱にハンナ病変と呼ばれる炎症性の変化があり、頻尿や膀胱の痛み、尿意が続く病気です。細菌感染による膀胱炎とは区別されます。",
+      "dailyLife": "トイレの回数や痛みにより仕事や外出、睡眠に影響する場合があります。症状に応じた休憩や環境調整と、周囲の理解が助けになります。",
+      "currentState": "膀胱鏡などで評価し、膀胱内治療や病変への処置、痛みを和らげる治療などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4429",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 226
+    },
+    {
+      "id": "mhlw-0227",
+      "name": "オスラー病",
+      "overview": "遺伝性出血性毛細血管拡張症とも呼ばれ、血管の構造に関係する遺伝子の変化などによって鼻血や皮膚・粘膜の血管拡張、臓器の動静脈奇形が起こることがある病気です。",
+      "dailyLife": "繰り返す鼻血や貧血が生活に影響する場合があります。肺・脳・肝臓などの血管の状態に応じた検査と日常の配慮が重要です。",
+      "currentState": "出血への治療と、肺や脳などにある動静脈奇形の評価・治療を行います。家族の相談や必要な検査を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4351",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 227
+    },
+    {
+      "id": "mhlw-0228",
+      "name": "閉塞性細気管支炎",
+      "overview": "肺の細い気道である細気管支が炎症や線維化により狭くなり、息を吐き出しにくくなる病気です。感染後、移植後など背景となる原因はさまざまです。",
+      "dailyLife": "息切れやせきが続き、階段や運動に負担がかかる場合があります。呼吸機能に応じて活動と休息を調整し、感染への注意が大切です。",
+      "currentState": "呼吸機能検査や画像検査で評価し、原因に応じた治療や呼吸リハビリ、酸素療法などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 228
+    },
+    {
+      "id": "mhlw-0229",
+      "name": "肺胞蛋白症（自己免疫性又は先天性）",
+      "overview": "肺胞の中に肺表面活性物質に由来する成分がたまって、酸素を取り込みにくくなる病気です。自己免疫性の型と遺伝的な原因による型などがあり、病態は異なります。",
+      "dailyLife": "せきや息切れ、疲れやすさなどが活動に影響する場合があります。呼吸機能や酸素の状態を定期的に確認することが大切です。",
+      "currentState": "型を見分けたうえで、全肺洗浄や適応に応じた治療を検討します。自己免疫性ではGM-CSFに関係する治療などが選択肢になる場合があります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 229
+    },
+    {
+      "id": "mhlw-0230",
+      "name": "肺胞低換気症候群",
+      "overview": "睡眠中や日中に、体が必要とする量の空気を肺へ送り込む働きが低下し、二酸化炭素が体内にたまりやすくなる病態です。呼吸の調節や神経・筋肉など複数の原因があります。",
+      "dailyLife": "朝の頭痛、眠気や疲れやすさが生活に影響する場合があります。睡眠時の呼吸の状態と、日中の体調の変化を確認することが大切です。",
+      "currentState": "血液ガスや睡眠検査などで原因と重症度を調べ、非侵襲的人工呼吸などの呼吸補助を状態に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/172",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 230
+    },
+    {
+      "id": "mhlw-0231",
+      "name": "α1－アンチトリプシン欠乏症",
+      "overview": "α1-アンチトリプシンというたんぱく質の不足により、肺や肝臓に障害が起こりやすくなる遺伝性疾患です。肺気腫などの呼吸器症状や肝機能の変化が現れる場合があります。",
+      "dailyLife": "息切れへの対応や、たばこの煙など肺に負担をかける要因を避けることが重要です。肝臓の状態も含めた定期的な評価が役立ちます。",
+      "currentState": "肺機能や肝機能を確認し、呼吸器症状への治療や必要な支援を行います。適応によりたんぱく質の補充療法が検討される地域もあります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4738",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 231
+    },
+    {
+      "id": "mhlw-0232",
+      "name": "カーニー複合",
+      "overview": "PRKAR1A遺伝子などに関連し、皮膚の色素斑、心臓粘液腫、ホルモンを作る臓器の腫瘍などが起こる遺伝性の疾患です。どの病変が現れるかには個人差があります。",
+      "dailyLife": "腫瘍やホルモンの問題の検査を定期的に受ける必要があります。通院と学業・仕事を両立するための調整が役立ちます。",
+      "currentState": "心臓や内分泌臓器を検査し、腫瘍の手術やホルモンの治療を必要に応じて行います。家族への検査も検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4753",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 232
+    },
+    {
+      "id": "mhlw-0233",
+      "name": "ウォルフラム症候群",
+      "overview": "WFS1などの遺伝子に関連し、若い時期から糖尿病や視神経の障害、難聴などが現れることがある病気です。尿崩症や神経の症状を伴う場合もあります。",
+      "dailyLife": "血糖の管理に加え、見え方や聞こえ方、排尿などの変化に応じた生活支援が必要になる場合があります。",
+      "currentState": "内分泌・眼科・耳鼻科・神経などが連携し、病状に応じた治療と検査を継続します。病型により症状は異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4789",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 233
+    },
+    {
+      "id": "mhlw-0234",
+      "name": "ペルオキシソーム病（副腎白質ジストロフィーを除く。）",
+      "overview": "細胞内のペルオキシソームという小器官が十分に働かず、脂肪酸などの代謝に影響する遺伝性疾患群です。発達、肝臓、視力や聴力、神経などにさまざまな症状が現れます。",
+      "dailyLife": "食事や運動、コミュニケーション、聴覚・視覚などに支援が必要になることがあります。病型によって生活上の注意が大きく異なります。",
+      "currentState": "原因となる代謝の異常を調べ、栄養や臓器の問題に対応します。副腎白質ジストロフィーは別の指定難病として扱われます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4621",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 234
+    },
+    {
+      "id": "mhlw-0235",
+      "name": "副甲状腺機能低下症",
+      "overview": "副甲状腺ホルモンの分泌が不足し、血液中のカルシウムが低くなりやすい病気です。手足のしびれ、筋肉のけいれん、けいれん発作などが生じる場合があります。",
+      "dailyLife": "薬や検査を続けながら、しびれや筋肉のつっぱりなどの体調変化を確認することが大切です。",
+      "currentState": "カルシウムや活性型ビタミンDなどによる治療を、血液と尿の検査に合わせて調整します。腎臓への影響にも注意します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4426",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 235
+    },
+    {
+      "id": "mhlw-0236",
+      "name": "偽性副甲状腺機能低下症",
+      "overview": "副甲状腺ホルモンは分泌されていても、腎臓などがその信号に十分反応しない遺伝性などの病気です。低カルシウム血症や特徴的な骨格・発達の所見を伴う型があります。",
+      "dailyLife": "しびれやけいれんへの注意とともに、成長や学習、甲状腺機能などの状態を確認する場合があります。",
+      "currentState": "カルシウムやビタミンDの調整に加え、病型に応じたホルモン検査や必要な治療を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 236
+    },
+    {
+      "id": "mhlw-0237",
+      "name": "副腎皮質刺激ホルモン不応症",
+      "overview": "副腎に働きかけるACTHというホルモンがあっても副腎が十分反応せず、コルチゾールが不足する病気です。新生児期や小児期から低血糖、疲れやすさなどが現れる場合があります。",
+      "dailyLife": "毎日のホルモン補充とともに、発熱や感染時など体に負担がかかる場面の対応を家族や学校と共有することが大切です。",
+      "currentState": "副腎のホルモンを補充し、発熱・手術などの際に必要な対応を主治医と確認します。遺伝的な原因を調べる場合もあります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4357",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 237
+    },
+    {
+      "id": "mhlw-0238",
+      "name": "ビタミンＤ抵抗性くる病/骨軟化症",
+      "overview": "ビタミンDがあっても腎臓などでリンの再吸収を保ちにくいことなどにより、骨の石灰化が十分に進まない病気の一群です。低リン血症、脚の変形、骨の痛みがみられます。",
+      "dailyLife": "歩行や関節の痛み、身長・成長に影響する場合があります。学校・仕事での移動や歯の健康に配慮が必要な人もいます。",
+      "currentState": "リンとビタミンD関連の治療、適応があればFGF23に作用する治療などを検討します。病型で治療が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4558",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 238
+    },
+    {
+      "id": "mhlw-0239",
+      "name": "ビタミンＤ依存性くる病/骨軟化症",
+      "overview": "ビタミンDを活性化する酵素などの働きに遺伝的な異常があり、骨の石灰化が障害される疾患群です。乳幼児期から骨の変形や成長の問題がみられる場合があります。",
+      "dailyLife": "歩行や骨の痛み、成長・歯の問題への配慮が必要なことがあります。治療と定期検査を続けることが大切です。",
+      "currentState": "ビタミンD代謝のどこに異常があるかを調べ、活性型ビタミンDやカルシウムなどを病型に応じて調整します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4561",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 239
+    },
+    {
+      "id": "mhlw-0240",
+      "name": "フェニルケトン尿症",
+      "overview": "フェニルアラニンを分解する酵素の働きが低下し、血液中にフェニルアラニンがたまりやすくなる遺伝性代謝疾患です。未治療では神経発達に影響することがあります。",
+      "dailyLife": "食事で摂るたんぱく質の量や種類を、代謝専門チームと長期的に管理することが重要です。成長に合わせて食事内容を調整します。",
+      "currentState": "新生児マススクリーニングなどで早期発見し、食事療法や適応に応じた薬物療法を行います。血液検査による管理を継続します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4747",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 240
+    },
+    {
+      "id": "mhlw-0241",
+      "name": "高チロシン血症1型",
+      "overview": "チロシンの分解に必要な酵素の異常により、肝臓や腎臓などが障害される遺伝性疾患です。1型では肝不全や腎機能障害などが問題になることがあります。",
+      "dailyLife": "食事や薬の管理、肝臓・腎臓の定期検査が生活に関わります。体調が急に変わったときの対応を医療者と共有します。",
+      "currentState": "特定の代謝経路を抑える薬と食事療法が治療の中心になります。肝臓の状態によっては移植を検討することもあります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4690",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 241
+    },
+    {
+      "id": "mhlw-0242",
+      "name": "高チロシン血症2型",
+      "overview": "チロシンの代謝に関わる酵素の異常によって、目の痛み・角膜の病変や手足の皮膚の角化が起こる遺伝性疾患です。1型と異なり肝臓の障害が中心ではありません。",
+      "dailyLife": "目の痛みや皮膚の症状が日常生活や学習に影響する場合があります。眼科・皮膚科との連携が役立ちます。",
+      "currentState": "チロシンとフェニルアラニンを調整する食事療法を専門医と相談し、眼と皮膚の状態を確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4693",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 242
+    },
+    {
+      "id": "mhlw-0243",
+      "name": "高チロシン血症3型",
+      "overview": "チロシンの分解に関係する別の酵素の異常で起こるまれな遺伝性代謝疾患です。無症状のこともありますが、神経発達の問題が報告される場合もあります。",
+      "dailyLife": "病型によっては日常生活への影響が少ない一方、発達や学習を見守る支援が必要になる人もいます。",
+      "currentState": "代謝の検査や遺伝子検査で評価し、必要に応じて食事療法などを検討します。1型・2型と区別することが大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4696",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 243
+    },
+    {
+      "id": "mhlw-0244",
+      "name": "メープルシロップ尿症",
+      "overview": "分岐鎖アミノ酸のロイシンなどを分解する酵素の働きが低下し、神経に有害な物質がたまりやすくなる遺伝性疾患です。新生児期の哺乳不良や意識の変化などが現れる場合があります。",
+      "dailyLife": "日常の食事管理に加え、発熱や食べられないときの代謝危機に備える必要があります。家族と専門医で緊急時の計画を共有します。",
+      "currentState": "新生児検査・代謝検査で発見し、分岐鎖アミノ酸を管理する食事療法を中心に行います。急性期には迅速な全身管理が必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4813",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 244
+    },
+    {
+      "id": "mhlw-0245",
+      "name": "プロピオン酸血症",
+      "overview": "プロピオニルCoAを代謝する酵素の異常による遺伝性疾患です。体に有機酸がたまって酸性に傾き、哺乳不良、嘔吐、意識の変化などを起こす場合があります。",
+      "dailyLife": "感染や長時間の絶食などが代謝の悪化を引き起こすことがあります。食事と体調不良時の対応を代謝専門チームと決めておくことが大切です。",
+      "currentState": "栄養・代謝の管理と必要な補助治療を行います。急な代謝の悪化では入院治療が必要となる場合があります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/5323",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 245
+    },
+    {
+      "id": "mhlw-0246",
+      "name": "メチルマロン酸血症",
+      "overview": "メチルマロニルCoAの代謝に関係する酵素やビタミンB12の利用の異常で生じる遺伝性疾患群です。代謝性アシドーシス、神経・腎臓の障害などを伴う場合があります。",
+      "dailyLife": "食事を取れないときや感染時の代謝の悪化に注意が必要です。年齢・病型に合わせた栄養管理と定期的な腎機能の確認が重要です。",
+      "currentState": "病型によってビタミンB12の反応性が異なります。栄養管理と代謝危機への治療を専門医が調整します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4861",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 246
+    },
+    {
+      "id": "mhlw-0247",
+      "name": "イソ吉草酸血症",
+      "overview": "ロイシンを分解する過程に関係する酵素の異常で、有機酸が蓄積する遺伝性疾患です。代謝が悪化すると嘔吐や意識の変化などが現れることがあります。",
+      "dailyLife": "感染や食事が取れないときに代謝危機が起こる場合があります。必要な食事と緊急時の受診について専門医と事前に共有します。",
+      "currentState": "代謝検査などで診断し、ロイシンに関する食事管理や必要な補助療法を病型に応じて行います。急性期の治療が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4816",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 247
+    }
+  ]
+}

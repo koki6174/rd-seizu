@@ -1,0 +1,555 @@
+{
+  "part": 7,
+  "records": [
+    {
+      "id": "mhlw-0197",
+      "name": "１p36欠失症候群",
+      "overview": "1番染色体の短腕末端1p36が欠失することによる疾患です。発達の遅れ、筋緊張の低下、てんかん、先天的な心臓の病気などを伴うことがあります。欠失範囲や症状には違いがあります。",
+      "dailyLife": "運動・言語・学習の支援が必要になる場合があります。食事や心臓の状態も確認し、本人の発達に合わせて学校や家庭で環境を整えることが大切です。",
+      "currentState": "染色体検査などで診断し、心臓・聴覚・てんかんなどの合併症に対応します。療育と多職種による継続的な支援を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4495",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 197
+    },
+    {
+      "id": "mhlw-0198",
+      "name": "４p欠失症候群",
+      "overview": "4番染色体の短腕の一部が欠失し、成長や発達、顔貌、心臓や腎臓などにさまざまな特徴がみられる病気です。ウォルフ・ヒルシュホーン症候群とも呼ばれます。",
+      "dailyLife": "栄養や発達、てんかんへの支援が必要になる場合があります。通院と学校生活の両立には、家族・医療・教育の連携が役立ちます。",
+      "currentState": "染色体の欠失を調べ、発作・栄養・心臓などの合併症に応じて治療します。継続した発達支援が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4804",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 198
+    },
+    {
+      "id": "mhlw-0199",
+      "name": "５p欠失症候群",
+      "overview": "5番染色体の短腕が欠失する疾患で、乳児期の特徴的な泣き声から猫鳴き症候群とも呼ばれます。筋緊張の低下や発達・言語の遅れなどがみられることがあります。",
+      "dailyLife": "コミュニケーションや食事、運動・学習に支援が必要になる場合があります。本人の理解力や発達に合わせた伝え方の工夫が大切です。",
+      "currentState": "染色体検査で診断し、必要な臓器の検査や言語・運動などの療育を行います。症状は個人ごとに異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4862",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 199
+    },
+    {
+      "id": "mhlw-0200",
+      "name": "第14番染色体父親性ダイソミー症候群",
+      "overview": "14番染色体の両方が父親由来となることに関係する疾患です。鏡・緒方症候群とも呼ばれ、胸郭や肋骨の形の特徴、呼吸の問題などを伴う場合があります。",
+      "dailyLife": "乳児期の呼吸や栄養の支援が必要になることがあります。成長に応じて運動・発達の状態を見守り、家庭でのケアを整えます。",
+      "currentState": "遺伝学的な検査で診断し、呼吸機能と胸郭、栄養や発達への対応を専門チームで行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 200
+    },
+    {
+      "id": "mhlw-0201",
+      "name": "アンジェルマン症候群",
+      "overview": "15番染色体の母親由来の遺伝子の働きが失われるなどして起こる神経発達症です。発達の遅れ、言葉の発達の違い、てんかん、特徴的な動きなどがみられることがあります。",
+      "dailyLife": "言葉以外の方法で意思を伝える工夫や、睡眠・発作への対応が必要な場合があります。学習や運動の支援を本人のペースに合わせて行います。",
+      "currentState": "遺伝子・染色体の検査と発達評価を行い、てんかんや睡眠などの症状に対応します。言語・運動の療育も重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 201
+    },
+    {
+      "id": "mhlw-0202",
+      "name": "スミス・マギニス症候群",
+      "overview": "17番染色体の特定領域の欠失またはRAI1遺伝子の変化に関係する疾患です。発達・行動や睡眠のリズム、筋緊張などに特徴がみられることがあります。",
+      "dailyLife": "睡眠の時間帯がずれたり、行動面で支援が必要になったりする場合があります。予測しやすい生活環境や学校での理解が役立ちます。",
+      "currentState": "遺伝学的な評価と全身の診察を行い、睡眠・行動・発達への対応を組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 202
+    },
+    {
+      "id": "mhlw-0203",
+      "name": "22q11.2欠失症候群",
+      "overview": "22番染色体のq11.2領域が欠失する疾患群です。心臓の病気、口蓋や免疫、カルシウム代謝、発達の特徴などがみられますが、組み合わせは一人ひとり異なります。",
+      "dailyLife": "感染への注意や、食事・発語・学習面の支援が必要になる場合があります。成長段階に合わせて複数の診療科を受診することがあります。",
+      "currentState": "心臓、免疫、内分泌、聴覚などの評価を行い、合併症ごとに治療します。遺伝カウンセリングを検討する場合もあります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 203
+    },
+    {
+      "id": "mhlw-0204",
+      "name": "エマヌエル症候群",
+      "overview": "11番染色体と22番染色体に関係する染色体構造の変化による病気です。発達の遅れ、耳の形の特徴、心臓や腎臓などの先天的な問題を伴うことがあります。",
+      "dailyLife": "食事、聴力、発達や運動などに支援が必要な人がいます。本人の状態に応じた学習環境と家族へのサポートが重要です。",
+      "currentState": "染色体検査で評価し、心臓・腎臓・聴覚などの合併症を治療します。療育と長期的な経過観察を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4609",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 204
+    },
+    {
+      "id": "mhlw-0205",
+      "name": "脆弱Ｘ症候群関連疾患",
+      "overview": "FMR1遺伝子の一部にある繰り返し配列が増えることに関連する疾患群で、脆弱X関連振戦・運動失調症候群や原発性卵巣機能不全などが含まれます。脆弱X症候群そのものとは区別します。",
+      "dailyLife": "成人期のふらつきや生殖に関する悩みなど、症状は疾患によって違います。必要に応じて移動や就労、家族計画について専門家に相談できます。",
+      "currentState": "FMR1の反復数などを調べ、神経症状や卵巣機能の問題などに個別に対応します。遺伝カウンセリングが役立つ場合があります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4615",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 205
+    },
+    {
+      "id": "mhlw-0206",
+      "name": "脆弱X症候群",
+      "overview": "FMR1遺伝子の特定の変化により、知的・発達や学習、行動などに特徴がみられるX染色体関連の病気です。現れ方は性別や個人によって異なります。",
+      "dailyLife": "学習や人とのやり取り、感覚への配慮が必要になる場合があります。本人に合うコミュニケーション方法と環境を整えることが重要です。",
+      "currentState": "遺伝子検査による評価と、発達・心理・行動などに応じた支援を行います。関連する心身の状態も確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4612",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 206
+    },
+    {
+      "id": "mhlw-0207",
+      "name": "総動脈幹遺残症",
+      "overview": "胎児期に大動脈と肺動脈に分かれるはずの大きな血管が一つのまま残る先天性心疾患です。肺へ血液が多く流れ、乳児期に心不全などが起こる場合があります。",
+      "dailyLife": "授乳や体重増加、呼吸の状態に影響が出ることがあります。手術前後の通院や成長の確認、感染への注意が大切です。",
+      "currentState": "心エコーなどで構造を確認し、原則として乳児期の心臓手術を検討します。術後も弁や血管の状態を長期的に見守ります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 207
+    },
+    {
+      "id": "mhlw-0208",
+      "name": "修正大血管転位症",
+      "overview": "心房と心室のつながり、心室と大血管のつながりが通常と逆になる先天性心疾患です。血液の流れは一見保たれていても、全身へ送る役割を右心室が担います。",
+      "dailyLife": "成長とともに不整脈や心臓の働きの変化が起こる場合があります。活動と通院の計画を循環器医と相談することが重要です。",
+      "currentState": "合併する心疾患や不整脈、心室機能を評価し、薬や手術などを病型に応じて検討します。生涯にわたる専門診療が大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4474",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 208
+    },
+    {
+      "id": "mhlw-0209",
+      "name": "完全大血管転位症",
+      "overview": "大動脈と肺動脈がそれぞれ通常とは逆の心室から出る先天性心疾患です。そのままでは全身と肺を回る血液が十分に混ざりにくく、新生児期から治療が必要になることがあります。",
+      "dailyLife": "乳児期の呼吸や哺乳、術後の成長に配慮が必要です。学校や運動についても、手術後の心臓の状態に応じて相談します。",
+      "currentState": "出生直後の状態に応じて血液循環を確保し、大血管スイッチ手術などを検討します。成長後も心臓と血管を確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4477",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 209
+    },
+    {
+      "id": "mhlw-0210",
+      "name": "単心室症",
+      "overview": "心臓で十分に働く心室が実質的に一つで、正常な二心室循環をつくりにくい先天性心疾患の総称です。構造や血液の流れは一人ひとり異なります。",
+      "dailyLife": "乳児期から複数回の治療や検査が必要になる場合があります。運動や栄養、酸素の状態などを見守りながら生活を整えます。",
+      "currentState": "血液循環の状態に応じて段階的な手術を行い、フォンタン循環を目指す場合があります。術後も肝臓などを含め長期的な診療が必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4369",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 210
+    },
+    {
+      "id": "mhlw-0211",
+      "name": "左心低形成症候群",
+      "overview": "左心室や大動脈など心臓の左側の構造が十分に発達しない先天性心疾患です。生後すぐに全身へ十分な血液を送れなくなるため専門的な治療が必要です。",
+      "dailyLife": "乳児期の治療と栄養管理が重要で、成長後も運動、心臓の機能や生活上の配慮を継続して確認します。家族と医療者の協力が欠かせません。",
+      "currentState": "出生直後の循環の維持と段階的な心臓手術などを検討します。長期的には血行動態や肝機能などの経過観察も必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4372",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 211
+    },
+    {
+      "id": "mhlw-0212",
+      "name": "三尖弁閉鎖症",
+      "overview": "右心房と右心室の間にある三尖弁が閉じている先天性心疾患です。右心室の発達や肺への血液の流れにも影響し、チアノーゼが現れる場合があります。",
+      "dailyLife": "呼吸や栄養、運動時の負担などに配慮しながら成長を見守ります。心臓の状態により学校生活の注意点が変わります。",
+      "currentState": "肺血流を確保する治療と段階的な手術を病態に応じて検討します。術後も循環の状態を長期的に評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4480",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 212
+    },
+    {
+      "id": "mhlw-0213",
+      "name": "心室中隔欠損を伴わない肺動脈閉鎖症",
+      "overview": "肺動脈へ流れる出口が閉じており、左右の心室の間に穴がない先天性心疾患です。右心室や冠動脈の状態は症例によって異なります。",
+      "dailyLife": "出生直後から血流と酸素の管理が必要になることがあります。成長後の活動や検査は心臓の形と手術の経過に合わせます。",
+      "currentState": "肺へ送る血流を確保し、右心室や冠動脈の状態を評価してカテーテル治療・手術を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4483",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 213
+    },
+    {
+      "id": "mhlw-0214",
+      "name": "心室中隔欠損を伴う肺動脈閉鎖症",
+      "overview": "肺動脈への出口が閉じ、左右の心室の間に穴がある先天性心疾患です。肺への血液は動脈管や側副血行路などを通る場合があります。",
+      "dailyLife": "酸素状態や食事・運動への影響に応じた配慮が必要です。手術を受けた後も肺動脈や心臓の状態を確認します。",
+      "currentState": "心エコーや画像検査で肺血流と側副血管を評価し、段階的な修復手術などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 214
+    },
+    {
+      "id": "mhlw-0215",
+      "name": "ファロー四徴症",
+      "overview": "心室中隔欠損、肺動脈狭窄、大動脈騎乗、右心室肥大という四つの特徴を持つ先天性心疾患です。血液の酸素が低くなり、皮膚や唇が青くなることがあります。",
+      "dailyLife": "成長とともに運動や日常活動が可能な人もいますが、手術後も不整脈や心機能の変化を定期的に確認することが大切です。",
+      "currentState": "心臓の構造に応じて修復手術を検討します。術後も肺動脈弁や右心室、不整脈を専門外来で長期的に管理します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4741",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 215
+    },
+    {
+      "id": "mhlw-0216",
+      "name": "両大血管右室起始症",
+      "overview": "大動脈と肺動脈が主に右心室から出る先天性心疾患です。心室中隔欠損の位置や肺動脈の狭さによって血液の流れと症状が異なります。",
+      "dailyLife": "呼吸や哺乳、成長・運動に影響する場合があります。手術の経過に合わせて学校生活や活動の配慮を考えます。",
+      "currentState": "心エコーなどで心臓の構造を評価し、修復手術や段階的な治療を病型に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 216
+    },
+    {
+      "id": "mhlw-0217",
+      "name": "エプスタイン病",
+      "overview": "三尖弁の付着位置が通常より右心室の先端側にずれる先天性心疾患です。右心房や右心室の働きに影響し、不整脈やチアノーゼを伴う人もいます。",
+      "dailyLife": "動悸や息切れ、疲れやすさが活動に影響する場合があります。症状がない場合でも不整脈と心機能を確認することが重要です。",
+      "currentState": "心臓の形と不整脈を評価し、薬、カテーテル治療、弁の手術などを状態に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4486",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 217
+    },
+    {
+      "id": "mhlw-0218",
+      "name": "アルポート症候群",
+      "overview": "腎臓で血液をろ過する糸球体の基底膜に関係するコラーゲンの異常による遺伝性疾患です。血尿や腎機能の低下、難聴、眼の変化などが現れることがあります。",
+      "dailyLife": "症状が少なくても尿や腎機能を定期的に調べることが大切です。聴覚や視覚に応じた学校・仕事での支援も役立ちます。",
+      "currentState": "遺伝子・腎臓の検査で評価し、腎臓を守る薬や血圧管理を行います。聴覚・眼科の診察も組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4348",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 218
+    },
+    {
+      "id": "mhlw-0219",
+      "name": "ギャロウェイ・モワト症候群",
+      "overview": "乳幼児期から重い腎臓の障害と、脳や発達の問題を伴うことがある遺伝性疾患群です。腎臓ではネフローゼ症候群が生じる場合があり、原因遺伝子は複数あります。",
+      "dailyLife": "栄養・発達・腎臓の管理が生活の中心になる場合があります。家族が必要な医療と支援を受けられるよう多職種で調整します。",
+      "currentState": "尿たんぱく・腎機能と神経発達を評価し、腎臓の治療や栄養・療育を行います。病型によって腎代替療法が必要になることがあります。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4468",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 219
+    },
+    {
+      "id": "mhlw-0220",
+      "name": "急速進行性糸球体腎炎",
+      "overview": "腎臓の糸球体に炎症が起こり、短い期間に腎機能が低下する病態です。血尿・尿たんぱく、むくみなどがみられ、原因には血管炎や自己抗体などがあります。",
+      "dailyLife": "自覚症状が乏しくても腎機能が急速に変わることがあります。尿量やむくみ、血圧などの変化に注意し、専門的な診察が重要です。",
+      "currentState": "尿・血液・腎生検などで原因を調べ、原因に応じて免疫治療や血漿交換などを検討します。早期治療と腎機能の保護が大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/74",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 220
+    },
+    {
+      "id": "mhlw-0221",
+      "name": "抗糸球体基底膜腎炎",
+      "overview": "糸球体の基底膜に対する自己抗体が腎臓に炎症を起こす病気です。腎機能が急速に悪化する場合があり、肺の出血を伴うこともあります。",
+      "dailyLife": "尿の変化や息切れ、血痰などがあれば速やかな医療相談が必要です。治療中は感染予防や定期検査への配慮が重要です。",
+      "currentState": "血液・尿・腎生検などで診断し、免疫治療や血漿交換を検討します。肺と腎臓の状態を並行して評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：一般向け疾患解説",
+          "url": "https://www.nanbyou.or.jp/entry/4378",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準（2026年4月版）",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_primary_sources_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "designation": 221
+    }
+  ]
+}

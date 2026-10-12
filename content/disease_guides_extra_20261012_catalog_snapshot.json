@@ -1,0 +1,607 @@
+{
+  "date": "2026-10-12",
+  "source": "Supabase public.disease_catalog",
+  "selection": "Official-designation range 146–247 excluding pre-existing articles 162,222",
+  "records": [
+    {
+      "id": "mhlw-0146",
+      "name_ja": "大田原症候群",
+      "designation": 146,
+      "published": true
+    },
+    {
+      "id": "mhlw-0147",
+      "name_ja": "早期ミオクロニー脳症",
+      "designation": 147,
+      "published": true
+    },
+    {
+      "id": "mhlw-0148",
+      "name_ja": "遊走性焦点発作を伴う乳児てんかん",
+      "designation": 148,
+      "published": true
+    },
+    {
+      "id": "mhlw-0149",
+      "name_ja": "片側痙攣・片麻痺・てんかん症候群",
+      "designation": 149,
+      "published": true
+    },
+    {
+      "id": "mhlw-0150",
+      "name_ja": "環状20番染色体症候群",
+      "designation": 150,
+      "published": true
+    },
+    {
+      "id": "mhlw-0151",
+      "name_ja": "ラスムッセン脳炎",
+      "designation": 151,
+      "published": true
+    },
+    {
+      "id": "mhlw-0152",
+      "name_ja": "ＰＣＤＨ19関連症候群",
+      "designation": 152,
+      "published": true
+    },
+    {
+      "id": "mhlw-0153",
+      "name_ja": "難治頻回部分発作重積型急性脳炎",
+      "designation": 153,
+      "published": true
+    },
+    {
+      "id": "mhlw-0154",
+      "name_ja": "睡眠時棘徐波活性化を示す発達性てんかん性脳症及びてんかん性脳症",
+      "designation": 154,
+      "published": true
+    },
+    {
+      "id": "mhlw-0155",
+      "name_ja": "ランドウ・クレフナー症候群",
+      "designation": 155,
+      "published": true
+    },
+    {
+      "id": "mhlw-0156",
+      "name_ja": "レット症候群",
+      "designation": 156,
+      "published": true
+    },
+    {
+      "id": "mhlw-0157",
+      "name_ja": "スタージ・ウェーバー症候群",
+      "designation": 157,
+      "published": true
+    },
+    {
+      "id": "mhlw-0158",
+      "name_ja": "結節性硬化症",
+      "designation": 158,
+      "published": true
+    },
+    {
+      "id": "mhlw-0159",
+      "name_ja": "色素性乾皮症",
+      "designation": 159,
+      "published": true
+    },
+    {
+      "id": "mhlw-0160",
+      "name_ja": "先天性魚鱗癬",
+      "designation": 160,
+      "published": true
+    },
+    {
+      "id": "mhlw-0161",
+      "name_ja": "家族性良性慢性天疱瘡",
+      "designation": 161,
+      "published": true
+    },
+    {
+      "id": "mhlw-0163",
+      "name_ja": "特発性後天性全身性無汗症",
+      "designation": 163,
+      "published": true
+    },
+    {
+      "id": "mhlw-0164",
+      "name_ja": "眼皮膚白皮症",
+      "designation": 164,
+      "published": true
+    },
+    {
+      "id": "mhlw-0165",
+      "name_ja": "肥厚性皮膚骨膜症",
+      "designation": 165,
+      "published": true
+    },
+    {
+      "id": "mhlw-0166",
+      "name_ja": "弾性線維性仮性黄色腫",
+      "designation": 166,
+      "published": true
+    },
+    {
+      "id": "mhlw-0167",
+      "name_ja": "マルファン症候群／ロイス・ディーツ症候群",
+      "designation": 167,
+      "published": true
+    },
+    {
+      "id": "mhlw-0168",
+      "name_ja": "エーラス・ダンロス症候群",
+      "designation": 168,
+      "published": true
+    },
+    {
+      "id": "mhlw-0169",
+      "name_ja": "メンケス病",
+      "designation": 169,
+      "published": true
+    },
+    {
+      "id": "mhlw-0170",
+      "name_ja": "オクシピタル・ホーン症候群",
+      "designation": 170,
+      "published": true
+    },
+    {
+      "id": "wilson-disease",
+      "name_ja": "ウィルソン病",
+      "designation": 171,
+      "published": true
+    },
+    {
+      "id": "mhlw-0172",
+      "name_ja": "低ホスファターゼ症",
+      "designation": 172,
+      "published": true
+    },
+    {
+      "id": "mhlw-0173",
+      "name_ja": "VATER症候群",
+      "designation": 173,
+      "published": true
+    },
+    {
+      "id": "mhlw-0174",
+      "name_ja": "那須・ハコラ病",
+      "designation": 174,
+      "published": true
+    },
+    {
+      "id": "mhlw-0175",
+      "name_ja": "ウィーバー症候群",
+      "designation": 175,
+      "published": true
+    },
+    {
+      "id": "mhlw-0176",
+      "name_ja": "コフィン・ローリー症候群",
+      "designation": 176,
+      "published": true
+    },
+    {
+      "id": "mhlw-0177",
+      "name_ja": "ジュベール症候群関連疾患",
+      "designation": 177,
+      "published": true
+    },
+    {
+      "id": "mhlw-0178",
+      "name_ja": "モワット・ウィルソン症候群",
+      "designation": 178,
+      "published": true
+    },
+    {
+      "id": "mhlw-0179",
+      "name_ja": "ウィリアムズ症候群",
+      "designation": 179,
+      "published": true
+    },
+    {
+      "id": "mhlw-0180",
+      "name_ja": "ＡＴＲ－Ｘ症候群",
+      "designation": 180,
+      "published": true
+    },
+    {
+      "id": "mhlw-0181",
+      "name_ja": "クルーゾン症候群",
+      "designation": 181,
+      "published": true
+    },
+    {
+      "id": "mhlw-0182",
+      "name_ja": "アペール症候群",
+      "designation": 182,
+      "published": true
+    },
+    {
+      "id": "mhlw-0183",
+      "name_ja": "ファイファー症候群",
+      "designation": 183,
+      "published": true
+    },
+    {
+      "id": "mhlw-0184",
+      "name_ja": "アントレー・ビクスラー症候群",
+      "designation": 184,
+      "published": true
+    },
+    {
+      "id": "mhlw-0185",
+      "name_ja": "コフィン・シリス症候群",
+      "designation": 185,
+      "published": true
+    },
+    {
+      "id": "mhlw-0186",
+      "name_ja": "ロスムンド・トムソン症候群",
+      "designation": 186,
+      "published": true
+    },
+    {
+      "id": "mhlw-0187",
+      "name_ja": "歌舞伎症候群",
+      "designation": 187,
+      "published": true
+    },
+    {
+      "id": "mhlw-0188",
+      "name_ja": "多脾症候群",
+      "designation": 188,
+      "published": true
+    },
+    {
+      "id": "mhlw-0189",
+      "name_ja": "無脾症候群",
+      "designation": 189,
+      "published": true
+    },
+    {
+      "id": "mhlw-0190",
+      "name_ja": "鰓耳腎症候群",
+      "designation": 190,
+      "published": true
+    },
+    {
+      "id": "mhlw-0191",
+      "name_ja": "ウェルナー症候群",
+      "designation": 191,
+      "published": true
+    },
+    {
+      "id": "mhlw-0192",
+      "name_ja": "コケイン症候群",
+      "designation": 192,
+      "published": true
+    },
+    {
+      "id": "mhlw-0193",
+      "name_ja": "プラダー・ウィリ症候群",
+      "designation": 193,
+      "published": true
+    },
+    {
+      "id": "mhlw-0194",
+      "name_ja": "ソトス症候群",
+      "designation": 194,
+      "published": true
+    },
+    {
+      "id": "mhlw-0195",
+      "name_ja": "ヌーナン症候群",
+      "designation": 195,
+      "published": true
+    },
+    {
+      "id": "mhlw-0196",
+      "name_ja": "ヤング・シンプソン症候群",
+      "designation": 196,
+      "published": true
+    },
+    {
+      "id": "mhlw-0197",
+      "name_ja": "１p36欠失症候群",
+      "designation": 197,
+      "published": true
+    },
+    {
+      "id": "mhlw-0198",
+      "name_ja": "４p欠失症候群",
+      "designation": 198,
+      "published": true
+    },
+    {
+      "id": "mhlw-0199",
+      "name_ja": "５p欠失症候群",
+      "designation": 199,
+      "published": true
+    },
+    {
+      "id": "mhlw-0200",
+      "name_ja": "第14番染色体父親性ダイソミー症候群",
+      "designation": 200,
+      "published": true
+    },
+    {
+      "id": "mhlw-0201",
+      "name_ja": "アンジェルマン症候群",
+      "designation": 201,
+      "published": true
+    },
+    {
+      "id": "mhlw-0202",
+      "name_ja": "スミス・マギニス症候群",
+      "designation": 202,
+      "published": true
+    },
+    {
+      "id": "mhlw-0203",
+      "name_ja": "22q11.2欠失症候群",
+      "designation": 203,
+      "published": true
+    },
+    {
+      "id": "mhlw-0204",
+      "name_ja": "エマヌエル症候群",
+      "designation": 204,
+      "published": true
+    },
+    {
+      "id": "mhlw-0205",
+      "name_ja": "脆弱Ｘ症候群関連疾患",
+      "designation": 205,
+      "published": true
+    },
+    {
+      "id": "mhlw-0206",
+      "name_ja": "脆弱X症候群",
+      "designation": 206,
+      "published": true
+    },
+    {
+      "id": "mhlw-0207",
+      "name_ja": "総動脈幹遺残症",
+      "designation": 207,
+      "published": true
+    },
+    {
+      "id": "mhlw-0208",
+      "name_ja": "修正大血管転位症",
+      "designation": 208,
+      "published": true
+    },
+    {
+      "id": "mhlw-0209",
+      "name_ja": "完全大血管転位症",
+      "designation": 209,
+      "published": true
+    },
+    {
+      "id": "mhlw-0210",
+      "name_ja": "単心室症",
+      "designation": 210,
+      "published": true
+    },
+    {
+      "id": "mhlw-0211",
+      "name_ja": "左心低形成症候群",
+      "designation": 211,
+      "published": true
+    },
+    {
+      "id": "mhlw-0212",
+      "name_ja": "三尖弁閉鎖症",
+      "designation": 212,
+      "published": true
+    },
+    {
+      "id": "mhlw-0213",
+      "name_ja": "心室中隔欠損を伴わない肺動脈閉鎖症",
+      "designation": 213,
+      "published": true
+    },
+    {
+      "id": "mhlw-0214",
+      "name_ja": "心室中隔欠損を伴う肺動脈閉鎖症",
+      "designation": 214,
+      "published": true
+    },
+    {
+      "id": "mhlw-0215",
+      "name_ja": "ファロー四徴症",
+      "designation": 215,
+      "published": true
+    },
+    {
+      "id": "mhlw-0216",
+      "name_ja": "両大血管右室起始症",
+      "designation": 216,
+      "published": true
+    },
+    {
+      "id": "mhlw-0217",
+      "name_ja": "エプスタイン病",
+      "designation": 217,
+      "published": true
+    },
+    {
+      "id": "mhlw-0218",
+      "name_ja": "アルポート症候群",
+      "designation": 218,
+      "published": true
+    },
+    {
+      "id": "mhlw-0219",
+      "name_ja": "ギャロウェイ・モワト症候群",
+      "designation": 219,
+      "published": true
+    },
+    {
+      "id": "mhlw-0220",
+      "name_ja": "急速進行性糸球体腎炎",
+      "designation": 220,
+      "published": true
+    },
+    {
+      "id": "mhlw-0221",
+      "name_ja": "抗糸球体基底膜腎炎",
+      "designation": 221,
+      "published": true
+    },
+    {
+      "id": "mhlw-0223",
+      "name_ja": "一次性膜性増殖性糸球体腎炎",
+      "designation": 223,
+      "published": true
+    },
+    {
+      "id": "mhlw-0224",
+      "name_ja": "紫斑病性腎炎",
+      "designation": 224,
+      "published": true
+    },
+    {
+      "id": "mhlw-0225",
+      "name_ja": "先天性腎性尿崩症",
+      "designation": 225,
+      "published": true
+    },
+    {
+      "id": "mhlw-0226",
+      "name_ja": "間質性膀胱炎（ハンナ型）",
+      "designation": 226,
+      "published": true
+    },
+    {
+      "id": "mhlw-0227",
+      "name_ja": "オスラー病",
+      "designation": 227,
+      "published": true
+    },
+    {
+      "id": "mhlw-0228",
+      "name_ja": "閉塞性細気管支炎",
+      "designation": 228,
+      "published": true
+    },
+    {
+      "id": "mhlw-0229",
+      "name_ja": "肺胞蛋白症（自己免疫性又は先天性）",
+      "designation": 229,
+      "published": true
+    },
+    {
+      "id": "mhlw-0230",
+      "name_ja": "肺胞低換気症候群",
+      "designation": 230,
+      "published": true
+    },
+    {
+      "id": "mhlw-0231",
+      "name_ja": "α1－アンチトリプシン欠乏症",
+      "designation": 231,
+      "published": true
+    },
+    {
+      "id": "mhlw-0232",
+      "name_ja": "カーニー複合",
+      "designation": 232,
+      "published": true
+    },
+    {
+      "id": "mhlw-0233",
+      "name_ja": "ウォルフラム症候群",
+      "designation": 233,
+      "published": true
+    },
+    {
+      "id": "mhlw-0234",
+      "name_ja": "ペルオキシソーム病（副腎白質ジストロフィーを除く。）",
+      "designation": 234,
+      "published": true
+    },
+    {
+      "id": "mhlw-0235",
+      "name_ja": "副甲状腺機能低下症",
+      "designation": 235,
+      "published": true
+    },
+    {
+      "id": "mhlw-0236",
+      "name_ja": "偽性副甲状腺機能低下症",
+      "designation": 236,
+      "published": true
+    },
+    {
+      "id": "mhlw-0237",
+      "name_ja": "副腎皮質刺激ホルモン不応症",
+      "designation": 237,
+      "published": true
+    },
+    {
+      "id": "mhlw-0238",
+      "name_ja": "ビタミンＤ抵抗性くる病/骨軟化症",
+      "designation": 238,
+      "published": true
+    },
+    {
+      "id": "mhlw-0239",
+      "name_ja": "ビタミンＤ依存性くる病/骨軟化症",
+      "designation": 239,
+      "published": true
+    },
+    {
+      "id": "mhlw-0240",
+      "name_ja": "フェニルケトン尿症",
+      "designation": 240,
+      "published": true
+    },
+    {
+      "id": "mhlw-0241",
+      "name_ja": "高チロシン血症1型",
+      "designation": 241,
+      "published": true
+    },
+    {
+      "id": "mhlw-0242",
+      "name_ja": "高チロシン血症2型",
+      "designation": 242,
+      "published": true
+    },
+    {
+      "id": "mhlw-0243",
+      "name_ja": "高チロシン血症3型",
+      "designation": 243,
+      "published": true
+    },
+    {
+      "id": "mhlw-0244",
+      "name_ja": "メープルシロップ尿症",
+      "designation": 244,
+      "published": true
+    },
+    {
+      "id": "mhlw-0245",
+      "name_ja": "プロピオン酸血症",
+      "designation": 245,
+      "published": true
+    },
+    {
+      "id": "mhlw-0246",
+      "name_ja": "メチルマロン酸血症",
+      "designation": 246,
+      "published": true
+    },
+    {
+      "id": "mhlw-0247",
+      "name_ja": "イソ吉草酸血症",
+      "designation": 247,
+      "published": true
+    }
+  ]
+}
