@@ -8,7 +8,7 @@
   <meta name="description" content="一つの想いから星が生まれる。あなたの関心がみんなの星図を育てる参加型展示。">
   <title>見えない病気の星図 | みんなでつくる星図</title>
   <link rel="stylesheet" href="./admin/app.css?v=3">
-  <link rel="stylesheet" href="./main-3d.css?v=1">
+  <link rel="stylesheet" href="./main-3d.css?v=2">
   <link rel="stylesheet" href="./disease-guides-ui.css?v=1">
   <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.3"></script>
   <script defer src="./config.js"></script>
@@ -19,10 +19,6 @@
   <script type="module" src="./lab/scene.js?v=9"></script>
 </head>
 <body class="main-3d-home" data-star-scene="taxonomy">
-  <header class="header">
-    <a href="./" class="brand"><span class="brand-star">✦</span> 見えない病気の星図</a>
-    <a class="weekly-link" href="./weekly/">これまでの星図 ↗</a>
-  </header>
   <main>
     <section class="hero" id="home">
       <h1>知ることから、<br><em>つながる星図。</em></h1>
@@ -63,7 +59,6 @@
         <div id="info-comments" class="comments"></div>
         <a class="join-link" id="join-selected-star" href="#participation">この星に想いを届ける →</a>
       </section>
-      <p class="map-disclaimer">星の位置は疾患の分類をもとにした試験的な配置です。医学的な近さや重症度を示すものではありません。</p>
     </section>
 
     <section class="participation" id="participation">
@@ -71,16 +66,17 @@
       <p>知ってほしいことも、初めて知ることも。</p>
       <div class="participation-status" id="participation-status" role="status" aria-live="polite">参加状況を確認しています…</div>
       <button type="button" id="open-form" class="cta" disabled>星をひとつ灯す <span aria-hidden="true">✦</span></button>
-      <p class="note">1ブラウザにつき1日1回。翌日また参加できます。</p>
+      <p class="note">1日1回。翌日また参加できます。</p>
     </section>
 
     <section class="about">
       <h2>誰かの想いが、次の誰かへ。</h2>
       <p>病気の経験を話す必要はありません。小さな関心を、星に残す展示です。</p>
+      <a class="archive-cta" href="./weekly/">これまでの星図へ <span aria-hidden="true">→</span></a>
     </section>
   </main>
   <footer>みんなでつくる「見えない病気の星図」<br><small>知ることから、つながりへ。</small><br>
-  <small class="privacy-link"><a href="./privacy/">プライバシーポリシー</a></small><br>
+  <nav class="footer-links" aria-label="サイト情報"><a href="./privacy/">プライバシーポリシー</a><a href="./contact/">お問い合わせ</a></nav>
   <small class="source-credit">疾患名は <a href="https://www.mhlw.go.jp/stf/newpage_53881.html" target="_blank" rel="noopener noreferrer">厚生労働省「指定難病一覧」</a> を参照しています。
   一覧データ整理：<a href="https://github.com/136s/intractable-disease" target="_blank" rel="noopener noreferrer">136s</a>（CC BY 4.0）。
   小児慢性関連の疾患分類：<a href="https://github.com/NanbyoData/nando" target="_blank" rel="noopener noreferrer">NANDO／DBCLS</a>（CC BY 4.0）。
