@@ -20,6 +20,7 @@ jobs:
           node --check weekly/cumulative.js
           node --check weekly/weekly-scene.js
           node --check scripts/validate_daily_archive.cjs
+          node --check scripts/validate_share_priority.cjs
           node --check admin/app.js
           node --check scripts/security_static_checks.cjs
           node --check scripts/public_browser_smoke.cjs
@@ -353,6 +354,7 @@ jobs:
           node scripts/validate_disease_guides_orpha_next100_20261012.cjs
           node scripts/validate_dynamic_disease_guides.cjs
           node scripts/validate_daily_archive.cjs
+          node scripts/validate_share_priority.cjs
 
       - name: Python Japanese article character audit
         run: |
