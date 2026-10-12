@@ -48,7 +48,7 @@ for(const [i,article] of additional.entries()){
 }
 const loader=fs.readFileSync(path.join(root,'content/disease-guides.js'),'utf8');
 for(let i=1;i<=4;i++)assert(loader.includes(`disease_guides_orpha_0${i}.json`));
-assert(loader.includes('map.size!==453'));
+assert(loader.includes('map.size!==553'));
 for(const p of ['index.html','disease/index.html']){
  assert(fs.readFileSync(path.join(root,p),'utf8').includes('disease-guides.js?v=5'));
 }
