@@ -65,6 +65,24 @@ async function main(){
   assert((await page.locator('#disease-sources a').count())>=2);
   console.log('PASS ARTICLE: sourced disease guide visible');
 
+  // Verify new 2026-10-12 article records load in the actual deployed browser,
+  // not just in local JSON validation. No database mutations are performed.
+  for(const {id,name} of [
+   {id:'mhlw-0146',name:'大田原症候群'},
+   {id:'mhlw-0247',name:'イソ吉草酸血症'}
+  ]){
+   response=await page.goto(new URL('disease/?id='+encodeURIComponent(id),base).toString(),
+    {waitUntil:'domcontentloaded',timeout:30000});
+   assert(response&&response.ok(),'New disease article HTTP failed: '+id);
+   await page.locator('#disease-content:not([hidden])').waitFor({timeout:18000});
+   assert.equal((await page.locator('#disease-title').textContent()).trim(),name);
+   assert((await page.locator('#disease-overview').textContent()).length>35);
+   assert((await page.locator('#disease-living').textContent()).length>35);
+   assert((await page.locator('#disease-treatment').textContent()).length>35);
+   assert((await page.locator('#disease-sources a').count())>=2);
+  }
+  console.log('PASS NEW 100: first and last of 253 disease guides load fully in production');
+
   // Visual study uses the exact public 1241-star geometry and current
   // illumination; it never writes submissions or uses the clinical RPC.
   response=await page.goto(new URL('glow-preview/',base).toString(),
