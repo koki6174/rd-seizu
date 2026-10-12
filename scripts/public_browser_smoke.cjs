@@ -54,8 +54,22 @@ async function main(){
   await page.locator('#to-comment').click();
   assert.equal((await page.locator('#selected-disease-name').textContent()).trim(),
    chosen.trim(),'Next did not preserve the selected disease');
+  assert.equal(await page.locator('#preset-contextual').getAttribute('data-preset'),
+   '知るきっかけになりました','Discovery needs a discovery-appropriate fourth preset');
+  await page.locator('#back-to-disease').click();
+  await page.locator('#back-to-choice').click();
+  await page.locator('#path-share').click();
+  await page.locator('#disease-search').fill('CACT');
+  await page.locator('#disease-results button').first().click();
+  await page.locator('#to-comment').click();
+  assert.equal(await page.locator('#preset-contextual').getAttribute('data-preset'),
+   'この病気への理解や配慮が広がってほしい',
+   'Share should use understanding/accommodation, not a discovery statement');
+  await page.locator('#preset-contextual').click();
+  assert.equal(await page.locator('#thought-text').inputValue(),
+   'この病気への理解や配慮が広がってほしい');
   await page.locator('#exit-flow').click();
-  console.log('PASS BACK: discovered disease and enabled Next persist across article navigation');
+  console.log('PASS BACK/PRESETS: discovery return and both appropriate share/discovery paths');
 
   response=await page.goto(new URL('disease/?id=fabry-disease',base).toString(),
    {waitUntil:'domcontentloaded',timeout:30000});
