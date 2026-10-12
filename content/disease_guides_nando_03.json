@@ -1,0 +1,605 @@
+{
+  "part": 3,
+  "records": [
+    {
+      "id": "nando-296-4",
+      "name": "Ⅲ型胆道閉鎖症",
+      "name_en": "type III biliary atresia",
+      "overview": "III型胆道閉鎖症は、胆道閉鎖症の中でも肝門部近くまで胆管が閉塞する型です。乳児期に黄疸や便の色の異常などがみられ、肝臓の働きに影響します。",
+      "dailyLife": "乳児期から授乳・栄養や体重増加、発熱などへの注意が必要になります。家庭と医療機関が協力して経過を確認することが重要です。",
+      "currentState": "胆道の状態を評価して葛西手術などを検討し、胆汁の流れと肝機能を追います。状況によっては肝移植が必要になることもあります。",
+      "parentDiseaseId": "mhlw-0296",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-300-2",
+      "name": "自己免疫性膵炎",
+      "name_en": "Autoimmune pancreatitis",
+      "overview": "自己免疫性膵炎は、膵臓に免疫に関係した炎症や腫れが生じる病気です。IgG4関連疾患の一部としてみられる型と、それとは異なる型があります。",
+      "dailyLife": "腹部の不快感や黄疸、血糖の変化などが生活に影響する場合があります。治療後も再燃やほかの臓器の症状を確認することが大切です。",
+      "currentState": "画像や血液検査などで膵臓のがんなどと慎重に鑑別し、病型に応じてステロイドなどを検討します。自己判断で薬を始めないことが重要です。",
+      "parentDiseaseId": "mhlw-0300",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4504",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-316-1",
+      "name": "CPT1欠損症",
+      "name_en": "Carnitine Palmitoyltransferase I deficiency",
+      "overview": "CPT1欠損症は、長鎖脂肪酸を細胞のミトコンドリアに運ぶ過程に必要な酵素の働きが低下する遺伝性代謝疾患です。空腹時の低血糖などが起こる場合があります。",
+      "dailyLife": "食事が取れないときや長時間の空腹が体調に影響することがあります。年齢や病状に合った食事と緊急時の対応を専門医と共有します。",
+      "currentState": "新生児検査や血液の代謝検査、遺伝子検査などで評価し、栄養管理と急性の代謝異常への対応を行います。",
+      "parentDiseaseId": "mhlw-0316",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-325-2",
+      "name": "ADA２欠損症",
+      "name_en": "Adenosine deaminase 2 deficiency",
+      "overview": "ADA2欠損症は、アデノシンデアミナーゼ2の働きに関係する遺伝性疾患で、血管炎、脳卒中、免疫や血液の異常などが起こることがあります。症状には大きな幅があります。",
+      "dailyLife": "発熱、皮膚の変化、神経症状などが生活に影響する場合があります。感染や血管の症状に注意し、専門診療科と連携することが大切です。",
+      "currentState": "遺伝子や酵素活性を評価し、炎症を抑える薬などを病状に応じて検討します。重い血液・免疫障害では別の治療が必要な場合もあります。",
+      "parentDiseaseId": "mhlw-0325",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-82-2",
+      "name": "SF-1異常症",
+      "name_en": "SF-1 abnormality",
+      "overview": "SF-1異常症は、副腎や生殖腺の発達・働きに関わる転写因子SF-1に関係した遺伝的な病態です。ホルモンの分泌や性分化への影響は人によって異なります。",
+      "dailyLife": "成長やホルモン、生殖に関する相談が必要になる場合があります。本人のプライバシーと意思を尊重した長期的な支援が大切です。",
+      "currentState": "副腎・性腺のホルモンを評価し、不足する機能に応じて治療します。遺伝的な原因と個々の発達を確認します。",
+      "parentDiseaseId": "mhlw-0082",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-82-4",
+      "name": "ACTH不応症",
+      "name_en": "ACTH unresponsiveness",
+      "overview": "ACTH不応症は、脳からのACTH刺激を副腎が十分に受け取れず、コルチゾールなどのホルモンが不足する病態です。原因となる遺伝子は複数あります。",
+      "dailyLife": "毎日の薬や、発熱・けがなどの際の追加対応が必要になることがあります。家族や学校で緊急時の計画を共有することが役立ちます。",
+      "currentState": "副腎ホルモンの検査などで病態を評価し、必要なホルモン補充を行います。体調不良時の対応を専門医と確認します。",
+      "parentDiseaseId": "mhlw-0082",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-82-4-1",
+      "name": "MC2R異常症",
+      "name_en": "MC2R deficiency",
+      "overview": "MC2R異常症は、副腎がACTHを受け取る受容体MC2Rの異常によってコルチゾールが十分につくられない遺伝性の病気です。低血糖などが起こる場合があります。",
+      "dailyLife": "小児期から服薬や体調不良時の備えが必要になる人がいます。発熱や食事摂取の低下について医療者と対応を決めておくことが大切です。",
+      "currentState": "ホルモン検査と遺伝子検査などで原因を調べ、不足するホルモンの補充や緊急時の管理を行います。",
+      "parentDiseaseId": "mhlw-0082",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-85-1",
+      "name": "特発性肺線維症",
+      "name_en": "Idiopathic pulmonary fibrosis",
+      "overview": "特発性肺線維症は、原因が特定できないまま肺の間質に線維化が進み、肺が硬くなって呼吸しにくくなる病気です。空せきや運動時の息切れが現れます。",
+      "dailyLife": "階段や坂道で息切れし、以前と同じ活動が負担になる場合があります。酸素の状態や感染予防に注意し、生活のペースを調整します。",
+      "currentState": "画像や肺機能検査などで病型を確認し、抗線維化薬や呼吸リハビリ、必要に応じた酸素療法などを検討します。",
+      "parentDiseaseId": "mhlw-0085",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/156",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-98-2",
+      "name": "好酸球性食道炎",
+      "name_en": "Eosinophilic esophagitis",
+      "overview": "好酸球性食道炎は、食道に好酸球が関係する慢性の炎症が起こり、飲み込みにくさや食べ物が詰まる症状などがみられる病気です。",
+      "dailyLife": "食事に時間がかかったり、食べ物の種類を工夫したりする必要がある場合があります。自己判断による過度な除去食は栄養不足につながるため注意が必要です。",
+      "currentState": "内視鏡と組織検査で評価し、酸分泌を抑える薬や局所的なステロイド、食事療法などを病状に応じて検討します。",
+      "parentDiseaseId": "mhlw-0098",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-106-1",
+      "name": "家族性寒冷蕁麻疹",
+      "name_en": "Familial cold autoinflammatorysyndrome",
+      "overview": "家族性寒冷蕁麻疹は、寒さをきっかけに発熱や皮疹、関節の痛みなどの炎症が現れる遺伝性の自己炎症性疾患です。一般的なアレルギー性蕁麻疹とは仕組みが異なります。",
+      "dailyLife": "寒冷環境で体調が変わるため、外出や通学・仕事で温度への配慮が必要になる場合があります。症状の記録と周囲の理解が役立ちます。",
+      "currentState": "病歴や遺伝的な原因などから診断し、炎症の仕組みに働きかける治療を検討します。聴力や腎臓などの合併症も確認します。",
+      "parentDiseaseId": "mhlw-0106",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-106-3",
+      "name": "CINCA症候群",
+      "name_en": "Chronic infantile neurological cutaneous articular syndrome",
+      "overview": "CINCA症候群は、幼少期から炎症が続き、皮疹、関節や骨の異常、中枢神経の症状などが現れる自己炎症性疾患です。クリオピリン関連周期熱症候群の重い病型に含まれます。",
+      "dailyLife": "発熱や痛み、視覚・聴覚、発達などに支援が必要になる場合があります。学校や日常生活で無理のない環境を整えることが重要です。",
+      "currentState": "IL-1の働きを抑える薬などが用いられます。眼、耳、神経、骨の状態を継続して確認し、合併症の予防を図ります。",
+      "parentDiseaseId": "mhlw-0106",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-111-5",
+      "name": "中心核ミオパチー",
+      "name_en": "Centronuclear myopathy",
+      "overview": "中心核ミオパチーは、筋肉の細胞核が通常とは異なる位置に見られる先天性ミオパチーの一群です。DNM2など複数の遺伝子の異常に関連します。",
+      "dailyLife": "筋力低下や疲れやすさ、呼吸や飲み込みの問題が生活に影響することがあります。補助具や呼吸機能への配慮が必要な人もいます。",
+      "currentState": "筋肉の検査と遺伝子検査などで病型を見分け、呼吸・運動・栄養を支える治療やリハビリを行います。",
+      "parentDiseaseId": "mhlw-0111",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-114-1",
+      "name": "先天性ミオトニー",
+      "name_en": "Myotonia congenita",
+      "overview": "先天性ミオトニーは、筋肉が収縮したあとに緩みにくくなる遺伝性疾患です。CLCN1遺伝子に関係する型があり、動き始めに筋肉のこわばりが現れることがあります。",
+      "dailyLife": "手を握ったあとに離しにくい、歩き始めがぎこちないなどの日常動作への影響があります。寒さや運動の状態によって症状が変わる場合があります。",
+      "currentState": "筋電図や遺伝子検査などで評価し、生活上の工夫や必要な薬を検討します。ほかのミオトニー疾患との鑑別が重要です。",
+      "parentDiseaseId": "mhlw-0114",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-117-1",
+      "name": "症候性脊髄空洞症",
+      "name_en": "symptomatic Syringomyelia",
+      "overview": "症候性脊髄空洞症は、脊髄の内部にできた液体を含む空洞によって、痛みや感覚の異常、筋力低下などが現れている状態です。原因となる病気は複数あります。",
+      "dailyLife": "温度や痛みを感じにくい部分では、やけどやけがに気付きにくい場合があります。手足の動かしにくさに合わせた生活環境の調整も役立ちます。",
+      "currentState": "MRIなどで空洞と原因を調べ、症状や進行に応じて脳脊髄液の流れを改善する手術などを検討します。",
+      "parentDiseaseId": "mhlw-0117",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-120-23",
+      "name": "神経フェリチン症",
+      "name_en": "NBIA３",
+      "overview": "神経フェリチン症は、鉄の貯蔵に関わる遺伝子の変化によって脳に鉄がたまり、動作の異常などが現れる遺伝性の神経疾患です。",
+      "dailyLife": "筋肉の勝手な動きや姿勢の変化が歩行、発話、手作業などに影響することがあります。本人に合う移動やコミュニケーションの支援が役立ちます。",
+      "currentState": "神経診察、MRI、遺伝子検査などで評価し、運動症状を和らげる治療やリハビリを行います。",
+      "parentDiseaseId": "mhlw-0120",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-139-4",
+      "name": "18q欠失症候群",
+      "name_en": "18q-syndrome",
+      "overview": "18q欠失症候群は、18番染色体の長腕の一部が欠けることによって発達や体のさまざまな機能に影響する先天性の病気です。症状は欠失した範囲で異なります。",
+      "dailyLife": "運動や言葉、聴覚、成長などに支援が必要になる人がいます。本人の発達のペースを大切にし、学校や家庭で環境を整えます。",
+      "currentState": "染色体検査などで変化の範囲を確認し、合併症を調べて必要な治療と発達支援を行います。",
+      "parentDiseaseId": "mhlw-0139",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-162-3",
+      "name": "後天性表皮水疱症",
+      "name_en": "Epidermolysis bullosa acquisita",
+      "overview": "後天性表皮水疱症は、自分の皮膚を支えるたんぱく質に対する自己抗体が関わり、水ぶくれや傷ができやすくなる病気です。遺伝性の表皮水疱症とは異なります。",
+      "dailyLife": "手足や皮膚の傷が着替え・入浴などに影響することがあります。皮膚を傷つけないケアと感染への注意が大切です。",
+      "currentState": "皮膚組織や自己抗体の検査などで評価し、病状に応じて免疫を抑える薬と創傷のケアを検討します。",
+      "parentDiseaseId": "mhlw-0162",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4525",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-18-1-1",
+      "name": "皮質性小脳萎縮症",
+      "name_en": "cortical cerebellar atrophy",
+      "overview": "皮質性小脳萎縮症は、小脳の皮質に萎縮が起こり、バランスや運動を調整する働きが低下する病気です。ふらつきや手足の動きのぎこちなさが現れます。",
+      "dailyLife": "転倒しやすさや細かな手作業の難しさが生活に影響します。手すりや歩行補助具、運動・言語の支援が役立つ場合があります。",
+      "currentState": "画像検査や神経診察でほかの病気との違いを確認し、運動機能を保つリハビリや症状への対応を行います。",
+      "parentDiseaseId": "mhlw-0018",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4881",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-229-2",
+      "name": "特発性肺胞蛋白症",
+      "name_en": "Idiopathic pulmonary alveolar proteinosis",
+      "overview": "特発性肺胞蛋白症は、肺胞の中にサーファクタント由来の物質が異常にたまり、酸素を取り込みにくくなる病気です。原因が明確でない病型として分類されています。",
+      "dailyLife": "咳や息切れ、疲れやすさが外出や仕事に影響することがあります。呼吸機能を定期的に確認し、感染の兆候にも注意します。",
+      "currentState": "肺の画像や気管支鏡などで評価し、病態に応じて肺洗浄などを検討します。自己免疫性や続発性の病型との鑑別が重要です。",
+      "parentDiseaseId": "mhlw-0229",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-229-3",
+      "name": "続発性肺胞蛋白症",
+      "name_en": "Secondary Pulmonary Alveolar Proteinosis",
+      "overview": "続発性肺胞蛋白症は、血液疾患や感染症など別の病気の影響で肺胞内に物質がたまり、呼吸の働きが障害される病型です。",
+      "dailyLife": "息切れやせきに加え、原因となる病気への対応が必要になる場合があります。呼吸と全身の状態をあわせて確認することが大切です。",
+      "currentState": "肺胞蛋白症の診断に加え、原因疾患の治療を検討します。呼吸症状の重さによって肺洗浄などが考慮されることがあります。",
+      "parentDiseaseId": "mhlw-0229",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-229-4",
+      "name": "先天性肺胞蛋白症",
+      "name_en": "Congenital pulmonary alveolar proteinosis",
+      "overview": "先天性肺胞蛋白症は、肺のサーファクタントをつくる・処理する仕組みなどに生まれつき異常がある病型です。乳児期から呼吸の問題が現れることがあります。",
+      "dailyLife": "呼吸や栄養の支援、家族と医療機関の連携が必要になる場合があります。症状の程度は原因となる遺伝子によって異なります。",
+      "currentState": "遺伝子検査や肺の評価を通じて病型を調べ、呼吸を支える治療などを行います。原因によって治療方針が異なります。",
+      "parentDiseaseId": "mhlw-0229",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-23-2",
+      "name": "遺伝性プリオン病",
+      "name_en": "Genetic Prion Diseases",
+      "overview": "遺伝性プリオン病はPRNP遺伝子の病的変化に関連し、脳の神経細胞が障害される病気の一群です。認知や運動の症状と経過は病型によって異なります。",
+      "dailyLife": "歩行、意思疎通、食事などへの支援が必要になることがあります。遺伝について本人や家族が専門家に相談できる環境も重要です。",
+      "currentState": "神経診察や遺伝学的検査、画像検査などで診断を検討し、症状の緩和と生活を支えるケアを行います。",
+      "parentDiseaseId": "mhlw-0023",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-230-1",
+      "name": "肥満低換気症候群",
+      "name_en": "obesity hypoventilation syndrome",
+      "overview": "肥満低換気症候群は、肥満に関連して呼吸が十分に行われず、血液中の二酸化炭素が増える病気です。睡眠中だけでなく起きている間にも低換気がみられます。",
+      "dailyLife": "眠気、疲れやすさ、息切れなどが仕事や日常活動に影響することがあります。睡眠や呼吸の状態を確認することが大切です。",
+      "currentState": "呼吸の検査を行い、陽圧換気療法や体重管理などを組み合わせます。睡眠時無呼吸などほかの呼吸障害も評価します。",
+      "parentDiseaseId": "mhlw-0230",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/172",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-325-1",
+      "name": "NLRC４異常症",
+      "name_en": "NLRC4 inflammasomopathies",
+      "overview": "NLRC4異常症は炎症の仕組みに関わるNLRC4遺伝子の変化に関連し、発熱や腸の炎症などが起こる自己炎症性疾患です。重い全身炎症を伴う型もあります。",
+      "dailyLife": "発熱や腹痛、下痢などが繰り返されると通学・仕事に影響します。症状の変化を記録し、急な全身状態の悪化に備えることが大切です。",
+      "currentState": "炎症の程度と原因を評価し、病態に応じて炎症を抑える薬などを検討します。血液や臓器の状態の確認も重要です。",
+      "parentDiseaseId": "mhlw-0325",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-330-1",
+      "name": "先天性気管狭窄症",
+      "name_en": "Congenital tracheal stenosis",
+      "overview": "先天性気管狭窄症は生まれつき気管が狭く、空気の通り道が十分に確保できない病気です。呼吸時の音や息苦しさ、感染時の呼吸状態の悪化などがみられます。",
+      "dailyLife": "乳児や小児では食事や睡眠、体を動かすときに呼吸への支援が必要になる場合があります。風邪などで症状が変わるときの相談体制が大切です。",
+      "currentState": "画像や内視鏡などで狭い部位と範囲を評価し、必要に応じて気道を広げる手術や呼吸管理を行います。",
+      "parentDiseaseId": "mhlw-0330",
+      "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
+      "references": [
+        {
+          "title": "難病情報センター：親疾患・疾患群の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "scope": "parent_disease"
+        },
+        {
+          "title": "NANDO：国内難病オントロジー・病型の分類",
+          "url": "https://github.com/NanbyoData/nando",
+          "scope": "taxonomy"
+        }
+      ],
+      "reviewStatus": "editorial_draft_subtype_specific_review_pending",
+      "reviewedAt": "2026-10-12"
+    }
+  ]
+}
