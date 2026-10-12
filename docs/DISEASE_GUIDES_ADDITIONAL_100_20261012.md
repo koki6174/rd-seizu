@@ -17,7 +17,7 @@
 - [難病情報センター：病気の解説（一般利用者向け）](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral)
 - [厚生労働省：令和8年4月時点の指定難病の概要・診断基準](https://www.mhlw.go.jp/stf/newpage_53881.html)
 
-75件は難病情報センターの実在する**対応する疾患の個別解説URLを確認**。残り25件は総合索引を参照し、個別URLを推測して作らない。疾患によって解説の根拠の粒度が異なり、75件の直接リンクがあることは**100件すべての文言を医学的に逐語検証した証拠ではない**。全原稿は公的情報を参照した一般向け編集草稿であり、医学専門職による独立の査読を経たという表示はしない。
+80件は難病情報センターの実在する**対応する疾患の個別解説URLを確認**。残り20件は総合索引を参照し、個別URLを推測して作らない。疾患によって解説の根拠の粒度が異なり、80件の直接リンクがあることは**100件すべての文言を医学的に逐語検証した証拠ではない**。全原稿は公的情報を参照した一般向け編集草稿であり、医学専門職による独立の査読を経たという表示はしない。
 
 原稿は、病型の異なる疾患（例：マルファン症候群／ロイス・ディーツ症候群、エーラス・ダンロス症候群、肺胞蛋白症、てんかん症候群）を一律の症状・治療として扱わず、生存率、平均余命、具体的な薬の用量、個別診療判断を記載しない方針で作成。
 
@@ -56,11 +56,11 @@
 | 171 | 眼皮膚白皮症 | 164 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0164) | [疾患別原典](https://www.nanbyou.or.jp/entry/4492) |
 | 172 | 肥厚性皮膚骨膜症 | 165 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0165) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
 | 173 | 弾性線維性仮性黄色腫 | 166 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0166) | [疾患別原典](https://www.nanbyou.or.jp/entry/4579) |
-| 174 | マルファン症候群／ロイス・ディーツ症候群 | 167 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0167) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
-| 175 | エーラス・ダンロス症候群 | 168 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0168) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
+| 174 | マルファン症候群／ロイス・ディーツ症候群 | 167 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0167) | [疾患別原典](https://www.nanbyou.or.jp/entry/4792) |
+| 175 | エーラス・ダンロス症候群 | 168 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0168) | [疾患別原典](https://www.nanbyou.or.jp/entry/4801) |
 | 176 | メンケス病 | 169 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0169) | [疾患別原典](https://www.nanbyou.or.jp/entry/4729) |
 | 177 | オクシピタル・ホーン症候群 | 170 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0170) | [疾患別原典](https://www.nanbyou.or.jp/entry/4555) |
-| 178 | ウィルソン病 | 171 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=wilson-disease) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
+| 178 | ウィルソン病 | 171 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=wilson-disease) | [疾患別原典](https://www.nanbyou.or.jp/entry/4543) |
 | 179 | 低ホスファターゼ症 | 172 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0172) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
 | 180 | VATER症候群 | 173 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0173) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
 | 181 | 那須・ハコラ病 | 174 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0174) | [疾患別原典](https://www.nanbyou.or.jp/entry/4256) |
@@ -82,7 +82,7 @@
 | 197 | 鰓耳腎症候群 | 190 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0190) | [疾患別原典](https://www.nanbyou.or.jp/entry/4387) |
 | 198 | ウェルナー症候群 | 191 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0191) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
 | 199 | コケイン症候群 | 192 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0192) | [疾患別原典](https://www.nanbyou.or.jp/entry/4435) |
-| 200 | プラダー・ウィリ症候群 | 193 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0193) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
+| 200 | プラダー・ウィリ症候群 | 193 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0193) | [疾患別原典](https://www.nanbyou.or.jp/entry/4768) |
 | 201 | ソトス症候群 | 194 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0194) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
 | 202 | ヌーナン症候群 | 195 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0195) | [疾患別原典](https://www.nanbyou.or.jp/entry/4865) |
 | 203 | ヤング・シンプソン症候群 | 196 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0196) | [疾患別原典](https://www.nanbyou.or.jp/entry/4759) |
@@ -92,7 +92,7 @@
 | 207 | 第14番染色体父親性ダイソミー症候群 | 200 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0200) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
 | 208 | アンジェルマン症候群 | 201 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0201) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
 | 209 | スミス・マギニス症候群 | 202 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0202) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
-| 210 | 22q11.2欠失症候群 | 203 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0203) | [公式索引](https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral) |
+| 210 | 22q11.2欠失症候群 | 203 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0203) | [疾患別原典](https://www.nanbyou.or.jp/entry/5317) |
 | 211 | エマヌエル症候群 | 204 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0204) | [疾患別原典](https://www.nanbyou.or.jp/entry/4609) |
 | 212 | 脆弱Ｘ症候群関連疾患 | 205 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0205) | [疾患別原典](https://www.nanbyou.or.jp/entry/4615) |
 | 213 | 脆弱X症候群 | 206 | [記事](https://koki6174.github.io/rd-seizu/disease/?id=mhlw-0206) | [疾患別原典](https://www.nanbyou.or.jp/entry/4612) |
