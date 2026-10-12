@@ -1,0 +1,530 @@
+{
+  "part": 1,
+  "records": [
+    {
+      "id": "nando-21-2",
+      "name": "リー脳症",
+      "overview": "ミトコンドリアなどのエネルギー産生に関わる異常により、脳幹や大脳基底核を中心に神経症状が起こる疾患群です。乳幼児期の発達退行、筋緊張低下、呼吸の問題などがみられます。",
+      "dailyLife": "体を動かす、食べる、呼吸するといった日常動作に支援が必要な場合があります。疲れや感染を契機に状態が変化することもあり、家族と医療者が対応を共有します。",
+      "currentState": "脳画像、代謝・遺伝学的検査などで原因を調べ、栄養・呼吸・けいれん等の症状に対処します。原因によって利用できる治療が違い、一律の治療法はありません。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:506）",
+          "url": "https://www.orpha.net/en/disease/detail/506"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/506"
+        }
+      ],
+      "orphaCode": 506,
+      "evidenceHpoCount": 98,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-160-4-9",
+      "name": "硫黄欠乏性毛髪発育異常症",
+      "overview": "毛髪がもろく硫黄含量が少ない特徴を示す、複数の遺伝的原因からなる病気の一群です。皮膚、成長、神経発達などに影響することがあり、症状の組み合わせは異なります。",
+      "dailyLife": "髪や皮膚のケアに加え、光への敏感さや成長・学習への影響を確認することがあります。支援内容は実際にみられる症状に合わせて調整します。",
+      "currentState": "毛髪の検査や遺伝学的検査などで病型を見分け、皮膚・眼・発達など必要な診療につなぎます。原因遺伝子によって合併症の確認項目が異なります。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:33364）",
+          "url": "https://www.orpha.net/en/disease/detail/33364"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/33364"
+        }
+      ],
+      "orphaCode": 33364,
+      "evidenceHpoCount": 91,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-4",
+      "name": "GM1ガングリオシドーシス",
+      "overview": "GLB1遺伝子などに関係し、細胞内で糖脂質を分解する酵素の働きが低下する病気です。神経、骨格、筋肉などに影響し、乳児型から成人型まで経過に幅があります。",
+      "dailyLife": "動きや飲み込み、姿勢の保持に支援が必要になる場合があります。骨格や呼吸などの状態を確認し、年齢・病型に合った生活環境を整えます。",
+      "currentState": "酵素活性や遺伝子の検査で病型を調べます。症状への対応と栄養・呼吸・リハビリなどの多職種ケアが中心で、原因に働きかける治療も研究されています。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:354）",
+          "url": "https://www.orpha.net/en/disease/detail/354"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/354"
+        }
+      ],
+      "orphaCode": 354,
+      "evidenceHpoCount": 90,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-22-1",
+      "name": "α-マンノシドーシス（乳児型）",
+      "overview": "α-マンノシダーゼという分解酵素の働きが低下し、物質が細胞内に蓄積する遺伝性疾患の乳児期発症型です。発達、聴力、骨格、免疫などに影響が現れることがあります。",
+      "dailyLife": "聞こえにくさや感染の繰り返し、運動・発達の問題に応じた支援が必要になる場合があります。家族と学校・医療機関との連携が重要です。",
+      "currentState": "酵素と遺伝子の検査で診断し、聴覚・感染・骨格の管理を行います。疾患に対する酵素補充療法などが検討され、適応は専門医が判断します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:309282）",
+          "url": "https://www.orpha.net/en/disease/detail/309282"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/309282"
+        }
+      ],
+      "orphaCode": 309282,
+      "evidenceHpoCount": 88,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-9-1",
+      "name": "有棘赤血球舞踏病",
+      "overview": "VPS13A遺伝子に関連する神経変性疾患で、意図しない体の動きや筋力低下、末梢神経の障害などを伴います。赤血球の形態に特徴がみられることもあります。",
+      "dailyLife": "手足や口周囲の不随意運動が、食事、会話、歩行に影響する場合があります。転倒予防や栄養の確保など、症状に合わせた生活支援が大切です。",
+      "currentState": "血液、神経、遺伝学的検査を組み合わせて病気を評価します。不随意運動や飲み込みの症状を和らげ、リハビリと栄養・生活支援を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:2388）",
+          "url": "https://www.orpha.net/en/disease/detail/2388"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/2388"
+        }
+      ],
+      "orphaCode": 2388,
+      "evidenceHpoCount": 86,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-3",
+      "name": "Niemann-Pick病C型",
+      "overview": "NPC1やNPC2に関連する脂質の細胞内輸送障害により、神経や肝臓などに症状が現れる遺伝性疾患です。目の動かしにくさ、ふらつき、認知・発達の変化などがみられます。",
+      "dailyLife": "階段の昇降、食事、学習、コミュニケーションなどに配慮が必要になる場合があります。症状が年齢によって変化するため、継続的に生活機能を確認します。",
+      "currentState": "遺伝学的検査などで診断し、嚥下・運動・神経症状に対応します。病気の進行に働きかける薬が適応となる場合があり、利用可能性は地域と条件で異なります。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:646）",
+          "url": "https://www.orpha.net/en/disease/detail/646"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/646"
+        }
+      ],
+      "orphaCode": 646,
+      "evidenceHpoCount": 82,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-34-1",
+      "name": "神経線維腫症Ⅰ型",
+      "overview": "NF1遺伝子に関連する疾患で、皮膚の色素斑や神経に関係した腫瘍などが現れることがあります。骨格、視覚、学習などへの影響は人によって大きく異なります。",
+      "dailyLife": "皮膚の変化が目立つ一方、外から分かりにくい視力・学習面の困難がある人もいます。必要に応じて学校や仕事での配慮、定期的な検査を受けます。",
+      "currentState": "皮膚、神経、眼、骨格の状態を病状に応じて評価します。手術や一部病変に対する薬物治療、学習・発達支援などを個別に検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:636）",
+          "url": "https://www.orpha.net/en/disease/detail/636"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/636"
+        }
+      ],
+      "orphaCode": 636,
+      "evidenceHpoCount": 77,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-50-1",
+      "name": "皮膚筋炎",
+      "overview": "筋肉や皮膚に免疫が関係する炎症が起こる病気です。肩や太ももなどの筋力低下、まぶたや手指の特徴的な皮疹のほか、肺などに症状が出ることがあります。",
+      "dailyLife": "階段や立ち上がり、髪を洗う動作に負担がかかる場合があります。疲労や皮膚症状への配慮、息切れや飲み込みの変化への注意が大切です。",
+      "currentState": "筋酵素や自己抗体、画像などで病態を評価し、ステロイド・免疫を調節する薬を検討します。肺の状態と筋力を確認しながらリハビリも行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:221）",
+          "url": "https://www.orpha.net/en/disease/detail/221"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/221"
+        }
+      ],
+      "orphaCode": 221,
+      "evidenceHpoCount": 76,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-32",
+      "name": "自己免疫性リンパ増殖症候群",
+      "overview": "免疫細胞が適切に減少しないなどの調節異常により、リンパ節や脾臓の腫れ、血球減少、自己免疫症状などが起こる疾患群です。原因遺伝子は複数あります。",
+      "dailyLife": "貧血や出血、感染への注意が必要な場合があります。疲れやすさだけでなく検査値の変化も重要で、定期的な専門診療が役立ちます。",
+      "currentState": "血液・免疫機能や遺伝子を調べ、病型に応じて免疫調節薬などを使います。リンパ増殖や血球減少の合併症を継続的に確認します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:3261）",
+          "url": "https://www.orpha.net/en/disease/detail/3261"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/3261"
+        }
+      ],
+      "orphaCode": 3261,
+      "evidenceHpoCount": 72,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-6-1",
+      "name": "Krabbe病（乳児型）",
+      "overview": "GALC酵素などの働きが低下し、神経を覆う髄鞘が障害されるKrabbe病の乳児期発症型です。筋緊張の変化、発達の停滞、刺激への過敏さなどがみられる場合があります。",
+      "dailyLife": "食事、体位の保持、運動や呼吸で継続的な支援が必要になることがあります。本人の苦痛を減らし、家族のケア負担を支える体制が大切です。",
+      "currentState": "酵素活性と遺伝学的検査などで診断します。早期診断例では造血幹細胞移植の適応が検討されることがあり、症状緩和や栄養・呼吸の支援も重要です。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:206436）",
+          "url": "https://www.orpha.net/en/disease/detail/206436"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/206436"
+        }
+      ],
+      "orphaCode": 206436,
+      "evidenceHpoCount": 70,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-36",
+      "name": "シュワッハマン・ダイアモンド症候群",
+      "overview": "骨髄、膵臓、骨格などに影響する遺伝性疾患の一群です。好中球の減少による感染の繰り返し、消化酵素不足による栄養障害などが現れる場合があります。",
+      "dailyLife": "感染に気を配りながら、食事・成長や通学などを支える必要があることがあります。体調や検査結果に合わせた日常生活の調整が大切です。",
+      "currentState": "血球・膵機能の検査と遺伝子検査などを行い、膵酵素補充、感染対策、血液の治療などを病状に応じて検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:811）",
+          "url": "https://www.orpha.net/en/disease/detail/811"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/811"
+        }
+      ],
+      "orphaCode": 811,
+      "evidenceHpoCount": 69,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-13",
+      "name": "ブルーム症候群",
+      "overview": "BLM遺伝子に関係するDNA修復の異常により、成長や皮膚、免疫などに影響が生じる遺伝性疾患です。紫外線への敏感さや、一部の腫瘍の発症リスクが知られています。",
+      "dailyLife": "日差しへの対策や感染への注意、成長・学習面の支援などが必要になることがあります。定期診察と本人に合った学校・生活環境の調整が重要です。",
+      "currentState": "遺伝学的な診断を行い、皮膚や免疫のケアと、必要に応じた腫瘍などの検査を検討します。本人の状態に合わせた長期的支援を続けます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:125）",
+          "url": "https://www.orpha.net/en/disease/detail/125"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/125"
+        }
+      ],
+      "orphaCode": 125,
+      "evidenceHpoCount": 67,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-28-1-1",
+      "name": "免疫グロブリン性アミロイドーシス",
+      "overview": "免疫グロブリンの一部から生じた異常なたんぱく質が、心臓や腎臓、神経などに蓄積するアミロイドーシスの病型です。むくみ、息切れ、しびれなどが現れることがあります。",
+      "dailyLife": "疲労や体力低下などにより活動を調整する場合があります。心臓や腎臓などの状態で必要な生活上の配慮が異なります。",
+      "currentState": "沈着しているたんぱく質の種類を確かめ、原因となる形質細胞を標的にした治療や臓器機能を支える治療を検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:85443）",
+          "url": "https://www.orpha.net/en/disease/detail/85443"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/85443"
+        }
+      ],
+      "orphaCode": 85443,
+      "evidenceHpoCount": 64,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-21-1",
+      "name": "ムコリピドーシスII型",
+      "overview": "細胞内で分解酵素を目的の場所へ運ぶ仕組みが障害され、骨格、成長、運動などに影響する遺伝性疾患です。乳幼児期から複数の症状がみられる場合があります。",
+      "dailyLife": "呼吸や食事、姿勢の保持などに支援が必要となることがあります。成長に応じて医療・福祉・家族の協力が大切です。",
+      "currentState": "酵素や遺伝子の検査などで診断し、呼吸・栄養・骨格などの合併症に対応します。包括的な生活支援と経過観察が重要です。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:576）",
+          "url": "https://www.orpha.net/en/disease/detail/576"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/576"
+        }
+      ],
+      "orphaCode": 576,
+      "evidenceHpoCount": 63,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-10",
+      "name": "Hurler症候群",
+      "overview": "IDUA酵素の働きが低下し、糖鎖成分が蓄積するムコ多糖症I型の重い病型です。骨格、角膜、心臓、呼吸、発達など複数の臓器に影響する場合があります。",
+      "dailyLife": "移動や食事、視覚・聴覚への支援を要することがあります。学校や家庭での生活を、本人の機能と成長に合わせて整えます。",
+      "currentState": "酵素補充療法や、早期に造血幹細胞移植を検討することがあります。心臓・呼吸・骨格などの多職種による管理も欠かせません。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:93473）",
+          "url": "https://www.orpha.net/en/disease/detail/93473"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/93473"
+        }
+      ],
+      "orphaCode": 93473,
+      "evidenceHpoCount": 60,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-50-3",
+      "name": "多発性筋炎",
+      "overview": "免疫に関連して筋肉に炎症が起こり、肩や太ももなどの筋力が低下する病気です。似た症状の筋疾患が多いため、皮膚筋炎や封入体筋炎などとの鑑別が重要です。",
+      "dailyLife": "立ち上がりや階段の昇降が難しくなる場合があります。体力を保つための活動と休息の調整を行い、飲み込みの状態にも注意します。",
+      "currentState": "血液、筋電図、筋画像や筋生検などを用いて病型を検討します。免疫を抑える治療や、病状に応じたリハビリを行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:732）",
+          "url": "https://www.orpha.net/en/disease/detail/732"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/732"
+        }
+      ],
+      "orphaCode": 732,
+      "evidenceHpoCount": 60,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-111-6",
+      "name": "先天性筋線維タイプ不均等症",
+      "overview": "生まれつき筋線維の太さに不均衡がみられ、筋力低下や筋緊張低下を起こす先天性筋疾患の一つです。原因遺伝子や症状の重さには幅があります。",
+      "dailyLife": "歩行や姿勢、飲み込み、呼吸に支援が必要になる場合があります。成長とともに本人に合った補助具や活動方法を整えます。",
+      "currentState": "筋機能、遺伝学的検査などで評価し、運動・呼吸・栄養を支える治療を行います。心臓などの合併症の評価も病型に応じて検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:2020）",
+          "url": "https://www.orpha.net/en/disease/detail/2020"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/2020"
+        }
+      ],
+      "orphaCode": 2020,
+      "evidenceHpoCount": 59,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-300-5",
+      "name": "IgG4関連腎臓病",
+      "overview": "IgG4関連疾患のうち、腎臓に炎症や線維化が生じる病態です。尿細管間質性腎炎などの形をとり、腎機能や画像検査の異常から見つかることがあります。",
+      "dailyLife": "症状を自覚しにくい場合でも定期的な腎機能検査が重要です。むくみや血圧などの変化を確認し、ほかの臓器の状態にも注意します。",
+      "currentState": "腎生検や血液・画像検査などで類似疾患と区別し、ステロイド等を用いることがあります。腎機能と再燃の確認を続けます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:449395）",
+          "url": "https://www.orpha.net/en/disease/detail/449395"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/449395"
+        }
+      ],
+      "orphaCode": 449395,
+      "evidenceHpoCount": 58,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-10",
+      "name": "ウィスコット・オルドリッチ症候群",
+      "overview": "免疫細胞の働きに関わるWAS遺伝子の変化による疾患で、血小板減少、湿疹、感染症などが現れることがあります。症状の程度は個人差があります。",
+      "dailyLife": "出血や皮膚のかゆみ、感染への配慮が日常生活で必要となる場合があります。けがの予防や学校での情報共有が役立ちます。",
+      "currentState": "免疫・血小板の状態を評価し、感染予防や免疫グロブリンの補充などを行います。病状により造血幹細胞移植などの治療を検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:906）",
+          "url": "https://www.orpha.net/en/disease/detail/906"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/906"
+        }
+      ],
+      "orphaCode": 906,
+      "evidenceHpoCount": 57,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-33",
+      "name": "シスチン症",
+      "overview": "シスチンという物質を細胞内から運び出す仕組みが障害され、腎臓や目などに結晶が蓄積する遺伝性疾患です。乳幼児期に腎尿細管の異常で見つかる型があります。",
+      "dailyLife": "水分や電解質、栄養の管理が必要になる人がいます。通院や服薬を続け、腎機能と目の状態を確認することが大切です。",
+      "currentState": "血液・遺伝学的検査などで診断し、シスチン蓄積を抑える薬と腎・眼の治療などを病型に応じて組み合わせます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:213）",
+          "url": "https://www.orpha.net/en/disease/detail/213"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/213"
+        }
+      ],
+      "orphaCode": 213,
+      "evidenceHpoCount": 56,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-234-1-1",
+      "name": "ツェルベーガー症候群",
+      "overview": "ペルオキシソームという細胞小器官の働きが大きく障害される遺伝性の病気です。神経発達、筋緊張、肝臓、聴力・視力などに影響することがあります。",
+      "dailyLife": "食事・呼吸・移動などに幅広い支援が必要になる場合があります。家族と専門職が協力して本人の快適さと生活を支えます。",
+      "currentState": "脂肪酸などの代謝検査や遺伝子検査で診断し、栄養、肝機能、神経・感覚症状などに対応します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:912）",
+          "url": "https://www.orpha.net/en/disease/detail/912"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/912"
+        }
+      ],
+      "orphaCode": 912,
+      "evidenceHpoCount": 55,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-139-5",
+      "name": "アラン・ハーンドン・タドリー症候群",
+      "overview": "SLC16A2遺伝子による甲状腺ホルモンの細胞内輸送障害に関連し、乳幼児期から運動・発達の問題がみられる病気です。甲状腺ホルモン値にも特徴があります。",
+      "dailyLife": "姿勢の保持、食事、コミュニケーションなどに支援が必要になる場合があります。成長に合わせた療育や家族への支援が重要です。",
+      "currentState": "甲状腺ホルモン検査と遺伝学的検査で評価し、栄養・筋緊張・運動機能に対応します。病態に働きかける治療の研究も進められています。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:59）",
+          "url": "https://www.orpha.net/en/disease/detail/59"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/59"
+        }
+      ],
+      "orphaCode": 59,
+      "evidenceHpoCount": 54,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-4-1",
+      "name": "GM1ガングリオシドーシス（乳児型）",
+      "overview": "GM1ガングリオシドーシスの乳児期発症型で、糖脂質の分解障害により神経や骨格などに影響します。乳児期の筋緊張低下や発達の変化などが現れる場合があります。",
+      "dailyLife": "食べる、姿勢を保つ、呼吸するなどの支援が必要になることがあります。本人の苦痛を減らし家族の生活を支える取り組みが重要です。",
+      "currentState": "GLB1関連の酵素・遺伝子検査を用いて診断し、栄養・呼吸・運動の症状に対応します。原因に対する治療研究も続けられています。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:79255）",
+          "url": "https://www.orpha.net/en/disease/detail/79255"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/79255"
+        }
+      ],
+      "orphaCode": 79255,
+      "evidenceHpoCount": 54,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-156-2",
+      "name": "非典型的レット症候群",
+      "overview": "典型的なレット症候群とは症状や発症経過が異なる病型をまとめた概念です。神経発達、てんかん、手の動きやコミュニケーションなどに影響することがあります。",
+      "dailyLife": "言葉以外の意思表示を支える道具や、発作・食事・運動への配慮が必要になる場合があります。本人の得意な反応を見つけることも大切です。",
+      "currentState": "神経症状と遺伝的背景を調べ、発作や運動・栄養の問題に対処します。原因遺伝子が一つとは限らず、個別の評価が重要です。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:3095）",
+          "url": "https://www.orpha.net/en/disease/detail/3095"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/3095"
+        }
+      ],
+      "orphaCode": 3095,
+      "evidenceHpoCount": 53,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-35",
+      "name": "白血球接着不全症",
+      "overview": "白血球が血管から組織へ移動する仕組みの異常により、感染症を繰り返したり傷が治りにくくなったりする遺伝性免疫疾患の一群です。病型は複数あります。",
+      "dailyLife": "皮膚・粘膜の感染や発熱に注意が必要になる場合があります。家族と学校などで体調変化への対応を共有することが役立ちます。",
+      "currentState": "免疫細胞の機能と遺伝的原因を調べ、感染への治療・予防を行います。病型に応じて造血幹細胞移植などを検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:2968）",
+          "url": "https://www.orpha.net/en/disease/detail/2968"
+        },
+        {
+          "title": "Orphanet：HPOに基づく症状一覧",
+          "url": "https://www.orpha.net/en/disease/sign/2968"
+        }
+      ],
+      "orphaCode": 2968,
+      "evidenceHpoCount": 52,
+      "reviewStatus": "orphanet_hpo_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    }
+  ]
+}
