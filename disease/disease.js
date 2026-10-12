@@ -17,7 +17,6 @@
   $('loading').hidden=true;$('disease-content').hidden=false;
   $('disease-title').textContent=record.name;
   document.title=record.name+' | 見えない病気の星図';
-  $('disease-intro').textContent=record.overview;
   $('disease-overview').textContent=record.overview;
   $('disease-living').textContent=record.dailyLife;
   $('disease-treatment').textContent=record.currentState;
