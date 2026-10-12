@@ -49,7 +49,7 @@ for(const [index,x] of incoming.entries()){
  if(x.references[0].verifiedSpecific)specific++;
  assert(!/(生存率は|余命は|完治する|必ず治る)/.test(x.overview+x.dailyLife+x.currentState));
 }
-assert(specific>=70,'Insufficient confirmed official disease-specific article URLs');
+assert(specific>=80,'Expected at least 80 exact official disease-specific article URLs');
 const loader=fs.readFileSync(path.join(root,'content/disease-guides.js'),'utf8');
 for(const n of [5,6,7,8])assert(loader.includes(`disease_guides_extra_0${n}.json`));
 assert(loader.includes('map.size!==353'));
