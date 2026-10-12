@@ -273,9 +273,9 @@
       "currentState": "超音波や尿の検査で結石の場所と原因を調べます。痛みへの対応、排石を助ける治療や内視鏡処置、再発予防を検討します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
-          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/02_15_035/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -285,7 +285,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-2-15",
@@ -471,9 +471,9 @@
       "currentState": "画像で気管支の状態を確認し、原因を調べます。排痰を助けるケアや感染症への治療などを組み合わせます。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
-          "url": "https://www.shouman.jp/disease/search/group/list/03/%E6%85%A2%E6%80%A7%E5%91%BC%E5%90%B8%E5%99%A8%E7%96%BE%E6%82%A3/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/03_07_009/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -483,7 +483,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-3-9",
@@ -537,9 +537,9 @@
       "currentState": "心電図や長時間心電図などで脈の変化を調べ、原因を評価します。症状と心機能に応じてペースメーカーなどを検討します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
-          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_01_001/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -549,7 +549,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     }
   ]
 }
