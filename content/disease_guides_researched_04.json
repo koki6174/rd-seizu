@@ -1,0 +1,649 @@
+{
+  "part": 24,
+  "records": [
+    {
+      "id": "nando-127-2",
+      "name": "意味性認知症",
+      "designation": null,
+      "overview": "言葉の意味や物の知識が徐々に失われる、前頭側頭葉変性症に関連する認知症の一型です。発語が滑らかでも、単語や物の意味を理解しにくくなることがあります。",
+      "dailyLife": "会話、買い物や書類の理解に支援が必要になる場合があります。写真・指さしなど言葉以外の手段や、慣れた生活習慣を利用する工夫が役立ちます。",
+      "currentState": "言語・認知機能の評価や脳画像検査などで、他の認知症や失語症と区別します。生活環境を整え、本人とのコミュニケーションを支えることが中心です。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:100069）",
+          "url": "https://www.orpha.net/en/disease/detail/100069",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/100069",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-160-1-1",
+      "name": "常染色体優性表皮融解性魚鱗癬",
+      "designation": null,
+      "overview": "皮膚の構造を支えるケラチンの働きに関係する遺伝性の魚鱗癬です。乳児期から皮膚の赤みや水疱が生じ、その後厚い角質が目立つことがあります。",
+      "dailyLife": "乾燥、痛み、暑さや皮膚への摩擦に注意することがあります。保湿や衣類の工夫など、負担を減らすケアを生活に取り入れます。",
+      "currentState": "特徴的な皮膚所見や家族歴、関連遺伝子検査などで病型を評価します。保湿と角質のケア、感染などの合併症への対応を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:312）",
+          "url": "https://www.orpha.net/en/disease/detail/312",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/312",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-160-1-3",
+      "name": "表在性表皮融解性魚鱗癬",
+      "designation": null,
+      "overview": "皮膚の表面近くで角質がはがれやすくなる遺伝性の角化症で、表在性表皮融解性魚鱗癬と呼ばれます。皮むけや浅い水疱、部分的な角質の厚みが見られます。",
+      "dailyLife": "皮膚をこする動作や衣類によって刺激が増す人もいます。保湿や皮膚を守る工夫を、学校や仕事での活動と両立させます。",
+      "currentState": "皮膚科で症状の分布や経過を確認し、必要に応じて遺伝学的検査を検討します。保湿など皮膚の保護を中心に治療します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:455）",
+          "url": "https://www.orpha.net/en/disease/detail/455",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/455",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-162-1",
+      "name": "水疱性類天疱瘡",
+      "designation": null,
+      "overview": "皮膚をつなぐ部分に対する自己抗体が関わり、かゆみとともに水疱やただれが現れる自己免疫性皮膚疾患です。高齢になってから発症することが多い病気です。",
+      "dailyLife": "かゆみや皮膚の傷が睡眠・入浴・着替えなどに影響することがあります。皮膚を清潔に保ち、傷の感染を防ぐためのケアが大切です。",
+      "currentState": "皮膚の診察、組織検査や自己抗体検査を組み合わせます。外用・内服ステロイドなどを中心に、症状の程度に応じて治療します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:703）",
+          "url": "https://www.orpha.net/en/disease/detail/703",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/703",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-162-2",
+      "name": "粘膜類天疱瘡",
+      "designation": null,
+      "overview": "口腔、眼などの粘膜に水疱やびらんが生じる自己免疫性の病気です。炎症が治った後の瘢痕により、眼やのどなどの機能が障害される場合があります。",
+      "dailyLife": "食事の痛み、目の違和感や見えにくさが生活に影響することがあります。眼科や口腔の専門家と連携し、症状の変化を早めに共有します。",
+      "currentState": "粘膜や皮膚の組織検査と免疫学的検査で評価します。病変の場所に応じて局所療法や全身の免疫を調整する治療を検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:46486）",
+          "url": "https://www.orpha.net/en/disease/detail/46486",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/46486",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-19-11",
+      "name": "Scheie症候群",
+      "designation": null,
+      "overview": "ムコ多糖症I型のうち、比較的ゆっくりと症状が現れる病型です。関節の硬さ、眼の混濁や心臓などへの影響がみられることがあります。",
+      "dailyLife": "手指や関節が動かしにくい場合に、通学・仕事で使う道具を工夫します。症状が軽くても心臓や視力などを継続的に見守ることが重要です。",
+      "currentState": "酵素活性やIDUA遺伝子の検査と臓器評価を行います。酵素補充療法や合併症への治療を、専門チームで検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:93474）",
+          "url": "https://www.orpha.net/en/disease/detail/93474",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/93474",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-19-12",
+      "name": "Hurler／Scheie症候群",
+      "designation": null,
+      "overview": "ムコ多糖症I型の中で、ハーラー型とシャイエ型の中間的な経過を示すと分類されてきた病型です。骨格や心臓、眼、聴覚などへの影響は個人により異なります。",
+      "dailyLife": "関節や手の動き、見え方・聞こえ方の変化に応じて、日常の作業や学習環境を整えることがあります。本人の状態に合わせた支援が大切です。",
+      "currentState": "酵素活性と遺伝学的検査で病気を確認し、心臓・眼・関節などを評価します。酵素補充療法を含む治療方針を症状に応じて考えます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:93476）",
+          "url": "https://www.orpha.net/en/disease/detail/93476",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/93476",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-19-20",
+      "name": "ガラクトシアリドーシス",
+      "designation": null,
+      "overview": "複数のライソゾーム酵素が正常に働かず、糖鎖由来の物質が細胞内に蓄積する遺伝性の病気です。神経・骨格・眼などの症状は発症年齢や病型で異なります。",
+      "dailyLife": "運動や発達、視力や聴力に応じた支援が必要になることがあります。本人と家族に合った生活環境を、多職種で調整します。",
+      "currentState": "特徴的な酵素活性の検査やCTSA遺伝子などを調べます。合併症への治療やリハビリなど、症状を支える対応が中心です。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:351）",
+          "url": "https://www.orpha.net/en/disease/detail/351",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/351",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-19-23",
+      "name": "β-マンノシドーシス",
+      "designation": null,
+      "overview": "糖鎖を分解するβマンノシダーゼの働きが不足する遺伝性のライソゾーム病です。発達、聴覚、行動や感染などに関わる症状が報告されています。",
+      "dailyLife": "聞こえや意思疎通、学習の面で個別の支援が必要になる人もいます。経過はさまざまで、日常の変化を本人と周囲が共有します。",
+      "currentState": "酵素活性とMANBA遺伝子などの検査で評価します。聴覚・発達支援や感染時の対応などを組み合わせ、長期的に生活を支えます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:118）",
+          "url": "https://www.orpha.net/en/disease/detail/118",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/118",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-19-28-1",
+      "name": "ウォルマン病",
+      "designation": null,
+      "overview": "ライソゾーム酸性リパーゼの働きが不足し、乳児期から脂質が肝臓や腸などに蓄積する重い病型です。肝脾腫や栄養吸収、体重増加への影響が現れることがあります。",
+      "dailyLife": "栄養と体重、消化器症状や感染時の体調変化をきめ細かく見守る必要があります。家庭でのケアについて医療者と対応を共有します。",
+      "currentState": "酵素活性とLIPA遺伝子の検査などで診断を検討します。適応に応じた酵素補充療法や栄養・肝機能の管理を専門施設で行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:75233）",
+          "url": "https://www.orpha.net/en/disease/detail/75233",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/75233",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-19-33-3",
+      "name": "シスチン症（非腎型）",
+      "designation": null,
+      "overview": "体内にシスチンが蓄積するシスチン症のうち、腎臓よりも角膜など眼への影響が中心となる型です。まぶしさや異物感、眼の痛みが現れることがあります。",
+      "dailyLife": "照明や外出時の強い光への配慮、眼の不快感への対応が必要になる場合があります。学校や職場で見え方を調整することも役立ちます。",
+      "currentState": "眼科検査で角膜の結晶などを確認し、必要に応じてCTNS遺伝子の検査を行います。眼への局所治療と全身状態の経過観察が中心です。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:411641）",
+          "url": "https://www.orpha.net/en/disease/detail/411641",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/411641",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-23-1",
+      "name": "孤発性クロイツフェルト・ヤコブ病",
+      "designation": null,
+      "overview": "異常なプリオンたんぱく質の蓄積に関連して、認知機能や運動機能が比較的短期間に変化する病気です。遺伝性ではない孤発性の型を指します。",
+      "dailyLife": "日常動作や意思疎通の能力が変化し、食事や移動に介助が必要になることがあります。本人の快適さと家族の支援体制を重視します。",
+      "currentState": "脳MRI、脳波、髄液検査などを組み合わせ、似た病気を除外して評価します。現時点では症状緩和と多職種による生活支援が中心です。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:204）",
+          "url": "https://www.orpha.net/en/disease/detail/204",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/204",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-234-5",
+      "name": "原発性高シュウ酸尿症Ⅰ型",
+      "designation": null,
+      "overview": "AGXT遺伝子などに関係するシュウ酸の過剰産生により、腎結石や腎機能障害が起こる遺伝性代謝疾患です。病状が進むと全身にシュウ酸が蓄積することがあります。",
+      "dailyLife": "水分・薬の管理や結石による痛みなどに配慮が必要になることがあります。腎機能の経過に応じ、学校や仕事での負担を調整します。",
+      "currentState": "尿・血液の代謝検査と遺伝学的検査で評価します。病型によってビタミンB6やRNA干渉薬などが検討され、腎機能の管理を継続します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:93598）",
+          "url": "https://www.orpha.net/en/disease/detail/93598",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/93598",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-234-6",
+      "name": "アカタラセミア",
+      "designation": null,
+      "overview": "過酸化水素を分解するカタラーゼという酵素の働きが生まれつき弱い状態です。無症状の人も多い一方、口腔内の病変や感染などを伴う場合があります。",
+      "dailyLife": "通常の生活を送れる人も多く、症状がある場合は口腔衛生と歯科診療などを中心に調整します。一律の生活制限を必要とするものではありません。",
+      "currentState": "カタラーゼの酵素活性やCAT遺伝子などから評価します。口腔の炎症など、実際に現れた症状への治療を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:926）",
+          "url": "https://www.orpha.net/en/disease/detail/926",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/926",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-301-2",
+      "name": "Stargardt病",
+      "designation": null,
+      "overview": "網膜の中心部を含む黄斑が障害され、子どもや若い人で中心視力の低下が現れることがある遺伝性疾患です。多くの症例でABCA4遺伝子が関係します。",
+      "dailyLife": "文字を読む、顔を見分けるといった細かい視覚作業が難しくなることがあります。拡大表示や照明の工夫、ロービジョンケアが役立ちます。",
+      "currentState": "眼底画像、OCT、網膜の機能検査や遺伝子検査などで評価します。視覚支援と経過観察を行い、病態に基づく治療法も研究されています。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:827）",
+          "url": "https://www.orpha.net/en/disease/detail/827",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/827",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-301-6",
+      "name": "中心性輪紋状脈絡膜ジストロフィー",
+      "designation": null,
+      "overview": "黄斑の周辺に輪状の網脈絡膜の変化が生じ、中心視力が徐々に低下する遺伝性の眼疾患です。症状の経過や関係する遺伝子には幅があります。",
+      "dailyLife": "読書や運転など、細部を見る活動に影響することがあります。拡大機器や表示方法を工夫し、視機能に合った環境を整えます。",
+      "currentState": "眼底・OCTなどの画像検査や家族歴、必要に応じた遺伝学的検査で評価します。視機能の維持と生活支援を中心にフォローします。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:75377）",
+          "url": "https://www.orpha.net/en/disease/detail/75377",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/75377",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-308-1",
+      "name": "皮質下嚢胞をもつ大頭型白質脳症",
+      "designation": null,
+      "overview": "脳の白質に特徴的な変化と嚢胞がみられ、頭囲の大きさや運動機能の変化が現れる遺伝性の白質脳症です。進行の程度には個人差があります。",
+      "dailyLife": "ふらつきや発作などに応じて転倒予防や日常生活の支援が必要になります。頭部への強い衝撃を避ける工夫も相談します。",
+      "currentState": "脳MRIの所見とMLC1など関連遺伝子の検査で評価します。発作への対応、運動支援やリハビリテーションを組み合わせます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:2478）",
+          "url": "https://www.orpha.net/en/disease/detail/2478",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/2478",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-35-2",
+      "name": "天疱瘡（落葉状）",
+      "designation": null,
+      "overview": "表皮の細胞をつなぐたんぱく質への自己抗体が関係し、浅い水疱や薄いかさぶたができる天疱瘡の一型です。一般に粘膜への症状は目立ちません。",
+      "dailyLife": "皮膚の痛みやただれ、感染を防ぐケアが必要になることがあります。衣類の摩擦などの刺激を減らし、薬の使い方を確認します。",
+      "currentState": "皮膚生検と免疫学的検査などで他の水疱症と区別します。外用・内服ステロイドや免疫を調整する治療を重症度に応じて行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:79481）",
+          "url": "https://www.orpha.net/en/disease/detail/79481",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/79481",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-35-3",
+      "name": "天疱瘡（腫瘍随伴性）",
+      "designation": null,
+      "overview": "腫瘍に関連して免疫の異常が生じ、口腔などの強い粘膜病変や多彩な皮疹が現れる、まれな天疱瘡の一型です。呼吸器の合併症が問題になる場合があります。",
+      "dailyLife": "口の痛みにより食べることや話すことが難しくなることがあります。栄養・呼吸の管理と、本人の負担を減らす支援が重要です。",
+      "currentState": "組織検査と自己抗体検査、関連する腫瘍の検査を組み合わせます。原因となる腫瘍への対応と、皮膚・粘膜の炎症への治療を検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:63455）",
+          "url": "https://www.orpha.net/en/disease/detail/63455",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/63455",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-35-5",
+      "name": "天疱瘡（紅斑性）",
+      "designation": null,
+      "overview": "顔などの日光に当たりやすい部位に赤みや鱗屑が現れる、天疱瘡の表在型に関連した病型です。脂漏性皮膚炎や膠原病と似た皮膚症状を呈することがあります。",
+      "dailyLife": "顔や頭皮の皮膚症状が外出や仕事に影響することがあります。皮膚を刺激しないケアや日光への配慮を行います。",
+      "currentState": "皮膚の診察、組織・免疫学的検査などで診断します。外用薬や必要に応じた全身治療で炎症を抑えます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:79480）",
+          "url": "https://www.orpha.net/en/disease/detail/79480",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/79480",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-60-1",
+      "name": "特発性再生不良性貧血",
+      "designation": null,
+      "overview": "骨髄で血液の細胞をつくる働きが低下し、赤血球、白血球、血小板が減る再生不良性貧血のうち、原因が明確でない型です。感染・出血や貧血の症状に注意が必要です。",
+      "dailyLife": "疲労感や感染・出血への配慮が必要になることがあります。体調に応じて学校や仕事の活動を調整し、周囲と受診の目安を共有します。",
+      "currentState": "血液検査と骨髄検査などで診断し、原因疾患を除外します。重症度に応じて免疫抑制療法や造血幹細胞移植、輸血などを検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:88）",
+          "url": "https://www.orpha.net/en/disease/detail/88",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/88",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-65-2",
+      "name": "細網異形成症",
+      "designation": null,
+      "overview": "造血幹細胞から免疫細胞へ育つ過程が強く障害され、乳児期から重い感染症を繰り返すことがある先天性免疫不全症です。好中球とリンパ球の両方が不足することがあります。",
+      "dailyLife": "感染予防と発熱時の迅速な対応が非常に重要です。家庭での衛生管理や受診の準備について専門チームと相談します。",
+      "currentState": "血液の細胞数と免疫機能、関連遺伝子を検査します。感染の治療を行い、造血幹細胞移植など根本的な治療を専門施設で検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:33355）",
+          "url": "https://www.orpha.net/en/disease/detail/33355",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/33355",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "orpha_identity_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-160-2",
+      "name": "道化師様魚鱗癬",
+      "designation": null,
+      "overview": "生まれつき皮膚が非常に厚く板状の角質に覆われ、ひび割れを伴う重い先天性魚鱗癬です。皮膚のバリア機能や体温・水分の調整に影響することがあります。",
+      "dailyLife": "出生直後は全身管理が必要になる場合があります。成長後も保湿や感染対策、暑さへの配慮などを続けることが大切です。",
+      "currentState": "新生児期には皮膚・水分・栄養の状態を注意深く管理します。皮膚科での継続的なケアと、必要に応じた遺伝学的評価を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:457）",
+          "url": "https://www.orpha.net/en/disease/detail/457",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/457",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "official_orpha_disease_name_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-160-4-2",
+      "name": "シェーグレン・ラルソン症候群",
+      "designation": null,
+      "overview": "脂質の代謝に関係する遺伝性疾患で、生まれつきの魚鱗癬に加え、手足の筋緊張の強さや発達の問題などが現れる場合があります。眼の網膜にも変化が生じることがあります。",
+      "dailyLife": "皮膚の保湿とともに、歩行や姿勢、学習などへの支援が必要になる場合があります。皮膚科、神経科やリハビリの協力が大切です。",
+      "currentState": "皮膚・神経所見と代謝・遺伝子検査で評価します。角質のケア、運動機能の支援や発作などの合併症への治療を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:816）",
+          "url": "https://www.orpha.net/en/disease/detail/816",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/816",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "official_orpha_disease_name_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-160-4-3",
+      "name": "KID症候群",
+      "designation": null,
+      "overview": "角膜の炎症、皮膚の角質の異常、難聴を主な特徴とするKID症候群です。皮膚の感染や視力への影響が起こることもあります。",
+      "dailyLife": "聞こえ方と見え方を補う支援や、皮膚への刺激・感染に配慮したケアが必要になる人もいます。学校・家庭で情報を共有することが重要です。",
+      "currentState": "皮膚・眼科・聴覚の評価と遺伝学的検査などで診断します。皮膚や角膜の治療、補聴・視覚支援を症状に合わせて行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:477）",
+          "url": "https://www.orpha.net/en/disease/detail/477",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/477",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "official_orpha_disease_name_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-168-5",
+      "name": "多発関節弛緩型エーラス・ダンロス症候群",
+      "designation": null,
+      "overview": "関節が非常に動きやすく、出生時から股関節脱臼などを伴うことがあるエーラス・ダンロス症候群の一型です。皮膚の伸びやすさや筋緊張の低下もみられます。",
+      "dailyLife": "関節の不安定さで歩行や姿勢の保持が難しくなることがあります。装具やリハビリ、けがを防ぐ環境調整を検討します。",
+      "currentState": "関節・皮膚の所見、家族歴、関連遺伝子の検査などで評価します。整形外科的な対応と身体機能を支えるリハビリを組み合わせます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:1899）",
+          "url": "https://www.orpha.net/en/disease/detail/1899",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/1899",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "official_orpha_disease_name_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-168-6",
+      "name": "皮膚脆弱型エーラス・ダンロス症候群",
+      "designation": null,
+      "overview": "皮膚が非常にもろく、強く伸びやすいことなどを特徴とするエーラス・ダンロス症候群のまれな病型です。あざや傷ができやすい場合があります。",
+      "dailyLife": "皮膚を傷つけない工夫や関節・生活動作への配慮が必要になることがあります。本人の活動を保ちながら安全な方法を相談します。",
+      "currentState": "皮膚や関節の特徴と遺伝学的検査で評価します。けがを防ぐケアや合併症の確認を行い、多職種で支援します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:1901）",
+          "url": "https://www.orpha.net/en/disease/detail/1901",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/1901",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "official_orpha_disease_name_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    },
+    {
+      "id": "nando-115-2",
+      "name": "遺伝性高カリウム性周期性四肢麻痺",
+      "designation": null,
+      "overview": "筋肉のナトリウムチャネルの働きに関係し、血中カリウムの変化などを伴って手足の筋力低下が発作的に現れる遺伝性疾患です。寒さや運動後の休息などが誘因になることがあります。",
+      "dailyLife": "筋力が落ちる発作の前兆や誘因を把握し、活動と休息の取り方を相談します。発作時の安全確保や、学校・職場への説明が役立ちます。",
+      "currentState": "発作時の血液検査や筋電図、SCN4A遺伝子の検査などで評価します。誘因の調整と必要に応じた薬物治療を専門医と検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:682）",
+          "url": "https://www.orpha.net/en/disease/detail/682",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphanet：症状・臨床所見（HPO）",
+          "url": "https://www.orpha.net/en/disease/sign/682",
+          "verifiedSpecific": true
+        }
+      ],
+      "reviewStatus": "official_orpha_disease_name_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 24
+    }
+  ]
+}
