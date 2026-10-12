@@ -249,7 +249,7 @@
       "name_en": "NBIA３",
       "overview": "神経フェリチン症は、鉄の貯蔵に関わる遺伝子の変化によって脳に鉄がたまり、動作の異常などが現れる遺伝性の神経疾患です。",
       "dailyLife": "筋肉の勝手な動きや姿勢の変化が歩行、発話、手作業などに影響することがあります。本人に合う移動やコミュニケーションの支援が役立ちます。",
-      "currentState": "神経診察、MRI、遺伝子検査などで評価し、運動症状を和らげる治療やリハビリを行います。",
+      "currentState": "MRIや遺伝子検査などで病型を評価し、運動症状を和らげる薬やリハビリを検討します。症状の変化に合わせて生活支援を調整します。",
       "parentDiseaseId": "mhlw-0120",
       "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
       "references": [
@@ -273,7 +273,7 @@
       "name_en": "18q-syndrome",
       "overview": "18q欠失症候群は、18番染色体の長腕の一部が欠けることによって発達や体のさまざまな機能に影響する先天性の病気です。症状は欠失した範囲で異なります。",
       "dailyLife": "運動や言葉、聴覚、成長などに支援が必要になる人がいます。本人の発達のペースを大切にし、学校や家庭で環境を整えます。",
-      "currentState": "染色体検査などで変化の範囲を確認し、合併症を調べて必要な治療と発達支援を行います。",
+      "currentState": "染色体検査などで欠失の範囲を確認し、発達や聴力などの合併症を調べます。本人に応じた医療と療育を組み合わせます。",
       "parentDiseaseId": "mhlw-0139",
       "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
       "references": [
