@@ -1,0 +1,245 @@
+{
+  "part": 3,
+  "records": [
+    {
+      "id": "nando-82-5",
+      "name": "Allgrove症候群",
+      "overview": "副腎機能の低下、涙が少ないこと、食道の運動の異常などを特徴とする遺伝性の病気です。トリプルA症候群とも呼ばれます。",
+      "dailyLife": "飲み込みにくさや目の乾き、疲れやすさが生活に影響することがあります。食事や緊急時のホルモン対応を確認します。",
+      "currentState": "内分泌・消化管・眼科の評価を行い、ホルモン補充や飲み込み、眼の症状への治療を組み合わせます。",
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-85-2-1",
+      "name": "非特異的間質性肺炎",
+      "overview": "肺の間質に炎症や線維化が起こる間質性肺炎の病型です。特発性肺線維症とは画像や組織の特徴が異なり、病態の経過には幅があります。",
+      "dailyLife": "息切れや咳が活動に影響する場合があります。呼吸機能と酸素の状態に合わせた生活調整が役立ちます。",
+      "currentState": "CTや必要な検査で原因と病型を調べ、炎症を抑える治療などを状態に応じて検討します。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/156"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-85-2-4",
+      "name": "剥離型間質性肺炎",
+      "overview": "肺胞の中に細胞が集まることなどを特徴とする間質性肺炎の病型です。喫煙との関連が知られ、乾いた咳や息切れが生じる場合があります。",
+      "dailyLife": "息切れや咳が外出や運動に影響することがあります。禁煙や呼吸機能の定期検査が重要です。",
+      "currentState": "画像・病理などでほかの肺疾患と鑑別し、禁煙と状態に応じた治療を行います。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/156"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-58-1",
+      "name": "非閉塞性肥大型心筋症",
+      "overview": "心臓の筋肉が厚くなる肥大型心筋症のうち、左心室からの血液の流れを妨げる明らかな狭窄がない病型です。息切れや不整脈がみられることがあります。",
+      "dailyLife": "症状が少なくても定期的な心臓の検査が必要です。運動や日常活動の注意は個人のリスクに応じて判断します。",
+      "currentState": "心エコーなどで評価し、症状と不整脈への対応、長期的なリスク管理を行います。",
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-58-2",
+      "name": "閉塞性肥大型心筋症",
+      "overview": "心臓の筋肉が厚くなり、左心室から血液が流れ出る場所が狭くなる肥大型心筋症の病型です。胸痛や息切れ、失神などが生じる場合があります。",
+      "dailyLife": "体を動かしたときの症状に注意し、活動量を主治医と相談します。不整脈などの検査も重要です。",
+      "currentState": "薬物療法に加えて、適応によっては流出路の圧迫を減らす治療を検討します。",
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-61-1",
+      "name": "温式自己免疫性溶血性貧血",
+      "overview": "体温に近い条件で赤血球に作用する自己抗体によって赤血球が壊れやすくなる自己免疫性溶血性貧血の病型です。貧血や黄疸などが現れます。",
+      "dailyLife": "疲れやすさや動悸が生活に影響することがあります。血液検査と出血・感染などへの注意を続けます。",
+      "currentState": "血液・抗体の検査で診断し、原因疾患を確認しながらステロイドや免疫調節薬などを検討します。",
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-300-2",
+      "name": "自己免疫性膵炎",
+      "overview": "膵臓に免疫の異常が関わる炎症が生じ、膵臓の腫れや胆管の狭窄などがみられる病気です。IgG4関連疾患に含まれる1型と、異なる特徴を持つ2型があります。",
+      "dailyLife": "黄疸や腹部の不快感、血糖の変化などで通院が必要になる場合があります。症状が軽くても、膵臓と胆管の状態を継続して確認します。",
+      "currentState": "画像検査や血液・病理検査などで膵がんなどと鑑別し、病型に応じステロイドなどを用います。再発や膵機能の変化への注意が重要です。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病とその病型の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4504"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-23-2-1",
+      "name": "家族性CJD",
+      "overview": "PRNP遺伝子の変化などに関連し、家族内で発症することがあるプリオン病です。神経細胞が障害され、認知・運動・行動に変化が現れます。孤発性CJDとは病因が異なります。",
+      "dailyLife": "症状が進むと会話や食事、移動に支援が必要になる場合があります。本人の希望を尊重し、家族と医療・介護の連携が重要です。",
+      "currentState": "神経学的評価と必要に応じた遺伝子検査などで診断を進めます。進行を確実に止める治療は限られ、症状緩和と生活支援を行います。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病とその病型の解説",
+          "url": "https://www.nanbyou.or.jp/entry/385"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-325-1",
+      "name": "NLRC４異常症",
+      "overview": "NLRC4という炎症の調節に関わるたんぱく質の異常によって、発熱や腸の炎症などが生じる自己炎症性の病気です。症状や重症度には幅があります。",
+      "dailyLife": "繰り返す発熱や下痢などが生活に影響する場合があります。体調悪化時の受診計画や栄養状態の確認が役立ちます。",
+      "currentState": "免疫・遺伝学的検査などを踏まえて評価し、病状に応じて炎症に作用する薬などを専門医が検討します。",
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病とその病型の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-325-2",
+      "name": "ADA２欠損症",
+      "overview": "ADA2という酵素に関係する遺伝子の異常によって血管の炎症や免疫の問題などが起こる病気です。皮膚症状、脳卒中、血球減少などが現れる場合があります。",
+      "dailyLife": "皮膚や神経の症状、疲れやすさなどで日常活動に配慮が必要になることがあります。急な神経症状では速やかな受診が重要です。",
+      "currentState": "遺伝子や酵素の検査などで評価し、TNFを抑える治療などを病状に応じて用います。血管や血液・免疫の状態を継続して確認します。",
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病とその病型の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-325-4",
+      "name": "A20ハプロ不全症",
+      "overview": "TNFAIP3遺伝子の機能が十分でなく、免疫の炎症を抑える仕組みが障害される自己炎症性疾患です。繰り返す口内炎、発熱、腸の炎症などが現れることがあります。",
+      "dailyLife": "口内炎の痛みや腹部症状、疲れやすさによって学校や仕事に影響する場合があります。症状の変化を記録し専門医と共有します。",
+      "currentState": "遺伝学的・免疫学的検査で評価し、病状に応じて炎症を抑える薬などを検討します。臓器ごとの合併症の確認も重要です。",
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病とその病型の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-251-1",
+      "name": "CPSI欠損症",
+      "overview": "肝臓でアンモニアを尿素に変える最初の段階を担うCPS1酵素の働きが低下する遺伝性疾患です。高アンモニア血症により嘔吐や意識の障害を起こす場合があります。",
+      "dailyLife": "食事が取れないときや感染時の代謝悪化に注意が必要です。本人と家族が専門チームと栄養計画と緊急時対応を共有することが大切です。",
+      "currentState": "血中アンモニアやアミノ酸、遺伝子の検査で評価し、アンモニアを下げる薬や専門的な栄養療法などを組み合わせます。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病とその病型の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4732"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    }
+  ]
+}
