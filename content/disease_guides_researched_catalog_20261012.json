@@ -1,0 +1,806 @@
+{
+  "catalogSource": "Supabase public.disease_catalog (published), names and concept scope verified 2026-10-12",
+  "articleCount": 100,
+  "records": [
+    {
+      "id": "duchenne-muscular-dystrophy",
+      "name_ja": "デュシェンヌ型筋ジストロフィー",
+      "concept_kind": "named_disease",
+      "mhlw_designation_number": null,
+      "parent_disease_id": null,
+      "orpha_code": 98896
+    },
+    {
+      "id": "hereditary-attr-amyloidosis",
+      "name_ja": "遺伝性ATTRアミロイドーシス",
+      "concept_kind": "named_disease",
+      "mhlw_designation_number": null,
+      "parent_disease_id": null,
+      "orpha_code": null
+    },
+    {
+      "id": "nando-10-1",
+      "name_ja": "脱髄型CMT",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0010",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-10-2",
+      "name_ja": "軸索型CMT",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0010",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-10-3",
+      "name_ja": "中間型CMT",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0010",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-106-1",
+      "name_ja": "家族性寒冷蕁麻疹",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0106",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-106-3",
+      "name_ja": "CINCA症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0106",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-107-1",
+      "name_ja": "全身型若年性特発性関節炎",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0107",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-107-2",
+      "name_ja": "関節型若年性特発性関節炎",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0107",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-109-1",
+      "name_ja": "先天性非典型溶血性尿毒症症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0109",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-109-2",
+      "name_ja": "後天性非典型溶血性尿毒症症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0109",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-111-1",
+      "name_ja": "ネマリンミオパチー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0111",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-111-3",
+      "name_ja": "ミニコア病",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0111",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-111-4",
+      "name_ja": "ミオチュブラーミオパチー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0111",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-111-5",
+      "name_ja": "中心核ミオパチー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0111",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-111-7",
+      "name_ja": "全タイプ１繊維ミオパチー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0111",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-113-1-2",
+      "name_ja": "ベッカー型筋ジストロフィー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0113",
+      "orpha_code": 98895
+    },
+    {
+      "id": "nando-113-2",
+      "name_ja": "肢帯型筋ジストロフィー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0113",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-113-3",
+      "name_ja": "顔面肩甲上腕型筋ジストロフィー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0113",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-113-6",
+      "name_ja": "福山型先天性筋ジストロフィー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0113",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-113-7",
+      "name_ja": "筋強直性ジストロフィー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0113",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-114-1-1",
+      "name_ja": "先天性ミオトニー（トムゼン病（優性遺伝））",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0114",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-114-1-2",
+      "name_ja": "先天性ミオトニー（ベッカー病（劣性遺伝））",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0114",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-114-2",
+      "name_ja": "ナトリウムチャネルミオトニー(カリウム惹起性ミオトニー)",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0114",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-114-3",
+      "name_ja": "先天性パラミオトニー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0114",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-115-1",
+      "name_ja": "遺伝性低カリウム性周期性四肢麻痺",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0115",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-115-2",
+      "name_ja": "遺伝性高カリウム性周期性四肢麻痺",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0115",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-127-2",
+      "name_ja": "意味性認知症",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0127",
+      "orpha_code": 100069
+    },
+    {
+      "id": "nando-13-1-1",
+      "name_ja": "再発寛解型MS",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0013",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-13-1-2",
+      "name_ja": "一次性進行型MS",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0013",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-13-1-3",
+      "name_ja": "二次性進行型MS",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0013",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-13-2",
+      "name_ja": "視神経脊髄炎",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0013",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-13-3",
+      "name_ja": "Baló病",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0013",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-14-2",
+      "name_ja": "多巣性運動ニューロパチー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0014",
+      "orpha_code": 641
+    },
+    {
+      "id": "nando-160-1-1",
+      "name_ja": "常染色体優性表皮融解性魚鱗癬",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0160",
+      "orpha_code": 312
+    },
+    {
+      "id": "nando-160-1-3",
+      "name_ja": "表在性表皮融解性魚鱗癬",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0160",
+      "orpha_code": 455
+    },
+    {
+      "id": "nando-160-2",
+      "name_ja": "道化師様魚鱗癬",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0160",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-160-4-2",
+      "name_ja": "シェーグレン・ラルソン症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0160",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-160-4-3",
+      "name_ja": "KID症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0160",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-162-1",
+      "name_ja": "水疱性類天疱瘡",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0162",
+      "orpha_code": 703
+    },
+    {
+      "id": "nando-162-2",
+      "name_ja": "粘膜類天疱瘡",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0162",
+      "orpha_code": 46486
+    },
+    {
+      "id": "nando-168-1",
+      "name_ja": "古典型エーラス・ダンロス症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0168",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-168-2",
+      "name_ja": "関節型エーラス・ダンロス症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0168",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-168-3",
+      "name_ja": "血管型エーラス・ダンロス症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0168",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-168-4",
+      "name_ja": "後側彎型エーラス・ダンロス症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0168",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-168-5",
+      "name_ja": "多発関節弛緩型エーラス・ダンロス症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0168",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-168-6",
+      "name_ja": "皮膚脆弱型エーラス・ダンロス症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0168",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-18-1-1",
+      "name_ja": "皮質性小脳萎縮症",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0018",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-18-2-1",
+      "name_ja": "脊髄小脳失調症３型",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0018",
+      "orpha_code": 98757
+    },
+    {
+      "id": "nando-18-2-2",
+      "name_ja": "脊髄小脳失調症６型",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0018",
+      "orpha_code": 98758
+    },
+    {
+      "id": "nando-18-2-3",
+      "name_ja": "歯状核赤核淡蒼球ルイ体萎縮症",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0018",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-18-2-4",
+      "name_ja": "脊髄小脳失調症３１型",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0018",
+      "orpha_code": 217012
+    },
+    {
+      "id": "nando-18-2-7",
+      "name_ja": "脊髄小脳失調症７型",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0018",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-19-11",
+      "name_ja": "Scheie症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 93474
+    },
+    {
+      "id": "nando-19-12",
+      "name_ja": "Hurler／Scheie症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 93476
+    },
+    {
+      "id": "nando-19-13",
+      "name_ja": "Hunter症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-19-14",
+      "name_ja": "Sanfilippo症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-19-15",
+      "name_ja": "Morquio症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-19-2-1",
+      "name_ja": "Niemann-Pick病A型",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-19-2-2",
+      "name_ja": "Niemann-Pick病B型",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-19-20",
+      "name_ja": "ガラクトシアリドーシス",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 351
+    },
+    {
+      "id": "nando-19-23",
+      "name_ja": "β-マンノシドーシス",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 118
+    },
+    {
+      "id": "nando-19-27-1",
+      "name_ja": "Pompe病（乳児型）",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-19-27-3",
+      "name_ja": "Pompe病（成人型）",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-19-28-1",
+      "name_ja": "ウォルマン病",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 75233
+    },
+    {
+      "id": "nando-19-33-3",
+      "name_ja": "シスチン症（非腎型）",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 411641
+    },
+    {
+      "id": "nando-19-5-1",
+      "name_ja": "Tay-Sachs病",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-19-5-2",
+      "name_ja": "Sandhoff病",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0019",
+      "orpha_code": 796
+    },
+    {
+      "id": "nando-20-1",
+      "name_ja": "副腎白質ジストロフィー（小児大脳型）",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0020",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-21-1",
+      "name_ja": "慢性進行性外眼筋麻痺症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0021",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-21-3",
+      "name_ja": "ミトコンドリア脳筋症・乳酸アシドーシス・脳卒中様発作症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0021",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-21-4",
+      "name_ja": "ミトコンドリア異常を伴うミオクローヌスてんかん",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0021",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-23-1",
+      "name_ja": "孤発性クロイツフェルト・ヤコブ病",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0023",
+      "orpha_code": 204
+    },
+    {
+      "id": "nando-23-2-1",
+      "name_ja": "家族性CJD",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0023",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-23-2-2",
+      "name_ja": "ゲルストマン・ストロイスラー・シャインカー病",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0023",
+      "orpha_code": 356
+    },
+    {
+      "id": "nando-234-5",
+      "name_ja": "原発性高シュウ酸尿症Ⅰ型",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0234",
+      "orpha_code": 93598
+    },
+    {
+      "id": "nando-234-6",
+      "name_ja": "アカタラセミア",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0234",
+      "orpha_code": 926
+    },
+    {
+      "id": "nando-30-2",
+      "name_ja": "縁取り空胞を伴う遠位型ミオパチー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0030",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-301-2",
+      "name_ja": "Stargardt病",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0301",
+      "orpha_code": 827
+    },
+    {
+      "id": "nando-301-6",
+      "name_ja": "中心性輪紋状脈絡膜ジストロフィー",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0301",
+      "orpha_code": 75377
+    },
+    {
+      "id": "nando-308-1",
+      "name_ja": "皮質下嚢胞をもつ大頭型白質脳症",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0308",
+      "orpha_code": 2478
+    },
+    {
+      "id": "nando-35-2",
+      "name_ja": "天疱瘡（落葉状）",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0035",
+      "orpha_code": 79481
+    },
+    {
+      "id": "nando-35-3",
+      "name_ja": "天疱瘡（腫瘍随伴性）",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0035",
+      "orpha_code": 63455
+    },
+    {
+      "id": "nando-35-5",
+      "name_ja": "天疱瘡（紅斑性）",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0035",
+      "orpha_code": 79480
+    },
+    {
+      "id": "nando-60-1",
+      "name_ja": "特発性再生不良性貧血",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0060",
+      "orpha_code": 88
+    },
+    {
+      "id": "nando-61-1",
+      "name_ja": "温式自己免疫性溶血性貧血",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0061",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-61-2",
+      "name_ja": "寒冷凝集素症",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0061",
+      "orpha_code": 56425
+    },
+    {
+      "id": "nando-61-5",
+      "name_ja": "エヴァンズ症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0061",
+      "orpha_code": 1959
+    },
+    {
+      "id": "nando-62-1",
+      "name_ja": "古典的PNH",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0062",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-62-2",
+      "name_ja": "骨髄不全型PNH",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0062",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-64-1",
+      "name_ja": "先天性血栓性血小板減少性紫斑病",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0064",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-64-2",
+      "name_ja": "後天性原発性血栓性血小板減少性紫斑病",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0064",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-65-1",
+      "name_ja": "X連鎖重症複合免疫不全症",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-65-2",
+      "name_ja": "細網異形成症",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0065",
+      "orpha_code": 33355
+    },
+    {
+      "id": "nando-81-3",
+      "name_ja": "21-水酸化酵素欠損症",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0081",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-82-5",
+      "name_ja": "Allgrove症候群",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0082",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-85-1",
+      "name_ja": "特発性肺線維症",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0085",
+      "orpha_code": 2032
+    },
+    {
+      "id": "nando-96-1",
+      "name_ja": "小腸型クローン病",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0096",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-97-3",
+      "name_ja": "潰瘍性大腸炎（直腸炎型）",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0097",
+      "orpha_code": null
+    },
+    {
+      "id": "nando-98-2",
+      "name_ja": "好酸球性食道炎",
+      "concept_kind": "disease_subtype",
+      "mhlw_designation_number": null,
+      "parent_disease_id": "mhlw-0098",
+      "orpha_code": null
+    }
+  ]
+}
