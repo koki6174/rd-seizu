@@ -29,7 +29,7 @@ assert(production.includes("createCloud(items,colors[type],layer.size,haloTextur
  'Halos must be non-pickable visual overlays');
 assert(production.includes("if(haloTextures)for(const halo of Object.values(haloTextures))halo.dispose()"));
 assert(production.includes("object.geometry.dispose();object.material.dispose()"));
-assert(home.includes('src="./lab/scene.js?v=9"'),'Browser cache should load new scene');
+assert(home.includes('src="./lab/scene.js?v=10"'),'Browser cache should load new scene');
 assert(previewHtml.includes('本番の星図にはF案を採用しました'));
 assert(!previewHtml.includes('本番の星図は変更していません'));
 console.log('PASS: 3 exact F nebula layers are live only in taxonomy mode; unlit, hitboxes, core sprites, clinical research view and cleanup preserved.');
