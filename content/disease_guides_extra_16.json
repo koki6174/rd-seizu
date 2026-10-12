@@ -1,0 +1,430 @@
+{
+  "part": 16,
+  "records": [
+    {
+      "id": "nando-19-31",
+      "name": "セロイドリポフスチノーシス",
+      "overview": "神経細胞のリソソームにセロイドリポフスチンなどが蓄積する遺伝性疾患の一群です。視力や運動機能、認知・発達などへの影響は原因遺伝子や病型で異なります。",
+      "dailyLife": "見え方、歩行、学習や意思疎通に支援が必要になる場合があります。年齢と状態に応じて、家族・学校・医療と福祉が協力して生活を支えます。",
+      "currentState": "画像検査や遺伝学的検査などで病型を確認します。けいれんや栄養、運動機能への対応が中心で、特定の病型では原因に働きかける治療が検討されます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:216）",
+          "url": "https://www.orpha.net/en/disease/detail/216"
+        }
+      ],
+      "orphaCode": 216,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-4-2",
+      "name": "GM1ガングリオシドーシス（若年型）",
+      "overview": "GLB1遺伝子などに関わるリソソームの酵素機能低下で糖脂質が蓄積するGM1ガングリオシドーシスの若年型です。運動機能や発達に影響することがあります。",
+      "dailyLife": "歩行や姿勢の維持、日常動作で補助が必要になる場合があります。学校生活や移動の環境調整を、年齢と症状に合わせて行います。",
+      "currentState": "酵素活性と遺伝学的検査などで病型を確認します。神経・筋肉の症状への対処とリハビリなど、多職種による支援が中心です。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:79256）",
+          "url": "https://www.orpha.net/en/disease/detail/79256"
+        }
+      ],
+      "orphaCode": 79256,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-4-3",
+      "name": "GM1ガングリオシドーシス（成人型）",
+      "overview": "細胞内で糖脂質を分解する働きが低下するGM1ガングリオシドーシスの成人型です。体の動かしにくさ、筋緊張の異常などがみられる場合があります。",
+      "dailyLife": "歩行や仕事の作業で困難が生じる場合があります。運動機能に合わせた補助具や職場環境の工夫が、活動を続ける助けになります。",
+      "currentState": "酵素活性や遺伝学的検査を通じて評価します。運動や発声などの症状への対応を中心に、必要なリハビリを行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:79257）",
+          "url": "https://www.orpha.net/en/disease/detail/79257"
+        }
+      ],
+      "orphaCode": 79257,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-5",
+      "name": "GM2ガングリノシドーシス",
+      "overview": "細胞内でGM2ガングリオシドを分解する酵素の働きに異常がある遺伝性疾患群です。Tay-Sachs病やSandhoff病などを含み、神経の働きに影響します。",
+      "dailyLife": "運動や発達、食事への影響は病型と発症時期で大きく異なります。家族の希望も尊重し、状態に応じた生活・医療支援を組み合わせます。",
+      "currentState": "酵素活性と遺伝学的検査などで個別の病型を確認します。栄養・呼吸管理や神経症状への治療など、必要な支援を継続します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:309152）",
+          "url": "https://www.orpha.net/en/disease/detail/309152"
+        }
+      ],
+      "orphaCode": 309152,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-229-3",
+      "name": "続発性肺胞蛋白症",
+      "overview": "感染症、血液疾患、粉じんへの暴露など別の原因に伴って肺胞内に物質がたまり、酸素の交換が妨げられる肺胞蛋白症の一群です。原因によって病態が異なります。",
+      "dailyLife": "咳や息切れによって階段や仕事が負担になる場合があります。背景にある病気の管理と感染対策が生活上の重要な課題になります。",
+      "currentState": "胸部画像、気管支鏡検査などで評価し、背景疾患を調べます。必要に応じて原因への治療や肺胞洗浄などを検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:420259）",
+          "url": "https://www.orpha.net/en/disease/detail/420259"
+        }
+      ],
+      "orphaCode": 420259,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-23-3",
+      "name": "獲得性クロイツフェルト・ヤコブ病",
+      "overview": "異常なプリオンたんぱく質に関連して脳の働きが急速に障害される病気のうち、遺伝性以外の獲得性と分類されるものです。原因や経路が異なる複数の病型があります。",
+      "dailyLife": "認知や運動、食事の機能が変化し、本人と家族に介護支援が必要になる場合があります。意思疎通や安全を保つ方法を医療者と相談することが大切です。",
+      "currentState": "神経学的所見、脳MRI、髄液検査などを組み合わせて専門的に診断を検討します。病気の進行を止める確立した治療はなく、症状と生活を支えるケアを行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:454700）",
+          "url": "https://www.orpha.net/en/disease/detail/454700"
+        }
+      ],
+      "orphaCode": 454700,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-23-3-1",
+      "name": "医原性クロイツフェルト・ヤコブ病",
+      "overview": "過去の特定の医療行為などを通じてプリオン病が伝わった場合に分類されるクロイツフェルト・ヤコブ病の一型です。認知や運動機能が障害されます。",
+      "dailyLife": "症状の進行に伴って移動や食事、意思疎通に介護が必要になる場合があります。家族を含めた支援体制の整備が重要です。",
+      "currentState": "病歴と専門的な神経学的検査などから評価します。進行を止める確立した治療はなく、症状の緩和と安全な生活支援を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:576379）",
+          "url": "https://www.orpha.net/en/disease/detail/576379"
+        }
+      ],
+      "orphaCode": 576379,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-23-3-2",
+      "name": "変異型クロイツフェルトヤコブ病",
+      "overview": "牛海綿状脳症との関連が知られる、通常の孤発性クロイツフェルト・ヤコブ病とは異なるプリオン病の一型です。行動や感覚、認知、運動などに変化が生じます。",
+      "dailyLife": "体調や判断力、運動機能の変化に合わせた見守りと支援が必要になることがあります。専門的な医療と家族支援の連携が大切です。",
+      "currentState": "神経学的所見や脳MRIなどから専門医が鑑別を行います。病気の進行を止める確立した治療はなく、症状に応じたケアを中心に行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:576370）",
+          "url": "https://www.orpha.net/en/disease/detail/576370"
+        }
+      ],
+      "orphaCode": 576370,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-234-1-4",
+      "name": "根性点状軟骨異形成症1型",
+      "overview": "ペルオキシソームの働きに関わるPEX7遺伝子の異常による先天性の骨格・代謝疾患です。骨や関節の形成の特徴、成長や視覚などへの影響がみられる場合があります。",
+      "dailyLife": "成長に合わせて移動や姿勢、学習などの支援が必要になることがあります。眼や聴覚、関節の状態も確認しながら環境を整えます。",
+      "currentState": "骨格の画像、代謝・遺伝学的検査などで診断を検討します。骨格や眼、その他の合併症への対応とリハビリを行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:309789）",
+          "url": "https://www.orpha.net/en/disease/detail/309789"
+        }
+      ],
+      "orphaCode": 309789,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-265-3",
+      "name": "家族性部分性脂肪萎縮症",
+      "overview": "体脂肪が体の一部で減少し、別の部位に相対的に残るなど、脂肪の分布に特徴的な変化が生じる遺伝性疾患群です。糖代謝や血中脂質の異常を伴う場合があります。",
+      "dailyLife": "血糖や血中脂質の定期検査、食事や活動の調整が必要になる場合があります。見た目の変化による心理面への配慮も大切です。",
+      "currentState": "身体所見と代謝・遺伝学的検査などで病型を確認します。糖尿病や脂質異常症などの合併症を中心に管理します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:98306）",
+          "url": "https://www.orpha.net/en/disease/detail/98306"
+        }
+      ],
+      "orphaCode": 98306,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-300-2",
+      "name": "自己免疫性膵炎",
+      "overview": "膵臓に免疫の異常などが関係する炎症が起こり、腫れや膵管の変化がみられる病気です。IgG4関連疾患に伴う型と、それ以外の型が知られています。",
+      "dailyLife": "腹痛や黄疸、消化・血糖の問題が生活に影響することがあります。症状が落ち着いていても、膵臓の働きを定期的に確認することが重要です。",
+      "currentState": "画像・血液検査などで膵がんなどとの鑑別を行います。病型によってステロイド治療などを検討し、再発や膵機能を確認します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:103919）",
+          "url": "https://www.orpha.net/en/disease/detail/103919"
+        }
+      ],
+      "orphaCode": 103919,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-300-3",
+      "name": "IgG4関連硬化性胆管炎",
+      "overview": "IgG4関連疾患などに伴って胆管が炎症と線維化で狭くなり、胆汁の流れが悪くなる病気です。黄疸や肝機能の異常などが生じる場合があります。",
+      "dailyLife": "皮膚のかゆみや疲労感などが日常生活に影響する場合があります。胆管や肝機能の状態を定期的に確認することが重要です。",
+      "currentState": "画像・血液検査などで胆管の病変を評価し、腫瘍性疾患との鑑別を行います。ステロイド治療などを病状に応じて検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:447764）",
+          "url": "https://www.orpha.net/en/disease/detail/447764"
+        }
+      ],
+      "orphaCode": 447764,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-301-3",
+      "name": "オカルト黄斑ジストロフィー",
+      "overview": "眼底検査では変化が目立たないことがあっても、網膜の中心で光を感じる働きが障害される黄斑疾患です。中心視力の低下などがみられます。",
+      "dailyLife": "文字や顔が見えにくくなることがあり、拡大表示や音声読み上げなどが生活の助けになります。見え方に合わせた作業環境の調整が重要です。",
+      "currentState": "網膜電図や画像検査などで評価し、必要に応じて遺伝学的検査を行います。視覚機能の支援を中心に経過を確認します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:247834）",
+          "url": "https://www.orpha.net/en/disease/detail/247834"
+        }
+      ],
+      "orphaCode": 247834,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-32-2",
+      "name": "過剰自己貪食を伴うＸ連鎖性ミオパチー",
+      "overview": "筋肉の細胞内での物質分解の仕組みが影響を受けるVMA21遺伝子関連の遺伝性筋疾患です。筋力の低下が徐々に現れることがあります。",
+      "dailyLife": "腕や脚を使う動作、階段の昇降などが負担になる場合があります。作業環境の調整や運動機能を支えるリハビリが役立ちます。",
+      "currentState": "筋肉の検査や遺伝学的検査などで診断を検討します。運動機能・呼吸機能を確認し、症状に応じた支援を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:25980）",
+          "url": "https://www.orpha.net/en/disease/detail/25980"
+        }
+      ],
+      "orphaCode": 25980,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-330-2",
+      "name": "先天性声門下狭窄症",
+      "overview": "生まれつき声帯のすぐ下の空気の通り道が狭くなっている状態です。程度によって息を吸うときの音や呼吸の苦しさが異なります。",
+      "dailyLife": "呼吸や授乳、かぜをひいたときの対応に配慮が必要になることがあります。家族と医療者が受診の目安や緊急時の対応を共有することが大切です。",
+      "currentState": "内視鏡検査などで狭い部分と程度を評価します。経過観察で済む場合から、気道を確保する治療や手術を検討する場合まであります。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:141121）",
+          "url": "https://www.orpha.net/en/disease/detail/141121"
+        }
+      ],
+      "orphaCode": 141121,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-36-1",
+      "name": "表皮水疱症（単純型）",
+      "overview": "表皮の細胞同士や細胞内の構造に関わる遺伝子の異常により、皮膚が摩擦で傷つきやすくなる遺伝性表皮水疱症の一群です。水ぶくれや傷の程度には幅があります。",
+      "dailyLife": "靴ずれや衣服の摩擦を減らす工夫、傷の保護などが大切です。痛みや感染への注意が必要になる場合もあります。",
+      "currentState": "皮膚所見や検査、遺伝学的検査などで病型を確認します。傷のケアや感染対策、症状に応じた治療を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:304）",
+          "url": "https://www.orpha.net/en/disease/detail/304"
+        }
+      ],
+      "orphaCode": 304,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-36-2",
+      "name": "表皮水疱症（接合部型）",
+      "overview": "皮膚の表皮と真皮が接する部分に関わる遺伝子の異常で、皮膚や粘膜が傷つきやすくなる表皮水疱症の一群です。出生時から水ぶくれがみられることがあります。",
+      "dailyLife": "皮膚の傷を保護し、感染や痛みを減らすケアが日常的に必要になる人もいます。口や食道などに症状がある場合は食事の工夫も検討します。",
+      "currentState": "皮膚の検査と遺伝学的検査などで病型を評価します。創傷ケアと栄養管理、合併症の治療を継続します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:305）",
+          "url": "https://www.orpha.net/en/disease/detail/305"
+        }
+      ],
+      "orphaCode": 305,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-50-2",
+      "name": "無筋症性皮膚筋炎",
+      "overview": "筋力低下がはっきりしない一方、皮膚筋炎に特徴的な皮膚症状がみられる病型です。筋肉の症状が目立たなくても肺などに病変が生じる場合があります。",
+      "dailyLife": "皮膚の赤みや日光への敏感さが生活に影響することがあります。息切れや咳など、皮膚以外の変化にも注意が必要です。",
+      "currentState": "皮膚所見や血液・画像検査などで病型を評価します。皮膚の炎症への治療と肺などの合併症の確認を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:645617）",
+          "url": "https://www.orpha.net/en/disease/detail/645617"
+        }
+      ],
+      "orphaCode": 645617,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-64-1",
+      "name": "先天性血栓性血小板減少性紫斑病",
+      "overview": "血液を固める働きに関わるADAMTS13酵素が生まれつき不足し、小さな血管内に血栓ができやすくなる遺伝性疾患です。血小板の減少や溶血性貧血を生じる場合があります。",
+      "dailyLife": "疲れやすさ、頭痛、発熱などの症状の変化に注意が必要です。妊娠や感染などで体調が変わる場合もあるため、治療計画を医療者と共有します。",
+      "currentState": "血液検査でADAMTS13活性などを評価し、遺伝学的検査を検討します。必要に応じて酵素補充に相当する治療や血漿を用いる治療などを行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:93583）",
+          "url": "https://www.orpha.net/en/disease/detail/93583"
+        }
+      ],
+      "orphaCode": 93583,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-20",
+      "name": "高IgE症候群",
+      "overview": "IgEが高くなることがある免疫異常を伴い、皮膚や肺などの感染を繰り返す場合がある先天性免疫異常症の一群です。原因遺伝子と症状は型によって異なります。",
+      "dailyLife": "皮膚のケアや感染時の早めの受診などが重要です。学校や仕事で体調に合わせた配慮が必要になる場合があります。",
+      "currentState": "免疫機能や遺伝学的検査などで病型を確認します。感染症への治療・予防を中心に、合併症を継続的に管理します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:331223）",
+          "url": "https://www.orpha.net/en/disease/detail/331223"
+        }
+      ],
+      "orphaCode": 331223,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-33",
+      "name": "重症先天性好中球減少症",
+      "overview": "骨髄で好中球を十分につくれない先天性の病気の一群です。細菌感染を繰り返すことがあり、発熱などが重要なサインになる場合があります。",
+      "dailyLife": "感染への注意や、体調が変わったときの迅速な受診が大切です。家庭や学校でも対応方法を共有しておくと役立ちます。",
+      "currentState": "血液・骨髄検査や遺伝学的検査などで原因を調べます。病型に応じて好中球を増やす薬などを使用し、感染を防ぐための管理を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:42738）",
+          "url": "https://www.orpha.net/en/disease/detail/42738"
+        }
+      ],
+      "orphaCode": 42738,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-38",
+      "name": "ミエロペルオキシダーゼ欠損症",
+      "overview": "好中球などに含まれるミエロペルオキシダーゼという酵素の働きが不足する先天性の特徴です。多くの人は症状が目立ちませんが、一部で感染の問題がみられる場合があります。",
+      "dailyLife": "症状がない人では通常の生活を送れる場合があります。感染を繰り返す場合は、ほかの原因も含めて医療機関で相談することが大切です。",
+      "currentState": "血液細胞の検査などで酵素の働きを確認します。特別な治療が不要な場合もあり、感染などの症状があれば個別に対応します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:2587）",
+          "url": "https://www.orpha.net/en/disease/detail/2587"
+        }
+      ],
+      "orphaCode": 2587,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-45",
+      "name": "遺伝性血管性浮腫",
+      "overview": "血管から血液中の水分が漏れ出しやすくなり、皮膚や粘膜が繰り返し腫れる遺伝性疾患です。顔や手足、腹部の腫れなどがみられ、のどが腫れる場合は緊急対応が必要です。",
+      "dailyLife": "突然の腫れや腹痛が学校・仕事に影響することがあります。本人と周囲の人が発作時の対応と治療薬の利用方法を共有しておくことが重要です。",
+      "currentState": "血液検査や遺伝学的検査などで病型を評価します。発作への治療と予防を専門医と相談し、特に気道の腫れへの対応を準備します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:91378）",
+          "url": "https://www.orpha.net/en/disease/detail/91378"
+        }
+      ],
+      "orphaCode": 91378,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-76-3",
+      "name": "家族性ゴナドトロピン分泌低下症",
+      "overview": "脳の視床下部や下垂体から生殖腺を刺激するホルモンが十分に分泌されず、思春期の発達や生殖機能に影響する遺伝性疾患群です。原因によって嗅覚の問題などを伴う型もあります。",
+      "dailyLife": "思春期の身体変化や将来の妊娠・出産に関する悩みが生じることがあります。本人の希望に沿った情報提供と長期的な医療相談が重要です。",
+      "currentState": "ホルモン検査や画像・遺伝学的検査などで原因を評価します。必要なホルモンの補充や、生殖機能に関する治療を個別に検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:174590）",
+          "url": "https://www.orpha.net/en/disease/detail/174590"
+        }
+      ],
+      "orphaCode": 174590,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-85-2-4",
+      "name": "剥離型間質性肺炎",
+      "overview": "肺の奥にある肺胞にマクロファージが集まる特徴などがみられる間質性肺疾患です。喫煙との関連が知られていますが、すべての症例で原因が同じとは限りません。",
+      "dailyLife": "咳や息切れが階段や仕事の負担になる場合があります。喫煙している場合は禁煙への支援が重要で、呼吸の状態に合わせて活動を調整します。",
+      "currentState": "胸部画像や呼吸機能検査などで評価し、必要に応じてほかの肺疾患と区別します。禁煙を含む原因への対応、症状に応じた治療を検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:98852）",
+          "url": "https://www.orpha.net/en/disease/detail/98852"
+        }
+      ],
+      "orphaCode": 98852,
+      "evidenceHpoCount": 0,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    }
+  ]
+}
