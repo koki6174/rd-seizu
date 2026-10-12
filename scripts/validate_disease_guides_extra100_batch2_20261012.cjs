@@ -58,10 +58,10 @@ for(const [i,x] of fresh.entries()){
 }
 const loader=fs.readFileSync(path.join(root,'content/disease-guides.js'),'utf8');
 for(const i of [9,10,11,12])assert(loader.includes(`disease_guides_extra_${i===9?'09':i}.json`));
-assert(loader.includes('map.size!==353'));
+assert(loader.includes('map.size!==453'));
 for(const p of ['index.html','disease/index.html']){
  const html=fs.readFileSync(path.join(root,p),'utf8');
- assert(html.includes('disease-guides.js?v=4'));
+ assert(html.includes('disease-guides.js?v=5'));
  assert(!html.includes('医療専門家による個別監修は未実施です。'));
 }
 const scene=fs.readFileSync(path.join(root,'lab/scene.js'),'utf8');
