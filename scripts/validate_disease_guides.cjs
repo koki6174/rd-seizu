@@ -62,7 +62,7 @@ assert(article.includes('id="disease-overview"') && !article.includes('id="disea
 assert(articleJs.includes("$('disease-overview').textContent=record.overview"));
 assert(!articleJs.includes("$('disease-intro')"));
 assert(article.includes('./disease.js?v=4'));
-assert(lib.includes("map.size!==553"));
+assert(lib.includes("map.size!==expectedCount"));
 console.log('PASS: 50 rank-matched source-checked editorial drafts and both shared links');
 console.log('Number of articles:',list.length,'number of disease-specific Nanbyou source pages:',
  list.filter(x=>x.references[0].verifiedSpecific).length);

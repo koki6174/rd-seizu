@@ -31,6 +31,7 @@ jobs:
           node --check scripts/validate_disease_guides_extra100_batch2_20261012.cjs
           node --check scripts/validate_disease_guides_orpha100_20261012.cjs
           node --check scripts/validate_disease_guides_orpha_next100_20261012.cjs
+          node --check scripts/validate_dynamic_disease_guides.cjs
           node --check admin/analytics.js
           node --check scripts/stage_orpha_hpo_evidence.cjs
           node --check lab/scene.js
@@ -341,6 +342,7 @@ jobs:
           node scripts/validate_disease_guides_extra100_batch2_20261012.cjs
           node scripts/validate_disease_guides_orpha100_20261012.cjs
           node scripts/validate_disease_guides_orpha_next100_20261012.cjs
+          node scripts/validate_dynamic_disease_guides.cjs
 
       - name: Python Japanese article character audit
         run: |
