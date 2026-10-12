@@ -191,7 +191,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/93274",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -205,7 +206,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-309-2",
@@ -397,7 +399,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/501",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -411,7 +414,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-85-2-6",
@@ -598,7 +602,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/79128",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -612,7 +617,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-19-1-2",
@@ -794,7 +800,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/77260",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -808,7 +815,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-23-2-3",
@@ -990,7 +998,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/466",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -1004,7 +1013,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-300-4",
@@ -1186,7 +1196,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/79078",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -1200,7 +1211,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-85-2-2",
@@ -1382,7 +1394,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/79126",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -1396,7 +1409,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-19-29",
@@ -1573,7 +1587,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/34587",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -1587,7 +1602,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-65-34",
@@ -1764,7 +1780,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/2686",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -1778,7 +1795,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-19-19-2",
@@ -1950,7 +1968,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/87876",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -1964,7 +1983,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-19-24",
@@ -2136,7 +2156,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/349",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -2150,7 +2171,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-254-2",
@@ -2322,7 +2344,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/79273",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -2336,7 +2359,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-65-43",
@@ -2508,7 +2532,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/1334",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -2522,7 +2547,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-17-2",
@@ -2689,7 +2715,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/98933",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -2703,7 +2730,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-19-22-2",
@@ -2870,7 +2898,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/309288",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -2884,7 +2913,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-19-30",
@@ -3051,7 +3081,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/834",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -3065,7 +3096,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-234-1-2",
@@ -3227,7 +3259,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/44",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -3241,7 +3274,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-234-2-1",
@@ -3403,7 +3437,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/2971",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -3417,7 +3452,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-65-5",
@@ -3579,7 +3615,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/760",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -3593,7 +3630,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     },
     {
       "id": "nando-265-2",
@@ -3750,7 +3788,8 @@
         {
           "title": "Orphanet：疾患固有の診断・概要情報",
           "url": "https://www.orpha.net/en/disease/detail/79086",
-          "verifiedSpecific": true
+          "verifiedSpecific": false,
+          "verificationNote": "Verified ORPHAcode crosswalk and canonical official URL pattern; HTTP reachability of each page not independently checked."
         },
         {
           "title": "Orphadata Science：HPO症状と頻度（2026年7月版）",
@@ -3764,7 +3803,8 @@
         }
       ],
       "reviewedAt": "2026-10-12",
-      "reviewStatus": "research_source_corroborated_editorial_draft"
+      "reviewStatus": "research_source_corroborated_editorial_draft",
+      "identityCrosswalkStatus": "source_corroborated_research_only_not_clinician_reviewed"
     }
   ]
 }
