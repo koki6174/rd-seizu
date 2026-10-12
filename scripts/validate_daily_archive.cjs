@@ -45,7 +45,7 @@ for(const val of [
  "{texture:'soft',size:2.25,opacity:.31}",
  "{texture:'ring',size:3.3,opacity:.16}",
  "createCloud(groups.unlit,'#4d5c73',.29,texture,.54,false)",
- "share:'#ffc6ad',discover:'#99e4ff',mixed:'#dcb6ff'",
+ "share:'#ffc6ad',discover:'#99e4ff'",
  "createCloud(items,colors[kind],.63,texture,.75,true)",
  "createCloud(items,colors[kind],.28,texture,1,true)"
 ]) {
