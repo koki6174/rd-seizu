@@ -1,0 +1,505 @@
+{
+  "part": 2,
+  "records": [
+    {
+      "id": "nando-21-3",
+      "name": "ミトコンドリア脳筋症・乳酸アシドーシス・脳卒中様発作症候群",
+      "overview": "ミトコンドリアのエネルギー産生の障害に関係する病気で、てんかん、頭痛、筋力低下に加え、脳卒中に似た神経症状が現れることがあります。",
+      "dailyLife": "体調や神経症状が変動し、学習や仕事に影響する場合があります。神経・筋肉・聴覚など複数の機能の確認が大切です。",
+      "currentState": "遺伝子や代謝の検査、画像検査などで評価し、発作や臓器症状に対応します。急な神経症状は速やかな診療が必要です。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の資料",
+          "url": "https://www.nanbyou.or.jp/entry/32979"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-21-4",
+      "name": "ミトコンドリア異常を伴うミオクローヌスてんかん",
+      "overview": "ミトコンドリアの障害に関連し、ミオクローヌスと呼ばれる短い筋肉の収縮やてんかん、筋力低下などがみられる病気です。",
+      "dailyLife": "発作や筋力低下によって食事や移動、学習に支援が必要になる場合があります。日常生活での発作対応の共有が役立ちます。",
+      "currentState": "神経・筋肉、代謝、遺伝子の検査を組み合わせて評価します。てんかん発作と全身の症状に応じた治療を行います。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の資料",
+          "url": "https://www.nanbyou.or.jp/entry/32979"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-1",
+      "name": "X連鎖重症複合免疫不全症",
+      "overview": "免疫を担うT細胞などの働きが大きく障害され、乳児期から重い感染を起こしやすいX連鎖性の重症複合免疫不全症です。",
+      "dailyLife": "感染を防ぐための医療環境と継続的な家族支援が必要になる場合があります。本人の成長に合わせた生活設計が大切です。",
+      "currentState": "免疫機能と遺伝子を調べ、感染への対応と造血幹細胞移植などを検討します。病型・施設に応じ遺伝子治療が選択肢になる場合もあります。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の資料",
+          "url": "https://www.nanbyou.or.jp/entry/350"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-20",
+      "name": "高IgE症候群",
+      "overview": "免疫の働きの異常によって湿疹や感染を繰り返し、血液中のIgEが高くなることがある疾患群です。病型により骨や歯などの特徴も異なります。",
+      "dailyLife": "皮膚のかゆみや繰り返す感染への配慮が必要になる場合があります。保湿、感染への早期対応、学校生活の支援が役立ちます。",
+      "currentState": "免疫学的検査と遺伝子検査などで病型を調べ、感染予防と皮膚・肺・骨などの状態に応じた治療を行います。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の資料",
+          "url": "https://www.nanbyou.or.jp/entry/350"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-25",
+      "name": "高IgM症候群",
+      "overview": "免疫細胞が抗体の種類を切り替える仕組みに障害があり、IgGなどが少なくなることのある免疫不全症の一群です。",
+      "dailyLife": "呼吸器などの感染を繰り返し、通院や生活の調整が必要になる場合があります。症状に応じた感染予防が役立ちます。",
+      "currentState": "免疫機能と原因遺伝子などを調べ、免疫グロブリン補充や感染への対応を行います。病型により根本的な治療も検討します。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の資料",
+          "url": "https://www.nanbyou.or.jp/entry/350"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-37",
+      "name": "慢性肉芽腫症",
+      "overview": "白血球が細菌や真菌などを殺菌する仕組みの一部に異常がある遺伝性免疫不全症です。肺や皮膚などに感染や肉芽腫を起こすことがあります。",
+      "dailyLife": "感染の兆候に早く気付くことや日常生活での予防が重要です。学校や職場での活動方法を医療者と相談できます。",
+      "currentState": "好中球の機能検査や遺伝子検査で診断し、感染予防薬・感染症治療、必要に応じ移植などを検討します。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の資料",
+          "url": "https://www.nanbyou.or.jp/entry/350"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-45",
+      "name": "遺伝性血管性浮腫",
+      "overview": "血管の腫れを抑える仕組みなどに異常があり、皮膚・消化管・気道に繰り返すむくみが生じる遺伝性の病気です。一般的なじんましんとは病態が異なります。",
+      "dailyLife": "腹痛や手足のむくみで生活に支障が出ることがあります。のどの腫れは緊急の対応が必要で、本人と周囲で受診計画を共有します。",
+      "currentState": "補体関連の検査などで病型を評価し、発作時の治療と予防薬などを病型に応じて用います。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の資料",
+          "url": "https://www.nanbyou.or.jp/entry/350"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-27",
+      "name": "選択的IgA欠損症",
+      "overview": "粘膜を守る抗体の一種IgAが少ない、またはほとんどない免疫の状態です。無症状の人もいますが、感染や自己免疫疾患などを伴うことがあります。",
+      "dailyLife": "症状がない人では生活上の制限が少ない場合もあります。感染が続くときには必要な検査やケアを相談します。",
+      "currentState": "血液中の免疫グロブリンなどを確認し、症状に応じ感染への対応を行います。すべての人が定期的な免疫補充を必要とするわけではありません。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の資料",
+          "url": "https://www.nanbyou.or.jp/entry/350"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-160-4-3",
+      "name": "KID症候群",
+      "overview": "皮膚の角質化に加え、角膜の炎症や聴覚障害が現れることがある遺伝性の病気です。KIDは角膜炎・魚鱗癬・難聴という特徴から名付けられています。",
+      "dailyLife": "皮膚の乾燥、目の痛み、聞こえにくさが学校や生活に影響することがあります。眼科・皮膚科・耳鼻科の連携が重要です。",
+      "currentState": "皮膚と眼、聴力などを継続して評価し、保湿や眼の治療、聴覚支援を組み合わせます。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/288"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-36-1",
+      "name": "表皮水疱症（単純型）",
+      "overview": "皮膚の表皮内で細胞同士の結合が弱くなり、摩擦によって水ぶくれができやすい表皮水疱症の病型です。KRT5やKRT14などの変化が原因となる型があります。",
+      "dailyLife": "靴や衣服の摩擦で痛みや傷が生じることがあります。皮膚の保護と傷の手当てを日常に取り入れます。",
+      "currentState": "皮膚の所見と遺伝子・病理検査などで型を確認し、摩擦の軽減、傷と感染への対応を行います。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/5339"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-36-2",
+      "name": "表皮水疱症（接合部型）",
+      "overview": "表皮と真皮の接合部が弱くなり、少しの刺激で水ぶくれができる遺伝性の表皮水疱症です。病型によっては口腔や食道にも病変が生じます。",
+      "dailyLife": "皮膚の痛みや食事の難しさ、体重の管理が生活に影響する場合があります。必要に応じ栄養と皮膚の専門的な支援を受けます。",
+      "currentState": "病型と遺伝子の検査に基づき傷のケア・栄養管理・感染予防を行います。重症度によって多診療科での管理が必要です。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/5339"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-36-4",
+      "name": "表皮水疱症（劣性栄養障害型）",
+      "overview": "皮膚をつなぐVII型コラーゲンなどの働きが障害され、傷や瘢痕が生じやすい表皮水疱症の病型です。手指や食道などにも影響することがあります。",
+      "dailyLife": "皮膚を傷つけない生活の工夫だけでなく、食事や手指の動きへの支援が必要になる場合があります。",
+      "currentState": "長期的な創傷・栄養管理と必要な手術などを組み合わせます。一部の治療は病型や適応が限られ、専門医との相談が重要です。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/5339"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-168-1",
+      "name": "古典型エーラス・ダンロス症候群",
+      "overview": "皮膚が伸びやすく傷つきやすいこと、関節がよく動くことなどを特徴とする遺伝性結合組織疾患です。主にV型コラーゲンなどの異常が関係します。",
+      "dailyLife": "傷が治った後の皮膚や関節の痛みに配慮し、日常動作で無理な関節の動きを避ける工夫が役立ちます。",
+      "currentState": "診察と必要な遺伝学的検査で病型を評価し、傷のケアと関節の保護、運動機能の支援を行います。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4801"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-168-3",
+      "name": "血管型エーラス・ダンロス症候群",
+      "overview": "血管や消化管などの組織が脆くなりやすいエーラス・ダンロス症候群の病型です。COL3A1遺伝子の変化が関係することが多く、通常の関節過可動型とは異なります。",
+      "dailyLife": "血管の異常や突然の強い腹痛などに注意が必要で、緊急時の連絡先を医療者と共有することが役立ちます。",
+      "currentState": "遺伝学的検査などで評価し、血管の状態を確認しながら生活上の注意と適切な医療体制を整えます。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4801"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-222-1",
+      "name": "微小変化型ネフローゼ症候群",
+      "overview": "腎臓の糸球体からたんぱくが漏れ、むくみが現れるネフローゼ症候群の代表的な病型です。光学顕微鏡での変化が小さい一方、尿たんぱくが多くなる場合があります。",
+      "dailyLife": "まぶたや足のむくみが生活に影響することがあります。体重・尿・血圧を確認し、感染や薬の副作用にも注意します。",
+      "currentState": "腎臓の状態を評価し、ステロイドなどを使用する場合があります。再発しやすさに個人差があり、経過観察が重要です。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4516"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-222-2",
+      "name": "膜性腎症",
+      "overview": "腎臓の糸球体の膜に抗体などが関わる変化が生じ、尿にたんぱくが漏れる病気です。ネフローゼ症候群を起こすことがあります。",
+      "dailyLife": "むくみや疲れやすさが生活に影響します。血圧・尿たんぱくや腎機能の確認が大切です。",
+      "currentState": "血液検査や腎生検などで原因を調べ、血圧管理や免疫治療などを病態に応じて検討します。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4516"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-222-3",
+      "name": "巣状分節性糸球体硬化症",
+      "overview": "腎臓の糸球体の一部に硬化が起こり、尿たんぱくや腎機能の低下が生じる病気です。原因には遺伝的背景やほかの病気に伴うものなどがあります。",
+      "dailyLife": "むくみや血圧の問題が生活に影響する場合があります。腎機能と尿たんぱくを長期的に確認します。",
+      "currentState": "腎生検などで原因と病型を調べ、腎保護療法や適応に応じた免疫治療を行います。すべての型に同じ治療は用いません。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4516"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-251-3",
+      "name": "古典型シトルリン血症",
+      "overview": "ASS1遺伝子に関連する尿素サイクルの障害により、アンモニアの処理が十分にできない遺伝性代謝疾患です。新生児期などに高アンモニア血症を起こす場合があります。",
+      "dailyLife": "食事・栄養の管理と、発熱や食事が取れないときの対応計画が大切です。成長に合わせた支援が必要です。",
+      "currentState": "血液中のアンモニアやアミノ酸、遺伝学的検査で評価し、薬と専門的な栄養療法などを組み合わせます。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4732"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-256-5",
+      "name": "筋型糖原病V型",
+      "overview": "筋肉で糖原を分解する酵素の不足により、運動時に筋肉がエネルギーを得にくくなる糖原病の病型です。マッカードル病とも呼ばれ、筋肉痛や運動不耐がみられます。",
+      "dailyLife": "運動の途中で筋肉が痛んだり疲れやすくなったりすることがあります。本人に合った運動方法を専門医と検討します。",
+      "currentState": "酵素・遺伝子検査などで評価し、激しい運動による筋損傷への注意や安全な活動方法を確認します。",
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-257-1-1",
+      "name": "糖原病Ⅰa型",
+      "overview": "肝臓で糖原からブドウ糖を供給する酵素の働きが低下する遺伝性の糖原病です。空腹時の低血糖や肝臓の腫大などがみられます。",
+      "dailyLife": "食事の間隔や体調不良時の対応が重要です。栄養管理は年齢と状態に応じ、専門チームの指示に沿って行います。",
+      "currentState": "血糖と代謝の検査、遺伝子検査などで診断し、低血糖を防ぐ専門的な食事療法を行います。",
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-301-1",
+      "name": "卵黄様黄斑ジストロフィー",
+      "overview": "黄斑に卵黄のような沈着物が見えることがある遺伝性網膜疾患です。ベスト病などが知られ、中心視力への影響には個人差があります。",
+      "dailyLife": "文字を読むなど中心視力を使う活動が難しくなる場合があります。見え方に合う拡大表示や照明の工夫が役立ちます。",
+      "currentState": "眼底画像や電気生理学的検査などで評価し、必要な合併症の治療とロービジョンケアを行います。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4798"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-301-4-2",
+      "name": "錐体杆体ジストロフィー",
+      "overview": "網膜の錐体と杆体の細胞の働きが徐々に障害される遺伝性の眼疾患です。中心視力や色の見分け方に加え、暗所視や周辺視野も変化することがあります。",
+      "dailyLife": "見え方の変化に応じて通学・仕事の環境を整え、拡大表示などの道具を活用できます。",
+      "currentState": "眼底画像や電気生理検査、遺伝学的検査などで評価し、視覚支援と経過観察を行います。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4798"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-301-5",
+      "name": "X連鎖性若年網膜分離症",
+      "overview": "網膜が層の間で分かれやすくなるX連鎖性の遺伝性疾患で、主に男児・男性に中心視力の低下が現れることがあります。",
+      "dailyLife": "細かい文字や遠くを見ることが難しい場合があります。視覚補助具と眼科での定期的な確認が役立ちます。",
+      "currentState": "網膜の画像検査や遺伝子検査で診断し、合併する網膜剥離などに注意して管理します。",
+      "sourceScope": "official_parent_disease_explanation",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/4798"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-81-3",
+      "name": "21-水酸化酵素欠損症",
+      "overview": "副腎皮質ホルモンをつくる21-水酸化酵素が不足する遺伝性の病気です。コルチゾールが少なくなり、病型によって塩分喪失やホルモンの変化がみられます。",
+      "dailyLife": "毎日の服薬と体調不良時の対応が必要になることがあります。家族や学校と緊急時の計画を共有します。",
+      "currentState": "ホルモン検査や遺伝子検査で病型を確認し、不足するホルモンを補充します。",
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-82-1",
+      "name": "DAX-1異常症",
+      "overview": "NR0B1（DAX1）遺伝子の変化に関連し、副腎の働きが生まれつき低下する病気です。副腎ホルモンの不足や思春期以降の性腺機能の問題が現れる場合があります。",
+      "dailyLife": "発熱や感染時のホルモン管理が生活の重要な部分になります。成長や思春期の変化に合わせた相談も必要です。",
+      "currentState": "ホルモン・遺伝子の検査で評価し、副腎皮質ホルモンの補充と内分泌機能の長期的な確認を行います。",
+      "sourceScope": "official_disease_group_index",
+      "reviewStatus": "official_category_source_supported_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "references": [
+        {
+          "title": "難病情報センター：当該疾患・病型を含む指定難病の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    }
+  ]
+}
