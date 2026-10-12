@@ -19,17 +19,22 @@ let skipped=0;
 for(const file of fname){
  const raw=j(path.join(sourceDir,file));const src=raw.Orphapacket||raw;
  const id=Number(src.ORPHAcode);if(!Number.isInteger(id)||existingCodes.has(id))continue;
- const name=normalize(src.Label),matched=byName.get(name)||[];
- if(matched.length!==1)continue;
- const r=matched[0];
+ const name=normalize(src.Label);
+ const synonyms=(Array.isArray(src.Synonyms)?src.Synonyms:[]).map(x=>x.Synonym||x.value||'').filter(Boolean);
+ const candidateNames=[{label:src.Label,basis:'preferred_name'},...synonyms.filter(x=>normalize(x).length>=10).map(x=>({label:x,basis:'official_synonym'}))];
+ const hits=candidateNames.flatMap(c=>(byName.get(normalize(c.label))||[]).map(r=>({r,basis:c.basis,label:c.label})));
+ const ids=[...new Set(hits.map(x=>x.r.id))];
+ if(ids.length!==1)continue;
+ const matched=hits.find(x=>x.basis==='preferred_name')||hits[0];
+ const r=matched.r;
  const phenos=src.Phenotypes?.Phenotype;
  const list=Array.isArray(phenos)?phenos:phenos?[phenos]:[];
  const ph=list.map(x=>x.Phenotype||x).filter(x=>/^HP:\d{7}$/.test(String(x.HPOId||''))).filter(x=>!String(x.HPOFrequency||'').toLowerCase().includes('excluded')).map(x=>({id:x.HPOId,name:x.HPOTerm,frequency:x.HPOFrequency}));
  const genes=src.Genes?.Gene;const gl=(Array.isArray(genes)?genes:genes?[genes]:[]).map(x=>x.Gene||x).filter(x=>x.Symbol).map(x=>({symbol:x.Symbol,association:x.DisorderGeneAssociationType||''}));
- candidateList.push({id:r.id,name:r.name_ja,en:r.name_en,code:id,label:src.Label,parent:r.parent_disease_id,kind:r.concept_kind,orphaType:src.DisorderType?.value||null,hpo:ph.length,phenotypes:ph,genes:gl,packetFile:file});
+ candidateList.push({id:r.id,name:r.name_ja,en:r.name_en,code:id,label:src.Label,matchedTerm:matched.label,matchBasis:matched.basis,definition:src.TextSection?.Contents||null,parent:r.parent_disease_id,kind:r.concept_kind,orphaType:src.DisorderType?.value||null,hpo:ph.length,phenotypes:ph,genes:gl,packetFile:file});
 }
 const seen=new Map();for(const r of candidateList){const arr=seen.get(r.id)||[];arr.push(r.code);seen.set(r.id,arr);}
-const selected=candidateList.filter(x=>seen.get(x.id).length===1).sort((a,b)=>b.hpo-a.hpo||a.id.localeCompare(b.id));
-const report={asOf:'2026-10-12',source:'OrphaPacket official repository / HPO',existing:records.length,eligibleUnlisted:unlisted.length,packets:fname.length,exactMatches:candidateList.length,unique:selected.length,withHpo:selected.filter(x=>x.hpo>0).length,selected};
+const selected=candidateList.filter(x=>seen.get(x.id).length===1).sort((a,b)=>Number(a.matchBasis!=='preferred_name')-Number(b.matchBasis!=='preferred_name')||b.hpo-a.hpo||a.id.localeCompare(b.id));
+const report={asOf:'2026-10-12',source:'OrphaPacket official repository / HPO',existing:records.length,eligibleUnlisted:unlisted.length,packets:fname.length,exactMatches:candidateList.length,unique:selected.length,withHpo:selected.filter(x=>x.hpo>0).length,exactPreferred:selected.filter(x=>x.matchBasis==='preferred_name').length,viaSynonym:selected.filter(x=>x.matchBasis==='official_synonym').length,selected};
 fs.writeFileSync(path.join(root,'data/guide_orpha_exact_candidates_after553_20261012.json'),JSON.stringify(report,null,2)+'\n');
-console.log(JSON.stringify({existing:report.existing,packets:report.packets,eligible:report.eligibleUnlisted,exact:report.exactMatches,unique:report.unique,withHpo:report.withHpo,first:selected.slice(0,20).map(x=>({id:x.id,name:x.name,code:x.code,hpo:x.hpo}))},null,2));
+console.log(JSON.stringify({existing:report.existing,packets:report.packets,eligible:report.eligibleUnlisted,exact:report.exactMatches,unique:report.unique,withHpo:report.withHpo,exact:report.exactPreferred,viaSynonym:report.viaSynonym,first:selected.slice(0,20).map(x=>({id:x.id,name:x.name,code:x.code,hpo:x.hpo}))},null,2));
