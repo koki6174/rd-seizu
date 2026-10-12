@@ -1,0 +1,555 @@
+{
+  "part": 16,
+  "records": [
+    {
+      "id": "nando-106-1",
+      "name": "家族性寒冷蕁麻疹",
+      "overview": "家族性寒冷蕁麻疹（家族性寒冷自己炎症性症候群）は、寒さをきっかけに発熱や蕁麻疹に似た発疹、関節痛が起こることがある自己炎症性疾患です。クリオピリン関連周期熱症候群の比較的軽い病型に位置付けられます。",
+      "dailyLife": "寒冷刺激を受ける場面で体調が変化する場合があります。活動を過度に制限せず、症状を医療者と共有しながら環境を調整します。",
+      "currentState": "炎症の仕組みを評価し、IL-1の働きを抑える薬などを病状に応じて検討します。ほかの寒冷蕁麻疹とは鑑別が必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/3994"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 76
+    },
+    {
+      "id": "nando-106-2",
+      "name": "Muckle-Wells症候群",
+      "overview": "マックル・ウェルズ症候群はNLRP3などに関わる免疫の調節異常により、発熱や発疹、関節症状が繰り返し現れる自己炎症性疾患です。感音難聴やアミロイドーシスを合併する場合があります。",
+      "dailyLife": "炎症の発作とともに聴力や腎臓の状態を長期的に確認することが重要です。学校・仕事での休息や配慮が必要になる人もいます。",
+      "currentState": "IL-1阻害薬などを病状に応じて検討し、聴力、腎臓、全身の炎症を定期的に評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/3994"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 77
+    },
+    {
+      "id": "nando-106-3",
+      "name": "CINCA症候群",
+      "overview": "CINCA症候群（NOMID）は乳児期から発疹や炎症が続き、神経・眼・関節などに影響することがある重い自己炎症性疾患です。同じCAPSでも家族性寒冷蕁麻疹とは症状が異なります。",
+      "dailyLife": "発熱や関節の痛み、聴覚・視覚、成長などへの支援が必要になる場合があります。家庭・教育・医療が連携することが大切です。",
+      "currentState": "専門医がIL-1阻害薬などを用いて炎症を抑え、神経・眼・骨・関節などの状態を継続的に確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/3994"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 78
+    },
+    {
+      "id": "nando-107-1",
+      "name": "全身型若年性特発性関節炎",
+      "overview": "全身型若年性特発性関節炎は子どもの発熱、発疹、関節炎など全身に強い炎症が起こる病型です。関節の炎症が後から目立つ場合もあり、関節型とは治療上の特徴が異なります。",
+      "dailyLife": "発熱や疲れやすさが学校生活や遊びに影響することがあります。体調に合わせた学習・活動の調整と周囲の理解が重要です。",
+      "currentState": "炎症の強さを評価し、IL-1・IL-6に関わる薬などを病状に応じて使います。重い全身炎症などの合併症に注意します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/3947"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 79
+    },
+    {
+      "id": "nando-107-2",
+      "name": "関節型若年性特発性関節炎",
+      "overview": "関節型若年性特発性関節炎は小児期に関節の腫れや痛み、こわばりが長く続く病気の一群です。影響する関節の数や血液検査などで複数の病型に分かれます。",
+      "dailyLife": "朝に関節を動かしにくい、体育や書く作業がつらいといった困りごとが現れる場合があります。学校での配慮と眼の定期検査が助けになります。",
+      "currentState": "病型に応じて抗炎症薬、免疫を調節する薬や生物学的製剤を検討します。関節だけでなくぶどう膜炎の確認も重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/3947"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 80
+    },
+    {
+      "id": "nando-109-1",
+      "name": "先天性非典型溶血性尿毒症症候群",
+      "overview": "先天性非典型溶血性尿毒症症候群は、補体という免疫の仕組みの遺伝的な調節異常などに関連して、赤血球や腎臓の細い血管が障害される病気です。",
+      "dailyLife": "体調の変化時に貧血や腎機能障害が進むことがあります。本人と家族が早めの受診の目安を共有しておくことが大切です。",
+      "currentState": "遺伝的な要因と補体の働きを評価し、病状に応じ補体阻害薬などを検討します。腎臓の機能を長期的に確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 81
+    },
+    {
+      "id": "nando-109-2",
+      "name": "後天性非典型溶血性尿毒症症候群",
+      "overview": "後天性非典型溶血性尿毒症症候群は遺伝的な原因だけでは説明できない補体の調節異常などが関わる病型として分類されています。血液と腎臓に急な障害を生じることがあります。",
+      "dailyLife": "突然の疲れやむくみ、尿量の変化などが現れる場合があります。腎臓・血液の状態を医療機関で速やかに調べることが重要です。",
+      "currentState": "二次性の血栓性微小血管症との区別を含む専門的な評価が必要です。補体を標的とする治療などの適応を病態に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 82
+    },
+    {
+      "id": "nando-61-1",
+      "name": "温式自己免疫性溶血性貧血",
+      "overview": "温式自己免疫性溶血性貧血は、体温に近い温度で働く自己抗体により赤血球が壊れやすくなる病気です。貧血や黄疸、疲れやすさなどがみられます。",
+      "dailyLife": "息切れや動悸が日常生活に影響することがあります。急な症状の変化や治療中の感染に注意し、定期的な血液検査を続けます。",
+      "currentState": "病気の原因と重症度を調べ、ステロイドや免疫治療などを検討します。血液の状態と副作用を継続して確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 83
+    },
+    {
+      "id": "nando-61-2",
+      "name": "寒冷凝集素症",
+      "overview": "寒冷凝集素症は低い温度で反応する自己抗体が赤血球の破壊を引き起こす病気です。貧血のほか、寒い環境で手足が冷えて色が変わることがあります。",
+      "dailyLife": "寒さで症状が悪化する人は、保温や医療機関での処置時の温度管理が役立ちます。貧血による疲れやすさへの配慮も大切です。",
+      "currentState": "病型と原因を調べ、補体の働きや抗体産生を標的とする治療などを検討します。温式の病型と治療方法が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 84
+    },
+    {
+      "id": "nando-61-5",
+      "name": "エヴァンズ症候群",
+      "overview": "エヴァンズ症候群は免疫の異常により、赤血球が壊れやすくなる溶血性貧血と血小板の減少が同時または時期を変えて起こる病気です。ほかの自己免疫疾患に関連する場合もあります。",
+      "dailyLife": "貧血によるだるさと出血しやすさの両方への注意が必要になる場合があります。受診や学校・仕事の予定を病状に合わせて調整します。",
+      "currentState": "血球の変化と背景疾患を調べ、ステロイドや免疫治療などを病状に応じて検討します。再燃や薬の副作用も確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 85
+    },
+    {
+      "id": "nando-62-1",
+      "name": "古典的PNH",
+      "overview": "古典的PNH（発作性夜間ヘモグロビン尿症）は、血液をつくる細胞の後天的な変化により、補体の作用で赤血球が壊れやすくなる病型です。貧血や血栓などが問題になります。",
+      "dailyLife": "疲れやすさ、腹痛、尿の色の変化などが生活に影響する場合があります。血栓や感染の兆候に注意し、継続した通院が重要です。",
+      "currentState": "補体阻害薬などを病状に応じて検討し、溶血と血栓の危険性を管理します。治療前後の感染予防も大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/3783"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 86
+    },
+    {
+      "id": "nando-62-2",
+      "name": "骨髄不全型PNH",
+      "overview": "骨髄不全型PNHは発作性夜間ヘモグロビン尿症に関連する細胞集団がありながら、血球をつくる骨髄の働きの低下が中心となる病型です。再生不良性貧血と重なることがあります。",
+      "dailyLife": "貧血や感染・出血の危険性など、血球減少に応じた生活上の配慮が必要になる場合があります。",
+      "currentState": "溶血と骨髄不全のどちらが中心かを専門的に評価し、免疫療法、補体阻害薬、輸血などを状態に合わせて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/3783"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 87
+    },
+    {
+      "id": "nando-64-1",
+      "name": "先天性血栓性血小板減少性紫斑病",
+      "overview": "先天性血栓性血小板減少性紫斑病は、ADAMTS13という酵素の遺伝的な不足によって細い血管に血栓ができやすくなる病気です。血小板減少や溶血性貧血が現れます。",
+      "dailyLife": "発熱や妊娠などの状況で病状が変化する場合があります。本人と医療者が緊急時や長期管理の計画を共有することが重要です。",
+      "currentState": "ADAMTS13の働きを確認して診断し、酵素の補充や血漿製剤などを病態・利用可能な治療に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/87"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 88
+    },
+    {
+      "id": "nando-64-2",
+      "name": "後天性原発性血栓性血小板減少性紫斑病",
+      "overview": "後天性原発性血栓性血小板減少性紫斑病はADAMTS13を妨げる自己抗体などによって微小血栓ができる、急いで治療が必要な病気です。神経や腎臓にも影響する場合があります。",
+      "dailyLife": "急なあざ、強い疲労、意識の変化などがある場合は速やかな医療対応が必要です。回復後も再発への備えが大切です。",
+      "currentState": "血漿交換、免疫抑制療法、抗体を標的とする治療などを専門施設で組み合わせます。先天性TTPとは病因が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/87"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 89
+    },
+    {
+      "id": "nando-65-1",
+      "name": "X連鎖重症複合免疫不全症",
+      "overview": "X連鎖重症複合免疫不全症は、免疫細胞の働きに必要な遺伝子の変化により、乳児期から重い感染症を起こしやすくなる遺伝性疾患です。主に男児に発症します。",
+      "dailyLife": "感染を避けるための環境調整が必要になる場合があります。家族と医療スタッフが治療・ワクチン・外出などの方針を共有します。",
+      "currentState": "免疫機能を評価して早期診断し、造血幹細胞移植や遺伝子治療などの適応を専門施設で検討します。感染症への対応も重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 90
+    },
+    {
+      "id": "nando-65-10",
+      "name": "ウィスコット・オルドリッチ症候群",
+      "overview": "ウィスコット・オルドリッチ症候群はWAS遺伝子に関係する免疫の病気です。小さな血小板の減少による出血しやすさ、湿疹、感染症などを伴うことがあります。",
+      "dailyLife": "皮膚の症状や出血、感染への配慮が必要になる場合があります。学校・家庭で緊急時の対応を共有することが助けになります。",
+      "currentState": "感染・出血への対応と免疫機能の評価を行い、病状に応じ造血幹細胞移植などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 91
+    },
+    {
+      "id": "nando-65-11",
+      "name": "毛細血管拡張性運動失調症",
+      "overview": "毛細血管拡張性運動失調症はATM遺伝子などに関連して、歩行のふらつき、皮膚・眼の血管の変化、免疫機能の障害などが起こる病気です。",
+      "dailyLife": "転倒や感染への対策、学習・移動の環境調整が必要になる場合があります。検査や治療の放射線への配慮を医療者と共有することも重要です。",
+      "currentState": "運動・免疫の評価と感染症への対応を行います。腫瘍などの合併症に注意して、専門的な長期フォローを続けます。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 92
+    },
+    {
+      "id": "nando-67-1",
+      "name": "常染色体優性多発性嚢胞腎",
+      "overview": "常染色体優性多発性嚢胞腎（ADPKD）は、主にPKD1・PKD2などに関連し、腎臓に多数の嚢胞ができる病気です。成人期に腎機能の低下や高血圧などが現れることがあります。",
+      "dailyLife": "無症状のうちから血圧や腎機能を確認することが重要です。腹部の張りや痛みなどに応じて活動を調整します。",
+      "currentState": "血圧管理や腎機能を守る治療を行い、条件を満たす場合には嚢胞の増大を抑える薬などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/146"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 93
+    },
+    {
+      "id": "nando-67-2",
+      "name": "常染色体劣性多発性嚢胞腎",
+      "overview": "常染色体劣性多発性嚢胞腎（ARPKD）は主にPKHD1などの遺伝子に関係し、腎臓と肝臓に特徴的な変化がみられる病気です。乳児期から症状が出る場合もあります。",
+      "dailyLife": "腎機能、血圧や肝臓の状態に合わせた通院・栄養の管理が必要になる場合があります。成長に応じた学校・家庭での支援が重要です。",
+      "currentState": "腎臓と肝臓の機能を評価し、血圧管理や合併症への治療を行います。必要に応じ腎代替療法などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/146"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 94
+    },
+    {
+      "id": "nando-81-3",
+      "name": "21-水酸化酵素欠損症",
+      "overview": "21-水酸化酵素欠損症は副腎でホルモンをつくる酵素の働きが不足する先天性疾患です。コルチゾールやアルドステロンが不足し、別のホルモンが増える場合があります。",
+      "dailyLife": "病型によって毎日のホルモン補充や、発熱など体調不良時の緊急対応が必要になります。家族や学校との情報共有が大切です。",
+      "currentState": "ホルモン値を調べて不足分を補充し、成長・代謝を確認します。脱水や副腎クリーゼを防ぐための対応計画を医療者と共有します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 95
+    },
+    {
+      "id": "nando-82-5",
+      "name": "Allgrove症候群",
+      "overview": "オールグローブ症候群は副腎皮質ホルモンの不足、涙が出にくいこと、食道の運動障害などを伴うことがある遺伝性疾患です。「トリプルA症候群」とも呼ばれます。",
+      "dailyLife": "食事の飲み込みや眼の乾燥に配慮が必要になる場合があります。副腎機能の低下に備えた服薬・緊急時の対応も重要です。",
+      "currentState": "内分泌・消化管・眼科などが協力し、ホルモン補充や症状に応じた治療を行います。神経症状も含め長期的に評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 96
+    },
+    {
+      "id": "nando-85-1",
+      "name": "特発性肺線維症",
+      "overview": "特発性肺線維症（IPF）は原因を特定できないまま肺の組織が線維化し、息切れや空せきが現れる病気です。ほかの間質性肺炎とは病型や治療が異なります。",
+      "dailyLife": "坂道や階段で息切れが強くなる場合があります。活動量の調整、感染予防、酸素の状態の確認が日常生活を支えます。",
+      "currentState": "高分解能CTなどで病型を評価し、抗線維化薬や呼吸リハビリ、酸素療法などを病状に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/302"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 97
+    },
+    {
+      "id": "nando-96-1",
+      "name": "小腸型クローン病",
+      "overview": "小腸型クローン病は小腸を中心に慢性的な炎症が起こる炎症性腸疾患の病型です。腹痛や下痢、栄養の吸収障害、小腸が狭くなる症状などがみられることがあります。",
+      "dailyLife": "食事や外出、体重の変化が生活に影響する場合があります。栄養の確保と症状に合わせた食事の工夫を医療者と相談します。",
+      "currentState": "炎症を抑える薬や栄養療法などを病状に応じて選び、狭窄や瘻孔などの合併症も確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 98
+    },
+    {
+      "id": "nando-97-3",
+      "name": "潰瘍性大腸炎（直腸炎型）",
+      "overview": "直腸炎型潰瘍性大腸炎は、大腸の炎症が主として直腸の範囲にある病型です。血便、便意が頻繁に起こる、排便後も残る感じなどがみられます。",
+      "dailyLife": "突然トイレへ行きたくなることが外出や仕事の負担になる場合があります。症状が落ち着いている時期にも定期受診が大切です。",
+      "currentState": "炎症の範囲を内視鏡などで評価し、直腸に作用する薬や内服薬などを病状に応じて使います。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 99
+    },
+    {
+      "id": "nando-98-2",
+      "name": "好酸球性食道炎",
+      "overview": "好酸球性食道炎は食道の粘膜で好酸球が関わる炎症が続き、食べ物が通りにくい、飲み込みにくいなどの症状が生じる病気です。",
+      "dailyLife": "食事に時間がかかる、食べ物が詰まるなどの困りごとが現れることがあります。栄養を保ちながら安全に食べる方法を相談します。",
+      "currentState": "内視鏡と組織検査で評価し、酸を抑える薬、局所ステロイド、食事療法などを病状に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：病型を含む指定難病の公的情報・索引",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral"
+        },
+        {
+          "title": "NANDO：分類名と病型の対応",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_or_official_index;subtype_content_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 16,
+      "selectionIndex": 100
+    }
+  ]
+}
