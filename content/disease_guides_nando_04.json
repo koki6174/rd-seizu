@@ -345,7 +345,7 @@
       "name_en": "D-bifunctional protein deficiency",
       "overview": "D-二頭酵素欠損症は、ペルオキシソームで脂肪酸などを分解する働きが障害される遺伝性代謝疾患です。乳児期から神経症状や発達への影響が現れる場合があります。",
       "dailyLife": "食事、姿勢、呼吸などへの支援が必要になる人がいます。家族と医療・福祉が連携して生活を支えることが重要です。",
-      "currentState": "脂肪酸の代謝検査や遺伝子検査などで診断し、栄養・神経症状・全身状態への対応を行います。",
+      "currentState": "脂肪酸の代謝検査や遺伝子検査などで病型を確認し、栄養や神経症状、呼吸などに応じた多職種の支援を行います。",
       "parentDiseaseId": "mhlw-0234",
       "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
       "references": [
@@ -417,7 +417,7 @@
       "name_en": "9q34 deletion syndrome",
       "overview": "9q34欠失症候群は9番染色体の長腕の一部が欠けることに関連する先天性疾患です。欠失の範囲によって発達、筋緊張、顔貌などに特徴が現れる場合があります。",
       "dailyLife": "学習やコミュニケーション、姿勢の保持などに支援が必要になることがあります。本人の成長に合わせて生活環境を調整します。",
-      "currentState": "染色体検査などで欠失部位を特定し、心臓や発達などの合併症に応じた治療と支援を行います。",
+      "currentState": "染色体検査で欠失部位を評価し、発達や心臓などの合併症を確認します。個別の症状に合わせた治療と発達支援を行います。",
       "parentDiseaseId": "mhlw-0310",
       "sourceScope": "parent_disease_and_nando_taxonomy_not_full_subtype_clinical_review",
       "references": [
