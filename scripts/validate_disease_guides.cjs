@@ -57,6 +57,11 @@ assert(app.includes("client.rpc('pick_discovery_disease'"),'preserve original ra
 assert(app.includes("const record=guides?await guides.get(choice.id):null"));
 assert(article.includes('id="disease-sources"')&&!article.includes('医療専門家による個別監修は未実施'));
 assert(articleJs.includes("source.url")&&articleJs.includes("document.title"));
+// Each disease overview must appear once, only in the first article section.
+assert(article.includes('id="disease-overview"') && !article.includes('id="disease-intro"'));
+assert(articleJs.includes("$('disease-overview').textContent=record.overview"));
+assert(!articleJs.includes("$('disease-intro')"));
+assert(article.includes('./disease.js?v=4'));
 assert(lib.includes("map.size!==553"));
 console.log('PASS: 50 rank-matched source-checked editorial drafts and both shared links');
 console.log('Number of articles:',list.length,'number of disease-specific Nanbyou source pages:',
