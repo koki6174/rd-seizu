@@ -1,0 +1,555 @@
+{
+  "part": 3,
+  "records": [
+    {
+      "id": "shoman-4-35",
+      "name": "両大血管左室起始症",
+      "overview": "大動脈と肺動脈の両方が、通常とは異なり左心室から出ている先天性心疾患です。心臓の中の穴や血液の流れ方によって、症状と治療が異なります。",
+      "dailyLife": "息切れや体重の増えにくさ、酸素の不足などがみられる場合があります。成長とともに検査や治療が必要なこともあります。",
+      "currentState": "心エコーや画像検査で血管と心室のつながりを詳しく調べ、形に応じた手術などを専門施設で検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-38",
+      "name": "エプスタイン（Ebstein）病",
+      "overview": "右心房と右心室の間にある三尖弁の位置や形に生まれつき異常があり、血液が逆流しやすくなる心疾患です。重症度には大きな個人差があります。",
+      "dailyLife": "元気に過ごせる人もいますが、息切れや動悸、酸素の不足が生活に影響する場合があります。心臓の状態を定期的に確認します。",
+      "currentState": "心エコーで弁の形や逆流と心機能を調べます。必要に応じて不整脈への治療や弁の手術を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-40",
+      "name": "大動脈肺動脈窓",
+      "overview": "大動脈と肺動脈の間に生まれつき異常なつながりが残り、血液が肺へ過剰に流れる先天性心疾患です。重症の場合は乳児期から心不全症状が現れます。",
+      "dailyLife": "哺乳時の疲れ、呼吸の速さ、体重が増えにくいなどの変化に注意が必要です。治療前後の体調と成長を継続して確認します。",
+      "currentState": "心エコーや画像検査で穴の位置や血流を確認し、原則として外科的に交通を閉じる治療を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_40_049/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-4-41",
+      "name": "三心房心",
+      "overview": "心房が膜などで二つの部屋に分かれている先天性の心臓の形態異常です。膜が血流を妨げると肺うっ血や息切れを起こす場合があります。",
+      "dailyLife": "症状が軽い場合は通常の活動ができる人もいますが、呼吸や体重の増加などを確認して成長を支えます。",
+      "currentState": "心エコーなどで膜の位置と血液の流れを調べます。血流障害がある場合には膜を取り除く手術を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_41_050/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-4-42",
+      "name": "動脈管開存症",
+      "overview": "胎児期に大動脈と肺動脈をつなぐ動脈管が、生後も開いたままの状態です。血液の流れる量が多いと、心臓や肺に負担がかかることがあります。",
+      "dailyLife": "小さな動脈管では症状が目立たない場合もあります。呼吸が速い、哺乳で疲れるなどの変化があるときは医療者へ相談します。",
+      "currentState": "心エコーで動脈管の大きさと血流を調べ、経過観察、薬、カテーテル治療や手術を病状に応じて検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_42_051/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-4-43",
+      "name": "心房中隔欠損症",
+      "overview": "心臓の右心房と左心房を隔てる壁に穴が開いている先天性心疾患です。穴の大きさなどにより右心臓や肺へ流れる血液が増えることがあります。",
+      "dailyLife": "子どもの時期には症状が少ない場合もあります。息切れや運動時の疲れやすさに気を配り、心臓の検査を続けます。",
+      "currentState": "心エコーで穴の位置・大きさと心臓への負担を評価し、必要に応じてカテーテル閉鎖や手術を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-45",
+      "name": "心室中隔欠損症",
+      "overview": "心臓の右心室と左心室の間の壁に穴が開いている先天性心疾患です。穴の大きさによって症状がなく経過する場合も、心不全を起こす場合もあります。",
+      "dailyLife": "乳児期に哺乳量や体重増加、呼吸状態への配慮が必要になることがあります。成長に伴って穴が小さくなる場合もあります。",
+      "currentState": "心エコーで穴と血流を調べ、必要に応じて心不全への薬や、穴を閉じる手術などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_45_057/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-4-46",
+      "name": "肺静脈還流異常症",
+      "overview": "肺から戻る静脈血が、通常と異なる経路で心臓へ流れ込む先天性心疾患の一群です。全ての肺静脈が異常につながる型と一部だけの型があります。",
+      "dailyLife": "呼吸の苦しさや酸素の不足、体重の増えにくさなどが出る人もいます。病型によって受診や手術の時期が異なります。",
+      "currentState": "画像検査で肺静脈のつながりを確認し、血流障害の程度と解剖学的な形に応じた手術を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-47",
+      "name": "肺静脈狭窄症",
+      "overview": "肺から心臓へ血液を戻す肺静脈が狭くなり、肺に血液がたまりやすくなる病態です。生まれつきのものや、心疾患の手術後に起こるものがあります。",
+      "dailyLife": "息切れや酸素の不足、呼吸器症状が生活に影響する場合があります。治療後も再び狭くならないか定期的な確認が大切です。",
+      "currentState": "CTや心臓カテーテルなどで血管の狭さと肺への影響を評価し、血管を広げる治療や手術などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-48",
+      "name": "左室右房交通症",
+      "overview": "左心室から右心房へ、通常はない血流の通り道がある先天性の心臓の病気です。流れる血液の量により心臓へ負担がかかる場合があります。",
+      "dailyLife": "息切れや疲れやすさ、心臓の雑音などがみられることがあります。成長とともに血流や心機能を確認します。",
+      "currentState": "心エコーなどで通り道の位置と大きさを調べ、必要に応じて穴を閉じる外科的治療を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-49",
+      "name": "右室二腔症",
+      "overview": "右心室の内部が筋肉の肥厚などで二つの部屋に分かれ、肺動脈へ向かう血流が妨げられる先天性心疾患です。",
+      "dailyLife": "運動時の息切れや疲れやすさが現れる場合があります。心臓の血流と成長を確認し、活動量を相談します。",
+      "currentState": "心エコーなどで心室内の狭窄を評価し、血流障害が強い場合には狭窄部を広げる手術を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_49_062/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-4-50",
+      "name": "肺動脈弁下狭窄症",
+      "overview": "右心室から肺動脈へ向かう出口の弁より下の部分が狭くなり、血液を送り出しにくくなる心疾患です。心室内の筋肉の肥厚などを伴う場合があります。",
+      "dailyLife": "運動で疲れやすくなる場合があります。症状や心臓への負担によって活動上の配慮が異なります。",
+      "currentState": "心エコーで狭窄の場所と程度を調べ、血流障害が大きい場合は外科的な修復を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-51",
+      "name": "大動脈弁下狭窄症",
+      "overview": "左心室から大動脈へ血液が出る部分で、弁の下の通り道が狭くなる心疾患です。狭窄が強いと心臓へ負担がかかります。",
+      "dailyLife": "無症状の人もいますが、運動時の胸の不快感や息切れなどに注意が必要です。定期的な検査を続けます。",
+      "currentState": "心エコーで狭窄と弁の状態を確認し、程度によって経過観察や手術を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-52",
+      "name": "肺動脈狭窄症",
+      "overview": "右心室から肺動脈へ血液が流れる部分が狭くなり、右心室へ負担がかかる先天性心疾患です。狭窄の場所と程度によって症状は異なります。",
+      "dailyLife": "軽い場合は通常の活動ができる人もいます。息切れや動悸などの変化に注意し、心臓の検査を受けます。",
+      "currentState": "心エコーなどで狭窄を評価し、必要に応じてカテーテルによる拡張や手術を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-53",
+      "name": "肺動脈弁欠損",
+      "overview": "肺動脈へ血液が出る部分の弁が生まれつき欠けている、または形成が不十分な心疾患です。血液の逆流や肺動脈の拡大が起こる場合があります。",
+      "dailyLife": "呼吸が速い、哺乳で疲れるといった症状が現れることがあります。気道への影響にも注意して生活を支えます。",
+      "currentState": "心エコーや画像検査で心臓と気道の状態を調べ、必要に応じて弁・血管を修復する手術を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_53_067/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-4-54",
+      "name": "肺動脈上行大動脈起始症",
+      "overview": "一方の肺動脈が、通常とは異なって大動脈から直接出ている先天性心疾患です。二つの肺への血流と圧力に大きな差が生じることがあります。",
+      "dailyLife": "乳児期から呼吸状態や体重増加の確認が必要になる場合があります。治療後も肺の血管を長期的に調べます。",
+      "currentState": "画像で肺動脈のつながりを調べ、肺動脈を適切な位置へつなぎ直す手術などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-55",
+      "name": "一側肺動脈欠損",
+      "overview": "左右いずれか一方の肺動脈が生まれつき形成されていない病態です。肺への血流や呼吸の状態に影響し、肺高血圧などを伴う場合があります。",
+      "dailyLife": "呼吸の苦しさや感染症の繰り返しがある場合は、医療者と生活上の対応を相談します。症状が少ない人もいます。",
+      "currentState": "画像検査で肺血管の構造と血流を評価し、合併症への治療や状況に応じた外科的治療を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-56",
+      "name": "大動脈狭窄症",
+      "overview": "大動脈の一部が狭くなり、狭窄より先へ血液が流れにくくなる先天性心疾患などを含む分類です。高血圧や心臓への負担が現れることがあります。",
+      "dailyLife": "上半身と下半身の血圧差や疲れやすさに注意する場合があります。治療後も血圧と血管の状態の確認が大切です。",
+      "currentState": "心エコーやCTなどで狭窄の位置と程度を調べ、必要に応じてカテーテル治療や手術を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-57",
+      "name": "大動脈弓閉塞症",
+      "overview": "大動脈弓の一部がつながらず、体の下半分などへ十分に血液が流れない先天性心疾患です。新生児期から強い循環障害が起こる場合があります。",
+      "dailyLife": "出生後早い時期に専門的な医療と入院が必要になることがあります。治療後は成長、血圧や心臓の状態を確認します。",
+      "currentState": "血液の流れを維持する薬などで状態を安定させ、解剖学的な形に合わせて大動脈をつなぐ手術を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-58",
+      "name": "血管輪",
+      "overview": "大動脈やその枝が気管・食道の周りを輪のように囲み、呼吸や飲み込みに影響する先天性の血管の形態異常です。",
+      "dailyLife": "ぜん鳴、せき、飲み込みにくさなどが現れる場合があります。食事や呼吸の状態に応じた配慮が大切です。",
+      "currentState": "CTなどで血管と気管・食道の位置関係を評価し、強い圧迫があれば手術で改善を図ります。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_58_079/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-4-59",
+      "name": "大動脈瘤",
+      "overview": "大動脈の壁の一部が拡がり、血管がこぶのようになった状態です。小児では遺伝性結合組織疾患や先天性の血管の特徴などが原因になる場合があります。",
+      "dailyLife": "症状がない時期にも血管の大きさや血圧を調べることが重要です。運動の負荷は危険度に応じて相談します。",
+      "currentState": "CT・MRIや心エコーで血管を評価し、血圧管理や必要時の外科的治療を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-63",
+      "name": "心臓弁膜症",
+      "overview": "心臓の弁が狭くなったり閉じにくくなったりし、血流の異常が生じる病気の総称です。原因は先天的な形の違いや炎症などさまざまです。",
+      "dailyLife": "息切れや疲れやすさ、動悸がある場合は活動を調整します。心臓の雑音だけで重症度は判断できません。",
+      "currentState": "心エコーで弁の状態と心臓への負担を調べ、薬、カテーテル治療や弁の修復手術などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-64",
+      "name": "僧帽弁弁上輪",
+      "overview": "僧帽弁の上に輪のような膜状構造があり、左心房から左心室への血液の流れが狭くなる先天性心疾患です。",
+      "dailyLife": "血流障害が強いと呼吸の苦しさや体重の増えにくさにつながることがあります。成長と心機能を継続して確認します。",
+      "currentState": "心エコーなどで膜と弁の状態を調べ、必要に応じて膜を取り除く手術などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-65",
+      "name": "内臓錯位症候群",
+      "overview": "心臓や腹部の臓器の位置と左右の並び方に、胎児期から特徴がある病態の一群です。複雑な先天性心疾患や脾臓の機能の違いを伴う場合があります。",
+      "dailyLife": "心臓や免疫の状態に応じて、手術後の通院や感染への配慮が必要になることがあります。臓器の特徴は人によって異なります。",
+      "currentState": "心臓、腹部臓器や脾機能を調べ、個々の合併症に応じた治療と長期的な支援を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-66",
+      "name": "フォンタン（Fontan）術後症候群",
+      "overview": "複雑な先天性心疾患に対するフォンタン手術の後に、静脈の血液を肺へ送る特殊な循環が長く続く状態を指します。心臓だけでなく肝臓や腸などに影響することがあります。",
+      "dailyLife": "運動時の疲れやすさ、むくみ、栄養や肝臓の問題などに配慮が必要な場合があります。長期的な診察と生活上の支援が重要です。",
+      "currentState": "心臓の機能や静脈圧、肝臓などの状態を定期的に評価し、薬やカテーテル治療などを症状に合わせて検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_66_098/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    }
+  ]
+}

@@ -39,7 +39,7 @@ assert(!html.includes('医療専門家による個別監修は未実施です。
 assert(html.includes('病状や治療は一人ひとり異なる'));
 const loader=fs.readFileSync(path.join(root,'content/disease-guides.js'),'utf8');
 for(let i=1;i<=4;i++)assert(loader.includes(`disease_guides_extra_0${i}.json`));
-assert(loader.includes('map.size!==553'));
+assert(loader.includes('map.size!==653'));
 const total=added.reduce((n,x)=>n+x.overview.length+x.dailyLife.length+x.currentState.length,0);
 console.log('PASS: 50 original + 100 additional = 150 exact catalog disease guides.');
 console.log('100 new original guide paragraphs: '+total+' Japanese Unicode characters in overview/living/treatment.');

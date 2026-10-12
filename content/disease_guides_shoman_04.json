@@ -1,0 +1,555 @@
+{
+  "part": 4,
+  "records": [
+    {
+      "id": "shoman-5-1",
+      "name": "下垂体機能低下症",
+      "overview": "脳の下垂体から分泌されるホルモンの一つまたは複数が不足し、成長、代謝、思春期などに影響する病態の総称です。原因によって症状の組み合わせが異なります。",
+      "dailyLife": "疲れやすさ、成長の遅れなどへの配慮が必要になる場合があります。不足するホルモンによって毎日の薬や病気のときの対応が違います。",
+      "currentState": "血液のホルモン検査や下垂体の画像検査で原因を調べ、不足するホルモンの補充を個別に行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-4",
+      "name": "成長ホルモン分泌不全性低身長症",
+      "overview": "成長ホルモンの分泌が不足するため、身長の伸びが遅くなることのある病態です。ほかの下垂体ホルモンの不足を伴う場合もあります。",
+      "dailyLife": "定期的に身長や成長速度を確認し、学校生活や本人の気持ちにも配慮することが大切です。身長だけで健康状態を判断しません。",
+      "currentState": "成長曲線、血液検査や負荷試験などを用いて原因を評価し、適応があれば成長ホルモン補充療法を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-5",
+      "name": "成長ホルモン不応性症候群",
+      "overview": "成長ホルモンは分泌されていても体がその作用を十分に受け取れず、成長が遅くなる病気の一群です。受容体や関連する情報伝達の異常が原因になる場合があります。",
+      "dailyLife": "成長の違いに伴う生活の困りごとや心理的な負担に配慮します。本人の発達を長期的にみながら支援します。",
+      "currentState": "成長ホルモンとIGF-1などを調べて原因を評価します。病型によってはIGF-1製剤などの治療が選択肢になります。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-6",
+      "name": "高プロラクチン血症",
+      "overview": "血液中のプロラクチンというホルモンが高くなる状態です。薬や病気の影響、下垂体の腫瘍などが関係することがあり、月経の変化などがみられます。",
+      "dailyLife": "症状がない場合もありますが、月経や生殖機能、頭痛などの悩みにつながることがあります。相談しやすい診療環境が大切です。",
+      "currentState": "原因薬剤や下垂体の状態を調べ、原因に応じて経過観察やプロラクチンを抑える薬などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/05_06_009/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-5-7",
+      "name": "抗利尿ホルモン（ADH）不適切分泌症候群",
+      "overview": "体内の水分を保つバソプレシンが必要以上に作用し、水が体内にたまって血液のナトリウムが低くなりやすくなる状態です。原因は薬剤やさまざまな病気があります。",
+      "dailyLife": "だるさや吐き気などが現れる場合があります。水を飲む量を自己判断で大幅に変えず、医療者の指示を確認することが重要です。",
+      "currentState": "血液・尿の電解質などから原因を調べ、原因疾患への対応と水分管理などを慎重に行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/05_07_010/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-5-8",
+      "name": "尿崩症",
+      "overview": "体内の水分を調節するバソプレシンの分泌や腎臓での働きが不足し、大量の薄い尿と強い口渇を生じる病気の一群です。",
+      "dailyLife": "外出時や学校で水分やトイレを確保できる環境が大切です。乳幼児では脱水への注意が特に必要な場合があります。",
+      "currentState": "中枢性か腎性かなど原因を見分け、ホルモンを補う薬や水分・電解質の管理を適切に行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-9",
+      "name": "中枢性塩喪失症候群",
+      "overview": "脳の病気や手術後などに、体内のナトリウムが尿から多く失われて低ナトリウム血症や脱水が起こる病態です。水分が過剰になるほかの病態との鑑別が重要です。",
+      "dailyLife": "頭痛やだるさ、ふらつきが生じる場合があります。水分と塩分の調整は病態により異なるため、自己判断を避けることが大切です。",
+      "currentState": "血液・尿の電解質と体液量を評価し、必要な水分やナトリウムの補充を医療機関で調整します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/05_09_014/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-5-10",
+      "name": "甲状腺機能亢進症",
+      "overview": "甲状腺ホルモンが必要以上につくられる、または血液中に増えて体の代謝が高まる病態です。動悸、汗の増加、体重減少、手の震えなどがみられます。",
+      "dailyLife": "疲れやすさや動悸、集中しにくさが学業に影響する場合があります。十分な休息と通院を続けることが大切です。",
+      "currentState": "血液の甲状腺ホルモン・抗体検査などで原因を見分け、薬やその他の治療を原因に応じて検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-11",
+      "name": "甲状腺機能低下症",
+      "overview": "甲状腺ホルモンの働きが不足して代謝が低下する状態です。子どもでは成長や発達への影響が生じることがあり、先天性と後天性の原因があります。",
+      "dailyLife": "疲れやすさ、寒がり、成長の遅れなどが生活に影響する場合があります。毎日の薬と成長の確認が必要な人もいます。",
+      "currentState": "甲状腺ホルモンと原因を検査で確認し、必要に応じて甲状腺ホルモン製剤で補充します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-13",
+      "name": "腺腫様甲状腺腫",
+      "overview": "甲状腺に複数の結節ができたり、腫大したりする病態です。機能が正常な場合もありますが、ホルモンの過剰や首の圧迫症状を伴う場合があります。",
+      "dailyLife": "首の腫れや飲み込みにくさなどに気付いた場合は医療機関で相談します。無症状でも変化を追うことがあります。",
+      "currentState": "超音波やホルモン検査などで結節の状態を調べ、経過観察や必要な治療を判断します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/05_13_025/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-5-14",
+      "name": "副甲状腺機能亢進症",
+      "overview": "副甲状腺ホルモンの分泌や作用が過剰になり、血液のカルシウムが増えることなどによって骨や腎臓に影響する病態です。",
+      "dailyLife": "のどの渇き、疲れやすさ、尿路結石などがみられる場合があります。症状がなくても血液・尿の検査が必要です。",
+      "currentState": "カルシウムと副甲状腺ホルモンを調べ、原因に応じて経過観察、薬や手術などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/05_14_026/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-5-16",
+      "name": "自己免疫性多内分泌腺症候群",
+      "overview": "複数の内分泌器官に自己免疫が関わる病気が生じる症候群の総称です。甲状腺、副腎、副甲状腺など、影響する臓器は病型によって異なります。",
+      "dailyLife": "服薬や通院が長期にわたる場合があります。体調不良の際の対応や、新たなホルモン不足の兆候を医療者と共有します。",
+      "currentState": "どのホルモンが不足・過剰になっているかを検査で調べ、器官ごとの治療と定期的な評価を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-18",
+      "name": "クッシング（Cushing）症候群",
+      "overview": "副腎でつくられるコルチゾールというホルモンが過剰になり、体重・血圧・血糖や骨に影響する病態の総称です。下垂体、副腎、薬など原因が異なります。",
+      "dailyLife": "疲れやすさ、筋力低下、体形や皮膚の変化などが本人の生活と気持ちに影響する場合があります。",
+      "currentState": "ホルモン検査や画像検査で原因を調べ、原因となる腫瘍の治療や薬の調整などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-19",
+      "name": "慢性副腎皮質機能低下症",
+      "overview": "副腎皮質からのコルチゾールやアルドステロンなどが不足する状態が続く病態です。疲労、低血圧、食欲低下などが生じ、原因によって不足するホルモンが違います。",
+      "dailyLife": "毎日の服薬が必要になる場合があり、発熱・けがの際には追加の対応が必要な人もいます。緊急時の計画を共有します。",
+      "currentState": "副腎と下垂体のホルモンを調べ、不足するホルモンを補充します。発熱や手術時など、普段より多くの補充が必要になる場面についても医療者と事前に計画を立てます。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-20",
+      "name": "アルドステロン症",
+      "overview": "副腎からアルドステロンが過剰に分泌される、またはその作用が異常になる病態の一群です。高血圧や血液中のカリウムの変化を伴う場合があります。",
+      "dailyLife": "血圧が高くても症状が目立たないことがあります。家庭での血圧測定や定期的な検査が大切です。",
+      "currentState": "ホルモン・電解質検査と原因を調べ、薬や原因病変への治療を検討します。治療中も血圧やカリウム、腎臓の状態を継続的に確認します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-21",
+      "name": "見かけの鉱質コルチコイド過剰症候群（AME症候群）",
+      "overview": "体内のアルドステロンが増えていないのに、腎臓でその作用が強く表れる遺伝性の病気です。幼少期から高血圧やカリウム低下が起こる場合があります。",
+      "dailyLife": "血圧の管理と通院を続けることが大切です。薬の種類や食事の指導は病態によって異なるため、医療者に確認します。",
+      "currentState": "血圧やホルモンの検査、必要に応じて遺伝子検査で評価し、原因に合う薬を用います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-23",
+      "name": "低アルドステロン症",
+      "overview": "副腎からのアルドステロンが不足し、塩分とカリウムの調節が難しくなる病態です。脱水や低血圧、カリウムの上昇などが起こる場合があります。",
+      "dailyLife": "体調不良時に水分や電解質の状態が変わりやすい人がいます。服薬と緊急時の対応を医療者と共有することが重要です。",
+      "currentState": "ホルモンと電解質を調べ、原因に応じてホルモン補充や塩分・水分管理を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-24",
+      "name": "偽性低アルドステロン症",
+      "overview": "アルドステロンが作用する腎臓の仕組みが十分に働かず、塩分を失いやすいなどの症状を示す病態です。遺伝性の型と一時的な原因による型があります。",
+      "dailyLife": "乳児では脱水や体重増加の不良に注意が必要な場合があります。水分や塩分の管理を医療者と相談します。",
+      "currentState": "血液と尿の電解質、ホルモンなどを調べて原因を見分け、必要な補充と病因に応じた治療を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-25",
+      "name": "先天性副腎過形成症",
+      "overview": "副腎でステロイドホルモンをつくる酵素などの働きが生まれつき低下する病気の一群です。コルチゾールなどの不足や性ホルモンの変化を伴います。",
+      "dailyLife": "病型によって毎日の服薬や発熱時の対応が重要になります。成長や思春期について長期的な相談が必要な場合があります。",
+      "currentState": "ホルモン検査や遺伝子検査で病型を調べ、不足するホルモンの補充などを調整します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別の病型別解説",
+          "url": "https://www.shouman.jp/disease/details/05_25_056/",
+          "sourceScope": "subtype_related_reference"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-26",
+      "name": "思春期早発症",
+      "overview": "一般的な時期より早く思春期の体の変化が始まる状態です。脳からのホルモン調節による型と、それ以外の原因による型があります。",
+      "dailyLife": "体の変化が早いことで不安や戸惑いを感じる子どももいます。本人の気持ちや学校生活に配慮することが重要です。",
+      "currentState": "成長曲線、骨年齢とホルモン検査などで原因を調べ、病型によって治療や経過観察を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-27",
+      "name": "エストロゲン過剰症（思春期早発症を除く。）",
+      "overview": "エストロゲンの分泌や働きが過剰になり、思春期の変化などが通常と異なる形で現れる病態です。原因にはホルモン産生病変などがあります。",
+      "dailyLife": "体の変化に伴う心理的な負担への配慮が必要になることがあります。本人のプライバシーを守りながら相談できる環境が大切です。",
+      "currentState": "ホルモン検査や画像検査で原因を調べ、必要に応じて原因病変への治療を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-28",
+      "name": "アンドロゲン過剰症（思春期早発症を除く。）",
+      "overview": "アンドロゲンというホルモンの作用が過剰になり、体毛や皮膚の変化、成長への影響などが起こる病態です。副腎や性腺の病気などが原因となります。",
+      "dailyLife": "見た目や発達の変化に悩む場合があります。本人の気持ちを尊重し、症状と生活上の困りごとを一緒に考えます。",
+      "currentState": "ホルモン値や画像などで原因を調べ、病態に応じた治療を検討します。ホルモン過剰の原因が異なる場合は、必要な薬や手術の適応も異なります。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-29",
+      "name": "低ゴナドトロピン性性腺機能低下症",
+      "overview": "性腺を刺激する脳・下垂体のホルモンが不足し、思春期の体の発達や生殖機能に影響する病態です。生まれつきの原因や後天的な原因があります。",
+      "dailyLife": "同年代との体の変化の違いに不安を感じる人もいます。将来の健康や生殖について、年齢に合う説明と支援が大切です。",
+      "currentState": "ホルモン検査などで原因を調べ、必要に応じてホルモン補充などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-30",
+      "name": "高ゴナドトロピン性性腺機能低下症",
+      "overview": "卵巣や精巣の働きが十分でなく、下垂体からの性腺刺激ホルモンが高くなる病態です。思春期の発達や生殖機能に影響する場合があります。",
+      "dailyLife": "成長や将来に関する不安が生じることがあります。本人の意思とプライバシーを尊重して医療者と相談することが重要です。",
+      "currentState": "ホルモン値と原因を評価し、必要に応じてホルモン補充や健康上の問題への対応を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-5-31",
+      "name": "性分化疾患",
+      "overview": "生殖器や染色体、ホルモンの働きなどの発達に多様な特徴が生じる病態を含む医学的分類です。原因と必要な医療は一人ひとり異なります。",
+      "dailyLife": "本人と家族に十分な説明を行い、プライバシーと自己決定を尊重することが大切です。心身の健康と社会生活を支える支援が重要です。",
+      "currentState": "必要なホルモン・遺伝学的検査などで状態を評価し、身体の健康と本人の希望を踏まえて支援・治療を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：内分泌疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/05/%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    }
+  ]
+}

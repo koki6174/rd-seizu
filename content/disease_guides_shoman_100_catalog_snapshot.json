@@ -1,0 +1,506 @@
+{
+  "recordedAt": "2026-10-12",
+  "notes": "100 published pediatric chronic-condition group IDs from disease_catalog, distinct from 553 preexisting guides. Sources are group catalog references unless condition_specific.",
+  "records": [
+    {
+      "id": "shoman-2-1",
+      "name_ja": "ネフローゼ症候群",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-2",
+      "name_ja": "慢性糸球体腎炎",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-3",
+      "name_ja": "慢性尿細管間質性腎炎（尿路奇形が原因のものを除く。）",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-4",
+      "name_ja": "慢性腎盂腎炎",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-5",
+      "name_ja": "アミロイド腎",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-6",
+      "name_ja": "家族性若年性高尿酸血症性腎症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-8",
+      "name_ja": "腎血管性高血圧",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-9",
+      "name_ja": "腎静脈血栓症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-10",
+      "name_ja": "腎動静脈瘻",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-11",
+      "name_ja": "尿細管性アシドーシス",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-2-12",
+      "name_ja": "ギッテルマン（Gitelman）症候群",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-2-13",
+      "name_ja": "バーター（Bartter）症候群",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-14",
+      "name_ja": "腎尿管結石",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-2-15",
+      "name_ja": "慢性腎不全",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-16",
+      "name_ja": "腎奇形",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-17",
+      "name_ja": "尿路奇形",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-18",
+      "name_ja": "萎縮腎（尿路奇形が原因のものを除く。）",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-2-19",
+      "name_ja": "ファンコーニ（Fanconi）症候群",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-3-1",
+      "name_ja": "気道狭窄",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-3-2",
+      "name_ja": "気管支喘息",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-3-4",
+      "name_ja": "間質性肺疾患",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-3-7",
+      "name_ja": "気管支拡張症",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-3-9",
+      "name_ja": "慢性肺疾患",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-3-12",
+      "name_ja": "先天性嚢胞性肺疾患",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-1",
+      "name_ja": "洞不全症候群",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-4-2",
+      "name_ja": "モビッツ（Mobitz）2型ブロック",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-3",
+      "name_ja": "完全房室ブロック",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-4-4",
+      "name_ja": "脚ブロック",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-5",
+      "name_ja": "多源性心室期外収縮",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-6",
+      "name_ja": "上室頻拍",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-7",
+      "name_ja": "心室頻拍",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-8",
+      "name_ja": "心房粗動",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-9",
+      "name_ja": "心房細動",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-10",
+      "name_ja": "心室細動",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-11",
+      "name_ja": "QT延長症候群",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-4-13",
+      "name_ja": "不整脈源性右室心筋症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-14",
+      "name_ja": "心筋緻密化障害",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-15",
+      "name_ja": "拡張型心筋症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-17",
+      "name_ja": "心室瘤",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-19",
+      "name_ja": "心臓腫瘍",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-20",
+      "name_ja": "慢性心筋炎",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-21",
+      "name_ja": "慢性心膜炎",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-22",
+      "name_ja": "収縮性心膜炎",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-23",
+      "name_ja": "先天性心膜欠損症",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-4-24",
+      "name_ja": "乳児特発性僧帽弁腱索断裂",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-25",
+      "name_ja": "冠動脈起始異常",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-26",
+      "name_ja": "川崎病性冠動脈瘤",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-27",
+      "name_ja": "冠動脈狭窄症（川崎病によるものを除く。）",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-28",
+      "name_ja": "虚血性心疾患",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-32",
+      "name_ja": "肺動脈閉鎖症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-35",
+      "name_ja": "両大血管左室起始症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-38",
+      "name_ja": "エプスタイン（Ebstein）病",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-40",
+      "name_ja": "大動脈肺動脈窓",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-4-41",
+      "name_ja": "三心房心",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-4-42",
+      "name_ja": "動脈管開存症",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-4-43",
+      "name_ja": "心房中隔欠損症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-45",
+      "name_ja": "心室中隔欠損症",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-4-46",
+      "name_ja": "肺静脈還流異常症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-47",
+      "name_ja": "肺静脈狭窄症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-48",
+      "name_ja": "左室右房交通症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-49",
+      "name_ja": "右室二腔症",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-4-50",
+      "name_ja": "肺動脈弁下狭窄症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-51",
+      "name_ja": "大動脈弁下狭窄症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-52",
+      "name_ja": "肺動脈狭窄症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-53",
+      "name_ja": "肺動脈弁欠損",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-4-54",
+      "name_ja": "肺動脈上行大動脈起始症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-55",
+      "name_ja": "一側肺動脈欠損",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-56",
+      "name_ja": "大動脈狭窄症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-57",
+      "name_ja": "大動脈弓閉塞症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-58",
+      "name_ja": "血管輪",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-4-59",
+      "name_ja": "大動脈瘤",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-63",
+      "name_ja": "心臓弁膜症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-64",
+      "name_ja": "僧帽弁弁上輪",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-65",
+      "name_ja": "内臓錯位症候群",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-4-66",
+      "name_ja": "フォンタン（Fontan）術後症候群",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-5-1",
+      "name_ja": "下垂体機能低下症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-4",
+      "name_ja": "成長ホルモン分泌不全性低身長症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-5",
+      "name_ja": "成長ホルモン不応性症候群",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-6",
+      "name_ja": "高プロラクチン血症",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-5-7",
+      "name_ja": "抗利尿ホルモン（ADH）不適切分泌症候群",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-5-8",
+      "name_ja": "尿崩症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-9",
+      "name_ja": "中枢性塩喪失症候群",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-5-10",
+      "name_ja": "甲状腺機能亢進症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-11",
+      "name_ja": "甲状腺機能低下症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-13",
+      "name_ja": "腺腫様甲状腺腫",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-5-14",
+      "name_ja": "副甲状腺機能亢進症",
+      "sourceReview": "condition_specific"
+    },
+    {
+      "id": "shoman-5-16",
+      "name_ja": "自己免疫性多内分泌腺症候群",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-18",
+      "name_ja": "クッシング（Cushing）症候群",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-19",
+      "name_ja": "慢性副腎皮質機能低下症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-20",
+      "name_ja": "アルドステロン症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-21",
+      "name_ja": "見かけの鉱質コルチコイド過剰症候群（AME症候群）",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-23",
+      "name_ja": "低アルドステロン症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-24",
+      "name_ja": "偽性低アルドステロン症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-25",
+      "name_ja": "先天性副腎過形成症",
+      "sourceReview": "subtype_related_reference"
+    },
+    {
+      "id": "shoman-5-26",
+      "name_ja": "思春期早発症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-27",
+      "name_ja": "エストロゲン過剰症（思春期早発症を除く。）",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-28",
+      "name_ja": "アンドロゲン過剰症（思春期早発症を除く。）",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-29",
+      "name_ja": "低ゴナドトロピン性性腺機能低下症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-30",
+      "name_ja": "高ゴナドトロピン性性腺機能低下症",
+      "sourceReview": "category_listing"
+    },
+    {
+      "id": "shoman-5-31",
+      "name_ja": "性分化疾患",
+      "sourceReview": "category_listing"
+    }
+  ]
+}
