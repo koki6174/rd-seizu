@@ -1,0 +1,555 @@
+{
+  "part": 14,
+  "records": [
+    {
+      "id": "nando-19-1-1",
+      "name": "Gaucher病１型",
+      "overview": "ゴーシェ病1型は、酵素の働きの不足により脂質が細胞に蓄積する病気のうち、主に肝臓・脾臓・骨・血液に影響する型です。2型や3型と異なり、進行性の中枢神経症状は通常中心ではありません。",
+      "dailyLife": "疲れやすさ、骨の痛み、腹部の張りなどが生活の負担になる場合があります。血液検査や骨・臓器の評価を続けることが大切です。",
+      "currentState": "酵素補充療法や基質合成抑制療法などを病状に応じて検討します。骨や血液などの合併症にも個別に対応します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 26
+    },
+    {
+      "id": "nando-19-1-2",
+      "name": "Gaucher病２型",
+      "overview": "ゴーシェ病2型は乳児期から神経症状が目立ち、呼吸や飲み込みなどにも重い影響が起こる病型です。同じゴーシェ病でも1型と経過や治療目標が大きく異なります。",
+      "dailyLife": "食事や呼吸、姿勢などに専門的な支援が必要になる場合があります。本人と家族の希望を尊重した医療・生活支援が重要です。",
+      "currentState": "酵素補充療法だけでは中枢神経症状への効果に限界があります。呼吸・栄養などの症状を支える多職種ケアを行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 27
+    },
+    {
+      "id": "nando-19-1-3",
+      "name": "Gaucher病３型",
+      "overview": "ゴーシェ病3型は脂質が蓄積する病気で、肝脾腫や骨・血液の問題に加えて、眼球運動や神経の症状が現れることがある型です。症状の程度は人によって異なります。",
+      "dailyLife": "眼の動きや運動機能、骨の痛みなどを確認しながら、学習・移動・食事への支援を調整します。",
+      "currentState": "適応に応じて酵素補充療法などを行い、骨や内臓の状態を管理します。神経症状には個別の評価と支援が必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 28
+    },
+    {
+      "id": "nando-19-2-1",
+      "name": "Niemann-Pick病A型",
+      "overview": "ニーマン・ピック病A型は酸性スフィンゴミエリナーゼという酵素の不足に関連し、乳児期から肝臓・脾臓の腫れや神経機能の障害が起こる型です。B型と病状が異なります。",
+      "dailyLife": "乳児期から栄養、呼吸、動作などの面で支援が必要になることがあります。家族の生活と医療を支える体制が重要です。",
+      "currentState": "酵素の不足を確認して病型を診断し、臓器症状への対応を行います。中枢神経症状と全身症状では治療の到達範囲が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 29
+    },
+    {
+      "id": "nando-19-2-2",
+      "name": "Niemann-Pick病B型",
+      "overview": "ニーマン・ピック病B型は酸性スフィンゴミエリナーゼ欠損症の一型で、肝脾腫や肺・血液の問題が中心となり、A型ほど重い神経症状を示さないことが多い病型です。",
+      "dailyLife": "息切れや疲れやすさ、腹部の張りなどへの配慮が必要になる場合があります。肺機能や血球の定期検査が助けになります。",
+      "currentState": "適応に応じて酵素補充療法などを検討し、肺や肝臓などの合併症を継続して確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 30
+    },
+    {
+      "id": "nando-19-3",
+      "name": "Niemann-Pick病C型",
+      "overview": "ニーマン・ピック病C型は細胞内でコレステロールなどを運ぶ仕組みが障害される病気です。目の上下の動きにくさ、ふらつき、飲み込みの障害などがみられる場合があります。",
+      "dailyLife": "運動や発話、食事に時間がかかることがあります。移動や嚥下の安全性に配慮し、学校・仕事で必要な支援を考えます。",
+      "currentState": "遺伝学的検査や専門検査で診断し、病状に応じて利用可能な治療薬や、神経症状・栄養を支えるケアを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 31
+    },
+    {
+      "id": "nando-19-4",
+      "name": "GM1ガングリオシドーシス",
+      "overview": "GM1ガングリオシドーシスはGLB1遺伝子などに関連して脂質が神経細胞などへ蓄積する病気です。乳児期から成人期まで病型があり、運動や発達の症状はさまざまです。",
+      "dailyLife": "筋緊張や移動、食事、学習に支援が必要になる場合があります。病型と成長の段階に応じた環境調整が役立ちます。",
+      "currentState": "酵素機能と遺伝子を調べて診断します。神経・骨・栄養などに対する多職種の症状管理を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 32
+    },
+    {
+      "id": "nando-19-5-1",
+      "name": "Tay-Sachs病",
+      "overview": "テイ・サックス病はGM2ガングリオシドという脂質の分解が障害される遺伝性疾患です。神経細胞に物質が蓄積し、運動や発達に変化が生じます。発症年齢には複数の型があります。",
+      "dailyLife": "運動、食事、コミュニケーションなどに支援が必要になることがあります。本人と家族の生活を支える継続的なケアが重要です。",
+      "currentState": "酵素や遺伝子の検査で鑑別し、けいれんや栄養・呼吸などの症状に対応します。ほかのGM2疾患と区別して診療します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 33
+    },
+    {
+      "id": "nando-19-5-2",
+      "name": "Sandhoff病",
+      "overview": "サンドホッフ病はGM2ガングリオシドの分解に関わる酵素の働きが低下し、神経系に脂質が蓄積する遺伝性疾患です。テイ・サックス病と共通点があっても原因分子が異なります。",
+      "dailyLife": "発達や筋力、食事などへの影響は発症年齢と病型で異なります。安全な食事や姿勢保持などの支援を行います。",
+      "currentState": "遺伝学的検査や酵素検査で診断を確かめ、神経症状と栄養・呼吸を中心に支援します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 34
+    },
+    {
+      "id": "nando-19-6",
+      "name": "Krabbe病",
+      "overview": "クラッベ病はガラクトセレブロシダーゼという酵素の不足に関連し、脳や末梢神経の髄鞘が障害される遺伝性疾患です。乳児期から成人期まで発症する型があります。",
+      "dailyLife": "筋緊張、歩行、食事などに影響する場合があります。本人の状態に合わせた姿勢・移動の支援や家族への支援が大切です。",
+      "currentState": "早期診断が治療の選択肢に関係する型もあります。造血幹細胞移植などの適応を専門医が検討し、神経症状へのケアを行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 35
+    },
+    {
+      "id": "nando-19-7",
+      "name": "異染性白質ジストロフィー",
+      "overview": "異染性白質ジストロフィーはアリルスルファターゼAなどの働きの障害で、神経の髄鞘が徐々に損なわれる病気です。乳幼児期・若年期・成人期の発症型があります。",
+      "dailyLife": "歩行や言葉、学習などに変化が生じる場合があります。食事や移動の支援を、経過に合わせて見直すことが重要です。",
+      "currentState": "酵素・遺伝子検査などで病型を評価します。ごく早期に検討可能な専門治療もあり、適応の確認と症状支援を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 36
+    },
+    {
+      "id": "nando-19-10",
+      "name": "Hurler症候群",
+      "overview": "ハーラー症候群はムコ多糖症I型の重い病型で、分解されない糖の成分が全身に蓄積する病気です。骨格や心臓、視覚、神経発達などに影響することがあります。",
+      "dailyLife": "成長・運動・聴力などに配慮した生活支援が必要になる場合があります。通院や療育を組み合わせて本人の生活を支えます。",
+      "currentState": "早期の診断を重視し、酵素補充療法や造血幹細胞移植の適応を専門医が検討します。臓器ごとの継続的なケアも重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 37
+    },
+    {
+      "id": "nando-19-13",
+      "name": "Hunter症候群",
+      "overview": "ハンター症候群はムコ多糖症II型とも呼ばれ、IDS遺伝子に関係する酵素の不足で糖の成分が蓄積する病気です。心臓、骨格、呼吸などに影響し、神経症状の有無は個人差があります。",
+      "dailyLife": "関節の動かしにくさや呼吸・聴力などの問題が生活に影響する場合があります。医療と発達・学校での支援を組み合わせます。",
+      "currentState": "酵素補充療法や状態に応じた専門的治療、臓器の症状への対応を検討します。神経症状と全身症状は分けて評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 38
+    },
+    {
+      "id": "nando-19-14",
+      "name": "Sanfilippo症候群",
+      "overview": "サンフィリッポ症候群はムコ多糖症III型の総称で、ヘパラン硫酸という物質の分解障害が関係します。発達・行動・睡眠などの変化が中心になる場合があります。",
+      "dailyLife": "学習やコミュニケーション、睡眠の困りごとに家族と支援者が協力して対応します。生活の変化に合わせた福祉・教育支援が大切です。",
+      "currentState": "A〜Dなどの病型を鑑別し、症状への対応と発達・生活支援を行います。確立した治療の範囲は病型ごとに異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 39
+    },
+    {
+      "id": "nando-19-15",
+      "name": "Morquio症候群",
+      "overview": "モルキオ症候群はムコ多糖症IV型で、骨格や関節に蓄積物が影響する遺伝性疾患です。低身長、関節の動かしにくさ、脊椎の問題などがみられます。",
+      "dailyLife": "歩行や階段の昇降に工夫が必要になる場合があります。脊椎や呼吸への影響にも注意し、移動や学校での環境を整えます。",
+      "currentState": "A型・B型などを区別し、適応に応じて酵素補充療法などを検討します。整形外科・呼吸などの継続的な評価も行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 40
+    },
+    {
+      "id": "nando-19-27-1",
+      "name": "Pompe病（乳児型）",
+      "overview": "乳児型ポンペ病は酸性α-グルコシダーゼの不足でグリコーゲンが蓄積し、乳児期から筋力低下や心臓の肥大などが起こる病型です。遅発型とは症状の現れ方が異なります。",
+      "dailyLife": "哺乳や呼吸、姿勢の保持などに支援が必要になる場合があります。家族と医療チームで栄養・呼吸や成長を確認します。",
+      "currentState": "早期の酵素補充療法が重要で、抗体への対応なども含めて専門的に管理します。心臓・呼吸・筋力を継続して評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 41
+    },
+    {
+      "id": "nando-19-27-3",
+      "name": "Pompe病（成人型）",
+      "overview": "成人型ポンペ病は筋肉にグリコーゲンが蓄積し、体幹や手足の筋力、呼吸筋などに影響する遅発型の病気です。乳児型でみられる著しい心肥大は一般に中心ではありません。",
+      "dailyLife": "階段の昇降や立ち上がり、横になったときの呼吸などに困りごとが生じる場合があります。活動と呼吸の状態に応じた支援が大切です。",
+      "currentState": "酵素補充療法の適応を検討し、呼吸機能と筋力の定期検査、リハビリなどを組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 42
+    },
+    {
+      "id": "nando-19-33",
+      "name": "シスチン症",
+      "overview": "シスチン症は細胞内でシスチンを運ぶ仕組みが障害され、腎臓や眼などにシスチンが蓄積する遺伝性疾患です。腎臓からの栄養成分の喪失や光にまぶしさを感じる症状がみられます。",
+      "dailyLife": "水分・栄養や腎機能の管理が必要になる場合があります。目の症状への対応や学校・仕事との両立支援も大切です。",
+      "currentState": "シスチンを減らす薬の適応や、腎臓・眼の症状に対する治療を行います。病型に応じた長期的な評価が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 43
+    },
+    {
+      "id": "nando-21-1",
+      "name": "慢性進行性外眼筋麻痺症候群",
+      "overview": "慢性進行性外眼筋麻痺症候群（CPEO）は、ミトコンドリアの異常に関連して目を動かす筋肉の力が徐々に弱くなる病型です。まぶたが下がる、目が動きにくいなどの症状が現れます。",
+      "dailyLife": "視線を動かすことや読書、移動に工夫が必要になる場合があります。筋力や心臓の伝導障害などの合併症を確認することも重要です。",
+      "currentState": "ミトコンドリア機能と遺伝的原因を評価し、眼瞼下垂や眼球運動などの症状に対応します。心臓などの全身評価も行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/194"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 44
+    },
+    {
+      "id": "nando-21-2",
+      "name": "リー脳症",
+      "overview": "リー脳症はミトコンドリアのエネルギー産生の障害に関係する神経疾患で、乳幼児期を中心に発症することがあります。筋緊張の変化や発達の問題、呼吸の障害などが現れます。",
+      "dailyLife": "食事、運動、呼吸など多くの面で支援が必要になる場合があります。家族の希望を尊重し、在宅と医療の支援を組み合わせます。",
+      "currentState": "MRIや生化学・遺伝子検査などから原因を調べます。特定の原因では治療の選択肢があり、栄養・呼吸や症状への対応も重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/194"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 45
+    },
+    {
+      "id": "nando-21-3",
+      "name": "ミトコンドリア脳筋症・乳酸アシドーシス・脳卒中様発作症候群",
+      "overview": "MELASはミトコンドリアの働きに関係して、脳卒中に似た発作やけいれん、頭痛などが現れる病気です。発作は通常の血管性脳卒中とは機序が異なります。",
+      "dailyLife": "急な神経症状や頭痛、疲れやすさなどが活動に影響することがあります。発作時に速やかに医療者へ相談できる体制が必要です。",
+      "currentState": "遺伝子・代謝・画像検査で評価し、けいれんや代謝の問題などに対応します。治療の適応は原因や症状によって異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/194"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 46
+    },
+    {
+      "id": "nando-21-4",
+      "name": "ミトコンドリア異常を伴うミオクローヌスてんかん",
+      "overview": "MERRFはミトコンドリアの異常に伴い、筋肉がピクッと動くミオクローヌスやてんかん発作、ふらつきなどを生じる疾患です。症状の組み合わせには幅があります。",
+      "dailyLife": "発作への備えや歩行時の転倒予防、疲労に合わせた生活調整が重要です。本人の活動の機会を維持するための支援を考えます。",
+      "currentState": "てんかん発作や運動失調への治療と、原因に応じた代謝・臓器の評価を行います。遺伝学的な説明も本人の希望に合わせて行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/194"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 47
+    },
+    {
+      "id": "nando-21-5",
+      "name": "レーバー病",
+      "overview": "レーバー病（レーバー遺伝性視神経症）はミトコンドリアDNAの変化などに関係する視神経の病気です。主に中心の視力が急に低下する症状がみられます。",
+      "dailyLife": "文字を読む、顔を見分けるなどの動作に支援が必要になる場合があります。ロービジョンケアや学習・就労の環境調整が役立ちます。",
+      "currentState": "眼科で視機能と原因を評価し、適応のある治療や視覚リハビリを検討します。家族の遺伝相談も必要に応じて行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/194"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 48
+    },
+    {
+      "id": "nando-20-1",
+      "name": "副腎白質ジストロフィー（小児大脳型）",
+      "overview": "小児大脳型副腎白質ジストロフィーはABCD1遺伝子の変化に関係して、子どもの脳の白質に炎症や脱髄が起こる病型です。学習や行動、視力や歩行に変化が現れる場合があります。",
+      "dailyLife": "学校生活での小さな変化が最初の手掛かりになることがあります。家族と学校・医療機関の情報共有が重要です。",
+      "currentState": "脳MRIと副腎機能を定期的に評価し、早期の適応例では造血幹細胞移植などの治療を検討します。神経とホルモンへの支援も行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/329"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 49
+    },
+    {
+      "id": "nando-20-3",
+      "name": "副腎白質ジストロフィー（副腎脊髄ニューロパチー）",
+      "overview": "副腎脊髄ニューロパチー（AMN）は副腎白質ジストロフィーの病型の一つで、成人期などから足のつっぱりや歩行障害が徐々に現れます。膀胱・直腸の機能や副腎に影響する場合があります。",
+      "dailyLife": "移動や排尿、体力の管理に工夫が必要になることがあります。転倒予防、装具、生活環境の調整などが役立ちます。",
+      "currentState": "脳・脊髄や副腎機能を評価し、歩行・排尿などの症状への治療とリハビリを行います。経過中の脳の変化にも注意して診察します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/329"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 14,
+      "selectionIndex": 50
+    }
+  ]
+}
