@@ -21,6 +21,10 @@
   $('disease-overview').textContent=record.overview;
   $('disease-living').textContent=record.dailyLife;
   $('disease-treatment').textContent=record.currentState;
+  if(/^\d{4}-\d{2}-\d{2}$/.test(record.reviewedAt||'')){
+   const [year,month,day]=record.reviewedAt.split('-').map(Number);
+   $('guide-review-date').textContent=year+'年'+month+'月'+day+'日';
+  }
   const ul=$('disease-sources');ul.replaceChildren();
   // Editorial JSON is data, not authority to send readers to arbitrary sites.
   // Even a future AI/import pipeline must not turn references into phishing links.
