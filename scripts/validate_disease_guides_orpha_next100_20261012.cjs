@@ -54,10 +54,10 @@ for(const [i,r] of added.entries()){
 assert.equal(unapproved,16);
 const loader=fs.readFileSync(path.join(root,'content/disease-guides.js'),'utf8');
 for(let i=5;i<=8;i++)assert(loader.includes(`disease_guides_orpha_0${i}.json`));
-assert(loader.includes('map.size!==553'));
+assert(loader.includes('map.size!==631'));
 for(const p of ['index.html','disease/index.html']){
  const markup=fs.readFileSync(path.join(root,p),'utf8');
- assert(markup.includes('disease-guides.js?v=6'));
+ assert(markup.includes('disease-guides.js?v=7'));
 }
 const scene=fs.readFileSync(path.join(root,'lab/scene.js'),'utf8');
 assert(scene.includes('if(guides && total>0)'));

@@ -1,0 +1,422 @@
+{
+  "baseGuides": 553,
+  "originallyAuthored": 100,
+  "recentlyMergedDuplicate": 22,
+  "newArticles": 78,
+  "excludedIds": [
+    "nando-177-1",
+    "nando-277-2",
+    "nando-308-2",
+    "nando-127-2",
+    "nando-162-2",
+    "nando-19-28-1",
+    "nando-251-2",
+    "nando-61-2",
+    "nando-65-14",
+    "nando-65-17",
+    "nando-162-1",
+    "nando-234-6",
+    "nando-251-5",
+    "nando-85-1",
+    "nando-162-3",
+    "nando-330-1",
+    "nando-35-2",
+    "nando-35-5",
+    "nando-60-4-2",
+    "nando-61-5",
+    "nando-18-2-1",
+    "nando-315-1"
+  ],
+  "selected": [
+    {
+      "id": "nando-19-17",
+      "name_ja": "Sly病",
+      "parent_disease_id": "mhlw-0019"
+    },
+    {
+      "id": "nando-222-2",
+      "name_ja": "膜性腎症",
+      "parent_disease_id": "mhlw-0222"
+    },
+    {
+      "id": "nando-111-3",
+      "name_ja": "ミニコア病",
+      "parent_disease_id": "mhlw-0111"
+    },
+    {
+      "id": "nando-13-3",
+      "name_ja": "Baló病",
+      "parent_disease_id": "mhlw-0013"
+    },
+    {
+      "id": "nando-18-4",
+      "name_ja": "痙性対麻痺",
+      "parent_disease_id": "mhlw-0018"
+    },
+    {
+      "id": "nando-234-3",
+      "name_ja": "レフサム病",
+      "parent_disease_id": "mhlw-0234"
+    },
+    {
+      "id": "nando-257-1-7",
+      "name_ja": "糖原病Ⅵ型",
+      "parent_disease_id": "mhlw-0257"
+    },
+    {
+      "id": "nando-257-2",
+      "name_ja": "Ⅳ型糖原病",
+      "parent_disease_id": "mhlw-0257"
+    },
+    {
+      "id": "nando-65-19",
+      "name_ja": "胸腺低形成",
+      "parent_disease_id": "mhlw-0065"
+    },
+    {
+      "id": "nando-10-1",
+      "name_ja": "脱髄型CMT",
+      "parent_disease_id": "mhlw-0010"
+    },
+    {
+      "id": "nando-10-2",
+      "name_ja": "軸索型CMT",
+      "parent_disease_id": "mhlw-0010"
+    },
+    {
+      "id": "nando-10-3",
+      "name_ja": "中間型CMT",
+      "parent_disease_id": "mhlw-0010"
+    },
+    {
+      "id": "nando-13-2",
+      "name_ja": "視神経脊髄炎",
+      "parent_disease_id": "mhlw-0013"
+    },
+    {
+      "id": "nando-160-4",
+      "name_ja": "魚鱗癬症候群",
+      "parent_disease_id": "mhlw-0160"
+    },
+    {
+      "id": "nando-160-4-10",
+      "name_ja": "毛包性魚鱗癬",
+      "parent_disease_id": "mhlw-0160"
+    },
+    {
+      "id": "nando-160-4-3",
+      "name_ja": "KID症候群",
+      "parent_disease_id": "mhlw-0160"
+    },
+    {
+      "id": "nando-23-2-1",
+      "name_ja": "家族性CJD",
+      "parent_disease_id": "mhlw-0023"
+    },
+    {
+      "id": "nando-240-1",
+      "name_ja": "PAH欠損症",
+      "parent_disease_id": "mhlw-0240"
+    },
+    {
+      "id": "nando-240-2",
+      "name_ja": "BH4欠損症",
+      "parent_disease_id": "mhlw-0240"
+    },
+    {
+      "id": "nando-246-1",
+      "name_ja": "MCM欠損症",
+      "parent_disease_id": "mhlw-0246"
+    },
+    {
+      "id": "nando-256-8",
+      "name_ja": "PGK欠損症",
+      "parent_disease_id": "mhlw-0256"
+    },
+    {
+      "id": "nando-257-1-1",
+      "name_ja": "糖原病Ⅰa型",
+      "parent_disease_id": "mhlw-0257"
+    },
+    {
+      "id": "nando-277-1",
+      "name_ja": "リンパ管腫症",
+      "parent_disease_id": "mhlw-0277"
+    },
+    {
+      "id": "nando-37-3",
+      "name_ja": "疱疹状膿痂疹",
+      "parent_disease_id": "mhlw-0037"
+    },
+    {
+      "id": "nando-48-1",
+      "name_ja": "動静脈血栓症",
+      "parent_disease_id": "mhlw-0048"
+    },
+    {
+      "id": "nando-62-1",
+      "name_ja": "古典的PNH",
+      "parent_disease_id": "mhlw-0062"
+    },
+    {
+      "id": "nando-72-1",
+      "name_ja": "中枢性尿崩症",
+      "parent_disease_id": "mhlw-0072"
+    },
+    {
+      "id": "nando-87-1",
+      "name_ja": "肺静脈閉塞症",
+      "parent_disease_id": "mhlw-0087"
+    },
+    {
+      "id": "nando-13-1-1",
+      "name_ja": "再発寛解型MS",
+      "parent_disease_id": "mhlw-0013"
+    },
+    {
+      "id": "nando-19-19",
+      "name_ja": "シアリドーシス",
+      "parent_disease_id": "mhlw-0019"
+    },
+    {
+      "id": "nando-21-6-1",
+      "name_ja": "複合体Ⅰ欠損症",
+      "parent_disease_id": "mhlw-0021"
+    },
+    {
+      "id": "nando-21-6-2",
+      "name_ja": "複合体Ⅱ欠損症",
+      "parent_disease_id": "mhlw-0021"
+    },
+    {
+      "id": "nando-251-1",
+      "name_ja": "CPSI欠損症",
+      "parent_disease_id": "mhlw-0251"
+    },
+    {
+      "id": "nando-256-1",
+      "name_ja": "筋型糖原病0型",
+      "parent_disease_id": "mhlw-0256"
+    },
+    {
+      "id": "nando-256-5",
+      "name_ja": "筋型糖原病V型",
+      "parent_disease_id": "mhlw-0256"
+    },
+    {
+      "id": "nando-296-1",
+      "name_ja": "Ⅰ型胆道閉鎖症",
+      "parent_disease_id": "mhlw-0296"
+    },
+    {
+      "id": "nando-296-3",
+      "name_ja": "Ⅱ型胆道閉鎖症",
+      "parent_disease_id": "mhlw-0296"
+    },
+    {
+      "id": "nando-296-4",
+      "name_ja": "Ⅲ型胆道閉鎖症",
+      "parent_disease_id": "mhlw-0296"
+    },
+    {
+      "id": "nando-300-2",
+      "name_ja": "自己免疫性膵炎",
+      "parent_disease_id": "mhlw-0300"
+    },
+    {
+      "id": "nando-316-1",
+      "name_ja": "CPT1欠損症",
+      "parent_disease_id": "mhlw-0316"
+    },
+    {
+      "id": "nando-325-2",
+      "name_ja": "ADA２欠損症",
+      "parent_disease_id": "mhlw-0325"
+    },
+    {
+      "id": "nando-82-2",
+      "name_ja": "SF-1異常症",
+      "parent_disease_id": "mhlw-0082"
+    },
+    {
+      "id": "nando-82-4",
+      "name_ja": "ACTH不応症",
+      "parent_disease_id": "mhlw-0082"
+    },
+    {
+      "id": "nando-82-4-1",
+      "name_ja": "MC2R異常症",
+      "parent_disease_id": "mhlw-0082"
+    },
+    {
+      "id": "nando-98-2",
+      "name_ja": "好酸球性食道炎",
+      "parent_disease_id": "mhlw-0098"
+    },
+    {
+      "id": "nando-106-1",
+      "name_ja": "家族性寒冷蕁麻疹",
+      "parent_disease_id": "mhlw-0106"
+    },
+    {
+      "id": "nando-106-3",
+      "name_ja": "CINCA症候群",
+      "parent_disease_id": "mhlw-0106"
+    },
+    {
+      "id": "nando-111-5",
+      "name_ja": "中心核ミオパチー",
+      "parent_disease_id": "mhlw-0111"
+    },
+    {
+      "id": "nando-114-1",
+      "name_ja": "先天性ミオトニー",
+      "parent_disease_id": "mhlw-0114"
+    },
+    {
+      "id": "nando-117-1",
+      "name_ja": "症候性脊髄空洞症",
+      "parent_disease_id": "mhlw-0117"
+    },
+    {
+      "id": "nando-120-23",
+      "name_ja": "神経フェリチン症",
+      "parent_disease_id": "mhlw-0120"
+    },
+    {
+      "id": "nando-139-4",
+      "name_ja": "18q欠失症候群",
+      "parent_disease_id": "mhlw-0139"
+    },
+    {
+      "id": "nando-18-1-1",
+      "name_ja": "皮質性小脳萎縮症",
+      "parent_disease_id": "mhlw-0018"
+    },
+    {
+      "id": "nando-229-2",
+      "name_ja": "特発性肺胞蛋白症",
+      "parent_disease_id": "mhlw-0229"
+    },
+    {
+      "id": "nando-229-3",
+      "name_ja": "続発性肺胞蛋白症",
+      "parent_disease_id": "mhlw-0229"
+    },
+    {
+      "id": "nando-229-4",
+      "name_ja": "先天性肺胞蛋白症",
+      "parent_disease_id": "mhlw-0229"
+    },
+    {
+      "id": "nando-23-2",
+      "name_ja": "遺伝性プリオン病",
+      "parent_disease_id": "mhlw-0023"
+    },
+    {
+      "id": "nando-230-1",
+      "name_ja": "肥満低換気症候群",
+      "parent_disease_id": "mhlw-0230"
+    },
+    {
+      "id": "nando-325-1",
+      "name_ja": "NLRC４異常症",
+      "parent_disease_id": "mhlw-0325"
+    },
+    {
+      "id": "nando-34-2",
+      "name_ja": "神経線維腫症Ⅱ型",
+      "parent_disease_id": "mhlw-0034"
+    },
+    {
+      "id": "nando-50-2",
+      "name_ja": "無筋症性皮膚筋炎",
+      "parent_disease_id": "mhlw-0050"
+    },
+    {
+      "id": "nando-62-2",
+      "name_ja": "骨髄不全型PNH",
+      "parent_disease_id": "mhlw-0062"
+    },
+    {
+      "id": "nando-83-2",
+      "name_ja": "結核性アジソン病",
+      "parent_disease_id": "mhlw-0083"
+    },
+    {
+      "id": "nando-85-2-4",
+      "name_ja": "剥離型間質性肺炎",
+      "parent_disease_id": "mhlw-0085"
+    },
+    {
+      "id": "nando-96-1",
+      "name_ja": "小腸型クローン病",
+      "parent_disease_id": "mhlw-0096"
+    },
+    {
+      "id": "nando-96-2",
+      "name_ja": "大腸型クローン病",
+      "parent_disease_id": "mhlw-0096"
+    },
+    {
+      "id": "nando-96-4",
+      "name_ja": "特殊型クローン病",
+      "parent_disease_id": "mhlw-0096"
+    },
+    {
+      "id": "nando-111-1",
+      "name_ja": "ネマリンミオパチー",
+      "parent_disease_id": "mhlw-0111"
+    },
+    {
+      "id": "nando-117-2",
+      "name_ja": "無症候性脊髄空洞症",
+      "parent_disease_id": "mhlw-0117"
+    },
+    {
+      "id": "nando-120-1",
+      "name_ja": "DYT1ジストニア",
+      "parent_disease_id": "mhlw-0120"
+    },
+    {
+      "id": "nando-120-2",
+      "name_ja": "DYT2ジストニア",
+      "parent_disease_id": "mhlw-0120"
+    },
+    {
+      "id": "nando-137-1",
+      "name_ja": "FCD タイプ1a",
+      "parent_disease_id": "mhlw-0137"
+    },
+    {
+      "id": "nando-137-2",
+      "name_ja": "FCD タイプ1b",
+      "parent_disease_id": "mhlw-0137"
+    },
+    {
+      "id": "nando-137-3",
+      "name_ja": "FCD タイプ1c",
+      "parent_disease_id": "mhlw-0137"
+    },
+    {
+      "id": "nando-234-2-2",
+      "name_ja": "D-二頭酵素欠損症",
+      "parent_disease_id": "mhlw-0234"
+    },
+    {
+      "id": "nando-301-4-1",
+      "name_ja": "錐体ジストロフィー",
+      "parent_disease_id": "mhlw-0301"
+    },
+    {
+      "id": "nando-310-1",
+      "name_ja": "1q部分重複症候群",
+      "parent_disease_id": "mhlw-0310"
+    },
+    {
+      "id": "nando-310-2",
+      "name_ja": "9q34欠失症候群",
+      "parent_disease_id": "mhlw-0310"
+    }
+  ]
+}
