@@ -1,0 +1,707 @@
+{
+  "selectedAt": "2026-10-12",
+  "criteria": "published NANDO subtype with official English subtype label and at most three from one designated parent; IDs excluded from previous 453 and currently lit",
+  "n": 100,
+  "records": [
+    {
+      "id": "nando-19-17",
+      "name_ja": "Sly病",
+      "name_en": "Sly syndrome",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-222-2",
+      "name_ja": "膜性腎症",
+      "name_en": "Membranous nephropathy",
+      "parent_disease_id": "mhlw-0222",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-111-3",
+      "name_ja": "ミニコア病",
+      "name_en": "Minicore myopathy",
+      "parent_disease_id": "mhlw-0111",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-13-3",
+      "name_ja": "Baló病",
+      "name_en": "Baló concentric sclerosis",
+      "parent_disease_id": "mhlw-0013",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-177-1",
+      "name_ja": "有馬症候群",
+      "name_en": "Arima syndrome",
+      "parent_disease_id": "mhlw-0177",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-18-4",
+      "name_ja": "痙性対麻痺",
+      "name_en": "hereditary spastic paraplegia",
+      "parent_disease_id": "mhlw-0018",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-234-3",
+      "name_ja": "レフサム病",
+      "name_en": "Refsum disease",
+      "parent_disease_id": "mhlw-0234",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-257-1-7",
+      "name_ja": "糖原病Ⅵ型",
+      "name_en": "Glycogen storage disease type VI",
+      "parent_disease_id": "mhlw-0257",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-257-2",
+      "name_ja": "Ⅳ型糖原病",
+      "name_en": "Glycogen storage disease type IV",
+      "parent_disease_id": "mhlw-0257",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-277-2",
+      "name_ja": "ゴーハム病",
+      "name_en": "Gorham disease",
+      "parent_disease_id": "mhlw-0277",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-308-2",
+      "name_ja": "白質消失病",
+      "name_en": "Leukoencephalopathy with vanishing white matter",
+      "parent_disease_id": "mhlw-0308",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-65-19",
+      "name_ja": "胸腺低形成",
+      "name_en": "thymus hypoplasia",
+      "parent_disease_id": "mhlw-0065",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-10-1",
+      "name_ja": "脱髄型CMT",
+      "name_en": "Charcot-Marie-Tooth disease type 1",
+      "parent_disease_id": "mhlw-0010",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-10-2",
+      "name_ja": "軸索型CMT",
+      "name_en": "Charcot-Marie-Tooth disease type 2",
+      "parent_disease_id": "mhlw-0010",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-10-3",
+      "name_ja": "中間型CMT",
+      "name_en": "Intermediate Charcot-Marie-Tooth disease",
+      "parent_disease_id": "mhlw-0010",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-127-2",
+      "name_ja": "意味性認知症",
+      "name_en": "Semantic dementia",
+      "parent_disease_id": "mhlw-0127",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-13-2",
+      "name_ja": "視神経脊髄炎",
+      "name_en": "Neuromyelitis Optica",
+      "parent_disease_id": "mhlw-0013",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-160-4",
+      "name_ja": "魚鱗癬症候群",
+      "name_en": "Ichthyosis syndrome",
+      "parent_disease_id": "mhlw-0160",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-160-4-10",
+      "name_ja": "毛包性魚鱗癬",
+      "name_en": "Ichthyosis Follicularis",
+      "parent_disease_id": "mhlw-0160",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-160-4-3",
+      "name_ja": "KID症候群",
+      "name_en": "Keratitis-ichthyosis-deafness syndrome",
+      "parent_disease_id": "mhlw-0160",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-162-2",
+      "name_ja": "粘膜類天疱瘡",
+      "name_en": "mucous membrane pemphigoid",
+      "parent_disease_id": "mhlw-0162",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-19-28-1",
+      "name_ja": "ウォルマン病",
+      "name_en": "Wolman disease",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-23-2-1",
+      "name_ja": "家族性CJD",
+      "name_en": "Familial Creutzfeldt-Jakob Disease",
+      "parent_disease_id": "mhlw-0023",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-240-1",
+      "name_ja": "PAH欠損症",
+      "name_en": "Phenylalanine Hydroxylase Deficiency",
+      "parent_disease_id": "mhlw-0240",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-240-2",
+      "name_ja": "BH4欠損症",
+      "name_en": "Tetrahydrobiopterin deficiency",
+      "parent_disease_id": "mhlw-0240",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-246-1",
+      "name_ja": "MCM欠損症",
+      "name_en": "Methylmalonyl-Coenzyme A mutase deficiency",
+      "parent_disease_id": "mhlw-0246",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-251-2",
+      "name_ja": "OTC欠損症",
+      "name_en": "Ornithine transcarbamylase deficiency",
+      "parent_disease_id": "mhlw-0251",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-256-8",
+      "name_ja": "PGK欠損症",
+      "name_en": "Phosphoglycerate kinase deficiency",
+      "parent_disease_id": "mhlw-0256",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-257-1-1",
+      "name_ja": "糖原病Ⅰa型",
+      "name_en": "Glycogen storage disease type Ia",
+      "parent_disease_id": "mhlw-0257",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-277-1",
+      "name_ja": "リンパ管腫症",
+      "name_en": "Lymphangiomatosis",
+      "parent_disease_id": "mhlw-0277",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-37-3",
+      "name_ja": "疱疹状膿痂疹",
+      "name_en": "Impetigo Herpesformis",
+      "parent_disease_id": "mhlw-0037",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-48-1",
+      "name_ja": "動静脈血栓症",
+      "name_en": "Thrombotic Antiphospholipid Syndrome",
+      "parent_disease_id": "mhlw-0048",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-61-2",
+      "name_ja": "寒冷凝集素症",
+      "name_en": "cold agglutinin disease",
+      "parent_disease_id": "mhlw-0061",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-62-1",
+      "name_ja": "古典的PNH",
+      "name_en": "Classical Paroxysmal Nocturnal Hemoglobinuria",
+      "parent_disease_id": "mhlw-0062",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-65-14",
+      "name_ja": "ICF症候群",
+      "name_en": "ICF syndrome",
+      "parent_disease_id": "mhlw-0065",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-65-17",
+      "name_ja": "シムケ症候群",
+      "name_en": "Schimke syndrome",
+      "parent_disease_id": "mhlw-0065",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-72-1",
+      "name_ja": "中枢性尿崩症",
+      "name_en": "Central diabetes insipidus",
+      "parent_disease_id": "mhlw-0072",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-87-1",
+      "name_ja": "肺静脈閉塞症",
+      "name_en": "Pulmonary Veno-Occlusive Disease",
+      "parent_disease_id": "mhlw-0087",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-13-1-1",
+      "name_ja": "再発寛解型MS",
+      "name_en": "Relapsing-remitting multiple sclerosis",
+      "parent_disease_id": "mhlw-0013",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-162-1",
+      "name_ja": "水疱性類天疱瘡",
+      "name_en": "bullous pemphigoid",
+      "parent_disease_id": "mhlw-0162",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-19-19",
+      "name_ja": "シアリドーシス",
+      "name_en": "Sialidosis",
+      "parent_disease_id": "mhlw-0019",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-21-6-1",
+      "name_ja": "複合体Ⅰ欠損症",
+      "name_en": "Mitochondrial complex I deficiency",
+      "parent_disease_id": "mhlw-0021",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-21-6-2",
+      "name_ja": "複合体Ⅱ欠損症",
+      "name_en": "Mitochondrial complex II deficiency",
+      "parent_disease_id": "mhlw-0021",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-234-6",
+      "name_ja": "アカタラセミア",
+      "name_en": "Acatalasemia",
+      "parent_disease_id": "mhlw-0234",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-251-1",
+      "name_ja": "CPSI欠損症",
+      "name_en": "Carbamoyl phosphate synthetase I deficiency",
+      "parent_disease_id": "mhlw-0251",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-251-5",
+      "name_ja": "アルギニン血症",
+      "name_en": "Argininemia",
+      "parent_disease_id": "mhlw-0251",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-256-1",
+      "name_ja": "筋型糖原病0型",
+      "name_en": "Glycogen storage diseases type 0",
+      "parent_disease_id": "mhlw-0256",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-256-5",
+      "name_ja": "筋型糖原病V型",
+      "name_en": "Glycogen storage diseases type V",
+      "parent_disease_id": "mhlw-0256",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-296-1",
+      "name_ja": "Ⅰ型胆道閉鎖症",
+      "name_en": "type I biliary atresia",
+      "parent_disease_id": "mhlw-0296",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-296-3",
+      "name_ja": "Ⅱ型胆道閉鎖症",
+      "name_en": "type II biliary atresia",
+      "parent_disease_id": "mhlw-0296",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-296-4",
+      "name_ja": "Ⅲ型胆道閉鎖症",
+      "name_en": "type III biliary atresia",
+      "parent_disease_id": "mhlw-0296",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-300-2",
+      "name_ja": "自己免疫性膵炎",
+      "name_en": "Autoimmune pancreatitis",
+      "parent_disease_id": "mhlw-0300",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-316-1",
+      "name_ja": "CPT1欠損症",
+      "name_en": "Carnitine Palmitoyltransferase I deficiency",
+      "parent_disease_id": "mhlw-0316",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-325-2",
+      "name_ja": "ADA２欠損症",
+      "name_en": "Adenosine deaminase 2 deficiency",
+      "parent_disease_id": "mhlw-0325",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-82-2",
+      "name_ja": "SF-1異常症",
+      "name_en": "SF-1 abnormality",
+      "parent_disease_id": "mhlw-0082",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-82-4",
+      "name_ja": "ACTH不応症",
+      "name_en": "ACTH unresponsiveness",
+      "parent_disease_id": "mhlw-0082",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-82-4-1",
+      "name_ja": "MC2R異常症",
+      "name_en": "MC2R deficiency",
+      "parent_disease_id": "mhlw-0082",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-85-1",
+      "name_ja": "特発性肺線維症",
+      "name_en": "Idiopathic pulmonary fibrosis",
+      "parent_disease_id": "mhlw-0085",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-98-2",
+      "name_ja": "好酸球性食道炎",
+      "name_en": "Eosinophilic esophagitis",
+      "parent_disease_id": "mhlw-0098",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-106-1",
+      "name_ja": "家族性寒冷蕁麻疹",
+      "name_en": "Familial cold autoinflammatorysyndrome",
+      "parent_disease_id": "mhlw-0106",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-106-3",
+      "name_ja": "CINCA症候群",
+      "name_en": "Chronic infantile neurological cutaneous articular syndrome",
+      "parent_disease_id": "mhlw-0106",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-111-5",
+      "name_ja": "中心核ミオパチー",
+      "name_en": "Centronuclear myopathy",
+      "parent_disease_id": "mhlw-0111",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-114-1",
+      "name_ja": "先天性ミオトニー",
+      "name_en": "Myotonia congenita",
+      "parent_disease_id": "mhlw-0114",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-117-1",
+      "name_ja": "症候性脊髄空洞症",
+      "name_en": "symptomatic Syringomyelia",
+      "parent_disease_id": "mhlw-0117",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-120-23",
+      "name_ja": "神経フェリチン症",
+      "name_en": "NBIA３",
+      "parent_disease_id": "mhlw-0120",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-139-4",
+      "name_ja": "18q欠失症候群",
+      "name_en": "18q-syndrome",
+      "parent_disease_id": "mhlw-0139",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-162-3",
+      "name_ja": "後天性表皮水疱症",
+      "name_en": "Epidermolysis bullosa acquisita",
+      "parent_disease_id": "mhlw-0162",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-18-1-1",
+      "name_ja": "皮質性小脳萎縮症",
+      "name_en": "cortical cerebellar atrophy",
+      "parent_disease_id": "mhlw-0018",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-229-2",
+      "name_ja": "特発性肺胞蛋白症",
+      "name_en": "Idiopathic pulmonary alveolar proteinosis",
+      "parent_disease_id": "mhlw-0229",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-229-3",
+      "name_ja": "続発性肺胞蛋白症",
+      "name_en": "Secondary Pulmonary Alveolar Proteinosis",
+      "parent_disease_id": "mhlw-0229",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-229-4",
+      "name_ja": "先天性肺胞蛋白症",
+      "name_en": "Congenital pulmonary alveolar proteinosis",
+      "parent_disease_id": "mhlw-0229",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-23-2",
+      "name_ja": "遺伝性プリオン病",
+      "name_en": "Genetic Prion Diseases",
+      "parent_disease_id": "mhlw-0023",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-230-1",
+      "name_ja": "肥満低換気症候群",
+      "name_en": "obesity hypoventilation syndrome",
+      "parent_disease_id": "mhlw-0230",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-325-1",
+      "name_ja": "NLRC４異常症",
+      "name_en": "NLRC4 inflammasomopathies",
+      "parent_disease_id": "mhlw-0325",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-330-1",
+      "name_ja": "先天性気管狭窄症",
+      "name_en": "Congenital tracheal stenosis",
+      "parent_disease_id": "mhlw-0330",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-34-2",
+      "name_ja": "神経線維腫症Ⅱ型",
+      "name_en": "Neurofibromatosis Type 2",
+      "parent_disease_id": "mhlw-0034",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-35-2",
+      "name_ja": "天疱瘡（落葉状）",
+      "name_en": "pemphigus foliaceus",
+      "parent_disease_id": "mhlw-0035",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-35-5",
+      "name_ja": "天疱瘡（紅斑性）",
+      "name_en": "Pemphigus erythematosus",
+      "parent_disease_id": "mhlw-0035",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-50-2",
+      "name_ja": "無筋症性皮膚筋炎",
+      "name_en": "amyopathic dermatomyositis",
+      "parent_disease_id": "mhlw-0050",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-60-4-2",
+      "name_ja": "先天性角化異常症",
+      "name_en": "dyskeratosis congenita",
+      "parent_disease_id": "mhlw-0060",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-61-5",
+      "name_ja": "エヴァンズ症候群",
+      "name_en": "Evans syndrome",
+      "parent_disease_id": "mhlw-0061",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-62-2",
+      "name_ja": "骨髄不全型PNH",
+      "name_en": "PNH in the setting of another specified bone marrow disorder",
+      "parent_disease_id": "mhlw-0062",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-83-2",
+      "name_ja": "結核性アジソン病",
+      "name_en": "Tuberculous Addison's disease",
+      "parent_disease_id": "mhlw-0083",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-85-2-4",
+      "name_ja": "剥離型間質性肺炎",
+      "name_en": "desquamative interstitial pneumonia",
+      "parent_disease_id": "mhlw-0085",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-96-1",
+      "name_ja": "小腸型クローン病",
+      "name_en": "Ileal Crohn's disease",
+      "parent_disease_id": "mhlw-0096",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-96-2",
+      "name_ja": "大腸型クローン病",
+      "name_en": "Colonic Crohn Disease",
+      "parent_disease_id": "mhlw-0096",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-96-4",
+      "name_ja": "特殊型クローン病",
+      "name_en": "atypical crohn's disease",
+      "parent_disease_id": "mhlw-0096",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-111-1",
+      "name_ja": "ネマリンミオパチー",
+      "name_en": "Nemaline myopathy",
+      "parent_disease_id": "mhlw-0111",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-117-2",
+      "name_ja": "無症候性脊髄空洞症",
+      "name_en": "asymptomatic Syringomyelia",
+      "parent_disease_id": "mhlw-0117",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-120-1",
+      "name_ja": "DYT1ジストニア",
+      "name_en": "DYT1 dystonia",
+      "parent_disease_id": "mhlw-0120",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-120-2",
+      "name_ja": "DYT2ジストニア",
+      "name_en": "DYT2 dystonia",
+      "parent_disease_id": "mhlw-0120",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-137-1",
+      "name_ja": "FCD タイプ1a",
+      "name_en": "Focal cortical dysplasia type 1a",
+      "parent_disease_id": "mhlw-0137",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-137-2",
+      "name_ja": "FCD タイプ1b",
+      "name_en": "Focal cortical dysplasia type 1b",
+      "parent_disease_id": "mhlw-0137",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-137-3",
+      "name_ja": "FCD タイプ1c",
+      "name_en": "Focal cortical dysplasia type 1c",
+      "parent_disease_id": "mhlw-0137",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-18-2-1",
+      "name_ja": "脊髄小脳失調症３型",
+      "name_en": "spinocerebellar ataxia type 3",
+      "parent_disease_id": "mhlw-0018",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-234-2-2",
+      "name_ja": "D-二頭酵素欠損症",
+      "name_en": "D-bifunctional protein deficiency",
+      "parent_disease_id": "mhlw-0234",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-301-4-1",
+      "name_ja": "錐体ジストロフィー",
+      "name_en": "Cone dystrophy",
+      "parent_disease_id": "mhlw-0301",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-310-1",
+      "name_ja": "1q部分重複症候群",
+      "name_en": "Partial trisomy 1q",
+      "parent_disease_id": "mhlw-0310",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-310-2",
+      "name_ja": "9q34欠失症候群",
+      "name_en": "9q34 deletion syndrome",
+      "parent_disease_id": "mhlw-0310",
+      "concept_kind": "disease_subtype"
+    },
+    {
+      "id": "nando-315-1",
+      "name_ja": "ネイルパテラ症候群",
+      "name_en": "nail-patella syndrome",
+      "parent_disease_id": "mhlw-0315",
+      "concept_kind": "disease_subtype"
+    }
+  ]
+}
