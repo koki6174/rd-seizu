@@ -57,7 +57,7 @@ assert(app.includes("client.rpc('pick_discovery_disease'"),'preserve original ra
 assert(app.includes("const record=guides?await guides.get(choice.id):null"));
 assert(article.includes('id="disease-sources"')&&!article.includes('医療専門家による個別監修は未実施'));
 assert(articleJs.includes("source.url")&&articleJs.includes("document.title"));
-assert(lib.includes("map.size!==453"));
+assert(lib.includes("map.size!==553"));
 console.log('PASS: 50 rank-matched source-checked editorial drafts and both shared links');
 console.log('Number of articles:',list.length,'number of disease-specific Nanbyou source pages:',
  list.filter(x=>x.references[0].verifiedSpecific).length);
