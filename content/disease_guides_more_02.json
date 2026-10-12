@@ -1,0 +1,558 @@
+{
+  "part": 2,
+  "origin": "Additional NANDO child-disease articles deduplicated against the 453 main guides; conservatively source parent disease evidence.",
+  "records": [
+    {
+      "id": "nando-19-14",
+      "name": "Sanfilippo症候群",
+      "overview": "サンフィリッポ症候群はムコ多糖症III型の総称で、ヘパラン硫酸という物質の分解障害が関係します。発達・行動・睡眠などの変化が中心になる場合があります。",
+      "dailyLife": "学習やコミュニケーション、睡眠の困りごとに家族と支援者が協力して対応します。生活の変化に合わせた福祉・教育支援が大切です。",
+      "currentState": "A〜Dなどの病型を鑑別し、症状への対応と発達・生活支援を行います。確立した治療の範囲は病型ごとに異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4063",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 25
+    },
+    {
+      "id": "nando-19-15",
+      "name": "Morquio症候群",
+      "overview": "モルキオ症候群はムコ多糖症IV型で、骨格や関節に蓄積物が影響する遺伝性疾患です。低身長、関節の動かしにくさ、脊椎の問題などがみられます。",
+      "dailyLife": "歩行や階段の昇降に工夫が必要になる場合があります。脊椎や呼吸への影響にも注意し、移動や学校での環境を整えます。",
+      "currentState": "A型・B型などを区別し、適応に応じて酵素補充療法などを検討します。整形外科・呼吸などの継続的な評価も行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4063",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 26
+    },
+    {
+      "id": "nando-19-27-1",
+      "name": "Pompe病（乳児型）",
+      "overview": "乳児型ポンペ病は酸性α-グルコシダーゼの不足でグリコーゲンが蓄積し、乳児期から筋力低下や心臓の肥大などが起こる病型です。遅発型とは症状の現れ方が異なります。",
+      "dailyLife": "哺乳や呼吸、姿勢の保持などに支援が必要になる場合があります。家族と医療チームで栄養・呼吸や成長を確認します。",
+      "currentState": "早期の酵素補充療法が重要で、抗体への対応なども含めて専門的に管理します。心臓・呼吸・筋力を継続して評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4063",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 27
+    },
+    {
+      "id": "nando-19-27-3",
+      "name": "Pompe病（成人型）",
+      "overview": "成人型ポンペ病は筋肉にグリコーゲンが蓄積し、体幹や手足の筋力、呼吸筋などに影響する遅発型の病気です。乳児型でみられる著しい心肥大は一般に中心ではありません。",
+      "dailyLife": "階段の昇降や立ち上がり、横になったときの呼吸などに困りごとが生じる場合があります。活動と呼吸の状態に応じた支援が大切です。",
+      "currentState": "酵素補充療法の適応を検討し、呼吸機能と筋力の定期検査、リハビリなどを組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4063",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 28
+    },
+    {
+      "id": "nando-21-1",
+      "name": "慢性進行性外眼筋麻痺症候群",
+      "overview": "慢性進行性外眼筋麻痺症候群（CPEO）は、ミトコンドリアの異常に関連して目を動かす筋肉の力が徐々に弱くなる病型です。まぶたが下がる、目が動きにくいなどの症状が現れます。",
+      "dailyLife": "視線を動かすことや読書、移動に工夫が必要になる場合があります。筋力や心臓の伝導障害などの合併症を確認することも重要です。",
+      "currentState": "ミトコンドリア機能と遺伝的原因を評価し、眼瞼下垂や眼球運動などの症状に対応します。心臓などの全身評価も行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/194",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 29
+    },
+    {
+      "id": "nando-21-3",
+      "name": "ミトコンドリア脳筋症・乳酸アシドーシス・脳卒中様発作症候群",
+      "overview": "MELASはミトコンドリアの働きに関係して、脳卒中に似た発作やけいれん、頭痛などが現れる病気です。発作は通常の血管性脳卒中とは機序が異なります。",
+      "dailyLife": "急な神経症状や頭痛、疲れやすさなどが活動に影響することがあります。発作時に速やかに医療者へ相談できる体制が必要です。",
+      "currentState": "遺伝子・代謝・画像検査で評価し、けいれんや代謝の問題などに対応します。治療の適応は原因や症状によって異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/194",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 30
+    },
+    {
+      "id": "nando-21-4",
+      "name": "ミトコンドリア異常を伴うミオクローヌスてんかん",
+      "overview": "MERRFはミトコンドリアの異常に伴い、筋肉がピクッと動くミオクローヌスやてんかん発作、ふらつきなどを生じる疾患です。症状の組み合わせには幅があります。",
+      "dailyLife": "発作への備えや歩行時の転倒予防、疲労に合わせた生活調整が重要です。本人の活動の機会を維持するための支援を考えます。",
+      "currentState": "てんかん発作や運動失調への治療と、原因に応じた代謝・臓器の評価を行います。遺伝学的な説明も本人の希望に合わせて行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/194",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 31
+    },
+    {
+      "id": "nando-20-1",
+      "name": "副腎白質ジストロフィー（小児大脳型）",
+      "overview": "小児大脳型副腎白質ジストロフィーはABCD1遺伝子の変化に関係して、子どもの脳の白質に炎症や脱髄が起こる病型です。学習や行動、視力や歩行に変化が現れる場合があります。",
+      "dailyLife": "学校生活での小さな変化が最初の手掛かりになることがあります。家族と学校・医療機関の情報共有が重要です。",
+      "currentState": "脳MRIと副腎機能を定期的に評価し、早期の適応例では造血幹細胞移植などの治療を検討します。神経とホルモンへの支援も行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/329",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 32
+    },
+    {
+      "id": "nando-111-1",
+      "name": "ネマリンミオパチー",
+      "overview": "ネマリンミオパチーは筋肉の顕微鏡検査で棒状の構造がみられることが特徴の先天性筋疾患です。複数の遺伝子が原因となり、乳児期から成人期まで筋力低下の程度が異なります。",
+      "dailyLife": "体幹の筋力や呼吸・飲み込みの機能に影響する場合があります。成長や生活に合わせ、姿勢の保持や食事の支援を考えます。",
+      "currentState": "筋病理・遺伝子検査などで病型を評価し、呼吸機能、栄養、運動機能を継続して管理します。原因によって経過が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 33
+    },
+    {
+      "id": "nando-111-3",
+      "name": "ミニコア病",
+      "overview": "ミニコア病は筋組織に複数の小さなコア状の変化がみられる先天性筋疾患です。体幹や四肢の筋力低下、背骨の変形、呼吸筋の問題を伴う型があります。",
+      "dailyLife": "姿勢を保つことや階段の昇降、睡眠中の呼吸に配慮が必要になる場合があります。成長に合わせて装具や活動を調整します。",
+      "currentState": "筋肉や遺伝子を評価して病型を見分け、呼吸・脊椎・運動機能を長期的に確認します。必要な支援は原因遺伝子と症状によって異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 34
+    },
+    {
+      "id": "nando-111-4",
+      "name": "ミオチュブラーミオパチー",
+      "overview": "ミオチュブラーミオパチーは筋線維の中央に核がみられるなどの特徴を持つ先天性筋疾患です。MTM1遺伝子に関係するX連鎖型では乳児期から強い筋力低下が起こる場合があります。",
+      "dailyLife": "呼吸や哺乳、姿勢の保持に医療的な支援が必要になる型があります。家族への負担も考え、在宅支援や多職種の協力が重要です。",
+      "currentState": "筋病理と遺伝学的検査などで診断し、呼吸・栄養の管理とリハビリを行います。病型を限定せずに同じ経過とみなすことはできません。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 35
+    },
+    {
+      "id": "nando-111-5",
+      "name": "中心核ミオパチー",
+      "overview": "中心核ミオパチーは筋線維の核が中央に集まる特徴を持つ先天性筋疾患群です。DNM2など複数の原因遺伝子があり、筋力低下の現れ方は病型によって異なります。",
+      "dailyLife": "歩行や上肢の作業、姿勢保持に工夫が必要になる場合があります。疲れやすさや呼吸機能も確認し、本人に合う運動を考えます。",
+      "currentState": "筋病理や遺伝子検査によって病型を調べ、運動・呼吸機能への支援と長期的な経過観察を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 36
+    },
+    {
+      "id": "nando-111-7",
+      "name": "全タイプ１繊維ミオパチー",
+      "overview": "全タイプ1線維ミオパチーは筋肉の線維の構成がタイプ1線維に偏る、先天性筋疾患の一型です。筋力低下や運動発達の違いがみられることがあります。",
+      "dailyLife": "歩行や立ち上がり、運動時の疲れやすさに応じて支援を調整します。呼吸機能を含む定期的な評価が必要な場合があります。",
+      "currentState": "他の先天性ミオパチーとの鑑別を進め、遺伝子・筋病理などの情報と症状を合わせて診断します。生活機能を維持する支援を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 37
+    },
+    {
+      "id": "nando-113-1-2",
+      "name": "ベッカー型筋ジストロフィー",
+      "overview": "ベッカー型筋ジストロフィーはジストロフィンの量や機能が部分的に保たれた病型で、デュシェンヌ型より経過が緩やかな場合があります。心筋への影響が出ることもあります。",
+      "dailyLife": "歩行や運動能力が長く保たれる人もいますが、心臓の症状は自覚しにくい場合があります。仕事や運動の調整と定期検査が大切です。",
+      "currentState": "ジストロフィン異常を遺伝学的検査などで確認し、心臓・呼吸の評価やリハビリを行います。症状に応じた薬物治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 38
+    },
+    {
+      "id": "nando-113-2",
+      "name": "肢帯型筋ジストロフィー",
+      "overview": "肢帯型筋ジストロフィーは肩や腰に近い筋肉から筋力が低下する疾患群です。原因となる遺伝子は多数あり、心臓・呼吸への影響が強い型もあります。",
+      "dailyLife": "腕を上げる、床から立ち上がる、階段を上るなどの動作が負担になる場合があります。本人の状態に合う補助具や学校・職場での配慮が助けになります。",
+      "currentState": "遺伝学的検査で型を見分けることが重要です。筋力・心臓・呼吸機能を確認し、適切なリハビリと合併症への対応を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 39
+    },
+    {
+      "id": "nando-113-3",
+      "name": "顔面肩甲上腕型筋ジストロフィー",
+      "overview": "顔面肩甲上腕型筋ジストロフィーは顔や肩甲骨まわり、上腕などの筋肉の働きが弱くなる病気です。筋力低下が左右対称とは限らず、遺伝学的な背景は複雑です。",
+      "dailyLife": "表情をつくることや腕を高く上げる動作が難しくなる場合があります。肩甲骨の安定や疲労に合わせた作業方法の工夫が役立ちます。",
+      "currentState": "診察と遺伝学的評価で病型を検討し、運動機能と生活動作への支援を行います。病状に応じて聴力や眼の評価が必要なこともあります。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 40
+    },
+    {
+      "id": "nando-113-6",
+      "name": "福山型先天性筋ジストロフィー",
+      "overview": "福山型先天性筋ジストロフィーはFKTN遺伝子に関連する先天性の筋疾患で、筋力低下に加えて脳や眼の発達に特徴がみられることがあります。症状の程度は個人差があります。",
+      "dailyLife": "姿勢や移動、食事、学習など複数の面で支援が必要な場合があります。本人の成長や発達に合わせて医療・教育・福祉をつなぎます。",
+      "currentState": "遺伝子検査などで診断し、けいれん・呼吸・栄養や運動機能に対応します。多職種による長期的な支援が中心です。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 41
+    },
+    {
+      "id": "nando-113-7",
+      "name": "筋強直性ジストロフィー",
+      "overview": "筋強直性ジストロフィーは、筋肉が縮んだ後に緩みにくいミオトニーと筋力低下などを特徴とする遺伝性疾患です。心臓、呼吸、睡眠、内分泌にも影響する型があります。",
+      "dailyLife": "手を離しにくい、日中に眠い、食べ物が飲み込みにくいなど、多様な困りごとが生活に重なる場合があります。",
+      "currentState": "病型を確認し、心電図、呼吸・睡眠、筋力などを定期的に評価します。症状に応じた薬やリハビリ、生活上の支援を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 42
+    },
+    {
+      "id": "nando-114-1-1",
+      "name": "先天性ミオトニー（トムゼン病（優性遺伝））",
+      "overview": "トムゼン病はCLCN1遺伝子の変化が優性遺伝形式で起こる先天性ミオトニーです。手足の筋肉が収縮後に緩みにくく、動き始めにこわばることがあります。",
+      "dailyLife": "歩き始めや手を握った直後の動作に時間がかかる場合があります。症状を理解して、無理のない活動方法を考えることが役立ちます。",
+      "currentState": "筋電図や遺伝子検査などで診断し、必要に応じて筋肉の興奮を調整する薬などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4520",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 43
+    },
+    {
+      "id": "nando-114-1-2",
+      "name": "先天性ミオトニー（ベッカー病（劣性遺伝））",
+      "overview": "ベッカー病（先天性ミオトニー）はCLCN1遺伝子に関連する劣性遺伝形式の筋疾患です。筋肉が緩みにくい症状に加え、一時的に力が入りにくいことがあります。",
+      "dailyLife": "立ち上がりや歩き始めが難しくなる場合があります。仕事や運動で急な動作が必要な場面では、症状に応じた配慮が役立ちます。",
+      "currentState": "筋電図と遺伝学的検査などを用いて、優性遺伝のトムゼン病や別のチャネル病との鑑別を行います。症状に応じて薬を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4520",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 44
+    },
+    {
+      "id": "nando-114-2",
+      "name": "ナトリウムチャネルミオトニー(カリウム惹起性ミオトニー)",
+      "overview": "ナトリウムチャネルミオトニーはSCN4A遺伝子の変化で筋細胞の電気的な興奮が調節しにくくなる病気です。筋肉が緩みにくい症状が中心で、誘因には個人差があります。",
+      "dailyLife": "筋肉のこわばりが手作業や歩行に影響する場合があります。症状が起こりやすい状況を医療者と共有し、生活上の対応を考えます。",
+      "currentState": "筋電図と遺伝学的検査などで病型を調べ、必要に応じて症状を和らげる薬を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4520",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 45
+    },
+    {
+      "id": "nando-114-3",
+      "name": "先天性パラミオトニー",
+      "overview": "先天性パラミオトニーはSCN4A遺伝子の変化に関連し、寒さや反復動作などで筋肉のこわばりが強くなることがある病気です。一般的な先天性ミオトニーと特徴が異なります。",
+      "dailyLife": "冷たい環境で手足や顔の筋肉が動かしにくくなる場合があります。本人に合う温度調整や仕事・運動の工夫が役立ちます。",
+      "currentState": "筋電図や遺伝子検査を用いて鑑別し、症状に応じて薬や生活上の対策を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4520",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 46
+    },
+    {
+      "id": "nando-115-1",
+      "name": "遺伝性低カリウム性周期性四肢麻痺",
+      "overview": "遺伝性低カリウム性周期性四肢麻痺は、発作時に血液中のカリウムが低くなり、手足の筋力が急に弱くなる病型です。筋肉のイオンチャネルに関係する遺伝的変化が原因になります。",
+      "dailyLife": "脱力発作が突然起こるため、安全な移動や助けを求める手段を考えておくことが重要です。発作の誘因は本人と医療者で確認します。",
+      "currentState": "血中カリウムや遺伝的な原因を評価し、発作時の対応と予防を専門医が指導します。自己判断でカリウムを補充することは避けます。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4529",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 47
+    },
+    {
+      "id": "nando-30-2",
+      "name": "縁取り空胞を伴う遠位型ミオパチー",
+      "overview": "縁取り空胞を伴う遠位型ミオパチーはGNEミオパチーとも呼ばれ、足先を上げる筋肉などから弱くなることがある遺伝性の筋疾患です。筋線維に特徴的な変化がみられます。",
+      "dailyLife": "つまずきやすさや、長く歩くことへの負担が生活に影響する場合があります。靴や装具の工夫と住環境の調整が役立ちます。",
+      "currentState": "遺伝学的検査などで診断し、運動機能を確認しながらリハビリや補助具を検討します。臨床研究については専門医と情報を確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4003",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "parent_disease_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "parent_group_or_mhlw_subtype_crosswalk",
+      "selectionIndex": 48
+    }
+  ]
+}
