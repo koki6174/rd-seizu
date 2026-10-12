@@ -1,0 +1,555 @@
+{
+  "part": 15,
+  "records": [
+    {
+      "id": "nando-111-1",
+      "name": "ネマリンミオパチー",
+      "overview": "ネマリンミオパチーは筋肉の顕微鏡検査で棒状の構造がみられることが特徴の先天性筋疾患です。複数の遺伝子が原因となり、乳児期から成人期まで筋力低下の程度が異なります。",
+      "dailyLife": "体幹の筋力や呼吸・飲み込みの機能に影響する場合があります。成長や生活に合わせ、姿勢の保持や食事の支援を考えます。",
+      "currentState": "筋病理・遺伝子検査などで病型を評価し、呼吸機能、栄養、運動機能を継続して管理します。原因によって経過が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 51
+    },
+    {
+      "id": "nando-111-2",
+      "name": "セントラルコア病",
+      "overview": "セントラルコア病は筋線維の一部に酵素活性の低い領域が認められる先天性ミオパチーです。RYR1遺伝子などに関連し、筋力低下や関節の問題が現れる場合があります。",
+      "dailyLife": "歩行や長い運動が負担になることがあります。麻酔に対する特別な注意が必要な遺伝的背景もあるため、手術前に病歴を医療者へ共有します。",
+      "currentState": "筋病理や遺伝子検査を参考に診断し、理学療法や呼吸などへの支援を行います。麻酔管理は専門医と相談します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 52
+    },
+    {
+      "id": "nando-111-3",
+      "name": "ミニコア病",
+      "overview": "ミニコア病は筋組織に複数の小さなコア状の変化がみられる先天性筋疾患です。体幹や四肢の筋力低下、背骨の変形、呼吸筋の問題を伴う型があります。",
+      "dailyLife": "姿勢を保つことや階段の昇降、睡眠中の呼吸に配慮が必要になる場合があります。成長に合わせて装具や活動を調整します。",
+      "currentState": "筋肉や遺伝子を評価して病型を見分け、呼吸・脊椎・運動機能を長期的に確認します。必要な支援は原因遺伝子と症状によって異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 53
+    },
+    {
+      "id": "nando-111-4",
+      "name": "ミオチュブラーミオパチー",
+      "overview": "ミオチュブラーミオパチーは筋線維の中央に核がみられるなどの特徴を持つ先天性筋疾患です。MTM1遺伝子に関係するX連鎖型では乳児期から強い筋力低下が起こる場合があります。",
+      "dailyLife": "呼吸や哺乳、姿勢の保持に医療的な支援が必要になる型があります。家族への負担も考え、在宅支援や多職種の協力が重要です。",
+      "currentState": "筋病理と遺伝学的検査などで診断し、呼吸・栄養の管理とリハビリを行います。病型を限定せずに同じ経過とみなすことはできません。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 54
+    },
+    {
+      "id": "nando-111-5",
+      "name": "中心核ミオパチー",
+      "overview": "中心核ミオパチーは筋線維の核が中央に集まる特徴を持つ先天性筋疾患群です。DNM2など複数の原因遺伝子があり、筋力低下の現れ方は病型によって異なります。",
+      "dailyLife": "歩行や上肢の作業、姿勢保持に工夫が必要になる場合があります。疲れやすさや呼吸機能も確認し、本人に合う運動を考えます。",
+      "currentState": "筋病理や遺伝子検査によって病型を調べ、運動・呼吸機能への支援と長期的な経過観察を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 55
+    },
+    {
+      "id": "nando-111-6",
+      "name": "先天性筋線維タイプ不均等症",
+      "overview": "先天性筋線維タイプ不均等症は筋線維の種類によって太さが不均一になる特徴がある先天性ミオパチーです。筋力低下の程度や原因となる遺伝子には幅があります。",
+      "dailyLife": "子どもの運動発達や体力、呼吸に影響する場合があります。疲れやすさに配慮し、学校や家庭での動作を支えます。",
+      "currentState": "筋病理所見だけで確定しない場合もあり、遺伝学的な情報などを合わせて評価します。症状に応じたリハビリを行います。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 56
+    },
+    {
+      "id": "nando-111-7",
+      "name": "全タイプ１繊維ミオパチー",
+      "overview": "全タイプ1線維ミオパチーは筋肉の線維の構成がタイプ1線維に偏る、先天性筋疾患の一型です。筋力低下や運動発達の違いがみられることがあります。",
+      "dailyLife": "歩行や立ち上がり、運動時の疲れやすさに応じて支援を調整します。呼吸機能を含む定期的な評価が必要な場合があります。",
+      "currentState": "他の先天性ミオパチーとの鑑別を進め、遺伝子・筋病理などの情報と症状を合わせて診断します。生活機能を維持する支援を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4726"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 57
+    },
+    {
+      "id": "nando-113-1-2",
+      "name": "ベッカー型筋ジストロフィー",
+      "overview": "ベッカー型筋ジストロフィーはジストロフィンの量や機能が部分的に保たれた病型で、デュシェンヌ型より経過が緩やかな場合があります。心筋への影響が出ることもあります。",
+      "dailyLife": "歩行や運動能力が長く保たれる人もいますが、心臓の症状は自覚しにくい場合があります。仕事や運動の調整と定期検査が大切です。",
+      "currentState": "ジストロフィン異常を遺伝学的検査などで確認し、心臓・呼吸の評価やリハビリを行います。症状に応じた薬物治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 58
+    },
+    {
+      "id": "nando-113-2",
+      "name": "肢帯型筋ジストロフィー",
+      "overview": "肢帯型筋ジストロフィーは肩や腰に近い筋肉から筋力が低下する疾患群です。原因となる遺伝子は多数あり、心臓・呼吸への影響が強い型もあります。",
+      "dailyLife": "腕を上げる、床から立ち上がる、階段を上るなどの動作が負担になる場合があります。本人の状態に合う補助具や学校・職場での配慮が助けになります。",
+      "currentState": "遺伝学的検査で型を見分けることが重要です。筋力・心臓・呼吸機能を確認し、適切なリハビリと合併症への対応を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 59
+    },
+    {
+      "id": "nando-113-3",
+      "name": "顔面肩甲上腕型筋ジストロフィー",
+      "overview": "顔面肩甲上腕型筋ジストロフィーは顔や肩甲骨まわり、上腕などの筋肉の働きが弱くなる病気です。筋力低下が左右対称とは限らず、遺伝学的な背景は複雑です。",
+      "dailyLife": "表情をつくることや腕を高く上げる動作が難しくなる場合があります。肩甲骨の安定や疲労に合わせた作業方法の工夫が役立ちます。",
+      "currentState": "診察と遺伝学的評価で病型を検討し、運動機能と生活動作への支援を行います。病状に応じて聴力や眼の評価が必要なこともあります。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 60
+    },
+    {
+      "id": "nando-113-4",
+      "name": "エメリー・ドレイフス型筋ジストロフィー",
+      "overview": "エメリー・ドレイフス型筋ジストロフィーは肘や足首などの関節が硬くなること、筋力低下、心臓の電気信号の異常などを特徴とする遺伝性疾患です。",
+      "dailyLife": "関節の動かしにくさが姿勢や移動に影響する場合があります。動悸や失神などの変化は早めに医療者へ伝えることが大切です。",
+      "currentState": "遺伝的な型を調べ、関節・筋力だけでなく心電図と心機能を定期的に確認します。必要に応じ心臓の医療機器などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 61
+    },
+    {
+      "id": "nando-113-5",
+      "name": "眼咽頭筋型筋ジストロフィー",
+      "overview": "眼咽頭筋型筋ジストロフィーは中高年期などにまぶたが下がる、飲み込みにくいといった症状が現れる遺伝性筋疾患です。手足の筋力が低下する人もいます。",
+      "dailyLife": "食事中にむせたり、視界がまぶたで遮られたりすることがあります。飲み込みの安全対策と日常動作への支援が役立ちます。",
+      "currentState": "遺伝学的評価を含めて診断し、嚥下・栄養や眼瞼下垂への治療を必要に応じて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 62
+    },
+    {
+      "id": "nando-113-6",
+      "name": "福山型先天性筋ジストロフィー",
+      "overview": "福山型先天性筋ジストロフィーはFKTN遺伝子に関連する先天性の筋疾患で、筋力低下に加えて脳や眼の発達に特徴がみられることがあります。症状の程度は個人差があります。",
+      "dailyLife": "姿勢や移動、食事、学習など複数の面で支援が必要な場合があります。本人の成長や発達に合わせて医療・教育・福祉をつなぎます。",
+      "currentState": "遺伝子検査などで診断し、けいれん・呼吸・栄養や運動機能に対応します。多職種による長期的な支援が中心です。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 63
+    },
+    {
+      "id": "nando-113-7",
+      "name": "筋強直性ジストロフィー",
+      "overview": "筋強直性ジストロフィーは、筋肉が縮んだ後に緩みにくいミオトニーと筋力低下などを特徴とする遺伝性疾患です。心臓、呼吸、睡眠、内分泌にも影響する型があります。",
+      "dailyLife": "手を離しにくい、日中に眠い、食べ物が飲み込みにくいなど、多様な困りごとが生活に重なる場合があります。",
+      "currentState": "病型を確認し、心電図、呼吸・睡眠、筋力などを定期的に評価します。症状に応じた薬やリハビリ、生活上の支援を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 64
+    },
+    {
+      "id": "nando-114-1-1",
+      "name": "先天性ミオトニー（トムゼン病（優性遺伝））",
+      "overview": "トムゼン病はCLCN1遺伝子の変化が優性遺伝形式で起こる先天性ミオトニーです。手足の筋肉が収縮後に緩みにくく、動き始めにこわばることがあります。",
+      "dailyLife": "歩き始めや手を握った直後の動作に時間がかかる場合があります。症状を理解して、無理のない活動方法を考えることが役立ちます。",
+      "currentState": "筋電図や遺伝子検査などで診断し、必要に応じて筋肉の興奮を調整する薬などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4520"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 65
+    },
+    {
+      "id": "nando-114-1-2",
+      "name": "先天性ミオトニー（ベッカー病（劣性遺伝））",
+      "overview": "ベッカー病（先天性ミオトニー）はCLCN1遺伝子に関連する劣性遺伝形式の筋疾患です。筋肉が緩みにくい症状に加え、一時的に力が入りにくいことがあります。",
+      "dailyLife": "立ち上がりや歩き始めが難しくなる場合があります。仕事や運動で急な動作が必要な場面では、症状に応じた配慮が役立ちます。",
+      "currentState": "筋電図と遺伝学的検査などを用いて、優性遺伝のトムゼン病や別のチャネル病との鑑別を行います。症状に応じて薬を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4520"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 66
+    },
+    {
+      "id": "nando-114-2",
+      "name": "ナトリウムチャネルミオトニー(カリウム惹起性ミオトニー)",
+      "overview": "ナトリウムチャネルミオトニーはSCN4A遺伝子の変化で筋細胞の電気的な興奮が調節しにくくなる病気です。筋肉が緩みにくい症状が中心で、誘因には個人差があります。",
+      "dailyLife": "筋肉のこわばりが手作業や歩行に影響する場合があります。症状が起こりやすい状況を医療者と共有し、生活上の対応を考えます。",
+      "currentState": "筋電図と遺伝学的検査などで病型を調べ、必要に応じて症状を和らげる薬を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4520"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 67
+    },
+    {
+      "id": "nando-114-3",
+      "name": "先天性パラミオトニー",
+      "overview": "先天性パラミオトニーはSCN4A遺伝子の変化に関連し、寒さや反復動作などで筋肉のこわばりが強くなることがある病気です。一般的な先天性ミオトニーと特徴が異なります。",
+      "dailyLife": "冷たい環境で手足や顔の筋肉が動かしにくくなる場合があります。本人に合う温度調整や仕事・運動の工夫が役立ちます。",
+      "currentState": "筋電図や遺伝子検査を用いて鑑別し、症状に応じて薬や生活上の対策を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4520"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 68
+    },
+    {
+      "id": "nando-115-1",
+      "name": "遺伝性低カリウム性周期性四肢麻痺",
+      "overview": "遺伝性低カリウム性周期性四肢麻痺は、発作時に血液中のカリウムが低くなり、手足の筋力が急に弱くなる病型です。筋肉のイオンチャネルに関係する遺伝的変化が原因になります。",
+      "dailyLife": "脱力発作が突然起こるため、安全な移動や助けを求める手段を考えておくことが重要です。発作の誘因は本人と医療者で確認します。",
+      "currentState": "血中カリウムや遺伝的な原因を評価し、発作時の対応と予防を専門医が指導します。自己判断でカリウムを補充することは避けます。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4529"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 69
+    },
+    {
+      "id": "nando-30-1",
+      "name": "三好型ミオパチー",
+      "overview": "三好型ミオパチーは主にふくらはぎなど下腿の筋肉から力が弱くなることが多い遠位型筋疾患です。ジスフェルリンに関連する遺伝子変化が原因となる型が知られています。",
+      "dailyLife": "つま先立ちや坂道、階段の昇降などに困りごとが生じる場合があります。転倒予防と活動の工夫が役立ちます。",
+      "currentState": "筋肉の検査や遺伝子検査などで病型を調べ、筋力・歩行を維持するリハビリや補助具を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4003"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 70
+    },
+    {
+      "id": "nando-30-2",
+      "name": "縁取り空胞を伴う遠位型ミオパチー",
+      "overview": "縁取り空胞を伴う遠位型ミオパチーはGNEミオパチーとも呼ばれ、足先を上げる筋肉などから弱くなることがある遺伝性の筋疾患です。筋線維に特徴的な変化がみられます。",
+      "dailyLife": "つまずきやすさや、長く歩くことへの負担が生活に影響する場合があります。靴や装具の工夫と住環境の調整が役立ちます。",
+      "currentState": "遺伝学的検査などで診断し、運動機能を確認しながらリハビリや補助具を検討します。臨床研究については専門医と情報を確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4003"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 71
+    },
+    {
+      "id": "nando-168-1",
+      "name": "古典型エーラス・ダンロス症候群",
+      "overview": "古典型エーラス・ダンロス症候群は、皮膚がよく伸び傷つきやすいことや、関節が大きく動くことが特徴の結合組織疾患です。COL5A1などの遺伝子が関係する場合があります。",
+      "dailyLife": "皮膚の裂傷やあざ、関節の不安定さなどに配慮が必要です。傷を保護し、無理な関節運動を避ける環境調整が役立ちます。",
+      "currentState": "臨床所見と遺伝学的評価などで病型を見分け、皮膚・関節の保護や必要な臓器の検査を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4801"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 72
+    },
+    {
+      "id": "nando-168-2",
+      "name": "関節型エーラス・ダンロス症候群",
+      "overview": "関節型エーラス・ダンロス症候群は、全身の関節が大きく動きやすく、痛みや脱臼・亜脱臼などが問題になることがある病型です。遺伝的な原因は十分に解明されていません。",
+      "dailyLife": "慢性的な関節痛や疲れやすさ、立ちくらみなどが日常の活動に影響する場合があります。姿勢や関節の安定を考えた工夫が役立ちます。",
+      "currentState": "診察で関節の可動性とほかの病気との違いを評価し、理学療法や痛みへの対応、生活環境の調整を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4801"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 73
+    },
+    {
+      "id": "nando-168-3",
+      "name": "血管型エーラス・ダンロス症候群",
+      "overview": "血管型エーラス・ダンロス症候群は主にCOL3A1遺伝子に関連し、動脈や消化管などの組織がもろくなることがある結合組織疾患です。ほかのEDSと合併症が大きく異なります。",
+      "dailyLife": "血管や臓器への負担を避けるため、医療者と活動や検査の注意点を共有することが重要です。急な強い痛みなどの症状は迅速な評価が必要です。",
+      "currentState": "遺伝学的検査などで病型を確認し、血管の状態を専門的に評価します。侵襲的な処置の危険性を踏まえて対応を計画します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4801"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 74
+    },
+    {
+      "id": "nando-168-4",
+      "name": "後側彎型エーラス・ダンロス症候群",
+      "overview": "後側彎型エーラス・ダンロス症候群は生まれつき筋緊張が低く、成長とともに背骨が曲がることや、皮膚・関節がもろくなることがある遺伝性疾患です。",
+      "dailyLife": "姿勢の保持や歩行、背骨の変化への支援が必要になる場合があります。眼の状態や筋力も含め、成長に合わせて生活を調整します。",
+      "currentState": "遺伝学的検査と全身の評価を行い、脊椎・関節・眼などの症状に対する専門的な支援を組み合わせます。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患群と病型に関する公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4801"
+        },
+        {
+          "title": "NANDO：国内難病データの病型分類",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "disease_group_source_with_subtype_distinction",
+      "reviewStatus": "editorial_draft_source_reviewed_not_clinically_signed_off",
+      "reviewedAt": "2026-10-12",
+      "batch": 15,
+      "selectionIndex": 75
+    }
+  ]
+}
