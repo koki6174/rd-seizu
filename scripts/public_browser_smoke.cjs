@@ -71,7 +71,10 @@ async function main(){
    {id:'mhlw-0146',name:'大田原症候群'},
    {id:'mhlw-0247',name:'イソ吉草酸血症'},
    {id:'nando-21-2',name:'リー脳症'},
-   {id:'nando-282-3',name:'先天性赤血球形成異常性貧血 Type III'}
+   {id:'nando-282-3',name:'先天性赤血球形成異常性貧血 Type III'},
+   // Latest hundred: verify the first and last exact new catalog IDs.
+   {id:'shoman-11-21',name:'シュワルツ・ヤンペル（Schwartz-Jampel）症候群'},
+   {id:'nando-277-2',name:'ゴーハム病'}
   ]){
    response=await page.goto(new URL('disease/?id='+encodeURIComponent(id),base).toString(),
     {waitUntil:'domcontentloaded',timeout:30000});
@@ -83,7 +86,7 @@ async function main(){
    assert((await page.locator('#disease-treatment').textContent()).length>35);
    assert((await page.locator('#disease-sources a').count())>=2);
   }
-  console.log('PASS 453 GUIDES: original articles and first/last of new ORPHA cohort load fully in production');
+  console.log('PASS 553 GUIDES: initial articles and first/last of both new ORPHA cohorts load fully in production');
 
   // Visual study uses the exact public 1241-star geometry and current
   // illumination; it never writes submissions or uses the clinical RPC.
