@@ -1,0 +1,505 @@
+{
+  "selectedFrom": "public.disease_catalog; published only; 98 official 248–348 names plus Gaucher, Pompe; not previously guided",
+  "records": [
+    {
+      "id": "mhlw-0248",
+      "name_ja": "グルコーストランスポーター1欠損症",
+      "designation": 248
+    },
+    {
+      "id": "mhlw-0249",
+      "name_ja": "グルタル酸血症1型",
+      "designation": 249
+    },
+    {
+      "id": "mhlw-0250",
+      "name_ja": "グルタル酸血症2型",
+      "designation": 250
+    },
+    {
+      "id": "mhlw-0251",
+      "name_ja": "尿素サイクル異常症",
+      "designation": 251
+    },
+    {
+      "id": "mhlw-0252",
+      "name_ja": "リジン尿性蛋白不耐症",
+      "designation": 252
+    },
+    {
+      "id": "mhlw-0253",
+      "name_ja": "先天性葉酸吸収不全",
+      "designation": 253
+    },
+    {
+      "id": "mhlw-0254",
+      "name_ja": "ポルフィリン症",
+      "designation": 254
+    },
+    {
+      "id": "mhlw-0255",
+      "name_ja": "複合カルボキシラーゼ欠損症",
+      "designation": 255
+    },
+    {
+      "id": "mhlw-0256",
+      "name_ja": "筋型糖原病",
+      "designation": 256
+    },
+    {
+      "id": "mhlw-0257",
+      "name_ja": "肝型糖原病",
+      "designation": 257
+    },
+    {
+      "id": "mhlw-0258",
+      "name_ja": "ガラクトース－１－リン酸ウリジルトランスフェラーゼ欠損症",
+      "designation": 258
+    },
+    {
+      "id": "mhlw-0259",
+      "name_ja": "レシチンコレステロールアシルトランスフェラーゼ欠損症",
+      "designation": 259
+    },
+    {
+      "id": "mhlw-0260",
+      "name_ja": "シトステロール血症",
+      "designation": 260
+    },
+    {
+      "id": "mhlw-0261",
+      "name_ja": "タンジール病",
+      "designation": 261
+    },
+    {
+      "id": "mhlw-0262",
+      "name_ja": "原発性高カイロミクロン血症",
+      "designation": 262
+    },
+    {
+      "id": "mhlw-0263",
+      "name_ja": "脳腱黄色腫症",
+      "designation": 263
+    },
+    {
+      "id": "mhlw-0264",
+      "name_ja": "無βリポタンパク血症",
+      "designation": 264
+    },
+    {
+      "id": "mhlw-0265",
+      "name_ja": "脂肪萎縮症",
+      "designation": 265
+    },
+    {
+      "id": "mhlw-0266",
+      "name_ja": "家族性地中海熱",
+      "designation": 266
+    },
+    {
+      "id": "mhlw-0267",
+      "name_ja": "高ＩｇＤ症候群",
+      "designation": 267
+    },
+    {
+      "id": "mhlw-0268",
+      "name_ja": "中條・西村症候群",
+      "designation": 268
+    },
+    {
+      "id": "mhlw-0269",
+      "name_ja": "化膿性無菌性関節炎・壊疽性膿皮症・アクネ症候群",
+      "designation": 269
+    },
+    {
+      "id": "mhlw-0270",
+      "name_ja": "慢性再発性多発性骨髄炎",
+      "designation": 270
+    },
+    {
+      "id": "mhlw-0272",
+      "name_ja": "進行性骨化性線維異形成症",
+      "designation": 272
+    },
+    {
+      "id": "mhlw-0273",
+      "name_ja": "肋骨異常を伴う先天性側弯症",
+      "designation": 273
+    },
+    {
+      "id": "mhlw-0274",
+      "name_ja": "骨形成不全症",
+      "designation": 274
+    },
+    {
+      "id": "mhlw-0275",
+      "name_ja": "タナトフォリック骨異形成症",
+      "designation": 275
+    },
+    {
+      "id": "mhlw-0276",
+      "name_ja": "軟骨無形成症",
+      "designation": 276
+    },
+    {
+      "id": "mhlw-0277",
+      "name_ja": "リンパ管腫症/ゴーハム病",
+      "designation": 277
+    },
+    {
+      "id": "mhlw-0278",
+      "name_ja": "巨大リンパ管奇形（頚部顔面病変）",
+      "designation": 278
+    },
+    {
+      "id": "mhlw-0279",
+      "name_ja": "巨大静脈奇形（頚部口腔咽頭びまん性病変）",
+      "designation": 279
+    },
+    {
+      "id": "mhlw-0280",
+      "name_ja": "巨大動静脈奇形（頚部顔面又は四肢病変）",
+      "designation": 280
+    },
+    {
+      "id": "mhlw-0281",
+      "name_ja": "クリッペル・トレノネー・ウェーバー症候群",
+      "designation": 281
+    },
+    {
+      "id": "mhlw-0282",
+      "name_ja": "先天性赤血球形成異常性貧血",
+      "designation": 282
+    },
+    {
+      "id": "mhlw-0283",
+      "name_ja": "後天性赤芽球癆",
+      "designation": 283
+    },
+    {
+      "id": "mhlw-0284",
+      "name_ja": "ダイアモンド・ブラックファン貧血",
+      "designation": 284
+    },
+    {
+      "id": "mhlw-0285",
+      "name_ja": "ファンコニ貧血",
+      "designation": 285
+    },
+    {
+      "id": "mhlw-0286",
+      "name_ja": "遺伝性鉄芽球性貧血",
+      "designation": 286
+    },
+    {
+      "id": "mhlw-0287",
+      "name_ja": "エプスタイン症候群",
+      "designation": 287
+    },
+    {
+      "id": "mhlw-0288",
+      "name_ja": "自己免疫性後天性凝固因子欠乏症",
+      "designation": 288
+    },
+    {
+      "id": "mhlw-0289",
+      "name_ja": "クロンカイト・カナダ症候群",
+      "designation": 289
+    },
+    {
+      "id": "mhlw-0290",
+      "name_ja": "非特異性多発性小腸潰瘍症",
+      "designation": 290
+    },
+    {
+      "id": "mhlw-0291",
+      "name_ja": "ヒルシュスプルング病（全結腸型又は小腸型）",
+      "designation": 291
+    },
+    {
+      "id": "mhlw-0292",
+      "name_ja": "総排泄腔外反症",
+      "designation": 292
+    },
+    {
+      "id": "mhlw-0293",
+      "name_ja": "総排泄腔遺残",
+      "designation": 293
+    },
+    {
+      "id": "mhlw-0294",
+      "name_ja": "先天性横隔膜ヘルニア",
+      "designation": 294
+    },
+    {
+      "id": "mhlw-0295",
+      "name_ja": "乳幼児肝巨大血管腫",
+      "designation": 295
+    },
+    {
+      "id": "mhlw-0296",
+      "name_ja": "胆道閉鎖症",
+      "designation": 296
+    },
+    {
+      "id": "mhlw-0297",
+      "name_ja": "アラジール症候群",
+      "designation": 297
+    },
+    {
+      "id": "mhlw-0298",
+      "name_ja": "遺伝性膵炎",
+      "designation": 298
+    },
+    {
+      "id": "mhlw-0299",
+      "name_ja": "嚢胞性線維症",
+      "designation": 299
+    },
+    {
+      "id": "mhlw-0301",
+      "name_ja": "黄斑ジストロフィー",
+      "designation": 301
+    },
+    {
+      "id": "mhlw-0302",
+      "name_ja": "レーベル遺伝性視神経症",
+      "designation": 302
+    },
+    {
+      "id": "mhlw-0303",
+      "name_ja": "アッシャー症候群",
+      "designation": 303
+    },
+    {
+      "id": "mhlw-0304",
+      "name_ja": "若年発症型両側性感音難聴",
+      "designation": 304
+    },
+    {
+      "id": "mhlw-0305",
+      "name_ja": "遅発性内リンパ水腫",
+      "designation": 305
+    },
+    {
+      "id": "mhlw-0307",
+      "name_ja": "カナバン病",
+      "designation": 307
+    },
+    {
+      "id": "mhlw-0308",
+      "name_ja": "進行性白質脳症",
+      "designation": 308
+    },
+    {
+      "id": "mhlw-0309",
+      "name_ja": "進行性ミオクローヌスてんかん",
+      "designation": 309
+    },
+    {
+      "id": "mhlw-0310",
+      "name_ja": "先天異常症候群",
+      "designation": 310
+    },
+    {
+      "id": "mhlw-0311",
+      "name_ja": "先天性三尖弁狭窄症",
+      "designation": 311
+    },
+    {
+      "id": "mhlw-0312",
+      "name_ja": "先天性僧帽弁狭窄症",
+      "designation": 312
+    },
+    {
+      "id": "mhlw-0313",
+      "name_ja": "先天性肺静脈狭窄症",
+      "designation": 313
+    },
+    {
+      "id": "mhlw-0314",
+      "name_ja": "左肺動脈右肺動脈起始症",
+      "designation": 314
+    },
+    {
+      "id": "mhlw-0315",
+      "name_ja": "ネイルパテラ症候群（爪膝蓋骨症候群）／ＬＭＸ１Ｂ関連腎症",
+      "designation": 315
+    },
+    {
+      "id": "mhlw-0316",
+      "name_ja": "カルニチン回路異常症",
+      "designation": 316
+    },
+    {
+      "id": "mhlw-0317",
+      "name_ja": "三頭酵素欠損症",
+      "designation": 317
+    },
+    {
+      "id": "mhlw-0318",
+      "name_ja": "シトリン欠損症",
+      "designation": 318
+    },
+    {
+      "id": "mhlw-0319",
+      "name_ja": "セピアプテリン還元酵素（ＳＲ）欠損症",
+      "designation": 319
+    },
+    {
+      "id": "mhlw-0320",
+      "name_ja": "先天性グリコシルホスファチジルイノシトール（GPI）欠損症",
+      "designation": 320
+    },
+    {
+      "id": "mhlw-0321",
+      "name_ja": "非ケトーシス型高グリシン血症",
+      "designation": 321
+    },
+    {
+      "id": "mhlw-0322",
+      "name_ja": "β―ケトチオラーゼ欠損症",
+      "designation": 322
+    },
+    {
+      "id": "mhlw-0323",
+      "name_ja": "芳香族L－アミノ酸脱炭酸酵素欠損症",
+      "designation": 323
+    },
+    {
+      "id": "mhlw-0324",
+      "name_ja": "メチルグルタコン酸尿症",
+      "designation": 324
+    },
+    {
+      "id": "mhlw-0325",
+      "name_ja": "遺伝性自己炎症疾患",
+      "designation": 325
+    },
+    {
+      "id": "mhlw-0326",
+      "name_ja": "大理石骨病",
+      "designation": 326
+    },
+    {
+      "id": "mhlw-0327",
+      "name_ja": "特発性血栓症（遺伝性血栓性素因によるものに限る。）",
+      "designation": 327
+    },
+    {
+      "id": "mhlw-0328",
+      "name_ja": "前眼部形成異常",
+      "designation": 328
+    },
+    {
+      "id": "mhlw-0329",
+      "name_ja": "無虹彩症",
+      "designation": 329
+    },
+    {
+      "id": "mhlw-0330",
+      "name_ja": "先天性気管狭窄症／先天性声門下狭窄症",
+      "designation": 330
+    },
+    {
+      "id": "mhlw-0331",
+      "name_ja": "特発性多中心性キャッスルマン病",
+      "designation": 331
+    },
+    {
+      "id": "mhlw-0332",
+      "name_ja": "膠様滴状角膜ジストロフィー",
+      "designation": 332
+    },
+    {
+      "id": "mhlw-0333",
+      "name_ja": "ハッチンソン・ギルフォード症候群",
+      "designation": 333
+    },
+    {
+      "id": "mhlw-0334",
+      "name_ja": "脳クレアチン欠乏症候群",
+      "designation": 334
+    },
+    {
+      "id": "mhlw-0335",
+      "name_ja": "ネフロン癆",
+      "designation": 335
+    },
+    {
+      "id": "mhlw-0336",
+      "name_ja": "家族性低βリポタンパク血症1（ホモ接合体）",
+      "designation": 336
+    },
+    {
+      "id": "mhlw-0337",
+      "name_ja": "ホモシスチン尿症",
+      "designation": 337
+    },
+    {
+      "id": "mhlw-0338",
+      "name_ja": "進行性家族性肝内胆汁うっ滞症",
+      "designation": 338
+    },
+    {
+      "id": "mhlw-0339",
+      "name_ja": "ＭＥＣＰ２重複症候群",
+      "designation": 339
+    },
+    {
+      "id": "mhlw-0340",
+      "name_ja": "線毛機能不全症候群（カルタゲナー症候群を含む。）",
+      "designation": 340
+    },
+    {
+      "id": "mhlw-0341",
+      "name_ja": "ＴＲＰＶ４異常症",
+      "designation": 341
+    },
+    {
+      "id": "mhlw-0342",
+      "name_ja": "LMNB1 関連大脳白質脳症",
+      "designation": 342
+    },
+    {
+      "id": "mhlw-0343",
+      "name_ja": "PURA 関連神経発達異常症",
+      "designation": 343
+    },
+    {
+      "id": "mhlw-0344",
+      "name_ja": "極長鎖アシル-CoA 脱水素酵素欠損症",
+      "designation": 344
+    },
+    {
+      "id": "mhlw-0345",
+      "name_ja": "乳児発症 STING 関連血管炎",
+      "designation": 345
+    },
+    {
+      "id": "mhlw-0346",
+      "name_ja": "原発性肝外門脈閉塞症",
+      "designation": 346
+    },
+    {
+      "id": "mhlw-0347",
+      "name_ja": "出血性線溶異常症",
+      "designation": 347
+    },
+    {
+      "id": "mhlw-0348",
+      "name_ja": "ロウ症候群",
+      "designation": 348
+    },
+    {
+      "id": "gaucher-disease",
+      "name_ja": "ゴーシェ病",
+      "designation": null
+    },
+    {
+      "id": "pompe-disease",
+      "name_ja": "ポンペ病",
+      "designation": null
+    }
+  ]
+}

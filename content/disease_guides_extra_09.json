@@ -1,0 +1,580 @@
+{
+  "part": 9,
+  "records": [
+    {
+      "id": "mhlw-0248",
+      "name": "グルコーストランスポーター1欠損症",
+      "designation": 248,
+      "overview": "脳で主なエネルギー源となるブドウ糖を運ぶGLUT1というたんぱく質の働きが不足する病気です。乳児期の発作、運動のぎこちなさ、発達の違いなどが現れることがあります。",
+      "dailyLife": "発作や運動の症状に加え、学校や日常の活動で配慮が必要になる場合があります。食事の管理は専門の医療者と相談して進めることが重要です。",
+      "currentState": "血液と髄液の糖の濃度や遺伝子検査などで調べます。ケトン食療法が有効な場合があり、栄養不足や副作用を避けるため専門的な管理が欠かせません。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5476",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0249",
+      "name": "グルタル酸血症1型",
+      "designation": 249,
+      "overview": "アミノ酸の一部を分解する酵素の働きが弱く、代謝産物が蓄積して脳などに影響する遺伝性疾患です。乳幼児期に感染などを契機に急な神経症状が起こる場合があります。",
+      "dailyLife": "発熱や食事が取れないときの対応を家族と医療者が共有することが大切です。発達や運動の状態に合わせた療育・リハビリが役立ちます。",
+      "currentState": "新生児マススクリーニングや代謝検査で見つかる場合があります。リジンを調整する食事、カルニチン補充、急病時の代謝管理などを専門医が行います。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患別解説",
+          "url": "https://www.nanbyou.or.jp/entry/4831",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0250",
+      "name": "グルタル酸血症2型",
+      "designation": 250,
+      "overview": "脂肪酸と一部のアミノ酸をエネルギーに変える過程が障害される、複数の原因を含む先天性代謝疾患です。低血糖、筋力低下、肝機能の異常などが起こる場合があります。",
+      "dailyLife": "長く食べられない状態や発熱時に体調が悪化する型があります。学校・保育施設と体調不良時の対応を共有し、病型に沿った食事と活動の調整が大切です。",
+      "currentState": "血液のアシルカルニチンなどの検査と遺伝子検査を組み合わせます。型によりリボフラビンへの反応や食事管理が異なるため一律の対応は避けます。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5476",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0251",
+      "name": "尿素サイクル異常症",
+      "designation": 251,
+      "overview": "体内で発生するアンモニアを尿素へ変えて排出する仕組みがうまく働かない病気の一群です。血中アンモニアが高くなると嘔吐、意識の変化などが起こることがあります。",
+      "dailyLife": "食事や体調不良の際の対応が重要になる場合があります。家庭と学校・職場で受診の目安を共有し、栄養管理は代謝専門医の指導に従います。",
+      "currentState": "血中アンモニアやアミノ酸、遺伝子などを調べます。たんぱく質摂取の調整やアンモニアを減らす薬を用い、重い高アンモニア血症は緊急対応が必要です。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0252",
+      "name": "リジン尿性蛋白不耐症",
+      "designation": 252,
+      "overview": "特定のアミノ酸を腸と腎臓で運ぶ働きが障害される遺伝性の病気です。食欲不振、成長の問題、血中アンモニアの上昇、肺や免疫への影響などを伴うことがあります。",
+      "dailyLife": "食事や感染時の体調変化を気にかける必要がある人もいます。疲れやすさや学校生活の困りごとを共有し、個々に合った栄養支援を受けます。",
+      "currentState": "アミノ酸の検査や遺伝子検査で評価し、必要に応じてシトルリンなどを用いた栄養・代謝管理や臓器症状への治療を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0253",
+      "name": "先天性葉酸吸収不全",
+      "designation": 253,
+      "overview": "腸から葉酸を吸収して体内へ運ぶ仕組みが生まれつき障害される病気です。乳幼児期に貧血、感染しやすさ、発達や神経の問題が現れることがあります。",
+      "dailyLife": "成長や学習の支援に加え、定期的な血液検査や通院が必要になる場合があります。家庭での薬の管理を含めて医療者と相談することが大切です。",
+      "currentState": "血液・髄液の葉酸濃度と遺伝的な原因などを調べます。葉酸の状態を補う治療を行い、神経症状や成長を長期的に評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0254",
+      "name": "ポルフィリン症",
+      "designation": 254,
+      "overview": "血液のヘムを作る過程に異常がある疾患の総称です。病型によって強い腹痛や神経症状を起こすもの、日光で皮膚が傷つきやすくなるものなどがあります。",
+      "dailyLife": "日光への配慮が必要な型と、薬剤などが発作を誘発する型では日常の注意が異なります。自身の病型と避けるべき誘因を医療者と確認します。",
+      "currentState": "血液・尿・便のポルフィリン関連検査などで型を見分けます。発作時の治療や光線防御など、病型に合った対応が不可欠です。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0255",
+      "name": "複合カルボキシラーゼ欠損症",
+      "designation": 255,
+      "overview": "ビオチンを利用する複数の酵素が十分に働かず、脂肪酸やアミノ酸の代謝が障害される病気です。乳児期に哺乳不良、皮膚症状、代謝性アシドーシスなどが現れる場合があります。",
+      "dailyLife": "食欲低下や感染時に症状が悪化する場合があるため、家族や保育者が受診の目安を共有することが重要です。継続的な服薬・栄養管理が必要な人もいます。",
+      "currentState": "代謝産物や遺伝子などを調べます。ビオチン補充への反応が期待できる病型があり、急性期には酸塩基や栄養の専門的な管理を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0256",
+      "name": "筋型糖原病",
+      "designation": 256,
+      "overview": "筋肉でグリコーゲンを利用する仕組みに関係する遺伝性疾患の一群です。運動時の筋肉痛や脱力が現れる型も、乳児期から筋力や呼吸に影響する型もあります。",
+      "dailyLife": "運動の負荷や活動量を調整する必要がある場合があります。全員が同じ運動制限を必要とするわけではなく、筋力・心臓・呼吸の状態に応じた支援が役立ちます。",
+      "currentState": "酵素や遺伝子などで病型を特定し、運動・栄養・呼吸の管理を行います。ポンペ病など一部の病型では酵素補充療法がありますが、全病型に共通する治療ではありません。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0257",
+      "name": "肝型糖原病",
+      "designation": 257,
+      "overview": "肝臓に蓄えたグリコーゲンを利用する働きが障害される病気の一群です。低血糖、肝臓の腫れ、成長の遅れなどが現れることがあります。",
+      "dailyLife": "食事の間隔や体調不良時の対応が生活の重要な部分になることがあります。学校や外出先での食事・体調管理は医療者と相談して決めます。",
+      "currentState": "血糖や代謝検査、遺伝子検査で病型を見分けます。適切な栄養の補給方法を病型ごとに決め、肝機能と成長を継続的に確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0258",
+      "name": "ガラクトース－１－リン酸ウリジルトランスフェラーゼ欠損症",
+      "designation": 258,
+      "overview": "乳糖から生じるガラクトースを代謝するGALTという酵素の働きが低下する病気です。新生児期に黄疸、哺乳不良、肝機能異常などが現れる場合があります。",
+      "dailyLife": "乳児期から栄養の選び方について専門的な助言が必要です。成長後も言葉や学習、内分泌などの状態を確認する場合があります。",
+      "currentState": "新生児スクリーニングや酵素・遺伝子検査で診断します。ガラクトース摂取の管理などを早期に始め、長期的に発達や臓器の状態を評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0259",
+      "name": "レシチンコレステロールアシルトランスフェラーゼ欠損症",
+      "designation": 259,
+      "overview": "血液中のコレステロールの運搬を調節するLCATという酵素の働きが弱い遺伝性の病気です。角膜の濁り、貧血、腎機能の障害などが現れる場合があります。",
+      "dailyLife": "見え方や疲れやすさに影響が出る人もいます。腎臓の状態を定期的に確認し、生活習慣や検査について医療者と相談することが大切です。",
+      "currentState": "血中脂質や酵素・遺伝子などを調べ、腎機能の保護と合併症への治療を行います。病型により臓器症状と経過が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0260",
+      "name": "シトステロール血症",
+      "designation": 260,
+      "overview": "植物由来のステロールを体外へ排出する仕組みが障害され、血中に植物ステロールが増える遺伝性の病気です。黄色腫、血液の異常、早い時期の動脈硬化などを伴うことがあります。",
+      "dailyLife": "皮膚のしこりや検査値の変化などから見つかる場合があります。食事の選び方は一般的な高コレステロール血症と異なるため、専門医の助言が重要です。",
+      "currentState": "血液中の植物ステロールの測定や遺伝子検査で評価します。吸収を抑える薬や食事の調整を行い、血管・血液の状態も確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0261",
+      "name": "タンジール病",
+      "designation": 261,
+      "overview": "ABCA1というたんぱく質の働きの異常でHDLコレステロールが著しく低くなる遺伝性疾患です。扁桃の色の変化、末梢神経障害、臓器の腫れなどがみられることがあります。",
+      "dailyLife": "しびれや筋力の変化が生活に影響する場合があります。血管や神経などの状態を定期的に調べ、必要な支援を受けます。",
+      "currentState": "血液の脂質や遺伝子検査で診断し、血管の危険因子の管理と症状への対応を行います。特定の根治療法は限られています。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0262",
+      "name": "原発性高カイロミクロン血症",
+      "designation": 262,
+      "overview": "血液のカイロミクロンという脂肪粒子が分解されにくくなり、中性脂肪が著しく増える遺伝性の疾患群です。膵炎や腹痛などが問題になる場合があります。",
+      "dailyLife": "食事中の脂肪の種類と量に専門的な調整が必要になることがあります。腹痛や嘔吐などが生じた際の受診の目安を共有します。",
+      "currentState": "脂質・酵素・遺伝子などを調べ、病型に合わせた食事療法や合併症の管理を行います。一般的な脂質異常症とは治療が異なる場合があります。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0263",
+      "name": "脳腱黄色腫症",
+      "designation": 263,
+      "overview": "胆汁酸を作る過程の酵素が働きにくくなり、コレスタノールという物質がたまる遺伝性疾患です。白内障、下痢、腱の黄色腫、運動や認知の症状などが現れることがあります。",
+      "dailyLife": "見え方や歩行、学習の困りごとに応じた支援が必要になる場合があります。早い時期の診断と継続治療が重要です。",
+      "currentState": "血中コレスタノールや遺伝子検査などで評価し、胆汁酸の補充による治療を検討します。神経・眼・骨などの状態も確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0264",
+      "name": "無βリポタンパク血症",
+      "designation": 264,
+      "overview": "脂肪を運ぶリポたんぱく質を作る働きが障害され、脂質や脂溶性ビタミンを吸収しにくくなる遺伝性の病気です。乳児期から下痢や成長の問題が現れることがあります。",
+      "dailyLife": "栄養の取り方やビタミン補充の管理が必要になる場合があります。見え方や神経の症状を定期的に確認することが重要です。",
+      "currentState": "血中脂質や遺伝子検査を行い、専門的な食事療法と脂溶性ビタミンの補充などを検討します。栄養状態と臓器機能を長期的に評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0265",
+      "name": "脂肪萎縮症",
+      "designation": 265,
+      "overview": "皮下などの脂肪組織が少なくなる病気の一群です。先天性・後天性の型があり、インスリンが効きにくくなることや肝臓への脂肪蓄積などを伴う場合があります。",
+      "dailyLife": "見た目の変化だけでなく、血糖や肝機能の管理が必要になることがあります。体型についての周囲の理解と、継続的な医療支援が大切です。",
+      "currentState": "病型を調べ、糖代謝・脂質異常・肝臓の状態を管理します。条件によってはレプチン製剤による治療が検討されます。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0266",
+      "name": "家族性地中海熱",
+      "designation": 266,
+      "overview": "炎症を抑える仕組みに関係するMEFV遺伝子などが関与し、発熱と腹痛・胸痛・関節痛の発作を繰り返す自己炎症性疾患です。遺伝子の変化が確認できない人もいます。",
+      "dailyLife": "症状のない時期は普段どおりに活動できる人もいますが、発作時には休息が必要になることがあります。ストレスや疲労などの誘因を把握することが助けになります。",
+      "currentState": "コルヒチンが発作の予防に使われ、十分な効果が得られない場合は炎症を抑える別の薬を検討します。腎臓への合併症も確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患別解説",
+          "url": "https://www.nanbyou.or.jp/entry/4447",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0267",
+      "name": "高ＩｇＤ症候群",
+      "designation": 267,
+      "overview": "メバロン酸キナーゼという酵素の働きの低下に関連する自己炎症性の病気です。幼児期から発熱、発疹、腹痛、リンパ節の腫れなどを繰り返すことがあります。",
+      "dailyLife": "突然の発熱で学校や予定を休むことがあります。発作の記録や、家族・医療者が共有する対応計画が生活の助けになります。",
+      "currentState": "遺伝子や炎症の検査を踏まえ、発作と合併症の管理を行います。病状に応じてIL-1を標的とした治療などが検討されます。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0268",
+      "name": "中條・西村症候群",
+      "designation": 268,
+      "overview": "炎症と脂肪組織の変化を伴う遺伝性の自己炎症性疾患です。幼少期から発熱や皮膚症状が起こり、成長とともに脂肪が減るなどの変化が現れる場合があります。",
+      "dailyLife": "皮膚の痛みや関節の問題、疲労感などが生活に影響することがあります。本人の体調に合わせた学校・仕事での配慮が役立ちます。",
+      "currentState": "遺伝子検査などで確認し、炎症や臓器症状に応じた治療を行います。希少な疾患であり、専門施設で経過を確認することが重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0269",
+      "name": "化膿性無菌性関節炎・壊疽性膿皮症・アクネ症候群",
+      "designation": 269,
+      "overview": "無菌性の関節炎、皮膚の深い潰瘍、重いにきびなどが組み合わさる自己炎症性の病気です。すべての症状が同時に現れるとは限りません。",
+      "dailyLife": "皮膚の傷の痛みや関節の症状で、移動や日常生活に支障が出る場合があります。傷の扱いと皮膚・関節の専門的なケアが大切です。",
+      "currentState": "感染症などと区別し、炎症を抑える薬や創傷ケアを組み合わせます。病型や臓器への影響に合わせて治療を調整します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0270",
+      "name": "慢性再発性多発性骨髄炎",
+      "designation": 270,
+      "overview": "骨に細菌感染がないのに炎症が繰り返し起こり、骨の痛みや腫れを生じる病気です。小児期に発症することが多く、複数の骨に病変が現れる場合があります。",
+      "dailyLife": "痛みのために運動や学校生活の調整が必要になることがあります。痛みの強さは日によって変化することがあり、周囲の理解が助けになります。",
+      "currentState": "画像検査などで感染症や腫瘍を鑑別し、抗炎症薬や必要に応じて免疫を調節する治療を検討します。成長と骨の状態を確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0272",
+      "name": "進行性骨化性線維異形成症",
+      "designation": 272,
+      "overview": "筋肉や腱など本来骨にならない場所で、炎症の後に新たな骨が形成される遺伝性疾患です。関節の動きが制限されることがあり、外傷が悪化のきっかけになる場合があります。",
+      "dailyLife": "転倒や強い衝撃を避ける工夫が大切です。本人の動ける範囲に合わせて、移動や衣服、学習・仕事の環境を調整します。",
+      "currentState": "特徴的な身体所見と遺伝子検査などで診断し、外傷や不要な侵襲を避けながら炎症発作への対応を行います。治療選択肢は専門医と確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：疾患別解説",
+          "url": "https://www.nanbyou.or.jp/entry/216",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    },
+    {
+      "id": "mhlw-0273",
+      "name": "肋骨異常を伴う先天性側弯症",
+      "designation": 273,
+      "overview": "生まれつき肋骨や背骨の形に違いがあり、背骨の湾曲を生じる骨格の病気です。胸郭の形によっては呼吸機能の発達にも影響することがあります。",
+      "dailyLife": "成長につれて姿勢や体の動きに変化が出る場合があります。学校生活や運動を一律に制限せず、呼吸・体幹の状態に応じて調整します。",
+      "currentState": "背骨と肋骨の画像検査や呼吸機能を確認し、装具や必要に応じた手術などを検討します。成長に合わせた長期的な評価が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 9
+    }
+  ]
+}

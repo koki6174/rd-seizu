@@ -1,0 +1,580 @@
+{
+  "part": 11,
+  "records": [
+    {
+      "id": "mhlw-0299",
+      "name": "嚢胞性線維症",
+      "designation": 299,
+      "overview": "CFTRというたんぱく質の働きが障害され、気道や膵臓などの分泌物が粘りやすくなる遺伝性疾患です。繰り返す呼吸器感染、栄養吸収の問題などが起こることがあります。",
+      "dailyLife": "気道のケアや吸入、栄養・消化酵素の管理が毎日の生活で必要になる人がいます。学校や仕事との両立には周囲の協力が役立ちます。",
+      "currentState": "呼吸器の感染管理と気道クリアランス、膵酵素補充などを行います。遺伝子変化の型によりCFTRの働きを改善する薬が適応となる場合があります。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5477",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0301",
+      "name": "黄斑ジストロフィー",
+      "designation": 301,
+      "overview": "目の網膜の中心部である黄斑が徐々に障害され、細かな物や文字が見えにくくなる遺伝性疾患の一群です。発症年齢や進み方は病型によって異なります。",
+      "dailyLife": "読書や画面の文字、顔の見分けなどに困りごとが生じる場合があります。拡大表示や照明の工夫、ロービジョン支援が役立ちます。",
+      "currentState": "眼底・光干渉断層計などで病型を確認し、見え方を支えるケアを行います。病型ごとに原因や治療研究が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0302",
+      "name": "レーベル遺伝性視神経症",
+      "designation": 302,
+      "overview": "主にミトコンドリアDNAの変化が関係し、視神経の働きが障害されて中心の視力が低下する遺伝性疾患です。発症時期や回復の程度には個人差があります。",
+      "dailyLife": "文字や顔が見えにくくなることがあり、学習・仕事の環境調整や視覚補助具が役立ちます。家族と遺伝について相談する人もいます。",
+      "currentState": "眼科で視力や視神経を評価し、遺伝的背景を調べます。病型や地域の承認状況に応じた治療の検討とロービジョンケアを行います。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0303",
+      "name": "アッシャー症候群",
+      "designation": 303,
+      "overview": "生まれつきまたは幼少期からの感音難聴と、網膜色素変性による視機能の低下が組み合わさる遺伝性疾患の一群です。平衡感覚に影響する型もあります。",
+      "dailyLife": "聞こえ方と見え方の双方への配慮が必要です。手話・字幕・触覚など本人に合うコミュニケーション方法や安全な移動環境が役立ちます。",
+      "currentState": "聴力・視力・平衡機能などを評価し、補聴器、人工内耳や視覚支援を検討します。型に応じた継続的な支援が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0304",
+      "name": "若年発症型両側性感音難聴",
+      "designation": 304,
+      "overview": "若い年齢から両耳の感音難聴が進む病気のうち、診断基準に合うものです。原因には遺伝子の変化などがあり、聴力の変化の仕方は人によって異なります。",
+      "dailyLife": "会話や授業、電話などで聞き取りにくさが起こる場合があります。補聴器や字幕、周囲の話し方の工夫などで生活を支えます。",
+      "currentState": "聴力検査や画像、遺伝子検査などを行い、適応に応じて補聴器や人工内耳を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0305",
+      "name": "遅発性内リンパ水腫",
+      "designation": 305,
+      "overview": "内耳のリンパ液の調節に変化が起こり、めまいや難聴などが現れる病気です。以前から片側に難聴があり、あとからめまいや耳の症状が出る型などがあります。",
+      "dailyLife": "突然のめまいで外出や移動が難しくなることがあります。転倒への備えや、聞こえに合わせたコミュニケーションの工夫が役立ちます。",
+      "currentState": "聴力・平衡機能などを調べ、めまいや耳症状への薬物療法、必要に応じた処置などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0307",
+      "name": "カナバン病",
+      "designation": 307,
+      "overview": "ASPA遺伝子の変化に関連し、脳の白質が障害される遺伝性の病気です。乳児期から筋緊張の変化や運動・発達の問題がみられる場合があります。",
+      "dailyLife": "姿勢を保つことや食事、呼吸への支援が必要な人もいます。家族と医療・福祉が連携して生活環境を整えることが重要です。",
+      "currentState": "画像・代謝・遺伝子検査などで診断し、筋緊張や栄養、呼吸の状態に応じた支援を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0308",
+      "name": "進行性白質脳症",
+      "designation": 308,
+      "overview": "脳の白質の働きが徐々に障害される、原因の異なる複数の病気を含む疾患群です。歩きにくさ、認知や運動機能の変化などが起こる場合があります。",
+      "dailyLife": "移動や学習・仕事、食事などで支援が必要になる場合があります。病型や進み方に合わせて補助具や支援体制を調整します。",
+      "currentState": "MRIや代謝・遺伝子検査などで原因を見分け、病型に応じた治療やリハビリを検討します。一律の治療ではありません。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0309",
+      "name": "進行性ミオクローヌスてんかん",
+      "designation": 309,
+      "overview": "筋肉が急にぴくつく発作などのてんかん症状に加え、運動・認知などの機能が徐々に変化する疾患群です。遺伝性など原因は多様です。",
+      "dailyLife": "発作への備えに加え、手先の動きや歩行の支援が必要になる場合があります。学校や仕事での安全と活動の両立を考えます。",
+      "currentState": "脳波・画像・遺伝子などで病型を評価し、発作を抑える薬や原因に応じた治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0310",
+      "name": "先天異常症候群",
+      "designation": 310,
+      "overview": "生まれつき複数の臓器や体の形・働きに特徴がある疾患群をまとめた名称です。原因となる染色体や遺伝子の変化と症状は疾患ごとに異なります。",
+      "dailyLife": "必要な支援は一人ひとり違い、食事、移動、コミュニケーション、発達などを個別に評価します。本人と家族の希望に沿った支援が重要です。",
+      "currentState": "具体的な疾患概念を特定し、関係する臓器の診察と発達支援を行います。この総称に共通する単一の治療法はありません。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0311",
+      "name": "先天性三尖弁狭窄症",
+      "designation": 311,
+      "overview": "生まれつき心臓の右心房と右心室の間にある三尖弁が狭く、血液が通りにくい状態です。程度によってはチアノーゼや疲れやすさなどが現れます。",
+      "dailyLife": "心臓の状態に応じて運動や活動への配慮が必要になる場合があります。小児期からの通院と学校での情報共有が役立ちます。",
+      "currentState": "心エコーなどで構造と血流を評価し、必要に応じた心臓手術・カテーテル治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0312",
+      "name": "先天性僧帽弁狭窄症",
+      "designation": 312,
+      "overview": "生まれつき左心房と左心室の間の僧帽弁が狭く、血液の流れに負担がかかる心臓の病気です。呼吸の苦しさや成長への影響が現れる場合があります。",
+      "dailyLife": "疲れやすさや息切れに合わせて休息と活動を調整することがあります。成長に合わせた心機能の確認が大切です。",
+      "currentState": "心エコーなどで弁と心臓の状態を調べ、必要に応じて手術やカテーテル治療を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0313",
+      "name": "先天性肺静脈狭窄症",
+      "designation": 313,
+      "overview": "肺から心臓へ戻る肺静脈が生まれつき狭く、肺の血流に負担がかかる病気です。呼吸困難や肺高血圧などが起こる場合があります。",
+      "dailyLife": "呼吸の状態によって日常生活の活動や酸素の管理が必要になる場合があります。体調変化を早めに共有できることが大切です。",
+      "currentState": "画像・心エコーや心臓カテーテル検査などで評価し、状態に応じて血管を広げる治療や手術を検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0314",
+      "name": "左肺動脈右肺動脈起始症",
+      "designation": 314,
+      "overview": "通常と異なり、左肺動脈が右肺動脈から分かれ、気管の周囲を回る先天性の血管の病気です。気管が圧迫され呼吸の問題が起こることがあります。",
+      "dailyLife": "乳児期から喘鳴や呼吸の負担が現れる場合があります。呼吸状態に合わせた医療支援と家族への説明が重要です。",
+      "currentState": "CTなどで血管と気管の位置を調べ、必要に応じて血管の位置を修正する手術を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0315",
+      "name": "ネイルパテラ症候群（爪膝蓋骨症候群）／ＬＭＸ１Ｂ関連腎症",
+      "designation": 315,
+      "overview": "爪や膝蓋骨の形成に特徴がある遺伝性疾患で、LMX1B遺伝子の変化が関係します。腎臓に尿たんぱくなどの問題が生じる場合があります。",
+      "dailyLife": "爪や関節の動かしにくさとともに、症状がなくても尿検査を続ける必要がある人がいます。活動上の工夫と腎機能の管理が大切です。",
+      "currentState": "骨格・眼・腎臓などを評価し、尿たんぱくや血圧などへの治療を行います。 病型に応じた長期的な経過観察も重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0316",
+      "name": "カルニチン回路異常症",
+      "designation": 316,
+      "overview": "脂肪酸をミトコンドリアへ運ぶカルニチン回路の働きに障害がある代謝疾患の総称です。低血糖、筋力低下、不整脈などが現れる病型があります。",
+      "dailyLife": "長時間の絶食や発熱時に注意が必要な型があります。食事と急病時の受診計画は病型ごとに専門医と決めます。",
+      "currentState": "代謝産物や遺伝子を調べ、栄養・代謝の管理を行います。CACT欠損症などを含みますが、型ごとの注意点を同一視しません。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0317",
+      "name": "三頭酵素欠損症",
+      "designation": 317,
+      "overview": "長鎖脂肪酸をエネルギーに変えるミトコンドリアの三頭酵素の働きが低下する遺伝性疾患です。低血糖、筋肉や心臓の症状などを伴う場合があります。",
+      "dailyLife": "空腹が長く続く状況や感染時に体調が悪化することがあります。栄養管理と緊急時の対応を家族・学校と共有します。",
+      "currentState": "アシルカルニチンなどの検査と遺伝子検査で評価し、代謝専門医が食事と急病時の治療を調整します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0318",
+      "name": "シトリン欠損症",
+      "designation": 318,
+      "overview": "シトリンというたんぱく質の働きが障害され、肝臓での代謝に影響する遺伝性疾患です。乳児期の黄疸や、成人期の高アンモニア血症など異なる現れ方があります。",
+      "dailyLife": "年齢や病期によって食べ物の好みや体調が変わる場合があります。一般的な食事制限をそのまま当てはめず専門医と相談します。",
+      "currentState": "代謝検査や遺伝子検査で評価し、発症型に応じた栄養・肝機能・高アンモニア血症の治療を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0319",
+      "name": "セピアプテリン還元酵素（ＳＲ）欠損症",
+      "designation": 319,
+      "overview": "神経伝達物質を作るためのセピアプテリン還元酵素の働きが弱い遺伝性疾患です。運動のしにくさ、筋緊張の変化、発達の問題などが現れることがあります。",
+      "dailyLife": "一日の中で動きやすさが変わる場合があり、学校や日常活動の時間調整が助けになることがあります。",
+      "currentState": "髄液の神経伝達物質の関連検査や遺伝子検査で評価し、補充療法などを専門医が検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0320",
+      "name": "先天性グリコシルホスファチジルイノシトール（GPI）欠損症",
+      "designation": 320,
+      "overview": "細胞の表面にたんぱく質を固定するGPIアンカーを作る過程が障害される遺伝性疾患群です。発達の遅れ、てんかん、骨格の特徴などがみられる場合があります。",
+      "dailyLife": "食事・学習・運動や発作の対応など、症状に合わせた支援が必要になることがあります。本人の発達のペースを尊重します。",
+      "currentState": "遺伝子や特定の細胞表面マーカーなどを調べ、てんかんなどの症状に対応します。原因となる型により治療の考え方が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0321",
+      "name": "非ケトーシス型高グリシン血症",
+      "designation": 321,
+      "overview": "グリシンというアミノ酸を分解する働きが低下して脳に影響する遺伝性代謝疾患です。新生児期から呼吸や意識、けいれんなどの問題が生じる場合があります。",
+      "dailyLife": "呼吸や栄養、発達面で継続的な支援が必要になることがあります。家族が医療者と日々のケアを共有することが重要です。",
+      "currentState": "血液・髄液のグリシンや遺伝子を調べ、症状への対応やグリシンを減らす治療などを専門医が検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0322",
+      "name": "β―ケトチオラーゼ欠損症",
+      "designation": 322,
+      "overview": "イソロイシンなどを分解する酵素の働きが低下する遺伝性疾患です。低血糖や代謝性アシドーシス、ケトン体の異常を伴う発作が起こることがあります。",
+      "dailyLife": "長時間食べられないときや感染時に注意が必要です。本人に合う食事の管理と急病時の受診計画を家族が共有します。",
+      "currentState": "代謝産物と遺伝子などを調べ、発作時の代謝管理や栄養療法を病態に応じて行います。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0323",
+      "name": "芳香族L－アミノ酸脱炭酸酵素欠損症",
+      "designation": 323,
+      "overview": "ドパミンやセロトニンを作る過程に必要なAADCという酵素の働きが低下する遺伝性疾患です。乳児期から筋緊張の低下、眼球が上を向く発作などがみられます。",
+      "dailyLife": "姿勢の保持や食事、意思疎通、睡眠などに支援が必要になる場合があります。症状の変化に対応できる生活環境が重要です。",
+      "currentState": "神経伝達物質の検査や遺伝子検査を行い、薬物療法・リハビリなどを組み合わせます。適応に応じた遺伝子治療も選択肢となります。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0324",
+      "name": "メチルグルタコン酸尿症",
+      "designation": 324,
+      "overview": "体内の有機酸代謝に関わる複数の病型を含む疾患群で、尿中のメチルグルタコン酸が増えることが特徴です。心臓・神経・成長への影響は病型によって異なります。",
+      "dailyLife": "病型により通院先や生活上の注意が異なります。筋力や心機能、発達などを継続的に見守ることが重要です。",
+      "currentState": "代謝・遺伝子検査で具体的な型を調べ、臓器症状に合わせて治療します。全病型に共通する特定の治療法はありません。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    },
+    {
+      "id": "mhlw-0325",
+      "name": "遺伝性自己炎症疾患",
+      "designation": 325,
+      "overview": "生まれつきの免疫・炎症の調節に関係する遺伝子の変化などによって、発熱や発疹、関節痛などを繰り返す病気の一群です。原因と病型は多様です。",
+      "dailyLife": "体調が急に変化することで学校や仕事への配慮が必要になることがあります。発作の記録と、受診のタイミングの共有が助けになります。",
+      "currentState": "炎症の検査や遺伝子検査などで病型を見分け、必要に応じてサイトカインの働きを抑える薬などを検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：指定難病番号別・疾患別解説への索引",
+          "url": "https://www.nanbyou.or.jp/entry/5478",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_index_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 11
+    }
+  ]
+}

@@ -45,7 +45,7 @@ const loader=fs.readFileSync(path.join(root,'content/disease-guides.js'),'utf8')
 const scene=fs.readFileSync(path.join(root,'lab/scene.js'),'utf8');
 const detail=fs.readFileSync(path.join(root,'disease/index.html'),'utf8');
 assert(loader.includes('disease_guides_currently_lit_20261011.json'));
-assert(loader.includes('map.size!==253'));
+assert(loader.includes('map.size!==353'));
 assert(scene.includes('if(guides && total>0)'));
 assert(scene.includes('guides.get(selectedId)'));
 assert(scene.includes("Number(starData.get(id)?.total)>0"));
