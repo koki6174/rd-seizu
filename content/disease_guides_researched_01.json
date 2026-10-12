@@ -1,0 +1,509 @@
+{
+  "part": 21,
+  "records": [
+    {
+      "id": "duchenne-muscular-dystrophy",
+      "name": "デュシェンヌ型筋ジストロフィー",
+      "overview": "DMD遺伝子に関係するジストロフィンという筋肉のたんぱく質が十分に作られず、幼少期から筋力が弱くなる病気です。主に男児に発症し、骨格筋に加え心臓や呼吸筋にも影響することがあります。",
+      "dailyLife": "階段の昇降や床から立ち上がる動作が難しくなることがあります。学校生活や移動を続けられるよう、装具や車いす、呼吸・心臓の定期検査などの支援を組み合わせます。",
+      "currentState": "ステロイド療法やリハビリ、心臓・呼吸への対応が基本です。遺伝子変化の種類や地域により対象となる治療が異なるため、遺伝学的診断を含めて専門医と検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4523"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "hereditary-attr-amyloidosis",
+      "name": "遺伝性ATTRアミロイドーシス",
+      "overview": "TTR遺伝子の変化によりトランスサイレチンが不安定になり、アミロイドという物質が神経や心臓などに沈着する病気です。手足のしびれ、立ちくらみ、心機能の変化などが現れることがあります。",
+      "dailyLife": "末梢神経や自律神経の症状により歩行、食事、消化、仕事に影響する場合があります。心臓・腎臓などの状態を確認し、家族を含む遺伝の相談にも配慮します。",
+      "currentState": "原因たんぱく質の生成を抑える薬や安定化する薬など、臓器障害と適応に応じた治療があります。症状への支援と定期検査も重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/45"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-10-1",
+      "name": "脱髄型CMT",
+      "overview": "シャルコー・マリー・トゥース病のうち、末梢神経を覆う髄鞘の障害が目立つ脱髄型です。神経の信号が伝わる速さが遅くなり、足先や手先の筋力低下などにつながります。",
+      "dailyLife": "足が上がりにくい、足首が不安定になるなど、歩行時に困ることがあります。靴・短下肢装具や転倒予防、生活動作の工夫が役立ちます。",
+      "currentState": "神経伝導検査で脱髄の特徴を確認し、必要に応じて遺伝子検査を行います。装具、理学療法、痛みへの対応などを病状に合わせて検討します。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/3774"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-10-2",
+      "name": "軸索型CMT",
+      "overview": "シャルコー・マリー・トゥース病のうち、末梢神経の軸索そのものの障害が中心となる型です。神経伝導の信号の大きさが低下し、手足の末端の筋力や感覚が障害されることがあります。",
+      "dailyLife": "歩行時のつまずき、手先の細かい動作、感覚の低下によるけがなどに配慮が必要な場合があります。症状には個人差があります。",
+      "currentState": "神経伝導検査と遺伝学的検査などで病型を評価します。原因に応じた診療とともに、装具やリハビリで生活機能を支えます。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/3774"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-10-3",
+      "name": "中間型CMT",
+      "overview": "脱髄型と軸索型の中間的な電気生理学的特徴を示すシャルコー・マリー・トゥース病の病型です。単一の原因ではなく、遺伝子の違いにより発症時期や症状が変わります。",
+      "dailyLife": "足の変形、感覚の鈍さ、筋力低下などの程度は人によって異なります。通学・就労環境の調整と足に合う装具などが役立ちます。",
+      "currentState": "神経伝導検査の結果だけで原因を決めず、臨床像と遺伝的検査を合わせて評価します。症状を和らげ、転倒を予防するケアを行います。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/3774"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-13-1-1",
+      "name": "再発寛解型MS",
+      "overview": "多発性硬化症（MS）のうち、神経症状が現れる再発と改善する寛解を繰り返す型です。視力低下、しびれ、筋力低下などが現れますが、症状の場所は人によって異なります。",
+      "dailyLife": "症状が落ち着いている時期でも疲労感や熱への弱さが残ることがあります。体調と活動の調整や仕事・学校の配慮が助けになります。",
+      "currentState": "再発を抑え障害の蓄積を減らす疾患修飾薬を病状に応じて選びます。再発時の治療やリハビリ、定期的なMRI評価も重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/3806"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-13-1-2",
+      "name": "一次性進行型MS",
+      "overview": "多発性硬化症（MS）のうち、発症から明確な再発・寛解を繰り返さず、神経機能の障害が徐々に進む一次性進行型です。歩行などの変化が目立つ場合があります。",
+      "dailyLife": "疲れやすさや移動のしにくさが少しずつ変化することがあります。早期からの運動・生活支援、必要な福祉制度の利用が役立ちます。",
+      "currentState": "進行の程度や炎症活動性をMRI・診察などで評価します。治療薬の適応は再発寛解型と同じではなく、症状緩和やリハビリも大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/3807"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-13-1-3",
+      "name": "二次性進行型MS",
+      "overview": "多発性硬化症（MS）が再発寛解型として始まり、その後、再発とは独立して神経症状が徐々に進むようになる病型です。経過とともに歩行などの障害が蓄積する場合があります。",
+      "dailyLife": "以前はできた動作に時間がかかることがあります。疲労や排尿、痛みなど見えにくい症状への対応と、生活環境の調整が重要です。",
+      "currentState": "炎症の活動性や進行の程度を定期的に見直し、適応に応じた疾患修飾薬や症状への治療を検討します。運動・生活機能を支える支援も続けます。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/3807"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-13-2",
+      "name": "視神経脊髄炎",
+      "overview": "視神経脊髄炎スペクトラム障害（NMOSD）は、主に視神経や脊髄などに強い炎症が起こる病気です。抗AQP4抗体が関与する型があり、多発性硬化症とは病態や治療が異なります。",
+      "dailyLife": "急な見え方の変化や手足のしびれ・麻痺が生活に大きく影響することがあります。症状の変化をすぐ医療者に伝えられる体制が大切です。",
+      "currentState": "急性期の炎症を抑える治療と、再発を予防する免疫療法を行います。多発性硬化症用の薬の中には適さないものもあるため正確な鑑別が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/3806"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-13-3",
+      "name": "Baló病",
+      "overview": "Baló病は脳に同心円状の脱髄病変が生じる特徴的な炎症性の疾患です。片麻痺やしびれ、けいれんなどの神経症状を伴う場合があり、経過は一様ではありません。",
+      "dailyLife": "症状によって歩行、言葉、学習などの支援が必要になることがあります。症状が落ち着いた後も神経機能の変化を確認します。",
+      "currentState": "MRIの特徴的所見やほかの疾患との鑑別を踏まえて診断します。急性期には炎症を抑える治療を検討し、その後の経過を見守ります。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/3807"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-18-1-1",
+      "name": "皮質性小脳萎縮症",
+      "overview": "皮質性小脳萎縮症は小脳の萎縮が目立ち、ふらつきや手足の動きを調整しにくい症状が起こる病気です。遺伝性の運動失調や多系統萎縮症などとの鑑別が必要です。",
+      "dailyLife": "転びやすさや字を書く、食器を扱うといった動作への影響が現れます。歩行補助具や住環境の調整が生活を支えます。",
+      "currentState": "MRIや神経診察などで原因と経過を調べ、運動失調へのリハビリや症状を和らげる対応を行います。病型の見直しが必要な場合もあります。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4879"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-18-2-1",
+      "name": "脊髄小脳失調症３型",
+      "overview": "脊髄小脳失調症3型（SCA3）はマシャド・ジョセフ病とも呼ばれ、ATXN3遺伝子の繰り返し配列の伸長が関与する遺伝性疾患です。歩行時のふらつきや眼球運動の異常などがみられます。",
+      "dailyLife": "歩行、発音、飲み込みなどに変化が生じる場合があります。転倒予防や意思疎通を支える工夫が役立ちます。",
+      "currentState": "遺伝学的な検査を含めて診断し、運動失調や筋肉のこわばりなどへの治療とリハビリを行います。進行を止める確立した治療は限られています。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4880"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-18-2-2",
+      "name": "脊髄小脳失調症６型",
+      "overview": "脊髄小脳失調症6型（SCA6）はCACNA1A遺伝子の繰り返し配列の伸長による遺伝性運動失調です。小脳の症状が中心で、ふらつきや話しにくさが現れることがあります。",
+      "dailyLife": "歩行や細かい手作業で時間がかかる場合があります。移動の安全性や疲労に配慮した生活調整が役立ちます。",
+      "currentState": "神経学的評価と遺伝子検査などで病型を調べます。生活機能の維持を目指す運動療法や症状への対応が中心です。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4880"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-18-2-3",
+      "name": "歯状核赤核淡蒼球ルイ体萎縮症",
+      "overview": "歯状核赤核淡蒼球ルイ体萎縮症（DRPLA）はATN1遺伝子にある繰り返し配列の伸長に関係する遺伝性神経疾患です。運動失調、てんかん発作、不随意運動などが起こる場合があります。",
+      "dailyLife": "症状によって通学、仕事、移動、食事に支援が必要になることがあります。発作の安全対策と本人の年齢に応じた支援が重要です。",
+      "currentState": "神経診察や遺伝子検査などで診断し、てんかんや運動症状への薬、リハビリなどを行います。病気を止める治療は確立していません。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4880"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-18-2-4",
+      "name": "脊髄小脳失調症３１型",
+      "overview": "脊髄小脳失調症31型（SCA31）は、特定の繰り返し配列の異常が関わる遺伝性小脳失調症です。歩行のふらつきや発語の不明瞭さが徐々に現れることがあります。",
+      "dailyLife": "移動時の安全確保や、階段・細かな作業の工夫が役立ちます。病気の進行や生活上の困りごとは人によって異なります。",
+      "currentState": "画像検査と遺伝学的検査を参考に病型を評価します。運動失調に対するリハビリや生活支援を中心に行います。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4880"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-18-2-7",
+      "name": "脊髄小脳失調症７型",
+      "overview": "脊髄小脳失調症7型（SCA7）はATXN7遺伝子に関連する遺伝性疾患です。小脳の運動失調に加え、網膜の変性による視力低下を伴うことが特徴です。",
+      "dailyLife": "歩行と見え方の両方に応じた環境調整が必要になる場合があります。照明、拡大文字、移動補助などの支援が役立ちます。",
+      "currentState": "運動失調と視機能を専門診療科で評価し、リハビリやロービジョンケアを行います。遺伝学的な確認も診断の助けになります。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4880"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-23-2-1",
+      "name": "家族性CJD",
+      "overview": "家族性クロイツフェルト・ヤコブ病は、プリオンたんぱく質に関係するPRNP遺伝子の変化によって起こる遺伝性プリオン病の一型です。孤発性CJDと似た神経症状を示す場合があります。",
+      "dailyLife": "記憶や歩行、言葉などの変化に応じた生活支援が必要になる場合があります。家族への遺伝相談は希望と心理的負担を踏まえて慎重に行います。",
+      "currentState": "MRI、脳脊髄液検査や遺伝学的評価などを組み合わせて診断します。進行を止める確立した治療はなく、症状緩和と本人・家族の支援が中心です。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/385"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-23-2-2",
+      "name": "ゲルストマン・ストロイスラー・シャインカー病",
+      "overview": "ゲルストマン・ストロイスラー・シャインカー病（GSS）は遺伝性プリオン病の一つです。歩行のふらつきなど小脳の症状が先行することがあり、病気の経過はほかのプリオン病と異なります。",
+      "dailyLife": "移動や食事、意思疎通を支える手段が必要になることがあります。通常の触れ合いや日常の介護で感染する病気ではありません。",
+      "currentState": "遺伝学的検査などで病型を確認し、症状へのケアとリハビリ、家族支援を行います。根本的な治療は確立していません。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/88"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-14-2",
+      "name": "多巣性運動ニューロパチー",
+      "overview": "多巣性運動ニューロパチー（MMN）は主に手足の運動神経に障害が起き、左右差のある筋力低下などがみられる免疫性の末梢神経疾患です。感覚の障害が目立たないことが特徴です。",
+      "dailyLife": "手指の力が入りにくい、物を持ち上げにくいなどが仕事や家事に影響することがあります。生活道具や作業方法の工夫が助けになります。",
+      "currentState": "神経伝導検査などで病型を調べ、免疫グロブリン療法などを検討します。別の神経疾患との鑑別が重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：対象疾患（または疾患群）の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4089"
+        },
+        {
+          "title": "NANDO：難病と病型の分類データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_or_parent_official_information;subtype_distinction_editorially_checked",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-19-2-1",
+      "name": "Niemann-Pick病A型",
+      "overview": "ニーマン・ピック病A型は酸性スフィンゴミエリナーゼという酵素の不足に関連し、乳児期から肝臓・脾臓の腫れや神経機能の障害が起こる型です。B型と病状が異なります。",
+      "dailyLife": "乳児期から栄養、呼吸、動作などの面で支援が必要になることがあります。家族の生活と医療を支える体制が重要です。",
+      "currentState": "酵素の不足を確認して病型を診断し、臓器症状への対応を行います。中枢神経症状と全身症状では治療の到達範囲が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-19-2-2",
+      "name": "Niemann-Pick病B型",
+      "overview": "ニーマン・ピック病B型は酸性スフィンゴミエリナーゼ欠損症の一型で、肝脾腫や肺・血液の問題が中心となり、A型ほど重い神経症状を示さないことが多い病型です。",
+      "dailyLife": "息切れや疲れやすさ、腹部の張りなどへの配慮が必要になる場合があります。肺機能や血球の定期検査が助けになります。",
+      "currentState": "適応に応じて酵素補充療法などを検討し、肺や肝臓などの合併症を継続して確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-19-5-1",
+      "name": "Tay-Sachs病",
+      "overview": "テイ・サックス病はGM2ガングリオシドという脂質の分解が障害される遺伝性疾患です。神経細胞に物質が蓄積し、運動や発達に変化が生じます。発症年齢には複数の型があります。",
+      "dailyLife": "運動、食事、コミュニケーションなどに支援が必要になることがあります。本人と家族の生活を支える継続的なケアが重要です。",
+      "currentState": "酵素や遺伝子の検査で鑑別し、けいれんや栄養・呼吸などの症状に対応します。ほかのGM2疾患と区別して診療します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-19-5-2",
+      "name": "Sandhoff病",
+      "overview": "サンドホッフ病はGM2ガングリオシドの分解に関わる酵素の働きが低下し、神経系に脂質が蓄積する遺伝性疾患です。テイ・サックス病と共通点があっても原因分子が異なります。",
+      "dailyLife": "発達や筋力、食事などへの影響は発症年齢と病型で異なります。安全な食事や姿勢保持などの支援を行います。",
+      "currentState": "遺伝学的検査や酵素検査で診断を確かめ、神経症状と栄養・呼吸を中心に支援します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    },
+    {
+      "id": "nando-19-13",
+      "name": "Hunter症候群",
+      "overview": "ハンター症候群はムコ多糖症II型とも呼ばれ、IDS遺伝子に関係する酵素の不足で糖の成分が蓄積する病気です。心臓、骨格、呼吸などに影響し、神経症状の有無は個人差があります。",
+      "dailyLife": "関節の動かしにくさや呼吸・聴力などの問題が生活に影響する場合があります。医療と発達・学校での支援を組み合わせます。",
+      "currentState": "酵素補充療法や状態に応じた専門的治療、臓器の症状への対応を検討します。神経症状と全身症状は分けて評価します。",
+      "references": [
+        {
+          "title": "難病情報センター：該当する疾患群の公式解説（病型ごとに解釈）",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "NANDO：難病分類・病型の原データ",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json"
+        }
+      ],
+      "sourceScope": "condition_group_source_and_specific_subtype_editorial_review",
+      "reviewStatus": "source_category_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 21
+    }
+  ]
+}
