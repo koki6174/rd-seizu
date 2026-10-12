@@ -1,0 +1,342 @@
+{
+  "part": 4,
+  "origin": "Individually written subtype-focused drafts; identified using Supabase exact disease IDs and ORPHA mappings where present.",
+  "records": [
+    {
+      "id": "nando-127-2",
+      "name": "意味性認知症",
+      "overview": "前頭側頭葉変性症に含まれる病型の一つで、言葉の意味を理解する働きが徐々に弱くなります。聞いた言葉や物の名前が分かりにくくなる一方、初期には流ちょうに話せることもあります。",
+      "dailyLife": "会話や買い物、物の名前の理解に工夫が必要になることがあります。短い言葉と写真を組み合わせるなど、本人に合うコミュニケーション方法が役立ちます。",
+      "currentState": "認知機能や言語の検査、脳画像などで病型を評価します。進行を確実に止める治療は限られますが、言語・生活機能を支える支援や合併症への対応を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 100069,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 73
+    },
+    {
+      "id": "nando-160-1-1",
+      "name": "常染色体優性表皮融解性魚鱗癬",
+      "overview": "表皮のケラチンに関係する遺伝子の変化による魚鱗癬の病型です。新生児期から皮膚に水疱や赤みが現れ、その後に角質が厚くなる場合があります。親から子へ伝わる遺伝形式を示します。",
+      "dailyLife": "皮膚の摩擦や感染、体温調節への配慮が必要になることがあります。衣類や入浴、保湿の方法を皮膚科と相談しながら調整します。",
+      "currentState": "皮膚の状態を評価し、保湿や感染への対応、角質を和らげる治療などを病状に応じて行います。遺伝子型や皮膚の状態により治療が異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/139",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 312,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 74
+    },
+    {
+      "id": "nando-160-1-3",
+      "name": "表在性表皮融解性魚鱗癬",
+      "overview": "皮膚のケラチンに関わる遺伝子の変化により、比較的皮膚の表面に水疱や剥がれが生じる魚鱗癬の一型です。一般的な魚鱗癬とは水疱の起こり方や皮膚所見が異なります。",
+      "dailyLife": "皮膚が擦れる場所の水疱や痛みが、衣類の着用や運動に影響することがあります。皮膚を傷つけない保護と適切な保湿が生活の助けになります。",
+      "currentState": "皮膚所見や必要な検査で病型を確認し、外用薬や皮膚を保護するケアを行います。感染を起こした場合の治療も重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/139",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 455,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 75
+    },
+    {
+      "id": "nando-162-1",
+      "name": "水疱性類天疱瘡",
+      "overview": "皮膚の表皮と真皮の境界にある構造を免疫が攻撃し、強いかゆみと張りのある水疱が生じる自己免疫性の皮膚疾患です。高齢の方に多いものの、発症年齢には幅があります。",
+      "dailyLife": "かゆみで睡眠が妨げられたり、水疱の処置や入浴に支援が必要になったりすることがあります。皮膚を保護し、薬を継続することが大切です。",
+      "currentState": "皮膚の検査や自己抗体検査などで診断し、外用・内服ステロイドや免疫治療を病状に応じて行います。感染や薬の副作用にも注意します。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4525",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 703,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 76
+    },
+    {
+      "id": "nando-162-2",
+      "name": "粘膜類天疱瘡",
+      "overview": "口の中や眼、鼻などの粘膜に水疱やただれが起こり、治る過程で瘢痕が残ることがある自己免疫性疾患です。特に眼の病変では視力に影響する場合があります。",
+      "dailyLife": "口の痛みで食事が難しくなったり、目の充血や痛みが続いたりすることがあります。眼やのどの症状を早めに専門医へ伝えることが大切です。",
+      "currentState": "粘膜の診察と自己抗体などの検査で診断を検討します。病変の部位に応じ、眼科・耳鼻科などと連携して炎症を抑える治療を行います。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4525",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 46486,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 77
+    },
+    {
+      "id": "nando-19-11",
+      "name": "Scheie症候群",
+      "overview": "ムコ多糖症Ⅰ型のうち、一般に症状が比較的ゆっくり現れる型です。IDUA酵素の働きが低下し、角膜の混濁や関節の動かしにくさ、心臓への影響などが生じることがあります。",
+      "dailyLife": "関節のこわばりや見えにくさなどが日常動作に影響する場合があります。心臓、眼、聴力などの定期的な検査が生活を支えます。",
+      "currentState": "酵素活性や遺伝子などで評価し、適応に応じた酵素補充療法と臓器症状への治療を行います。ムコ多糖症Ⅰ型の他の型と経過は異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4063",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 93474,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 78
+    },
+    {
+      "id": "nando-19-12",
+      "name": "Hurler／Scheie症候群",
+      "overview": "ムコ多糖症Ⅰ型に含まれる病型で、重い型と軽い型の中間的な症状を示すことがあります。細胞内でムコ多糖を分解する酵素が不足し、骨格・心臓・呼吸などに影響します。",
+      "dailyLife": "歩行、手の動作、呼吸や聴力などに支援が必要になる場合があります。発達や各臓器の状態を見守り、生活環境を調整します。",
+      "currentState": "酵素活性と遺伝学的な検査などで診断し、酵素補充療法や状態に応じた専門的治療を検討します。早期から多診療科で対応することが重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4063",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 93476,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 79
+    },
+    {
+      "id": "nando-19-20",
+      "name": "ガラクトシアリドーシス",
+      "overview": "細胞内で複数の糖脂質などを分解する酵素の働きが低下するライソゾーム病の一つです。CTSA遺伝子に関連し、発達、骨格、眼や内臓などにさまざまな症状が起こります。",
+      "dailyLife": "視覚や運動、食事などに支援が必要になる場合があります。病型によって症状が異なるため、本人の状態に合った生活環境を考えることが重要です。",
+      "currentState": "酵素活性や遺伝子の検査で評価し、臓器や神経の症状への対応を行います。根本治療の選択肢は限られ、継続的な多職種のケアが大切です。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4063",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 351,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 80
+    },
+    {
+      "id": "nando-19-23",
+      "name": "β-マンノシドーシス",
+      "overview": "β-マンノシダーゼという酵素が働きにくくなり、分解されるべき糖鎖由来の物質が蓄積するまれな遺伝性代謝疾患です。聴覚や発達、感染のかかりやすさなどに影響する場合があります。",
+      "dailyLife": "聞こえ方、学習、運動などに本人に合う支援が必要になることがあります。発達のペースを尊重しながら、聴覚と健康状態を見守ります。",
+      "currentState": "酵素の働きと遺伝子を調べ、聴覚・発達・感染などの症状に応じた治療と療育を行います。病気自体への確立した治療は限られます。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4063",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 118,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 81
+    },
+    {
+      "id": "nando-19-28-1",
+      "name": "ウォルマン病",
+      "overview": "リソソーム酸性リパーゼの働きが著しく不足する遺伝性疾患の重い乳児発症型です。脂質が肝臓や腸などに蓄積し、成長障害や肝脾腫、栄養吸収の問題が現れます。",
+      "dailyLife": "乳児期から栄養や消化、肝臓の状態を専門施設で支える必要があります。家族と医療チームが協力して長期的な治療と生活を整えます。",
+      "currentState": "酵素活性や遺伝子検査などで診断し、適応に応じて酵素補充療法などを検討します。栄養や臓器の状態を迅速に評価することが重要です。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4063",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 75233,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 82
+    },
+    {
+      "id": "nando-19-33-3",
+      "name": "シスチン症（非腎型）",
+      "overview": "シスチンを細胞内から運び出す働きに関係する遺伝性疾患のうち、腎臓の症状が目立たず眼の症状が中心になる型です。角膜などに結晶がたまり、まぶしさや眼の痛みが生じることがあります。",
+      "dailyLife": "日光や明るい場所でのまぶしさ、眼の違和感などに配慮が必要になる場合があります。眼科で定期的に状態を確認することが大切です。",
+      "currentState": "眼の診察と遺伝学的評価などで診断を検討します。点眼治療などで角膜のシスチン結晶や症状に対応し、必要な臓器の状態を確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4063",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 411641,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 83
+    },
+    {
+      "id": "nando-234-5",
+      "name": "原発性高シュウ酸尿症Ⅰ型",
+      "overview": "グリオキシル酸の代謝に関係するAGXT遺伝子の変化により、シュウ酸が過剰に作られて尿に排出される遺伝性疾患です。腎結石や腎石灰化、腎機能の低下につながる場合があります。",
+      "dailyLife": "尿路結石による痛みや繰り返す通院が生活に影響することがあります。必要な水分や薬の管理は腎機能と年齢に応じて専門医と相談します。",
+      "currentState": "尿中の代謝物や遺伝子検査で評価し、病型に応じてビタミンB6やRNA干渉薬などを検討します。腎臓の状態を継続して確認します。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4621",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 93598,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 84
+    },
+    {
+      "id": "nando-234-6",
+      "name": "アカタラセミア",
+      "overview": "過酸化水素を分解するカタラーゼという酵素の働きが生まれつき低下する遺伝性の状態です。症状が少ない人もいますが、口腔内の炎症などに関連する場合があります。",
+      "dailyLife": "自覚症状がなく暮らせる人もいます。歯や歯ぐきの健康に注意し、口腔内の感染や炎症がある場合は早めに相談することが役立ちます。",
+      "currentState": "血液の酵素活性などで評価し、必要な場合は口腔内の炎症や感染を治療します。すべての人に特別な治療が必要なわけではありません。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/4621",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 926,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 85
+    },
+    {
+      "id": "nando-301-2",
+      "name": "Stargardt病",
+      "overview": "網膜の中心部で光を受け取る細胞などが障害され、中心視力が徐々に低下する遺伝性の黄斑ジストロフィーです。ABCA4遺伝子に関連する型が多く、若い時期に気付くことがあります。",
+      "dailyLife": "細かい文字が読みづらくなるなど、学習や仕事に影響する場合があります。拡大読書器や画面表示の調整など、視機能に合わせた支援が役立ちます。",
+      "currentState": "眼底・網膜の画像と必要な遺伝子検査で評価し、ロービジョンケアを行います。治療法の研究が進んでいますが、効果が確立した治療は病型で異なります。",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の公式解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "厚生労働省：指定難病の概要・診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html",
+          "verifiedSpecific": false
+        }
+      ],
+      "orphaCode": 827,
+      "reviewStatus": "disease_subtype_official_parent_reference_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "sourceScope": "subtype_name_crosschecked_parent_disease_source",
+      "selectionIndex": 86
+    }
+  ]
+}
