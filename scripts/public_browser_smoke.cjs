@@ -111,15 +111,25 @@ async function main(){
 
   response=await page.goto(new URL('weekly/',base).toString(),
    {waitUntil:'domcontentloaded',timeout:30000});
-  assert(response&&response.ok(),'Weekly HTTP failed');
+  assert(response&&response.ok(),'Daily archive HTTP failed');
   await page.waitForFunction(()=>{
    const canvas=document.querySelector('#weekly-space canvas');
    const error=(document.querySelector('#weekly-space-status')?.textContent||'').includes('表示できません');
    return !!canvas || error;
   },null,{timeout:45000});
   assert.equal(await page.locator('#weekly-space canvas').count(),1,
-   'Weekly historical 3D not rendered');
-  console.log('PASS WEEKLY: historical 3D renders');
+   'Daily archive 3D not rendered');
+  await page.locator('#cumulative-total:not(:text("—"))').waitFor({timeout:15000});
+  assert.equal(await page.locator('#next-day').isDisabled(),true,
+   'Latest daily snapshot should not advance into the future');
+  const todayLabel=await page.locator('#chosen-day').textContent();
+  await page.locator('#prev-day').click();
+  await page.waitForURL(url=>url.searchParams.has('day'),{timeout:15000});
+  assert.equal(await page.locator('#next-day').isEnabled(),true);
+  await page.locator('#next-day').click();
+  await page.waitForURL(url=>!url.searchParams.has('day'),{timeout:15000});
+  assert.equal(await page.locator('#chosen-day').textContent(),todayLabel);
+  console.log('PASS DAILY: historical and latest navigation with live 3D renders');
 
   response=await page.goto(new URL('clinical/',base).toString(),
    {waitUntil:'domcontentloaded',timeout:30000});
