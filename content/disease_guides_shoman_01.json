@@ -1,0 +1,555 @@
+{
+  "part": 1,
+  "records": [
+    {
+      "id": "shoman-2-1",
+      "name": "ネフローゼ症候群",
+      "overview": "腎臓の糸球体から尿に多くのたんぱく質が漏れ、むくみや血液中のアルブミン低下が起こる病気の一群です。小児では病型により再発や薬への反応が異なります。",
+      "dailyLife": "顔や足のむくみ、通院や服薬が学校生活に影響することがあります。尿の変化や体調を家族と共有し、活動の制限は医療者と相談して判断します。",
+      "currentState": "尿たんぱく、腎機能、必要時の組織検査で病型を調べます。ステロイドや免疫調節薬、むくみへの対応などを病状に合わせて行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-2",
+      "name": "慢性糸球体腎炎",
+      "overview": "腎臓の血液をろ過する糸球体で炎症が長く続く病気の総称です。血尿、たんぱく尿、血圧上昇がみられ、原因や腎機能への影響は病型で異なります。",
+      "dailyLife": "自覚症状が乏しくても尿検査や血圧測定を続ける必要があります。体調や通院予定を調整しながら学校生活を送る人もいます。",
+      "currentState": "尿・血液検査や腎生検などで原因を評価します。血圧・尿たんぱくの管理を行い、炎症の種類によって免疫治療などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-3",
+      "name": "慢性尿細管間質性腎炎（尿路奇形が原因のものを除く。）",
+      "overview": "腎臓の尿細管や周囲の間質で炎症と組織の変化が長く続く病態です。原因は薬剤、免疫異常、遺伝性疾患などさまざまで、尿の濃縮力や腎機能が低下することがあります。",
+      "dailyLife": "多尿、強い口渇、疲れやすさなどの有無によって生活上の配慮が変わります。自覚症状が少なくても腎機能の検査が大切です。",
+      "currentState": "尿や血液の検査で腎臓の働きと原因を調べ、原因疾患への対応や腎機能を守る治療を行います。治療内容は病因によって異なります。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-4",
+      "name": "慢性腎盂腎炎",
+      "overview": "腎盂から腎臓の組織にかけて炎症が繰り返されたり長引いたりし、腎機能に影響する病気です。尿の流れの異常が背景にある場合もあります。",
+      "dailyLife": "発熱や尿路感染の繰り返しに注意が必要な人がいます。水分の取り方や排尿の習慣については、腎機能と尿路の状態に合わせて指導を受けます。",
+      "currentState": "尿検査・培養・画像検査などで感染や尿路の問題を確認します。感染症の治療と、必要に応じた尿路への専門的な対応を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-5",
+      "name": "アミロイド腎",
+      "overview": "アミロイドと呼ばれる異常なたんぱく質が腎臓に沈着し、尿たんぱくや腎機能低下を起こす病態です。沈着するたんぱく質の種類や背景疾患によって経過が異なります。",
+      "dailyLife": "むくみや疲れやすさがあらわれる場合があります。腎臓の検査に加え、原因となる全身の病気について継続的な診察を受けることが大切です。",
+      "currentState": "腎臓への沈着物の種類を診断し、その原因に合わせて治療します。尿たんぱく・血圧・腎機能の管理も組み合わせます。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-6",
+      "name": "家族性若年性高尿酸血症性腎症",
+      "overview": "家族性に若年から血液中の尿酸が増え、腎臓の働きが低下することのある病気の分類です。遺伝的な原因によって症状や進み方に違いがあります。",
+      "dailyLife": "症状が目立たない時期にも血圧や腎機能を検査することが大切です。家族の病歴が診断の助けになる場合があります。",
+      "currentState": "尿酸値、腎機能、家族歴などを評価し、必要に応じて遺伝学的検査を行います。腎機能を守るための継続的な管理が中心です。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-8",
+      "name": "腎血管性高血圧",
+      "overview": "腎臓へ血液を送る動脈の狭窄などによって血圧が高くなる病気です。頭痛や体調不良が生じることもありますが、症状がない場合もあります。",
+      "dailyLife": "家庭や学校で血圧の確認が必要になることがあります。血管の状態によって運動などの注意点が異なるため、主治医と相談します。",
+      "currentState": "血圧測定と血管・腎臓の画像検査などで原因を調べます。降圧薬のほか、必要に応じて血管治療を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-9",
+      "name": "腎静脈血栓症",
+      "overview": "腎臓から血液が戻る腎静脈に血栓ができ、血液の流れが妨げられる病態です。血尿や腎機能の変化が起こる場合があり、発症の背景はさまざまです。",
+      "dailyLife": "血栓の影響や原因疾患によって、通院や服薬の必要性が変わります。血尿やむくみなどの変化を医療者に伝えることが大切です。",
+      "currentState": "超音波などの画像検査で血流を確認し、血栓とその原因を評価します。状態に応じて抗凝固治療などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-10",
+      "name": "腎動静脈瘻",
+      "overview": "腎臓の動脈と静脈が通常とは異なる形でつながり、血流に変化が生じる病態です。血尿や高血圧などを伴うことがありますが、無症状のこともあります。",
+      "dailyLife": "腎臓や血圧の定期的な検査が必要になる場合があります。症状に応じて日常の活動や受診のタイミングを医療者と相談します。",
+      "currentState": "画像検査で血管のつながりや血流を調べます。症状や血流への影響によって、経過観察またはカテーテル治療などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-11",
+      "name": "尿細管性アシドーシス",
+      "overview": "腎臓の尿細管で酸・アルカリを調節する働きが障害され、血液が酸性に傾く病気の一群です。病型によってカリウムの異常、骨や成長への影響などが異なります。",
+      "dailyLife": "水分や食事、服薬の管理が必要になる場合があります。成長や骨の状態、疲れやすさを定期的に確認することが重要です。",
+      "currentState": "血液と尿の酸・塩基や電解質を検査して病型を見分けます。重炭酸塩などを使う治療は、検査結果に基づき医療者が調整します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/02_12_032/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-2-12",
+      "name": "ギッテルマン（Gitelman）症候群",
+      "overview": "腎臓で塩分を再吸収する働きが低下し、カリウムやマグネシウムが不足しやすくなる遺伝性疾患です。筋肉のだるさやこむら返りが起こることがあります。",
+      "dailyLife": "疲れやすさ、筋肉のつっぱりが運動や通学に影響する場合があります。脱水や体調の変化に気を配り、定期的な検査を続けます。",
+      "currentState": "電解質と尿の検査などで診断し、不足する成分の補充や症状への対応を行います。自己判断のサプリメント調整は避けます。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/02_13_033/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-2-13",
+      "name": "バーター（Bartter）症候群",
+      "overview": "腎臓の尿細管で塩分を回収する仕組みが障害される遺伝性疾患の一群です。多尿、脱水、成長への影響や電解質異常が起こり、重症度は型によって異なります。",
+      "dailyLife": "乳幼児では脱水や発育への配慮が必要になる場合があります。食事や水分、薬について家族と医療者が具体的な計画を共有することが大切です。",
+      "currentState": "尿と血液の電解質や遺伝的原因を調べ、必要な補充と薬による治療を行います。腎機能と成長を長期的に確認します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-14",
+      "name": "腎尿管結石",
+      "overview": "腎臓や尿管の中に結石ができる病態です。背中や腹部の痛み、血尿、尿路感染などが起こることがあり、小児では代謝や尿路の異常が原因になる場合があります。",
+      "dailyLife": "痛みの発作や受診が生活に影響する場合があります。再発予防のための水分や食事の方針は結石の成分や腎機能によって異なります。",
+      "currentState": "超音波や尿の検査で結石の場所と原因を調べます。痛みへの対応、排石を助ける治療や内視鏡処置、再発予防を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-15",
+      "name": "慢性腎不全",
+      "overview": "さまざまな腎疾患によって腎臓の機能が長期間低下している状態です。原因疾患や残っている腎機能により、症状と必要な治療は異なります。",
+      "dailyLife": "食事・水分や薬の調整、通院が学校や家庭生活に影響することがあります。成長や学習面を含む支援が役立ちます。",
+      "currentState": "原因疾患の治療とともに、血圧、貧血、骨・ミネラル代謝などを管理します。進行した場合は透析や腎移植も選択肢です。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-16",
+      "name": "腎奇形",
+      "overview": "生まれつき腎臓の数・大きさ・位置や内部の構造などに違いがある病態の総称です。腎機能が保たれる人もいれば尿路感染や血圧の問題を伴う人もいます。",
+      "dailyLife": "症状がなくても成長とともに腎機能を確認する場合があります。学校生活や運動への制限は腎臓の状態に応じて個別に判断します。",
+      "currentState": "超音波などで腎臓の形と機能を調べます。尿路感染、高血圧や腎機能低下への対応を必要に応じて行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-17",
+      "name": "尿路奇形",
+      "overview": "腎盂や尿管、膀胱、尿道の構造に生まれつき違いがある病態の一群です。尿の流れが妨げられたり、腎臓へ尿が逆流したりする場合があります。",
+      "dailyLife": "排尿や尿路感染への注意が必要になる人がいます。トイレや通院について、家庭と学校で無理のない配慮を考えます。",
+      "currentState": "超音波などの検査で尿の流れと腎機能を確認します。感染症への対応や、必要に応じて泌尿器科的な治療を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-18",
+      "name": "萎縮腎（尿路奇形が原因のものを除く。）",
+      "overview": "腎臓が小さくなった状態で、尿路奇形以外のさまざまな原因が関係する場合があります。腎機能や血圧の変化がみられることがあります。",
+      "dailyLife": "自覚症状がない場合もありますが、血圧や腎機能の確認を続けることが大切です。生活上の調整は原因と機能に応じて考えます。",
+      "currentState": "画像と血液・尿検査で腎臓の状態と原因を調べます。腎機能を守る管理と合併症への対応を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-2-19",
+      "name": "ファンコーニ（Fanconi）症候群",
+      "overview": "腎臓の近位尿細管で複数の物質を再吸収する働きが低下し、糖、リン酸、重炭酸などが尿に失われやすくなる症候群です。遺伝性や後天性の原因があります。",
+      "dailyLife": "成長や骨の健康、疲れやすさなどに配慮が必要な場合があります。薬や栄養の管理を続け、学校での活動を支えます。",
+      "currentState": "尿・血液の検査から不足する成分と原因を調べ、電解質やミネラルの補充などを調整します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/02/%E6%85%A2%E6%80%A7%E8%85%8E%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-3-1",
+      "name": "気道狭窄",
+      "overview": "喉頭、気管、気管支など空気の通り道が狭くなり、呼吸しにくくなる病態の一群です。生まれつきの構造や炎症・治療後の変化など原因はさまざまです。",
+      "dailyLife": "息を吸うときの音や息切れ、睡眠・食事の困りごとが生活に影響する場合があります。呼吸状態に合わせた環境調整と急変時の連絡方法が重要です。",
+      "currentState": "内視鏡や画像検査などで狭窄の部位と原因を確認し、状態によって気道確保や外科的治療などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/03/%E6%85%A2%E6%80%A7%E5%91%BC%E5%90%B8%E5%99%A8%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-3-2",
+      "name": "気管支喘息",
+      "overview": "気道に慢性的な炎症があり、せき、喘鳴、息苦しさを繰り返す病気です。アレルギーや感染、運動などが症状のきっかけとなる場合があります。",
+      "dailyLife": "夜間のせきや運動時の息苦しさが学校生活に影響することがあります。発作時の対応や吸入薬の使い方を家族・学校と共有します。",
+      "currentState": "吸入ステロイドなどの長期管理薬と発作時の薬を病状に応じて使い分けます。誘因への配慮や吸入手技の確認も大切です。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/03/%E6%85%A2%E6%80%A7%E5%91%BC%E5%90%B8%E5%99%A8%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-3-4",
+      "name": "間質性肺疾患",
+      "overview": "肺の間質などに炎症や線維化が起こり、酸素の取り込みに影響する病気の一群です。子どもの病型は成人と異なることがあり、息切れや呼吸の速さがみられます。",
+      "dailyLife": "成長、運動、感染症などへの配慮が必要になることがあります。呼吸状態や酸素の必要量は病型と経過によって異なります。",
+      "currentState": "画像、呼吸機能、遺伝的背景などを評価し、原因に応じた治療を検討します。酸素療法や栄養・呼吸の支援が必要な場合があります。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/03/%E6%85%A2%E6%80%A7%E5%91%BC%E5%90%B8%E5%99%A8%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-3-7",
+      "name": "気管支拡張症",
+      "overview": "気管支が持続的に広がり、たんがたまりやすく、気道感染を繰り返すことがある病態です。原因には線毛の異常、免疫の問題、感染後の変化などがあります。",
+      "dailyLife": "せきやたん、感染症で通学や運動に影響する場合があります。体調に合わせた呼吸ケアや学校との連絡が役立ちます。",
+      "currentState": "画像で気管支の状態を確認し、原因を調べます。排痰を助けるケアや感染症への治療などを組み合わせます。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/03/%E6%85%A2%E6%80%A7%E5%91%BC%E5%90%B8%E5%99%A8%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-3-9",
+      "name": "慢性肺疾患",
+      "overview": "早産や長期の呼吸管理、ほかの肺の病気などを背景に、呼吸機能の問題が続く状態を含む分類です。酸素を十分に取り込めない場合があります。",
+      "dailyLife": "酸素や医療機器を使う人もいます。呼吸状態に合わせた通園・通学や外出の支援、感染予防の工夫が必要になる場合があります。",
+      "currentState": "原因と重症度を調べ、酸素療法、栄養支援、呼吸器管理などを個別に行います。成長とともに状態を見直します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/03/%E6%85%A2%E6%80%A7%E5%91%BC%E5%90%B8%E5%99%A8%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-3-12",
+      "name": "先天性嚢胞性肺疾患",
+      "overview": "生まれつき肺の中に嚢胞などの構造上の変化がみられる病態の一群です。無症状で見つかる場合もあれば、呼吸や感染症に影響する場合もあります。",
+      "dailyLife": "呼吸の状態や感染症の繰り返しを確認することがあります。運動や日常生活の注意点は病変の大きさ・場所などによって異なります。",
+      "currentState": "画像検査で構造を調べ、経過観察か手術などの治療を病型と症状に合わせて検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/03/%E6%85%A2%E6%80%A7%E5%91%BC%E5%90%B8%E5%99%A8%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-1",
+      "name": "洞不全症候群",
+      "overview": "心臓の拍動の開始を担う洞結節が十分に働かず、脈が遅くなったり一時的に止まったりする病態です。めまいや失神、疲れやすさを伴う場合があります。",
+      "dailyLife": "症状がない人もいますが、失神や運動中の不調がある場合は活動の安全に配慮が必要です。心拍の記録や受診を続けます。",
+      "currentState": "心電図や長時間心電図などで脈の変化を調べ、原因を評価します。症状と心機能に応じてペースメーカーなどを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患群別一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    }
+  ]
+}
