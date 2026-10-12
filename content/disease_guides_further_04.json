@@ -1,0 +1,385 @@
+{
+  "part": 4,
+  "records": [
+    {
+      "id": "nando-65-3",
+      "name": "nando-65-3",
+      "overview": "ADA酵素が不足し、リンパ球などの発達・機能が障害される先天性免疫不全症です。乳児期から重い感染を繰り返すことがあり、重症複合免疫不全症の原因の一つです。",
+      "dailyLife": "感染を避けるための専門的な医療と、家庭での衛生・通院の支援が必要になる場合があります。成長段階に応じた生活の調整を医療チームと共有します。",
+      "currentState": "免疫細胞や酵素活性、遺伝子の検査で評価し、酵素補充、造血幹細胞移植、遺伝子治療などを病状と適応に応じて検討します。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/254"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-7",
+      "name": "nando-65-7",
+      "overview": "ZAP70という分子の機能異常によりT細胞の働きが障害され、重い感染を起こしやすくなるまれな先天性免疫不全症です。免疫細胞の数だけでは機能を判断できない場合があります。",
+      "dailyLife": "感染を繰り返すと学校や家庭での日常生活に大きく影響することがあります。専門施設と相談して予防と緊急受診の計画を整えます。",
+      "currentState": "T細胞機能や遺伝子検査で診断し、感染症への対応を行います。根本的な治療として造血幹細胞移植などが検討されます。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/254"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-8",
+      "name": "nando-65-8",
+      "overview": "細胞の表面に抗原を提示するMHCクラスIの働きが低下する先天性免疫不全症です。反復する呼吸器感染や皮膚病変などが生じる場合があります。",
+      "dailyLife": "呼吸器感染の再発や皮膚症状によって通院と生活上の配慮が必要になることがあります。症状のない時期も経過観察が重要です。",
+      "currentState": "免疫学的検査や原因遺伝子の評価を行い、感染症の予防・治療と臓器症状への対応を行います。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/254"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-31",
+      "name": "nando-65-31",
+      "overview": "免疫反応の制御に関わる遺伝子の異常によって、特定のウイルス感染に対して過剰な免疫反応などが生じることのあるX連鎖性疾患です。血球の異常や肝臓への影響を伴う場合があります。",
+      "dailyLife": "発熱や感染で急に状態が悪化することがあるため、専門医と緊急時の連絡方法を確認します。家族への相談支援も大切です。",
+      "currentState": "遺伝子と免疫細胞の機能を調べ、炎症や感染への治療、必要な場合には造血幹細胞移植を検討します。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/254"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-33",
+      "name": "nando-65-33",
+      "overview": "好中球が生まれつき著しく少ないなどの理由で、乳幼児期から細菌感染を繰り返しやすい病気の一群です。口内炎、皮膚感染、肺炎などが現れる場合があります。",
+      "dailyLife": "発熱や感染兆候への早めの対応が重要です。学校や家庭でも通院と衛生への配慮を続け、本人の生活機会を支えます。",
+      "currentState": "血球数や骨髄・遺伝子検査などで病型を評価し、G-CSFなどを用いて好中球を増やす治療や感染予防を行います。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/254"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-34",
+      "name": "nando-65-34",
+      "overview": "血液中の好中球の数が周期的に減少し、その時期に発熱や口内炎、感染を起こしやすくなる病気です。重症先天性好中球減少症とは異なる経過を示します。",
+      "dailyLife": "発熱しやすい時期を確認し、体調を記録することが役立ちます。学校や職場での予定を医療者と相談して調整する場合があります。",
+      "currentState": "繰り返す血液検査で好中球の変動を調べ、必要に応じてG-CSFなどで感染リスクを減らす治療を検討します。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/254"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-41",
+      "name": "nando-65-41",
+      "overview": "IRAK4という免疫シグナル分子の働きが欠け、特定の細菌に対する防御が弱くなる先天性免疫不全症です。乳幼児期に重い細菌感染で気付かれる場合があります。",
+      "dailyLife": "高熱がはっきりしない感染が起こる場合もあり、家族が体調の変化を把握して迅速に相談することが重要です。",
+      "currentState": "免疫反応や遺伝子を調べ、感染への早期治療と予防的な対応などを専門医が検討します。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/254"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-42",
+      "name": "nando-65-42",
+      "overview": "MyD88という免疫シグナル分子の異常で自然免疫の働きが低下し、特定の細菌感染を繰り返しやすくなる病気です。症状の程度には個人差があります。",
+      "dailyLife": "発熱などの典型的な炎症反応が目立たないこともあるため、家族と医療チームの情報共有が大切です。",
+      "currentState": "免疫学的検査と遺伝子検査で診断し、細菌感染への速やかな治療や必要な予防策を検討します。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/254"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-65-43",
+      "name": "nando-65-43",
+      "overview": "皮膚、口腔、爪などにカンジダ感染を繰り返す病気の一群です。免疫の異常が関係し、一部には遺伝性の病型があります。",
+      "dailyLife": "口の中の痛みや爪・皮膚の症状が食事や日常作業に影響する場合があります。再発時の対応と感染予防を継続します。",
+      "currentState": "感染の範囲と免疫機能を評価し、抗真菌薬や病型に応じた免疫学的治療などを検討します。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/254"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-19-15",
+      "name": "nando-19-15",
+      "overview": "ムコ多糖症IV型とも呼ばれ、分解されない糖鎖が体内に蓄積する遺伝性疾患です。骨格や関節、気道などに影響が出る場合があります。",
+      "dailyLife": "背骨や関節の問題で移動が難しくなる場合があります。呼吸・聴覚・心臓など複数の臓器を確認し生活を支えます。",
+      "currentState": "酵素・遺伝子検査で病型を評価し、一部の型では酵素補充療法などを検討します。整形外科的な支援も重要です。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-19-16",
+      "name": "nando-19-16",
+      "overview": "ムコ多糖症VI型とも呼ばれ、糖鎖を分解する酵素の異常で全身の組織に物質が蓄積する遺伝性疾患です。骨格、心臓、眼などに影響する場合があります。",
+      "dailyLife": "関節や背骨の動きにくさ、視力・聴力の変化などに合わせた支援が必要になることがあります。",
+      "currentState": "酵素活性・遺伝子などを調べ、酵素補充療法や各臓器に応じた専門的ケアを行います。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-19-17",
+      "name": "nando-19-17",
+      "overview": "ムコ多糖症VII型として知られる遺伝性のライソゾーム病です。糖鎖を分解する酵素の働きが低下し、骨格や肝脾臓などに症状が出ることがあります。",
+      "dailyLife": "成長や運動機能、食事などの支援が必要になる人がいます。病型による症状の違いを踏まえ、長期的なケアを行います。",
+      "currentState": "酵素・遺伝子検査で診断し、酵素補充や必要な臓器の治療を病状に合わせて検討します。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/4063"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-168-2",
+      "name": "nando-168-2",
+      "overview": "エーラス・ダンロス症候群のうち、関節が非常によく動き、痛みや脱臼などが生じることのある病型です。皮膚や自律神経の症状を伴う人もいます。",
+      "dailyLife": "関節の痛みや疲れやすさで仕事や学校に影響する場合があります。負担を減らす動作や運動機能の維持が重要です。",
+      "currentState": "臨床所見に基づいて他の結合組織疾患と鑑別し、疼痛への対応とリハビリ、関節を保護する支援を行います。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/4801"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-168-4",
+      "name": "nando-168-4",
+      "overview": "脊柱の後弯・側弯や関節の過可動、筋緊張の低下などが特徴の遺伝性エーラス・ダンロス症候群です。PLOD1やFKBP14などの遺伝子が関係します。",
+      "dailyLife": "成長に伴う背骨の変形や歩行の難しさに対応し、装具やリハビリなどの支援を検討します。",
+      "currentState": "遺伝子検査と整形外科的な評価を行い、脊柱や関節、必要な臓器の管理を続けます。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/4801"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-168-5",
+      "name": "nando-168-5",
+      "overview": "生まれつき関節が大きく緩み、脱臼しやすいことなどを特徴とする遺伝性の結合組織疾患です。I型コラーゲンに関係する遺伝子の変化が原因となる場合があります。",
+      "dailyLife": "乳児期からの関節の不安定さや歩行の問題に対して、整形外科とリハビリの支援が必要になることがあります。",
+      "currentState": "遺伝子・臨床所見などで病型を評価し、関節を保護する装具や必要な整形外科的対応を検討します。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/4801"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-168-6",
+      "name": "nando-168-6",
+      "overview": "皮膚が非常にもろく、傷やあざが生じやすいことを特徴とするエーラス・ダンロス症候群の病型です。ADAMTS2遺伝子の変化に関連する型が知られます。",
+      "dailyLife": "入浴、着替え、日常の動作で皮膚が傷つかないよう配慮が必要になることがあります。",
+      "currentState": "皮膚の所見や遺伝学的検査などで評価し、傷の保護、感染予防、関節への支援などを行います。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/4801"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-18-2-3",
+      "name": "nando-18-2-3",
+      "overview": "歯状核赤核淡蒼球ルイ体萎縮症はATN1遺伝子の繰り返し配列の伸長に関連する遺伝性神経疾患です。不随意運動、ふらつき、てんかんなどを伴う場合があります。",
+      "dailyLife": "歩行や学習、会話などに支援が必要になる場合があります。発作や運動症状の変化を周囲と共有することが役立ちます。",
+      "currentState": "神経所見と遺伝子検査などで診断し、発作と運動症状への治療や生活支援を行います。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/4805"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-13-3",
+      "name": "nando-13-3",
+      "overview": "中枢神経に輪のような特徴的な炎症・脱髄病変がみられる、多発性硬化症に関連するまれな病型です。運動や感覚などの症状が現れます。",
+      "dailyLife": "手足の動かしにくさや見え方の変化が通学・仕事に影響する場合があります。神経症状の急な変化には注意が必要です。",
+      "currentState": "MRIなどでほかの脳疾患との鑑別を行い、病状に応じた炎症を抑える治療とリハビリを検討します。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/3807"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    },
+    {
+      "id": "nando-23-3-2",
+      "name": "nando-23-3-2",
+      "overview": "牛海綿状脳症に関連するプリオンへの曝露に由来すると考えられる、獲得性のプリオン病です。神経症状や認知・精神面の変化が現れることがあります。孤発性CJDとは病因が異なります。",
+      "dailyLife": "歩行、会話、食事などに徐々に支援が必要になる場合があります。本人と家族への説明と専門的な医療・介護の連携が重要です。",
+      "currentState": "神経学的検査や画像などで評価し、症状を和らげる治療と生活支援を行います。根本的な治療は限られています。",
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "official_disease_group_sourced_editorial_draft",
+      "sourceScope": "official_parent_disease_explanation",
+      "references": [
+        {
+          "title": "難病情報センター：関連する指定難病の病型・疾患群の説明",
+          "url": "https://www.nanbyou.or.jp/entry/385"
+        },
+        {
+          "title": "厚生労働省：指定難病の概要と診断基準",
+          "url": "https://www.mhlw.go.jp/stf/newpage_53881.html"
+        }
+      ]
+    }
+  ]
+}
