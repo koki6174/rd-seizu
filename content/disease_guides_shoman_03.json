@@ -75,9 +75,9 @@
       "currentState": "心エコーなどで膜の位置と血液の流れを調べます。血流障害がある場合には膜を取り除く手術を検討します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
-          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_41_050/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -87,7 +87,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-4-42",
@@ -97,9 +97,9 @@
       "currentState": "心エコーで動脈管の大きさと血流を調べ、経過観察、薬、カテーテル治療や手術を病状に応じて検討します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
-          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_42_051/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -109,7 +109,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-4-43",
@@ -141,9 +141,9 @@
       "currentState": "心エコーで穴と血流を調べ、必要に応じて心不全への薬や、穴を閉じる手術などを検討します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
-          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_45_057/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -153,7 +153,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-4-46",
@@ -229,9 +229,9 @@
       "currentState": "心エコーなどで心室内の狭窄を評価し、血流障害が強い場合には狭窄部を広げる手術を検討します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
-          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_49_062/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -241,7 +241,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-4-50",
@@ -317,9 +317,9 @@
       "currentState": "心エコーや画像検査で心臓と気道の状態を調べ、必要に応じて弁・血管を修復する手術を検討します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
-          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_53_067/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -329,7 +329,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-4-54",
@@ -427,9 +427,9 @@
       "currentState": "CTなどで血管と気管・食道の位置関係を評価し、強い圧迫があれば手術で改善を図ります。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
-          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_58_079/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -439,7 +439,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     },
     {
       "id": "shoman-4-59",
@@ -537,9 +537,9 @@
       "currentState": "心臓の機能や静脈圧、肝臓などの状態を定期的に評価し、薬やカテーテル治療などを症状に合わせて検討します。",
       "references": [
         {
-          "title": "小児慢性特定疾病情報センター：慢性心疾患分類",
-          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
-          "sourceScope": "category_listing"
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_66_098/",
+          "sourceScope": "condition_specific"
         },
         {
           "title": "小児慢性特定疾病情報センター：対象疾病一覧",
@@ -549,7 +549,7 @@
       ],
       "reviewStatus": "official_catalog_classified_editorial_draft",
       "reviewedAt": "2026-10-12",
-      "needsIndividualSourceReview": true
+      "needsIndividualSourceReview": false
     }
   ]
 }
