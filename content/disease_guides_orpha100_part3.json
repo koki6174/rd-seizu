@@ -1,0 +1,4465 @@
+{
+  "part": 3,
+  "records": [
+    {
+      "id": "nando-160-3-2",
+      "name": "葉状魚鱗癬",
+      "name_en": "Lamellar ichthyosis",
+      "orpha_code": 313,
+      "hpo_term_count": 42,
+      "symptoms": [
+        {
+          "hpo": "HP:0000405",
+          "label": "Conductive hearing impairment",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0000491",
+          "label": "Keratitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000498",
+          "label": "Blepharitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000518",
+          "label": "Cataract",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0000563",
+          "label": "Keratoconus",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0000621",
+          "label": "Entropion",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0000656",
+          "label": "Ectropion",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000958",
+          "label": "Dry skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000962",
+          "label": "Hyperkeratosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000966",
+          "label": "Hypohidrosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000982",
+          "label": "Palmoplantar keratoderma",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000989",
+          "label": "Pruritus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001019",
+          "label": "Erythroderma",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001596",
+          "label": "Alopecia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001944",
+          "label": "Dehydration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002046",
+          "label": "Heat intolerance",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002719",
+          "label": "Recurrent infections",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003121",
+          "label": "Limb joint contracture",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0004552",
+          "label": "Scarring alopecia of scalp",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0007717",
+          "label": "Chronic irritative conjunctivitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0008064",
+          "label": "Ichthyosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0008070",
+          "label": "Sparse hair",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0008404",
+          "label": "Nail dystrophy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0009775",
+          "label": "Amniotic constriction ring",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0011039",
+          "label": "Abnormal helix morphology",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0011457",
+          "label": "Loss of eyelashes",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0012472",
+          "label": "Eclabion",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0012531",
+          "label": "Pain",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0012804",
+          "label": "Corneal ulceration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0012905",
+          "label": "Euryblepharon",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0025572",
+          "label": "Punctal stenosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0025608",
+          "label": "Cicatricial ectropion",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0025809",
+          "label": "Generalized scaling",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0025813",
+          "label": "Eyebrow scaling skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0030001",
+          "label": "Lagophthalmos",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0030053",
+          "label": "Stiff skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0031057",
+          "label": "Skin fissure",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0033665",
+          "label": "Diminished health-related quality of life",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0100583",
+          "label": "Corneal perforation",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0100679",
+          "label": "Lack of skin elasticity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0100806",
+          "label": "Sepsis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0100840",
+          "label": "Aplasia/Hypoplasia of the eyebrow",
+          "frequency": "Frequent (79-30%)"
+        }
+      ],
+      "overview": "生まれつき皮膚の角質が厚くなり、うろこ状に広くはがれやすくなる遺伝性の角化症です。新生児期から全身の皮膚が乾燥して硬くなり、汗をかきにくい、体温を調節しにくいなどの問題が起こることがあります。",
+      "dailyLife": "入浴・保湿・皮膚の保護を毎日続ける必要がある場合があります。暑さへの対応や、皮膚のひび割れ、目や耳への影響に注意しながら学校や仕事の環境を整えます。",
+      "currentState": "皮膚の症状や遺伝子検査などから病型を調べます。保湿剤や角質を柔らかくする治療を行い、炎症・感染、体温調節の問題などに対応します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/313",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-19-19-1",
+      "name": "シアリドーシス（Ⅰ型）",
+      "name_en": "Sialidosis type 1",
+      "orpha_code": 812,
+      "hpo_term_count": 42,
+      "symptoms": [
+        {
+          "hpo": "HP:0000179",
+          "label": "Thick lower lip vermilion",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000280",
+          "label": "Coarse facial features",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000407",
+          "label": "Sensorineural hearing impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000431",
+          "label": "Wide nasal bridge",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000488",
+          "label": "Retinopathy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000505",
+          "label": "Visual impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000518",
+          "label": "Cataract",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000529",
+          "label": "Progressive visual loss",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000639",
+          "label": "Nystagmus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000762",
+          "label": "Decreased nerve conduction velocity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000768",
+          "label": "Pectus carinatum",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000943",
+          "label": "Dysostosis multiplex",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000962",
+          "label": "Hyperkeratosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001249",
+          "label": "Intellectual disability",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001252",
+          "label": "Hypotonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001336",
+          "label": "Myoclonus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001337",
+          "label": "Tremor",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001350",
+          "label": "Slurred speech",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002007",
+          "label": "Frontal bossing",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002167",
+          "label": "Abnormality of speech or vocalization",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002353",
+          "label": "EEG abnormality",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002650",
+          "label": "Scoliosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002652",
+          "label": "Skeletal dysplasia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002750",
+          "label": "Delayed skeletal maturation",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002808",
+          "label": "Kyphosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003202",
+          "label": "Skeletal muscle atrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003312",
+          "label": "Abnormal form of the vertebral bodies",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003355",
+          "label": "Aminoaciduria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0003461",
+          "label": "Increased urinary O-linked sialopeptides",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0004322",
+          "label": "Short stature",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0007957",
+          "label": "Corneal opacity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0010306",
+          "label": "Short thorax",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0010729",
+          "label": "Cherry red spot of the macula",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0011276",
+          "label": "Vascular skin abnormality",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0012061",
+          "label": "Urinary excretion of sialylated oligosaccharides",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0100022",
+          "label": "Abnormality of movement",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0100790",
+          "label": "Hernia",
+          "frequency": "Frequent (79-30%)"
+        }
+      ],
+      "overview": "NEU1遺伝子の変化に関連するシアリダーゼ酵素の働きが低下する蓄積症の1型で、青年期などに視力の変化、筋肉の不随意な動き、歩行の不安定さなどが現れる場合があります。",
+      "dailyLife": "視力の低下や体のピクつきが勉強・仕事、移動に影響することがあります。転倒予防や補助具、学習・仕事での配慮が生活を支えます。",
+      "currentState": "酵素活性や遺伝子検査、眼科・神経学的な検査などを組み合わせて診断します。てんかん様の症状や運動・視覚の障害への対応を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/812",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-316-2",
+      "name": "CPT2欠損症",
+      "name_en": "Carnitine Palmitoyltransferase II deficiency",
+      "orpha_code": 157,
+      "hpo_term_count": 42,
+      "symptoms": [
+        {
+          "hpo": "HP:0000113",
+          "label": "Polycystic kidney dysplasia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0000238",
+          "label": "Hydrocephalus",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0000800",
+          "label": "Cystic renal dysplasia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001259",
+          "label": "Coma",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001274",
+          "label": "Agenesis of corpus callosum",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001302",
+          "label": "Pachygyria",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001320",
+          "label": "Cerebellar vermis hypoplasia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001399",
+          "label": "Hepatic failure",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001638",
+          "label": "Cardiomyopathy",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001970",
+          "label": "Tubulointerstitial nephritis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001985",
+          "label": "Hypoketotic hypoglycemia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0002126",
+          "label": "Polymicrogyria",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0002134",
+          "label": "Abnormal basal ganglia morphology",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002269",
+          "label": "Abnormality of neuronal migration",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0002315",
+          "label": "Headache",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002514",
+          "label": "Cerebral calcification",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0002574",
+          "label": "Episodic abdominal pain",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002643",
+          "label": "Neonatal respiratory distress",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0002913",
+          "label": "Myoglobinuria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003077",
+          "label": "Hyperlipidemia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003198",
+          "label": "Myopathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003201",
+          "label": "Rhabdomyolysis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003236",
+          "label": "Elevated circulating creatine kinase concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003326",
+          "label": "Myalgia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0003449",
+          "label": "Cold-induced muscle cramps",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003546",
+          "label": "Exercise intolerance",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003710",
+          "label": "Exercise-induced muscle cramps",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003738",
+          "label": "Exercise-induced myalgia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003774",
+          "label": "Stage 5 chronic kidney disease",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0006559",
+          "label": "Hepatic calcification",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0008315",
+          "label": "Decreased plasma free carnitine",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0008682",
+          "label": "Renal tubular epithelial necrosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0011675",
+          "label": "Arrhythmia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0011936",
+          "label": "Decreased plasma total carnitine",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0011964",
+          "label": "Intermittent painful muscle spasms",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0012380",
+          "label": "Reduced carnitine O-palmitoyltransferase activity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0012443",
+          "label": "Abnormality of brain morphology",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0040320",
+          "label": "Red-brown urine",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0045045",
+          "label": "Elevated plasma acylcarnitine levels",
+          "frequency": "Frequent (79-30%)"
+        }
+      ],
+      "overview": "長鎖脂肪酸からエネルギーを作るために必要なカルニチンパルミトイルトランスフェラーゼ2の働きが不足する遺伝性代謝疾患です。病型によって筋肉痛や脱力、低血糖、心臓・肝臓への影響などが起こります。",
+      "dailyLife": "長時間の絶食や体調不良、強い運動などが症状の誘因になる人がいます。食事・活動の工夫や発熱時の対応について、代謝専門医と具体的な計画を共有することが大切です。",
+      "currentState": "血液のアシルカルニチンや遺伝子などを調べて診断します。病型に応じて絶食の回避や栄養管理を行い、急性の代謝異常には速やかに対応します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/157",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-18-2-5",
+      "name": "脊髄小脳失調症１型",
+      "name_en": "spinocerebellar ataxia type 1",
+      "orpha_code": 98755,
+      "hpo_term_count": 40,
+      "symptoms": [
+        {
+          "hpo": "HP:0000496",
+          "label": "Abnormality of eye movement",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000514",
+          "label": "Slow saccadic eye movements",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000597",
+          "label": "Ophthalmoparesis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000639",
+          "label": "Nystagmus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000648",
+          "label": "Optic atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001260",
+          "label": "Dysarthria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001265",
+          "label": "Hyporeflexia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001272",
+          "label": "Cerebellar atrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001290",
+          "label": "Generalized hypotonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001310",
+          "label": "Dysmetria",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001332",
+          "label": "Dystonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001350",
+          "label": "Slurred speech",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002015",
+          "label": "Dysphagia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002067",
+          "label": "Bradykinesia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002072",
+          "label": "Chorea",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002073",
+          "label": "Progressive cerebellar ataxia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002075",
+          "label": "Dysdiadochokinesis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002141",
+          "label": "Gait imbalance",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002174",
+          "label": "Postural tremor",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002354",
+          "label": "Memory impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002363",
+          "label": "Abnormal brainstem morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002380",
+          "label": "Fasciculations",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002483",
+          "label": "Bulbar signs",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002878",
+          "label": "Respiratory failure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003202",
+          "label": "Skeletal muscle atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0006801",
+          "label": "Hyperactive deep tendon reflexes",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0007001",
+          "label": "Loss of Purkinje cells in the cerebellar vermis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0007338",
+          "label": "Hypermetric saccades",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0007366",
+          "label": "Atrophy/Degeneration affecting the brainstem",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0007377",
+          "label": "Abnormality of somatosensory evoked potentials",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0007928",
+          "label": "Abnormal flash visual evoked potentials",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0009830",
+          "label": "Peripheral neuropathy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0010831",
+          "label": "Impaired proprioception",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0025331",
+          "label": "Upgaze palsy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0025401",
+          "label": "Staring gaze",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0030216",
+          "label": "Inertia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0040129",
+          "label": "Abnormal nerve conduction velocity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0100543",
+          "label": "Cognitive impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0410011",
+          "label": "Abnormality of masticatory muscle",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "overview": "脊髄小脳失調症1型（SCA1）は主にATXN1遺伝子のCAGリピート伸長と関連する遺伝性の神経疾患です。歩行のふらつき、ろれつの回りにくさ、眼球運動の異常などが徐々に進む場合があります。",
+      "dailyLife": "歩行や階段、細かな作業、会話などに時間がかかることがあります。転倒しにくい環境や歩行補助具、言語・嚥下のリハビリが生活を支えます。",
+      "currentState": "神経学的な診察や遺伝子検査などで病型を確かめます。現時点では進行を確実に止める治療法は限られ、症状緩和とリハビリを中心に支援します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/98755",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-19-1-3",
+      "name": "Gaucher病３型",
+      "name_en": "Gaucher disease type 3",
+      "orpha_code": 77261,
+      "hpo_term_count": 40,
+      "symptoms": [
+        {
+          "hpo": "HP:0000093",
+          "label": "Proteinuria",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000164",
+          "label": "Abnormality of the dentition",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000486",
+          "label": "Strabismus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000602",
+          "label": "Ophthalmoplegia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000674",
+          "label": "Anodontia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000726",
+          "label": "Dementia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000790",
+          "label": "Hematuria",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000823",
+          "label": "Delayed puberty",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000938",
+          "label": "Osteopenia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001298",
+          "label": "Encephalopathy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001510",
+          "label": "Growth delay",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001637",
+          "label": "Abnormal myocardium morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001654",
+          "label": "Abnormal heart valve morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001698",
+          "label": "Pericardial effusion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001789",
+          "label": "Hydrops fetalis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001873",
+          "label": "Thrombocytopenia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001876",
+          "label": "Pancytopenia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001903",
+          "label": "Anemia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002092",
+          "label": "Pulmonary arterial hypertension",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002123",
+          "label": "Generalized myoclonic seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002205",
+          "label": "Recurrent respiratory infections",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002653",
+          "label": "Bone pain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002659",
+          "label": "Increased susceptibility to fractures",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002750",
+          "label": "Delayed skeletal maturation",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002797",
+          "label": "Osteolysis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0004322",
+          "label": "Short stature",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0004380",
+          "label": "Aortic valve calcification",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0004382",
+          "label": "Mitral valve calcification",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0004963",
+          "label": "Calcification of the aorta",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0006530",
+          "label": "Abnormal pulmonary interstitial morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0007885",
+          "label": "Slowed horizontal saccades",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0010702",
+          "label": "Increased circulating immunoglobulin concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0010885",
+          "label": "Avascular necrosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0011001",
+          "label": "Increased bone mineral density",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0012378",
+          "label": "Fatigue",
+          "frequency": "Very frequent (99-80%)"
+        }
+      ],
+      "overview": "GBA1遺伝子に関連するゴーシェ病のうち、肝臓・脾臓や骨の病変に加えて、眼の動かしにくさなど神経症状を伴う3型です。乳児期から小児期などに症状が現れることがあります。",
+      "dailyLife": "運動や学習、眼の動き、骨の痛みなどが生活に影響する場合があります。血液・骨格の管理に加えて神経や発達の評価を続け、必要な支援を調整します。",
+      "currentState": "酵素活性や遺伝子検査などで病型を調べます。酵素補充療法は主に内臓や血液・骨の病変に作用するもので、神経症状への効果には限界があります。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/77261",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-275-1",
+      "name": "タナトフォリック骨異形成症１型",
+      "name_en": "Thanatophoric dysplasia type 1",
+      "orpha_code": 1860,
+      "hpo_term_count": 40,
+      "symptoms": [
+        {
+          "hpo": "HP:0000077",
+          "label": "Abnormality of the kidney",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000238",
+          "label": "Hydrocephalus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000256",
+          "label": "Macrocephaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000260",
+          "label": "Wide anterior fontanel",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000365",
+          "label": "Hearing impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000520",
+          "label": "Proptosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000774",
+          "label": "Narrow chest",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000926",
+          "label": "Platyspondyly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000944",
+          "label": "Abnormal metaphysis morphology",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000946",
+          "label": "Hypoplastic ilia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000956",
+          "label": "Acanthosis nigricans",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001156",
+          "label": "Brachydactyly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001171",
+          "label": "Split hand",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001252",
+          "label": "Hypotonia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001387",
+          "label": "Joint stiffness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001561",
+          "label": "Polyhydramnios",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001582",
+          "label": "Redundant skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001631",
+          "label": "Atrial septal defect",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001643",
+          "label": "Patent ductus arteriosus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002007",
+          "label": "Frontal bossing",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002093",
+          "label": "Respiratory insufficiency",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002119",
+          "label": "Ventriculomegaly",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002187",
+          "label": "Intellectual disability, profound",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002282",
+          "label": "Gray matter heterotopia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002652",
+          "label": "Skeletal dysplasia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002676",
+          "label": "Cloverleaf skull",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002808",
+          "label": "Kyphosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002980",
+          "label": "Femoral bowing",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002983",
+          "label": "Micromelia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0003097",
+          "label": "Short femur",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0003185",
+          "label": "Short greater sciatic notch",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0005280",
+          "label": "Depressed nasal bridge",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0006487",
+          "label": "Bowing of the long bones",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0006703",
+          "label": "Aplasia/Hypoplasia of the lungs",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0007392",
+          "label": "Excessive wrinkled skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0008909",
+          "label": "Lethal short-limbed short stature",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0010880",
+          "label": "Increased nuchal translucency",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0012368",
+          "label": "Flat face",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0100781",
+          "label": "Abnormality of the sacroiliac joint",
+          "frequency": "Very frequent (99-80%)"
+        }
+      ],
+      "overview": "FGFR3遺伝子に関連する骨の発達の病気で、手足が非常に短い、胸郭が狭いなどの強い骨格の特徴がみられる1型です。長い大腿骨が弓状に曲がるなどの画像上の特徴がある場合があります。",
+      "dailyLife": "出生前後から呼吸への支援や、家族との丁寧な意思決定が必要になる場合があります。ご家族の希望を尊重し、本人の苦痛を減らすケアを考えることが重要です。",
+      "currentState": "胎児の画像や遺伝子検査などで型を調べます。呼吸などの全身管理や、本人と家族を支える医療を専門チームで検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/1860",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-164-1",
+      "name": "ヘルマンスキー・パドラック症候群",
+      "name_en": "Hermansky-Pudlak syndrome",
+      "orpha_code": 79430,
+      "hpo_term_count": 39,
+      "symptoms": [
+        {
+          "hpo": "HP:0000083",
+          "label": "Renal insufficiency",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000421",
+          "label": "Epistaxis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000483",
+          "label": "Astigmatism",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000486",
+          "label": "Strabismus",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000505",
+          "label": "Visual impairment",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000518",
+          "label": "Cataract",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000527",
+          "label": "Long eyelashes",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000545",
+          "label": "Myopia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000587",
+          "label": "Abnormal optic nerve morphology",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000613",
+          "label": "Photophobia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000639",
+          "label": "Nystagmus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000646",
+          "label": "Amblyopia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000649",
+          "label": "Abnormality of visual evoked potentials",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000682",
+          "label": "Abnormality of dental enamel",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000962",
+          "label": "Hyperkeratosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000978",
+          "label": "Bruising susceptibility",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000995",
+          "label": "Melanocytic nevus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001010",
+          "label": "Hypopigmentation of the skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001072",
+          "label": "Thickened skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001107",
+          "label": "Ocular albinism",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001638",
+          "label": "Cardiomyopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001824",
+          "label": "Weight loss",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001872",
+          "label": "Abnormality of thrombocytes",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001875",
+          "label": "Decreased total neutrophil count",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001892",
+          "label": "Abnormal bleeding",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002024",
+          "label": "Malabsorption",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002027",
+          "label": "Abdominal pain",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002039",
+          "label": "Anorexia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002094",
+          "label": "Dyspnea",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002206",
+          "label": "Pulmonary fibrosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002239",
+          "label": "Gastrointestinal hemorrhage",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002671",
+          "label": "Basal cell carcinoma",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002721",
+          "label": "Immunodeficiency",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0005599",
+          "label": "Hypopigmentation of hair",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0006739",
+          "label": "Squamous cell carcinoma of the skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0007443",
+          "label": "Partial albinism",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0007730",
+          "label": "Iris hypopigmentation",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0012378",
+          "label": "Fatigue",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0400008",
+          "label": "Menometrorrhagia",
+          "frequency": "Frequent (79-30%)"
+        }
+      ],
+      "overview": "皮膚や眼などの色素が少ない症状と、血小板の働きの異常による出血しやすさを伴う遺伝性疾患群です。病型によって肺の線維化や免疫の問題などを伴うことがあります。",
+      "dailyLife": "日光への対策、視力に応じた環境調整、出血への注意が必要になる場合があります。手術や歯科処置の前には、出血しやすいことを医療者へ伝えることが大切です。",
+      "currentState": "血小板の機能、眼科の所見、遺伝子などを調べて病型を確かめます。出血・肺・眼などの症状を専門的に管理し、必要な治療を検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/79430",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-19-33-2",
+      "name": "シスチン症（中間型）",
+      "name_en": "Juvenile nephropathic cystinosis",
+      "orpha_code": 411634,
+      "hpo_term_count": 39,
+      "symptoms": [
+        {
+          "hpo": "HP:0000083",
+          "label": "Renal insufficiency",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000093",
+          "label": "Proteinuria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000114",
+          "label": "Proximal tubulopathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000117",
+          "label": "Renal phosphate wasting",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000481",
+          "label": "Abnormal cornea morphology",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000531",
+          "label": "Corneal crystals",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000613",
+          "label": "Photophobia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000821",
+          "label": "Hypothyroidism",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001508",
+          "label": "Failure to thrive",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001510",
+          "label": "Growth delay",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001942",
+          "label": "Metabolic acidosis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001944",
+          "label": "Dehydration",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001959",
+          "label": "Polydipsia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001994",
+          "label": "Renal Fanconi syndrome",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002013",
+          "label": "Vomiting",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002148",
+          "label": "Hypophosphatemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002750",
+          "label": "Delayed skeletal maturation",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0002900",
+          "label": "Hypokalemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002901",
+          "label": "Hypocalcemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002902",
+          "label": "Hyponatremia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002907",
+          "label": "Microscopic hematuria",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003076",
+          "label": "Glycosuria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003126",
+          "label": "Low-molecular-weight proteinuria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003259",
+          "label": "Elevated circulating creatinine concentration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003355",
+          "label": "Aminoaciduria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003472",
+          "label": "Hypocalcemic tetany",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0003537",
+          "label": "Hypouricemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003774",
+          "label": "Stage 5 chronic kidney disease",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0004396",
+          "label": "Poor appetite",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0010639",
+          "label": "Elevated alkaline phosphatase of bone origin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0011106",
+          "label": "Hypovolemia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0011314",
+          "label": "Abnormality of long bone morphology",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0011968",
+          "label": "Feeding difficulties",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0012598",
+          "label": "Abnormal urine potassium concentration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0012622",
+          "label": "Chronic kidney disease",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0032639",
+          "label": "Elevated leukocyte cystine",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0100512",
+          "label": "Low levels of vitamin D",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0200026",
+          "label": "Ocular pain",
+          "frequency": "Frequent (79-30%)"
+        }
+      ],
+      "overview": "シスチノシスのうち、乳児期より遅れて腎臓の機能障害が現れる中間型です。細胞にシスチンが蓄積することで、尿たんぱくや腎機能の低下、角膜の結晶などを伴う場合があります。",
+      "dailyLife": "腎臓の働きの変化や目のまぶしさに合わせ、通院・服薬を続ける必要があります。成長と学校・仕事の生活を両立するための支援が役立ちます。",
+      "currentState": "細胞内のシスチン蓄積やCTNS遺伝子などを確認して診断します。シスチンを減らす治療と腎臓・眼の状態に応じた治療を組み合わせます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/411634",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-254-5",
+      "name": "晩発性皮膚ポルフィリン症",
+      "name_en": "Porphyria cutanea tarda",
+      "orpha_code": 101330,
+      "hpo_term_count": 39,
+      "symptoms": [
+        {
+          "hpo": "HP:0000559",
+          "label": "Corneal scarring",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000656",
+          "label": "Ectropion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000819",
+          "label": "Diabetes mellitus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000953",
+          "label": "Hyperpigmentation of the skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000992",
+          "label": "Cutaneous photosensitivity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000998",
+          "label": "Hypertrichosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001007",
+          "label": "Hirsutism",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001010",
+          "label": "Hypopigmentation of the skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001030",
+          "label": "Fragile skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001058",
+          "label": "Poor wound healing",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001397",
+          "label": "Hepatic steatosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001402",
+          "label": "Hepatocellular carcinoma",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001405",
+          "label": "Periportal fibrosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002725",
+          "label": "Systemic lupus erythematosus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002910",
+          "label": "Elevated circulating hepatic transaminase concentration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003281",
+          "label": "Increased circulating ferritin concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003452",
+          "label": "Increased circulating iron concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003774",
+          "label": "Stage 5 chronic kidney disease",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0004377",
+          "label": "Hematological neoplasm",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0005406",
+          "label": "Recurrent bacterial skin infections",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0006562",
+          "label": "Viral hepatitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0008066",
+          "label": "Abnormal blistering of the skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0010472",
+          "label": "Abnormal circulating porphyrin concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0010473",
+          "label": "Porphyrinuria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0012217",
+          "label": "Increased urinary porphobilinogen",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0012379",
+          "label": "Abnormal enzyme/coenzyme activity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0012465",
+          "label": "Elevated hepatic iron concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0012531",
+          "label": "Pain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0030272",
+          "label": "Abnormal erythrocyte enzyme activity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0030955",
+          "label": "Alcoholism",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0031292",
+          "label": "Cutaneous abscess",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0031876",
+          "label": "Decreased circulating hepcidin concentration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0032500",
+          "label": "Exacerbated by tobacco use",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0032999",
+          "label": "Increased fecal porphyrin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0033196",
+          "label": "Portal inflammation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0033197",
+          "label": "Hepatic lobular inflammation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0040189",
+          "label": "Scaling skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0100699",
+          "label": "Scarring",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0200123",
+          "label": "Chronic hepatitis",
+          "frequency": "Frequent (79-30%)"
+        }
+      ],
+      "overview": "ヘムを合成する経路の異常などによって皮膚にポルフィリンがたまり、日光に当たった場所の皮膚がもろくなる病気です。水ぶくれ、傷、色素の変化などが現れることがあります。",
+      "dailyLife": "日光で皮膚が傷つきやすいため、衣類や日よけなどで露出を調整することがあります。皮膚の傷や肝臓の状態を定期的に確認することが大切です。",
+      "currentState": "尿・血液などのポルフィリン検査や肝機能の評価を行います。関連する肝疾患などを調べ、病態に応じた治療と皮膚の保護を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/101330",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-65-21",
+      "name": "肝中心静脈閉鎖症を伴う免疫不全症",
+      "name_en": "Hepatic veno-occlusive disease-immunodeficiency syndrome",
+      "orpha_code": 79124,
+      "hpo_term_count": 39,
+      "symptoms": [
+        {
+          "hpo": "HP:0000016",
+          "label": "Urinary retention",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000252",
+          "label": "Microcephaly",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0000952",
+          "label": "Jaundice",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001269",
+          "label": "Hemiparesis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001409",
+          "label": "Portal hypertension",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001433",
+          "label": "Hepatosplenomegaly",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001531",
+          "label": "Failure to thrive in infancy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001541",
+          "label": "Ascites",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001873",
+          "label": "Thrombocytopenia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001876",
+          "label": "Pancytopenia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001903",
+          "label": "Anemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002014",
+          "label": "Diarrhea",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002069",
+          "label": "Bilateral tonic-clonic seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002100",
+          "label": "Recurrent aspiration pneumonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002205",
+          "label": "Recurrent respiratory infections",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002206",
+          "label": "Pulmonary fibrosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002385",
+          "label": "Paraparesis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002415",
+          "label": "Leukodystrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002722",
+          "label": "Recurrent abscess formation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002728",
+          "label": "Chronic mucocutaneous candidiasis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002743",
+          "label": "Recurrent enteroviral infections",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002849",
+          "label": "Absence of lymph node germinal center",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002910",
+          "label": "Elevated circulating hepatic transaminase concentration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003139",
+          "label": "Panhypogammaglobulinemia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0004429",
+          "label": "Recurrent viral infections",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0005403",
+          "label": "Decreased total T cell count",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0010550",
+          "label": "Paraplegia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0011117",
+          "label": "Abnormal circulating interleukin concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0012735",
+          "label": "Cough",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0030355",
+          "label": "Abnormal serum interferon-gamma level",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0030374",
+          "label": "Decreased proportion of memory B cells",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0031123",
+          "label": "Recurrent gastroenteritis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0031218",
+          "label": "Inappropriate antidiuretic hormone secretion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0040088",
+          "label": "Abnormal lymphocyte count",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0040089",
+          "label": "Abnormal natural killer cell count",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0040223",
+          "label": "Pulmonary hemorrhage",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0100626",
+          "label": "Chronic hepatic failure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0410018",
+          "label": "Recurrent ear infections",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "overview": "免疫細胞の働きと肝臓の細い血管に異常が起こる遺伝性の免疫不全症です。感染を繰り返す、発育が進みにくい、肝臓や脾臓が大きくなるなどの症状がみられることがあります。",
+      "dailyLife": "感染への対応に加えて、肝臓の機能や腹部の状態を確認する必要があります。食事・体重増加や家族の負担にも配慮した、継続的な支援が重要です。",
+      "currentState": "免疫機能・肝機能や遺伝子検査などで診断します。感染への治療と肝臓への対応を行い、重症度に応じて造血幹細胞移植などを検討する場合があります。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/79124",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-255-2",
+      "name": "ビオチニダーゼ欠損症",
+      "name_en": "Biotinidase deficiency",
+      "orpha_code": 79241,
+      "hpo_term_count": 38,
+      "symptoms": [
+        {
+          "hpo": "HP:0000365",
+          "label": "Hearing impairment",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000407",
+          "label": "Sensorineural hearing impairment",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000478",
+          "label": "Abnormality of the eye",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000509",
+          "label": "Conjunctivitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000575",
+          "label": "Scotoma",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000648",
+          "label": "Optic atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000707",
+          "label": "Abnormality of the nervous system",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000964",
+          "label": "Eczematoid dermatitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000988",
+          "label": "Skin rash",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001138",
+          "label": "Optic neuropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001249",
+          "label": "Intellectual disability",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001252",
+          "label": "Hypotonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001254",
+          "label": "Lethargy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001596",
+          "label": "Alopecia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001987",
+          "label": "Hyperammonemia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001992",
+          "label": "Organic aciduria",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002069",
+          "label": "Bilateral tonic-clonic seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002098",
+          "label": "Respiratory distress",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002104",
+          "label": "Apnea",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002123",
+          "label": "Generalized myoclonic seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002196",
+          "label": "Myelopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002313",
+          "label": "Spastic paraparesis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002715",
+          "label": "Abnormality of the immune system",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002841",
+          "label": "Recurrent fungal infections",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002883",
+          "label": "Hyperventilation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003690",
+          "label": "Limb muscle weakness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0004429",
+          "label": "Recurrent viral infections",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0005401",
+          "label": "Recurrent candida infections",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0005979",
+          "label": "Metabolic ketoacidosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0006511",
+          "label": "Laryngeal stridor",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0011153",
+          "label": "Focal motor seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0012469",
+          "label": "Infantile spasms",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0200068",
+          "label": "Nonprogressive visual loss",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0410145",
+          "label": "Decreased biotinidase activity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0410263",
+          "label": "Brain imaging abnormality",
+          "frequency": "Frequent (79-30%)"
+        }
+      ],
+      "overview": "ビオチンというビタミンを体内で再利用するビオチニダーゼの働きが不足する遺伝性の代謝疾患です。けいれん、筋緊張の低下、皮膚症状、聴覚への影響などが現れることがあります。",
+      "dailyLife": "早期の診断と治療によって症状を防げる場合があるため、服薬の継続や新生児スクリーニングの結果に応じたフォローが重要です。",
+      "currentState": "血液の酵素活性やBTD遺伝子などを調べて診断します。医療者の指導のもとビオチンを補う治療が有効で、神経・聴覚などの合併症の確認も行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/79241",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-106-2",
+      "name": "Muckle-Wells症候群",
+      "name_en": "Muckle-Wells syndrome",
+      "orpha_code": 575,
+      "hpo_term_count": 37,
+      "symptoms": [
+        {
+          "hpo": "HP:0000078",
+          "label": "Abnormality of the genital system",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000100",
+          "label": "Nephrotic syndrome",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000112",
+          "label": "Nephropathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000174",
+          "label": "Abnormal palate morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000256",
+          "label": "Macrocephaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000366",
+          "label": "Abnormality of the nose",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000408",
+          "label": "Progressive sensorineural hearing impairment",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000501",
+          "label": "Glaucoma",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000509",
+          "label": "Conjunctivitis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000554",
+          "label": "Uveitis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000648",
+          "label": "Optic atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000823",
+          "label": "Delayed puberty",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000988",
+          "label": "Skin rash",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001025",
+          "label": "Urticaria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001369",
+          "label": "Arthritis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001608",
+          "label": "Abnormality of the voice",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001761",
+          "label": "Pes cavus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001769",
+          "label": "Broad foot",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001903",
+          "label": "Anemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001917",
+          "label": "Renal amyloidosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001939",
+          "label": "Abnormality of metabolism/homeostasis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001945",
+          "label": "Fever",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002027",
+          "label": "Abdominal pain",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002091",
+          "label": "Restrictive ventilatory defect",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002633",
+          "label": "Vasculitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002829",
+          "label": "Arthralgia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0003326",
+          "label": "Myalgia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003565",
+          "label": "Elevated erythrocyte sedimentation rate",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0004299",
+          "label": "Hernia of the abdominal wall",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0004322",
+          "label": "Short stature",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0006824",
+          "label": "Cranial nerve paralysis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0008064",
+          "label": "Ichthyosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0011107",
+          "label": "Recurrent aphthous stomatitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0100490",
+          "label": "Camptodactyly of finger",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0100534",
+          "label": "Episcleritis",
+          "frequency": "Very frequent (99-80%)"
+        }
+      ],
+      "overview": "NLRP3遺伝子などに関係する自己炎症性疾患で、繰り返す発熱や蕁麻疹に似た発疹、関節痛などが起こります。感音難聴が徐々に現れる場合もあります。",
+      "dailyLife": "発熱や痛み、疲れやすさが学校・仕事に影響することがあります。聴力の変化に早く気付き、必要な環境調整と定期的な診察を続けることが大切です。",
+      "currentState": "症状と炎症の検査、遺伝子などから病型を調べます。IL-1という炎症に関わる物質の働きを抑える薬などで炎症を管理する場合があります。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/575",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-18-3-1",
+      "name": "ビタミンE単独欠乏性失調症",
+      "name_en": "Ataxia with isolated vitamin E deficiency",
+      "orpha_code": 96,
+      "hpo_term_count": 37,
+      "symptoms": [
+        {
+          "hpo": "HP:0000012",
+          "label": "Urinary urgency",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000505",
+          "label": "Visual impairment",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000580",
+          "label": "Pigmentary retinopathy",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0000639",
+          "label": "Nystagmus",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000649",
+          "label": "Abnormality of visual evoked potentials",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000662",
+          "label": "Nyctalopia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000763",
+          "label": "Sensory neuropathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000819",
+          "label": "Diabetes mellitus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001260",
+          "label": "Dysarthria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001268",
+          "label": "Mental deterioration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001272",
+          "label": "Cerebellar atrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001276",
+          "label": "Hypertonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001284",
+          "label": "Areflexia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001310",
+          "label": "Dysmetria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001332",
+          "label": "Dystonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001337",
+          "label": "Tremor",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001639",
+          "label": "Hypertrophic cardiomyopathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001761",
+          "label": "Pes cavus",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002075",
+          "label": "Dysdiadochokinesis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002167",
+          "label": "Abnormality of speech or vocalization",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002312",
+          "label": "Clumsiness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002376",
+          "label": "Developmental regression",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002403",
+          "label": "Positive Romberg sign",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002599",
+          "label": "Head titubation",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002650",
+          "label": "Scoliosis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003202",
+          "label": "Skeletal muscle atrophy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003487",
+          "label": "Babinski sign",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0004374",
+          "label": "Hemiplegia/hemiparesis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0007256",
+          "label": "Abnormal pyramidal sign",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0007703",
+          "label": "Abnormality of retinal pigmentation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0009830",
+          "label": "Peripheral neuropathy",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0010831",
+          "label": "Impaired proprioception",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0011675",
+          "label": "Arrhythmia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0100513",
+          "label": "Low levels of vitamin E",
+          "frequency": "Very frequent (99-80%)"
+        }
+      ],
+      "overview": "ビタミンEを体の中で利用する仕組みが障害され、神経機能に影響する遺伝性疾患です。歩行のふらつき、手足の感覚の変化、腱反射の低下などが現れることがあります。",
+      "dailyLife": "転倒予防や運動機能の維持に向けたリハビリが役立つ場合があります。神経症状の進行を防ぐため、早期に原因を調べて治療を続けることが重要です。",
+      "currentState": "血液中のビタミンEやTTPA遺伝子などを調べます。専門医の管理のもと適切にビタミンEを補充することで、症状の進行抑制が期待できる場合があります。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/96",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-19-7-2",
+      "name": "異染性白質ジストロフィー（若年型）",
+      "name_en": "Metachromatic leukodystrophy, juvenile form",
+      "orpha_code": 309263,
+      "hpo_term_count": 37,
+      "symptoms": [
+        {
+          "hpo": "HP:0000020",
+          "label": "Urinary incontinence",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000648",
+          "label": "Optic atrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000649",
+          "label": "Abnormality of visual evoked potentials",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000712",
+          "label": "Emotional lability",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000736",
+          "label": "Short attention span",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000738",
+          "label": "Hallucinations",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000746",
+          "label": "Delusion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000762",
+          "label": "Decreased nerve conduction velocity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001082",
+          "label": "Cholecystitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001257",
+          "label": "Spasticity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001260",
+          "label": "Dysarthria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001265",
+          "label": "Hyporeflexia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001290",
+          "label": "Generalized hypotonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001332",
+          "label": "Dystonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001939",
+          "label": "Abnormality of metabolism/homeostasis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002080",
+          "label": "Intention tremor",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002312",
+          "label": "Clumsiness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002359",
+          "label": "Frequent falls",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002371",
+          "label": "Loss of speech",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002376",
+          "label": "Developmental regression",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002415",
+          "label": "Leukodystrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002922",
+          "label": "Increased CSF protein concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003270",
+          "label": "Abdominal distention",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003444",
+          "label": "EMG: chronic denervation signs",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003487",
+          "label": "Babinski sign",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0004343",
+          "label": "Abnormal glycosphingolipid metabolism",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0007133",
+          "label": "Progressive peripheral neuropathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0007240",
+          "label": "Progressive gait ataxia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0007272",
+          "label": "Progressive psychomotor deterioration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0007663",
+          "label": "Reduced visual acuity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0008619",
+          "label": "Bilateral sensorineural hearing impairment",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0012433",
+          "label": "Abnormal social behavior",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0025013",
+          "label": "Decerebrate rigidity",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0030081",
+          "label": "Punctate periventricular T2 hyperintense foci",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0031358",
+          "label": "Vegetative state",
+          "frequency": "Very rare (<4-1%)"
+        }
+      ],
+      "overview": "異染性白質ジストロフィーのうち小児期に発症する若年型です。神経の髄鞘が障害され、学校での集中しにくさ、歩行の変化、話しにくさなどが現れることがあります。",
+      "dailyLife": "学習や移動、コミュニケーションの支援が必要になる場合があります。本人の状態に合わせて学校と医療機関が連携し、成長に応じた支援を整えます。",
+      "currentState": "酵素活性や遺伝子検査などで診断します。発症段階や病型に応じて専門的な治療を検討し、リハビリや日常生活の支援を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/309263",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-254-8",
+      "name": "肝性骨髄性ポルフィリン症",
+      "name_en": "Hepatoerythropoietic porphyria",
+      "orpha_code": 95159,
+      "hpo_term_count": 37,
+      "symptoms": [
+        {
+          "hpo": "HP:0000618",
+          "label": "Blindness",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0000656",
+          "label": "Ectropion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000938",
+          "label": "Osteopenia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000939",
+          "label": "Osteoporosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000953",
+          "label": "Hyperpigmentation of the skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000969",
+          "label": "Edema",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0000989",
+          "label": "Pruritus",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001010",
+          "label": "Hypopigmentation of the skin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001030",
+          "label": "Fragile skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001072",
+          "label": "Thickened skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001096",
+          "label": "Keratoconjunctivitis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0001560",
+          "label": "Abnormality of the amniotic fluid",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001790",
+          "label": "Nonimmune hydrops fetalis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001878",
+          "label": "Hemolytic anemia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001892",
+          "label": "Abnormal bleeding",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002219",
+          "label": "Facial hypertrichosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002797",
+          "label": "Osteolysis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0003401",
+          "label": "Paresthesia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0004552",
+          "label": "Scarring alopecia of scalp",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0005406",
+          "label": "Recurrent bacterial skin infections",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0007537",
+          "label": "Severe photosensitivity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0008066",
+          "label": "Abnormal blistering of the skin",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0010472",
+          "label": "Abnormal circulating porphyrin concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0011457",
+          "label": "Loss of eyelashes",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0012132",
+          "label": "Erythroid hyperplasia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0012379",
+          "label": "Abnormal enzyme/coenzyme activity",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0012804",
+          "label": "Corneal ulceration",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0030756",
+          "label": "Erythrodontia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0032999",
+          "label": "Increased fecal porphyrin",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0040318",
+          "label": "Red urine",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0040320",
+          "label": "Red-brown urine",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0040322",
+          "label": "Purple urine",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0100532",
+          "label": "Scleritis",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0100699",
+          "label": "Scarring",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0200041",
+          "label": "Skin erosion",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0500046",
+          "label": "Seborrhoeic blepharitis",
+          "frequency": "Very rare (<4-1%)"
+        }
+      ],
+      "overview": "ポルフィリンの代謝に関わる酵素の強い働きの低下により、肝臓と血液系の両方に影響が及ぶまれな病型です。強い光線過敏と皮膚の水ぶくれなどが幼少期から現れる場合があります。",
+      "dailyLife": "紫外線への配慮や皮膚の保護を続ける必要がある場合があります。皮膚だけでなく肝臓や血液の変化も長期的に調べることが重要です。",
+      "currentState": "ポルフィリン関連の血液・尿検査や酵素検査で病型を評価します。光線防御、皮膚・肝臓などへの対応を専門的に行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/95159",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-65-11",
+      "name": "毛細血管拡張性運動失調症",
+      "name_en": "Ataxia telangiectasia",
+      "orpha_code": 100,
+      "hpo_term_count": 37,
+      "symptoms": [
+        {
+          "hpo": "HP:0000035",
+          "label": "Abnormal testis morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000147",
+          "label": "Polycystic ovaries",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000486",
+          "label": "Strabismus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000496",
+          "label": "Abnormality of eye movement",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000639",
+          "label": "Nystagmus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000819",
+          "label": "Diabetes mellitus",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000823",
+          "label": "Delayed puberty",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001257",
+          "label": "Spasticity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001260",
+          "label": "Dysarthria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001337",
+          "label": "Tremor",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001508",
+          "label": "Failure to thrive",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001888",
+          "label": "Lymphopenia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002167",
+          "label": "Abnormality of speech or vocalization",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002205",
+          "label": "Recurrent respiratory infections",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002216",
+          "label": "Premature graying of hair",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002664",
+          "label": "Neoplasm",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002715",
+          "label": "Abnormality of the immune system",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002721",
+          "label": "Immunodeficiency",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002910",
+          "label": "Elevated circulating hepatic transaminase concentration",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0003202",
+          "label": "Skeletal muscle atrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003220",
+          "label": "Abnormality of chromosome stability",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0004313",
+          "label": "Decreased circulating antibody level",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0004322",
+          "label": "Short stature",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0005374",
+          "label": "Cellular immunodeficiency",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0005599",
+          "label": "Hypopigmentation of hair",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0005978",
+          "label": "Type II diabetes mellitus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0007495",
+          "label": "Prematurely aged appearance",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0007565",
+          "label": "Multiple cafe-au-lait spots",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0008065",
+          "label": "Aplasia/Hypoplasia of the skin",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0010515",
+          "label": "Aplasia/Hypoplasia of the thymus",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0100022",
+          "label": "Abnormality of movement",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0100543",
+          "label": "Cognitive impairment",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0100579",
+          "label": "Mucosal telangiectasiae",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0100585",
+          "label": "Telangiectasia of the skin",
+          "frequency": "Very frequent (99-80%)"
+        }
+      ],
+      "overview": "ATM遺伝子の働きの異常により、運動のふらつきと免疫の弱さなどを伴う遺伝性疾患です。目や皮膚の細い血管が目立つほか、感染を繰り返したり、一部の腫瘍の危険性が高まったりすることがあります。",
+      "dailyLife": "歩行や手作業の支援、感染への備えが生活の助けになります。学習や学校生活を支えるとともに、医療機関では放射線への感受性にも配慮する必要があります。",
+      "currentState": "遺伝子・免疫機能の検査などで診断します。感染予防と神経症状へのリハビリ、必要な臓器の検査などを長期的に行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/100",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-164-3",
+      "name": "グリセリ症候群",
+      "name_en": "Griscelli syndrome",
+      "orpha_code": 381,
+      "hpo_term_count": 36,
+      "symptoms": [
+        {
+          "hpo": "HP:0000238",
+          "label": "Hydrocephalus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000499",
+          "label": "Abnormal eyelash morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000534",
+          "label": "Abnormal eyebrow morphology",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000639",
+          "label": "Nystagmus",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000952",
+          "label": "Jaundice",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001053",
+          "label": "Hypopigmented skin patches",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001249",
+          "label": "Intellectual disability",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001251",
+          "label": "Ataxia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001252",
+          "label": "Hypotonia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001257",
+          "label": "Spasticity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001263",
+          "label": "Global developmental delay",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001315",
+          "label": "Reduced tendon reflexes",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001541",
+          "label": "Ascites",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001744",
+          "label": "Splenomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001873",
+          "label": "Thrombocytopenia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001874",
+          "label": "Abnormality of neutrophils",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001882",
+          "label": "Leukopenia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001945",
+          "label": "Fever",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002021",
+          "label": "Pyloric stenosis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002084",
+          "label": "Encephalocele",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002216",
+          "label": "Premature graying of hair",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002218",
+          "label": "Silver-gray hair",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002240",
+          "label": "Hepatomegaly",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002716",
+          "label": "Lymphadenopathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002721",
+          "label": "Immunodeficiency",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003119",
+          "label": "Abnormal circulating lipid concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0004313",
+          "label": "Decreased circulating antibody level",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0004322",
+          "label": "Short stature",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0005528",
+          "label": "Bone marrow hypocellularity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0006824",
+          "label": "Cranial nerve paralysis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0007730",
+          "label": "Iris hypopigmentation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0010741",
+          "label": "Pedal edema",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0011364",
+          "label": "White hair",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0012115",
+          "label": "Hepatitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0100022",
+          "label": "Abnormality of movement",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "overview": "髪や皮膚の色が薄くなる特徴と、免疫細胞の働きの障害を伴う遺伝性の病気です。遺伝子や病型によっては重い炎症反応や血球の減少などが起こることがあります。",
+      "dailyLife": "感染、発熱、出血、体力の変化などに注意し、症状が変化したときに早く医療機関へ相談できる体制を整えます。眼の見え方や発達への支援も必要になる場合があります。",
+      "currentState": "毛髪や血液・免疫機能、遺伝子検査などを組み合わせます。病型に応じた免疫・感染の治療や、重症時には造血幹細胞移植などを検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/381",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-19-7-1",
+      "name": "異染性白質ジストロフィー（後期乳児型）",
+      "name_en": "Metachromatic leukodystrophy, late infantile form",
+      "orpha_code": 309256,
+      "hpo_term_count": 36,
+      "symptoms": [
+        {
+          "hpo": "HP:0000020",
+          "label": "Urinary incontinence",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000648",
+          "label": "Optic atrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000649",
+          "label": "Abnormality of visual evoked potentials",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000712",
+          "label": "Emotional lability",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000738",
+          "label": "Hallucinations",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000746",
+          "label": "Delusion",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000762",
+          "label": "Decreased nerve conduction velocity",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001082",
+          "label": "Cholecystitis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001250",
+          "label": "Seizure",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001257",
+          "label": "Spasticity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001260",
+          "label": "Dysarthria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001265",
+          "label": "Hyporeflexia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001290",
+          "label": "Generalized hypotonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001324",
+          "label": "Muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001332",
+          "label": "Dystonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001939",
+          "label": "Abnormality of metabolism/homeostasis",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002066",
+          "label": "Gait ataxia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002312",
+          "label": "Clumsiness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002359",
+          "label": "Frequent falls",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002371",
+          "label": "Loss of speech",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002376",
+          "label": "Developmental regression",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002415",
+          "label": "Leukodystrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002922",
+          "label": "Increased CSF protein concentration",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003270",
+          "label": "Abdominal distention",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0003444",
+          "label": "EMG: chronic denervation signs",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0003487",
+          "label": "Babinski sign",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0007133",
+          "label": "Progressive peripheral neuropathy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0007240",
+          "label": "Progressive gait ataxia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0007663",
+          "label": "Reduced visual acuity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0008619",
+          "label": "Bilateral sensorineural hearing impairment",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0008872",
+          "label": "Feeding difficulties in infancy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0012433",
+          "label": "Abnormal social behavior",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0025013",
+          "label": "Decerebrate rigidity",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0030051",
+          "label": "Tip-toe gait",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0030081",
+          "label": "Punctate periventricular T2 hyperintense foci",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0031358",
+          "label": "Vegetative state",
+          "frequency": "Very rare (<4-1%)"
+        }
+      ],
+      "overview": "異染性白質ジストロフィーのうち乳幼児期後半などに発症する型です。発達の後退、歩行の不安定さ、筋力低下などが比較的早い時期から現れる場合があります。",
+      "dailyLife": "歩行や食事、呼吸などに支援が必要になることがあります。本人の成長と症状の変化を見守り、家族・医療・福祉が協力して環境を整えることが重要です。",
+      "currentState": "酵素活性や遺伝子検査などで診断します。病型・発症段階によって治療の適応が異なり、生活機能と栄養・呼吸の支援を継続します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/309256",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-30-3",
+      "name": "眼咽頭遠位型ミオパチー",
+      "name_en": "Oculopharyngodistal myopathy",
+      "orpha_code": 98897,
+      "hpo_term_count": 36,
+      "symptoms": [
+        {
+          "hpo": "HP:0000183",
+          "label": "Tongue muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000218",
+          "label": "High palate",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000301",
+          "label": "Abnormality of facial musculature",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000408",
+          "label": "Progressive sensorineural hearing impairment",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0000590",
+          "label": "Progressive external ophthalmoplegia",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0000597",
+          "label": "Ophthalmoparesis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0001284",
+          "label": "Areflexia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001288",
+          "label": "Gait disturbance",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001604",
+          "label": "Vocal cord paresis",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001824",
+          "label": "Weight loss",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0002058",
+          "label": "Myopathic facies",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002091",
+          "label": "Restrictive ventilatory defect",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002100",
+          "label": "Recurrent aspiration pneumonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002505",
+          "label": "Loss of ambulation",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002705",
+          "label": "High, narrow palate",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002747",
+          "label": "Respiratory insufficiency due to muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0007149",
+          "label": "Distal upper limb amyotrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0007838",
+          "label": "Progressive ptosis",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0008376",
+          "label": "Nasal, dysarthic speech",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0008756",
+          "label": "Bowing of the vocal cords",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0008944",
+          "label": "Distal lower limb amyotrophy",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0008959",
+          "label": "Distal upper limb muscle weakness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0008963",
+          "label": "Tibialis muscle weakness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0008997",
+          "label": "Proximal muscle weakness in upper limbs",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0009027",
+          "label": "Foot dorsiflexor weakness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0009053",
+          "label": "Distal lower limb muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0009063",
+          "label": "Progressive distal muscle weakness",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0009073",
+          "label": "Progressive proximal muscle weakness",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0010550",
+          "label": "Paraplegia",
+          "frequency": "Very rare (<4-1%)"
+        },
+        {
+          "hpo": "HP:0030192",
+          "label": "Fatigable weakness of bulbar muscles",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0030319",
+          "label": "Weakness of facial musculature",
+          "frequency": "Very frequent (99-80%)"
+        },
+        {
+          "hpo": "HP:0031162",
+          "label": "Impaired oropharyngeal swallow response",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0200136",
+          "label": "Oral-pharyngeal dysphagia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0430015",
+          "label": "Abnormal morphology of musculature of pharynx",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:3000005",
+          "label": "Abnormality of masseter muscle",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:3000010",
+          "label": "Abnormality of orbicularis oris muscle",
+          "frequency": "Very rare (<4-1%)"
+        }
+      ],
+      "overview": "まぶたの下がりや飲み込みにくさに加え、手足の先などの筋力が低下する遺伝性筋疾患です。眼球運動や発声に影響する人もいて、原因遺伝子は病型によって異なります。",
+      "dailyLife": "まぶたが下がって見えにくくなったり、食事中にむせたり、歩行が負担になったりすることがあります。食事の安全と移動・作業の工夫が役立ちます。",
+      "currentState": "筋力・嚥下・眼の動き、遺伝子などを調べて診断します。飲み込みの支援、リハビリや症状に応じた外科的治療などを検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/98897",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    },
+    {
+      "id": "nando-17-1",
+      "name": "多系統萎縮症（小脳型・MSA-C）",
+      "name_en": "Multiple system atrophy, cerebellar type",
+      "orpha_code": 227510,
+      "hpo_term_count": 35,
+      "symptoms": [
+        {
+          "hpo": "HP:0000640",
+          "label": "Gaze-evoked nystagmus",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000716",
+          "label": "Depression",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000739",
+          "label": "Anxiety",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0000741",
+          "label": "Apathy",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001260",
+          "label": "Dysarthria",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0001300",
+          "label": "Parkinsonism",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0001618",
+          "label": "Dysphonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002019",
+          "label": "Constipation",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002063",
+          "label": "Rigidity",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002066",
+          "label": "Gait ataxia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002067",
+          "label": "Bradykinesia",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002068",
+          "label": "Neuromuscular dysphagia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002070",
+          "label": "Limb ataxia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002073",
+          "label": "Progressive cerebellar ataxia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002136",
+          "label": "Broad-based gait",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002172",
+          "label": "Postural instability",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002174",
+          "label": "Postural tremor",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002310",
+          "label": "Orofacial dyskinesia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002322",
+          "label": "Resting tremor",
+          "frequency": "Occasional (29-5%)"
+        },
+        {
+          "hpo": "HP:0002359",
+          "label": "Frequent falls",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002494",
+          "label": "Abnormal rapid eye movement sleep",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0002530",
+          "label": "Axial dystonia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0004926",
+          "label": "Orthostatic hypotension due to autonomic dysfunction",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0005341",
+          "label": "Autonomic bladder dysfunction",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0007256",
+          "label": "Abnormal pyramidal sign",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0008652",
+          "label": "Autonomic erectile dysfunction",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0010307",
+          "label": "Stridor",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0010536",
+          "label": "Central sleep apnea",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0010545",
+          "label": "Downbeat nystagmus",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0012332",
+          "label": "Abnormal autonomic nervous system physiology",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0012658",
+          "label": "Abnormal brain FDG positron emission tomography",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0012670",
+          "label": "Orthostatic syncope",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0030015",
+          "label": "Female anorgasmia",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0030880",
+          "label": "Raynaud phenomenon",
+          "frequency": "Frequent (79-30%)"
+        },
+        {
+          "hpo": "HP:0100595",
+          "label": "Camptocormia",
+          "frequency": "Occasional (29-5%)"
+        }
+      ],
+      "overview": "多系統萎縮症のうち小脳の働きの障害が主に現れる病型です。歩行のふらつきやろれつの回りにくさに加え、排尿の問題、立ちくらみなど自律神経の症状を伴う場合があります。",
+      "dailyLife": "転倒しやすさやトイレの問題が生活に影響する場合があります。移動補助具や手すりの設置、血圧・排尿の管理などを組み合わせて支援します。",
+      "currentState": "神経学的な診察や画像検査などでほかの失調症と区別します。症状を和らげる治療とリハビリを行い、運動・自律神経の変化を継続して確認します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別の詳細情報",
+          "url": "https://www.orpha.net/en/disease/detail/227510",
+          "verifiedSpecific": true
+        },
+        {
+          "title": "Orphadata：2026年7月版の症状・出現頻度情報",
+          "url": "https://sciences.orphadata.com/phenotypes/",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "難病情報センター：病気の解説",
+          "url": "https://www.nanbyou.or.jp/entry/category/sickdescriptiongeneral",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewedAt": "2026-10-12",
+      "reviewStatus": "research_source_corroborated_editorial_draft"
+    }
+  ]
+}
