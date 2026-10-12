@@ -1,0 +1,555 @@
+{
+  "part": 2,
+  "records": [
+    {
+      "id": "shoman-4-2",
+      "name": "モビッツ（Mobitz）2型ブロック",
+      "overview": "心臓の電気信号が心房から心室へ伝わる途中で、突然伝わらなくなることがある房室ブロックの一型です。脈が遅くなり、めまいや失神などを起こす場合があります。",
+      "dailyLife": "自覚症状が少ない場合でも、急なふらつきや意識の変化に注意が必要です。運動や学校生活の方針は心電図の所見と症状に応じて判断します。",
+      "currentState": "心電図と心拍の長時間記録などで伝導障害を調べます。重い徐脈を防ぐためペースメーカーを検討する場合があります。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-3",
+      "name": "完全房室ブロック",
+      "overview": "心房から心室へ電気信号が伝わらず、両者がそれぞれのリズムで拍動する病態です。胎児・新生児期から見つかることもあり、脈が非常に遅くなる場合があります。",
+      "dailyLife": "疲れやすさ、めまい、失神などの症状によって、活動量の調整が必要なことがあります。無症状の人も定期的な心電図検査が重要です。",
+      "currentState": "心拍数と心機能を調べ、原因を評価します。症状や循環への影響に応じてペースメーカーによる治療を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_03_003/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-4-4",
+      "name": "脚ブロック",
+      "overview": "心臓の電気信号を心室へ伝える右脚や左脚に伝導の遅れ・遮断がある状態です。ほかの心疾患に伴うこともありますが、症状を伴わない場合もあります。",
+      "dailyLife": "自覚症状がない人は通常の活動を続けることもあります。息切れや失神などがあるときは別の心疾患を含めて評価が必要です。",
+      "currentState": "心電図や心エコーで伝導障害の種類と心臓の状態を調べます。背景疾患があればその治療を優先します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-5",
+      "name": "多源性心室期外収縮",
+      "overview": "心室から予定外の電気信号が複数の場所で生じる不整脈です。動悸として感じる人もいますが、気付かない場合もあります。心臓の構造や機能との関係が重要です。",
+      "dailyLife": "動悸や運動時の不調があるときは、発生状況を記録し医療者へ相談します。日常の活動制限は所見に応じて決めます。",
+      "currentState": "心電図、長時間心電図、心エコーなどで頻度と原因を調べます。必要に応じて薬物治療などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-6",
+      "name": "上室頻拍",
+      "overview": "心室より上にある心房や刺激伝導系を起点として、突然心拍が速くなる不整脈の総称です。動悸、顔色の変化、息苦しさなどが出ることがあります。",
+      "dailyLife": "発作があると活動や睡眠に影響することがあります。発作時の連絡方法や受診の目安を医療者と共有します。",
+      "currentState": "心電図で不整脈の種類を調べ、必要に応じて薬やカテーテル治療を検討します。乳幼児と年長児で対応が異なります。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-7",
+      "name": "心室頻拍",
+      "overview": "心室から非常に速い電気信号が続き、心臓が血液を送り出しにくくなることがある不整脈です。めまいや失神などを伴う場合があります。",
+      "dailyLife": "急な動悸や気分不良に注意が必要です。活動上の注意点や緊急時の対応は不整脈の原因と危険度によって変わります。",
+      "currentState": "心電図と心臓の検査で原因と危険性を評価します。薬、カテーテル治療、植込み型機器などを状態に応じて検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-8",
+      "name": "心房粗動",
+      "overview": "心房の電気信号が速く規則的に巡り、心房が非常に速く動く不整脈です。心拍が速くなり、動悸や息切れが生じる場合があります。",
+      "dailyLife": "症状がある人では疲れやすさや運動時の息苦しさが生活に影響します。脈の変化を医療者に伝え、継続して検査を受けます。",
+      "currentState": "心電図で診断し、心拍を調整する薬や不整脈を止める治療、カテーテル治療などを原因に応じて検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-9",
+      "name": "心房細動",
+      "overview": "心房の電気活動が不規則になり、脈も不規則になる不整脈です。小児では比較的まれで、先天性心疾患や術後の状態などと関連することがあります。",
+      "dailyLife": "動悸や息切れが生活に影響する人もいます。心拍数や薬の管理が必要な場合があり、学校や家庭で対応を共有します。",
+      "currentState": "心臓の基礎疾患と脈の状態を調べ、心拍・リズムの調整や血栓のリスクへの対応を個別に検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-10",
+      "name": "心室細動",
+      "overview": "心室の電気活動が無秩序になり、有効に血液を送り出せなくなる極めて重い不整脈です。突然の意識消失や心停止に直結する緊急の状態です。",
+      "dailyLife": "発症時には直ちに救急対応と心肺蘇生、AEDの使用が必要です。回復後は原因疾患と再発の危険性に合わせた生活支援が重要です。",
+      "currentState": "救命処置の後に心臓の構造・遺伝性不整脈などの原因を調べ、植込み型除細動器などによる再発予防を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-11",
+      "name": "QT延長症候群",
+      "overview": "心臓の電気信号が元に戻るまでの時間が長くなり、特定の重い不整脈が起こりやすくなる病気です。遺伝性の型や薬によるものがあります。",
+      "dailyLife": "失神や動悸に注意し、運動・水泳や薬の使い方について専門医と計画を共有します。病型ごとに避ける状況が異なります。",
+      "currentState": "心電図や家族歴、必要に応じて遺伝子検査を行います。薬物治療や植込み型機器などで不整脈を予防します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-13",
+      "name": "不整脈源性右室心筋症",
+      "overview": "右心室を中心に心筋の構造が変化し、心室性不整脈などが起こりやすくなる心筋症です。遺伝性の背景が関係する場合があります。",
+      "dailyLife": "動悸、失神、息切れなどの変化に注意が必要です。競技スポーツなどの活動については不整脈の危険度に応じて相談します。",
+      "currentState": "心電図、心臓MRIなどで評価し、不整脈を抑える薬や植込み型除細動器などを検討します。家族の診察が勧められることもあります。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-14",
+      "name": "心筋緻密化障害",
+      "overview": "心臓の筋肉がスポンジのように凹凸の多い構造を示す病態です。心機能が正常な場合もありますが、心不全や不整脈を伴う人もいます。",
+      "dailyLife": "元気に生活できる人もいますが、息切れや動悸などに注意して心臓の検査を続けることが重要です。",
+      "currentState": "心エコーやMRIで心筋構造と機能を確認します。心不全・不整脈・血栓などの問題があれば、それぞれに対応します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-15",
+      "name": "拡張型心筋症",
+      "overview": "心臓の筋肉の収縮力が低下し、心室が拡がる病気です。息切れや疲れやすさ、むくみなどを伴う場合があり、原因は遺伝性を含めて多様です。",
+      "dailyLife": "活動しづらさや服薬・通院の負担がある場合があります。体重や息切れの変化を確認し、学校・家庭で支援します。",
+      "currentState": "心臓の超音波検査などで機能を調べ、心不全を抑える薬や不整脈への治療などを個別に組み合わせます。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-17",
+      "name": "心室瘤",
+      "overview": "心室の壁の一部が膨らみ、心臓の収縮が十分に伝わらなくなることがある病態です。先天的な形の違い、心筋の病気や傷害などが原因になる場合があります。",
+      "dailyLife": "症状がない人もいますが、動悸や息切れなどがあるときは医療者に相談します。定期的な心機能確認が大切です。",
+      "currentState": "心エコーや心臓MRIで形と機能を調べ、不整脈や血栓、心機能低下への対応を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-19",
+      "name": "心臓腫瘍",
+      "overview": "心臓の内側や筋肉に腫瘍が生じる病態です。良性のものも含まれますが、位置や大きさにより血流や脈の異常を引き起こす場合があります。",
+      "dailyLife": "無症状で見つかることもあります。息切れや動悸、失神などがあれば医療者へ伝え、画像検査を続けます。",
+      "currentState": "心エコーやMRIなどで腫瘍の性質・位置を調べます。経過観察、薬物治療、外科的切除などを状況に合わせて判断します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-20",
+      "name": "慢性心筋炎",
+      "overview": "心臓の筋肉に炎症が長く続く病態です。感染後や免疫の異常など原因はさまざまで、心臓の収縮力や不整脈に影響することがあります。",
+      "dailyLife": "疲れやすさ、動悸や胸の不快感などが活動に影響する場合があります。体調の変化に注意し、運動再開は医療者と相談します。",
+      "currentState": "心電図、心エコーやMRIなどで炎症と心機能を評価し、原因への対応と心不全・不整脈の管理を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-21",
+      "name": "慢性心膜炎",
+      "overview": "心臓を包む心膜に炎症が続いたり繰り返したりする病態です。胸の痛みや心臓の周囲に液体がたまる症状が起こる場合があります。",
+      "dailyLife": "胸の痛みや息苦しさの程度に応じ、活動量や通学を調整します。再発の兆候を医療者と共有することが重要です。",
+      "currentState": "心エコーや炎症の検査などで評価し、原因と病状に応じて抗炎症治療や心膜液への対応を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-22",
+      "name": "収縮性心膜炎",
+      "overview": "心膜が厚く硬くなり、心臓が十分に広がって血液を受け入れにくくなる病態です。むくみや腹部の張り、疲れやすさなどが現れます。",
+      "dailyLife": "歩行や運動の負担、むくみなどが生活に影響します。体調と心機能の経過を継続的に確認する必要があります。",
+      "currentState": "画像検査や心臓の血流の評価で診断し、原因への対応や症状に応じた薬、必要時の心膜切除術などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-23",
+      "name": "先天性心膜欠損症",
+      "overview": "心臓を外側から包む心膜が生まれつき一部または全体で欠けている状態です。多くは無症状ですが、一部が欠けた場合に胸の痛みなどを伴うことがあります。",
+      "dailyLife": "症状がない場合は通常の生活が可能なこともあります。胸痛や動悸などの変化があれば検査を受け、対応を相談します。",
+      "currentState": "MRIなどで形を確認し、無症状では経過をみることがあります。心臓の一部が挟まれる危険がある場合は手術を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：疾患別解説",
+          "url": "https://www.shouman.jp/disease/details/04_23_027/",
+          "sourceScope": "condition_specific"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": false
+    },
+    {
+      "id": "shoman-4-24",
+      "name": "乳児特発性僧帽弁腱索断裂",
+      "overview": "乳児期に僧帽弁を支える腱索が切れて、弁が閉じにくくなり血液が逆流するまれな病態です。急に呼吸が苦しくなることがあります。",
+      "dailyLife": "乳児の哺乳不良や呼吸の速さ、顔色の変化などに注意が必要です。発症時は迅速な小児循環器の診療が重要です。",
+      "currentState": "心エコーで弁の構造と逆流を調べます。心不全への治療と、必要に応じた弁修復手術などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-25",
+      "name": "冠動脈起始異常",
+      "overview": "心臓の筋肉に血液を送る冠動脈の始まる位置や走り方が生まれつき異なる病態です。無症状の場合もあれば、運動時の胸痛や不整脈を伴う場合もあります。",
+      "dailyLife": "運動中の胸痛、失神などがある場合には安全のため早急な評価が必要です。運動の方針は血管の走行と血流の状態で異なります。",
+      "currentState": "心エコーやCTなどで冠動脈の走行を調べ、危険度に応じて経過観察や手術などを検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-26",
+      "name": "川崎病性冠動脈瘤",
+      "overview": "川崎病の炎症によって冠動脈の壁が傷つき、血管の一部が拡がった状態です。大きさによって血栓や冠動脈の狭窄の危険性が異なります。",
+      "dailyLife": "本人が元気でも、長期的な心臓の検査や薬の管理が必要になる場合があります。運動や学校生活は病変の程度に応じて相談します。",
+      "currentState": "冠動脈の大きさと血流を検査し、抗血小板薬や抗凝固薬などを病変の危険度に合わせて検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-27",
+      "name": "冠動脈狭窄症（川崎病によるものを除く。）",
+      "overview": "川崎病以外の原因によって心臓の冠動脈が狭くなり、心筋への血流が不足する病態です。先天性の問題やほかの血管の病気などが背景にあります。",
+      "dailyLife": "運動時の胸痛や息切れなどが現れることがあります。血流の状態に合わせて活動上の注意点が異なります。",
+      "currentState": "冠動脈と心筋の血流を画像などで評価し、原因と狭窄の程度に応じた薬物・カテーテル・外科的治療を検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-28",
+      "name": "虚血性心疾患",
+      "overview": "心臓の筋肉に十分な酸素や血液が届かなくなる病態です。小児では先天性冠動脈異常や手術後の変化などが原因になる場合があります。",
+      "dailyLife": "胸痛や動悸、疲れやすさなどに注意が必要です。運動や通学の方針は原因と心臓の状態をもとに決めます。",
+      "currentState": "心電図、心エコーや血流検査で原因を調べます。原因疾患への治療と心筋の血流を守る対応を行います。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    },
+    {
+      "id": "shoman-4-32",
+      "name": "肺動脈閉鎖症",
+      "overview": "肺へ血液を送る肺動脈への出口が生まれつき閉じている心臓の病気です。心臓内部の構造によって血液の流れや必要な治療は大きく異なります。",
+      "dailyLife": "乳児期から呼吸や酸素の状態への配慮が必要になる場合があります。成長とともに何度か検査や治療を受けることもあります。",
+      "currentState": "心エコーやカテーテル検査で血流を評価し、薬やカテーテル治療、手術などを解剖学的な形に合わせて検討します。",
+      "references": [
+        {
+          "title": "小児慢性特定疾病情報センター：慢性心疾患の分類一覧",
+          "url": "https://www.shouman.jp/disease/search/group/list/04/%E6%85%A2%E6%80%A7%E5%BF%83%E7%96%BE%E6%82%A3/",
+          "sourceScope": "category_listing"
+        },
+        {
+          "title": "小児慢性特定疾病情報センター：対象疾病一覧",
+          "url": "https://www.shouman.jp/disease/search/disease_list",
+          "sourceScope": "official_catalog"
+        }
+      ],
+      "reviewStatus": "official_catalog_classified_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "needsIndividualSourceReview": true
+    }
+  ]
+}
