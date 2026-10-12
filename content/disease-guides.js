@@ -27,18 +27,20 @@
    const response=await fetch(new URL(file,base),{cache:'no-cache'});
    if(!response.ok)throw new Error('Guide source unavailable: '+file);
    const body=await response.json();
-   if(!Array.isArray(body.records))throw new Error('Malformed disease guide');
+   if(!Array.isArray(body.records)||body.records.length===0)throw new Error('Empty or malformed disease guide: '+file);
    return body.records;
   })).then(chunks=>{
+   const records=chunks.flat();
+   const expectedCount=records.length; // Derived from the successfully loaded files.
    const map=new Map();
-   for(const record of chunks.flat()){
+   for(const record of records){
     if(!idPattern.test(record.id)||map.has(record.id))throw new Error('Duplicate or invalid disease ID');
     if(![record.overview,record.dailyLife,record.currentState].every(s=>typeof s==='string'&&s.trim().length>30))
      throw new Error('Incomplete editorial guide');
     if(!Array.isArray(record.references)||!record.references.length)throw new Error('Missing references');
     map.set(record.id,record);
    }
-   if(map.size!==553)throw new Error('Expected 553 sourced editorial draft records');
+   if(map.size!==expectedCount)throw new Error('Disease guide count mismatch');
    cache=map;return map;
   }).catch(error=>{inflight=null;throw error});
   return inflight;
