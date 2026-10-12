@@ -20,6 +20,23 @@ function spriteTexture(){
  c.fillStyle=gradient;c.fillRect(0,0,64,64);
  const t=new THREE.CanvasTexture(canvas);t.colorSpace=THREE.SRGBColorSpace;return t;
 }
+// The public constellation uses the exact additional halo textures from
+// glow-preview preset F. The two original star-core sprites remain unchanged.
+function haloTexture(stops){
+ const canvas=document.createElement('canvas');canvas.width=128;canvas.height=128;
+ const context=canvas.getContext('2d');
+ const gradient=context.createRadialGradient(64,64,1,64,64,64);
+ for(const [position,value] of stops)gradient.addColorStop(position,value);
+ context.fillStyle=gradient;context.fillRect(0,0,128,128);
+ const texture=new THREE.CanvasTexture(canvas);
+ texture.colorSpace=THREE.SRGBColorSpace;
+ return texture;
+}
+const NEBULA_F=[
+ {texture:'soft',size:4.1,opacity:.29},
+ {texture:'soft',size:2.25,opacity:.31},
+ {texture:'ring',size:3.3,opacity:.16}
+];
 function createCloud(items,color,size,texture,opacity=1,pickable=true){
  const geo=new THREE.BufferGeometry();
  const coords=new Float32Array(items.length*3);
@@ -104,6 +121,23 @@ function initScene(initialData,mode='taxonomy'){
  motionButton.setAttribute('aria-pressed',String(auto));
  motionButton.textContent=auto?'回転を止める':'回転を開始';
  const texture=spriteTexture();
+ const haloTextures=mode==='taxonomy'?{
+  soft:haloTexture([
+   [0,'rgba(255,255,255,.88)'],
+   [.17,'rgba(255,255,255,.65)'],
+   [.4,'rgba(255,255,255,.29)'],
+   [.72,'rgba(255,255,255,.07)'],
+   [1,'rgba(255,255,255,0)']
+  ]),
+  ring:haloTexture([
+   [0,'rgba(255,255,255,.03)'],
+   [.19,'rgba(255,255,255,.07)'],
+   [.34,'rgba(255,255,255,.41)'],
+   [.50,'rgba(255,255,255,.23)'],
+   [.77,'rgba(255,255,255,.03)'],
+   [1,'rgba(255,255,255,0)']
+  ])
+ }:null;
  let lastSelection=null;
  function drawDataset(records,resetCamera=false) {
   for(const o of objects) {
@@ -124,6 +158,12 @@ function initScene(initialData,mode='taxonomy'){
   const colors={share:'#ffc6ad',discover:'#99e4ff',mixed:'#dcb6ff'};
   for(const type of ['share','discover','mixed']) {
    const items=points[type];
+   // F's wide nebula is visual-only. No extra picking target is introduced.
+   if(haloTextures && items.length){
+    for(const layer of NEBULA_F){
+     createCloud(items,colors[type],layer.size,haloTextures[layer.texture],layer.opacity,false);
+    }
+   }
    createCloud(items,colors[type],.63,texture,.75);
    if(items.length)createCloud(items,colors[type],.28,texture,1);
   }
@@ -214,6 +254,7 @@ function initScene(initialData,mode='taxonomy'){
   disposed=true;resizeObserver.disconnect();
   controls.dispose();
   texture.dispose();
+  if(haloTextures)for(const halo of Object.values(haloTextures))halo.dispose();
   for(const object of objects){object.geometry.dispose();object.material.dispose();}
   renderer.dispose();
   window.removeEventListener('pagehide',cleanupScene);
