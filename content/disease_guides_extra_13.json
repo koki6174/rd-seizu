@@ -1,0 +1,530 @@
+{
+  "part": 13,
+  "records": [
+    {
+      "id": "nando-310-4",
+      "name": "スミス・レムリ・オピッツ症候群",
+      "overview": "コレステロールの合成過程に関わるDHCR7遺伝子の働きが低下する先天性疾患です。発育の遅れや特徴的な身体所見、発達面の課題がみられますが、症状の組み合わせには幅があります。",
+      "dailyLife": "食事や成長、発達を支えるため、栄養面の評価や療育が必要になる場合があります。皮膚の光への敏感さなども考慮し、本人の状態に合わせて学校や家庭の環境を整えます。",
+      "currentState": "血液中のコレステロール前駆物質と遺伝学的検査などで評価します。特定の薬で一律に治る病気ではなく、栄養や合併症への対応、多職種の支援を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:818）",
+          "url": "https://www.orpha.net/en/disease/detail/818"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/818"
+        }
+      ],
+      "orphaCode": 818,
+      "evidenceHpoCount": 106,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-310-3",
+      "name": "コルネリア・デランゲ症候群",
+      "overview": "成長・発達に関わる遺伝子の変化などによって生じる先天性の症候群です。手足の形の違い、成長の遅れ、発達や行動の特徴などがみられ、程度は一人ひとり異なります。",
+      "dailyLife": "食事や意思疎通、学習に個別の支援が必要になる場合があります。得意なことや生活のペースを尊重し、成長に合わせて支援内容を見直すことが大切です。",
+      "currentState": "臨床所見と遺伝学的検査を組み合わせて診断を検討します。心臓や消化管などの合併症を確認し、療育やリハビリなどを継続的に組み合わせます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:199）",
+          "url": "https://www.orpha.net/en/disease/detail/199"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/199"
+        }
+      ],
+      "orphaCode": 199,
+      "evidenceHpoCount": 100,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-160-4-2",
+      "name": "シェーグレン・ラルソン症候群",
+      "overview": "ALDH3A2遺伝子に関連する脂質代謝の異常により、皮膚と神経系に症状が出る遺伝性疾患です。乾燥して厚くなった皮膚、筋肉のつっぱり、発達の遅れなどがみられます。",
+      "dailyLife": "皮膚の保湿やかゆみへの対応に加え、歩行や日常動作の補助が必要になる人もいます。学校での学びや移動を支える工夫は、症状の程度に合わせて選びます。",
+      "currentState": "皮膚症状や神経学的所見、必要に応じた遺伝学的検査で評価します。皮膚ケア、筋緊張への対応、リハビリを中心に生活機能を支えます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:816）",
+          "url": "https://www.orpha.net/en/disease/detail/816"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/816"
+        }
+      ],
+      "orphaCode": 816,
+      "evidenceHpoCount": 88,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-21-3",
+      "name": "ミトコンドリア脳筋症・乳酸アシドーシス・脳卒中様発作症候群",
+      "overview": "ミトコンドリアの働きに関わる異常によって、脳や筋肉などにエネルギー不足が生じる病気の一群です。頭痛、けいれん、筋力低下、脳卒中に似た発作などがみられます。",
+      "dailyLife": "疲れやすさや発作に備えた学校・職場での対応が必要になる場合があります。症状が急に変わることもあるため、本人と家族が受診方法や連絡先を共有しておくことが大切です。",
+      "currentState": "血液・画像・遺伝学的検査などを組み合わせて診断します。急性の神経症状への治療、けいれんや代謝面の管理、リハビリを病状に合わせて行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:550）",
+          "url": "https://www.orpha.net/en/disease/detail/550"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/550"
+        }
+      ],
+      "orphaCode": 550,
+      "evidenceHpoCount": 87,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-30",
+      "name": "チェディアック・東症候群",
+      "overview": "LYST遺伝子に関連する免疫細胞の働きの異常があり、感染への弱さや皮膚・毛髪の色素が薄い特徴などがみられる遺伝性疾患です。血液や神経にも影響することがあります。",
+      "dailyLife": "感染症への早期対応や日常の衛生管理が重要です。出血や体調の変化に注意が必要な場合もあり、家族と医療者が緊急時の対応を共有しておくと役立ちます。",
+      "currentState": "血液・免疫機能や遺伝学的検査で評価します。感染症と血液の合併症を管理し、病状によっては造血幹細胞移植などが検討されます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:167）",
+          "url": "https://www.orpha.net/en/disease/detail/167"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/167"
+        }
+      ],
+      "orphaCode": 167,
+      "evidenceHpoCount": 76,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-315-1",
+      "name": "ネイルパテラ症候群",
+      "overview": "LMX1B遺伝子の変化に関連し、爪や膝蓋骨、骨格などの発育に特徴がみられる遺伝性疾患です。一部では腎臓や眼にも影響が現れます。",
+      "dailyLife": "膝の痛みや関節の動かしにくさが、階段の昇降や運動に影響することがあります。腎臓や眼の変化は自覚しにくい場合があるため、定期的な検査も大切です。",
+      "currentState": "骨格や爪の所見、家族歴、遺伝学的検査などで評価します。関節への支援とともに、尿検査や眼科診察など合併症の確認を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:2614）",
+          "url": "https://www.orpha.net/en/disease/detail/2614"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/2614"
+        }
+      ],
+      "orphaCode": 2614,
+      "evidenceHpoCount": 72,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-325-3",
+      "name": "エカルディ・グティエール症候群",
+      "overview": "細胞が核酸を感知する仕組みなどの異常に関連して炎症が続く遺伝性疾患群です。乳幼児期から神経症状、発達の遅れ、皮膚症状などが現れることがあります。",
+      "dailyLife": "運動や食事、意思疎通に支援が必要になる人がいます。症状は幅広く、成長に合わせた福祉・療育・医療の連携が生活を支えます。",
+      "currentState": "画像検査や遺伝学的検査、炎症に関わる指標などを参考に評価します。神経症状と生活機能を支える治療を行い、病因に応じた治療法の研究も進んでいます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:51）",
+          "url": "https://www.orpha.net/en/disease/detail/51"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/51"
+        }
+      ],
+      "orphaCode": 51,
+      "evidenceHpoCount": 72,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-9",
+      "name": "Farber病",
+      "overview": "細胞内でセラミドを分解する酵素の働きが低下するASAH1関連の遺伝性疾患です。皮下のしこり、関節の動かしにくさ、声の変化などがみられ、病型によって神経症状も異なります。",
+      "dailyLife": "関節の痛みやこわばりで衣服の着脱や移動が難しくなる場合があります。食事や発声への影響を含め、本人の状態に合わせた道具や支援を検討します。",
+      "currentState": "酵素活性や遺伝学的検査などで病型を確認します。痛みや呼吸・運動機能などへの対処が中心で、疾患そのものを標的にした治療も研究されています。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:333）",
+          "url": "https://www.orpha.net/en/disease/detail/333"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/333"
+        }
+      ],
+      "orphaCode": 333,
+      "evidenceHpoCount": 70,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-5-1",
+      "name": "Tay-Sachs病",
+      "overview": "HEXA関連の酵素の働きが低下し、神経細胞に特定の脂質が蓄積する遺伝性疾患です。乳児期から発達の停滞や運動機能の低下などがみられる型が知られています。",
+      "dailyLife": "運動、食事、呼吸などで年齢や症状に応じた支援が必要になる場合があります。家族の負担も考慮して在宅支援や多職種のケアを組み合わせます。",
+      "currentState": "酵素活性測定や遺伝学的検査で確認します。栄養、けいれん、呼吸などの症状への治療が中心で、病気の原因への治療は研究段階のものがあります。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:845）",
+          "url": "https://www.orpha.net/en/disease/detail/845"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/845"
+        }
+      ],
+      "orphaCode": 845,
+      "evidenceHpoCount": 68,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-12",
+      "name": "ナイミーヘン染色体不安定症候群",
+      "overview": "DNAの損傷を修復する働きに関わるNBN遺伝子の異常による遺伝性疾患です。成長の遅れ、小頭症、感染症への弱さなどがみられ、悪性腫瘍への注意も必要です。",
+      "dailyLife": "感染を繰り返したり、通院や検査が多くなったりする場合があります。学校生活の配慮や、放射線への感受性を踏まえた医療上の注意を専門家と共有します。",
+      "currentState": "免疫機能や遺伝学的検査をもとに評価します。感染への対処と長期的な合併症の管理が重要で、画像検査や治療法の選択には専門的な配慮が必要です。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:647）",
+          "url": "https://www.orpha.net/en/disease/detail/647"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/647"
+        }
+      ],
+      "orphaCode": 647,
+      "evidenceHpoCount": 49,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-28",
+      "name": "酸性リパーゼ欠損症",
+      "overview": "リソソーム酸性リパーゼの働きが低下し、脂質が肝臓などに蓄積する遺伝性疾患の一群です。肝機能の異常や脂質代謝の問題がみられ、発症時期や経過には幅があります。",
+      "dailyLife": "肝臓の状態を定期的に確認することが重要です。症状が軽い時期でも血液検査などによる管理が必要になる人がいます。",
+      "currentState": "酵素活性と遺伝学的検査などで病型を評価します。対象となる患者には酵素補充療法が検討され、肝臓や栄養の管理も行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:275761）",
+          "url": "https://www.orpha.net/en/disease/detail/275761"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/275761"
+        }
+      ],
+      "orphaCode": 275761,
+      "evidenceHpoCount": 49,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-16",
+      "name": "RIDDLE症候群",
+      "overview": "DNAの損傷に対処するRNF168遺伝子の働きが障害される、まれな遺伝性疾患です。免疫機能の問題、成長や発達に関わる特徴などが現れることがあります。",
+      "dailyLife": "感染への注意や、発達・学習面の支援が必要な場合があります。体調や免疫機能を定期的に確認し、本人に合った生活環境を整えます。",
+      "currentState": "遺伝学的検査や免疫機能の検査などを組み合わせます。症状と合併症への対処が中心で、放射線への感受性を踏まえた医療上の配慮が必要です。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:420741）",
+          "url": "https://www.orpha.net/en/disease/detail/420741"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/420741"
+        }
+      ],
+      "orphaCode": 420741,
+      "evidenceHpoCount": 43,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-330-1",
+      "name": "先天性気管狭窄症",
+      "overview": "生まれつき気管の内腔が狭く、空気の通り道が十分に確保されない病気です。狭い範囲や程度によって、呼吸の音や息苦しさなどが異なります。",
+      "dailyLife": "呼吸の状態に応じて授乳や運動、感染時の対応に配慮が必要になることがあります。小児では家族や保育・学校関係者が緊急時の対応を共有することが大切です。",
+      "currentState": "画像検査や気道の評価で狭窄の場所と程度を調べます。経過観察から気道を広げる手術まで、呼吸状態と合併症に応じて判断します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:141127）",
+          "url": "https://www.orpha.net/en/disease/detail/141127"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/141127"
+        }
+      ],
+      "orphaCode": 141127,
+      "evidenceHpoCount": 36,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-21-2",
+      "name": "ムコリピドーシスIII型",
+      "overview": "細胞内の物質輸送に関わる酵素の働きが低下するリソソーム病の一つです。骨格や関節の変化、低身長、関節可動域の制限などがみられ、個人差があります。",
+      "dailyLife": "関節の動かしにくさや骨格の特徴から、移動や身の回りの動作に工夫が必要になることがあります。呼吸や心臓などへの影響も確認しながら生活を支えます。",
+      "currentState": "血液の酵素検査や遺伝学的検査などで診断を検討します。骨格、関節、呼吸器などの症状に応じた治療とリハビリが中心です。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:577）",
+          "url": "https://www.orpha.net/en/disease/detail/577"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/577"
+        }
+      ],
+      "orphaCode": 577,
+      "evidenceHpoCount": 36,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-139-1",
+      "name": "ペリツェウス・メルツバッハ病",
+      "overview": "脳の神経を包む髄鞘の形成に関わるPLP1遺伝子の異常などで生じる遺伝性の白質疾患です。眼球の揺れ、筋肉の緊張異常、発達の遅れなどがみられます。",
+      "dailyLife": "座る、移動する、食事をするといった日常動作に支援が必要になる場合があります。症状に合わせた姿勢保持やコミュニケーションの補助が役立ちます。",
+      "currentState": "頭部画像や遺伝学的検査で病型を検討します。筋緊張や嚥下などの症状を管理し、療育やリハビリと組み合わせた支援を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:702）",
+          "url": "https://www.orpha.net/en/disease/detail/702"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/702"
+        }
+      ],
+      "orphaCode": 702,
+      "evidenceHpoCount": 32,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-18-2-7",
+      "name": "脊髄小脳失調症７型",
+      "overview": "ATXN7遺伝子の繰り返し配列の伸長に関連する遺伝性の脊髄小脳失調症です。歩行や手の動きの調整が難しくなり、視力の低下を伴うことが特徴の一つです。",
+      "dailyLife": "ふらつきや見えにくさにより、移動や読書などの日常生活に工夫が必要になる場合があります。転倒を減らす環境づくりや視覚支援が役立ちます。",
+      "currentState": "神経症状、眼科検査、遺伝学的検査などで評価します。運動失調へのリハビリと視覚機能の支援を中心に、症状に応じたケアを行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:94147）",
+          "url": "https://www.orpha.net/en/disease/detail/94147"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/94147"
+        }
+      ],
+      "orphaCode": 94147,
+      "evidenceHpoCount": 32,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-251-2",
+      "name": "OTC欠損症",
+      "overview": "尿素回路でアンモニアを処理するOTC酵素の働きが不足する遺伝性代謝疾患です。血液中のアンモニアが増えると、嘔吐や意識障害などを起こすことがあります。",
+      "dailyLife": "食事、発熱時、体調不良時の対応を医療者と事前に決めることが重要です。年齢や重症度によって必要な食事管理と薬物治療は異なります。",
+      "currentState": "血液のアンモニアやアミノ酸の検査、遺伝学的検査などで診断します。高アンモニア血症には迅速な治療が必要で、長期的な食事・薬物管理を行います。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:664）",
+          "url": "https://www.orpha.net/en/disease/detail/664"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/664"
+        }
+      ],
+      "orphaCode": 664,
+      "evidenceHpoCount": 29,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-35-2",
+      "name": "天疱瘡（落葉状）",
+      "overview": "皮膚の細胞同士をつなぐたんぱく質への自己抗体によって、表皮の浅い層に水ぶくれやびらんができる病気です。粘膜の症状は一般に目立たない型です。",
+      "dailyLife": "皮膚のただれや痛み、感染への不安が生活に影響することがあります。摩擦を減らす衣服や皮膚ケア、無理のない入浴方法などを相談します。",
+      "currentState": "皮膚の検査や免疫学的検査で診断を検討します。皮膚の状態に応じてステロイドや免疫を調整する薬などを用い、再燃を確認します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:79481）",
+          "url": "https://www.orpha.net/en/disease/detail/79481"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/79481"
+        }
+      ],
+      "orphaCode": 79481,
+      "evidenceHpoCount": 20,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-65-2",
+      "name": "細網異形成症",
+      "overview": "免疫細胞の形成に重大な障害が起こる先天性免疫不全症です。乳児期から重い感染症が問題になる場合があり、血液の細胞にも異常が現れることがあります。",
+      "dailyLife": "感染を避けるための環境管理や迅速な受診が必要になる人がいます。本人と家族を支える専門医療機関との連携が重要です。",
+      "currentState": "血球や免疫機能、遺伝学的検査を行います。感染症への対処とともに、早期の造血幹細胞移植などが治療選択肢として検討されます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:33355）",
+          "url": "https://www.orpha.net/en/disease/detail/33355"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/33355"
+        }
+      ],
+      "orphaCode": 33355,
+      "evidenceHpoCount": 20,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-85-1",
+      "name": "特発性肺線維症",
+      "overview": "肺に線維化が進み、酸素を取り込む働きが徐々に低下することがある間質性肺疾患です。原因を特定できず、乾いたせきや運動時の息切れが生じます。",
+      "dailyLife": "坂道や階段で息切れし、以前のように動けなくなる場合があります。感染予防や活動量の工夫、必要に応じた酸素療法などが生活を助けます。",
+      "currentState": "胸部CTや呼吸機能検査などで評価します。抗線維化薬が検討され、呼吸リハビリ、酸素療法、病状に応じたその他の治療を組み合わせます。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:2032）",
+          "url": "https://www.orpha.net/en/disease/detail/2032"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/2032"
+        }
+      ],
+      "orphaCode": 2032,
+      "evidenceHpoCount": 20,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-18-2-2",
+      "name": "脊髄小脳失調症６型",
+      "overview": "CACNA1A遺伝子の特定の繰り返し配列の伸長に関連する遺伝性の小脳失調症です。歩行のふらつきや手の協調運動の難しさが、成人期に現れることがあります。",
+      "dailyLife": "歩行や筆記、家事などが負担になることがあります。転倒予防や移動補助具、作業方法の工夫が、活動を続ける助けになります。",
+      "currentState": "神経学的診察と遺伝学的検査などで評価します。症状を緩和する治療や、運動・作業のリハビリを個別に検討します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:98758）",
+          "url": "https://www.orpha.net/en/disease/detail/98758"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/98758"
+        }
+      ],
+      "orphaCode": 98758,
+      "evidenceHpoCount": 19,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-5-2",
+      "name": "Sandhoff病",
+      "overview": "HEXB遺伝子に関係する分解酵素の働きが不足し、神経細胞などに脂質が蓄積する遺伝性疾患です。発症時期によって運動や発達に現れる症状が異なります。",
+      "dailyLife": "運動や食事、意思疎通などに支援が必要になる場合があります。病状に応じた栄養・呼吸の管理や家族支援が大切です。",
+      "currentState": "酵素活性と遺伝学的検査などで診断を行います。神経症状への対処、リハビリ、栄養・呼吸を支える治療が中心です。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:796）",
+          "url": "https://www.orpha.net/en/disease/detail/796"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/796"
+        }
+      ],
+      "orphaCode": 796,
+      "evidenceHpoCount": 19,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-234-5",
+      "name": "原発性高シュウ酸尿症Ⅰ型",
+      "overview": "AGXT遺伝子の働きの異常などにより体内でシュウ酸が増え、腎臓や尿路に結石や石灰化を起こす遺伝性代謝疾患です。進行すると腎機能に影響することがあります。",
+      "dailyLife": "尿路結石の痛みや通院が生活に影響することがあります。水分管理や定期的な腎機能の確認など、医療者と決めた対策を続けることが重要です。",
+      "currentState": "尿中・血中の代謝物と遺伝学的検査で評価します。状態に応じて水分・薬物療法や原因に働きかける治療を検討し、腎機能を守ることを目指します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:93598）",
+          "url": "https://www.orpha.net/en/disease/detail/93598"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/93598"
+        }
+      ],
+      "orphaCode": 93598,
+      "evidenceHpoCount": 19,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-11",
+      "name": "Scheie症候群",
+      "overview": "IDUA酵素の働きの不足によって糖鎖が体内に蓄積するムコ多糖症I型の比較的軽い病型です。関節の硬さ、角膜の濁り、心臓などへの影響がみられることがあります。",
+      "dailyLife": "関節を動かしにくいことや手のしびれなどで生活に支障が出る場合があります。視力や心臓、呼吸への影響も含めて経過を確認します。",
+      "currentState": "酵素活性と遺伝学的検査で診断し、症状に応じて酵素補充療法などを検討します。臓器ごとの治療やリハビリも必要になります。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:93474）",
+          "url": "https://www.orpha.net/en/disease/detail/93474"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/93474"
+        }
+      ],
+      "orphaCode": 93474,
+      "evidenceHpoCount": 18,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    },
+    {
+      "id": "nando-19-12",
+      "name": "Hurler／Scheie症候群",
+      "overview": "IDUA酵素の働きが不足するムコ多糖症I型の中間的な病型で、骨格、関節、心臓、眼などに症状が現れることがあります。症状の進み方や程度は人によって異なります。",
+      "dailyLife": "関節の動かしにくさや疲れやすさから、日常動作に工夫が必要になる場合があります。成長に合わせた学校・生活での支援と、臓器の定期的な評価が大切です。",
+      "currentState": "酵素活性や遺伝学的検査で病型を評価します。酵素補充療法などを検討しながら、心臓や呼吸、骨格などへの影響を多診療科で管理します。",
+      "references": [
+        {
+          "title": "Orphanet：疾患別解説（ORPHA:93476）",
+          "url": "https://www.orpha.net/en/disease/detail/93476"
+        },
+        {
+          "title": "Orphanet：症状・HPO表現型",
+          "url": "https://www.orpha.net/en/disease/sign/93476"
+        }
+      ],
+      "orphaCode": 93476,
+      "evidenceHpoCount": 18,
+      "reviewStatus": "cross_database_sourced_editorial_draft",
+      "reviewedAt": "2026-10-12"
+    }
+  ]
+}
