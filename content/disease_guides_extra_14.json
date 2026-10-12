@@ -1,0 +1,705 @@
+{
+  "part": 14,
+  "records": [
+    {
+      "id": "nando-251-4",
+      "name": "アルギニノコハク酸尿症",
+      "designation": null,
+      "overview": "尿素回路でアンモニアを処理する過程に必要なASL酵素の働きが不足し、アンモニアが体内で増える病気です。新生児期の発症例から比較的遅く見つかる例まであります。",
+      "dailyLife": "体調不良や食事の変化で代謝のバランスが崩れることがあります。食事管理と緊急時の対応を家族、学校、医療者で共有することが大切です。",
+      "currentState": "血中アンモニア・アミノ酸や遺伝子を調べます。専門チームのもとで栄養療法とアンモニア低減治療を行い、急性増悪には迅速に対応します。",
+      "references": [
+        {
+          "title": "Orphanet：Argininosuccinic aciduria（ORPHA:23）",
+          "url": "https://www.orpha.net/en/disease/detail/23",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/23",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-67-2",
+      "name": "常染色体劣性多発性嚢胞腎",
+      "designation": null,
+      "overview": "PKHD1などの遺伝子が関係し、胎児期・小児期から腎臓に細かな嚢胞や肝臓の変化が生じる病気です。腎機能や血圧、肝臓への影響は人によって異なります。",
+      "dailyLife": "水分、血圧、成長、感染などの管理が必要になることがあります。通院や学校生活について、本人の体調に合わせて配慮します。",
+      "currentState": "腎・肝臓の画像と機能検査、遺伝子検査などで評価します。血圧や腎機能、門脈圧亢進などの合併症を長期的に管理します。",
+      "references": [
+        {
+          "title": "Orphanet：Autosomal Recessive Polycystic Kidney Disease（ORPHA:731）",
+          "url": "https://www.orpha.net/en/disease/detail/731",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/731",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-254-1",
+      "name": "急性間欠性ポルフィリン症",
+      "designation": null,
+      "overview": "ヘム合成の途中で働くHMBS酵素に関連した病気で、急な腹痛や自律神経・神経症状が生じることがあります。発作のない時期には症状が目立たない場合もあります。",
+      "dailyLife": "腹痛や体調変化が起こった際の受診計画を持つことが役立ちます。服薬、絶食、感染などの誘因は個別に医療者と確認します。",
+      "currentState": "発作時の尿中ポルフィリン前駆体や遺伝学的検査などで評価します。誘因の確認と発作に対する専門治療を行い、再発予防を検討します。",
+      "references": [
+        {
+          "title": "Orphanet：Acute intermittent porphyria（ORPHA:79276）",
+          "url": "https://www.orpha.net/en/disease/detail/79276",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/79276",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-254-6",
+      "name": "先天性骨髄性ポルフィリン症",
+      "designation": null,
+      "overview": "赤血球のヘム合成に関わる酵素の障害で光に反応しやすい物質が蓄積し、乳幼児期から強い皮膚の光過敏や水疱、貧血などが生じる病気です。",
+      "dailyLife": "日光による皮膚の痛みや傷が外出・学校生活に影響する場合があります。光環境の工夫と皮膚の保護が大切です。",
+      "currentState": "尿・血液のポルフィリン分析と遺伝子検査などで評価します。厳密な光への配慮と皮膚・血液の管理を行い、重症例では専門的治療を検討します。",
+      "references": [
+        {
+          "title": "Orphanet：Congenital erythropoietic porphyria（ORPHA:79277）",
+          "url": "https://www.orpha.net/en/disease/detail/79277",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/79277",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-19-1-1",
+      "name": "Gaucher病１型",
+      "designation": null,
+      "overview": "ゴーシェ病のうち、通常は著しい原発性神経症状を伴わない病型です。GBA1関連の酵素不足で脂質が蓄積し、脾臓・肝臓・骨などに影響が生じます。",
+      "dailyLife": "疲れやすさ、骨の痛み、貧血などが学校や仕事に影響する人もいます。症状に応じて活動量や日常の負担を調整します。",
+      "currentState": "酵素活性やGBA1遺伝子などで確認します。酵素補充療法や基質合成抑制療法などを適応に応じて検討し、骨・血液の状態を観察します。",
+      "references": [
+        {
+          "title": "Orphanet：Gaucher disease type 1（ORPHA:77259）",
+          "url": "https://www.orpha.net/en/disease/detail/77259",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/77259",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-19-6",
+      "name": "Krabbe病",
+      "designation": null,
+      "overview": "ガラクトセレブロシダーゼの働きが低下して神経の髄鞘が傷害される遺伝性の白質疾患です。乳児から成人まで発症の時期が異なる病型があります。",
+      "dailyLife": "動作や感覚、視覚・聴覚の変化により支援が必要になることがあります。生活機能を守るため、運動・栄養・意思疎通の支援を考えます。",
+      "currentState": "酵素活性・遺伝子検査、MRIなどで評価します。発症時期と状態によって治療の選択が異なり、専門施設で神経症状と日常生活を継続的に支えます。",
+      "references": [
+        {
+          "title": "Orphanet：Krabbe disease（ORPHA:487）",
+          "url": "https://www.orpha.net/en/disease/detail/487",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/487",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-20-3",
+      "name": "副腎白質ジストロフィー（副腎脊髄ニューロパチー）",
+      "designation": null,
+      "overview": "副腎白質ジストロフィーの病型の一つで、脊髄や末梢神経の働きが徐々に障害されることがあります。ABCD1遺伝子が関係し、副腎機能にも注意が必要です。",
+      "dailyLife": "足のつっぱりや歩きにくさ、排尿の問題が生活に影響することがあります。転倒予防や移動の支援、体調に合った運動が役立ちます。",
+      "currentState": "極長鎖脂肪酸と遺伝子検査、副腎機能や神経の評価を行います。運動・排尿・痛みなどの症状を支え、脳病変の有無も確認します。",
+      "references": [
+        {
+          "title": "Orphanet：adrenomyeloneuropathy（ORPHA:139399）",
+          "url": "https://www.orpha.net/en/disease/detail/139399",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/139399",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-19-7-3",
+      "name": "異染性白質ジストロフィー（成人型）",
+      "designation": null,
+      "overview": "アリルスルファターゼAなどの機能低下で脂質が神経に蓄積する白質疾患の成人発症型です。行動や認知の変化、歩行障害などから気づかれる場合があります。",
+      "dailyLife": "仕事や生活上の判断、記憶、移動などに影響が出ることがあります。本人の意思決定を尊重しながら、家族・職場との連携や生活支援を考えます。",
+      "currentState": "MRI、酵素活性、遺伝子検査で鑑別します。経過や適応に応じて疾患修飾治療の選択を検討し、神経・認知症状へのケアを行います。",
+      "references": [
+        {
+          "title": "Orphanet：Metachromatic leukodystrophy, adult form（ORPHA:309271）",
+          "url": "https://www.orpha.net/en/disease/detail/309271",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/309271",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-254-3",
+      "name": "異型ポルフィリン症",
+      "designation": null,
+      "overview": "ヘム合成に関わるPPOX酵素の異常によるポルフィリン症です。急な腹痛や神経症状を起こすことがあり、皮膚が日光に過敏になる人もいます。",
+      "dailyLife": "腹痛などの発作への備えと、日光や薬剤への配慮が生活を助けます。誘因は人によって異なるため、自己判断で薬を中止せず専門医と確認します。",
+      "currentState": "尿・血液・便のポルフィリン分析と遺伝子検査などで評価します。発作時の専門的治療と誘因管理、皮膚症状への支援を行います。",
+      "references": [
+        {
+          "title": "Orphanet：Variegate porphyria（ORPHA:79473）",
+          "url": "https://www.orpha.net/en/disease/detail/79473",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/79473",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-19-7",
+      "name": "異染性白質ジストロフィー",
+      "designation": null,
+      "overview": "スルファチドなどを分解する酵素の働きが低下して髄鞘が傷むライソゾーム病です。乳児型・若年型・成人型があり、神経症状や経過が異なります。",
+      "dailyLife": "歩行、手先の動作、言葉や学習などへの影響は病型で違います。本人に合う意思疎通や移動の支援、家族の負担への配慮も重要です。",
+      "currentState": "酵素活性、MRI、ARSAなどの遺伝子検査で病型を評価します。発症時期や条件により造血幹細胞移植や遺伝子治療などの選択肢を専門施設で検討します。",
+      "references": [
+        {
+          "title": "Orphanet：Metachromatic leukodystrophy（ORPHA:512）",
+          "url": "https://www.orpha.net/en/disease/detail/512",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/512",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-19-6-3",
+      "name": "Krabbe病（成人型）",
+      "designation": null,
+      "overview": "Krabbe病の成人発症型で、髄鞘に関わる酵素の不足により、歩行障害や筋力・感覚の変化が比較的ゆっくり進む場合があります。",
+      "dailyLife": "歩行や仕事、疲労感への対応が必要になる人もいます。症状が同じとは限らないため、生活上の困りごとに合わせた支援を選びます。",
+      "currentState": "GALC酵素活性や遺伝子検査、MRIなどで評価します。運動機能や痛み、生活の質を支える治療とリハビリを行い、病状に応じた選択肢を検討します。",
+      "references": [
+        {
+          "title": "Orphanet：Adult Krabbe disease（ORPHA:206448）",
+          "url": "https://www.orpha.net/en/disease/detail/206448",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/206448",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-65-18",
+      "name": "ネザートン症候群",
+      "designation": null,
+      "overview": "皮膚のバリア機能に関わるSPINK5遺伝子の異常などによって、全身の皮膚炎や特徴的な毛髪の異常、アレルギー傾向がみられる遺伝性疾患です。",
+      "dailyLife": "皮膚のかゆみや痛み、感染、温度調節の難しさに配慮が必要です。保湿や刺激を避ける工夫を日常生活に取り入れます。",
+      "currentState": "皮膚・毛髪の所見と遺伝子検査などで診断します。皮膚の保護と炎症・感染への対応を中心に、栄養やアレルギーも評価します。",
+      "references": [
+        {
+          "title": "Orphanet：Netherton syndrome（ORPHA:634）",
+          "url": "https://www.orpha.net/en/disease/detail/634",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/634",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-113-4",
+      "name": "エメリー・ドレイフス型筋ジストロフィー",
+      "designation": null,
+      "overview": "関節の拘縮、筋力低下、心臓の伝導障害などが組み合わさって現れる筋ジストロフィーです。原因となる遺伝子や遺伝形式は複数あります。",
+      "dailyLife": "首や肘、足首の関節の動かしにくさに加え、心臓の症状に注意が必要です。運動や生活の制限は状態に合わせて判断します。",
+      "currentState": "筋力と心電図・心機能、遺伝子を継続評価します。リハビリ、心臓の不整脈対策や必要なデバイス治療などを専門医と検討します。",
+      "references": [
+        {
+          "title": "Orphanet：Emery-Dreifuss muscular dystrophy（ORPHA:261）",
+          "url": "https://www.orpha.net/en/disease/detail/261",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/261",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-19-22",
+      "name": "α-マンノシドーシス",
+      "designation": null,
+      "overview": "マンノースを分解するα-マンノシダーゼの酵素機能が不足し、体内に糖鎖が蓄積する病気です。聴覚、骨格、免疫、発達などに影響が出る場合があります。",
+      "dailyLife": "聞こえにくさや耳の感染、移動・学習での困りごとへの支援が役立ちます。本人の成長と希望に応じて生活の環境を整えます。",
+      "currentState": "尿中の糖鎖関連物質、酵素活性、MAN2B1遺伝子などで評価します。症状を管理しながら、条件に合う場合は酵素補充療法などを検討します。",
+      "references": [
+        {
+          "title": "Orphanet：Alpha-mannosidosis（ORPHA:61）",
+          "url": "https://www.orpha.net/en/disease/detail/61",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/61",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-19-25",
+      "name": "アスパルチルグルコサミン尿症",
+      "designation": null,
+      "overview": "糖たんぱく質の分解に必要なAGA酵素が不足し、分解途中の物質が蓄積する遺伝性ライソゾーム病です。発達、運動、骨格や顔貌に症状が現れる場合があります。",
+      "dailyLife": "ことば・学習、運動や日常動作への支援が必要になることがあります。本人の理解や意思を尊重した生活支援を考えます。",
+      "currentState": "尿中代謝産物、酵素活性とAGA遺伝子などで診断します。発達支援、てんかんや関節などの症状に応じたケアを行います。",
+      "references": [
+        {
+          "title": "Orphanet：Aspartylglucosaminuria（ORPHA:93）",
+          "url": "https://www.orpha.net/en/disease/detail/93",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/93",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-160-3-2",
+      "name": "葉状魚鱗癬",
+      "designation": null,
+      "overview": "皮膚の角質形成の異常により、体表に大きなうろこ状の角質が生じる先天性魚鱗癬の一つです。複数の遺伝子が関係し、皮膚の状態には幅があります。",
+      "dailyLife": "乾燥やひび割れ、汗をかきにくいことなどで、季節や運動への配慮が必要になる場合があります。皮膚の保湿と体温管理が大切です。",
+      "currentState": "皮膚の所見や遺伝子検査などで病型を調べます。保湿・角質へのケアを中心に、感染や体温調節の問題にも対応します。",
+      "references": [
+        {
+          "title": "Orphanet：Lamellar ichthyosis（ORPHA:313）",
+          "url": "https://www.orpha.net/en/disease/detail/313",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/313",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-19-19-1",
+      "name": "シアリドーシス（Ⅰ型）",
+      "designation": null,
+      "overview": "NEU1遺伝子に関係するシアリダーゼ機能の不足で、眼の黄斑部の特徴的な所見やミオクローヌスなどが現れることのある病気です。Ⅰ型は比較的軽い骨格・全身症状の型です。",
+      "dailyLife": "手足の不随意な動きや視覚の変化に応じ、仕事や学習、移動の支援が必要になることがあります。症状の進み方は一人ひとり異なります。",
+      "currentState": "眼科的所見、酵素活性や遺伝子検査で評価します。ミオクローヌスなどの症状への治療とリハビリを行い、日常生活の機能を支えます。",
+      "references": [
+        {
+          "title": "Orphanet：Sialidosis type 1（ORPHA:812）",
+          "url": "https://www.orpha.net/en/disease/detail/812",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/812",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-316-2",
+      "name": "CPT2欠損症",
+      "designation": null,
+      "overview": "長鎖脂肪酸をミトコンドリアでエネルギーに利用するためのCPT2酵素の働きが不足する病気です。筋肉の痛みや脱力、横紋筋融解などが現れる型があります。",
+      "dailyLife": "激しい運動や長時間の空腹、発熱時などに症状が起こる場合があります。活動・栄養と急病時の対応について代謝専門医と計画を立てます。",
+      "currentState": "酵素活性、アシルカルニチン分析や遺伝子検査などで評価します。病型ごとに食事・運動の調整と急性代謝不全への対応を行います。",
+      "references": [
+        {
+          "title": "Orphanet：Carnitine Palmitoyltransferase II deficiency（ORPHA:157）",
+          "url": "https://www.orpha.net/en/disease/detail/157",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/157",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-18-2-5",
+      "name": "脊髄小脳失調症１型",
+      "designation": null,
+      "overview": "ATXN1遺伝子の反復配列の伸長に関係し、小脳の働きが徐々に低下する遺伝性失調症です。ふらつき、ろれつの回りにくさや眼球運動の変化などが現れます。",
+      "dailyLife": "歩行や会話、細かい作業に工夫が必要になる場合があります。転倒を防ぐ環境や、意思疎通と運動機能を保つ支援を考えます。",
+      "currentState": "神経学的診察、家族歴や遺伝学的検査などで確認します。歩行・嚥下などの症状に応じたリハビリと生活支援が中心です。",
+      "references": [
+        {
+          "title": "Orphanet：spinocerebellar ataxia type 1（ORPHA:98755）",
+          "url": "https://www.orpha.net/en/disease/detail/98755",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/98755",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-19-1-3",
+      "name": "Gaucher病３型",
+      "designation": null,
+      "overview": "ゴーシェ病のうち神経症状が現れ、経過が比較的慢性的な病型です。GBA1関連の酵素不足により、眼球運動や骨・内臓などへ影響が及ぶ場合があります。",
+      "dailyLife": "視線の動き、歩行、学習、骨の痛みなどに応じて支援が必要になることがあります。定期的な検査と学校・家庭の連携が役立ちます。",
+      "currentState": "酵素活性とGBA1遺伝子で病型を評価します。内臓・骨の症状に対する酵素補充療法などを検討し、神経症状にも対応します。",
+      "references": [
+        {
+          "title": "Orphanet：Gaucher disease type 3（ORPHA:77261）",
+          "url": "https://www.orpha.net/en/disease/detail/77261",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/77261",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-275-1",
+      "name": "タナトフォリック骨異形成症１型",
+      "designation": null,
+      "overview": "FGFR3遺伝子の変化により胎児期から骨の伸び方に重い異常が生じる疾患のⅠ型です。胸郭や四肢、頭蓋の形態に特徴が現れ、呼吸への影響が問題になることがあります。",
+      "dailyLife": "呼吸・姿勢・栄養などに高度な医療的ケアが必要になる場合があります。家族の希望と本人の負担を大切にした支援が重要です。",
+      "currentState": "出生前・出生後の画像、臨床所見、FGFR3遺伝子などで評価します。呼吸や合併症の状態に応じ、多職種チームで必要なケアを検討します。",
+      "references": [
+        {
+          "title": "Orphanet：Thanatophoric dysplasia type 1（ORPHA:1860）",
+          "url": "https://www.orpha.net/en/disease/detail/1860",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/1860",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-164-1",
+      "name": "ヘルマンスキー・パドラック症候群",
+      "designation": null,
+      "overview": "メラニンを含む細胞内小器官の働きに異常があり、皮膚や眼の色素が少なくなることと出血しやすさなどが組み合わさる遺伝性疾患群です。肺などに影響する型もあります。",
+      "dailyLife": "日光や視覚への配慮、鼻血・けがの際の出血への備えが必要になる場合があります。生活の制限は個々の病型と体調に合わせます。",
+      "currentState": "出血の検査、眼科検査や遺伝子検査で病型を見分けます。出血予防や視覚支援に加え、肺・消化管などの合併症を管理します。",
+      "references": [
+        {
+          "title": "Orphanet：Hermansky-Pudlak syndrome（ORPHA:79430）",
+          "url": "https://www.orpha.net/en/disease/detail/79430",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/79430",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-19-33-2",
+      "name": "シスチン症（中間型）",
+      "designation": null,
+      "overview": "シスチンが体内に蓄積する疾患のうち、腎機能障害が小児期以降に目立つことのある病型です。眼の角膜にも結晶が蓄積する場合があります。",
+      "dailyLife": "水分・電解質や通院、学業との両立への支援が必要になることがあります。眼の症状や腎機能の変化を継続して確認します。",
+      "currentState": "白血球シスチン量、腎機能、CTNS遺伝子などで評価します。シスチンを減らす治療と腎臓・眼の継続的なケアを行います。",
+      "references": [
+        {
+          "title": "Orphanet：Juvenile nephropathic cystinosis（ORPHA:411634）",
+          "url": "https://www.orpha.net/en/disease/detail/411634",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/411634",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-254-5",
+      "name": "晩発性皮膚ポルフィリン症",
+      "designation": null,
+      "overview": "ヘム合成に関わる物質が蓄積し、日光に当たった皮膚が脆くなり、水疱や色素変化が生じるポルフィリン症です。肝臓の鉄過剰などを伴う場合があります。",
+      "dailyLife": "手の甲など日光が当たる場所の皮膚に傷ができやすく、作業や外出に工夫が必要になることがあります。光への配慮と創傷ケアが重要です。",
+      "currentState": "血液・尿・便のポルフィリン分析で型を調べます。誘因と鉄代謝を確認し、条件に応じ瀉血や薬物療法などを専門医が検討します。",
+      "references": [
+        {
+          "title": "Orphanet：Porphyria cutanea tarda（ORPHA:101330）",
+          "url": "https://www.orpha.net/en/disease/detail/101330",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/101330",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    },
+    {
+      "id": "nando-65-21",
+      "name": "肝中心静脈閉鎖症を伴う免疫不全症",
+      "designation": null,
+      "overview": "免疫機能の障害と肝臓の小さな血管の閉塞性変化が組み合わさる、SP110遺伝子関連のまれな病気です。重い感染や肝機能の問題が生じることがあります。",
+      "dailyLife": "感染への対応と肝臓の状態の監視が必要になる場合があります。通院や予防的なケアについて家族と医療チームで相談します。",
+      "currentState": "免疫・肝機能の検査と遺伝子検査などで評価します。感染症・肝臓の合併症に対応し、免疫の状態に応じた専門的治療を検討します。",
+      "references": [
+        {
+          "title": "Orphanet：Hepatic veno-occlusive disease-immunodeficiency syndrome（ORPHA:79124）",
+          "url": "https://www.orpha.net/en/disease/detail/79124",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "Orphanet：症状・HPO注釈",
+          "url": "https://www.orpha.net/en/disease/sign/79124",
+          "verifiedSpecific": false
+        },
+        {
+          "title": "NANDO（日本の難病オントロジー）",
+          "url": "https://github.com/NanbyoData/nando/blob/master/data/nanbyo.json",
+          "verifiedSpecific": false
+        }
+      ],
+      "reviewStatus": "official_orphanet_hpo_crosschecked_editorial_draft",
+      "reviewedAt": "2026-10-12",
+      "batch": 14
+    }
+  ]
+}
