@@ -96,13 +96,13 @@ function renderNow(){
  if(!renderer||disposed)return;
  controls?.update();renderer.render(scene,camera);
 }
-// A4 landscape prints the map in a ~108 x 118 mm panel. Use a separate
+// A4 landscape prints the map in a ~108 x 130 mm panel. Use a separate
 // ~400 dpi render instead of stretching the low-resolution on-screen canvas.
 // The DOM text and stat blocks stay vector-based in the resulting PDF.
 function freezeForPrint(){
  if(!renderer||disposed||!printImage||!coords.length)return false;
  if(printSnapshotReady && printImage.src)return true;
- const width=1700,height=1850;
+ const width=1700,height=2050;
  const previousSize=renderer.getSize(new THREE.Vector2());
  const previousRatio=renderer.getPixelRatio();
  const previousAspect=camera.aspect;

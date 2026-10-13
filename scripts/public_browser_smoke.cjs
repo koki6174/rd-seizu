@@ -205,7 +205,17 @@ async function main(){
    return {
     body:getComputedStyle(document.querySelector('.poster-body')).display,
     poster:rect('.poster'),stats:rect('.stats'),sky:rect('.weekly-space'),
-    date:rect('.update-date'),
+    date:rect('.update-date'),legend:rect('.story-grid > .story-block:first-child'),
+    statCards:[...document.querySelectorAll('.stat-box')].map(el=>{
+      const r=el.getBoundingClientRect();
+      return {left:r.left,top:r.top,right:r.right,bottom:r.bottom,height:r.height};
+    }),
+    fontSizes:{
+      title:parseFloat(getComputedStyle(document.querySelector('.poster-head h1')).fontSize),
+      total:parseFloat(getComputedStyle(document.querySelector('.stat-box:first-child .big-number strong')).fontSize),
+      side:parseFloat(getComputedStyle(document.querySelector('.stat-box:nth-child(2) .big-number strong')).fontSize),
+      legend:parseFloat(getComputedStyle(document.querySelector('.story-grid > .story-block:first-child h3')).fontSize)
+    },
     paper:getComputedStyle(document.querySelector('main')).height
    };
   });
@@ -214,12 +224,27 @@ async function main(){
   assert(Math.abs(print.poster.height-194/25.4*96)<3,'A4 poster height is distorted');
   assert(print.stats.right<print.sky.left,'PDF star field must remain to the right');
   assert(print.date.right<print.sky.left,'PDF date must stay in left column');
-  assert(print.sky.height>300,'Printable star field must remain large');
+  assert(print.sky.height>450,'Printable star field must remain large');
+  assert(print.fontSizes.title>=42,'A4 title must be legible from display distance');
+  assert(print.fontSizes.total>=83 && print.fontSizes.side>=63,
+   'A4 metrics must have a clear typographic hierarchy');
+  assert(print.fontSizes.legend>=17,
+   'A4 participation breakdown must remain readable');
+  assert(print.statCards[0].right>print.statCards[1].right+10,
+   'A4 total card must span both metric columns');
+  assert(print.statCards[0].bottom<print.statCards[1].top,
+   'A4 secondary metrics must sit below primary total');
+  assert(print.statCards[1].bottom<print.legend.top,
+   'A4 participation legend must not overlap metrics');
+  assert(print.legend.top-print.stats.bottom<35,
+   'A4 left panel must not contain a large unused vertical gap');
+  assert(print.statCards.every(card=>card.right<=print.stats.right+3),
+   'All metric cards must remain inside the PDF panel');
   await page.evaluate(async()=>window.NENONE_PREPARE_ARCHIVE_PRINT());
   const bitmap=await page.locator('#weekly-space-print').evaluate(img=>({
    width:img.naturalWidth,height:img.naturalHeight,complete:img.complete,hidden:img.hidden
   }));
-  assert.deepEqual(bitmap,{width:1700,height:1850,complete:true,hidden:false},
+  assert.deepEqual(bitmap,{width:1700,height:2050,complete:true,hidden:false},
    'Printed WebGL star map must be decoded at full resolution');
   const a4=await page.pdf({
    format:'A4',landscape:true,preferCSSPageSize:true,
@@ -229,7 +254,7 @@ async function main(){
   assert.equal(pageCount,1,'A4 PDF should contain exactly one page, with no overflow');
   assert(a4.length>25000,'PDF output seems unexpectedly small');
   await page.emulateMedia({media:'screen'});
-  console.log('PASS PRINT: 1 A4 landscape page, matching 12-column geometry and 1700x1850 image');
+  console.log('PASS PRINT: 1 A4 landscape page, balanced metric hierarchy and 1700x2050 image');
   console.log('PASS DAILY: historical and latest navigation, responsive desktop dashboard and unchanged mobile/print');
 
   response=await page.goto(new URL('clinical/',base).toString(),

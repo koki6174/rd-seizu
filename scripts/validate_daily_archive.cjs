@@ -24,7 +24,7 @@ assert(!markup.includes('今回の問い') && !markup.includes('featured-questio
  'Unused featured question must be removed from the page');
 assert(!report.includes('weekly_editorial') && !report.includes('featured-question'),
  'Unused editorial API query must not be sent');
-assert(markup.includes('./cumulative.css?v=7') && markup.includes('./cumulative.js?v=8'),
+assert(markup.includes('./cumulative.css?v=8') && markup.includes('./cumulative.js?v=8'),
  'Updated archive UI and data loader must invalidate old cache');
 assert(poster.includes('grid-column:1 / span 7;') && poster.includes('grid-row:3;'),
  'The remaining story section must fill the desktop left column');
@@ -87,8 +87,8 @@ assert(!css.includes('background-image:radial-gradient'));
 assert(!poster.includes('background-image:radial-gradient'));
 
 // Widescreen desktop-only: the original mobile DOM flow and A4 styling remain.
-assert(markup.includes('./cumulative.css?v=7'));
-assert(markup.includes('./weekly-scene.css?v=4'));
+assert(markup.includes('./cumulative.css?v=8'));
+assert(markup.includes('./weekly-scene.css?v=5'));
 assert(poster.includes('@media screen and (min-width:1024px)'));
 assert(css.includes('@media screen and (min-width:1024px)'));
 assert(poster.includes('grid-template-columns:repeat(12,minmax(0,1fr))'));
@@ -106,11 +106,16 @@ assert(poster.includes('grid-template-columns:repeat(12,minmax(0,1fr))!important
 assert(poster.includes('.story-grid{display:contents!important}'));
 assert(css.includes('.weekly-space #weekly-space-print:not([hidden])'));
 assert(css.includes('flex:1 1 auto!important'));
-assert(archive.includes('const width=1700,height=1850'));
+assert(archive.includes('const width=1700,height=2050'));
 assert(archive.includes('renderer.setPixelRatio(1)'));
 assert(archive.includes('ctx.drawImage(renderer.domElement,0,0,width,height)'));
 assert(archive.includes('window.NENONE_PREPARE_ARCHIVE_PRINT=async()=>'));
 assert(report.includes('await window.NENONE_PREPARE_ARCHIVE_PRINT?.()'));
 assert(markup.includes('高画質PDF・印刷'));
-console.log('PASS: A4 landscape PDF uses a single page, desktop grid and high-DPI star field');
+assert(poster.includes('grid-template-rows:30mm 101mm 27mm .2mm 12mm!important'));
+assert(poster.includes('grid-template-rows:46mm 52mm!important'));
+assert(poster.includes('font-size:84px!important'));
+assert(poster.includes('grid-column:1 / -1;'));
+assert(poster.includes('background:#ffffff09!important'));
+console.log('PASS: A4 landscape print has balanced editorial hierarchy and high-DPI star field');
 console.log('PASS: daily JST snapshots, hourly on-the-hour refresh, private aggregates and main scene visual parity');
