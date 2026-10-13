@@ -19,6 +19,17 @@ for(const id of ['prev-day','next-day','chosen-day','new-period-label','last-day
 assert(markup.includes('前日')&&markup.includes('翌日'));
 assert(!/毎週月曜更新|直近1週間の成長|日本時間・月曜0時時点|累積件数は参加人数ではありません/.test(markup));
 assert(!/id="prev-week"|id="next-week"/.test(markup));
+assert(!markup.includes('今回の問い') && !markup.includes('featured-question'),
+ 'Unused featured question must be removed from the page');
+assert(!report.includes('weekly_editorial') && !report.includes('featured-question'),
+ 'Unused editorial API query must not be sent');
+assert(markup.includes('./cumulative.css?v=6') && markup.includes('./cumulative.js?v=6'),
+ 'Updated archive UI and data loader must invalidate old cache');
+assert(poster.includes('grid-column:1 / span 7;') && poster.includes('grid-row:3;'),
+ 'The remaining story section must fill the desktop left column');
+assert(!poster.includes('.story-grid>.story-block:nth-child(2)'),
+ 'Stale second-column selector must be removed');
+
 assert(report.includes("api.rpc('get_daily_constellation',{p_day:day})"));
 assert(report.includes("window.setInterval(refresh,60_000)"));
 assert(report.includes("timeZone:'Asia/Tokyo'"));
@@ -66,7 +77,7 @@ assert(!css.includes('background-image:radial-gradient'));
 assert(!poster.includes('background-image:radial-gradient'));
 
 // Widescreen desktop-only: the original mobile DOM flow and A4 styling remain.
-assert(markup.includes('./cumulative.css?v=5'));
+assert(markup.includes('./cumulative.css?v=6'));
 assert(markup.includes('./weekly-scene.css?v=3'));
 assert(poster.includes('@media screen and (min-width:1024px)'));
 assert(css.includes('@media screen and (min-width:1024px)'));
