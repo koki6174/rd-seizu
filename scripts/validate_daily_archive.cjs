@@ -64,4 +64,16 @@ assert(archive.includes('clouds.filter(c=>c.userData.selectable)'));
 assert(archive.includes("if(!d||!Number(d.total))continue"));
 assert(!css.includes('background-image:radial-gradient'));
 assert(!poster.includes('background-image:radial-gradient'));
+
+// Widescreen desktop-only: the original mobile DOM flow and A4 styling remain.
+assert(markup.includes('./cumulative.css?v=5'));
+assert(markup.includes('./weekly-scene.css?v=3'));
+assert(poster.includes('@media screen and (min-width:1024px)'));
+assert(css.includes('@media screen and (min-width:1024px)'));
+assert(poster.includes('grid-template-columns:repeat(12,minmax(0,1fr))'));
+assert(poster.includes('.story-grid{display:contents}'));
+assert(poster.includes('.poster{aspect-ratio:16/9;min-height:625px}'));
+assert(css.includes('height:clamp(320px,29vw,410px)'));
+assert(css.includes('@media(max-width:560px){.weekly-space{height:255px}}'));
+assert(css.includes('.weekly-space{height:105px;margin:6px 0 3px;'));
 console.log('PASS: daily JST snapshots, one-minute live refresh, private aggregates and main scene visual parity');
