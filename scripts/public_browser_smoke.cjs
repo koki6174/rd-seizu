@@ -143,7 +143,57 @@ async function main(){
   await page.locator('#next-day').click();
   await page.waitForURL(url=>!url.searchParams.has('day'),{timeout:15000});
   assert.equal(await page.locator('#chosen-day').textContent(),todayLabel);
-  console.log('PASS DAILY: historical and latest navigation with live 3D renders');
+  // Desktop-only redesign: enlarged constellation to the right of compact stats,
+  // while the mobile layout and A4 print layout retain their existing flow.
+  for(const width of [1024,1280]){
+   await page.setViewportSize({width,height:850});
+   const metrics=await page.evaluate(()=>{
+    const box=selector=>{
+     const r=document.querySelector(selector).getBoundingClientRect();
+     return {x:r.x,y:r.y,left:r.left,right:r.right,top:r.top,
+      bottom:r.bottom,width:r.width,height:r.height};
+    };
+    return {
+     poster:box('.poster'),stats:box('.stats'),date:box('.update-date'),
+     sky:box('.weekly-space'),growth:box('.weekly-growth-block'),
+     footer:box('.poster-foot'),cards:[...document.querySelectorAll('.stat-box')].map(x=>x.getBoundingClientRect().height),
+     layout:getComputedStyle(document.querySelector('.poster-body')).display
+    };
+   });
+   assert.equal(metrics.layout,'grid','Desktop poster must use side-by-side grid');
+   assert(metrics.stats.right<metrics.sky.left,
+    'Desktop stat cards must be to the left of the large star map');
+   assert(metrics.date.right<metrics.sky.left,
+    'Desktop date card should be nearer to center, not the far right edge');
+   assert(metrics.sky.height>=319,
+    'Desktop constellation needs a significantly larger canvas');
+   assert(metrics.sky.top<metrics.stats.bottom,
+    'Desktop constellation should begin in the upper part of the poster');
+   assert(metrics.cards.every(h=>h<180),
+    'Desktop statistic cards should be compact');
+   assert(metrics.footer.bottom<=metrics.poster.bottom+3,
+    'Desktop poster footer must not overflow its clipped area');
+   assert(metrics.poster.height/metrics.poster.width<0.72,
+    'Desktop poster should have a horizontal dashboard format');
+  }
+  await page.setViewportSize({width:390,height:844});
+  const mobile=await page.evaluate(()=>({
+   body:getComputedStyle(document.querySelector('.poster-body')).display,
+   story:getComputedStyle(document.querySelector('.story-grid')).display,
+   height:document.querySelector('.weekly-space').getBoundingClientRect().height
+  }));
+  assert.equal(mobile.body,'flex','Mobile poster must remain in its original layout');
+  assert.equal(mobile.story,'grid','Mobile story block layout must stay unchanged');
+  assert(Math.abs(mobile.height-255)<2,'Mobile constellation size must stay unchanged');
+  await page.emulateMedia({media:'print'});
+  const print=await page.evaluate(()=>({
+   body:getComputedStyle(document.querySelector('.poster-body')).display,
+   height:document.querySelector('.weekly-space').getBoundingClientRect().height
+  }));
+  assert.equal(print.body,'flex','A4 print should retain the original poster flow');
+  assert(Math.abs(print.height-105)<2,'A4 print chart height must remain unchanged');
+  await page.emulateMedia({media:'screen'});
+  console.log('PASS DAILY: historical and latest navigation, responsive desktop dashboard and unchanged mobile/print');
 
   response=await page.goto(new URL('clinical/',base).toString(),
    {waitUntil:'domcontentloaded',timeout:30000});
