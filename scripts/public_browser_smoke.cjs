@@ -133,6 +133,11 @@ async function main(){
   },null,{timeout:45000});
   assert.equal(await page.locator('#weekly-space canvas').count(),1,
    'Daily archive 3D not rendered');
+  assert.equal(await page.locator('.story-grid > .story-block').count(),2,
+   'Archive should contain only participation counts and 3D growth');
+  assert.equal(await page.locator('#featured-question').count(),0,
+   'Unused featured question should not appear on screen');
+
   await page.locator('#cumulative-total:not(:text("—"))').waitFor({timeout:15000});
   assert.equal(await page.locator('#next-day').isDisabled(),true,
    'Latest daily snapshot should not advance into the future');
