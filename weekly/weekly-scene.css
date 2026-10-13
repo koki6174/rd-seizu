@@ -31,3 +31,20 @@
  border-radius:9px;padding:5px 9px;font-size:11px!important;pointer-events:none;margin:0!important}
 .weekly-selected-info[hidden]{display:none}
 @media print{.weekly-selected-info{display:none!important}}
+
+/* On desktop the living star field becomes the main visual, not a thumbnail.
+   Mobile and A4 print rules above intentionally keep their original sizes. */
+@media screen and (min-width:1024px){
+  .weekly-growth-block .weekly-space{
+    flex:1 0 auto;
+    height:clamp(320px,29vw,410px);
+    min-height:320px;
+    margin:9px 0 7px;
+    border-radius:18px;
+  }
+  .weekly-growth-block .weekly-space-note{
+    text-align:center;
+    font-size:11px!important;
+    margin:3px 0!important;
+  }
+}
