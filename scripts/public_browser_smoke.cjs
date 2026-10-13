@@ -139,6 +139,9 @@ async function main(){
    'Unused featured question should not appear on screen');
 
   await page.locator('#cumulative-total:not(:text("—"))').waitFor({timeout:15000});
+  await page.waitForFunction(()=>/\d{2}:00$/.test(
+   document.getElementById('updated-date')?.textContent||''),null,{timeout:12000});
+  console.log('PASS HOURLY: displayed snapshot timestamp is at the hour boundary');
   assert.equal(await page.locator('#next-day').isDisabled(),true,
    'Latest daily snapshot should not advance into the future');
   const todayLabel=await page.locator('#chosen-day').textContent();

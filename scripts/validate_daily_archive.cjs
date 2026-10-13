@@ -12,6 +12,7 @@ const main=read('lab/scene.js');
 const css=read('weekly/weekly-scene.css');
 const poster=read('weekly/cumulative.css');
 const sql=read('supabase/migrations/051_daily_constellation_archive.sql');
+const hourlySql=read('supabase/migrations/052_hourly_jst_archive.sql');
 for(const id of ['prev-day','next-day','chosen-day','new-period-label','last-day-label',
                  'weekly-space','weekly-space-count','weekly-space-print']) {
  assert(markup.includes('id="'+id+'"'),'Missing daily archive control: '+id);
@@ -23,7 +24,7 @@ assert(!markup.includes('今回の問い') && !markup.includes('featured-questio
  'Unused featured question must be removed from the page');
 assert(!report.includes('weekly_editorial') && !report.includes('featured-question'),
  'Unused editorial API query must not be sent');
-assert(markup.includes('./cumulative.css?v=6') && markup.includes('./cumulative.js?v=6'),
+assert(markup.includes('./cumulative.css?v=6') && markup.includes('./cumulative.js?v=7'),
  'Updated archive UI and data loader must invalidate old cache');
 assert(poster.includes('grid-column:1 / span 7;') && poster.includes('grid-row:3;'),
  'The remaining story section must fill the desktop left column');
@@ -31,7 +32,13 @@ assert(!poster.includes('.story-grid>.story-block:nth-child(2)'),
  'Stale second-column selector must be removed');
 
 assert(report.includes("api.rpc('get_daily_constellation',{p_day:day})"));
-assert(report.includes("window.setInterval(refresh,60_000)"));
+assert(!report.includes('setInterval(refresh,60_000)'));
+assert(report.includes('scheduleHourlyRefresh()'));
+assert(report.includes('window.setTimeout(()=>{'));
+assert(report.includes('const delay=hour-(Date.now()%hour)+2_000'));
+assert(report.includes('lastLoadedHour=Math.floor(d.getTime()/3_600_000)'));
+assert(markup.includes('最新の記録は毎時00分に更新。'));
+assert(!markup.includes('約1分ごとに更新'));
 assert(report.includes("timeZone:'Asia/Tokyo'"));
 assert(report.includes("dateToUTC(requested)"));
 assert(report.includes("day===today"));
@@ -39,6 +46,9 @@ assert(sql.includes('public.get_daily_constellation(p_day date)'));
 assert(sql.includes("at time zone 'Asia/Tokyo'"));
 assert(sql.includes('(p_day+1)::timestamp'));
 assert(sql.includes('least('));
+assert(hourlySql.includes("pg_catalog.date_trunc("));
+assert(hourlySql.includes("'hour', pg_catalog.statement_timestamp() at time zone 'Asia/Tokyo'"));
+assert(hourlySql.includes("(p_day+1)::timestamp at time zone 'Asia/Tokyo'"));
 assert(sql.includes("pg_catalog.statement_timestamp()"));
 assert(sql.includes("revoke all on function public.get_daily_constellation(date)"));
 assert(sql.includes("grant execute on function public.get_daily_constellation(date) to anon"));
@@ -87,4 +97,4 @@ assert(poster.includes('.poster{aspect-ratio:16/9;min-height:625px}'));
 assert(css.includes('height:clamp(320px,29vw,410px)'));
 assert(css.includes('@media(max-width:560px){.weekly-space{height:255px}}'));
 assert(css.includes('.weekly-space{height:105px;margin:6px 0 3px;'));
-console.log('PASS: daily JST snapshots, one-minute live refresh, private aggregates and main scene visual parity');
+console.log('PASS: daily JST snapshots, hourly on-the-hour refresh, private aggregates and main scene visual parity');

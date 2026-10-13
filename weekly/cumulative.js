@@ -5,7 +5,7 @@
  const api=window.supabase&&c.supabaseUrl&&c.supabasePublishableKey
    ?window.supabase.createClient(c.supabaseUrl,c.supabasePublishableKey):null;
  const firstDay='2026-10-01';
- let today='',selected='',sequence=0,busy=false;
+ let today='',selected='',sequence=0,busy=false,lastLoadedHour=null;
  const fmt=v=>(Number(v)||0).toLocaleString('ja-JP');
  function dateToUTC(s){
    if(!/^\d{4}-\d{2}-\d{2}$/.test(s))return null;
@@ -59,6 +59,7 @@
      if(day===today && data.as_of){
        const d=new Date(data.as_of);
        if(Number.isFinite(d.getTime())){
+         lastLoadedHour=Math.floor(d.getTime()/3_600_000);
          const time=new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',hour:'2-digit',minute:'2-digit',hour12:false}).format(d);
          set('updated-date',labelDate(day)+' '+time);
        }
@@ -83,10 +84,21 @@
      if(wasLatest)selected=latest;
      controls();
    }
-   if(selected===today && !document.hidden && !busy){
+   if(selected===today && !document.hidden && !busy &&
+      (lastLoadedHour===null || lastLoadedHour<Math.floor(Date.now()/3_600_000))){
      busy=true;
      load().finally(()=>{busy=false;});
    }
+ }
+ // JST has no daylight-saving offset: its hour boundaries match UTC hours.
+ // Recalculate after each tick so opening at 09:30 updates at 10:00, not 10:30.
+ function scheduleHourlyRefresh(){
+   const hour=3_600_000;
+   const delay=hour-(Date.now()%hour)+2_000;
+   window.setTimeout(()=>{
+     refresh();
+     scheduleHourlyRefresh();
+   },delay);
  }
  function init(){
    today=todayTokyo();
@@ -97,7 +109,7 @@
    $('next-day').addEventListener('click',()=>change(1));
    $('print-report').addEventListener('click',()=>window.print());
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();});
-   window.setInterval(refresh,60_000);
+   scheduleHourlyRefresh();
    load();
  }
  init();
