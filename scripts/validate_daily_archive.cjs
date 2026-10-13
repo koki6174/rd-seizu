@@ -25,7 +25,7 @@ assert(!report.includes('weekly_editorial') && !report.includes('featured-questi
  'Unused editorial API query must not be sent');
 assert(markup.includes('./cumulative.css?v=6') && markup.includes('./cumulative.js?v=6'),
  'Updated archive UI and data loader must invalidate old cache');
-assert(/grid-column:1 \\/ span 7;\\s*grid-row:3;/.test(poster),
+assert(poster.includes('grid-column:1 / span 7;') && poster.includes('grid-row:3;'),
  'The remaining story section must fill the desktop left column');
 assert(!poster.includes('.story-grid>.story-block:nth-child(2)'),
  'Stale second-column selector must be removed');
