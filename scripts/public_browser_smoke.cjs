@@ -225,7 +225,7 @@ async function main(){
    format:'A4',landscape:true,preferCSSPageSize:true,
    printBackground:true,displayHeaderFooter:false
   });
-  const pageCount=(a4.toString('latin1').match(/\\/Type\\s*\\/Page\\b/g)||[]).length;
+  const pageCount=(a4.toString('latin1').match(/\/Type\s*\/Page\b/g)||[]).length;
   assert.equal(pageCount,1,'A4 PDF should contain exactly one page, with no overflow');
   assert(a4.length>25000,'PDF output seems unexpectedly small');
   await page.emulateMedia({media:'screen'});
