@@ -12,7 +12,7 @@ const reduced=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches??f
 const format=n=>Number(n||0).toLocaleString('ja-JP');
 let renderer,scene,camera,controls,observer,texture,haloTextures,disposed=false;
 let coords=[],names=new Map(),snap=window.NENONE_WEEKLY_SNAPSHOT||null;
-let clouds=[],activePoints=new Map(),lastFrame=0,frame=0;
+let clouds=[],activePoints=new Map(),lastFrame=0,frame=0,printSnapshotReady=false;
 
 function spriteTexture(){
  const canvas=document.createElement('canvas');
@@ -89,17 +89,67 @@ function draw(snapshot){
  const info=document.getElementById('weekly-selected-info');
  if(info)info.hidden=true;
  renderNow();
- freezeForPrint();
+ printSnapshotReady=false;
+ if(printImage){printImage.hidden=true;printImage.removeAttribute('src');}
 }
 function renderNow(){
  if(!renderer||disposed)return;
  controls?.update();renderer.render(scene,camera);
 }
+// A4 landscape prints the map in a ~108 x 118 mm panel. Use a separate
+// ~400 dpi render instead of stretching the low-resolution on-screen canvas.
+// The DOM text and stat blocks stay vector-based in the resulting PDF.
 function freezeForPrint(){
- if(!renderer||!printImage)return;
- renderNow();
- try{printImage.src=renderer.domElement.toDataURL('image/png');printImage.hidden=false;}catch{}
+ if(!renderer||disposed||!printImage||!coords.length)return false;
+ if(printSnapshotReady && printImage.src)return true;
+ const width=1700,height=1850;
+ const previousSize=renderer.getSize(new THREE.Vector2());
+ const previousRatio=renderer.getPixelRatio();
+ const previousAspect=camera.aspect;
+ try{
+  renderer.setPixelRatio(1);
+  renderer.setSize(width,height,false);
+  camera.aspect=width/height;
+  camera.updateProjectionMatrix();
+  renderer.render(scene,camera);
+
+  // Include the chart's dark gradient inside the PNG. The printed stars
+  // remain visible even when the browser omits CSS background graphics.
+  const imageCanvas=document.createElement('canvas');
+  imageCanvas.width=width;imageCanvas.height=height;
+  const ctx=imageCanvas.getContext('2d');
+  if(ctx){
+   ctx.fillStyle='#070d1e';ctx.fillRect(0,0,width,height);
+   const glow=ctx.createRadialGradient(width*.5,height*.51,70,width*.5,height*.51,height*.66);
+   glow.addColorStop(0,'#1a324f');
+   glow.addColorStop(.56,'#101b34');
+   glow.addColorStop(1,'#070d1e');
+   ctx.fillStyle=glow;ctx.fillRect(0,0,width,height);
+   ctx.drawImage(renderer.domElement,0,0,width,height);
+  }
+  printImage.src=ctx?imageCanvas.toDataURL('image/png'):
+   renderer.domElement.toDataURL('image/png');
+  printImage.hidden=false;
+  printSnapshotReady=true;
+  return true;
+ }catch(error){
+  console.warn('High-resolution archive print snapshot unavailable:',error);
+  return false;
+ }finally{
+  renderer.setPixelRatio(previousRatio);
+  renderer.setSize(previousSize.x,previousSize.y,false);
+  camera.aspect=previousAspect;
+  camera.updateProjectionMatrix();
+  renderNow();
+ }
 }
+// The print button can wait for the snapshot's image to decode before opening
+// the native PDF/print dialog. Ctrl+P still works through beforeprint.
+window.NENONE_PREPARE_ARCHIVE_PRINT=async()=>{
+ if(freezeForPrint() && typeof printImage.decode==='function'){
+  await printImage.decode();
+ }
+};
 function initScene(){
  scene=new THREE.Scene();
  camera=new THREE.PerspectiveCamera(45,1,.1,90);
@@ -183,6 +233,7 @@ function initScene(){
   for(const t of Object.values(haloTextures||{}))t.dispose();
   renderer?.dispose();
   window.removeEventListener('beforeprint',freezeForPrint);
+  delete window.NENONE_PREPARE_ARCHIVE_PRINT;
   window.removeEventListener('pagehide',cleanup);
  });
  window.addEventListener('pageshow',event=>{if(event.persisted&&!disposed)resize();});
