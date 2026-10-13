@@ -38,7 +38,7 @@ assert(app.includes("contextualPreset.textContent=isShare?'理解・配慮を願
  'Share/discover option labels must differ');
 assert(home.includes('./admin/app.js?v=8'));
 assert(home.includes('./lab/scene.js?v=10'));
-assert(read('weekly/index.html').includes('./weekly-scene.js?v=3'));
+assert(read('weekly/index.html').includes('./weekly-scene.js?v=4'));
 assert(read('glow-preview/index.html').includes('./glow.js?v=2'));
 
 const visual=(shared,discovered)=>{
