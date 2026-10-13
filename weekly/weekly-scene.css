@@ -73,3 +73,20 @@
  .weekly-space #weekly-space-status{display:none!important}
  .weekly-space-note{font-size:10px!important}
 }
+
+
+/* Editorial PDF: uninterrupted map frame, subtler border, and readable caption. */
+@media print{
+ .story-grid>.weekly-growth-block .weekly-space{
+  margin:1.8mm 0 0!important;
+  min-height:0!important;
+  border:1px solid #a8cde34d!important;
+  border-radius:3.8mm!important;
+  box-shadow:0 0 0 1px #ffffff08 inset!important;
+  background:#080f23!important;
+ }
+ .story-grid>.weekly-growth-block .weekly-space-note{
+  margin:1.8mm 0 0!important;
+  font-size:12px!important;
+ }
+}
