@@ -107,7 +107,19 @@
    selected=dateToUTC(requested)&&requested>=firstDay&&requested<=today?requested:today;
    $('prev-day').addEventListener('click',()=>change(-1));
    $('next-day').addEventListener('click',()=>change(1));
-   $('print-report').addEventListener('click',()=>window.print());
+   $('print-report').addEventListener('click',async()=>{
+     const button=$('print-report');
+     button.disabled=true;
+     try{
+       // Export WebGL at print DPI before the native dialog opens.
+       await window.NENONE_PREPARE_ARCHIVE_PRINT?.();
+     }catch(error){
+       console.warn('Print preview image could not be prepared:',error);
+     }finally{
+       button.disabled=false;
+     }
+     window.print();
+   });
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();});
    scheduleHourlyRefresh();
    load();
