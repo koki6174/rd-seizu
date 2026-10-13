@@ -193,3 +193,133 @@ main{max-width:1240px;padding:22px;margin:0 auto}.poster{position:relative;overf
 @media screen and (min-width:851px) and (max-width:1023px){
  .story-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
+
+
+/* Reliable single-sheet A4 landscape export. The print composition mirrors
+   the two-column desktop dashboard rather than the narrow mobile flow.
+   8 mm safe margins keep it printable on standard non-borderless printers. */
+@page{size:A4 landscape;margin:0}
+@media print{
+ html,body{
+  width:297mm!important;height:210mm!important;
+  margin:0!important;padding:0!important;
+  background:#fff!important;
+ }
+ body{overflow:visible!important}
+ .toolbar,.site-legal{display:none!important}
+ main{
+  display:block!important;
+  width:297mm!important;height:210mm!important;
+  padding:8mm!important;margin:0!important;max-width:none!important;
+ }
+ .poster{
+  display:block!important;position:relative;
+  width:281mm!important;height:194mm!important;
+  min-height:0!important;max-height:194mm!important;
+  margin:0!important;
+  aspect-ratio:auto!important;
+  overflow:hidden!important;
+  border-radius:0!important;box-shadow:none!important;
+  break-before:avoid-page;break-inside:avoid-page;break-after:avoid-page;
+  page-break-inside:avoid;
+  background:radial-gradient(ellipse at 90% 8%,#243756,transparent 68%),#101729!important;
+  print-color-adjust:exact!important;-webkit-print-color-adjust:exact!important;
+ }
+ .poster-body{
+  display:grid!important;
+  grid-template-columns:repeat(12,minmax(0,1fr))!important;
+  grid-template-rows:30mm 42mm 51mm .2mm 13mm!important;
+  column-gap:3mm!important;row-gap:3mm!important;
+  align-content:space-between!important;
+  align-items:start!important;
+  box-sizing:border-box!important;
+  width:100%!important;height:100%!important;
+  padding:8mm 9mm 5mm!important;
+ }
+ .poster-body>.line:not(.bottom-line){display:none!important}
+ .poster-head{
+  display:flex!important;grid-column:1 / span 7;grid-row:1;
+  align-items:center!important;justify-content:space-between!important;
+  gap:3mm!important;min-width:0;
+ }
+ .poster-head h1{
+  font-size:34px!important;line-height:1.2!important;
+  white-space:nowrap;margin:0 0 1.5mm!important;
+ }
+ .lead{font-size:12px!important;line-height:1.55!important}
+ .poster-head .update-date{
+  flex:0 1 auto;min-width:0;text-align:center!important;
+  margin:0!important;padding:2.5mm 3mm!important;
+  border-radius:3mm;
+ }
+ .update-date span{font-size:10px!important}
+ .update-date strong{
+  display:block;font-size:15px!important;letter-spacing:0!important;
+  margin:1.5mm 0 0!important;white-space:nowrap;
+ }
+ .stats{
+  display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  grid-column:1 / span 7;grid-row:2;
+  align-self:stretch!important;gap:2mm!important;
+  margin:0!important;min-width:0;
+ }
+ .stat-box{
+  height:42mm!important;min-height:0!important;
+  margin:0!important;padding:3mm 2.5mm!important;
+  border-radius:3mm!important;background:#202d46!important;
+ }
+ .stat-box.accent{background:#243952!important}
+ .stat-label{font-size:10px!important;line-height:1.3;margin:0 0 1.5mm!important}
+ .stat-box h2{
+  font-size:14px!important;line-height:1.3;
+  margin:0 0 2mm!important;white-space:nowrap;
+ }
+ .stat-box .big-number strong{font-size:43px!important;line-height:1.1}
+ .big-number span{font-size:12px!important;margin-left:1mm!important}
+ .stat-foot{font-size:10px!important;line-height:1.4;margin:1.5mm 0 0!important}
+ .story-grid{display:contents!important}
+ .story-grid>.story-block:first-child{
+  grid-column:1 / span 7;grid-row:3;
+  padding-top:3mm!important;min-width:0;
+ }
+ .story-grid>.weekly-growth-block{
+  grid-column:8 / -1;grid-row:1 / span 3;
+  align-self:stretch!important;display:flex!important;flex-direction:column!important;
+  min-height:0!important;min-width:0;
+  padding:0!important;
+ }
+ .story-block h3{
+  font-size:15px!important;line-height:1.45!important;
+  margin:0 0 1.5mm!important;
+ }
+ .action-counts{
+  font-size:12px!important;line-height:1.5;gap:2mm 4mm!important;
+  margin:2mm 0!important;
+ }
+ .action-counts b{font-size:18px!important}
+ .story-grid>.weekly-growth-block .large-copy{
+  font-size:14px!important;line-height:1.5!important;
+  margin:0 0 1mm!important;
+ }
+ .story-grid>.weekly-growth-block .small-note{
+  font-size:10px!important;line-height:1.5!important;
+  margin:0 0 1mm!important;
+ }
+ .weekly-space-note{
+  font-size:10px!important;text-align:center!important;
+  margin:1mm 0 0!important;
+ }
+ .poster-body>.bottom-line{
+  grid-column:1 / -1;grid-row:4;width:100%;
+  margin:0!important;align-self:center;
+ }
+ .poster-body>.poster-foot{
+  grid-column:1 / -1;grid-row:5;
+  text-align:center;align-self:center!important;margin:0!important;
+ }
+ .poster-foot p{font-size:15px!important;margin:0 0 1mm!important}
+ .poster-foot span{font-size:10px!important}
+ .poster-body>.error{grid-column:1 / -1;grid-row:6}
+ .poster-body>.error:empty{display:none!important}
+ .poster,.poster *{print-color-adjust:exact!important;-webkit-print-color-adjust:exact!important}
+}

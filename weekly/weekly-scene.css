@@ -48,3 +48,28 @@
     margin:3px 0!important;
   }
 }
+
+
+/* Fill the printable chart panel instead of retaining the former 105 px thumbnail.
+   The snapshot itself is rendered at ~300-400 dpi before printing. */
+@media print{
+ .story-grid>.weekly-growth-block .weekly-space{
+  display:block!important;
+  flex:1 1 auto!important;
+  width:100%!important;
+  height:auto!important;
+  min-height:0!important;
+  margin:2mm 0 1mm!important;
+  border-radius:3mm!important;
+  overflow:hidden!important;
+  background:#070d1e!important;
+ }
+ .weekly-space #weekly-space-print:not([hidden]){
+  display:block!important;
+  width:100%!important;height:100%!important;
+  object-fit:cover!important;
+ }
+ .weekly-space canvas{display:none!important}
+ .weekly-space #weekly-space-status{display:none!important}
+ .weekly-space-note{font-size:10px!important}
+}

@@ -193,14 +193,43 @@ async function main(){
   assert.equal(mobile.body,'flex','Mobile poster must remain in its original layout');
   assert.equal(mobile.story,'grid','Mobile story block layout must stay unchanged');
   assert(Math.abs(mobile.height-255)<2,'Mobile constellation size must stay unchanged');
+  // The PDF must be a single A4 LANDSCAPE sheet (297 x 210 mm), with a
+  // correctly proportioned print-only desktop composition and a real HD image.
   await page.emulateMedia({media:'print'});
-  const print=await page.evaluate(()=>({
-   body:getComputedStyle(document.querySelector('.poster-body')).display,
-   height:document.querySelector('.weekly-space').getBoundingClientRect().height
+  const print=await page.evaluate(()=>{
+   const rect=selector=>{
+    const r=document.querySelector(selector).getBoundingClientRect();
+    return {left:r.left,top:r.top,right:r.right,bottom:r.bottom,
+     width:r.width,height:r.height};
+   };
+   return {
+    body:getComputedStyle(document.querySelector('.poster-body')).display,
+    poster:rect('.poster'),stats:rect('.stats'),sky:rect('.weekly-space'),
+    date:rect('.update-date'),
+    paper:getComputedStyle(document.querySelector('main')).height
+   };
+  });
+  assert.equal(print.body,'grid','A4 must use the desktop grid, not old flex flow');
+  assert(Math.abs(print.poster.width-281/25.4*96)<3,'A4 poster width is distorted');
+  assert(Math.abs(print.poster.height-194/25.4*96)<3,'A4 poster height is distorted');
+  assert(print.stats.right<print.sky.left,'PDF star field must remain to the right');
+  assert(print.date.right<print.sky.left,'PDF date must stay in left column');
+  assert(print.sky.height>300,'Printable star field must remain large');
+  await page.evaluate(async()=>window.NENONE_PREPARE_ARCHIVE_PRINT());
+  const bitmap=await page.locator('#weekly-space-print').evaluate(img=>({
+   width:img.naturalWidth,height:img.naturalHeight,complete:img.complete,hidden:img.hidden
   }));
-  assert.equal(print.body,'flex','A4 print should retain the original poster flow');
-  assert(Math.abs(print.height-105)<2,'A4 print chart height must remain unchanged');
+  assert.deepEqual(bitmap,{width:1700,height:1850,complete:true,hidden:false},
+   'Printed WebGL star map must be decoded at full resolution');
+  const a4=await page.pdf({
+   format:'A4',landscape:true,preferCSSPageSize:true,
+   printBackground:true,displayHeaderFooter:false
+  });
+  const pageCount=(a4.toString('latin1').match(/\/Type\s*\/Page\b/g)||[]).length;
+  assert.equal(pageCount,1,'A4 PDF should contain exactly one page, with no overflow');
+  assert(a4.length>25000,'PDF output seems unexpectedly small');
   await page.emulateMedia({media:'screen'});
+  console.log('PASS PRINT: 1 A4 landscape page, matching 12-column geometry and 1700x1850 image');
   console.log('PASS DAILY: historical and latest navigation, responsive desktop dashboard and unchanged mobile/print');
 
   response=await page.goto(new URL('clinical/',base).toString(),
