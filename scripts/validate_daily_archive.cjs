@@ -77,7 +77,7 @@ assert(!css.includes('background-image:radial-gradient'));
 assert(!poster.includes('background-image:radial-gradient'));
 
 // Widescreen desktop-only: the original mobile DOM flow and A4 styling remain.
-assert(markup.includes('./cumulative.css?v=5'));
+assert(markup.includes('./cumulative.css?v=6'));
 assert(markup.includes('./weekly-scene.css?v=3'));
 assert(poster.includes('@media screen and (min-width:1024px)'));
 assert(css.includes('@media screen and (min-width:1024px)'));
