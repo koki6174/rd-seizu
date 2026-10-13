@@ -18,7 +18,6 @@
    const v=Object.fromEntries(parts.map(p=>[p.type,p.value]));
    return v.year+'-'+v.month+'-'+v.day;
  }
- function monday(s){const d=dateToUTC(s);return shift(s,-((d.getUTCDay()+6)%7));}
  function labelDate(s){const [y,m,d]=s.split('-');return y+'年'+Number(m)+'月'+Number(d)+'日';}
  function shortDate(s){const [y,m,d]=s.split('-');return Number(m)+'月'+Number(d)+'日';}
  function set(id,value){$(id).textContent=String(value);}
@@ -27,10 +26,6 @@
    $('prev-day').disabled=selected<=firstDay;
    $('next-day').disabled=selected>=today;
    $('new-period-label').textContent=selected===today?'今日の成長':'選択日の成長';
- }
- function editRow(row){
-   const question=typeof row?.featured_question==='string'?row.featured_question.trim():'';
-   set('featured-question',question||'公開する問いを準備しています。');
  }
  async function load(){
    const day=selected,request=++sequence;
@@ -41,11 +36,7 @@
    set('error-message','');
    if(!api){set('error-message','集計サービスに接続できません。');return;}
    try{
-     const [report,editorial]=await Promise.all([
-       api.rpc('get_daily_constellation',{p_day:day}),
-       api.from('weekly_editorial').select('featured_question')
-         .eq('week_start',monday(day)).eq('approved',true).maybeSingle()
-     ]);
+     const report=await api.rpc('get_daily_constellation',{p_day:day});
      if(request!==sequence||day!==selected)return;
      if(report.error)throw report.error;
      const data=report.data||{};
@@ -65,8 +56,6 @@
        total?'積み重ねた光が、ここにあります。':'最初の星が生まれる日を待っています。');
      set('growth-detail',total?'累積'+fmt(total)+'件。星図は一日ごとの想いを重ねて育っていきます。':
        '最初の参加から星図が育ち始めます。');
-     // The editorial question is planned weekly, but the statistics are daily.
-     editRow(editorial.error?null:editorial.data);
      if(day===today && data.as_of){
        const d=new Date(data.as_of);
        if(Number.isFinite(d.getTime())){
